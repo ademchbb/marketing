@@ -16,14 +16,14 @@
 - [x] 17 notes d'analyse (`connaissances/fiches/<id>/notes-partie-NN.md`). (1re tentative à 21h30 UTC
       coupée par la limite de quota ; relancée à 00h07 UTC.)
 
-## En cours (lancés vers 00h20 UTC le 2026-10-20)
-- [ ] 5 × `consolidateur-fiche` → `connaissances/fiches/<id>/fiche.md` (AA1LoZwW_2Y à lancer dès que son analyste p02 a rendu).
-- [ ] 4 × `veilleur-algorithmes` → `veille/plateformes/{instagram,tiktok,youtube,linkedin}.md`.
+## En cours (lancés vers 00h45 UTC)
+- [x] 5 fiches consolidées (`connaissances/fiches/<id>/fiche.md`).
+- [ ] `extracteur-hooks` → `connaissances/swipe-file/` · `extracteur-frameworks` → `connaissances/frameworks/`
+- [ ] `verificateur-faits` → `connaissances/verifications/registre.md`
+- [ ] `cartographe-lacunes` → `connaissances/lacunes.md`
+- [ ] 4 × `veilleur-algorithmes` → `veille/plateformes/{instagram,tiktok,youtube,linkedin}.md`
 
 ## À faire (dans l'ordre)
-1. (fait)
-2. Vérifier que les 5 `fiche.md` existent.
-3. En parallèle : `extracteur-hooks`, `extracteur-frameworks`, `verificateur-faits`.
 4. `synthetiseur-connaissances` → `connaissances/principes/` + `index.md`.
 5. `cartographe-lacunes` → `connaissances/lacunes.md` ; puis `chercheur-sources` → `sources/a-traiter.md`.
 6. Ingérer les 5 premières sources de `sources/a-traiter.md` (même pipeline).
