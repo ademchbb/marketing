@@ -50,14 +50,15 @@ def via_ytdlp(vid: str, tmp: Path):
     meta = json.loads(subprocess.run(["yt-dlp", "-J", "--skip-download", url],
                                      capture_output=True, text=True, check=True, timeout=180).stdout)
     langue = meta.get("language") or "en"
+    court = langue.split("-")[0]  # « fr-FR » -> « fr » : sinon on retombe sur une traduction anglaise
     manuels = meta.get("subtitles") or {}
     autos = meta.get("automatic_captions") or {}
     choix = None
-    for l in [langue, "en", "fr"]:
+    for l in [langue, court, "en", "fr"]:
         if l in manuels:
             choix = ("--write-subs", l); break
     if not choix:
-        for l in [f"{langue}-orig", langue, "en-orig", "en", "fr-orig", "fr"]:
+        for l in [f"{langue}-orig", f"{court}-orig", langue, court, "en-orig", "en", "fr-orig", "fr"]:
             if l in autos:
                 choix = ("--write-auto-subs", l); break
     segs = []
