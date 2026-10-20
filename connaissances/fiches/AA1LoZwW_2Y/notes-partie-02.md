@@ -90,7 +90,7 @@ Notes de reconnaissance automatique : « bureau / bureau clip » = *B-roll* ; «
 
 ## Frameworks / méthodes nommées
 - **Structure de vidéo virale « résultat → astuce → réfuter le doute »** [01:16:51] : 1) hook qui contient un résultat très précis et personnel ; 2) la solution, l'astuce ou le conseil qui a produit ce résultat ; 3) convaincre le spectateur que son doute ou sa croyance est faux (pas un tutoriel de A à Z) ; 4) message final d'encouragement ou CTA.
-- **Réécriture d'un hook en 4 passes** [01:13:27–01:15:14] : 1) coller les réponses brutes ; 2) supprimer redondances et mots en double dans les 3 premières phrases ; 3) supprimer les détails qui ne servent pas le point central ; 4) ajouter des marqueurs de niche (« Korean mom », « of college ») ; 5) relire à voix haute et lisser les connecteurs (but → and, supprimer « honestly »).
+- **Réécriture d'un hook en 5 passes** [01:13:27–01:15:14] : 1) coller les réponses brutes ; 2) supprimer redondances et mots en double dans les 3 premières phrases ; 3) supprimer les détails qui ne servent pas le point central ; 4) ajouter des marqueurs de niche (« Korean mom », « of college ») ; 5) relire à voix haute et lisser les connecteurs (but → and, supprimer « honestly »).
 - **Rituel pré-tournage** [01:18:34–01:19:41] : lumière la plus forte devant soi (fenêtre) → virelangues → mains libres → visualiser son moi plus jeune à la place de la caméra → respiration profonde → enregistrer (jeter la 1re prise) → 1-2 phrases par respiration.
 - **Montage B-roll « une phrase = un plan »** [01:22:38] : Overlay → choisir un clip lié au propos (ou volontairement aléatoire) → démarrer sur le moment d'action → couper le son → zoomer si besoin → split en fin de phrase → aimanter le suivant sans trou. Rythme 3-5 s.
 - **Répertoire de B-roll non planifié (3 plans)** [01:36:33] : 0.5x posé ou en marchant · écran du laptop filmé en 1x (au lieu de captures) · time-lapse (souvent 0.5x). Durées : time-lapse 10-30 min ; écran et marche ~10 s ; activités ≥ 30 s.
@@ -161,7 +161,7 @@ Notes de reconnaissance automatique : « bureau / bureau clip » = *B-roll* ; «
 - Après une heure de scroll, un utilisateur a vu « over like 100 videos » [02:14:03] · estimation.
 - « Les apps ont littéralement un milliard d'utilisateurs », donc plusieurs millions d'étudiants de 21 ans en crise de carrière [02:14:36] · ordre de grandeur plausible, non sourcé.
 - Le hook « demotivated in college » concerne ~1 étudiant sur 3 à 1 sur 10 [02:16:13] · estimation au doigt mouillé.
-- « Visible 10,000 followers or 100,000 true fans » [02:15:41] · formule (le concept connu est celui des « 1,000 true fans » de Kevin Kelly ; son « 100 000 » est probablement un lapsus ou une adaptation — déduction).
+- « that's how you can get your first 10,000 followers or 100,000 true fans » [02:15:41] · formule (le concept connu est celui des « 1,000 true fans » de Kevin Kelly ; son « 100 000 » est probablement un lapsus ou une adaptation — déduction).
 
 ## Exemples de créateurs/marques cités
 - **Mino Lee (lui-même)** — Série quotidienne « road to $100,000 a month » (jour 109) ; Reels Instagram du cours ; formation Content Academy.
