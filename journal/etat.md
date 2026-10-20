@@ -6,6 +6,8 @@
 ## Contexte
 - 2026-10-19 ~23h30 (heure FR) : l'utilisateur crée l'agence. Il envoie 5 vidéos (personal branding,
   croissance d'audience, reels viraux). Il dort ; reprises programmées à 00:05 UTC et 02:30 UTC.
+- Le quota de session coupe tout après ~45 min de travail parallèle intense (reset toutes les 5 h :
+  00h, 05h, 10h UTC…). Reprises de secours programmées à 10h10 et 15h10 UTC le 2026-10-20.
 - Transcription YouTube : fonctionne depuis le cloud via `yt-dlp` (l'API youtube-transcript est
   souvent bloquée, yt-dlp passe). Script : `outils/youtube/transcrire.py`.
 
@@ -16,12 +18,12 @@
 - [x] 17 notes d'analyse (`connaissances/fiches/<id>/notes-partie-NN.md`). (1re tentative à 21h30 UTC
       coupée par la limite de quota ; relancée à 00h07 UTC.)
 
-## En cours (lancés vers 00h45 UTC)
+## En cours (lancés vers 00h45 UTC ; coupés par la limite de quota vers 01h ; repris à 07h47 UTC)
 - [x] 5 fiches consolidées (`connaissances/fiches/<id>/fiche.md`).
 - [ ] `extracteur-hooks` → `connaissances/swipe-file/` · `extracteur-frameworks` → `connaissances/frameworks/`
 - [ ] `verificateur-faits` → `connaissances/verifications/registre.md`
 - [ ] `cartographe-lacunes` → `connaissances/lacunes.md`
-- [ ] 4 × `veilleur-algorithmes` → `veille/plateformes/{instagram,tiktok,youtube,linkedin}.md`
+- [x] 4 × `veilleur-algorithmes` → `veille/plateformes/{instagram,tiktok,youtube,linkedin}.md`
 
 ## À faire (dans l'ordre)
 4. `synthetiseur-connaissances` → `connaissances/principes/` + `index.md`.
