@@ -12,15 +12,17 @@
 ## Fait
 - [x] Structure du repo, `CLAUDE.md`, outils de transcription et de découpe.
 - [x] 5 vidéos transcrites et découpées en 17 parties (`sources/index.md`).
-- [x] Agents du pôle Apprentissage écrits.
+- [x] 58 agents écrits en 9 pôles (`agents.md`).
+- [x] 17 notes d'analyse (`connaissances/fiches/<id>/notes-partie-NN.md`). (1re tentative à 21h30 UTC
+      coupée par la limite de quota ; relancée à 00h07 UTC.)
 
-## En cours
-- [ ] 17 × `analyste-transcription` (une partie chacun) → `connaissances/fiches/<id>/notes-partie-NN.md`
-- [ ] Écriture des agents des autres pôles (veille, stratégie, création, qualité, labo, diffusion, méta)
+## En cours (lancés vers 00h20 UTC le 2026-10-20)
+- [ ] 5 × `consolidateur-fiche` → `connaissances/fiches/<id>/fiche.md` (AA1LoZwW_2Y à lancer dès que son analyste p02 a rendu).
+- [ ] 4 × `veilleur-algorithmes` → `veille/plateformes/{instagram,tiktok,youtube,linkedin}.md`.
 
 ## À faire (dans l'ordre)
-1. Vérifier que les 17 notes existent (sinon relancer l'analyste manquant).
-2. 5 × `consolidateur-fiche` → `connaissances/fiches/<id>/fiche.md`.
+1. (fait)
+2. Vérifier que les 5 `fiche.md` existent.
 3. En parallèle : `extracteur-hooks`, `extracteur-frameworks`, `verificateur-faits`.
 4. `synthetiseur-connaissances` → `connaissances/principes/` + `index.md`.
 5. `cartographe-lacunes` → `connaissances/lacunes.md` ; puis `chercheur-sources` → `sources/a-traiter.md`.
