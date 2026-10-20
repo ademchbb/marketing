@@ -20,9 +20,12 @@
 
 ## En cours (lancés vers 00h45 UTC ; coupés par la limite de quota vers 01h ; repris à 07h47 UTC)
 - [x] 5 fiches consolidées (`connaissances/fiches/<id>/fiche.md`).
-- [ ] `extracteur-hooks` → `connaissances/swipe-file/` · `extracteur-frameworks` → `connaissances/frameworks/`
-- [ ] `verificateur-faits` → `connaissances/verifications/registre.md`
-- [ ] `cartographe-lacunes` → `connaissances/lacunes.md`
+- [x] `extracteur-hooks` → swipe-file (82 hooks, 14 structures, 30 CTA) · `extracteur-frameworks` → 47 frameworks
+- [x] `verificateur-faits` → registre (120 affirmations : 10 ✅ 76 🟡 12 ❌ 22 ❓)
+- [x] `cartographe-lacunes` → `connaissances/lacunes.md`
+- [ ] 4 × `synthetiseur-connaissances` (par groupe de thèmes) → `connaissances/principes/` — lancés 08h30 UTC
+- [ ] `chercheur-sources` → `sources/a-traiter.md`
+- [ ] ensuite : 1 synthétiseur pour `connaissances/index.md` + désaccords transverses ; `architecte-agents` (renvois agents → frameworks, règle tiret long) ; `rapporteur`
 - [x] 4 × `veilleur-algorithmes` → `veille/plateformes/{instagram,tiktok,youtube,linkedin}.md`
 
 ## À faire (dans l'ordre)
