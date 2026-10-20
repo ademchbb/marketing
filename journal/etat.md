@@ -33,3 +33,4 @@
 ## Prochaines étapes (quand la file est vide)
 - Créer `marques/sillage/` (le studio motion design de l'utilisateur) et dérouler le pipeline
   « Promouvoir une marque » jusqu'au calendrier + 3 premiers posts (sans publier).
+- Idée (rapport consolidateur HzoQgQS8czE) : le tiret long « — » est perçu comme marqueur de texte IA ; règle à ajouter aux rédacteurs pour les textes publiés (architecte-agents).
