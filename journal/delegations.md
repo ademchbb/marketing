@@ -45,10 +45,14 @@
 - [x] meta-andromeda, google-abcd-youtube-ads, bpifrance-influenceur-reglementation, cnil-prospection-electronique (lancés)
 - [ ] [sources web] verificateur-faits : loi 2023-451 art. 1, 4, 5, 5-2, 6, 8, 9 ; décret 2025-1137 (seuil 1 000 € HT) ; décret 2026-233 et arrêté du 26/05/2026 (90 % de la durée, bandeau 7 %) ; CJUE C-654/23 ; CNIL SAN-2021-008, SAN-2022-017, SAN-2024-002 ; question CPF ; application de la loi influence au compte d'une marque ou d'un fondateur qui parle de ses produits.
 - [ ] [sources web] chercheur-sources : guide de bonne conduite influence (economie.gouv.fr) ; ARPP influence ; CNIL téléphone/courrier, cookies et traceurs, liste repoussoir, messages LinkedIn et adresses génériques ; playbook ABCD PDF 2022 + ABCD récents (Shorts, Demand Gen) ; doc officielle Meta Andromeda / diversité créative ; exigences expéditeurs Gmail et Yahoo.
-- [ ] architecte-agents : créer `extracteur-pdf` (texte de PDF et de planches en images : playbook ABCD, Binet & Field, baromètre du numérique).
+- [x] architecte-agents : créer `extracteur-pdf` (lancé) (texte de PDF et de planches en images : playbook ABCD, Binet & Field, baromètre du numérique).
 
 ## Questions utilisateur ajoutées
 - [x] Agence mandataire de l'annonceur → responsabilité solidaire ? (`journal/questions-utilisateur.md`)
 - Prêtes pour extracteur-hooks / extracteur-frameworks (lot 2) : yRgPbqywUJ8 (fiabilité 3/5 ; hooks : objection frontale, arnaque ironique, « pas pour qui », « pas pour moi, et pourtant » ; framework E : écrire NOTRE prompt de découverte de personas).
 - [ ] [yRgPbqywUJ8 fiche] verificateur-faits (compléments) : réaction publique de Grüns à l'audit ; « Ask Amazon AI » = Rufus ?
 - [ ] [yRgPbqywUJ8 fiche] garde-conformite : accroches visant un attribut de santé (« men on a GLP-1 », périménopause) vs règle Meta sur les attributs personnels ; mot « arnaque » dans une pub pour sa propre marque.
+
+## synthetiseur-connaissances (principes manquants, demandés par architecte-agents)
+- [ ] Créer `principes/personal-branding.md`, `linkedin.md`, `youtube-long.md`, `storytelling.md`, `analyse-et-iteration.md` (déjà cités par des agents ou des principes) ; puis relancer architecte-agents pour retirer les mentions « à venir ».
+- [ ] archiviste : contrôle de cohérence de `agents.md` et `.claude/agents/` après la modification groupée.

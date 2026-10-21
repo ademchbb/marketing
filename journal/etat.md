@@ -33,12 +33,15 @@
 - Vérifié : un sous-agent n'a pas l'outil Agent → la sous-délégation passe par l'orchestrateur
   (section « Demandes de délégation » à la fin de chaque rapport).
 - [x] Lot 2 découpé (`decouper.py`) : 6 vidéos, 7 parties + 4 sources web.
-- [ ] 8 × `analyste-transcription` sur le lot 2 (lancés 2026-10-21)
-- [ ] `architecte-agents` : section « Sous-délégation » dans tous les agents, hiérarchie dans `agents.md`,
+- [x] 8 × `analyste-transcription` sur le lot 2 → 10 notes
+- [ ] 10 × `consolidateur-fiche` (3 fiches faites : hdjlCLb9Hl8, pILj7t-qQhs, yRgPbqywUJ8)
+- [x] `architecte-agents` : section « Sous-délégation » dans tous les agents, hiérarchie dans `agents.md`,
       règle tiret long, renvois frameworks/principes (lancé)
 - [ ] `chercheur-sources` : « Lot 3 — Canon du marketing » (Hormozi, Ogilvy, Schwartz, Cialdini, Ries & Trout,
       Sharp, Godin, Sutherland…) + programme de formation dans `sources/a-traiter.md` (lancé)
-- ensuite : `consolidateur-fiche` × 10 → hooks/frameworks/vérif → synthétiseur (principes + `index.md`)
+- [ ] `architecte-agents` : créer `extracteur-pdf` (lancé)
+- Délégations demandées par les agents : `journal/delegations.md`
+- ensuite : → hooks/frameworks/vérif → synthétiseur (principes + `index.md`)
   → `extracteur-youtube` sur le lot 3 → même pipeline.
 
 ## À faire (dans l'ordre)
