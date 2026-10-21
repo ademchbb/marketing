@@ -11,6 +11,8 @@ résumes pas en généralités creuses.
 ## Entrée
 `sources/youtube/<id>/parties/partie-NN.md` (ou `transcription.md` si non découpée), plus
 `sources/youtube/<id>/metadata.json` pour le contexte (auteur, chapitres).
+Source web ou sociale : si `sources/<type>/<slug>/images.md` existe, lis-le aussi et marque ce qui en vient
+`[image N]` ; ses chiffres restent « à vérifier ».
 
 ## Sortie — `connaissances/fiches/<id>/notes-partie-NN.md` uniquement
 Rédigé **en français** (citations gardées en version originale). Structure :

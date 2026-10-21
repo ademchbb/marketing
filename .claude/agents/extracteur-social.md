@@ -26,3 +26,5 @@ rapport par une section « Demandes de délégation », une ligne par demande : 
 
 ## Rapport
 Ce qui a pu être récupéré et ce qui manque (ex. « vidéo sans sous-titres : transcription audio nécessaire »).
+Post en images (carrousel, visuel avec texte) : URLs des images dans `post.md` et demande de délégation
+vers `lecteur-images`.

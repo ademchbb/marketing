@@ -40,7 +40,7 @@
       règle tiret long, renvois frameworks/principes (lancé)
 - [ ] `chercheur-sources` : « Lot 3 — Canon du marketing » (Hormozi, Ogilvy, Schwartz, Cialdini, Ries & Trout,
       Sharp, Godin, Sutherland…) + programme de formation dans `sources/a-traiter.md` (lancé)
-- [x] `architecte-agents` : créer `extracteur-pdf` (59 agents) ; `lecteur-images` en cours
+- [x] `architecte-agents` : créés `extracteur-pdf` et `lecteur-images` (60 agents) ; lecteur-images lancé sur ABCD
 - [ ] 4 × `extracteur-pdf` (ABCD, Binet & Field, Baromètre 2026, Hopkins) lancés
 - Délégations demandées par les agents : `journal/delegations.md`
 - ensuite : → hooks/frameworks/vérif → synthétiseur (principes + `index.md`)

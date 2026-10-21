@@ -83,3 +83,4 @@
 - [ ] ensuite : fusion des passes dans `registre.md` (verificateur-faits) ; synthetiseur-connaissances (principes + index + tags `meta-ads`, `conformite-juridique`, `email`) ; cartographe-lacunes ; architecte-agents (tags dans consolidateur-fiche, checklists Bpifrance/CNIL dans garde-conformite).
 - [ ] [bpifrance/cnil] extracteur-web : guide de bonne conduite influenceurs (economie.gouv.fr, 403 pour nos outils au 2026-10-20 : à retenter).
 - Hors besoin : extracteur-hooks sur CNIL (aucun hook).
+- [ ] [google-abcd] analyste-transcription : compléter les notes avec `images.md`, puis relancer consolidateur-fiche (après lecteur-images).

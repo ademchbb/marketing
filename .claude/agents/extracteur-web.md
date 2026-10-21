@@ -25,4 +25,6 @@ rapport par une section « Demandes de délégation », une ligne par demande : 
 <nom> — <mission> ») · entrée · sortie attendue · pourquoi. Rien à déléguer : « Demandes de délégation : aucune ».
 
 ## Rapport
-Titre, auteur, nombre de mots, et si le texte est complet.
+Titre, auteur, nombre de mots, et si le texte est complet. Nombre d'images de contenu (schémas, planches,
+captures, graphiques) gardées dans `source.md` ; si leur contenu compte pour l'analyse, demande de
+délégation vers `lecteur-images`.

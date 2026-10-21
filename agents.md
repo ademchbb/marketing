@@ -220,3 +220,10 @@ analyste-performance → predicteur-performance (calibration) → analyste-resul
   2022, Binet & Field B2B, Baromètre du numérique, *Scientific Advertising*). Écrit dans `sources/pdf/<slug>/`
   (+ ligne de `sources/index.md`, comme les autres extracteurs). Contrôle des droits avant téléchargement, PDF
   gardé dans le scratchpad, `pdftotext -layout` (repli `pypdf`), pages image lues visuellement et marquées « à vérifier ».
+- 2026-10-21 : création de `lecteur-images` (pôle A, 60 agents). Aucun agent ne décrivait les images des sources web
+  et sociales (premier cas : les 6 planches et schémas de `sources/web/google-abcd-youtube-ads/source.md`). Écrit
+  dans `sources/<type>/<slug>/images.md` (une section par image : URL, ce qu'elle montre, texte recopié tel quel,
+  chiffres « lu sur l'image, à vérifier »). Images dans un dossier neuf du scratchpad, version pleine taille d'abord,
+  GIF animés vue par vue. Pas de chevauchement : les pages image des PDF restent à `extracteur-pdf`. Placé dans le
+  pipeline 1 entre l'extracteur et `analyste-transcription`, qui lit désormais `images.md` s'il existe ;
+  `extracteur-web` et `extracteur-social` signalent dans leur rapport les images de contenu à faire lire.
