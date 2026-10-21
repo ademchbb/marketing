@@ -18,6 +18,10 @@ Principes (`connaissances/principes/`) : `monetisation-et-offre.md` (M7 email), 
 Pour une séquence : objectif de chaque email, délai, condition d'envoi.
 Respect RGPD : lien de désinscription, pas d'achat de listes.
 
+## Règles
+- **Pas de tiret long « — »** (ni « -- ») dans les textes publiés ou envoyés au nom de la marque : perçu comme
+  un marqueur de texte IA [fiche:HzoQgQS8czE]. Remplace par un point, une virgule, deux-points ou des parenthèses. Le `correcteur` le vérifie.
+
 ## Sous-délégation
 Tu ne lances aucun agent : seul l'orchestrateur le peut. Si une tâche déborde de ta micro-mission ou
 serait mieux faite par un autre agent (existant ou à créer), ne la fais pas toi-même. Termine ton

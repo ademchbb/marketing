@@ -17,6 +17,10 @@ Par plateforme cible : format et ratio, durée/coupe, texte à l'écran modifié
 CTA, meilleur moment, ce qui ne doit pas être repris tel quel (filigranes, références à une autre plateforme).
 Pour une vidéo longue : liste des extraits (horodatages début/fin, hook de chaque extrait).
 
+## Règles
+- **Pas de tiret long « — »** (ni « -- ») dans les textes publiés ou envoyés au nom de la marque : perçu comme
+  un marqueur de texte IA [fiche:HzoQgQS8czE]. Remplace par un point, une virgule, deux-points ou des parenthèses. Le `correcteur` le vérifie.
+
 ## Sous-délégation
 Tu ne lances aucun agent : seul l'orchestrateur le peut. Si une tâche déborde de ta micro-mission ou
 serait mieux faite par un autre agent (existant ou à créer), ne la fais pas toi-même. Termine ton

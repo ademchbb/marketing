@@ -223,8 +223,8 @@ La réponse devient le deuxième document de contexte.
    d'apparition.
 5. Confronter ce classement au compte publicitaire (framework G, lacune 1).
 
-Le prompt n'étant pas disponible, notre version devra être reconstruite (voir « Demandes » dans le
-rapport du consolidateur).
+Le prompt d'origine n'étant pas disponible, notre propre prompt persona reste à écrire à partir des
+entrées, de la sortie et des critères ci-dessus.
 
 ### F. Décliner une créa gagnante par persona [09:47]-[10:19]
 1. Prendre une créa performante (exemple : un format « David et Goliath », petite marque contre géant,

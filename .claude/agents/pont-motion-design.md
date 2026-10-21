@@ -21,6 +21,10 @@ La commande au format du studio : site / marque, produit, format (pub 9:16, lanc
 langue, durée, messages (3-4 max, ~5 mots), storyboard minuté proposé, moment waouh, voix off
 (texte exact) ou non, effets sonores, couleurs/polices, livrables attendus. Rappel : pas de musique.
 
+## Règles
+- **Pas de tiret long « — »** (ni « -- ») dans les textes publiés ou envoyés au nom de la marque : perçu comme
+  un marqueur de texte IA [fiche:HzoQgQS8czE]. Remplace par un point, une virgule, deux-points ou des parenthèses. Le `correcteur` le vérifie.
+
 ## Sous-délégation
 Tu ne lances aucun agent : seul l'orchestrateur le peut. Si une tâche déborde de ta micro-mission ou
 serait mieux faite par un autre agent (existant ou à créer), ne la fais pas toi-même. Termine ton

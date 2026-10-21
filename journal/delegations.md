@@ -42,3 +42,10 @@
 - Prêtes pour extracteur-hooks / extracteur-frameworks (lot 2) : hdjlCLb9Hl8.
 - Prêtes pour extracteur-hooks / extracteur-frameworks (lot 2) : pILj7t-qQhs (fiabilité 2,5/5 ; candidats : séquence TLA → Message Ad, crawl/walk/run, journée du journaliste, confession du sceptique).
 - [ ] [pILj7t-qQhs fiche] chercheur-sources : playbook *Founder-Led Sales & Marketing Never Ends* (court, long, TL;DR, guide 30-60-90, lien en description) + playbook LinkedIn de Fibbler → sources primaires des chiffres.
+- [x] meta-andromeda, google-abcd-youtube-ads, bpifrance-influenceur-reglementation, cnil-prospection-electronique (lancés)
+- [ ] [sources web] verificateur-faits : loi 2023-451 art. 1, 4, 5, 5-2, 6, 8, 9 ; décret 2025-1137 (seuil 1 000 € HT) ; décret 2026-233 et arrêté du 26/05/2026 (90 % de la durée, bandeau 7 %) ; CJUE C-654/23 ; CNIL SAN-2021-008, SAN-2022-017, SAN-2024-002 ; question CPF ; application de la loi influence au compte d'une marque ou d'un fondateur qui parle de ses produits.
+- [ ] [sources web] chercheur-sources : guide de bonne conduite influence (economie.gouv.fr) ; ARPP influence ; CNIL téléphone/courrier, cookies et traceurs, liste repoussoir, messages LinkedIn et adresses génériques ; playbook ABCD PDF 2022 + ABCD récents (Shorts, Demand Gen) ; doc officielle Meta Andromeda / diversité créative ; exigences expéditeurs Gmail et Yahoo.
+- [ ] architecte-agents : créer `extracteur-pdf` (texte de PDF et de planches en images : playbook ABCD, Binet & Field, baromètre du numérique).
+
+## Questions utilisateur ajoutées
+- [x] Agence mandataire de l'annonceur → responsabilité solidaire ? (`journal/questions-utilisateur.md`)

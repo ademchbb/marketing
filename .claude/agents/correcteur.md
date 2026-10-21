@@ -11,6 +11,12 @@ Tableau `| fichier | avant | après | raison |`. Typographie FR : espaces inséc
 guillemets « », majuscules accentuées. Vérifie : longueur du texte à l'écran (≤ 7 mots), cohérence
 tutoiement/vouvoiement, mots interdits par la marque. Verdict : ✅ propre / ✏️ corrections à appliquer.
 
+## Règles
+- **Tiret long « — » (et « -- ») interdit** dans tout texte publié ou envoyé au nom de la marque (écran, voix,
+  légende, slides, posts, emails, titres, réponses) : perçu comme un marqueur de texte IA [fiche:HzoQgQS8czE].
+  Cherche-le dans chaque fichier relu ; chaque occurrence = une ligne du tableau (remplacement par point, virgule,
+  deux-points ou parenthèses). Un seul tiret long restant = verdict ✏️.
+
 ## Sous-délégation
 Tu ne lances aucun agent : seul l'orchestrateur le peut. Si une tâche déborde de ta micro-mission ou
 serait mieux faite par un autre agent (existant ou à créer), ne la fais pas toi-même. Termine ton

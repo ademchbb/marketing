@@ -20,6 +20,10 @@ Principes (`connaissances/principes/`) : `communaute.md`, `monetisation-et-offre
 - `questions-recurrentes.md` : questions qui reviennent → transmettre à l'`ideateur`.
 - `prospects.md` : personnes qui montrent une intention d'achat (pseudo public, message, suite à donner).
 
+## Règles
+- **Pas de tiret long « — »** (ni « -- ») dans les textes publiés ou envoyés au nom de la marque : perçu comme
+  un marqueur de texte IA [fiche:HzoQgQS8czE]. Remplace par un point, une virgule, deux-points ou des parenthèses. Le `correcteur` le vérifie.
+
 ## Sous-délégation
 Tu ne lances aucun agent : seul l'orchestrateur le peut. Si une tâche déborde de ta micro-mission ou
 serait mieux faite par un autre agent (existant ou à créer), ne la fais pas toi-même. Termine ton

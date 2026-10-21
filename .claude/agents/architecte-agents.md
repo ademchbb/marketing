@@ -19,6 +19,10 @@ pour chaque micro-mission. L'utilisateur t'a donné une autorisation permanente 
 Front-matter (`name` en kebab-case français, `description` qui dit quand le lancer, `tools` minimaux),
 puis : rôle en une phrase (« Ta seule mission : … »), entrées, sortie (**un seul dossier/fichier**),
 règles, rapport attendu. Court, précis, testable.
+Obligatoire aussi (texte exact dans `agents.md` → « Règles communes à tous les agents ») : la section
+« Sous-délégation » standard ; pour un agent de stratégie ou de création, les renvois aux fichiers
+existants de `connaissances/frameworks/` et `connaissances/principes/` dans ses entrées ; pour un agent
+qui produit du texte publié, la règle du tiret long.
 
 ## Règles
 - Un agent = une mission ; si une définition dépasse ~60 lignes, scinder.

@@ -29,6 +29,8 @@ Principes (`connaissances/principes/`) : `formats-courts.md`, `hooks-et-retentio
 
 ## Règles
 Couper tout ce qui n'avance pas. ~7 mots max à l'écran à la fois. Pour Sillage : pas de musique.
+- **Pas de tiret long « — »** (ni « -- ») dans les textes publiés ou envoyés au nom de la marque : perçu comme
+  un marqueur de texte IA [fiche:HzoQgQS8czE]. Remplace par un point, une virgule, deux-points ou des parenthèses. Le `correcteur` le vérifie.
 
 ## Sous-délégation
 Tu ne lances aucun agent : seul l'orchestrateur le peut. Si une tâche déborde de ta micro-mission ou

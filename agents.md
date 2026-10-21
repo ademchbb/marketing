@@ -3,6 +3,66 @@
 **58 agents**, une micro-mission chacun. Définitions : `.claude/agents/<nom>.md`.
 Règle : un agent n'écrit **que** dans le dossier indiqué dans sa définition (section « Sortie »).
 
+## Hiérarchie
+
+```
+Niveau 0   ORCHESTRATEUR (IA principale)
+           décide · découpe en micro-missions · lance (en parallèle dès que c'est indépendant)
+           · vérifie chaque livrable · renvoie au travail si le niveau n'est pas atteint
+           Il ne produit rien lui-même.
+   │
+Niveau 1   PÔLES (regroupements de missions, pas des agents ; aucun « chef de pôle »)
+           A Apprentissage · B Veille & concurrence · C Stratégie · D Création · E Qualité
+           · F Labo d'expériences & performance · G Diffusion, communauté & croissance
+           · H Publicité payante · I Méta
+   │
+Niveau 2   AGENTS (58) : une micro-mission chacun, un seul dossier d'écriture
+```
+
+**Contrainte technique** : un sous-agent n'a pas l'outil Agent et ne peut pas lancer un autre agent.
+Toute délégation remonte donc au niveau 0. Aucun agent n'en appelle un autre directement.
+
+### Boucle de sous-délégation (par les rapports)
+1. Un agent qui rencontre une tâche hors de sa micro-mission ne la fait pas : il termine son rapport
+   par une section « Demandes de délégation » (agent visé ou « à créer », entrée, sortie attendue, pourquoi).
+2. L'orchestrateur lit chaque rapport, accepte, regroupe ou refuse chaque demande (en le notant dans
+   `journal/etat.md`), puis lance les agents visés, en parallèle quand c'est indépendant.
+3. Si le demandeur a besoin du résultat pour finir, l'orchestrateur le relance avec ce livrable en entrée.
+4. Les recalés du contrôle qualité suivent la même boucle : `critique-hook` et
+   `controleur-qualite-marketing` nomment les agents à relancer, l'orchestrateur les relance.
+
+### Protocole de création d'un agent manquant
+1. Déclencheur : une demande « à créer : <nom> — <mission> », une micro-mission sans agent, ou un agent
+   recalé deux fois pour la même raison.
+2. L'orchestrateur lance `architecte-agents` **sans demander l'accord de l'utilisateur** (autorisation
+   permanente), avec la mission, l'entrée et la sortie attendues.
+3. `architecte-agents` vérifie cette carte (pas de chevauchement : sinon il ajuste l'agent existant),
+   écrit `.claude/agents/<nom>.md` au format standard (règles communes ci-dessous incluses), met à jour
+   le pôle, les pipelines, le dossier d'écriture et le journal de ce fichier.
+4. L'orchestrateur lance le nouvel agent. Si la session ne le charge pas comme type : agent généraliste
+   avec « Tu es l'agent `<nom>` : lis `.claude/agents/<nom>.md` et applique-le à la lettre pour : <mission> ».
+
+## Règles communes à tous les agents
+
+**Sous-délégation** (section identique dans les 58 définitions) :
+> Tu ne lances aucun agent : seul l'orchestrateur le peut. Si une tâche déborde de ta micro-mission ou
+> serait mieux faite par un autre agent (existant ou à créer), ne la fais pas toi-même. Termine ton
+> rapport par une section « Demandes de délégation », une ligne par demande : agent visé (ou « à créer :
+> <nom> — <mission> ») · entrée · sortie attendue · pourquoi. Rien à déléguer : « Demandes de délégation : aucune ».
+
+**Pas de tiret long « — » (ni « -- ») dans les textes publiés ou envoyés au nom de la marque** : perçu
+comme un marqueur de texte IA [fiche:HzoQgQS8czE]. Règle inscrite chez `redacteur-hooks`, `scenariste-reel`,
+`redacteur-carrousel`, `redacteur-linkedin`, `redacteur-thread-x`, `redacteur-legende`,
+`specialiste-seo-social`, `scenariste-youtube-long`, `titreur-miniatures`, `redacteur-newsletter`,
+`adaptateur-multiplateforme`, `redacteur-ads`, `gestionnaire-communaute`, `prospecteur-collaborations`,
+`pont-motion-design`, `controleur-qualite-marketing` (kit final). Le `correcteur` le vérifie.
+
+**Base de connaissances** : les agents de stratégie (pôles C, H) et de création (pôle D, plus
+`gestionnaire-communaute`, `prospecteur-collaborations`, `pont-motion-design`) listent dans leur section
+« Entrée » les fiches de `connaissances/frameworks/` (voir son `index.md`) et de `connaissances/principes/`
+qui les concernent. Seuls les fichiers existants y sont cités ; les principes prévus mais absents sont
+marqués « à venir ».
+
 ## Pôle A — Apprentissage (ingestion & base de connaissances)
 
 | agent | mission | écrit dans |
@@ -147,3 +207,9 @@ analyste-performance → predicteur-performance (calibration) → analyste-resul
 
 ## Journal des modifications
 - 2026-10-20 : création des 58 agents initiaux (9 pôles).
+- 2026-10-21 : pyramide explicite. Ajout des sections « Hiérarchie » et « Règles communes » ici.
+  Les 58 définitions reçoivent la section « Sous-délégation » standard (un sous-agent ne peut pas lancer
+  d'agent : toute délégation passe par les rapports et l'orchestrateur). Règle « pas de tiret long » pour
+  les 16 agents qui produisent du texte publié, vérifiée par `correcteur` [fiche:HzoQgQS8czE]. Renvois aux
+  frameworks et principes existants dans les entrées de 26 agents de stratégie et de création.
+  `architecte-agents` : ces trois éléments entrent dans le format obligatoire d'un agent. Fond des missions inchangé.
