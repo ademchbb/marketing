@@ -48,4 +48,4 @@ Juger en **taux** (opt-in, prise de rendez-vous) plutôt qu'en volume (voir `met
 `analyste-marque`, `architecte-persona`, `strategiste-contenu`, `predicteur-performance` (calibrer les prédictions), `analyste-performance`, `rapporteur` (présenter les résultats sans fausse déception).
 
 ## Voir aussi
-`mix-editorial-profondeur-largeur.md` · `metriques-appariees.md`
+`mix-editorial-profondeur-largeur.md` · `metriques-appariees.md` · `plafond-de-conversion-et-cercles-du-marche.md` (en pub payante : la part « chaude » du marché plafonne la dépense à CPA constant)
