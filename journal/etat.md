@@ -34,7 +34,8 @@
   (section « Demandes de délégation » à la fin de chaque rapport).
 - [x] Lot 2 découpé (`decouper.py`) : 6 vidéos, 7 parties + 4 sources web.
 - [x] 8 × `analyste-transcription` sur le lot 2 → 10 notes
-- [ ] 10 × `consolidateur-fiche` (3 fiches faites : hdjlCLb9Hl8, pILj7t-qQhs, yRgPbqywUJ8)
+- [x] 10 × `consolidateur-fiche` → 10 fiches
+- [ ] extracteur-hooks, extracteur-frameworks, 3 × verificateur-faits (passe 2) — lancés
 - [x] `architecte-agents` : section « Sous-délégation » dans tous les agents, hiérarchie dans `agents.md`,
       règle tiret long, renvois frameworks/principes (lancé)
 - [ ] `chercheur-sources` : « Lot 3 — Canon du marketing » (Hormozi, Ogilvy, Schwartz, Cialdini, Ries & Trout,

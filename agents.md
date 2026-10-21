@@ -1,6 +1,6 @@
 # Carte des agents
 
-**59 agents**, une micro-mission chacun. Définitions : `.claude/agents/<nom>.md`.
+**60 agents**, une micro-mission chacun. Définitions : `.claude/agents/<nom>.md`.
 Règle : un agent n'écrit **que** dans le dossier indiqué dans sa définition (section « Sortie »).
 
 ## Hiérarchie
@@ -16,7 +16,7 @@ Niveau 1   PÔLES (regroupements de missions, pas des agents ; aucun « chef de 
            · F Labo d'expériences & performance · G Diffusion, communauté & croissance
            · H Publicité payante · I Méta
    │
-Niveau 2   AGENTS (59) : une micro-mission chacun, un seul dossier d'écriture
+Niveau 2   AGENTS (60) : une micro-mission chacun, un seul dossier d'écriture
 ```
 
 **Contrainte technique** : un sous-agent n'a pas l'outil Agent et ne peut pas lancer un autre agent.
@@ -44,7 +44,7 @@ Toute délégation remonte donc au niveau 0. Aucun agent n'en appelle un autre d
 
 ## Règles communes à tous les agents
 
-**Sous-délégation** (section identique dans les 59 définitions) :
+**Sous-délégation** (section identique dans les 60 définitions) :
 > Tu ne lances aucun agent : seul l'orchestrateur le peut. Si une tâche déborde de ta micro-mission ou
 > serait mieux faite par un autre agent (existant ou à créer), ne la fais pas toi-même. Termine ton
 > rapport par une section « Demandes de délégation », une ligne par demande : agent visé (ou « à créer :
@@ -71,6 +71,7 @@ marqués « à venir ».
 | `extracteur-web` | Récupère le texte propre d'un article, billet de blog, page de documentation, newsletter ou thread public, et le range comme source brute | `sources/web/<slug>/` |
 | `extracteur-pdf` | Extrait le texte propre d'un PDF public (rapport, playbook, baromètre, livre du domaine public) avec repères `[p. N]`, et si possible le texte des planches en image ; vérifie les droits et refuse les livres sous droits mis en ligne sans autorisation. Le PDF reste dans le scratchpad, jamais dans le repo | `sources/pdf/<slug>/` |
 | `extracteur-social` | Récupère ce qui est accessible publiquement d'un post Instagram, TikTok, X, LinkedIn ou d'un Short (légende, transcription si vidéo, métriques visibles, date) pour analyse | `sources/social/<plateforme>-<id>/` |
+| `lecteur-images` | Décrit en texte les images d'une source web ou sociale déjà récupérée (planches, schémas, captures, graphiques, slides) : ce qu'elles montrent, texte lisible recopié tel quel, chiffres marqués « lu sur l'image, à vérifier ». Décrit sans commenter. Images téléchargées dans le scratchpad, jamais dans le repo. Les PDF restent à `extracteur-pdf` | `sources/<type>/<slug>/images.md` |
 | `transcripteur-audio` | Transcrit l'audio d'une vidéo ou d'un podcast qui n'a pas de sous-titres (Whisper local), en dernier recours après l'extracteur | — |
 | `analyste-transcription` | Lit UNE partie d'une transcription (vidéo, podcast, article long) et en extrait toutes les connaissances marketing actionnables dans des notes structurées | `connaissances/fiches/<id>/notes-partie-NN.md` |
 | `consolidateur-fiche` | Fusionne les notes de toutes les parties d'une même source en UNE fiche de référence (thèse, frameworks, tactiques, niveau de fiabilité) | `connaissances/fiches/<id>/fiche.md` |
@@ -172,6 +173,7 @@ marqués « à venir ».
 ### 1. Apprendre (vidéo, article, post envoyé par l'utilisateur)
 ```
 extracteur-youtube | extracteur-web | extracteur-social | extracteur-pdf  (→ transcripteur-audio si pas de sous-titres)
+  → lecteur-images (web ou social, si des images portent du contenu utile à l'analyse)
   → analyste-transcription ×N (une partie chacun, en parallèle)
   → consolidateur-fiche (une par source)
   → extracteur-hooks ∥ extracteur-frameworks ∥ verificateur-faits

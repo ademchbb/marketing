@@ -77,3 +77,9 @@
 - Prêtes pour extracteur-hooks / extracteur-frameworks (lot 2) : qBxEAqZbHVg (fiabilité 3,5/5 ; gold/bronze, CAC blended, matrice dépense × CPA, plan d'atterrissage, plafond de conversion ; analogies FR pour le swipe-file).
 - [ ] [qBxEAqZbHVg fiche] cartographe-lacunes : nouvelles lacunes incrémentalité (geo-holdout, conversion lift, MMM) et Meta Ads 2025-2026.
 - [ ] Décision orchestrateur : ajouter le tag `meta-ads` à la liste des thèmes (synthetiseur-connaissances, lors de la mise à jour de `index.md`), `instagram` couvrant mal la pub Meta.
+
+## Vague 2026-10-21 (lot 2 fiché à 10/10)
+- [x] extracteur-hooks (lot 2) · extracteur-frameworks (lot 2) · verificateur-faits × 3 (`passe-2-publicite.md`, `passe-2-b2b.md`, `passe-2-droit.md`) — lancés
+- [ ] ensuite : fusion des passes dans `registre.md` (verificateur-faits) ; synthetiseur-connaissances (principes + index + tags `meta-ads`, `conformite-juridique`, `email`) ; cartographe-lacunes ; architecte-agents (tags dans consolidateur-fiche, checklists Bpifrance/CNIL dans garde-conformite).
+- [ ] [bpifrance/cnil] extracteur-web : guide de bonne conduite influenceurs (economie.gouv.fr, 403 pour nos outils au 2026-10-20 : à retenter).
+- Hors besoin : extracteur-hooks sur CNIL (aucun hook).
