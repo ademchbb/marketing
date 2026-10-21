@@ -69,6 +69,7 @@ marqués « à venir ».
 |---|---|---|
 | `extracteur-youtube` | Récupère la transcription horodatée et les métadonnées (titre, chaîne, vues, chapitres, description) d'une ou plusieurs vidéos YouTube, et les découpe en parties analysables | `sources/youtube/<id>/` |
 | `extracteur-web` | Récupère le texte propre d'un article, billet de blog, page de documentation, newsletter ou thread public, et le range comme source brute | `sources/web/<slug>/` |
+| `extracteur-pdf` | Extrait le texte propre d'un PDF public (rapport, playbook, baromètre, livre du domaine public) avec repères `[p. N]`, et si possible le texte des planches en image ; vérifie les droits et refuse les livres sous droits mis en ligne sans autorisation. Le PDF reste dans le scratchpad, jamais dans le repo | `sources/pdf/<slug>/` |
 | `extracteur-social` | Récupère ce qui est accessible publiquement d'un post Instagram, TikTok, X, LinkedIn ou d'un Short (légende, transcription si vidéo, métriques visibles, date) pour analyse | `sources/social/<plateforme>-<id>/` |
 | `transcripteur-audio` | Transcrit l'audio d'une vidéo ou d'un podcast qui n'a pas de sous-titres (Whisper local), en dernier recours après l'extracteur | — |
 | `analyste-transcription` | Lit UNE partie d'une transcription (vidéo, podcast, article long) et en extrait toutes les connaissances marketing actionnables dans des notes structurées | `connaissances/fiches/<id>/notes-partie-NN.md` |
@@ -170,7 +171,7 @@ marqués « à venir ».
 
 ### 1. Apprendre (vidéo, article, post envoyé par l'utilisateur)
 ```
-extracteur-youtube | extracteur-web | extracteur-social  (→ transcripteur-audio si pas de sous-titres)
+extracteur-youtube | extracteur-web | extracteur-social | extracteur-pdf  (→ transcripteur-audio si pas de sous-titres)
   → analyste-transcription ×N (une partie chacun, en parallèle)
   → consolidateur-fiche (une par source)
   → extracteur-hooks ∥ extracteur-frameworks ∥ verificateur-faits
@@ -213,3 +214,7 @@ analyste-performance → predicteur-performance (calibration) → analyste-resul
   les 16 agents qui produisent du texte publié, vérifiée par `correcteur` [fiche:HzoQgQS8czE]. Renvois aux
   frameworks et principes existants dans les entrées de 26 agents de stratégie et de création.
   `architecte-agents` : ces trois éléments entrent dans le format obligatoire d'un agent. Fond des missions inchangé.
+- 2026-10-21 : création de `extracteur-pdf` (pôle A, 59 agents). Aucun extracteur ne couvrait les PDF (playbook ABCD
+  2022, Binet & Field B2B, Baromètre du numérique, *Scientific Advertising*). Écrit dans `sources/pdf/<slug>/`
+  (+ ligne de `sources/index.md`, comme les autres extracteurs). Contrôle des droits avant téléchargement, PDF
+  gardé dans le scratchpad, `pdftotext -layout` (repli `pypdf`), pages image lues visuellement et marquées « à vérifier ».

@@ -67,3 +67,5 @@
 - [ ] [dAJyqo6wnq4 fiche] chercheur-sources : quand passer aux tests et à l'échelle sur Meta Ads (seuils budget/conversions/durée, critère d'arrêt) ; vidéos Ben Heath « starting Facebook ads all over again », structure de campagne, omniprésence, pixel + CAPI.
 - [ ] [dAJyqo6wnq4 fiche] cartographe-lacunes : L1 comblée pour le lancement ; restent ouverts tests et mise à l'échelle, optimisation post-lancement, variante e-commerce, installation du suivi.
 - [ ] [dAJyqo6wnq4 fiche] concepteur-experiences : règle interne de passage de la structure 1/1/1 aux tests et de mise à l'échelle du budget (dans `experiences/`).
+- Prêtes pour extracteur-hooks / extracteur-frameworks (lot 2) : J6Su5Vx3x5U (fiabilité 4/5 ; 19 frameworks dont Value Conversation, Anchoring Against Guaranteed Value, Discipline for Market + test de la peur, 3 règles de prix).
+- [ ] [J6Su5Vx3x5U fiche] synthetiseur-connaissances : Enns (prix = valeur + risque) vs Hormozi (prix = force de la marque) dans `principes/monetisation-et-offre.md`.
