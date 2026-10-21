@@ -62,3 +62,8 @@
 - [ ] [google-abcd fiche] verificateur-faits : méthode de l'étude Google/Kantar Link AI 2021 (+30 % / +17 %) ; source NCSolutions « la créative est le facteur n°1 ».
 - [ ] [google-abcd fiche] chercheur-sources : ABCD récents (Shorts, 2024-2026) ; données sur les pubs sans musique ni visage (cas Sillage).
 - [ ] [google-abcd fiche] synthetiseur-connaissances : trancher « la marque tôt » (pub payante, Google) vs « ne pas avoir l'air d'une pub » (organique, créateurs).
+- Prêtes pour extracteur-hooks / extracteur-frameworks (lot 2) : dAJyqo6wnq4 (fiabilité 4/5 ; tableau des 10 « enhancements » Meta).
+- [ ] [dAJyqo6wnq4 fiche] verificateur-faits (compléments) : phase d'apprentissage et son seuil d'événements ; libellés d'interface Meta depuis janvier 2026.
+- [ ] [dAJyqo6wnq4 fiche] chercheur-sources : quand passer aux tests et à l'échelle sur Meta Ads (seuils budget/conversions/durée, critère d'arrêt) ; vidéos Ben Heath « starting Facebook ads all over again », structure de campagne, omniprésence, pixel + CAPI.
+- [ ] [dAJyqo6wnq4 fiche] cartographe-lacunes : L1 comblée pour le lancement ; restent ouverts tests et mise à l'échelle, optimisation post-lancement, variante e-commerce, installation du suivi.
+- [ ] [dAJyqo6wnq4 fiche] concepteur-experiences : règle interne de passage de la structure 1/1/1 aux tests et de mise à l'échelle du budget (dans `experiences/`).
