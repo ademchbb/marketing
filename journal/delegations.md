@@ -190,3 +190,4 @@
 - [ ] Décision orchestrateur = OUI, nouveaux tags : `relations-presse`, `identite-visuelle`, `psychologie-persuasion`, `ethique-influence` → architecte-agents (consolidateur-fiche + synthetiseur) à la prochaine passe.
 - [ ] [Cialdini] concepteur-experiences : slide alignée avant CTA vs neutre ; demande de conseil vs d'avis en prospection ; créneau saisi par la personne vs imposé.
 - [x] Hormozi vente p1 et p2 lancées (vague 2).
+- [x] Hopkins p2 faite (consolidation quand p1 rend ; priorité vérif : caféine p. 55, positif/négatif 4 contre 1). Hormozi vente p3 lancée.

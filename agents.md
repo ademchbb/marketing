@@ -205,7 +205,7 @@ ideateur → redacteur-hooks → critique-hook
 
 ### 3 bis. Campagne payante et séquence d'emails
 ```
-strategiste-ads → redacteur-ads (∥ directeur-creatif-visuel) → garde-conformite (10-ads/conformite-<campagne>.md)
+strategiste-ads → redacteur-ads → garde-conformite (10-ads/conformite-<campagne>.md)
   → VALIDATION UTILISATEUR (campagne et budget) → publicateur (liste Advantage+ du plan, UTM) → analyste-performance
 redacteur-newsletter (séquence) → garde-conformite (emails/<sequence>/conformite.md) → VALIDATION UTILISATEUR
 ```
@@ -266,3 +266,22 @@ analyste-performance → predicteur-performance (calibration) → analyste-resul
   `synthetiseur-connaissances` : tags `meta-ads`, `conformite-juridique`, `email`, `b2b` ajoutés à la taxonomie
   (liste de référence commune, fichier de principes par tag). `veilleur-algorithmes` : `meta-ads` ajouté aux
   plateformes suivies (fiche `veille/plateformes/meta-ads.md`) avec ses sources officielles Meta.
+- 2026-10-21 : passe ciblée après la mise à jour de `connaissances/frameworks/index.md` (76 fiches-outils, 15 sources)
+  et la vérification `connaissances/verifications/passe-2-droit.md`. Aucun agent créé (61 agents).
+  `garde-conformite` : sortie élargie (décision de l'orchestrateur) à `marques/<slug>/10-ads/conformite-<campagne>.md`
+  et `marques/<slug>/emails/<sequence>/conformite.md` (un seul fichier par contrôle, selon le livrable) ; entrées
+  `conformite-influence-commerciale.md`, `arbre-regime-message-electronique-cnil.md`,
+  `filtre-humain-ia-et-enhancements-meta.md` et `passe-2-droit.md`, qui prime sur les grilles en cas d'écart ; grille
+  corrigée : 6 catégories interdites (art. 4 I-VI, pas 7), CPF en trois régimes (promotion encadrée par le décret
+  2026-233 ; contrepartie liée à l'inscription interdite ; démarchage individuel des titulaires interdit à tous),
+  contrat écrit dès 1 000 € HT cumulés (annonceur, année, objectif), référentiel Arcom pour les jeux d'argent,
+  crypto à revérifier après le 01/07/2026, créateur établi dans l'EEE (art. 5-1), « 3 ans sans contact » = repère CNIL
+  non contraignant, enrichissement automatique des leads → base légale, information, minimisation (RGPD).
+  `publicateur` : section « Pub Meta : contrôles avant toute mise en ligne » (feu vert conformité, liste Advantage+ du
+  plan case par case, UTM vérifiés, 24 h de marge ; `meta-ads.md` §10). `strategiste-ads` (13 frameworks pub + SOP
+  créative + crawl / walk / run) et `redacteur-ads` (frameworks de création publicitaire ; ceux de pilotage et de
+  mesure restent au stratège) : entrées complétées. `strategiste-positionnement` et `strategiste-offre` : frameworks
+  de positionnement (Dunford, Enns) et de prix (Enns). `architecte-persona` : `prompt-decouverte-personas.md`,
+  `analyse-de-reputation-et-minage-d-avis.md`. `ecouteur-audience` : nouvelle section « Entrée » avec ces deux fiches,
+  `contenu-communautaire-et-ecoute.md` et `principes/communaute.md`. Pipeline 3 bis (campagne payante, séquence
+  d'emails) ajouté.
