@@ -206,3 +206,4 @@
 - [x] Fiche Dan Kennedy faite (3,5/5).
 - [x] verificateur-faits passe 3 « droit des offres » lancée (prix de référence, fausse urgence/rareté, prévente numérique, pub comparative, enrichissement de leads, garanties) → répond aux demandes garde-conformite de Kennedy, Marketing Mania, Priestley, Hopkins. Puis architecte-agents pour l'encoder dans garde-conformite.
 - [x] Money Models p1 lancée.
+- [x] Fiche Seth Godin faite (3,5/5). Tag `bouche-a-oreille` ajouté à la mission architecte. Money Models p2 lancée.

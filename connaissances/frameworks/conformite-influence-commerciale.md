@@ -4,7 +4,7 @@
 > **Ce n'est pas un avis juridique.** Source secondaire de vulgarisation, à jour au 23/06/2026 : revérifier les textes sur Légifrance avant chaque usage, et faire relire par un juriste la première campagne réelle et chaque nouveau régime spécial.
 
 ## Origine
-- **Bpifrance Création**, fiche « Influenceur - Réglementation », mise à jour du 2026-06-23 [fiche:bpifrance-influenceur-reglementation] : frameworks A (arbre de qualification, **déduit** de la définition), B (mentions), C (7 catégories interdites), D (jeux d'argent), E (formation financée), F (contrat), G (dropshipping), H (créateur hors UE / EEE / Suisse), et checklist `garde-conformite`.
+- **Bpifrance Création**, fiche « Influenceur - Réglementation », mise à jour du 2026-06-23 [fiche:bpifrance-influenceur-reglementation] : frameworks A (arbre de qualification, **déduit** de la définition), B (mentions), C (7 catégories interdites selon la fiche, **6** selon le texte [verif:JI02]), D (jeux d'argent), E (formation financée), F (contrat), G (dropshipping), H (créateur hors UE / EEE / Suisse), et checklist `garde-conformite`.
 - Textes cités : loi n° 2023-451 du 9 juin 2023 (modifiée par l'ordonnance n° 2024-978), décret n° 2025-1137, décret n° 2026-233, arrêté du 26 mai 2026, codes de la consommation, de la santé publique, du travail, de la sécurité intérieure, monétaire et financier, de l'environnement.
 - **Étiquettes reprises de la fiche, sans les renforcer** :
   - **[LOI]** obligation ou interdiction légale citée avec son texte ;
@@ -12,6 +12,7 @@
   - **[USAGE]** usage du secteur, sans valeur juridique ;
   - **(déduction)** application à l'agence, **non écrite** dans la source.
 - Point de vue de la source : celui de l'**influenceur** ; l'annonceur et le mandataire n'apparaissent que par ricochet (contrats, solidarité).
+- **Vérification** : `connaissances/verifications/passe-2-droit.md` (passe n°2, droit, 2026-10-21 ; JO de l'ordonnance 2024-978 lu en entier). Les corrections qui en viennent portent l'identifiant `[verif:JIxx]` ; elles priment sur la fiche Bpifrance.
 - Fiabilité : 4/5, solide sur le cœur. **Pour l'emailing et la prospection électronique, la CNIL fait foi** (voir `arbre-regime-message-electronique-cnil.md`) : Bpifrance y est inexacte.
 
 ## Problème résolu
