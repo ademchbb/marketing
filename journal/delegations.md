@@ -49,3 +49,6 @@
 
 ## Questions utilisateur ajoutées
 - [x] Agence mandataire de l'annonceur → responsabilité solidaire ? (`journal/questions-utilisateur.md`)
+- Prêtes pour extracteur-hooks / extracteur-frameworks (lot 2) : yRgPbqywUJ8 (fiabilité 3/5 ; hooks : objection frontale, arnaque ironique, « pas pour qui », « pas pour moi, et pourtant » ; framework E : écrire NOTRE prompt de découverte de personas).
+- [ ] [yRgPbqywUJ8 fiche] verificateur-faits (compléments) : réaction publique de Grüns à l'audit ; « Ask Amazon AI » = Rufus ?
+- [ ] [yRgPbqywUJ8 fiche] garde-conformite : accroches visant un attribut de santé (« men on a GLP-1 », périménopause) vs règle Meta sur les attributs personnels ; mot « arnaque » dans une pub pour sa propre marque.
