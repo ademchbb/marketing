@@ -106,3 +106,7 @@
 - [x] architecte-agents : créer `developpeur-outils` (script podcast RSS → transcription pour C1, C5, Money Models audio) — lancé
 - [ ] [canon] verificateur-faits : chaîne OgilvyGroup01 officielle ? ; rachat de Magnetic Marketing par Brunson ; chiffres de praticiens (Welsh, Koe, clients de Galloway et Raskin, VaynerMedia) ; offre de livres « gratuits + frais de port » de Brunson.
 - Bloqués : marketingbullets.com (Bencivenga, 503), archive des newsletters de Halbert (403). Manque toujours : un ouvrage francophone de rédaction persuasive.
+- [x] [google-abcd-playbook] fiche faite (3/5). MAJ de la fiche article : déjà faite.
+- [ ] [google-abcd-playbook] concepteur-experiences : tests autorisés chez Sillage (signature d'effets sonores vs aucune, nom dit en voix off vs texte seul, substitut au visage en notoriété) ; musique exclue.
+- [ ] [google-abcd-playbook] verificateur-faits : relire p. 18, 22, 23, 24 du PDF (textes de vignettes lus une fois).
+- Règle proposée (à arbitrer par synthetiseur) : quelques notes ou un nom chanté = musique ; un nom dit avec un rythme marqué = permis.

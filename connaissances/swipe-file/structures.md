@@ -272,6 +272,17 @@ en effets (whoosh + scintillement), phrase d'ouverture fixe en voix off, un dét
 **Variante Sillage** : A-roll → sound design / SFX → B-roll. Ordre de priorité de production :
 préproduction > montage > audio > motion graphics > … > lumière [fiche:uJ8Pg6t_iho 04:50].
 
+**Variantes d'intro (lot 2)**, à placer dans les temps 1-2 :
+- **Masterclass** : preuve chiffrée d'autorité en 1re phrase → présentation de l'expert par un chiffre →
+  programme en N parties → lead magnet annoncé dès l'intro (« cheat sheet » en description). Titre : « [Durée]
+  pour enfin comprendre [sujet] » [fiche:qBxEAqZbHVg 00:00].
+- **Tutoriel débutant** : preuve → interpellation de deux segments et de leur peur de mal faire → promesse
+  (« this is the exact video you need ») [fiche:dAJyqo6wnq4 00:00]. Les chiffres d'autorité doivent être réels et
+  cohérents partout (oral, description, miniature).
+- **Fin de tutoriel** : « Vous savez maintenant [X]. Mais il y a plus » → vidéo suivante [fiche:dAJyqo6wnq4 01:06].
+- **Formules pédagogiques** pour signaler une option sans encombrer : « Ce n'est pas un réglage à toucher pour
+  l'instant, sachez juste qu'il existe. » [fiche:dAJyqo6wnq4 01:03].
+
 ## Y2 — Les 3 premières vidéos d'une chaîne
 
 Base : Caleb Ralston [fiche:uJ8Pg6t_iho 02:26]. Premium sobre : **à adapter** (pensé pour une marque personnelle ;
