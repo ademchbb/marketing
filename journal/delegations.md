@@ -207,3 +207,4 @@
 - [x] verificateur-faits passe 3 « droit des offres » lancée (prix de référence, fausse urgence/rareté, prévente numérique, pub comparative, enrichissement de leads, garanties) → répond aux demandes garde-conformite de Kennedy, Marketing Mania, Priestley, Hopkins. Puis architecte-agents pour l'encoder dans garde-conformite.
 - [x] Money Models p1 lancée.
 - [x] Fiche Seth Godin faite (3,5/5). Tag `bouche-a-oreille` ajouté à la mission architecte. Money Models p2 lancée.
+- [x] Fiche Andy Raskin faite (4/5 ; « on construit avec Dunford, on raconte avec Raskin »). Tag levée de fonds : non retenu pour l'instant (hors cœur de l'agence). Money Models p3 lancée.
