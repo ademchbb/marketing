@@ -120,7 +120,7 @@ def cle_naturelle(titre):
 
 def selectionner(liste, a):
     if a.guid:
-        par_guid = {e["guid"]: e in liste and e for e in liste}
+        par_guid = {e["guid"]: e for e in liste}
         manquants = [g for g in a.guid if g not in par_guid]
         if manquants:
             raise RuntimeError(f"guid absent du flux : {', '.join(manquants)}")
@@ -272,6 +272,8 @@ def main():
     if slug != slugifier(slug):
         sys.exit(f"ERREUR : slug invalide « {slug} » (minuscules, chiffres, tirets : {slugifier(slug)})")
     langue = a.langue or ("en" if a.modele.endswith(".en") else None)
+    if a.modele.endswith(".en") and langue != "en":
+        sys.exit(f"ERREUR : le modèle {a.modele} ne transcrit que l'anglais ; prendre un modèle multilingue (ex. small)")
 
     total = sum(min(e["duree_s"] or 0, a.max_secondes or 1e12) for e in choix)
     print(f"{len(choix)} épisode(s), {ts(total)} d'audio à transcrire, modèle {a.modele} :")
@@ -289,10 +291,14 @@ def main():
     modele = WhisperModel(a.modele, device="cpu", compute_type="int8", cpu_threads=a.threads)
     print(f"modèle chargé en {time.time() - t0:.0f} s")
 
-    a.travail and a.travail.mkdir(parents=True, exist_ok=True)
+    if a.travail:
+        a.travail.mkdir(parents=True, exist_ok=True)
     meta_eps, par_episode, decalage, calcul, langue_vue = [], [], 0.0, 0.0, None
     for i, e in enumerate(choix, 1):
         tmp = Path(tempfile.mkdtemp(prefix="podcast-", dir=a.travail))  # dossier neuf par épisode
+        if dans_repo(tmp):  # TMPDIR pointé dans le repo
+            shutil.rmtree(tmp, ignore_errors=True)
+            sys.exit(f"ERREUR : dossier de travail {tmp} dans le repo ; passer --travail <scratchpad>")
         try:
             t1 = time.time()
             audio = charger_audio(telecharger_audio(e, tmp, a.max_secondes), a.max_secondes)
@@ -300,8 +306,6 @@ def main():
         except Exception as err:  # noqa: BLE001
             shutil.rmtree(tmp, ignore_errors=True)
             sys.exit(f"ÉCHEC épisode {i} « {e['titre']} » : {err}")
-        finally:
-            pass
         shutil.rmtree(tmp, ignore_errors=True)  # l'audio décodé reste en mémoire seulement
         secondes = len(audio) / TAUX
         t2 = time.time()

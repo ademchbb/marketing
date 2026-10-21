@@ -636,7 +636,7 @@ Start by promoting your highest-performing organic posts.
 
 ### A top-performing TLA example
 
-*Capture d'écran d'un post LinkedIn de Mati Staniszewski (Co-Founder at ElevenLabs), « August Research & Product Roundup at ElevenLabs », avec un visuel en mosaïque (Eleven Music, V3, React Native SDK, Video to Music, IVR Navigation). Le texte de la capture, illisible dans la couche texte du PDF, est transcrit ci-dessous.*
+*Capture d'écran d'un post LinkedIn de Mati Staniszewski (Co-Founder at ElevenLabs), « August Research & Product Roundup at ElevenLabs », avec un visuel en mosaïque (Eleven Music, V3, React Native SDK, Video to Music, IVR Navigation). Le texte de la capture, absent de la couche texte du PDF, est transcrit ci-dessous.*
 
 [texte lu sur l'image, à vérifier]
 
