@@ -15,5 +15,6 @@
 | hdjlCLb9Hl8 | How to nail your product positioning — April Dunford (Obviously Awesome) | Lenny's Podcast | 1h05 | 52 k | 1 | transcrit |
 | google-abcd-playbook-2022 | ABCD — Mastering the art of effective storytelling on YouTube (playbook PDF) | Google / Think with Google | 25 p. | — | 1 | transcrit |
 | binet-field-b2b-growth | The 5 Principles of Growth in B2B Marketing | Les Binet & Peter Field (LinkedIn B2B Institute) | 38 p. | — | 1 | transcrit |
+| barometre-numerique-2026 | Baromètre du numérique, édition 2026 (présentation) | Crédoc pour Arcep, Arcom, CGE, ANCT | 64 p. | — | 1 | transcrit |
 
 Statuts : `transcrit` → `analysé` (notes de parties) → `fiché` (fiche.md) → `intégré` (principes à jour).

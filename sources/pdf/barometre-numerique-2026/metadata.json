@@ -1,0 +1,24 @@
+{
+  "url": "https://www.arcep.fr/uploads/tx_gspublication/barometre-du-numerique-edition-2026_PRESENTATION.pdf",
+  "titre": "Baromètre du numérique, édition 2026 (présentation, février 2026)",
+  "auteur": "Crédoc, pour l'Arcep, l'Arcom, le CGE et l'ANCT",
+  "editeur": "Arcep",
+  "date": "2026-02",
+  "langue": "fr",
+  "pages": 64,
+  "mots": 9738,
+  "parties": 1,
+  "outil": "curl ; pdftotext -layout et pdftotext (poppler 24.02) ; pdftoppm -r 110 pour la lecture visuelle",
+  "droits": {
+    "statut": "diffusion-officielle-gratuite",
+    "licence": "non précisée dans le PDF (données de l'enquête en open data sur data.gouv.fr selon la p. 4)",
+    "justification": "Présentation officielle publiée en accès libre par l'Arcep, autorité publique commanditaire de l'enquête, sur son propre site arcep.fr."
+  },
+  "pages_image": [3, 5, 7, 8, 10, 11, 13, 14, 16, 17, 18, 19, 20, 21, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 38, 39, 54, 56, 57, 58, 60, 61, 63],
+  "pages_lues_visuellement": [3, 5, 7, 8, 10, 11, 13, 14, 16, 17, 18, 19, 20, 21, 23, 24, 25, 26, 27, 29, 30, 31, 32, 33, 34, 35, 37, 38, 39, 41, 42, 43, 45, 46, 47, 48, 50, 51, 52, 53, 54, 56, 57, 58, 60, 61, 63],
+  "pages_sans_texte": [3, 5, 21, 39, 54],
+  "pages_titre_section": [6, 9, 12, 15, 22, 28, 36, 40, 44, 49, 55, 59, 62],
+  "note": "pages_image = diapositives dont les chiffres de graphique ne sont que dans l'image (relevés marqués « à vérifier ») et intercalaires de logos. Pas de dossier parties/ : moins de 15 000 mots. Numérotation imprimée = rang dans le PDF.",
+  "extrait_le": "2026-10-21",
+  "complet": true
+}

@@ -7,11 +7,13 @@ https://business.google.com/us/think/future-of-marketing/youtube-video-ad-creati
 > **Chiffres** : le gain annoncé (+30 % / +17 %) vient d'une **étude Kantar commandée par Google**
 > (« Google/Kantar Link AI, Global, *The Short and the Long of ABCDs Effectiveness*, 2021 »). Ce sont des
 > affirmations d'éditeur : méthode, échantillon et point de comparaison ne sont pas publiés dans l'article.
-> **Limite d'extraction** : les **exemples concrets** de chaque principe (4 planches « idées » et 2
-> storyboards Fishos) sont **des images qui n'ont pas été extraites**. Le **playbook PDF** (avril 2022) n'a
-> pas été lu non plus. Cette fiche ne couvre donc que le texte, qui reste général.
+> **Exemples et playbook** : les **6 images** de l'article (schéma ABCD, storyboard Fishos initial,
+> 4 planches « idées ») sont décrites dans `sources/web/google-abcd-youtube-ads/images.md` et intégrées
+> ci-dessous. Le **playbook PDF** (avril 2022, 25 pages) a été extrait et a sa propre fiche :
+> `[fiche:google-abcd-playbook-2022]` (versions par objectif). La vidéo avant / après n'a pas été regardée.
 > **Repères** : pas d'horodatage. `[§ …]` renvoie à l'intertitre de l'article (`[§ A]` à `[§ D]` pour les
-> quatre principes). Trace détaillée : `notes-partie-01.md`.
+> quatre principes). `[image N]` renvoie au numéro de l'image dans `images.md`. Trace détaillée :
+> `notes-partie-01.md`.
 
 ## En une phrase
 Une fois la grande idée trouvée, une pub YouTube marche mieux si chaque décision d'exécution, dès le
@@ -45,6 +47,12 @@ La source est courte : elle porte 7 enseignements distincts, pas 10.
    [§ Applying the ABCDs]
    - Cas fil rouge : **Fishos**, une marque **fictive** de friandises pour chien au goût de poisson. Le
      concept est validé ; l'équipe améliore le storyboard principe par principe.
+   - Storyboard de départ [image 2] : 4 vignettes au crayon. La femme, de dos, ouvre un placard ; plan
+     large de la cuisine où elle donne une friandise au chien ; le chien seul près de sa gamelle ; le chien
+     couché sous le logo « Fishos / FOR YOUR DOG » (lu sur l'image). La marque n'arrive qu'à la dernière
+     vignette et la fin ne demande rien (déduction).
+   - Les planches révisées [images 3 à 6] passent à la **couleur vive**, ce qui illustre « color and
+     contrast » (déduction).
    - La vidéo avant / après (https://www.youtube.com/watch?v=8fMFwMbedIE) garde la même histoire (un chien
      déguisé en requin reçoit une friandise) : seule l'exécution change.
    - Leçon (déduction) : les ABCD sont une passe de **révision**, pas une étape de création.
@@ -57,31 +65,54 @@ La source est courte : elle porte 7 enseignements distincts, pas 10.
      - utiliser l'**audio** (musique, voix off, effets sonores) pour une expérience sensorielle riche ;
      - soigner **couleur et contraste** pour des visuels lumineux et forts ;
      - oser une **imagerie audacieuse** dès l'ouverture.
+   - Exemples montrés [image 3] :
+     - un **gros plan sur un aileron de requin** qui monte du bas de l'image. On ne comprend qu'ensuite
+       que c'est le déguisement du chien : c'est une énigme visuelle (déduction) ;
+     - une **gueule grande ouverte aux dents pointues** qui avale une friandise-poisson marquée « FISHO ».
 
 4. **B = Branding : la marque tôt, souvent et richement, visible et audible.** [§ B]
    - Intégrer l'identité de marque **dans l'histoire** : plans produit, *pack shots*, branding *in situ*
      (la marque dans le décor), éléments graphiques, voix off, traitements musicaux.
    - YouTube serait « almost entirely a sound-on experience » : exploiter le caractère **multisensoriel**
      du média, donc faire aussi **entendre** la marque.
-   - L'article annonce « trois façons » d'assurer la présence de la marque, mais elles sont dans une image
-     non extraite.
+   - Les « three different ways » annoncées sont montrées en trois vignettes [image 4] :
+     1. **la marque sur le produit** : une friandise gravée « FISHO » au centre d'une éclaboussure ;
+     2. **le pack shot en main** : une main sort une friandise d'un sachet ouvert au nom de la marque ;
+     3. **le logo en surimpression** dès la scène du placard (« Fishos / FOR YOUR DOG », lu sur l'image).
+   - Le playbook, lui, annonce « two different ways » et n'en montre que **deux** (sans la vignette du
+     sachet en main) [fiche:google-abcd-playbook-2022]. Voir « Limites ».
 
 5. **C = Connection : faire penser ou ressentir quelque chose, autour d'un seul message.** [§ C]
    - Le spectateur n'est pas passif : l'**éduquer, l'inspirer ou le divertir**.
    - **Humaniser** l'histoire pour qu'il s'y reconnaisse.
    - Utiliser des leviers émotionnels de storytelling, comme l'**humour** ou la **surprise**.
    - Garde-fou : « avoid doing too much in your ad. Focus the message as you make your connection. »
+   - Exemples montrés [image 5] :
+     - **montrer la relation** : la femme, accroupie, tend la friandise au chien, avec le sachet de la
+       marque visible sur le plan de travail. On humanise sans perdre le branding *in situ* ;
+     - **montrer une réaction de surprise** : écran partagé en diagonale. D'un côté la femme, main sur la
+       poitrine, entourée de points d'exclamation ; de l'autre le chien qui se lèche les babines.
 
 6. **D = Direction : demander une action, clairement et simplement.** [§ D]
    - Des instructions claires et simples sur la suite rendent la réponse voulue plus probable.
    - Supports possibles : **CTA écrit**, éléments graphiques, **audio**, ou même **une scène de
      l'histoire** qui montre l'action.
    - But : transformer des spectateurs engagés en clients actifs.
+   - Exemples montrés [image 6] :
+     - **pack shot + logo + CTA écrit** « PICK SOME UP AT YOUR PET STORE » (lu sur l'image) ;
+     - **une scène qui joue l'action** : en magasin, la femme, laisse à la main, prend un sachet sur un
+       rayon rempli de Fishos, avec le même CTA.
+   - Ce CTA remplace la signature « FOR YOUR DOG » du storyboard initial, qui ne demandait rien
+     (déduction).
 
 7. **Les ABCD se déclinent selon l'objectif de la campagne.** [§ Push the form further]
    - Trois versions : **notoriété** (« raise awareness »), **considération** (« drive consideration »),
      **action** (« prompt action »).
-   - Le détail est dans le playbook PDF, **non extrait**.
+   - L'article ne les détaille pas. Le playbook PDF le fait, avec des storyboards « From → To » :
+     voir [fiche:google-abcd-playbook-2022]. En bref :
+     - notoriété : son et voix humaine, marque fréquente et variée, personnes au centre, CTA inchangé ;
+     - considération : produit mis en valeur, bénéfice dans une scène de vie, urgence légère ;
+     - action : le produit devient la pub, fait précis sur l'offre, CTA relié au produit avec incitation.
 
 ## Frameworks (étapes complètes)
 
@@ -102,8 +133,9 @@ La source est courte : elle porte 7 enseignements distincts, pas 10.
 4. Produire les deux versions ou comparer avant / après : même histoire, exécution différente.
 
 ### C. ABCD par objectif [§ Push the form further]
-Variantes notoriété / considération / action. Contenu dans le playbook, **non extrait** : à récupérer
-avant d'en tirer des règles.
+Variantes notoriété / considération / action, absentes du texte de l'article. Les étapes complètes
+(principes propres à chaque objectif, révisions « From → To », évolution du CTA) sont dans
+[fiche:google-abcd-playbook-2022] : ne pas les dupliquer ici.
 
 ## Playbook actionnable (étapes ordonnées pour l'appliquer à une marque)
 
@@ -113,21 +145,24 @@ avant d'en tirer des règles.
 2. **Écrire le script ou le storyboard**, puis le relire avec la grille A/B/C/D **avant** toute
    production (tournage, animation Remotion, voix) [§ Applying the ABCDs].
 3. **A — Ouverture.** Vérifier que la première image démarre au milieu de l'action ou sur un gros plan,
-   qu'elle est lumineuse et contrastée, avec un sujet fort. Pas de mise en place lente [§ A].
+   qu'elle est lumineuse et contrastée, avec un sujet fort (par exemple une énigme visuelle, comme
+   l'aileron [image 3]). Pas de mise en place lente [§ A].
 4. **B — Marque.**
    - Faire apparaître la marque **tôt**, puis **plusieurs fois**, sous **plusieurs formes** (produit,
-     logo dans le décor, graphisme, mention orale) [§ B].
+     logo dans le décor, graphisme, mention orale) [§ B]. Les trois formes montrées : le nom sur le
+     produit, le sachet en main, le logo en surimpression [image 4].
    - Lui donner une **présence sonore**. Pour Sillage, qui n'utilise **jamais de musique** : nom prononcé
      en voix off et **signature en effets sonores** (déduction, voir « Limites »).
    - Hors YouTube (fil lu sans le son), doubler chaque élément sonore de marque par un élément
      **visuel** (déduction).
 5. **C — Connexion.** Choisir **un seul** levier émotionnel principal (humour, surprise, inspiration,
    apprentissage) et **un seul** message. Humaniser : une personne, un usage ou une situation à laquelle
-   le public s'identifie [§ C].
+   le public s'identifie [§ C] [image 5].
 6. **D — Direction.** Terminer par un CTA explicite et simple, de préférence doublé (texte à l'écran et
-   voix off, ou une scène qui montre l'action) [§ D].
-7. **Adapter à l'objectif.** Ajuster le dosage selon notoriété, considération ou action, d'après le
-   playbook PDF une fois extrait [§ Push the form further].
+   voix off, ou une scène qui montre l'action) [§ D] [image 6].
+7. **Adapter à l'objectif.** Appliquer la version des ABCD propre à l'objectif (notoriété, considération
+   ou action), avec les étapes de [fiche:google-abcd-playbook-2022] [§ Push the form further]. Toute
+   urgence ou offre ajoutée au CTA doit être **réelle** (règle d'honnêteté du projet).
 8. **Mesurer.** Comparer si possible deux versions (avant / après grille) sur un même budget, plutôt que
    de supposer le +30 % annoncé (déduction ; voir `experiences/`).
 
@@ -140,6 +175,10 @@ Formules de brief, citées mot pour mot :
 - « Ask them to take action » [§ D] : la pub doit demander quelque chose.
 - « The ABCD principles are not a formula for generating creative ideas. »
   [§ Crafting a successful ad] : distinguer l'idée (stratégie) de l'exécution (grille).
+
+CTA montrés dans les images (lus sur l'image) :
+- « PICK SOME UP AT YOUR PET STORE » [image 6] : CTA de base, un verbe d'action et un lieu d'achat.
+- Contre-exemple : « Fishos / FOR YOUR DOG » [image 2], une signature qui ne demande rien.
 
 Citations fortes :
 - « Creative — everything from concept to execution — is the No. 1 driver of campaign effectiveness and
@@ -176,14 +215,21 @@ Citations fortes :
   branding [§ B]. Sillage n'utilise **jamais de musique**.
 - Les autres leviers audio cités restent compatibles : **voix off** et **effets sonores**. Ils couvrent
   l'attention (A), la marque audible (B) et le CTA audio (D).
+- Le playbook va plus loin sur la musique (notes de musique en notoriété, nom de marque chanté en
+  action) : voir [fiche:google-abcd-playbook-2022].
 - La source ne dit pas si une pub **sans musique** perd en attention. C'est une question ouverte
   (lacune L2) : ne pas en conclure que Sillage est désavantagé, ni l'inverse.
 
-**Les exemples manquent**
-- Les 4 planches « idées » (Attention, Branding, Connection, Direction), les « trois façons » de mettre
-  la marque en avant et les 2 storyboards Fishos sont des **images non extraites**.
-- Le **playbook PDF** (`ABCDs_PDFPlaybook_April2022_Final.pdf`), qui contient les versions par objectif,
-  n'a pas été lu. La fiche reste donc au niveau des principes, sans exemples concrets.
+**Exemples et playbook : ce qui reste limité**
+- Les exemples sont lus [images 2 à 6], mais ce sont des **planches fixes** d'une marque **fictive**. La
+  vidéo avant / après n'a pas été regardée.
+- **Écart sur le Branding** : l'article annonce « three different ways » et sa planche montre bien trois
+  vignettes [image 4]. Le playbook annonce « two different ways » et n'en montre que deux (sans la
+  vignette du sachet en main) [fiche:google-abcd-playbook-2022]. L'écart est sans conséquence pratique,
+  mais il ne faut pas citer « trois façons » comme une règle de Google.
+- La petite pastille orange des sachets (« 100% » ?) est illisible [images 4 et 6] : n'en rien tirer.
+- Les versions par objectif sont dans le playbook, qui ne fournit **aucun chiffre par objectif**
+  [fiche:google-abcd-playbook-2022].
 
 **Transposabilité**
 - **« Sound-on » contre lecture muette** : sur Instagram, Facebook ou LinkedIn, une grande partie des
@@ -218,7 +264,7 @@ Citations fortes :
   - Source datée (2022) et très générale ; l'exemple est une marque **fictive**.
 - **Note : 3/5.**
   - Grille simple, solide et directement utilisable en brief et en contrôle qualité.
-  - Moins deux points pour les chiffres d'éditeur invérifiables, l'absence d'exemples extraits, la date et
+  - Moins deux points pour les chiffres d'éditeur invérifiables, un exemple unique et fictif, la date et
     la transposabilité limitée hors YouTube son activé.
 
 ## Thèmes couverts

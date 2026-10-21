@@ -93,3 +93,6 @@
 - [ ] [google-abcd-playbook] synthetiseur-connaissances : principe « audio de marque sans musique » (voix off + effets sonores au lieu du jingle) pour arbitrer la règle Sillage une fois pour toutes.
 - [ ] [google-abcd-playbook] cartographe-lacunes : préciser L2 (efficacité sans musique ni jingle, substitut au visage en Awareness) ; aucune preuve chiffrée que les ABCD par objectif battent les ABCD de base.
 - [ ] [google-abcd-playbook] extracteur-hooks + extracteur-frameworks (2e passe) : échelle de CTA par objectif ; ABCD par objectif + méthode « From → To ».
+- [x] extracteur-pdf Baromètre 2026 fait (64 p.) → analyste-transcription lancé (barometre-numerique-2026).
+- [ ] [barometre] verificateur-faits : chiffres lus sur image (30 diapositives, priorité p. 16-18, 25-27, 41-48) vs rapport complet https://www.vie-publique.fr/files/rapport/pdf/301998.pdf ou data.gouv.fr.
+- En réserve : extracteur-pdf sur le rapport complet du baromètre (seulement si la présentation ne suffit pas).
