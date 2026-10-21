@@ -232,3 +232,14 @@ analyste-performance → predicteur-performance (calibration) → analyste-resul
   GIF animés vue par vue. Pas de chevauchement : les pages image des PDF restent à `extracteur-pdf`. Placé dans le
   pipeline 1 entre l'extracteur et `analyste-transcription`, qui lit désormais `images.md` s'il existe ;
   `extracteur-web` et `extracteur-social` signalent dans leur rapport les images de contenu à faire lire.
+- 2026-10-21 : création de `developpeur-outils` (pôle A, 61 agents). Les scripts de `outils/` (`youtube/transcrire.py`,
+  `youtube/decouper.py`) n'avaient pas de propriétaire, et les livres audio officiels d'Alex Hormozi (*$100M Offers*,
+  *$100M Leads*, *$100M Money Models* ; sources C1 et C5 de `sources/a-traiter.md`) ne sont accessibles que par le
+  flux RSS de son podcast *The Game* (Spotify ne permet pas le téléchargement) : il faut un outil `outils/podcast/`.
+  Écrit dans `outils/<domaine>/` uniquement (scripts autonomes lancés avec `python3 -I`, `README.md`,
+  `requirements.txt` à versions fixées, option `--sortie` pour tester dans le scratchpad, test réel obligatoire
+  avant de rendre). Pas de chevauchement : il écrit l'outil, `transcripteur-audio` et les extracteurs s'en servent.
+  `transcripteur-audio` complété : entrée et sortie explicites (`sources/podcast/<slug>/`, un livre en plusieurs
+  épisodes = une source, ligne de `sources/index.md`), audio d'origine officielle seulement, scripts de
+  `outils/podcast/` d'abord puis méthode manuelle, audio dans le scratchpad au lieu de `/tmp`, bug ou outil
+  manquant demandé à `developpeur-outils`. `extracteur-youtube` : erreur de script → `developpeur-outils`.

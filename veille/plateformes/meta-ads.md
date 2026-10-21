@@ -1,0 +1,191 @@
+# Meta Ads (Facebook + Instagram) — fiche système publicitaire
+
+> Tenue par `veilleur-algorithmes`. Dernière mise à jour : **2026-10-21**.
+> Fenêtre « nouveautés 90 jours » : 2026-07-23 → 2026-10-21.
+> Point de départ : [fiche:meta-andromeda] (billet Engineering at Meta du 02/12/2024). Cette fiche dit ce qui a changé depuis.
+> Périmètre : la **diffusion payante** sur Facebook et Instagram (retrieval, ranking, enchère, Advantage+, IA créative, apprentissage, attribution). L'organique Instagram est traité dans `veille/plateformes/instagram.md`.
+
+Niveaux de preuve utilisés dans la fiche (séparation stricte) :
+- **[OFFICIEL]** : page Meta consultée directement. Cela couvre Engineering at Meta, les transcriptions des conférences de résultats hébergées par Meta (investor.atmeta.com / q4cdn), Meta for Business (`facebook.com/business/news`), l'Ads Guide, Meta for Developers et about.fb.com.
+- **[OFFICIEL-relayé]** : texte officiel qu'on n'a pas pu lire en direct, rapporté par une source tierce fiable. C'est le cas du Business Help Center, dont les pages se chargent en JavaScript et ne renvoient que leur titre à la lecture automatique.
+- **[PRATICIEN]** : affirmation datée d'un media buyer, d'une agence, d'un éditeur d'outil ou d'un blog. À traiter comme une *affirmation*, jamais comme un fait.
+- **[DÉDUCTION]** : notre lecture, qui n'est écrite nulle part chez Meta.
+
+**Avertissement permanent** : tous les chiffres de Meta (hausses de conversions, « ads quality », ROAS, CPA) sont des **affirmations d'éditeur**. Ils sont auto-déclarés et publiés sans méthodologie, souvent sur des segments « ciblés » ou « testés », par une entreprise qui vend la publicité. On les cite avec leur date. On ne les présente jamais comme une promesse de résultat.
+
+---
+
+## 1. Comment Meta diffuse une pub en 2026 (vue d'ensemble)
+
+La chaîne décrite en déc. 2024 tient toujours : **retrieval** (présélection de quelques milliers de pubs parmi des dizaines de millions), puis **ranking** (prédiction de la valeur), puis **enchère**. Chaque étage a été refondu depuis.
+
+| Brique | Rôle | État officiel daté | Source |
+|---|---|---|---|
+| **Andromeda** | Retrieval : présélectionne « the few thousand most relevant ads from tens of millions of potential candidates » | Introduit au S2 2024. Au T2 2025, couverture étendue à **Facebook Reels**, avec ~+4 % de conversions sur Facebook mobile Feed et Reels. Au T3 2025, **retrieval et early-stage ranking fusionnés en un seul modèle** (+14 % d'« ads quality » sur les surfaces Facebook). Au T4 2025, tourne sur Nvidia, AMD et MTIA, avec une efficacité de calcul presque triplée. | [OFFICIEL] Conférences de résultats du [30/07/2025](https://s21.q4cdn.com/399680738/files/doc_financials/2025/q2/META-Q2-2025-Earnings-Call-Transcript.pdf), du [29/10/2025](https://s21.q4cdn.com/399680738/files/doc_financials/2025/q3/META-Q3-2025-Earnings-Call-Transcript.pdf) et du [28/01/2026](https://s21.q4cdn.com/399680738/files/doc_financials/2025/q4/META-Q4-2025-Earnings-Call-Transcript.pdf) |
+| **Modèle génératif au retrieval** (« Meta Generative Recommender ») | « Rather than scoring every possible ad individually, we are now using LLMs to reason about ad content and user preferences together, and predict the best ad for each person. » « We deployed the first generative model into our ads retrieval system and saw notable improvements in ad performance. » | Annoncé au T2 2026. Pilotes LLM : +1 % de conversions d'événements d'app sur Instagram. **Andromeda n'est pas nommé.** | [OFFICIEL] [Conférence de résultats T2 2026, 29/07/2026](https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/META-Q2-2026-Earnings-Call-Transcript.pdf) |
+| **GEM** (Generative Ads Recommendation Model) | Modèle de fondation du **ranking**. Inspiré des LLM, il « enseigne » à des centaines de modèles verticaux, par transfert direct ou hiérarchique. Il apprend notamment de la « creative representation » et des formats publicitaires. | Lancé début 2025. Au T2 2025, +5 % de conversions sur Instagram et +3 % sur Facebook Feed et Reels. Au T4 2025, +3,5 % de clics sur Facebook. Version 2026 : **un seul modèle central** pour toutes les surfaces (architecture Kunlun), annoncé à +18,9 % de conversions et +12 % de CTR (période non donnée). | [OFFICIEL] [Engineering, 10/11/2025](https://engineering.fb.com/2025/11/10/ml-applications/metas-generative-ads-model-gem-the-central-brain-accelerating-ads-recommendation-ai-innovation/), [03/08/2026](https://engineering.fb.com/2026/08/03/ml-applications/training-gem-at-llm-scale-meta-ads-recommendation-foundation-model/), [13/10/2026](https://engineering.fb.com/2026/10/13/ml-applications/generative-ads-model-gem-scaling-frontier-ads-ai/) + conférences de résultats |
+| **Lattice** | Architecture unifiée qui remplace des modèles cloisonnés (par objectif, par surface) par de gros modèles qui généralisent | Déployé depuis 2023 au ranking tardif. En avril 2025, étendu au ranking précoce (~+4 % de conversions sur Facebook Feed et Reels). Au T3 2025, appliqué aux pubs d'app (~+3 %), avec **~100 modèles supprimés** et 200 autres à consolider. Au T4 2025, Stories et autres surfaces Facebook fusionnées (+12 % d'« ads quality »). | [OFFICIEL] conférences du 30/07/2025, du 29/10/2025 et du 28/01/2026 ; [Meta AI, mai 2023](https://ai.meta.com/blog/ai-ads-performance-efficiency-meta-lattice/) |
+| **Adaptive Ranking Model** | Inférence de ranking à l'échelle d'un LLM. Les requêtes sont envoyées vers des modèles plus lourds quand la probabilité de conversion est plus haute. | Lancé sur **Instagram au T4 2025** (+3 % de conversions, +5 % de CTR « for targeted users »). Étendu aux **conversions hors site** au T1 2026 (+1,6 % de taux de conversion sur les grandes surfaces Facebook et Instagram). | [OFFICIEL] [Engineering, 31/03/2026](https://engineering.fb.com/2026/03/31/ml-applications/meta-adaptive-ranking-model-bending-the-inference-scaling-curve-to-serve-llm-scale-models-for-ads/) ; [conférence T1 2026, 29/04/2026](https://s21.q4cdn.com/399680738/files/doc_financials/2026/q1/META-Q1-2026-Earnings-Call-Transcript.pdf) |
+| **Enchère** | « Valeur totale » = enchère × taux d'action estimé + qualité de la pub | Formule du Help Center (« About ad auctions »). Les sources secondaires ne s'accordent pas sur le rôle du terme qualité (additif ou multiplicatif). | [OFFICIEL-relayé] |
+
+**Contexte stratégique** (déclarations, pas des signaux) :
+- Zuckerberg (29/10/2025) décrit « three giant transformers » (Facebook, Instagram, pubs) que Meta veut fusionner « into a single unified AI system ». [OFFICIEL]
+- Le 29/07/2026, Meta dit vouloir des modèles de fondation qui servent **à la fois l'organique et la pub**. Elle dit aussi intégrer « a person's organic and ads activity » dans le contexte de pertinence d'une pub. [OFFICIEL]
+- En juin 2025, le Wall Street Journal a rapporté un objectif d'automatisation complète (création + ciblage + budget à partir d'une image produit et d'un budget) **d'ici fin 2026**. C'est un article de presse fondé sur des sources anonymes, que Meta n'a pas confirmé par écrit. [PRATICIEN/presse] ([Campaign Asia](https://campaignasia.com/article/meta-aims-to-fully-automate-ad-creation-with-ai-by-2026/502831))
+
+## 2. Ce qui a changé depuis la fiche Andromeda (déc. 2024)
+
+| Point de la fiche [fiche:meta-andromeda] | État en oct. 2026 | Niveau |
+|---|---|---|
+| Passage annoncé à une **perte autorégressive** pour des candidates « plus diversifiées » | **Jamais confirmé sous ce nom.** Meta annonce en revanche, au T2 2026, le « first generative model » déployé au retrieval (« Meta Generative Recommender »). Le lien avec la perte autorégressive annoncée en 2024 est **notre lecture** : Meta ne le fait pas. | [OFFICIEL] pour le modèle génératif ; [DÉDUCTION] pour le lien |
+| Andromeda déployé où ? | Meta ne publie **aucune carte surface par surface**. Ce qui est écrit : il « powers the ads retrieval stage of our ads system » (30/07/2025), avec une extension à Facebook Reels au T2 2025 et des gains « on Facebook surfaces » au T3 2025. Le billet de 2024 citait déjà des gains sur Instagram et Facebook. L'idée d'un « déploiement total en oct. 2025 » vient de blogs. | [OFFICIEL] / [PRATICIEN] pour la date |
+| « La créative est le nouveau ciblage » (interprétation de praticiens, absente de la source) | **Désormais en partie officiel.** Meta écrit le 22/04/2025 : la priorité passe à « creative diversification as the best lever to find the most relevant audiences ». La formule « la diversification **remplace** le ciblage » reste de Jon Loomer (20/10/2025). | [OFFICIEL] + [PRATICIEN] |
+| « Les créatives trop semblables sont regroupées ou pénalisées » (interprétation) | **Partiellement officiel**, avec une formulation prudente : « When creative is too similar, our system may not recognize it as different and could deliver it to the same sets of audiences. This overlap limits your reach and ultimately leads to Creative limited or Creative fatigue status. » Meta ne parle **ni de fusion, ni de pénalité, ni de seuil**. L'« Entity ID » est un terme de praticiens. | [OFFICIEL] (§3) |
+| « Il faut des dizaines de créatives » (interprétation) | Meta ne donne **aucun nombre lié à Andromeda**. La seule consigne chiffrée date du 19/11/2024 : « at least 20 diversified ads in Advantage+ shopping campaigns ». | [OFFICIEL] (§3) |
+| +22 % de ROAS, +7 % de conversions (IA générative) | Ce sont toujours des chiffres d'éditeur. D'autres s'y sont ajoutés (§5), tous du même type. | [OFFICIEL], chiffres d'éditeur |
+| « Segments à forte valeur » mieux servis | La logique est confirmée et généralisée : l'Adaptive Ranking Model envoie plus de calcul là où la conversion est probable. | [OFFICIEL] |
+
+## 3. Diversité créative et consolidation : ce que Meta dit vraiment
+
+### 3.1 Consignes officielles (chronologie)
+| Date | Consigne | Source |
+|---|---|---|
+| 19/11/2024 | « Creative diversification, or using a variety of ad creatives to reach different customers. » Trois étapes : 1) **lancer de nouvelles pubs chaque semaine**, « at least 20 diversified ads in Advantage+ shopping campaigns », et consacrer « 20-30% of your overall ad budget towards testing new ads » ; 2) faire un brief créatif hebdomadaire (ce qui marche, l'audience nouvelle visée, la direction créative) ; 3) « Forget the idea of a 'perfect ad' and focus on creating multiple, diverse ads variants with different attributes to reach incremental audiences », avec des personas fondés sur les « customer needs and blockers to purchase ». | [OFFICIEL] [Meta for Business](https://www.facebook.com/business/news/three-steps-to-optimize-your-performance-with-creative-diversification) |
+| 22/04/2025 | La diversification est définie comme « a wide range of ad creatives with different themes, messages, and visuals ». Andromeda « supports creative diversification strategies ». « The biggest constraint you can put on your Meta strategy is the constraints you place on your creative process. » | [OFFICIEL] [The Creative Advantage](https://www.facebook.com/business/news/the-creative-advantage-unlocking-the-power-of-diversification-with-meta-andromeda) |
+| page à jour (© 2026) | « When ads look too similar, engagement can drop and lead to less sales. » Le passage sur la similarité est cité en §2. Le statut se lit dans la colonne **Diffusion** d'Ads Manager. Piste proposée : « Reimagine your products as different situations. » **Aucun seuil** de différence n'est donné. | [OFFICIEL] [Creative differentiation (petites entreprises)](https://www.facebook.com/business/m/small-business/creative-differentiation) |
+| 11/07/2025 | Le **format flexible** accepte jusqu'à 10 images et vidéos par pub, avec un nouveau **« Creative breakdown »** qui donne la performance par asset (hors pubs à créative dynamique). | [OFFICIEL-relayé] [PPC Land](https://ppc.land/meta-unveils-creative-breakdown-for-flexible-formats-and-ai-generated-image-ads/) |
+| 16/11/2025 | Guide des fêtes 2025 : Meta déconseille de multiplier les ensembles de pubs qui visent des audiences et des objectifs similaires et préconise une **structure simplifiée**. | [OFFICIEL-relayé] [PPC Land](https://ppc.land/meta-releases-2025-festive-season-guide-with-ai-campaign-tools/) |
+| juin 2026 → | Des métriques de « creative insights » sont testées dans l'API avec « a small number of agencies/GCR resellers ». | [OFFICIEL-relayé] porte-parole Meta via Marketing Brew (28/09/2026) |
+| ~2026 | Métrique **« Creative diversity »** dans Ads Manager. Elle compare entre elles les images et les vignettes vidéo d'un ensemble de pubs et donne une note **High / Medium / Low**. Meta la marque « estimated » et « in development ». Elle ne porte **que sur le visuel** (rien sur le texte ni l'audio, d'après les relais). | [OFFICIEL-relayé] Help Center, cité par [Search Engine Land](https://searchengineland.com/meta-ads-creative-diversity-485751) et par Billo |
+| 28/09/2026 | Porte-parole de Meta (Alisha Swinteck) : la diversification est une « longstanding best practice ». Meta veut des conseils « deliberately outcome-based (not model-specific), like 'diversify your creative, test, and let the system optimize.' » | [OFFICIEL-relayé] [Marketing Brew](https://www.marketingbrew.com/stories/meta-ad-creative-diversification-best-practices-advertiser-approach), résumé par [Relevant Audience](https://www.relevantaudience.com/meta/meta-ad-creative-diversification-same-hook-same-ad/) |
+| 19/10/2026 | **« Choose an audience for each ad creative »** (Marketing API uniquement) : on attribue une tranche d'âge et un genre à chaque créative d'un même ensemble de pubs. L'ensemble de pubs doit rester large (âge minimum entre 18 et 25 ans, maximum 65 ans, les deux genres). L'option est **incompatible avec Advantage+ audience**. | [OFFICIEL-relayé] billet Meta for Developers rapporté par [PPC Land](https://ppc.land/metas-per-creative-audiences-force-ad-sets-to-stay-open-to-all-genders/) |
+
+### 3.2 Affirmations de praticiens (ne pas citer comme faits)
+- **« Entity ID »** : les pubs jugées conceptuellement identiques seraient regroupées sous un identifiant et se disputeraient la même audience. C'est un terme **de praticiens**, pas de Meta (le dit lui-même Nacho Manchi, Ready Set, [Creative Strategy Summit de Motion, juil. 2026](https://motionapp.com/library/talk/andromeda-2-0-explained-how-meta-s-algorithm-actually-picks-your-winning-ads/)). Precis (Minna Vainio, [19/07/2026](https://www.precis.com/resources/meta-andromeda-and-creative-strategy-what-actually-changed-and-what-didnt)) l'attribue à Meta **sans source**. [PRATICIEN]
+- **Seuils de similarité** à 60 % ou 40 %, ou règle des « 70 % visuellement différent » : **aucune source Meta**. [PRATICIEN, non vérifié]
+- **Nombre de créatives** : 15 à 20 pubs par ensemble (Manchi, juil. 2026) ; 8 à 12 concepts par campagne ; 3 concepts réellement distincts si le budget est serré et un renouvellement toutes les 2 semaines (Precis, 19/07/2026). [PRATICIEN]
+- **Fin de la règle « 6 pubs maximum par ensemble »** : c'était une ancienne recommandation de Meta, abandonnée selon Jon Loomer (sept. 2025) et PPC Land (juil. 2025). Nous n'avons pas trouvé le texte officiel de cet abandon. [PRATICIEN]
+- **« Le hook rate est un signal principal »** (Precis) : non sourcé. Le seul chiffre officiel proche est celui-ci : « 46% of online purchase conversions with Reels now happen within the first 2 seconds of attention on our video ads » (Meta, 03/03/2026, données de mars à mai 2024, 6 003 pubs vidéo). [OFFICIEL] pour le chiffre ; [PRATICIEN] pour l'idée de « signal »
+- **Date de lancement de la note « Creative diversity »** : le 26/08/2026 selon Common Thread, non confirmé par Meta. L'auteur de Search Engine Land note que des comptes qu'il jugeait très diversifiés étaient notés « Low ». [PRATICIEN]
+- **Définitions de Creative limited et Creative fatigue** : la première correspondrait à un coût par résultat en hausse sans doubler, la seconde à un coût par résultat doublé par rapport aux pubs passées. Ces définitions sont rapportées par des blogs, sans citation du Help Center. [PRATICIEN, à vérifier]
+
+## 4. Advantage+ (Sales, Leads, App) : ce qui est devenu la norme
+
+| Date | Fait | Source |
+|---|---|---|
+| 29/01/2025 | Test d'un parcours de création unifié : « all campaigns optimizing for sales, app or lead objectives will have Advantage+ turned on from the beginning ». À ce moment, ASC atteint 20 Md$ de revenu annualisé. | [OFFICIEL] [Conférence T4 2024](https://s21.q4cdn.com/399680738/files/doc_financials/2024/q4/META-Q4-2024-Earnings-Call-Transcript.pdf) |
+| 22/04/2025 | Renommage : « Advantage+ sales campaigns (formerly Advantage+ shopping campaigns) ». Chiffre annoncé : 9 % de CPA en moins en moyenne avec le parcours simplifié. | [OFFICIEL] (chiffre d'éditeur) |
+| 30/07/2025 | Parcours simplifié déployé pour **Advantage+ Sales et App** ; Leads « in the coming months ». Omnichannel ads (magasin + en ligne) lancées partout. | [OFFICIEL] |
+| 29/10/2025 | Déploiement terminé pour **Advantage+ Leads** : les campagnes Sales, App et Leads ont l'automatisation de bout en bout activée dès le départ. Revenu annualisé : 60 Md$. | [OFFICIEL] |
+| 08/10/2025 | Marketing API v24.0 : impossible de créer de nouvelles campagnes ASC ou AAC « legacy ». | [OFFICIEL] [Meta for Developers](https://developers.facebook.com/blog/post/2025/10/08/upcoming-asc-and-aac-mapi-deprecation-migration-options-to-advantage-plus/) |
+| 18/02/2026 → 19/05/2026 | v25.0 : « Creation, duplication, and updates to Advantage+ shopping campaigns and Advantage+ app campaigns is no longer allowed. » La règle s'applique à toutes les versions depuis le **19/05/2026**. | [OFFICIEL] [Changelog v25.0](https://developers.facebook.com/documentation/ads-commerce/marketing-api/marketing-api-changelog/version25.0) |
+| 2026 | Une campagne passe en « état Advantage+ » quand trois leviers sont réunis : budget Advantage+ au niveau campagne, audience Advantage+ et placements Advantage+. | [OFFICIEL-relayé] docs développeurs rapportées par [PPC Land](https://ppc.land/meta-deprecates-legacy-campaign-apis-for-advantage-structure/) |
+| 29/07/2026 | Solutions Advantage+ de bout en bout : **plus de 75 Md$** de revenu annualisé. | [OFFICIEL] |
+| 06/10/2026 | **Customer Lifecycle Strategy** ouverte à tous : on indique si la campagne vise les nouveaux clients, les clients existants ou les deux. Des exclusions de clients existants sont recommandées pour l'acquisition. | [OFFICIEL] [Advertising Week 2026](https://www.facebook.com/business/news/advertising-week-new-york-2026) |
+
+Pour info : la **« value optimization suite »** dépasse 20 Md$ de revenu annualisé (T1 2026). Les **partnership ads** (pubs avec un créateur) dépassent 10 Md$ (T1 2026). [OFFICIEL, chiffres d'éditeur]
+
+## 5. IA générative créative (Advantage+ creative, Ads Creative Studio, Muse)
+
+« Smart Creative » n'est **pas un nom officiel** trouvé chez Meta. Les noms officiels sont **Advantage+ creative** (améliorations automatiques et génération), **Ads Creative Studio** et, depuis l'été 2026, les modèles **Muse Image / Muse Video**.
+
+| Date | Fait | Source |
+|---|---|---|
+| 29/01/2025 | Plus de 4 M d'annonceurs utilisent au moins un outil d'IA générative. Image Animation (vidéo à partir d'une image) est lancé en oct. 2024. | [OFFICIEL] |
+| 22/04/2025 | Génération d'images dans Advantage+ creative : +11 % de CTR et +7,6 % de taux de conversion annoncés. | [OFFICIEL] (chiffres d'éditeur) |
+| 30/07/2025 | Près de 2 M d'annonceurs utilisent la génération vidéo (Image Animation, Video Expansion). Test de **traduction IA des légendes** de pub en 10 langues. | [OFFICIEL] |
+| 29/10/2025 | **Musique générée par IA** pour les pubs (« AI-generated music ... that aligns with the tone and message of the creative »). | [OFFICIEL] → **à désactiver pour Sillage** (règle 8) |
+| 28/01/2026 | Les outils de génération vidéo atteignent 10 Md$ de revenu annualisé. Test de l'assistant Meta AI pour annonceurs. | [OFFICIEL] |
+| 29/04/2026 | Plus de 8 M d'annonceurs. La génération vidéo donne « more than 3% higher conversion rates in tests ». Assistant Meta AI déployé chez tous les annonceurs éligibles. **Meta ads AI connectors** en bêta ouverte (relier un compte publicitaire à un agent IA). | [OFFICIEL] |
+| 01/06/2026 (mise à jour d'un billet du 03/02/2025) | Libellé **« AI info »** sur les pubs « created or significantly edited with our generative AI creative tools ». Si l'outil crée un **humain photoréaliste**, le libellé s'affiche « next to the Sponsored label ». Meta commence à **détecter les pubs faites avec des outils IA tiers** grâce à des « industry-standard signals ». Nouveau panneau « About this ad ». | [OFFICIEL] [about.fb.com](https://about.fb.com/news/2025/02/gen-ai-transparency-metas-ads-products/) |
+| 29/07/2026 | Plus de 9 M de petites entreprises utilisent au moins un outil. Génération d'images **à partir de vidéos**. Nouvelle solution créative de bout en bout qui traduit « real performance signals into their next creative decision, while preserving brand identity and tone ». **Muse Image** arrive dans les outils créatifs. | [OFFICIEL] |
+| 06/10/2026 | **Génération de vidéo à partir d'assets statiques : disponible pour tous.** Ads Creative Studio « beginning to roll out to more advertisers » : génération de concepts vidéo et retouche (accroches, audio, durée, textes, fins). Assistant : tests agentiques (créer, cibler, budgéter) avec contrôles d'approbation. **Serveur MCP Meta Ads** : chaque action exige des permissions et une **approbation explicite** avant mise en ligne. | [OFFICIEL] [Advertising Week 2026](https://www.facebook.com/business/news/advertising-week-new-york-2026) |
+
+Affirmations de praticiens : Advantage+ creative compterait 31 améliorations, dont 17 étiquetées IA (sept. 2026), et certaines seraient **pré-cochées** au point de nuire aux pubs à formulaire (Privyr). Non vérifié, mais ça justifie un contrôle à chaque lancement (règle 8). [PRATICIEN]
+
+## 6. Phase d'apprentissage
+
+| Point | Ce qu'on sait | Niveau |
+|---|---|---|
+| **Seuil** | Il faut **environ 50 événements d'optimisation par ensemble de pubs dans les 7 jours suivant la dernière modification importante**. Ce texte est stable : nous n'avons trouvé **aucune annonce officielle** de changement en 2025-2026. | [OFFICIEL-relayé] Help Center « About the learning phase » (page non lisible en direct), cité de façon concordante par plusieurs relais |
+| **« Learning limited »** | Statut affiché quand l'ensemble de pubs n'est pas censé atteindre le seuil. | [OFFICIEL-relayé] |
+| **API** | `learning_stage_info` : « Info about whether the ranking or delivery system is still learning for this ad set. » | [OFFICIEL] [Marketing API, Ad Campaign](https://developers.facebook.com/docs/marketing-api/reference/ad-campaign/) |
+| **Modifications importantes** | Ciblage, créative, événement d'optimisation, ajout de pub, pause de 7 jours ou plus, changement important de budget ou d'enchère. | [OFFICIEL-relayé] |
+| Seuil de budget « +20-25 % » | Aucune source Meta. | [PRATICIEN] |
+| **Seuils abaissés** | 10 événements observés en juin 2024 dans certains comptes, peut-être un test (Jon Loomer). 25 achats pour Advantage+ Sales, rapportés en août 2026 par des éditeurs d'outils et en avril 2026 par 1clickreport, **sans aucune source Meta**. | [PRATICIEN, non confirmé] ([PPC Land](https://ppc.land/learning-phase/)) |
+
+## 7. Attribution et mesure
+
+| Date | Fait | Niveau / source |
+|---|---|---|
+| Réglage par défaut | **7 jours après clic + 1 jour après vue**, avec 1 jour d'« engaged-view » pour la vidéo dans le réglage standard. Depuis mars 2026, l'engaged-view s'appelle **engage-through** : le défaut se lirait donc « 7 j clic + 1 j engage-through + 1 j vue » pour les campagnes de conversion site web. | [OFFICIEL-relayé] Help Center via Jon Loomer (03/03/2026) ; la formulation post-mars 2026 vient de [Dataslayer, 09/04/2026](https://www.dataslayer.ai/blog/meta-attribution-change-2026-what-engage-through-attribution-is-and-why-your-numbers-look-different) [PRATICIEN, plausible] |
+| 12/01/2026 | L'API Insights ne renvoie plus les fenêtres **7 jours après vue** ni **28 jours après vue**. Restent disponibles : 1 j clic, 7 j clic, 28 j clic, 1 j engaged view, 1 j vue. | [OFFICIEL] [Meta for Developers, 16/10/2025](https://developers.facebook.com/blog/post/2025/10/16/ads-insights-api-metric-availability-updates/) |
+| 03/03/2026 | **Le clic ne compte plus que s'il s'agit d'un clic sur lien** (« exclusively include link clicks ») pour les conversions site web et magasin. Les conversions issues de partages, d'enregistrements et d'autres actions sans lien passent en **engage-through attribution**. L'« engaged view » vidéo passe de **10 s à 5 s**. Déploiement échelonné dès fin mars 2026, sans changement de facturation. Meta présente les tests d'incrémentalité (Conversion Lift) comme « the gold standard in measurement ». | [OFFICIEL] [Simplifying Ad Measurement for a Social-First World](https://www.facebook.com/business/news/click-attribution) |
+| T2 2025 → T4 2025 | **Attribution incrémentale** déployée partout au T2 2025 : elle optimise et rapporte les conversions « that would not have happened without a person seeing the ad ». Au T4 2025, le nouveau modèle annonce +24 % de conversions incrémentales par rapport au modèle standard. | [OFFICIEL] (chiffre d'éditeur) |
+
+**Conséquence** [DÉDUCTION] : les données de 2025 et de 2026 **ne sont pas comparables telles quelles**. Les clics « sociaux » ne comptent plus comme clics depuis mars 2026, et les fenêtres après vue longues ont disparu de l'API en janvier 2026.
+
+## 8. Formats et limites techniques (Ads Guide officiel)
+
+Source : [OFFICIEL] [Meta Ads Guide](https://www.facebook.com/business/ads-guide/update/video/instagram-reels), consulté le 21/10/2026. Les valeurs peuvent varier selon l'objectif choisi : les pages lues sont celles de l'objectif Notoriété ou les pages génériques.
+
+| Placement | Ratio et résolution recommandés | Durée | Autres |
+|---|---|---|---|
+| **Instagram Reels (pub)** | 9:16, **1440×2560** | 0 s à 15 min | 4 Go maximum. **Zones de sécurité : 14 % en haut, 35 % en bas et 6 % sur chaque côté** sans texte, logo ni élément clé. Texte principal recommandé : 44 caractères. |
+| **Instagram Stories (pub)** | 9:16, 1440×2560 (tolérance 1 %) | 1 s à 60 min. Moins de 16 s : lecture en entier. 16 s ou plus : découpage possible en 1 à 3 cartes. | Mêmes zones de sécurité (14 / 35 / 6 %) |
+| **Facebook Feed, vidéo** | **4:5, 1440×1800** | 1 s à 241 min | H.264, AAC stéréo à 128 kbit/s ou plus. **Sous-titres et son : « Optional, but recommended »**. Texte principal 50-150 caractères, titre 27 caractères. |
+| **Facebook Feed, image** | 4:5, 1440×1800, JPG ou PNG | — | 30 Mo maximum, largeur minimale 600 px |
+| **Carrousel Instagram Feed** | **2 à 10 cartes**. 4:5 si le carrousel ne contient que des images, **1:1 seulement s'il contient des vidéos**. Au moins 1080×1080. | Vidéo : 1 s à 2 min | Texte principal 125 caractères |
+| **Format flexible** | Jusqu'à 10 images et vidéos, avec répartition de la performance par asset | — | [OFFICIEL-relayé] |
+
+Chiffre de contexte : « More than 60% of time spent on Facebook and Instagram is on video » (06/10/2026). [OFFICIEL]
+
+## 9. Nouveautés des 90 derniers jours (2026-07-23 → 2026-10-21)
+
+| Date | Nouveauté | Statut | Source |
+|---|---|---|---|
+| 29/07/2026 | **Meta Generative Recommender** : premier modèle génératif au retrieval ; +8,3 % de clics et +15,7 % de conversions sur Facebook (avec GEM et des modèles de compréhension des utilisateurs) ; Advantage+ à 75 Md$ ; 9 M de petites entreprises sur les outils créatifs IA ; solution créative de bout en bout ; arrivée de Muse Image | Annoncé / déployé | [OFFICIEL] [T2 2026](https://s21.q4cdn.com/399680738/files/doc_financials/2026/q2/META-Q2-2026-Earnings-Call-Transcript.pdf) |
+| 03/08/2026 | GEM entraîné « at LLM scale » (efficacité d'entraînement doublée, 4× de FLOPs en 12 mois) | Technique | [OFFICIEL] [Engineering](https://engineering.fb.com/2026/08/03/ml-applications/training-gem-at-llm-scale-meta-ads-recommendation-foundation-model/) |
+| ~26/08/2026 | Note **Creative diversity** (High / Medium / Low) visible dans Ads Manager, « in development », disponibilité inégale selon les comptes | Déploiement progressif | [OFFICIEL-relayé] ; date [PRATICIEN] |
+| 28/09/2026 | Meta confirme à la presse que la diversification est une « longstanding best practice », et que les métriques de creative insights sont testées depuis juin 2026 | Déclaration | [OFFICIEL-relayé] Marketing Brew |
+| 06/10/2026 | Advertising Week : vidéo à partir d'images statiques **disponible pour tous** ; Customer Lifecycle Strategy pour tous ; Ads Creative Studio étendu ; serveur MCP Meta Ads étendu (approbation explicite obligatoire) ; tests agentiques de l'assistant | Lancé / tests | [OFFICIEL] [Meta for Business](https://www.facebook.com/business/news/advertising-week-new-york-2026) |
+| 13/10/2026 | **GEM 2026** : un seul modèle central pour toutes les surfaces et tous les objectifs ; +18,9 % de conversions et +12 % de CTR annoncés | Déployé (selon Meta) | [OFFICIEL] [Engineering](https://engineering.fb.com/2026/10/13/ml-applications/generative-ads-model-gem-scaling-frontier-ads-ai/) |
+| 15/10/2026 | Nouveaux formats de marque (Ads Super Burst, First Impression Ads, Reels Trending Ads étendus) | Lancé | [OFFICIEL-relayé] via `instagram.md` ([Search Engine Land](https://searchengineland.com/meta-introduces-new-brand-advertising-formats-across-facebook-and-instagram-496608)), non relu lors de cette passe |
+| 19/10/2026 | **Audience par créative** (« Choose an audience for each ad creative »), via la Marketing API uniquement | Lancé (API) | [OFFICIEL-relayé] [PPC Land](https://ppc.land/metas-per-creative-audiences-force-ad-sets-to-stay-open-to-all-genders/) |
+| fin oct. 2026 (à venir) | Conférence de résultats du T3 2026 : nouveaux points attendus sur le retrieval, GEM et Advantage+ | À suivre | — |
+
+Faits marquants de 2026, antérieurs à la fenêtre (rappel) : fin des fenêtres 7 j et 28 j après vue dans l'API (12/01) ; Andromeda sur Nvidia, AMD et MTIA (28/01) ; nouvelle définition du clic et engage-through (03/03) ; Adaptive Ranking Model (31/03) ; AI connectors en bêta (29/04) ; fin de la création d'ASC et d'AAC dans l'API (19/05) ; « About this ad » et détection de l'IA tierce (01/06).
+
+## 10. Ce que ça change pour nos agents (règles à appliquer)
+
+Destinataires : `strategiste-ads`, `redacteur-ads`, `ideateur`, `redacteur-hooks`, `scenariste-reel`, `redacteur-carrousel`, `directeur-creatif-visuel`, `pont-motion-design` (et, par lui, Sillage), `garde-conformite`, `predicteur-performance`, `analyste-performance`, `publicateur`.
+
+1. **Diversifier sur le fond, pas sur la forme.** Chaque lot de pubs doit varier sur au moins un axe de fond : motivation ou frein d'achat, persona, situation d'usage, angle (prix, performance, facilité…) ou format (vidéo 9:16, image 4:5, carrousel). Changer une couleur, un mot ou l'ordre des plans ne compte pas. Fondement : « different themes, messages, and visuals », « customer needs and blockers to purchase », « Reimagine your products as different situations ». [OFFICIEL]
+2. **Volume : pas de nombre magique.** Meta ne fixe aucun nombre lié à Andromeda. Repère officiel pour Advantage+ Sales : au moins 20 pubs diversifiées, de nouvelles pubs chaque semaine, 20 à 30 % du budget en test (19/11/2024). Règle de travail pour un petit budget (Sillage, clients au lancement) : **3 à 5 concepts réellement distincts × 2 à 3 exécutions**, puis au moins un nouveau concept par semaine. Cela remplace le « 3 à 6 créas à tester » de `strategiste-ads`, qui pousse à tester des variantes. [DÉDUCTION, fondée sur l'OFFICIEL] → demande de délégation.
+3. **Lire les statuts de diffusion avant d'agir.** Si Ads Manager affiche « Creative limited », « Creative fatigue » ou une note « Creative diversity » à Low, on produit un **nouveau concept**, pas une variante de plus. Tant que Meta la dit « in development », la note est un indice, pas un verdict. → `analyste-performance`, `strategiste-ads`.
+4. **Structure consolidée.** Peu d'ensembles de pubs. Jamais plusieurs ensembles sur des audiences et des objectifs similaires. Advantage+ par défaut pour Sales, Leads et App. Contraintes de ciblage limitées aux raisons métier (zone, âge légal, exclusion des clients via Customer Lifecycle Strategy). [OFFICIEL-relayé + OFFICIEL]
+5. **Dimensionner le budget pour la phase d'apprentissage.** Budget quotidien par ensemble de pubs ≥ (50 × CPA cible) / 7 [DÉDUCTION à partir du seuil officiel]. Si c'est hors de portée, on regroupe les ensembles ou on optimise pour un événement plus fréquent en amont (prospect, ajout au panier), après accord de l'utilisateur. On regroupe les modifications importantes et on n'y touche pas pendant l'apprentissage.
+6. **Mesure.** Chaque rapport indique le réglage d'attribution utilisé. On ne compare pas les résultats d'avant mars 2026 avec ceux d'après sans le signaler. Pour décider d'une montée en budget, on privilégie l'attribution incrémentale ou un Conversion Lift plutôt que le ROAS en 7 j clic. Les chiffres de Meta sont cités comme « affirmation Meta, <date> ». → `analyste-performance`, `predicteur-performance`.
+7. **Spécifications vidéo pour les pubs (Sillage).** Export pub en **1440×2560 (9:16)** et **1440×1800 (4:5)**, au-dessus du 1080 de l'organique. Rien d'important dans les **14 % du haut, 35 % du bas et 6 % des côtés**. Moment fort dans les **2 premières secondes** (statistique officielle des 46 %). Son et sous-titres « recommended ». Carrousel publicitaire : 2 à 10 cartes, 4:5 s'il n'y a que des images, 1:1 s'il y a de la vidéo. → `pont-motion-design`, `scenariste-reel`, `redacteur-carrousel`.
+8. **Advantage+ creative sous contrôle.** À chaque lancement, on vérifie une à une les améliorations activées. On **désactive toute musique générée par IA** et toute musique ajoutée (règle studio : jamais de musique). Expansion d'image, génération d'arrière-plan et vidéo à partir d'images statiques ne s'activent qu'après validation explicite de l'utilisateur, parce qu'elles modifient un rendu Sillage. On peut les tester en A/B contre la version d'origine. → `strategiste-ads`, `publicateur`.
+9. **Conformité IA.** Les pubs faites avec les outils Meta reçoivent automatiquement le libellé « AI info ». Les pubs faites avec des outils tiers (Higgsfield, etc.) peuvent être détectées. Un **humain photoréaliste généré par IA** déclenche un libellé visible : jamais de faux témoignage ni de faux client, même étiqueté. → `garde-conformite`.
+10. **Audience par créative** (API, depuis le 19/10/2026) : on ne l'utilise que si une créative s'adresse clairement à une tranche d'âge ou à un genre précis. Elle est incompatible avec Advantage+ audience et impose un ensemble de pubs large. Par défaut, on laisse la créative faire le ciblage. [OFFICIEL-relayé]
+11. **Agents et API.** Toute action passe par l'API officielle ou le serveur MCP Meta Ads, qui exige lui-même une approbation explicite. **Aucune dépense ni mise en ligne sans validation de l'utilisateur.** Jamais d'automatisation par identifiants. Un agent qui pilote un compte doit connaître la phase d'apprentissage (règle 5). → `publicateur`.
+12. **Ne pas vendre les mythes.** Dans tout document client, « Entity ID », « seuil de similarité de 60 % », « 25 conversions suffisent » et « la créative remplace le ciblage » sont présentés comme des **hypothèses de praticiens**. Formulation officielle utilisable : « Meta présente la diversification créative comme “the best lever to find the most relevant audiences” (avril 2025). »
+
+## 11. Questions ouvertes / à vérifier à la prochaine passe
+
+- Lire en direct les pages du Business Help Center (apprentissage, attribution, enchères, Creative diversity, Creative limited / fatigue). Elles se chargent en JavaScript et ne renvoient que leur titre : il faut un outil de rendu (voir les demandes de délégation).
+- Le « Generative Recommender » remplace-t-il Andromeda, ou s'y ajoute-t-il ? Meta ne le dit pas.
+- Le seuil de 50 événements a-t-il changé pour Advantage+ Sales ? Aucun document Meta à ce jour.
+- Réglage d'attribution par défaut exact depuis mars 2026 (libellé engage-through) : à confirmer dans Ads Manager sur un compte réel.
+- Conférence de résultats du T3 2026 (fin oct. 2026) : à dépouiller.
+- Les améliorations Advantage+ creative sont-elles pré-cochées dans nos comptes ? À contrôler au premier lancement.
+
+---
+
+## Journal des modifications
+
+| Date | Modification |
+|---|---|
+| 2026-10-21 | **Création de la fiche.** Chaîne de diffusion 2026 (Andromeda, modèle génératif au retrieval, GEM 2025 → 2026, Lattice, Adaptive Ranking Model) d'après Engineering at Meta et les transcriptions officielles des conférences du T4 2024 au T2 2026. Bilan des écarts avec [fiche:meta-andromeda]. Consignes officielles de diversification (19/11/2024, 22/04/2025, page Creative differentiation, déclaration du 28/09/2026) séparées des affirmations de praticiens (Entity ID, seuils, nombres de créatives). Advantage+ Sales, Leads et App (chronologie, fin des API ASC et AAC le 19/05/2026). IA créative (musique IA, vidéo à partir d'images statiques, libellés IA). Phase d'apprentissage (50 événements en 7 j, aucun changement officiel). Attribution (fin des fenêtres 7 j et 28 j après vue le 12/01/2026, clic = clic sur lien depuis le 03/03/2026). Spécifications de l'Ads Guide. Nouveautés des 90 jours. 12 règles pour les agents. |

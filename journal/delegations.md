@@ -116,3 +116,8 @@
 - [ ] [passe-2-b2b] synthetiseur-connaissances : nuance « no decision = surtout de l'indécision » + confrontation Dunford / category design / ABM avec les tailles de comité vérifiées.
 - [ ] [passe-2-b2b] concepteur-experiences : « TLA puis Message Ad » vs « Message Ad seul » avec groupe témoin.
 - [ ] [passe-2-b2b] verificateur-faits : relancer PB02-PB04 après extraction du playbook ScaleVP.
+- [x] verificateur-faits passe 2 publicité fait (54 : 12 ✅ 27 🟡 2 ❌ 13 ❓) → consolidateur-fiche (corrections meta-andromeda, qBxEAqZbHVg, dAJyqo6wnq4) lancé ; compléments envoyés à veilleur-algorithmes (meta-ads.md).
+- [ ] [passe-2-publicite] extracteur-web : pages Meta Business Help Center (112167992830700 phase d'apprentissage, 204798856225114 vérification, devise/fuseau, description par placement, Creative testing) — rendu JS illisible pour WebFetch : tenter un navigateur headless (Playwright/Chromium préinstallé), sinon abandon.
+- [ ] [passe-2-publicite] garde-conformite : aucune pub Meta sur un sujet social, électoral ou politique dans l'UE depuis le 06/10/2025 ; déclarer toute campagne finance/emploi/logement.
+- [ ] [passe-2-publicite] chercheur-sources : rapport Kantar complet ABCD ; étude NCSolutions (2017, 2023) ; benchmark CPM France non commercial ; billet Meta « 4,52 $ / +22 % ».
+- [ ] [passe-2-publicite] concepteur-experiences : relevé du CPM réel des premiers comptes ; Advantage+ vs manuel et volume de créatives.
