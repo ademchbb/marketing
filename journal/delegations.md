@@ -142,7 +142,7 @@
 - Limite technique : 20 sous-agents simultanés au maximum. File d'attente des analyses (à lancer dès qu'une place se libère) :
   - [x] au0-dI_wjI8 (Dan Kennedy) · [x] U1b1o-m5bpI (Andy Raskin) · [x] lhlS-Wds02M (Rory Sutherland) · [x] 8zcnK6Lx_p4 (Seth Godin)
   - [ ] vague 2 : oeG8NWrWV4Y ×3 (Doctolib), JE2_7elAcxM ×5 (Hormozi vente), 6_CCutkM11g ×6 (Money Models)
-  - [ ] lot B du canon (16 vidéos) dès que l'extracteur rend
+  - [ ] lot B du canon transcrit (16 vidéos, 24 unités) : 1 partie → OgRgbar2dOQ, guZa7mQV1l0, DJLtwT1Z0eo, FN4eDk1pq6U, 1N2XALudegQ, Ge8xTCIP0Zw, rl3SELihHqs, Br2KSsaTzUc, buAY7UtjCb4, IWuVEcQexWo, rPZG5xfN7vI, aGI7puAXf6w ; parties → Z2uoA3bhJT0 ×3, k834E6OTGTM ×2, xf0Mli0LVgI ×2, SUzKZfyaAK8 ×3
   - [ ] hopkins-scientific-advertising ×2 parties (texte LoC 1923, domaine public)
   - [ ] halbert-boron-letters ×3 parties (signaler les « Commentaire de Bond Halbert », chap. 1-3, qui ne sont pas de Gary)
 - [x] Boron Letters extraites (25 lettres, 35 946 mots, 3 parties). [ ] verificateur-faits : chiffres des lettres (taux de réponse, enveloppes, santé/jeûne).
@@ -151,3 +151,4 @@
 - [x] architecte-agents : lot 2 intégré (strategiste-ads, redacteur-ads, garde-conformite, tags, veilleur meta-ads).
 - [ ] architecte-agents (passe suivante, APRÈS la MAJ de `frameworks/index.md`) : (a) décision orchestrateur = OUI, élargir la sortie de garde-conformite à `marques/<slug>/10-ads/conformite-<campagne>.md` et `marques/<slug>/emails/<sequence>/conformite.md` ; (b) publicateur applique la liste à cocher Advantage+ et vérifie les UTM ; (c) ajouter les nouveaux frameworks pub/conformité aux entrées de strategiste-ads, redacteur-ads, garde-conformite.
 - [ ] consolidateur-fiche : mettre à jour « Thèmes couverts » avec les nouveaux tags (qBxEAqZbHVg, meta-andromeda, dAJyqo6wnq4, cnil, bpifrance, binet-field, pILj7t-qQhs) — avant la synthèse.
+- [ ] developpeur-outils (après l'outil podcast) : `outils/youtube/transcrire.py` → `html.unescape` + espaces insécables (codes HTML trouvés dans les sous-titres ; vérifier les autres sources).

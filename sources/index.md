@@ -48,5 +48,6 @@
 | rPZG5xfN7vI | Russell Brunson Shares 10 YEARS of Funnelhacking Secrets! | Russell Brunson | 56:03 | 36 k | 1 | transcrit |
 | SUzKZfyaAK8 | The One-Person Business Model (How To Productize Yourself Full Guide) | Dan Koe | 3h22 | 434 k | 3 | transcrit |
 | aGI7puAXf6w | Négociation : 10 techniques d'Expert et leurs parades (source: Harvard, FBI, GIGN) | Quentin Despas - The Good Sales | 28:17 | 491 k | 1 | transcrit |
+| scalevp-founder-led-growth-2025 | Founder-led sales and marketing never ends (playbook PDF) | Scale Venture Partners × LinkedIn (Craig Rosenberg, Mark Gustaferro) | 33 p. | — | 1 | transcrit |
 
 Statuts : `transcrit` → `analysé` (notes de parties) → `fiché` (fiche.md) → `intégré` (principes à jour).
