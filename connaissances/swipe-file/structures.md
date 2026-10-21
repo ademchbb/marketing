@@ -35,6 +35,13 @@ Les hooks à placer dans le temps 1 sont dans `hooks.md`, les appels à l'action
 | Y1 | Vidéo YouTube longue éducative | 15 min et plus | **[MUSIQUE]** (intro rituelle) | oui |
 | Y2 | Les 3 premières vidéos d'une chaîne | 3 vidéos | non | à adapter |
 | D1 | Déclinaisons : virale en 3 axes, cascade depuis un pilier | — | **[MUSIQUE]** (axe audio B-roll) | oui |
+| L2 | Post LinkedIn de dirigeant B2B (thought leadership, 80/20) | post court | non | à adapter |
+| P1 | `[pub payante]` Pub Meta image, réponse directe (texte en 2 phrases, 7 cases) | 1 visuel + 5 champs | **[MUSIQUE]** (enhancement « add music ») | oui |
+| P2 | `[pub payante]` Pub vidéo YouTube : passe ABCD sur le storyboard | toute durée | **[MUSIQUE]** (citée comme levier A et B) | oui |
+| P3 | `[pub payante]` Plan de déclinaison créative Meta (personas × angles × conscience) | un lot de créas | non | oui |
+| P4 | `[pub payante]` `[vente B2B]` Séquence LinkedIn TLA → message au nom du même dirigeant | 2 à 5 étapes | non | à adapter |
+| V1 | `[vente B2B]` Récit de vente en 3 temps / vidéo explicative (+ pitch carte du marché) | pitch, deck, vidéo | non | oui |
+| V2 | `[vente B2B]` Rendez-vous de découverte et proposition chiffrée | 1 à 2 rendez-vous | non | oui |
 
 ---
 
@@ -220,6 +227,24 @@ concis, qui accroche, retient jusqu'au bout et fait parler en commentaires ; ale
 
 Recyclage : une accroche qui a surperformé ailleurs (tweet, short) se reprend mot pour mot comme ligne 1
 [fiche:Ch4Sl0POBhU 02:00].
+
+## L2 — Post LinkedIn de dirigeant B2B (thought leadership)
+
+Base : playbook LinkedIn × Scale Venture Partners présenté par Ruby James et AJ Wilcox [fiche:pILj7t-qQhs].
+Premium sobre : **à adapter**. Selon la source, les posts de dirigeants qui marchent sont bruts (texte écrit par
+la personne, selfie vidéo en marchant). Le motion Sillage sert plutôt les data-viz et les témoignages mis en forme ;
+« brut contre mis en forme » est une hypothèse à tester dans `experiences/` [fiche:pILj7t-qQhs 00:20] [fiche:pILj7t-qQhs 00:21].
+
+| Bloc | Contenu | Source |
+|---|---|---|
+| 0. Matière | Une « pièce d'or » du jour, trouvée avec les 4 questions du journaliste (tendances clients, défis du secteur, thèmes qui remontent, évolution du produit et pourquoi), ou un extrait d'une interview d'une heure menée par le marketing. Jamais un post entièrement généré : la personne garde la dernière main. | [fiche:pILj7t-qQhs 00:20] [fiche:pILj7t-qQhs 00:23] |
+| 1. Ouverture | Confession du sceptique, recadrage du coupable, ou diagnostic par une réplique de prospect (`hooks.md` familles 2 et 4). | [fiche:pILj7t-qQhs 00:08] [fiche:hdjlCLb9Hl8 00:00] [fiche:hdjlCLb9Hl8 00:11] |
+| 2. Corps « enseigner » (environ 80 % des posts) | Un problème de l'audience, une tendance, une leçon de leadership. On ne vend pas. | [fiche:pILj7t-qQhs 00:25] |
+| 2 bis. Corps « solution » (environ 20 % des posts) | Récit de construction du produit (« veiled sales pitch ») : ce qu'on a appris, pourquoi tel choix. | [fiche:pILj7t-qQhs 00:25] [fiche:pILj7t-qQhs 00:26] |
+| 3. Fin | Une vraie question réfléchie ; réponse à chaque commentaire ; les idées qui émergent nourrissent les posts suivants. | [fiche:pILj7t-qQhs 00:26] |
+
+Rythme minimal annoncé : 10 posts par an pour être « actif » (affirmation LinkedIn) [fiche:pILj7t-qQhs 00:13].
+Amplification payante : voir P4.
 
 ---
 
