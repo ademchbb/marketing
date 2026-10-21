@@ -1,7 +1,8 @@
 # État de l'agence — file de tâches
 
 > Toute session ou reprise commence ici. Mettre à jour après chaque étape, puis commit + push
-> sur la branche `claude/stoic-brown-bol5m5` (repo `ademchbb/marketing`).
+> sur la branche `claude/marketing-agent-hierarchy-gm2c4k` (repo `ademchbb/marketing`).
+> (Ancienne branche de travail : `claude/stoic-brown-bol5m5`.)
 
 ## Contexte
 - 2026-10-19 ~23h30 (heure FR) : l'utilisateur crée l'agence. Il envoie 5 vidéos (personal branding,
@@ -27,6 +28,18 @@
 - [ ] `chercheur-sources` → `sources/a-traiter.md`
 - [ ] ensuite : 1 synthétiseur pour `connaissances/index.md` + désaccords transverses ; `architecte-agents` (renvois agents → frameworks, règle tiret long) ; `rapporteur`
 - [x] 4 × `veilleur-algorithmes` → `veille/plateformes/{instagram,tiktok,youtube,linkedin}.md`
+
+## Session du 2026-10-21 (demande : « te former au maximum, hiérarchie stricte d'agents »)
+- Vérifié : un sous-agent n'a pas l'outil Agent → la sous-délégation passe par l'orchestrateur
+  (section « Demandes de délégation » à la fin de chaque rapport).
+- [x] Lot 2 découpé (`decouper.py`) : 6 vidéos, 7 parties + 4 sources web.
+- [ ] 8 × `analyste-transcription` sur le lot 2 (lancés 2026-10-21)
+- [ ] `architecte-agents` : section « Sous-délégation » dans tous les agents, hiérarchie dans `agents.md`,
+      règle tiret long, renvois frameworks/principes (lancé)
+- [ ] `chercheur-sources` : « Lot 3 — Canon du marketing » (Hormozi, Ogilvy, Schwartz, Cialdini, Ries & Trout,
+      Sharp, Godin, Sutherland…) + programme de formation dans `sources/a-traiter.md` (lancé)
+- ensuite : `consolidateur-fiche` × 10 → hooks/frameworks/vérif → synthétiseur (principes + `index.md`)
+  → `extracteur-youtube` sur le lot 3 → même pipeline.
 
 ## À faire (dans l'ordre)
 4. `synthetiseur-connaissances` → `connaissances/principes/` + `index.md`.
