@@ -85,3 +85,5 @@
 - Hors besoin : extracteur-hooks sur CNIL (aucun hook).
 - [ ] [google-abcd] analyste-transcription : compléter les notes avec `images.md`, puis relancer consolidateur-fiche (après lecteur-images).
 - [x] extracteur-pdf ABCD fait (25 p.) → analyste-transcription lancé (google-abcd-playbook-2022).
+- [x] lecteur-images ABCD fait (`images.md`, 6 images). Décision : pas de relance de l'analyste sur l'article ; le playbook PDF (déjà extrait, en analyse) couvre les mêmes storyboards en plus complet. Le consolidateur du playbook lira aussi `images.md`.
+- Écarté : extraction de la vidéo Fishos (8fMFwMbedIE), pub de démonstration fictive ; le playbook suffit.
