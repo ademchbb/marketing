@@ -12,3 +12,7 @@
    organise une collaboration entre une marque et un créateur, est-elle « mandataire » ? Tant qu'on n'a
    pas de réponse, l'agence ne monte aucune collaboration rémunérée avec un créateur
    ([fiche:bpifrance-influenceur-reglementation]).
+3. **Clé API YouTube (facultatif, confort)** : pour vérifier les métadonnées des vidéos (vues, durée, date),
+   l'agence passe aujourd'hui par un relais public tiers. Une clé YouTube Data API v3 (gratuite, Google
+   Cloud) stockée en variable d'environnement de l'environnement cloud (`YOUTUBE_API_KEY`, jamais dans
+   le repo) rendrait la vérification plus fiable. Sans elle, on continue comme aujourd'hui.

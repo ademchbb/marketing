@@ -13,6 +13,9 @@ Les hooks à placer dans le temps 1 sont dans `hooks.md`, les appels à l'action
   (jamais un morceau extrait de YouTube) [fiche:AA1LoZwW_2Y 01:28].
 - Les minutages en secondes sont des **cibles**, déduites des règles des sources (hook d'1 s, contenu à 60-70 %
   de la durée, valeur dans les 3 premières secondes, etc.). Ce ne sont pas des mesures.
+- **Tags** (lot 2, même légende que `hooks.md`) : `[pub payante]`, `[vente B2B]`, `[preuve réelle]`,
+  `[conformité : …]`. Les horodatages [mm:ss] des fiches `yRgPbqywUJ8` et `qBxEAqZbHVg` sont ramenés en hh:mm ;
+  les sources écrites sont repérées par `§ intertitre`.
 
 ## Index
 

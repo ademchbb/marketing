@@ -38,13 +38,13 @@
 - [ ] extracteur-hooks, extracteur-frameworks, 3 × verificateur-faits (passe 2) — lancés
 - [x] `architecte-agents` : section « Sous-délégation » dans tous les agents, hiérarchie dans `agents.md`,
       règle tiret long, renvois frameworks/principes (lancé)
-- [ ] `chercheur-sources` : « Lot 3 — Canon du marketing » (Hormozi, Ogilvy, Schwartz, Cialdini, Ries & Trout,
+- [x] `chercheur-sources` : « Lot 3 — Canon du marketing » (33 sources C1-C33) (Hormozi, Ogilvy, Schwartz, Cialdini, Ries & Trout,
       Sharp, Godin, Sutherland…) + programme de formation dans `sources/a-traiter.md` (lancé)
 - [x] `architecte-agents` : créés `extracteur-pdf` et `lecteur-images` (60 agents) ; lecteur-images lancé sur ABCD
 - [ ] 4 × `extracteur-pdf` (ABCD, Binet & Field, Baromètre 2026, Hopkins) lancés
 - Délégations demandées par les agents : `journal/delegations.md`
 - ensuite : → hooks/frameworks/vérif → synthétiseur (principes + `index.md`)
-  → `extracteur-youtube` sur le lot 3 → même pipeline.
+  → `extracteur-youtube` sur le lot 3 (30 vidéos, lancé) → même pipeline.
 
 ## À faire (dans l'ordre)
 4. `synthetiseur-connaissances` → `connaissances/principes/` + `index.md`.

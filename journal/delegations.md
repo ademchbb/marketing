@@ -99,3 +99,10 @@
 - [x] [binet-field] consolidateur-fiche lancé.
 - [ ] [binet-field] verificateur-faits (compléments) : Fig. 10 en haute résolution, périodes Fig. 4/6/7 ; attributions Kahneman « cats », heuristique d'affect (Slovic), IBM années 1970 ; dossiers IPA VW Commercial Vehicles et BT Business.
 - [ ] [binet-field] chercheur-sources : contrepoints L9/L3 (travaux B2B Institute suivants, *The Long and the Short of It*, critiques de la méthode IPA, débat ABM vs Ehrenberg-Bass « portée large vs comptes nommés »).
+
+## Lot 3 : canon du marketing (33 sources, `sources/a-traiter.md` C1-C33)
+- [x] extracteur-youtube × 2 (lot A 14 vidéos dont source 34 Money Models ; lot B 16 vidéos) — lancés
+- [x] extracteur-web : Boron Letters (C8) — lancé ; C2 Hopkins : déjà en cours par extracteur-pdf
+- [x] architecte-agents : créer `developpeur-outils` (script podcast RSS → transcription pour C1, C5, Money Models audio) — lancé
+- [ ] [canon] verificateur-faits : chaîne OgilvyGroup01 officielle ? ; rachat de Magnetic Marketing par Brunson ; chiffres de praticiens (Welsh, Koe, clients de Galloway et Raskin, VaynerMedia) ; offre de livres « gratuits + frais de port » de Brunson.
+- Bloqués : marketingbullets.com (Bencivenga, 503), archive des newsletters de Halbert (403). Manque toujours : un ouvrage francophone de rédaction persuasive.
