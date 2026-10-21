@@ -23,3 +23,7 @@
 
 ## synthetiseur-connaissances
 - [ ] [hdjlCLb9Hl8] Confronter Dunford (catégorie en dernier, persona champion) au category design (*Play Bigger*) et à l'ABM dans `principes/positionnement-et-niche.md` (L8).
+- [x] pILj7t-qQhs (lancé)
+- [ ] [pILj7t-qQhs] verificateur-faits : playbook LinkedIn × Scale Venture Partners *Founder-Led Sales & Marketing Never Ends* (33 %, +24 %/+120 % Sendoso, ×6, +20-30 %) ; date de lancement des Thought Leader Ads ; noms propres incertains.
+- [ ] [pILj7t-qQhs] chercheur-sources : transcription officielle https://b2linked.com/blog/ep167/ ; épisode LinkedIn Ads Show avec Casey Jenkins ; playbook TLA de Fibbler (L1).
+- Hypothèse à tester (pipeline Sillage) : le motion design premium sert les pubs de marque et la data-viz plutôt que le post de dirigeant lui-même.
