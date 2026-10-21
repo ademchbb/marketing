@@ -176,3 +176,6 @@
 - [x] Kotler : notes faites → consolidation lancée. [ ] verificateur-faits : « premières fois » historiques (Mitsui, 1652, N.W. Ayer, Pears), *Firms of Endearment*, durée des CMO 2012, Wanamaker et Will Rogers, FDA 1997. [ ] chercheur-sources : *Marketing 4.0* / *5.0*, *The Death of Demand*.
 - [ ] archiviste : « Carte des fichiers » de `connaissances/index.md` (29 nouveaux frameworks) — à faire avec la synthèse.
 - [ ] synthetiseur-connaissances : arbitrer les tensions de `frameworks/index.md` (démarrer avec Meta vs organique ; brand early vs organique ; son activé vs sans son ; catégorie en dernier vs category design ; champion seul vs ABM ; authenticité vs motion premium ; portée large vs niche).
+- [x] StoryBrand (S8lH_TdQZgs) et vente (nte_k2hPXR0) : notes faites → consolidations lancées.
+- [ ] Passe de vérification n°3 (canon) à lancer quand les fiches du canon seront faites : regrouper les demandes « Chiffres et affirmations » de toutes les fiches du lot 3 (Al Ries, Cialdini, Kotler, StoryBrand, vente, Priestley, Hopkins…) par domaine (persuasion/études, histoire de la pub, chiffres de praticiens).
+- [ ] [vente] chercheur-sources : vidéo d'origine de Marc Wayshak (13 sales psychology tips).
