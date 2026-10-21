@@ -204,7 +204,7 @@ sur les algorithmes ou les plateformes datent de moins de 18 mois, sauf la sourc
 
 Bilan du lot 3 : 33 sources, dont **7 francophones** (C4, C9, C14, C19, C24, C29, C33), **5 textes ou audios
 intégraux gratuits et légaux** (C1, C2, C5, C8 ; plus l'audio *Money Models* en variante de la source 34),
-**28 vidéos YouTube** (de 6 min à 4h43 ; 21 dépassent 45 min). Sources liées aux plateformes et datant de moins
+**29 vidéos YouTube** (de 6 min à 4h43 ; 21 dépassent 45 min). Sources liées aux plateformes et datant de moins
 de 18 mois : C18, C22, C30 ; exception signalée : C28 (21 mois). Les docs officielles YouTube et LinkedIn sont
 déjà dans la file (sources 17 et 27) et dans `veille/plateformes/` : ce lot n'en ajoute pas.
 
