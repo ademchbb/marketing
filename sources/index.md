@@ -13,5 +13,6 @@
 | pILj7t-qQhs | LinkedIn Ads Executive Thought Leadership Strategies (The LinkedIn Ads Show, ép. 167) | LinkedIn Ads Show (invitée : Ruby James) | 46:57 | 418 | 1 | transcrit |
 | qBxEAqZbHVg | 48 min pour enfin comprendre Meta Ads (Masterclass) | Coudac - Agence d'acquisition | 48:08 | 103 k | 1 | transcrit |
 | hdjlCLb9Hl8 | How to nail your product positioning — April Dunford (Obviously Awesome) | Lenny's Podcast | 1h05 | 52 k | 1 | transcrit |
+| google-abcd-playbook-2022 | ABCD — Mastering the art of effective storytelling on YouTube (playbook PDF) | Google / Think with Google | 25 p. | — | 1 | transcrit |
 
 Statuts : `transcrit` → `analysé` (notes de parties) → `fiché` (fiche.md) → `intégré` (principes à jour).

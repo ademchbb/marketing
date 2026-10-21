@@ -84,3 +84,4 @@
 - [ ] [bpifrance/cnil] extracteur-web : guide de bonne conduite influenceurs (economie.gouv.fr, 403 pour nos outils au 2026-10-20 : à retenter).
 - Hors besoin : extracteur-hooks sur CNIL (aucun hook).
 - [ ] [google-abcd] analyste-transcription : compléter les notes avec `images.md`, puis relancer consolidateur-fiche (après lecteur-images).
+- [x] extracteur-pdf ABCD fait (25 p.) → analyste-transcription lancé (google-abcd-playbook-2022).
