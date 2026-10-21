@@ -179,3 +179,4 @@
 - [x] StoryBrand (S8lH_TdQZgs) et vente (nte_k2hPXR0) : notes faites → consolidations lancées.
 - [ ] Passe de vérification n°3 (canon) à lancer quand les fiches du canon seront faites : regrouper les demandes « Chiffres et affirmations » de toutes les fiches du lot 3 (Al Ries, Cialdini, Kotler, StoryBrand, vente, Priestley, Hopkins…) par domaine (persuasion/études, histoire de la pub, chiffres de praticiens).
 - [ ] [vente] chercheur-sources : vidéo d'origine de Marc Wayshak (13 sales psychology tips).
+- [x] Priestley p1 + p2 faites → consolidation lancée.
