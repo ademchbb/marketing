@@ -96,3 +96,6 @@
 - [x] extracteur-pdf Baromètre 2026 fait (64 p.) → analyste-transcription lancé (barometre-numerique-2026).
 - [ ] [barometre] verificateur-faits : chiffres lus sur image (30 diapositives, priorité p. 16-18, 25-27, 41-48) vs rapport complet https://www.vie-publique.fr/files/rapport/pdf/301998.pdf ou data.gouv.fr.
 - En réserve : extracteur-pdf sur le rapport complet du baromètre (seulement si la présentation ne suffit pas).
+- [x] [binet-field] consolidateur-fiche lancé.
+- [ ] [binet-field] verificateur-faits (compléments) : Fig. 10 en haute résolution, périodes Fig. 4/6/7 ; attributions Kahneman « cats », heuristique d'affect (Slovic), IBM années 1970 ; dossiers IPA VW Commercial Vehicles et BT Business.
+- [ ] [binet-field] chercheur-sources : contrepoints L9/L3 (travaux B2B Institute suivants, *The Long and the Short of It*, critiques de la méthode IPA, débat ABM vs Ehrenberg-Bass « portée large vs comptes nommés »).
