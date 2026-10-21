@@ -162,3 +162,7 @@
 - [ ] [passe-2-droit] chercheur-sources : textes consolidés hors Légifrance (loi 2023-451 art. 4 V, 6, 7, 8 ; décrets 2025-1137 et 2026-233 ; L.34-5 ; délibérations CNIL) ; ARPP v5 ; doctrine sur l'agence mandataire / agent.
 - [x] verificateur-faits : fusion des passes 2 dans `registre.md` (lancée).
 - [x] [passe-2-b2b] corrections faites dans pILj7t-qQhs et hdjlCLb9Hl8. [ ] restes mineurs : TB16 (RevSure confirmé), TB18 (Alison Coleman), TB10 (Help Scout « first »), TB20 (« most » et non 6) — à joindre à la prochaine passe du consolidateur.
+- [x] extracteur-pdf ScaleVP fait (33 p.) : Sendoso +24 %/+120 % et ×3,7/+22 % TROUVÉS (p. 4, 8, 31) → 🟡 (message envoyé à la fusion du registre) ; ×6 et +20-30 % absents → restent ❓. Analyse lancée.
+- [ ] [scalevp] chercheur-sources : origine du « ×6 après TLA » et du « +20-30 % » (pages LinkedIn TLA / Conversions API).
+- [x] [LJVP2wRk7Cc p2] notes faites (démo ScoreApp, lien affilié). [ ] garde-conformite : enrichissement automatique des données de leads vs RGPD (base légale, information, minimisation). [ ] consolidateur-fiche quand la partie 1 rend.
+- [x] Doctolib p1 lancée.
