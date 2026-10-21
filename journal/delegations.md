@@ -152,3 +152,7 @@
 - [ ] architecte-agents (passe suivante, APRÈS la MAJ de `frameworks/index.md`) : (a) décision orchestrateur = OUI, élargir la sortie de garde-conformite à `marques/<slug>/10-ads/conformite-<campagne>.md` et `marques/<slug>/emails/<sequence>/conformite.md` ; (b) publicateur applique la liste à cocher Advantage+ et vérifie les UTM ; (c) ajouter les nouveaux frameworks pub/conformité aux entrées de strategiste-ads, redacteur-ads, garde-conformite.
 - [ ] consolidateur-fiche : mettre à jour « Thèmes couverts » avec les nouveaux tags (qBxEAqZbHVg, meta-andromeda, dAJyqo6wnq4, cnil, bpifrance, binet-field, pILj7t-qQhs) — avant la synthèse.
 - [ ] developpeur-outils (après l'outil podcast) : `outils/youtube/transcrire.py` → `html.unescape` + espaces insécables (codes HTML trouvés dans les sous-titres ; vérifier les autres sources).
+- [x] [barometre] fiche faite (4,5/5 données, 4/5 usage marketing ; tableau de 29 chiffres clés).
+- [ ] [barometre] extracteur-pdf : rapport complet (vie-publique 301998.pdf) + open data data.gouv.fr (croisements âge × réseaux, légende p. 46).
+- [ ] [barometre] cartographe-lacunes : L6 couverte seulement pour la France métropolitaine ; manque données par plateforme et par âge (Médiamétrie, Arcom).
+- [x] hopkins-scientific-advertising p1 et p2 : analyses lancées.

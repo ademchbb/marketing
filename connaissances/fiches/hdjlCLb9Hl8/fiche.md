@@ -11,6 +11,10 @@ https://www.youtube.com/watch?v=hdjlCLb9Hl8 · 1 h 05 min 39 s · 52 014 vues (1
 > Ignoré : les trois sponsors (Amplitude, Flatfile, Productboard) et la fin de l'épisode sur la façon
 > de suivre Dunford, sauf la remarque Twitter contre LinkedIn.
 > Trace détaillée : `notes-partie-01.md` (partie unique, 00:00-01:05).
+> **Vérification** : `connaissances/verifications/passe-2-b2b.md` (2026-10-21). Le 40 % de « no
+> decision » est confirmé, mais pas son équivalence avec le statu quo [verif:GB01] [verif:GB02] ; le
+> comité de 5 à 7 personnes est daté [verif:GB03] ; plusieurs détails du Segway sont corrigés
+> [verif:TB06] [verif:TB08].
 
 ## En une phrase
 Le positionnement consiste à définir **en quoi un produit est le meilleur au monde pour livrer une
@@ -66,9 +70,14 @@ de vente que le « champion » peut défendre devant son chef.
    - Quand on dit « concurrence », on pense aux produits qui nous ressemblent. En B2B il y a deux
      ensembles : le **statu quo** (ce que l'entreprise fait aujourd'hui, même mal) et la
      **short-list** que l'acheteur constitue s'il décide d'acheter.
-   - La plupart des gens oublient le statu quo, alors qu'environ **40 % des deals B2B** seraient
-     perdus en « no decision » (affirmation non sourcée) : « we lost to the spreadsheet, we lost to
-     pen and paper, we lost to interns ».
+   - La plupart des gens oublient le statu quo, alors qu'environ **40 % des deals B2B** sont perdus
+     en « no decision » (✅ 40 à 60 % selon Dixon et McKenna, *The JOLT Effect*, 2022 [verif:GB01]) :
+     « we lost to the spreadsheet, we lost to pen and paper, we lost to interns ».
+   - ❌ Correction [verif:GB02] : « no decision » ne veut pas dire « perdu contre le statu quo ».
+     Selon *The JOLT Effect*, la préférence pour le statu quo n'explique qu'environ **44 %** de ces
+     pertes ; les **~56 %** restants viennent de l'**indécision** de l'acheteur (sa peur de mal
+     choisir). Battre le statu quo ne suffit donc pas : il faut aussi réduire le risque perçu du
+     choix (framework F).
    - Il faut « put a stake in the ground » : voilà ce que je dois battre pour gagner.
 
 3. **La valeur doit être différenciée, pas « generally valuable » : chaque capacité passe au crible
@@ -139,9 +148,11 @@ de vente que le « champion » peut défendre devant son chef.
    - Le parcours type : un VP ventes décide d'acheter un CRM et délègue à « John » (sales ops), pas
      expert du marché, noyé sous « 9 000 » éditeurs « all in the top right quadrant ». John doit
      **justifier son choix devant son chef** (« I'm not allowed to just throw the dart at it »).
-   - Le comité d'achat compte 5 à 7 personnes (affirmation non sourcée) : utilisateurs, IT, achats,
-     juridique, parfois le RSSI, et l'**acheteur économique** qui signe. Mais c'est John qui fait la
-     recherche, construit la short-list et fait entrer les autres à la fin.
+   - Le comité d'achat compte 5 à 7 personnes selon Dunford (❌ chiffre daté [verif:GB03] : il
+     correspond au CEB en 2015, 5,4 personnes ; les données récentes vont de 6 à 10 décideurs selon
+     Gartner à **13 en moyenne** selon Forrester, 2024) : utilisateurs, IT, achats, juridique,
+     parfois le RSSI, et l'**acheteur économique** qui signe. Mais c'est John qui fait la recherche,
+     construit la short-list et fait entrer les autres à la fin.
    - « If our positioning doesn't resonate for that champion, we're dead in the water. We don't even
      get on a short list. »
    - Les fiches-personas stéréotypées pour chaque membre (« Eric the IT person… likes video games »)
@@ -252,7 +263,9 @@ million companies », un gorille : Zendesk) :
 4. Énoncer les besoins qui en découlent : « …you really need these four things ».
 5. Se placer : « …and we got that. And that's why you should pick us. »
 
-But : que l'acheteur « feel comfortable they made a good decision ». Sinon : « no decision ».
+But : que l'acheteur « feel comfortable they made a good decision ». Sinon : « no decision ». C'est
+la cause majoritaire des « no decision » : l'indécision (~56 %) pèse plus que le statu quo (~44 %)
+selon *The JOLT Effect* [verif:GB02].
 
 ### G. Hiérarchie positionnement → messaging → branding [00:40]-[00:41]
 - **Positionnement** : l'intrant fondamental (alternatives, où et comment on gagne, pour qui).
@@ -294,7 +307,8 @@ Mise en garde : ne pas sur-positionner « in the super early days », quand les 
 - Les motifs « qui nous aime et pourquoi » portent sur le **type d'entreprise**, pas sur la personne.
 
 ### J. Le champion avant tout [00:57]-[01:02]
-1. **Cartographier le comité d'achat** (5 à 7 personnes, affirmation) : champion, utilisateurs, IT
+1. **Cartographier le comité d'achat** (5 à 7 personnes selon Dunford ; ❌ chiffre daté, 6 à 10
+   selon Gartner, 13 en moyenne selon Forrester 2024 [verif:GB03]) : champion, utilisateurs, IT
    (sécurité, conformité, intégrations, entrepôt de données), achats, juridique, parfois le RSSI,
    acheteur économique.
 2. **Identifier le champion** : celui qui fait la recherche, construit la short-list, parle aux
@@ -341,8 +355,9 @@ marquées « déduction ».
 11. **Écrire chaque affirmation de supériorité** avec « meilleur comment » et « pour qui ». Ouvrir le
     pitch par une carte du marché [00:37]-[00:39].
 12. **Identifier le champion** et lui préparer un kit d'arguments pour convaincre les autres membres
-    du comité d'achat et son chef, au lieu de multiplier les fiches-personas [01:00]-[01:02]. En B2C
-    (déduction), le persona acheteur peut suffire, comme Dunford l'admet.
+    du comité d'achat (souvent plus large que les 5 à 7 de Dunford [verif:GB03]) et son chef, au
+    lieu de multiplier les fiches-personas [01:00]-[01:02]. En B2C (déduction), le persona acheteur
+    peut suffire, comme Dunford l'admet.
 13. **Tester auprès d'acheteurs qualifiés**, jamais auprès du grand public ou de l'équipe. Noter
     qualitativement l'enthousiasme et l'envie d'acheter, puisqu'aucune métrique ne mesure le
     positionnement. Pour l'agence (déduction) : `simulateur-audience` simule l'acheteur qualifié et
@@ -370,7 +385,10 @@ marquées « déduction ».
   conseil « fais simple pour tout le monde ».
 - « In B2B we lose about 40% of our deals to no decision, which actually means we lost to the
   spreadsheet, we lost to pen and paper, we lost to interns. » [00:24] : un ennemi inattendu (le
-  statu quo). **Chiffre non sourcé : ne pas le réutiliser sans vérification.**
+  statu quo). **Le 40 % est ✅ [verif:GB01], mais l'équivalence « no decision » = statu quo est ❌
+  [verif:GB02] : ne pas reprendre la phrase telle quelle.** Version sûre : « Entre 40 et 60 % des
+  deals B2B finissent en "no decision" (Dixon et McKenna, 2022), et la peur de mal choisir en est la
+  première cause. »
 - Hooks de diagnostic à partir des trois répliques de prospect [00:11] : « Si vos prospects vous
   disent "[réplique]", votre problème n'est pas [X]. »
   - « Yeah, yeah, yeah. Just back it up and pitch it to me again. »
@@ -407,7 +425,9 @@ marquées « déduction ».
   we were promised, man. » [00:44]-[00:45] : une promesse vague crée une attente démesurée, puis la
   déception. « That refusal to position it at a micro level left it up to the customers to decide
   what it was. » Les premiers utilisateurs ne savaient pas où rouler : klaxons sur la route, parents
-  avec poussette sur le trottoir. **Détails historiques à vérifier avant réutilisation.**
+  avec poussette sur le trottoir. **Détails historiques vérifiés** : révélation le 03/12/2001 dans
+  *Good Morning America* ✅ [verif:TB07] ; ne pas dire que Jobs et Bezos ont financé le projet
+  [verif:TB06] ; pas de vente récente de brevets [verif:TB08].
 - **Magic Leap** (l'éléphant dans la main) et **Google Glass** (« I get what it is, but why do we
   need one of those? ») : le lancement « gee whiz » sans cible ni valeur [00:41]-[00:43].
 - **Filet à thon et mérou** [00:51] : image simple pour faire accepter un positionnement initial
@@ -437,27 +457,39 @@ marquées « déduction ».
 Toutes ces affirmations viennent de Dunford (ou de Lenny quand c'est précisé). Aucune n'est sourcée
 dans l'épisode.
 
-**Chiffres sectoriels (non sourcés, à confier au `verificateur-faits`)**
-- Environ **40 % des deals B2B perdus en « no decision »**, c'est-à-dire face au statu quo [00:24]
-  [00:38]. Répété deux fois. Des études sur les cycles de vente B2B citent des ordres de grandeur
-  comparables : à confirmer, avec la source et la date.
+**Chiffres sectoriels (vérifiés : `connaissances/verifications/passe-2-b2b.md`, 2026-10-21)**
+- Environ **40 % des deals B2B perdus en « no decision »** [00:24] [00:38]. Répété deux fois.
+  ✅ [verif:GB01] : 40 à 60 % du pipeline qualifié selon Dixon et McKenna, *The JOLT Effect* (2022,
+  2,5 M de conversations commerciales) ; près de 40 % selon Gartner. Citable avec sa source et sa date.
+  - Mais ❌ [verif:GB02] : Dunford assimile « no decision » au statu quo (« we lost to the
+    spreadsheet »). Selon *The JOLT Effect*, le statu quo n'explique qu'environ **44 %** de ces
+    pertes ; les **~56 %** restants viennent de l'**indécision** de l'acheteur (peur de mal choisir).
+    Répartition tirée de résumés secondaires, à confirmer dans le livre.
 - **5 à 7 personnes** dans une décision d'achat de logiciel B2B, même peu cher [00:57] [00:59].
-  Expérience personnelle. D'autres sources (Gartner notamment) citent souvent des groupes d'achat
-  plus larges : à vérifier.
+  Expérience personnelle. ❌ [verif:GB03] : chiffre proche de celui du CEB en 2015 (5,4 personnes),
+  daté et sous-estimé. Données récentes : 6 à 10 décideurs pour une solution complexe (Gartner),
+  **13 personnes en moyenne** et 89 % d'achats impliquant au moins deux services (Forrester, *State of
+  Business Buying 2024*, 04/12/2024). Ne pas écrire « 5 à 7 » comme un fait.
 - « 9 000 companies listed… they're all in the top right quadrant » sur G2 et Software Advice
   [00:36]. **Hyperbole illustrative**, allusion au Magic Quadrant de Gartner.
 
 **Segway et autres exemples historiques**
 - Le fondateur (Dean Kamen, non nommé) aurait levé « a hundred million from like Steve Jobs and Jeff
-  Bezos and a who's who of Silicon Valley venture » [00:44]. Montant et noms à vérifier : Jobs et
-  Bezos sont surtout connus comme soutiens enthousiastes du projet.
-- Révélation en direct à *Good Morning America* [00:44]. Fin 2001 de mémoire, à vérifier.
+  Bezos and a who's who of Silicon Valley venture » [00:44]. 🟡 [verif:TB06] : montant cohérent
+  (environ 90 M$ selon *Code Name Ginger*, près de 100 M$ de développement). Financeurs documentés :
+  **Kleiner Perkins** (John Doerr, 38 M$), **Credit Suisse First Boston**, **Paul Allaire**. Jobs et
+  Bezos apparaissent comme des soutiens enthousiastes consultés en amont ; leur investissement n'est
+  pas établi.
+- Révélation en direct à *Good Morning America* [00:44]. ✅ [verif:TB07] : le 03/12/2001, à Bryant
+  Park (New York), sur ABC.
 - Les brevets du Segway « just got sold last year or the year before » à une entreprise de type
-  hoverboard [00:45]. Imprécis : Segway a été racheté par Ninebot en 2015, la date avancée ne colle
-  pas.
+  hoverboard [00:45]. ❌ [verif:TB08] : c'est l'**entreprise entière** Segway Inc., brevets compris,
+  que **Ninebot** a rachetée en **avril 2015**. En **2020** (annonce en juin, arrêt en juillet), c'est
+  la **fin de la production du Segway PT** qui a été annoncée, sans vente de brevets. Dunford confond
+  probablement les deux événements.
 - Magic Leap réorienté vers le B2B industriel ; Google Glass vers des usages B2B précis
-  [00:42]-[00:43]. À dater : Google a annoncé l'arrêt de Glass Enterprise en mars 2023, peu après
-  l'épisode.
+  [00:42]-[00:43]. ✅ [verif:TB09] : fin des ventes de Glass Enterprise le **15/03/2023** (fin du
+  support le 15/09/2023), peu après l'épisode ; virage de Magic Leap vers l'entreprise en 2020.
 - Help Scout : « the first ones to do a… proper services oriented shared inbox » [00:30]. À vérifier.
 - Help Scout dispose de « a bunch of great stats that prove » que le service client est un moteur de
   croissance [00:33]. Statistiques non citées.
@@ -501,8 +533,9 @@ dans l'épisode.
   - Paradoxe interne : elle cite elle-même l'ABM comme débouché d'une bonne segmentation [00:56].
     Elle accepte donc le ciblage par comptes, mais rejette la multiplication des personas à
     l'intérieur du compte.
-  - Ses 5 à 7 décideurs sont en dessous de ce que citent souvent les études sur les groupes d'achat :
-    si les comités sont plus larges, l'argument « un seul persona suffit » mérite d'être testé.
+  - Ses 5 à 7 décideurs sont en dessous des données récentes (6 à 10 selon Gartner, 13 en moyenne
+    selon Forrester 2024 [verif:GB03]) : les comités étant plus larges, l'argument « un seul persona
+    suffit » mérite d'être testé.
 
 **Limites de périmètre**
 - **Strictement B2B tech.** « I don't really get consumer » [00:06]. Elle admet qu'en B2C le persona
@@ -516,9 +549,11 @@ dans l'épisode.
 - **Exemples rétrospectifs.** Postman, Help Scout, Segway, Magic Leap et Google Glass sont racontés
   après coup. Le biais du survivant n'est pas traité (combien de repositionnements bien menés ont
   échoué quand même ?).
-- **Chiffres non sourcés** : 40 % de « no decision », 5 à 7 décideurs, détails du Segway (100 M$,
-  investisseurs, date du rachat des brevets). La leçon tient, les détails sont à vérifier avant toute
-  réutilisation dans un contenu.
+- **Chiffres non sourcés dans l'épisode, vérifiés depuis** : 40 % de « no decision » ✅
+  [verif:GB01], mais cause statu quo minoritaire (~44 %) [verif:GB02] ; 5 à 7 décideurs daté
+  [verif:GB03] ; détails du Segway approximatifs (financeurs [verif:TB06], rachat de l'entreprise par
+  Ninebot en 2015 et non vente récente de brevets [verif:TB08]). La leçon tient, à condition
+  d'utiliser les versions corrigées.
 
 **Tensions internes (résolues)**
 - **« Peu importe la grand-mère » et « un bon positionnement paraît évident »** [00:17] [00:20] ne se
