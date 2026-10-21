@@ -3,11 +3,12 @@
 > Famille : itération / distribution · Niveau : exploitation d'un succès
 
 ## Origine
-Quatre méthodes décrivent la même idée : un succès validé doit être exploité, pas oublié. Ce document les fusionne.
+Cinq méthodes décrivent la même idée : un succès validé doit être exploité, pas oublié. Ce document les fusionne (la cinquième, la déclinaison par persona, a été ajoutée le 2026-10-21).
 - **Caleb Ralston**, réutilisation 2.0 : garder l'accroche validée mot pour mot et la recréer nativement sur chaque plateforme (F17 [02:00-02:04]). Tout contenu à 3x ou plus se teste sur une autre plateforme (F22.5) [fiche:Ch4Sl0POBhU].
 - **Ava Yuergens**, déclinaison d'une virale en 3 axes : une seule variable, un autre format, une version comparaison (framework 15, cas Carl [00:47]). « Toute vidéo virale doit être refaite dans les autres formats » (framework 8) [fiche:HzoQgQS8czE].
 - **Jack Neel**, le hook d'invité recyclé : reprendre exactement le hook d'un clip viral de l'invité sur un autre podcast [fiche:HzoQgQS8czE framework 16, 00:52].
 - **Alex Hormozi** : republier ses « greatest hits », car « we need to be reminded more than we need to be taught » [fiche:Jmkq5RLjm0U 01:15-01:17].
+- **Dara Denney** (pub payante) : décliner une créa gagnante **pour chaque persona cœur**, en gardant la structure et en changeant l'accroche, les images et le contexte (framework F [09:47]-[10:19]) [fiche:yRgPbqywUJ8]. Exemple rattaché au sponsor de la vidéo, sans résultat mesuré.
 - Fiabilité :
   - le principe est convergent (4 voix) ;
   - les cas chiffrés (environ 9 M et 10 M de vues pour Carl) sont déclaratifs et de seconde main.
@@ -40,7 +41,14 @@ Le hook viral d'un invité ou d'un partenaire, reposé sous forme de question, p
 ### 7. Axe 6 : republier les greatest hits
 Chaque année, on republie ou refait les meilleurs contenus pour les nouveaux venus (audience froide), en renouvelant 60 à 70 % des exemples.
 
-### 8. Décliner chaque mois avec un CTA vers l'offre
+### 8. Axe 7 : un autre persona (pub payante surtout)
+Garder la structure gagnante, changer l'accroche, les images et le contexte pour chaque persona cœur (exemple de Denney : une pub « David et Goliath » pour les femmes de 45+ en périménopause, déclinée pour « men on a GLP-1 » et pour de jeunes mères). Choisir les personas avec `audit-des-lacunes-du-compte-pub.md`.
+Questions :
+- Le persona visé est-il sous-représenté dans le compte ?
+- L'accroche reprend-elle ses mots exacts (verbatims) ?
+- **Conformité** : l'accroche n'affirme ni ne sous-entend une condition de santé du lecteur (règles Meta sur les attributs personnels) : `garde-conformite`.
+
+### 9. Décliner chaque mois avec un CTA vers l'offre
 Question : chaque déclinaison mène-t-elle vers l'étape suivante (lead magnet, prise de rendez-vous) ?
 
 ## Exemple appliqué (illustratif : Sillage)
@@ -58,7 +66,7 @@ Gagnant : le reel « Le site de [startup] → sa vidéo de lancement » à 4x (a
 - Copier la **valeur** d'un autre au lieu de sa structure (voir `recherche-d-outliers.md`).
 
 ## Agents qui doivent l'utiliser
-`adaptateur-multiplateforme`, `ideateur` (déclinaisons dans les idées), `redacteur-hooks` (réutiliser l'accroche validée), `planificateur-calendrier` (créneaux « itération » du 70/20/10), `analyste-performance` (repérer les ≥ 3x), `concepteur-experiences`.
+`adaptateur-multiplateforme`, `ideateur` (déclinaisons dans les idées), `redacteur-ads` et `strategiste-ads` (axe persona), `redacteur-hooks` (réutiliser l'accroche validée), `planificateur-calendrier` (créneaux « itération » du 70/20/10), `analyste-performance` (repérer les ≥ 3x), `concepteur-experiences`.
 
 ## Voir aussi
-`contenu-pilier-et-cascade.md` · `regle-70-20-10.md` · `multiplier-sheet.md`
+`contenu-pilier-et-cascade.md` · `regle-70-20-10.md` · `multiplier-sheet.md` · `audit-des-lacunes-du-compte-pub.md` · `matrice-depense-cpa.md`

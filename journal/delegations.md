@@ -140,6 +140,9 @@
 - [x] extracteur-youtube lot A fait (14 vidéos, 24 unités d'analyse). Correction : nte_k2hPXR0 = chaîne « Quentin Despas – The Good Sales » (pas Katana).
 - [ ] analyste-transcription vague 1 (12 : 10 vidéos en 1 partie + Priestley ×2) — lancée ; vague 2 (Doctolib ×3, Hormozi vente ×5, Money Models ×6) — après.
 - Limite technique : 20 sous-agents simultanés au maximum. File d'attente des analyses (à lancer dès qu'une place se libère) :
-  - [ ] au0-dI_wjI8 (Dan Kennedy) · [ ] U1b1o-m5bpI (Andy Raskin) · [ ] lhlS-Wds02M (Rory Sutherland) · [ ] 8zcnK6Lx_p4 (Seth Godin)
+  - [x] au0-dI_wjI8 (Dan Kennedy) · [x] U1b1o-m5bpI (Andy Raskin) · [ ] lhlS-Wds02M (Rory Sutherland) · [ ] 8zcnK6Lx_p4 (Seth Godin)
   - [ ] vague 2 : oeG8NWrWV4Y ×3 (Doctolib), JE2_7elAcxM ×5 (Hormozi vente), 6_CCutkM11g ×6 (Money Models)
   - [ ] lot B du canon (16 vidéos) dès que l'extracteur rend
+  - [ ] halbert-boron-letters ×3 parties (signaler les « Commentaire de Bond Halbert », chap. 1-3, qui ne sont pas de Gary)
+- [x] Boron Letters extraites (25 lettres, 35 946 mots, 3 parties). [ ] verificateur-faits : chiffres des lettres (taux de réponse, enveloppes, santé/jeûne).
+- [x] veille meta-ads : 2e passe intégrant passe-2-publicite.

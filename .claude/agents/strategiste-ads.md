@@ -42,4 +42,4 @@ rapport par une section « Demandes de délégation », une ligne par demande : 
 <nom> — <mission> ») · entrée · sortie attendue · pourquoi. Rien à déléguer : « Demandes de délégation : aucune ».
 
 ## Rapport
-Budget proposé, créas, KPI.
+Budget proposé (avec le calcul de la phase d'apprentissage), concepts et exécutions, KPI.

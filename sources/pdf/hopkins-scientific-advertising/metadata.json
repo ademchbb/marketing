@@ -1,0 +1,91 @@
+{
+  "url": "https://tile.loc.gov/storage-services/public/gdc/23009362/23009362.pdf",
+  "page_origine": "https://www.loc.gov/item/23009362/",
+  "titre": "Scientific Advertising",
+  "auteur": "Claude C. Hopkins (1866-1932)",
+  "editeur": "Lord & Thomas, Chicago (exemplaire numérisé par la Library of Congress)",
+  "date": "1923",
+  "langue": "en",
+  "pages": 97,
+  "pages_imprimees": "3 feuillets préliminaires + 102 pages ; 10 versos blancs non numérisés (pages imprimées 12, 16, 28, 48, 54, 64, 76, 82, 86, 98)",
+  "decalage_pagination": "variable : page imprimée = rang PDF - 5 pour p. 6-11, puis le décalage diminue d'une unité à chaque verso blanc non numérisé (table complète dans l'en-tête de source.md)",
+  "mots": 20791,
+  "parties": 2,
+  "parties_detail": [
+    {
+      "fichier": "parties/partie-01.md",
+      "pages": "1-49",
+      "mots": 10459
+    },
+    {
+      "fichier": "parties/partie-02.md",
+      "pages": "50-97",
+      "mots": 10332
+    }
+  ],
+  "outil": "curl ; pdfinfo, pdftotext -layout et -raw (poppler 24.02) pour le contrôle ; texte reconstruit depuis l'OCR ALTO de la Library of Congress (Tesseract 5.5) ; pdftoppm pour la lecture visuelle",
+  "lccn": "23009362",
+  "cote_loc": "HF5821 .H64",
+  "taille_octets": 28299073,
+  "sha256": "49cec8b4a67fe4303bf37a8e4f522ed95a531c5ae103cd5f95cfee389903f02d",
+  "format_source": "PDF image (scan) avec couche OCR ; pas de version HTML utilisée",
+  "droits": {
+    "statut": "domaine-public",
+    "licence": "aucune (domaine public) ; mention de crédit demandée par la LoC : « Library of Congress »",
+    "justification": "Œuvre publiée aux États-Unis en 1923 (© 1923 Lord & Thomas, dépôt CI A708340) : domaine public aux États-Unis depuis le 1er janvier 2019 (95 ans après publication, 17 U.S.C. § 304), avec ou sans renouvellement. Auteur mort en 1932 : domaine public dans les pays à durée vie + 70 ans (France, UE) depuis le 1er janvier 2003. La Library of Congress déclare les livres de cette collection « in the public domain and free to use and reuse ». Seule l'édition originale de 1923 est utilisée (les rééditions avec préfaces ou notes récentes peuvent être protégées)."
+  },
+  "pages_image": [
+    1,
+    2,
+    3
+  ],
+  "pages_lues_visuellement": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    12,
+    17,
+    20,
+    24,
+    26,
+    29,
+    31,
+    32,
+    37,
+    41,
+    45,
+    50,
+    55,
+    59,
+    64,
+    69,
+    70,
+    71,
+    72,
+    75,
+    80,
+    83,
+    85,
+    87,
+    91,
+    94,
+    95
+  ],
+  "pages_sans_texte": [
+    1,
+    2
+  ],
+  "illustrations": [
+    {
+      "page": 91,
+      "description": "boîte de pastilles « May Breath · A purifying deodorant · Mouth and Stomach », texte lu sur l'image, à vérifier"
+    }
+  ],
+  "verification_croisee": "comparaison mot à mot avec la transcription Holloway (texte numérique de Carl Galletti, autre édition) pour repérer les lignes manquantes ; utilisée uniquement comme contrôle",
+  "defauts_restants": "guillemets simples/doubles parfois intervertis par l'OCR ; quelques mots composés coupés en fin de ligne soudés sans trait d'union ; coquilles d'OCR isolées possibles",
+  "extrait_le": "2026-10-21",
+  "complet": true
+}

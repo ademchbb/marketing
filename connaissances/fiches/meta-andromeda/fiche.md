@@ -12,10 +12,13 @@ https://engineering.fb.com/2024/12/02/production-engineering/meta-andromeda-adva
 >   une entreprise qui vend la publicité et les outils d'IA générative dont elle vante l'effet.
 > - Toute conséquence pratique pour l'achat média ou la création est marquée **(déduction)**.
 > - La formule « la créative est le nouveau ciblage » et la consigne « des créatives variées = un
->   nouveau ciblage » sont des **interprétations de praticiens**. Elles **ne figurent pas dans la source**.
+>   nouveau ciblage » **ne figurent pas dans cette source** (12/2024). Elles ne sont plus seulement des
+>   interprétations de praticiens : depuis le **22/04/2025**, Meta écrit lui-même que la diversification
+>   créative est « the best lever to find the most relevant audiences » [verif:PA23].
 > - L'article date de décembre 2024 et contient des projections. L'état réel du système en 2026 n'est
 >   pas couvert.
 > Trace détaillée : `notes-partie-01.md` (article complet).
+> Vérification : `connaissances/verifications/passe-2-publicite.md` (PA18 à PA25).
 
 ## En une phrase
 Meta a reconstruit l'étage de **présélection** de ses pubs (le *retrieval*, qui ramène des dizaines de
@@ -90,7 +93,8 @@ nombre de créatives** que provoquent Advantage+ et l'IA générative, avec une 
      outcomes. » C'est la **seule** phrase de la source qui relie diversité et performance. C'est une
      affirmation **prospective**, pas une mesure.
    - La diversité dont parle Meta concerne les **pubs candidates présentées à une personne**. La source
-     ne dit pas qu'elle exige des créatives variées de chaque annonceur.
+     ne dit pas qu'elle exige des créatives variées de chaque annonceur. Meta le recommande en revanche
+     ailleurs depuis le 22/04/2025, sans donner de nombre [verif:PA23] [verif:PA25].
 
 6. **Les pubs sont rangées dans un index hiérarchique entraîné avec le modèle.**
    [§ Hierarchical indexing for efficiency and scalable retrieval]
@@ -99,7 +103,7 @@ nombre de créatives** que provoquent Advantage+ et l'IA générative, avec une 
      rapport aux réseaux *two-tower* et à la recherche approchée de plus proches voisins.
    - (déduction) Des créatives très semblables se retrouvent probablement dans les mêmes régions de
      l'index. **La source ne dit pas** que les créatives similaires sont regroupées en une seule ni
-     pénalisées.
+     pénalisées. Meta refuse de le détailler ; seules des agences l'affirment [verif:PA24].
 
 7. **Advantage+ gonfle le nombre de pubs éligibles, et Meta lui attribue des gains chiffrés.**
    [§ Challenges] [§ Hierarchical indexing to support exponential ad creatives growth]
@@ -108,8 +112,10 @@ nombre de créatives** que provoquent Advantage+ et l'IA générative, avec une 
    - Chiffres annoncés (tous d'éditeur) : **+22 % de ROAS**, **+7 % de conversions estimées** avec la
      génération d'images, **plus d'un million d'annonceurs** et **plus de 15 M de pubs** créées en un
      mois avec les outils d'IA générative.
-   - Le +22 % est **ambigu** : la phrase parle des « AI-driven targeting features » d'**Advantage+
-     creative**, ce qui mêle créative et ciblage (voir « Ce qui est discutable »).
+   - Le +22 % **n'est pas un résultat d'Andromeda** : il vise les annonceurs qui n'utilisaient pas
+     Advantage+ creative et ont activé « its AI-driven targeting features », sans période, échantillon,
+     groupe témoin ni méthode publiés. La phrase mêle créative et ciblage (voir « Ce qui est
+     discutable »). Ne jamais écrire « Andromeda = +22 % de ROAS » [verif:PA18].
 
 8. **Tous les annonceurs ne reçoivent pas la même puissance de calcul.** [§ Model elasticity]
    - Une conception « segment-aware » sert les **« high value ads segments »** avec des modèles plus
@@ -177,6 +183,7 @@ L'enchère et le détail du ranking ne sont pas décrits dans cette source.
 
 ### E. Grille de lecture « ce que dit Meta / ce qu'on en déduit / ce que disent les praticiens »
 Grille à appliquer avant de reprendre une idée sur Andromeda dans `principes/` ou chez un client.
+Statuts mis à jour après la passe de vérification n°2 (2026-10-21).
 
 | Affirmation | Statut |
 |---|---|
@@ -185,36 +192,42 @@ Grille à appliquer avant de reprendre une idée sur Andromeda dans `principes/`
 | La prochaine version vise plus de diversité de candidates | **Source**, prospectif [§ perspectives] |
 | Moins de contraintes de ciblage laisse plus de latitude au modèle | **Déduction** [§ AI development efficiency] |
 | Des créatives quasi identiques n'apportent pas de chances supplémentaires | **Déduction** [§ Hierarchical indexing for efficiency] |
-| « La créative est le nouveau ciblage » / « des créatives variées = un nouveau ciblage » | **Interprétation de praticiens**, absente de la source |
-| Il faut des dizaines de créatives différentes par campagne | **Interprétation de praticiens**, absente de la source |
-| Les créatives trop semblables sont regroupées ou pénalisées | **Interprétation de praticiens**, absente de la source |
+| « La créative est le nouveau ciblage » / « des créatives variées = un nouveau ciblage » | **Consigne officielle de Meta depuis le 22/04/2025**, absente de cette source : « the focus has shifted from niche targeting to creative diversification as the best lever to find the most relevant audiences » ; diversifier = varier thèmes, messages et visuels [verif:PA23 ✅] |
+| Il faut des dizaines de créatives différentes par campagne | **Interprétation de praticiens** : Meta ne recommande aucun nombre (seul cas cité : Dribbleup, de 3-4 à près de 50 nouvelles créatives par semaine) [verif:PA25 🟡] |
+| Les créatives trop semblables sont regroupées ou pénalisées | **Affirmation d'agences, non confirmée** : Meta refuse de détailler comment ses modèles représentent chaque créative [verif:PA24 ❓] |
+| Andromeda a fait gagner +22 % de ROAS | **Faux** : le +22 % vise les annonceurs activant les « AI-driven targeting features » sans avoir utilisé Advantage+ creative auparavant, sans méthode publiée [verif:PA18 ❓] |
 
 ## Playbook actionnable (étapes ordonnées pour l'appliquer à une marque)
 
 > La source ne donne **aucune tactique**. Toutes les étapes ci-dessous sont des **déductions** à
 > confronter à la documentation officielle Meta pour annonceurs et à des tests dans nos comptes avant
-> d'entrer dans `principes/`.
+> d'entrer dans `principes/`, sauf ce qui est marqué `[verif:…]`.
 
 1. **Expliquer la chaîne au client** (retrieval puis ranking) avec la citation de Meta, pour justifier
    que la créative compte dès la présélection [§ intro].
 2. **Prévoir plusieurs créatives réellement différentes par campagne** : angle, format, accroche, visuel,
    produit mis en avant. Pas des variantes cosmétiques (couleur, ordre des mots). Justification : le
    système est conçu pour un grand volume de créatives et vise plus de diversité [§ Hierarchical
-   indexing to support… ; § perspectives]. Le lien « créatives variées = audiences différentes atteintes »
-   est une **hypothèse de praticiens** à tester, pas un fait établi par la source.
+   indexing to support… ; § perspectives]. Depuis le 22/04/2025, c'est aussi la **consigne officielle de
+   Meta** : la diversification créative (thèmes, messages, visuels) est présentée comme le meilleur levier
+   pour trouver les audiences [verif:PA23]. Meta ne donne **aucun nombre** [verif:PA25] : l'effet reste à
+   mesurer dans nos comptes.
 3. **Ne pas dupliquer une même pub en 10 versions quasi identiques** en espérant multiplier les chances.
-   Rien dans la source ne le soutient [§ Hierarchical indexing for efficiency].
+   Rien dans la source ne le soutient [§ Hierarchical indexing for efficiency]. Ne pas affirmer pour
+   autant que les créatives semblables sont « pénalisées » : c'est non confirmé [verif:PA24].
 4. **Garder des contraintes de ciblage minimales sauf raison métier** (zone, âge légal, exclusion de
    clients existants), puisque le système vise l'optimisation de bout en bout [§ AI development
    efficiency]. À valider dans la doc annonceur.
-5. **Tester Advantage+ en A/B contre une campagne manuelle** au lieu de croire le +22 % de ROAS. Fixer
-   avant le test la métrique, la durée et le budget [§ Hierarchical indexing to support…].
+5. **Tester Advantage+ en A/B contre une campagne manuelle** au lieu de croire le +22 % de ROAS (chiffre
+   d'Advantage+ creative, pas d'Andromeda, sans méthode [verif:PA18]). Fixer avant le test la métrique, la
+   durée et le budget [§ Hierarchical indexing to support…].
 6. **Mesurer dans nos comptes l'effet des outils d'IA générative de Meta** (génération d'images) sur les
    conversions. Le +7 % est une estimation de Meta [§ Hierarchical indexing to support…].
 7. **Citer les chiffres de Meta comme des affirmations d'éditeur** dans tout document client, avec la
    date (décembre 2024).
-8. **Vérifier l'état du système en 2026** (perte autorégressive déployée ou non, consignes officielles sur
-   la diversité créative) avant de bâtir une stratégie sur les passages prospectifs [§ perspectives].
+8. **Vérifier l'état du système en 2026** (perte autorégressive déployée ou non) avant de bâtir une
+   stratégie sur les passages prospectifs [§ perspectives]. Les consignes officielles sur la diversité
+   créative sont vérifiées [verif:PA23].
 
 ## Hooks & formules réutilisables
 
@@ -239,7 +252,8 @@ Grille à appliquer avant de reprendre une idée sur Andromeda dans `principes/`
 
 **Formulation honnête pour un client** (déduction) : « Meta indique avoir conçu son moteur de
 présélection pour un volume de créatives en forte hausse, et vise plus de diversité dans les pubs
-proposées à chaque personne. Nous testons donc plusieurs créatives réellement différentes. »
+proposées à chaque personne. Depuis avril 2025, Meta recommande aussi de diversifier les créatives
+(thèmes, messages, visuels) [verif:PA23]. Nous testons donc plusieurs créatives réellement différentes. »
 
 ## Affirmations chiffrées (à vérifier)
 Toutes ces affirmations viennent de **Meta**, sans méthodologie, échantillon ni groupe de contrôle
@@ -247,9 +261,10 @@ publiés.
 
 **Performance annonceurs**
 - **+22 % de ROAS** pour les annonceurs qui n'utilisaient pas Advantage+ creative et ont activé « its
-  AI-driven targeting features » [§ Hierarchical indexing to support…]. Périmètre flou (créative ou
-  ciblage ?), période et échantillon non donnés, biais de sélection possible (les annonceurs qui activent
-  ne sont pas tirés au hasard).
+  AI-driven targeting features » [§ Hierarchical indexing to support…]. **Pas un résultat d'Andromeda.**
+  Périmètre flou (créative ou ciblage ?), période et échantillon non donnés, aucun groupe témoin, biais de
+  sélection possible (les annonceurs qui activent ne sont pas tirés au hasard). Ne pas confondre avec
+  l'autre « +22 % » de Meta (4,52 $ de ventes par dollar avec Advantage+, 04/2025) [verif:PA18 ❓].
 - **+7 % de conversions** « estimées » pour les entreprises qui utilisent la génération d'images
   [§ Hierarchical indexing to support…]. Estimation, méthode inconnue.
 - **+6 % de rappel** du retrieval et **+8 % d'« ads quality »** sur des **segments sélectionnés**, sur
@@ -281,8 +296,13 @@ publiés.
   1. le système est conçu pour un volume de créatives en forte croissance ;
   2. la personnalisation se fait dès la présélection ;
   3. la prochaine version vise plus de **diversité** de candidates.
-- Ces consignes viennent donc de l'interprétation des praticiens ou d'autres communications de Meta.
-  Elles sont **à sourcer séparément** avant d'en faire un principe.
+- Ces consignes viennent donc d'autres communications de Meta ou de l'interprétation des praticiens.
+  Vérification faite :
+  - la diversification créative est une **consigne officielle de Meta depuis le 22/04/2025** (billet
+    Meta for Business), redite par un porte-parole le 28/09/2026 [verif:PA23] ;
+  - Meta ne recommande **aucun nombre** de créatives [verif:PA25] ;
+  - le regroupement ou la pénalisation des créatives semblables **n'est pas confirmé** : Meta refuse de
+    détailler, seules des agences l'affirment [verif:PA24].
 
 **Conflit d'intérêts**
 - Tous les chiffres de performance viennent de Meta, qui vend la publicité et promeut Advantage+ et ses
@@ -290,7 +310,8 @@ publiés.
 
 **Ambiguïtés**
 - **+22 %** : la phrase attribue le gain aux « AI-driven targeting features » d'**Advantage+ creative**.
-  Créative et ciblage sont deux leviers différents : impossible de savoir lequel est mesuré.
+  Créative et ciblage sont deux leviers différents : impossible de savoir lequel est mesuré. Ce n'est en
+  aucun cas un résultat d'Andromeda [verif:PA18].
 - **« Selected segments »** : le +8 % ne vaut que sur des segments choisis par Meta et non décrits.
 - **« High value ads segments »** [§ Model elasticity] : non définis. Tous les annonceurs ne bénéficient
   peut-être pas du même niveau de personnalisation (déduction).
@@ -327,7 +348,9 @@ publiés.
 - **Note : 3/5.**
   - 5/5 pour comprendre **comment** le système fonctionne.
   - 2/5 pour les **chiffres de performance** (affirmations d'éditeur, périmètres flous).
-  - 1/5 pour les **consignes pratiques**, absentes, et pourtant souvent attribuées à cette source.
+  - 1/5 pour les **consignes pratiques**, absentes, et pourtant souvent attribuées à cette source. La
+    consigne de diversification créative existe bien, mais dans le billet Meta du 22/04/2025
+    [verif:PA23].
 
 ## Thèmes couverts
 - **Principaux** : publicite · production
