@@ -166,3 +166,8 @@
 - [ ] [scalevp] chercheur-sources : origine du « ×6 après TLA » et du « +20-30 % » (pages LinkedIn TLA / Conversions API).
 - [x] [LJVP2wRk7Cc p2] notes faites (démo ScoreApp, lien affilié). [ ] garde-conformite : enrichissement automatique des données de leads vs RGPD (base légale, information, minimisation). [ ] consolidateur-fiche quand la partie 1 rend.
 - [x] Doctolib p1 lancée.
+- [x] iM-ouJfISwY (Al Ries) et _hem3-8XbEI (Cialdini) : notes faites → consolidations lancées.
+- [ ] [Al Ries] verificateur-faits : chiffres Great Wall 2009/2014, série *Ad Age* 1972, une du WSJ, Coors « first light beer », citation Warhol, classement de la pub VW.
+- [ ] [Al Ries] chercheur-sources : *Positioning*, *Focus*, *Marketing Warfare*, *Visual Hammer*, *Battlecry* (Laura Ries) — conférences ou interviews de fond ; *Visual Hammer* intéresse directement Sillage.
+- [ ] [Cialdini] verificateur-faits : référence exacte et état de réplication/rétraction de chaque étude (priming, Guéguen, Over & Carpenter 2009, Shantz & Latham, NHS −18 %).
+- [ ] [Cialdini] chercheur-sources : sources critiques sur le priming comportemental (méta-analyses, Many Labs) en contrepoids (L7, L9).
