@@ -69,3 +69,7 @@
 - [ ] [dAJyqo6wnq4 fiche] concepteur-experiences : règle interne de passage de la structure 1/1/1 aux tests et de mise à l'échelle du budget (dans `experiences/`).
 - Prêtes pour extracteur-hooks / extracteur-frameworks (lot 2) : J6Su5Vx3x5U (fiabilité 4/5 ; 19 frameworks dont Value Conversation, Anchoring Against Guaranteed Value, Discipline for Market + test de la peur, 3 règles de prix).
 - [ ] [J6Su5Vx3x5U fiche] synthetiseur-connaissances : Enns (prix = valeur + risque) vs Hormozi (prix = force de la marque) dans `principes/monetisation-et-offre.md`.
+- Prêtes pour extracteur-frameworks (lot 2) : meta-andromeda (fiabilité 3/5 ; grille E « source / déduction / praticiens » réutilisable).
+- [ ] [meta-andromeda fiche] verificateur-faits : périmètre exact du +22 % ROAS et +7 % conversions ; consignes officielles Meta sur la diversité créative.
+- [ ] [meta-andromeda fiche] chercheur-sources : sources praticiennes indépendantes 2025-2026 sur Andromeda (tests de diversité créative, structure de campagne, consolidation de créatives similaires).
+- [x] [meta-andromeda fiche] veilleur-algorithmes → `veille/plateformes/meta-ads.md` (lancé)
