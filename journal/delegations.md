@@ -87,3 +87,5 @@
 - [x] extracteur-pdf ABCD fait (25 p.) → analyste-transcription lancé (google-abcd-playbook-2022).
 - [x] lecteur-images ABCD fait (`images.md`, 6 images). Décision : pas de relance de l'analyste sur l'article ; le playbook PDF (déjà extrait, en analyse) couvre les mêmes storyboards en plus complet. Le consolidateur du playbook lira aussi `images.md`.
 - Écarté : extraction de la vidéo Fishos (8fMFwMbedIE), pub de démonstration fictive ; le playbook suffit.
+- [x] extracteur-pdf Binet & Field fait (38 p.) → analyste-transcription lancé (binet-field-b2b-growth).
+- [ ] [binet-field] verificateur-faits : ESOV (+0,6/+0,7 pt de PDM par an pour 10 pts d'ESOV), ratio 46/54, cas VW (+30 % notoriété, 11:1) et BT (ROI 316 %, CPA −17 %, 23 % des ventes), sondage LinkedIn 2019, Fig. 10 estimée ; confronter à Ehrenberg-Bass et *The Long and the Short of It*.
