@@ -191,3 +191,8 @@
 - [ ] [Cialdini] concepteur-experiences : slide alignée avant CTA vs neutre ; demande de conseil vs d'avis en prospection ; créneau saisi par la personne vs imposé.
 - [x] Hormozi vente p1 et p2 lancées (vague 2).
 - [x] Hopkins p2 faite (consolidation quand p1 rend ; priorité vérif : caféine p. 55, positif/négatif 4 contre 1). Hormozi vente p3 lancée.
+- [x] Fiches faites : Kotler (4/5), StoryBrand (3,5/5), vente nte_k2hPXR0 (3,5/5). Notes faites : Hopkins p1, Galloway p1.
+- [x] Lancés : fiche Hopkins ; Galloway p2, p3 ; Hormozi vente p4, p5 ; Boron p1.
+- Décision orchestrateur (taxonomie) : ajouter `vente`, `copywriting`, `site-web`, `strategie-croissance`, `ethique` (influence + marketing), `mesure-budget`, `relations-presse`, `identite-visuelle`, `psychologie-persuasion`. Non retenus : `histoire-marketing`, `marketing-non-marchand` (trop rares). → architecte-agents à la prochaine passe (consolidateur-fiche + synthetiseur).
+- [ ] [Kotler] garde-conformite : grille éthique (intrusion, exagération, fausse différenciation, surconsommation, produit nocif).
+- [ ] [Hopkins] garde-conformite : coût de formule annoncé comme fait, figure humaine qui signe, offre réservée à un groupe, partage de clients (RGPD), publicité comparative.
