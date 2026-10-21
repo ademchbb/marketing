@@ -28,17 +28,21 @@ Un partenariat créateur (payé **ou en produits**) mal cadré expose la marque 
 5. Oui à 1-4 → **influence commerciale** [LOI] : appliquer les étapes 2 à 7.
 6. **Non tranché par la source** : compte d'une marque qui promeut ses propres produits, fondateur qui parle de sa propre entreprise. A priori droit commun des pratiques commerciales trompeuses (déduction) ; **à faire confirmer**. En attendant : mentions par prudence et question posée.
 
-### 2. Filtrer le secteur dès le brief : les 7 catégories interdites [LOI, art. 4]
-Toute promotion, directe ou indirecte, est interdite pour :
+### 2. Filtrer le secteur dès le brief : les 6 catégories interdites aux influenceurs [LOI, art. 4 I-VI] [verif:JI02]
+La fiche Bpifrance en compte 7 : la 7e (CPF) n'est **pas** dans cette liste (voir plus bas) [verif:JI02] [verif:JI17]. Toute promotion, directe ou indirecte, est interdite pour :
 1. actes à visée esthétique à risque pour la santé et chirurgie esthétique ;
 2. produits ou méthodes non thérapeutiques présentés comme comparables, préférables ou substituables à des actes thérapeutiques ;
 3. produits de nicotine consommables ;
-4. promotions impliquant des animaux hors de la liste du I de l'article L413-1 A du Code de l'environnement ;
-5. contrats financiers, et crypto-actifs / services sur crypto-actifs **sauf** annonceur enregistré ou agréé ;
-6. abonnements à des conseils ou pronostics sportifs ;
-7. toute vente, offre promotionnelle ou rétribution **en échange d'une inscription** à une formation éligible au CPF.
-- Si oui → **arrêter** la piste influence (déduction : `garde-conformite` bloque dès le brief). Crypto : exiger la preuve d'enregistrement ou d'agrément.
-- **Question ouverte CPF** : interdiction des contreparties liées à l'inscription, mais promotion d'une formation financée possible avec le gabarit de l'étape 4 ? Lecture probable (déduction), **non confirmée** : « à corriger / à confirmer » pour toute promotion de formation CPF, « bloqué » pour toute contrepartie liée à l'inscription.
+4. promotions impliquant des animaux hors de la liste du I de l'article L413-1 A du Code de l'environnement ; l'interdiction « ne s'applique pas aux établissements autorisés à détenir ces animaux » (L. 413-3 C. env.) [verif:JI02] ;
+5. contrats financiers, et crypto-actifs / services sur crypto-actifs **sauf** annonceur enregistré ou agréé ; le JO vise aussi les **offres au public de jetons** (sauf visa AMF). **À revérifier** : la période transitoire des PSAN simplement « enregistrés » a pris fin le **01/07/2026** ; un enregistrement seul ne suffit plus sans vérifier la situation actuelle de l'annonceur (version consolidée non lue) [verif:JI03] ;
+6. abonnements à des conseils ou pronostics sportifs.
+- Si oui → **arrêter** la piste influence (déduction : `garde-conformite` bloque dès le brief). Crypto : exiger la preuve d'agrément (ou d'enregistrement **et** sa validité après le 01/07/2026) [verif:JI03].
+- Sanction [LOI, art. 4 IX] : catégories 1 à 4 et 6, peine de l'art. L. 132-2 C. conso + interdiction d'exercer possible ; crypto, art. L. 222-16-1 et L. 222-16-2 C. conso (montants non relus) [verif:JI04].
+- **CPF : trois régimes distincts** (ce ne sont pas des promotions interdites aux influenceurs) [verif:JI17] [verif:Q1] :
+  1. **Promotion d'une formation financée par des fonds publics, CPF compris : encadrée**, pas interdite → gabarit de l'étape 4 (bandeau d'au moins 7 % de la surface pendant au moins 90 % de la durée, décret 2026-233) [LOI, art. 5 II] [verif:JI09] ;
+  2. **Contrepartie liée à l'inscription interdite, à tout le monde** : vente ou offre promotionnelle d'un produit, ou rétribution, « en échange d'une inscription » (pas de « code promo CPF », pas de cadeau à l'inscription) [LOI, L. 6323-8-1 C. trav.] [verif:JI18] ;
+  3. **Démarchage individuel des titulaires de CPF interdit, à tout le monde** : téléphone, messagerie, courriel ou réseau social pour collecter leurs données ou conclure une formation CPF (sauf sollicitation liée à une formation en cours), sans exception de consentement ni de B2B ; amende jusqu'à 75 000 € (personne physique) / 375 000 € (personne morale) [LOI, L. 6323-8-1 C. trav., loi 2022-1587] [verif:JI19].
+  - **Reste ouvert** (juriste) : un post sponsorisé **public** relève-t-il du démarchage ? Lecture la plus cohérente : non (seuls les messages individuels, DM, commentaires ciblés), **non confirmée** ; un DM ou email à un abonné consentant n'est pas exclu par le texte [verif:Q1].
 
 ### 3. Prévoir les mentions **dans le contenu lui-même** [LOI]
 Critère commun : **claire, lisible et compréhensible, sur tout support utilisé** ; une mention équivalente adaptée au format est admise.
@@ -47,15 +51,15 @@ Critère commun : **claire, lisible et compréhensible, sur tout support utilis�
 | Intention commerciale qui ne ressort pas du contexte | « Publicité » ou « Collaboration commerciale » | art. 5-2 ; Code conso L121-3 | pratique commerciale trompeuse |
 | Silhouette affinée ou épaissie, visage modifié | « Images retouchées » | art. 5 | 1 an + 4 500 € |
 | Visage ou silhouette produits par IA | « Images virtuelles » | art. 5 | 1 an + 4 500 € |
-| Jeux d'argent et de hasard | Interdiction aux moins de 18 ans + exclusion technique activée | art. 4 | non précisée par la source |
+| Jeux d'argent et de hasard | Interdiction aux moins de 18 ans + exclusion technique activée | art. 4 VII | amende de l'art. L. 324-8-1 CSI [verif:JI04] |
 | Formation professionnelle financée par des fonds publics | Gabarit de l'étape 4 | art. 5 ; décret 2026-233 ; arrêté du 26/05/2026 | 1 an + 4 500 € |
 - Les mentions se **cumulent** (déduction).
 - « Sur tout support » : dans la vidéo, l'image ou le texte, **pas seulement** en légende ou en bio (déduction). Étiquette native « partenariat rémunéré » **en plus**, par prudence : la source ne dit pas qu'elle suffit.
 - « Images virtuelles » ne vise que **visages et silhouettes** générés par IA ; décors, objets et animations abstraites (fréquents en motion) ne sont pas visés par ce texte, mais peuvent l'être par l'AI Act ou les règles des plateformes, **non couverts** (déduction).
 
 ### 4. Régimes spéciaux
-- **Jeux d'argent** [LOI, art. 4] : plateforme capable d'exclure les moins de 18 ans **et** exclusion effectivement activée (capture à archiver, déduction) ; mention d'interdiction aux moins de 18 ans (formulation exacte non donnée par la source) ; clause dans le contrat avec l'opérateur. Une condition manquante → contenu interdit.
-- **Formation financée par des fonds publics** [LOI] :
+- **Jeux d'argent** [LOI, art. 4 VII] : plateforme capable d'exclure les moins de 18 ans **et** exclusion effectivement activée (capture à archiver, déduction), le mécanisme d'exclusion devant être **conforme au référentiel de l'Arcom** (pris après avis de l'ANJ et de la CNIL) [verif:JI05] ; mention d'interdiction aux moins de 18 ans (formulation exacte non donnée par la source) ; clause dans le contrat avec l'opérateur. Une condition manquante → contenu interdit.
+- **Formation financée par des fonds publics, CPF compris** [LOI, art. 5 II] (90 % et 7 % : décret 2026-233 ; phrase et lien ou mot dièse : arrêté du 26/05/2026) [verif:JI09] [verif:JI10] :
   1. phrase officielle mot pour mot : « L'obtention d'un financement public pour une action de formation professionnelle répond à des règles et des conditions qui vous engagent. Pour plus d'informations » ;
   2. selon le support : le lien https://travail-emploi.gouv.fr/formation-et-influenceurs, ou la mention du site https://travail-emploi.gouv.fr, ou le mot dièse « # MaFormationProfessionnelle, on en parle » ;
   3. dénomination sociale et SIREN du prestataire responsable, du prestataire CPF le cas échéant et du sous-traitant ;
