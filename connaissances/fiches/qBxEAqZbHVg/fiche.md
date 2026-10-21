@@ -124,7 +124,7 @@ Horodatages au format `[mm:ss]`.
      variable qui a changé, distinguer facteurs extérieurs et intérieurs.
 
 7. **La créa doit mériter l'interruption, et se juge sur une matrice dépense × CPA.** [FONDAMENTAL] [09:39]
-   [10:11] [34:59] [35:03] [13:23]
+   [10:11] [13:23] [34:59] [35:03]
    - Meta touche une audience **non intentionniste** (« dans le bus, aux toilettes »), à l'inverse de Google
      Search. Ce que vend Meta, c'est une « irruption dans le quotidien des gens ».
    - Sans contenu intéressant, « ils vont juste vous zapper en 2 secondes ». Les vidéos que les gens adorent
@@ -206,8 +206,8 @@ Horodatages au format `[mm:ss]`.
 - **ROAS** = CA attribué / dépense (argent → CA).
 
 Résumé de Meta : « j'achète les bonnes impressions, celles qui génèrent assez de ventes pour rentabiliser mon
-investissement ». Un compte performant a des transitions fluides : peu de clics pour l'argent investi, et il
-n'y a « aucune chance » d'avoir beaucoup d'achats.
+investissement ». Un compte performant a des transitions fluides : avec peu de clics pour l'argent investi, on
+n'a « aucune chance » d'avoir beaucoup d'achats.
 
 **Boucle secondaire (visites indirectes)** : la personne voit la marque à répétition, s'abonne, la cherche sur
 Google, s'inscrit à la newsletter, achète **plusieurs jours ou dizaines de jours après**. Facebook a fait
@@ -407,7 +407,7 @@ Les étapes marquées *(déduction)* prolongent la source sans y figurer mot pou
    - **Questionnaire post-achat** « Où avez-vous entendu parler de nous ? » avec tous les canaux [30:13].
 7. **Lancer avec des créas qui méritent l'interruption.** Contenu qu'on a envie de regarder dans un fil (bon
    pour la conversion **et** pour le CPM). Pour les marques promues : créas Sillage (motion premium, sans
-   musique) *(déduction)* [34:59] [13:23].
+   musique) *(déduction)* [13:23] [34:59].
 8. **Lire le compte chaque semaine, de haut en bas.**
    - D'abord les campagnes qui font 80 % de la dépense [12:19].
    - Gold (CPA/ROAS) → intermédiaires (CPC/CPM) → bronze (CTR) ; ne descendre que si le niveau supérieur se
@@ -532,7 +532,7 @@ Toutes viennent de Coudac. Aucune donnée client n'est publiée. Plusieurs exemp
 
 **Exemples hypothétiques (calculs vérifiés)**
 - CAC blended : A = 10 000 / 400 = **25** ; B = 10 000 / 460 = **21,7** (« environ 22 ») [29:07]. Un mauvais
-  canal donnerait « 30 à 40 € » [29:40].
+  canal donnerait « 30 à 40 € » [28:34].
 - Valeur à un an : nouveau client 100, existant 35 ; A = 24 000 + 5 600 = **29 600** (ROI 2,96) ;
   B = 4 000 + 12 600 = **16 600** (ROI 1,66). L'orateur dit « 12 000 à peu près » pour 12 600 [41:02]
   [41:35].
@@ -628,6 +628,6 @@ Toutes viennent de Coudac. Aucune donnée client n'est publiée. Plusieurs exemp
 
 ## Thèmes couverts
 - **Principaux** : publicite · analyse-donnees · instagram
-- **Secondaires** : offre · positionnement · mindset · croissance-audience · communaute · hooks
+- **Secondaires** : offre · positionnement · mindset · croissance-audience · hooks
 - **Note de taxonomie** : la liste ne contient pas de tag « facebook » ni « meta-ads ». Ici, `instagram`
   couvre Meta (Facebook + Instagram) et `publicite` porte l'essentiel.
