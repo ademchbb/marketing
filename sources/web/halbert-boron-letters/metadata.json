@@ -1,0 +1,32 @@
+{
+  "url": "https://www.thegaryhalbertletter.com/Boron/BoronLetterCh1.htm",
+  "urls_chapitres": "chapitres 1-3 : https://www.thegaryhalbertletter.com/Boron/BoronLetterCh<n>.htm ; chapitres 4-25 : https://www.thegaryhalbertletter.com/Boron/TChapter<n>.htm",
+  "titre": "The Boron Letters (25 lettres, 1984)",
+  "auteur": "Gary C. Halbert",
+  "date": "1984-06-12/1984-07-07",
+  "date_edition_en_ligne": "2005",
+  "type": "article",
+  "genre": "lettres (copywriting, marketing direct, discipline personnelle)",
+  "mots": 35946,
+  "mots_hors_commentaires_bond": 32006,
+  "mots_commentaires_bond_halbert": 3630,
+  "chapitres": 25,
+  "langue": "en",
+  "site": "The Gary Halbert Letter (thegaryhalbertletter.com), site de l'ayant droit",
+  "editeur": "Gary C. Halbert / Cherrywood Publishing (mention de la page du chapitre 1) ; ayant droit cité dans a-traiter.md : Halbert Publishing Inc.",
+  "droits": {
+    "statut": "diffusion gratuite par l'ayant droit",
+    "mention": "Copyright © 2005 Gary C. Halbert. All Rights Reserved.",
+    "usage": "étude interne uniquement",
+    "republication": false
+  },
+  "complet": true,
+  "images_contenu": 0,
+  "parties": [
+    {"fichier": "parties/partie-01.md", "chapitres": "1-7", "mots": 12748},
+    {"fichier": "parties/partie-02.md", "chapitres": "8-17", "mots": 11740},
+    {"fichier": "parties/partie-03.md", "chapitres": "18-25", "mots": 11148}
+  ],
+  "source_a_traiter": "C8",
+  "extrait_le": "2026-10-21"
+}

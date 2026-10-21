@@ -10,6 +10,9 @@ https://www.youtube.com/watch?v=pILj7t-qQhs · 46 min 57 s · 418 vues (5 likes)
 > LinkedIn Ads. Tous les chiffres viennent de LinkedIn ou de ses clients, sans méthode publiée.
 > Plusieurs noms propres sont incertains (transcription automatique, voir « Limites »).
 > Trace détaillée : `notes-partie-01.md` (00:00-46:57, vidéo entière).
+> **Vérification** : `connaissances/verifications/passe-2-b2b.md` (2026-10-21). Seul le +33 % est publié
+> (🟡, corrélation) ; +24 %, +120 %, ×6 et +20-30 % sont ❓ et ne doivent jamais être cités
+> [verif:PB01]-[verif:PB04].
 
 ## En une phrase
 En B2B, mettre les **dirigeants** (puis les clients) au premier plan sur LinkedIn rapporte du pipeline
@@ -51,7 +54,8 @@ et on mesure le tout avec les outils LinkedIn **et** un outil d'attribution tier
      et c'est cette personne qui lui écrit. Les deux formats sont « intensely personal », ce qui crée
      « such a strong cohesion » et garde « that cohesive face of your startup ».
    - Chiffre annoncé par LinkedIn : conversion **×6** quand le prospect a vu un TLA avant le message,
-     par rapport au message seul [00:32].
+     par rapport au message seul [00:32]. ❓ Oral seulement, aucune publication retrouvée : **ne jamais
+     le citer** [verif:PB03].
    - AJ et Ruby sont arrivés à cette stratégie chacun de leur côté ; l'agence d'AJ l'applique « every
      day ».
 
@@ -63,9 +67,12 @@ et on mesure le tout avec les outils LinkedIn **et** un outil d'attribution tier
    - Changement de mentalité : il y a quelques années, parler de « brand » à une startup la faisait
      rire. La nouveauté, c'est de pouvoir relier cette prise de parole au revenu.
    - Un fondateur « actif » publie au moins **10 fois par an** (environ une fois par mois). Ces startups
-     génèrent **33 % de leads en plus** en lead gen payante, attribution directe (corrélation).
+     génèrent **33 % de leads en plus** en lead gen payante, attribution directe (corrélation). 🟡 Seul
+     chiffre de l'épisode publié (Scale VP, 06/10/2025), sans méthode ; citer « selon des données
+     LinkedIn relayées par Scale VP (2025) » [verif:PB01].
    - Cas Sendoso : un membre du comité d'achat qui a liké ou commenté un post de dirigeant est associé à
-     **+24 %** de taille de deal ; s'il **suit** un dirigeant, **+120 %** [00:15].
+     **+24 %** de taille de deal ; s'il **suit** un dirigeant, **+120 %** [00:15]. ❓ Absent de toute
+     source publiée consultée : **ne jamais le citer** [verif:PB02].
    - Constat d'AJ : les comptes dont la direction refuse de créer du contenu enchaînent les tests de pubs
      sans jamais atteindre les autres, « because that content just performs better » [00:06].
    - La confiance personnelle accélérerait aussi les cycles de vente, avec une nuance de Ruby : un deal
@@ -74,7 +81,7 @@ et on mesure le tout avec les outils LinkedIn **et** un outil d'attribution tier
 3. **Pour mobiliser un dirigeant occupé : vendre du pipeline, puis faire remonter le premier signal
    terrain.** [00:17] [00:18] [00:19]
    - Présenter la prise de parole comme de la croissance et du contact client, jamais comme un projet
-     d'image (argument de Casey Jenkins, ex-SVP marketing de Sendoso).
+     d'image (argument de Kacie Jenkins, ex-SVP marketing de Sendoso [verif:TB12]).
    - Argument d'AJ face à « je suis occupé » ou « pas à l'aise à la caméra » : en investissant ce temps,
      le dirigeant peut créer **plus de pipeline que son équipe n'en crée sans lui**.
    - Le blocage n'existe qu'au démarrage (« pas d'abonnés, pas de retours »). Le déclic arrive avec le
@@ -153,8 +160,10 @@ et on mesure le tout avec les outils LinkedIn **et** un outil d'attribution tier
     - Outils tiers devenus « table stakes » : Dreamdata, Factors, HockeyStack, « RevSure » (incertain).
       La mesure « best-in-class » combine les deux pour ne pas surpondérer LinkedIn.
     - Gain annoncé : **+20 à 30 %** quand la prise de parole des dirigeants est bien reliée au payant.
+      ❓ Oral seulement, métrique non précisée : **ne jamais le citer** [verif:PB04].
     - Cas Dreamdata : après un premier lancement de TLA, les conversions Google montent. Parmi les leads
-      attribués à Google, ceux qui avaient d'abord vu un TLA convertissent mieux (+20 à 30 %) [00:37].
+      attribués à Google, ceux qui avaient d'abord vu un TLA convertissent mieux (+20 à 30 %, ❓, aucune
+      étude Dreamdata retrouvée [verif:PB04]) [00:37].
     - La mesure sert aussi à garder les dirigeants motivés et à investir davantage sur ce qui marche
       [00:36].
 
@@ -176,7 +185,8 @@ Comparaison de trois groupes d'opportunités actives :
 
 Usage (déduction) : grille pour prioriser les comptes du CRM. Contexte qui compte : l'ICP de Sendoso
 est fait de décideurs go-to-market, donc la porte-parole (une dirigeante marketing) parlait à ses
-**pairs** [00:14].
+**pairs** [00:14]. Les pourcentages sont ❓ (une seule entreprise, causalité inverse probable) : garder
+l'échelle comme grille d'observation, **ne jamais citer** +24 % ni +120 % [verif:PB02].
 
 ### C. Les 3 leviers pour mobiliser un dirigeant occupé [00:17]-[00:24]
 1. **Pipeline plutôt qu'image** : « what is more important as an executive than driving growth for your
@@ -237,7 +247,8 @@ réutilise dans ses réunions client.
 3. On crée l'audience « a interagi avec les TLA ».
 4. On lui envoie une **Message Ad** (ex-Sponsored InMail) ou une **Conversation Ad**, **au nom du même
    dirigeant**, avec une offre de bas d'entonnoir : démo, rendez-vous.
-5. On compare un groupe « TLA puis message » à un groupe « message seul » (×6 annoncé par LinkedIn).
+5. On compare un groupe « TLA puis message » à un groupe « message seul » (×6 annoncé par LinkedIn, ❓,
+   à ne jamais citer : on mesure soi-même avec un groupe témoin [verif:PB03]).
 
 Choix du format de message : AJ recommandait les Conversation Ads, il est revenu aux **Message Ads**,
 qu'il juge aujourd'hui les plus convertissants (données non montrées). C'est un « age-old debate » :
@@ -266,7 +277,8 @@ qui peut se permettre d'être directe sur le produit.
 1. Lancer des TLA et surveiller les conversions et la recherche de marque sur Google.
 2. Prendre les leads et rendez-vous attribués à Google.
 3. Les séparer en deux groupes : ceux qui avaient vu un TLA avant, ceux qui n'en avaient pas vu.
-4. Comparer leur taux de conversion dans l'entonnoir (+20 à 30 % annoncés pour le premier groupe).
+4. Comparer leur taux de conversion dans l'entonnoir (+20 à 30 % annoncés pour le premier groupe, ❓,
+   à ne jamais citer [verif:PB04]).
 5. En conclure la contribution réelle des TLA sur tout le parcours, au-delà de LinkedIn.
 
 ### M. Crawl / walk / run des voix sponsorisées [00:38]-[00:42]
@@ -295,7 +307,7 @@ Non lus dans le cadre de cette fiche : à récupérer par le `chercheur-sources`
 2. **Choisir le porte-parole.** Le fondateur d'abord. Si possible, un dirigeant **pair de l'ICP** (un
    dirigeant marketing pour vendre à des marketeurs) [00:14].
 3. **Obtenir son adhésion.** Présenter le projet comme du pipeline et du contact client, avec la phrase
-   de Casey Jenkins et l'argument d'AJ (« plus de pipeline que ton équipe sans toi ») [00:17] [00:18].
+   de Kacie Jenkins et l'argument d'AJ (« plus de pipeline que ton équipe sans toi ») [00:17] [00:18].
    Fixer le minimum : 10 posts par an, viser plus [00:13].
 4. **Mettre en place la remontée des signaux.** Consigne aux commerciaux : chaque prospect qui cite un
    post du dirigeant est signalé [00:19].
@@ -318,7 +330,7 @@ Non lus dans le cadre de cette fiche : à récupérer par le `chercheur-sources`
     Message Ad (ou Conversation Ad) signée par lui, offre de démo ou de rendez-vous. Tester Message Ad
     contre Conversation Ad [00:30] [00:31].
 11. **Mesurer soi-même le gain du réchauffement.** Groupe « TLA puis message » contre « message seul »
-    plutôt que de reprendre le ×6 de LinkedIn [00:32].
+    plutôt que de reprendre le ×6 de LinkedIn (❓ [verif:PB03]) [00:32].
 12. **Pour une marque jeune, tester une séquence de 2 à 4 TLA** (éducatif puis « réservez un rendez-vous
     avec moi »), avec retargeting et exclusions à chaque étape [00:33] [00:34].
 13. **Croiser le CRM avec l'engagement des dirigeants.** Repérer dans les opportunités ouvertes qui
@@ -337,12 +349,12 @@ Non lus dans le cadre de cette fiche : à récupérer par le `chercheur-sources`
 ## Hooks & formules réutilisables
 
 **Gabarits d'ouverture**
-- **« Confession du sceptique »** (post de Gal Aga, nom à vérifier) : recadrage « X n'est pas juste Y,
-  c'est Z », aveu d'incrédulité passée, deux chiffres concrets, puis « I was so wrong ». « LinkedIn isn't
-  just a social channel. It's an all-in-one growth engine. A year ago, I'd have laughed out loud if you
-  told me 700,000 would read what I have to say every week and LinkedIn drives 65% of [Aline]'s leads. I
-  was so wrong. » [00:08] Très bon modèle pour un post de fondateur B2B, à condition d'avoir de vrais
-  chiffres.
+- **« Confession du sceptique »** (post de Gal Aga, CEO et cofondateur d'Aligned [verif:TB13]) :
+  recadrage « X n'est pas juste Y, c'est Z », aveu d'incrédulité passée, deux chiffres concrets, puis
+  « I was so wrong ». « LinkedIn isn't just a social channel. It's an all-in-one growth engine. A year
+  ago, I'd have laughed out loud if you told me 700,000 would read what I have to say every week and
+  LinkedIn drives 65% of [Aligned]'s leads. I was so wrong. » [00:08] Très bon modèle pour un post de
+  fondateur B2B, à condition d'avoir de vrais chiffres.
 - **« Bascule enfin arrivée » + promesse de révélation** : « It finally feels like marketers have caught
   the vision of thought leadership on LinkedIn ads. Me and a guest are about to blow your mind on this
   week's episode. » [00:00] Le « finally » donne à l'auditeur le sentiment d'arriver au bon moment.
@@ -351,7 +363,7 @@ Non lus dans le cadre de cette fiche : à récupérer par le `chercheur-sources`
   Gabarits déduits de la consigne, pas cités mot pour mot.
 
 **Scripts**
-- **Convaincre un dirigeant** (Casey Jenkins) [00:17] : « What is more important as an executive than
+- **Convaincre un dirigeant** (Kacie Jenkins) [00:17] : « What is more important as an executive than
   driving growth for your startup? What's more important than getting out into the market and talking to
   your customers? » Deux questions rhétoriques qui transforment « poster sur LinkedIn » en « parler aux
   clients ».
@@ -389,31 +401,41 @@ Non lus dans le cadre de cette fiche : à récupérer par le `chercheur-sources`
 
 ## Affirmations chiffrées (à vérifier)
 Toutes viennent de LinkedIn (étude interne ou clients) ou de l'expérience d'AJ. Aucune méthode n'est
-publiée dans l'épisode. Ce sont des **corrélations**, pas des effets causaux démontrés. À recouper avec
-le playbook lui-même (`verificateur-faits`).
+publiée dans l'épisode. Ce sont des **corrélations**, pas des effets causaux démontrés.
+Statuts après vérification (`connaissances/verifications/passe-2-b2b.md`, 2026-10-21) : seul le +33 %
+est publié, et reste une corrélation (🟡) ; +24 %, +120 %, ×6 et +20-30 % sont ❓ et ne doivent
+**jamais être cités** [verif:PB01]-[verif:PB04].
 
 **Données LinkedIn / playbook**
 - Les fondateurs qui publient au moins 10 fois par an génèrent **33 % de leads en plus** (lead gen
   payante, attribution directe) [00:13]. Groupe de comparaison et taille d'échantillon non donnés.
+  🟡 Publié par Scale VP le 06/10/2025 d'après des « proprietary LinkedIn data », sans méthode ni
+  groupe témoin ; citable seulement comme « selon des données LinkedIn relayées par Scale VP (2025),
+  corrélation » [verif:PB01].
 - Sendoso : **+24 %** de taille de deal si un membre du comité d'achat a liké ou commenté un post de
   dirigeant, **+120 %** s'il suit un dirigeant [00:15] [00:16]. Une seule entreprise ; causalité inverse
-  probable (les comptes déjà très intéressés suivent davantage les dirigeants).
+  probable (les comptes déjà très intéressés suivent davantage les dirigeants). ❓ Absent de la page
+  Scale VP et de toute source publiée consultée : ne jamais citer [verif:PB02].
 - Conversion **×6** pour les membres qui ont vu un TLA avant de recevoir un Sponsored Message, par
   rapport au message seul [00:32]. Périmètre, période et définition de « conversion » non donnés ; biais
-  de sélection probable (ceux qui ont interagi avec un TLA sont déjà plus intéressés).
+  de sélection probable (ceux qui ont interagi avec un TLA sont déjà plus intéressés). ❓ Oral
+  seulement, aucune publication LinkedIn retrouvée : ne jamais citer [verif:PB03].
 - **+20 à 30 %** de gain quand la prise de parole des dirigeants est reliée au payant « in the right
   way », y compris sur la conversion des leads attribués à Google (cas Dreamdata) [00:35] [00:38].
-  « Lift » de quoi exactement : non précisé.
+  « Lift » de quoi exactement : non précisé. ❓ Oral seulement, aucune étude Dreamdata retrouvée : ne
+  jamais citer [verif:PB04].
 - Les TLA sont « one of our top performing top-of-funnel ad products » [00:29]. Affirmation commerciale.
+  🟡 CTR et engagement meilleurs que l'image simple (bêta 2023), conversion non démontrée [verif:PB05].
 - Le Sponsored Messaging génère le plus gros volume de démos et de rendez-vous en attribution directe
-  [00:30] [00:32]. Affirmation LinkedIn.
+  [00:30] [00:32]. Affirmation LinkedIn. ❓ [verif:PB06].
 - L'équipe LinkedIn Marketing for Startups existe depuis environ 7 ans [00:03]. Déclaratif.
 
 **Exemples rapportés**
-- Gal Aga (Aline, noms à vérifier) : 700 000 lecteurs par semaine ; LinkedIn génère 65 % des leads de son
+- Gal Aga (Aligned [verif:TB13]) : 700 000 lecteurs par semaine ; LinkedIn génère 65 % des leads de son
   entreprise [00:08]. Post d'un fondateur ; « 700,000 » sans unité claire (lecteurs ou impressions).
-- Casey Jenkins (orthographe à vérifier) : de 0 à environ 11 000 abonnés « very quickly » [00:14].
-  Durée non précisée.
+  🟡 Autodéclaré [verif:CB01].
+- Kacie Jenkins [verif:TB12] : de 0 à environ 11 000 abonnés « very quickly » [00:14].
+  Durée non précisée. 🟡 [verif:CB02].
 
 **Expérience d'AJ**
 - Les Message Ads convertissent aujourd'hui mieux que les Conversation Ads [00:31]. Données internes non
@@ -422,8 +444,10 @@ le playbook lui-même (`verificateur-faits`).
   compte.
 - La plupart des influenceurs B2B acceptent d'être sponsorisés sans rémunération [00:41].
 - 11 ans de partage gratuit lui apportent « tons of leads every day » [00:27].
-- Les TLA sont sorties « two and a half years » avant l'épisode, soit vers mi-2023 [00:28]. Le lancement
-  public est généralement situé fin 2023 : à dater.
+- Les TLA sont sorties « two and a half years » avant l'épisode, soit vers mi-2023 [00:28]. ✅ AJ a
+  raison : lancement à l'**été 2023**, limité aux posts de **salariés** ; ouverture large à l'**automne
+  2023** ; extension aux posts de **n'importe quel membre** annoncée le **13/03/2024** (disponible
+  partout fin mars 2024) [verif:PB07].
 - « We always save our clients more than we charge » (B2Linked) [00:01]. Promesse publicitaire, à
   ignorer comme donnée.
 
@@ -439,7 +463,8 @@ le playbook lui-même (`verificateur-faits`).
 - « Founders who post… generate 33% more leads » : les startups à fondateur actif sont peut-être plus
   avancées, mieux financées ou plus présentes partout (déduction).
 - +120 % chez Sendoso et ×6 après TLA : causalité inverse et biais de sélection probables. Ceux qui
-  suivent un dirigeant ou interagissent avec un TLA sont déjà plus intéressés.
+  suivent un dirigeant ou interagissent avec un TLA sont déjà plus intéressés. Chiffres ❓, introuvables
+  dans les sources publiées [verif:PB02] [verif:PB03].
 - Le cas Sendoso porte sur une seule entreprise.
 
 **Contradictions internes**
@@ -461,15 +486,20 @@ le playbook lui-même (`verificateur-faits`).
   fait lui-même la distinction.
 
 **Noms propres incertains (transcription automatique)**
-- « Casey Jenkins » (Sendoso, aujourd'hui chez Anthropic selon Ruby) : orthographe à vérifier.
+- **Kacie Jenkins** (et non « Casey ») : orthographe de la transcription officielle B2Linked, ex-SVP
+  marketing de Sendoso ; son poste actuel chez Anthropic (selon Ruby) n'est pas vérifié [verif:TB12].
 - « Alec Paul », fondateur de « Sales Brand » : nom et entreprise incertains.
-- « Gal Aga », fondateur d'« Aline » : probable, à vérifier.
-- « Jean Burke Becker », fondatrice de « Roasted » : identité non vérifiable en l'état.
+- **Gal Aga**, CEO et cofondateur d'**Aligned** (et non « Aline », erreur de transcription) : confirmé
+  [verif:TB13].
+- « **John** Burke Becker » (et non « Jean »), « founder of roasted » selon la transcription
+  officielle : identité non retrouvée, ne pas citer [verif:TB15].
 - « RevSure » parmi les outils d'attribution : incertain.
-- Fibbler (CEO « Adam », nom de famille non donné) : probable.
+- Fibbler : CEO **Adam Holmgren**, cofondateur (avec Adam Hartsner), Malmö, fondé en 2024 : confirmé
+  [verif:TB17].
 - Le nom de l'invitée vient de la transcription et de la description (« rubyjameslinkedin ») ; il n'est
   pas dans les métadonnées.
-- Ne citer aucun de ces noms dans un livrable public avant vérification.
+- Noms confirmés : Kacie Jenkins, Gal Aga (Aligned), Adam Holmgren (Fibbler). Ne citer aucun des autres
+  noms dans un livrable public avant vérification.
 
 **Transposabilité**
 - Pensé pour des **startups B2B** à cycle de vente long, avec comité d'achat et budget pub. Le B2C n'est

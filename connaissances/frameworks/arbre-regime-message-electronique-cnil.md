@@ -98,7 +98,7 @@ Frontière freemium : **non tracée par la CNIL** ; notre lecture (service réel
 - Présenter un [USAGE] (double opt-in, désinscription en un clic) comme une obligation de cette source.
 
 ## Agents qui doivent l'utiliser
-`garde-conformite` (propriétaire), `redacteur-newsletter` (séquences, bienvenue, relances), `strategiste-offre` (lead magnets, formulaires), `strategiste-contenu`, `prospecteur-collaborations` (co-marketing), `publicateur` (aucun envoi sans feu vert), `funnel` côté `gestionnaire-communaute` quand un DM renvoie vers une inscription.
+`garde-conformite` (propriétaire), `redacteur-newsletter` (séquences, bienvenue, relances), `strategiste-offre` (lead magnets, formulaires), `strategiste-contenu`, `prospecteur-collaborations` (co-marketing), `publicateur` (aucun envoi sans feu vert), `gestionnaire-communaute` (quand un DM renvoie vers une inscription email), `strategiste-ads` (formulaires instantanés et retargeting vers une inscription).
 
 ## Voir aussi
 `conformite-influence-commerciale.md` · `funnel-cta-commentaire.md` · `offer-stack.md`

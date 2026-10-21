@@ -30,5 +30,6 @@
 | lhlS-Wds02M | Rory Sutherland - Alchemy: The Surprising Power of Ideas That Don't Make Sense | The Welcome Conference | 44:46 | 892 k | 1 | transcrit |
 | 8zcnK6Lx_p4 | Marketing Godfather: How To Build An Audience That Buys — Seth Godin | The Calum Johnson Show | 59:02 | 876 k | 1 | transcrit |
 | 6_CCutkM11g | $100M Money Models Live Launch | Alex Hormozi | 7h01 | 1,2 M | 6 | transcrit |
+| halbert-boron-letters | The Boron Letters (25 lettres, 1984) | Gary C. Halbert (thegaryhalbertletter.com) | 25 lettres, ~36 k mots | — | 3 | transcrit |
 
 Statuts : `transcrit` → `analysé` (notes de parties) → `fiché` (fiche.md) → `intégré` (principes à jour).
