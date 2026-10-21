@@ -67,7 +67,7 @@ Source : https://www.youtube.com/watch?v=U1b1o-m5bpI · Intervenant(s) : Andy Ra
 
 ### 5. Le cadre en 5 pièces (cœur de la vidéo)
 
-- **[00:25:11] Pièce 1 : nommer le basculement (mindset shift)** — Il faut nommer le changement dans le monde : un changement de mentalité ou de vision du monde. Exemples : logiciel → cloud (Salesforce) ; « people used to buy things and now they want to subscribe to things » (Zuora) [00:25:44] ; les directeurs commerciaux pilotaient sur des opinions, ils doivent maintenant piloter sur la réalité (Gong). Rappel : le basculement doit être présenté comme déjà en cours [00:08:17] et comme une nouveauté pour l'audience [00:06:43, partie 9].
+- **[00:25:11] Pièce 1 : nommer le basculement (mindset shift)** — Il faut nommer le changement dans le monde : un changement de mentalité ou de vision du monde. Exemples : logiciel → cloud (Salesforce) ; « people used to buy things and now they want to subscribe to things » (Zuora) [00:25:44] ; les directeurs commerciaux pilotaient sur des opinions, ils doivent maintenant piloter sur la réalité (Gong). Rappel : le basculement doit être présenté comme déjà en cours [00:08:17] et comme une nouveauté pour l'audience [01:06:43].
 
 - **[00:25:44] Pièce 2 : montrer que l'enjeu est de vie ou de mort pour l'acheteur** — « If it's not clear already », il faut montrer que rejoindre ce mouvement est « a matter of kind of life and death for the buyer ». C'est la pièce qui crée l'urgence [00:26:18]. Aux commerciaux qui demandent comment créer de l'urgence, Raskin répond : à quel point peut-on relier le basculement au fait de gagner ou de perdre sur son marché ? Il ne s'agit évidemment pas de mort réelle.
 
@@ -247,7 +247,7 @@ Source : https://www.youtube.com/watch?v=U1b1o-m5bpI · Intervenant(s) : Andy Ra
 - Entreprise de Justin Yoshimura : passée par YC, en série C, mission de 9 mois à un an, puis rachat [00:20:06]-[00:20:42] · type : expérience personnelle.
 - Strategic narrative team : le CEO et quatre personnes au plus ; environ une semaine par itération du brouillon [00:37:05] [00:39:51] · type : méthode personnelle.
 - « Probably the majority of CEOs » ne considèrent pas le récit comme leur travail [00:57:09] · type : opinion.
-- Le cadre serait utile à tous les stades, mais Raskin dit lui-même ne s'appuyer que sur les retours reçus [00:43:43] · type : témoignages (biais de sélection probable, déduction).
+- Le cadre serait utile à tous les stades, mais Raskin dit lui-même ne s'appuyer que sur les retours reçus [00:44:16] · type : témoignages (biais de sélection probable, déduction).
 - Jonathan Siddharth (Turing) aurait suivi son cours vers 2019, avant sa levée de fonds [00:47:37] · type : souvenir approximatif.
 - OneTrust : plusieurs entreprises rachetées (le chiffre de neuf est donné comme exemple hypothétique [00:44:49], puis présenté comme réel [01:03:53]) ; le récit les aurait unifiées · type : témoignage du CEO rapporté.
 - NorthOne : la CFO utilise le récit pour ses arbitrages budgétaires [01:03:53] · type : témoignage rapporté.
