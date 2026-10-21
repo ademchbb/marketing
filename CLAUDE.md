@@ -74,7 +74,7 @@ python3 outils/youtube/decouper.py <id> 15000       # -> sources/youtube/<id>/pa
 
 ## Pipelines types (détail dans `agents.md`)
 
-- **Apprendre d'une vidéo / d'un lien** : extracteur → (découpe) → analyste-transcription ×N
+- **Apprendre d'une vidéo / d'un lien / d'un PDF** : extracteur (youtube / web / social / pdf) → (découpe) → analyste-transcription ×N
   → consolidateur-fiche → extracteur-hooks + extracteur-frameworks + verificateur-faits
   → synthetiseur-connaissances → cartographe-lacunes → chercheur-sources.
 - **Promouvoir une marque** : analyste-marque → veilleur-concurrence → analyste-concurrent ×N

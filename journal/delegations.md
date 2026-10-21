@@ -57,8 +57,8 @@
 - [ ] Créer `principes/personal-branding.md`, `linkedin.md`, `youtube-long.md`, `storytelling.md`, `analyse-et-iteration.md` (déjà cités par des agents ou des principes) ; puis relancer architecte-agents pour retirer les mentions « à venir ».
 - [ ] archiviste : contrôle de cohérence de `agents.md` et `.claude/agents/` après la modification groupée.
 - Prêtes pour extracteur-hooks / extracteur-frameworks (lot 2) : google-abcd-youtube-ads (fiabilité 3/5).
-- [ ] [google-abcd fiche] extracteur-pdf (dès sa création) : playbook https://www.thinkwithgoogle.com/_qs/documents/15987/ABCDs_PDFPlaybook_April2022_Final.pdf → `sources/pdf/google-abcd-playbook-2022/`.
-- [ ] [google-abcd fiche] architecte-agents (après extracteur-pdf, pour éviter deux écritures simultanées dans agents.md) : créer `lecteur-images` (décrire en texte les images d'une source web/PDF ; outil Read sur images téléchargées dans le scratchpad) → 6 images de la source ABCD.
+- [x] [google-abcd fiche] extracteur-pdf (lancé) : playbook https://www.thinkwithgoogle.com/_qs/documents/15987/ABCDs_PDFPlaybook_April2022_Final.pdf → `sources/pdf/google-abcd-playbook-2022/`.
+- [x] [google-abcd fiche] architecte-agents (lancé ; après extracteur-pdf, pour éviter deux écritures simultanées dans agents.md) : créer `lecteur-images` (décrire en texte les images d'une source web/PDF ; outil Read sur images téléchargées dans le scratchpad) → 6 images de la source ABCD.
 - [ ] [google-abcd fiche] verificateur-faits : méthode de l'étude Google/Kantar Link AI 2021 (+30 % / +17 %) ; source NCSolutions « la créative est le facteur n°1 ».
 - [ ] [google-abcd fiche] chercheur-sources : ABCD récents (Shorts, 2024-2026) ; données sur les pubs sans musique ni visage (cas Sillage).
 - [ ] [google-abcd fiche] synthetiseur-connaissances : trancher « la marque tôt » (pub payante, Google) vs « ne pas avoir l'air d'une pub » (organique, créateurs).
@@ -73,3 +73,4 @@
 - [ ] [meta-andromeda fiche] verificateur-faits : périmètre exact du +22 % ROAS et +7 % conversions ; consignes officielles Meta sur la diversité créative.
 - [ ] [meta-andromeda fiche] chercheur-sources : sources praticiennes indépendantes 2025-2026 sur Andromeda (tests de diversité créative, structure de campagne, consolidation de créatives similaires).
 - [x] [meta-andromeda fiche] veilleur-algorithmes → `veille/plateformes/meta-ads.md` (lancé)
+- [x] extracteur-pdf lancé aussi sur : Binet & Field B2B (source 13), Baromètre du numérique 2026 (source 28), *Scientific Advertising* (Hopkins, domaine public).
