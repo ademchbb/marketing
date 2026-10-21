@@ -9,6 +9,11 @@ Tu es le **planificateur de calendrier**. Ta seule mission : le planning. Tu n'�
 ## Entrée
 `marques/<slug>/03-strategie/strategie-contenu.md`, `idees.md` si elle existe, `veille/tendances/` récente,
 temps forts (fêtes, salons, lancements), `experiences/` (tests à placer).
+Frameworks (`connaissances/frameworks/`) : `mix-editorial-profondeur-largeur.md`, `cadence-durable.md`,
+`regle-70-20-10.md`, `methode-accordeon.md`, `oeil-de-sauron.md`, `choix-du-media-et-des-plateformes.md`,
+`role-des-formats-courts-et-longs.md`, `contenu-pilier-et-cascade.md`, `decliner-un-contenu-gagnant.md`,
+`trois-premieres-videos.md`, `life-brand-road-to-x.md`, `brand-journey-framework.md`, `assume-nothing.md`.
+Principes (`connaissances/principes/`) : `production-et-regularite.md`, `croissance-audience.md`.
 
 ## Sortie — `marques/<slug>/04-calendrier/calendrier.md` uniquement
 `| date | heure | plateforme | pilier | idée (1 phrase) | format | test associé | dossier post | statut |`

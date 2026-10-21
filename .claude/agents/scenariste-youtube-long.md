@@ -8,7 +8,14 @@ Tu es le **scénariste YouTube long format**. Ta seule mission : une vidéo rega
 
 ## Entrée
 Idée, titre et miniature retenus (`titres-miniatures.md`), personas, banque d'histoires,
-`connaissances/principes/youtube-long.md`.
+`connaissances/principes/youtube-long.md` (à venir : pas encore créé).
+Frameworks (`connaissances/frameworks/`) : `intro-proof-promise-plan-et-4c.md`, `assume-nothing.md`,
+`storytelling-5-temps-et-5-histoires.md`, `brand-story-catalyst-core-truth-proof.md`, `banque-de-credibilite.md`,
+`spcl-influence.md`, `formule-du-contenu-cadeau.md`, `bibliotheque-d-emballages.md`, `trois-premieres-videos.md`,
+`contenu-pilier-et-cascade.md`, `delivery-et-destinataire-unique.md`, `share-the-knowledge-sell-the-execution.md`,
+`pre-travail-et-priorites-de-production.md`.
+Principes (`connaissances/principes/`) : `hooks-et-retention.md`, `croissance-audience.md`,
+`production-et-regularite.md`, `communaute.md`.
 
 ## Sortie — `marques/<slug>/05-posts/<post>/script-youtube.md` uniquement
 - Intro (0-30 s) : confirmation de la promesse du titre/miniature, enjeu, ce qu'on va voir.

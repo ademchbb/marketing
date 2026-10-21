@@ -149,7 +149,7 @@ Source : https://www.youtube.com/watch?v=dAJyqo6wnq4 · Intervenant(s) : Ben Hea
 
 - **[00:57:52] « Enhancements » : relire chaque option, avec un biais vers la confiance** — Il y a 3 options désactivées par Meta et 7 activées. Il garde désactivés : **enhanced media text** (remplacer le texte de l'image par du texte IA, car le message doit rester clair et constant), **translate text** (le programme n'est livrable qu'en anglais) et **enhanced CTA**. Dans les options actives, il **désactive les ad overlays** parce que son visuel est déjà chargé en texte (il les laisserait sur un visuel plus léger, car ils améliorent souvent les performances). Il garde les **visual touch-ups** (recadrage et extension automatiques), l'**ajout de musique** (image transformée en courte vidéo avec un jingle, réglable ou désactivable), les **text improvements** (Meta peut déplacer les textes entre titre, texte principal et description ; à couper si cela rend l'ensemble incohérent), le **multi-image format** (image en vidéo, diaporama ou collection, plus utile avec un carrousel ou beaucoup d'images), l'**animation** et le **flex media** (utiliser le visuel carré en vertical ou l'inverse).
 
-- **[00:60:38] Pourquoi faire confiance aux enhancements : le marché corrige tout seul** — Si Meta fabrique une variante absurde, les utilisateurs ne réagissent pas, Meta l'apprend très vite et arrête. Meta est « highly incentivized to improve stuff ». Il comprend toutefois les annonceurs qui préfèrent tout désactiver et diffuser la pub telle quelle. (Coupure de la partie au milieu de cette nuance.)
+- **[01:00:38] Pourquoi faire confiance aux enhancements : le marché corrige tout seul** — Si Meta fabrique une variante absurde, les utilisateurs ne réagissent pas, Meta l'apprend très vite et arrête. Meta est « highly incentivized to improve stuff ». Il comprend toutefois les annonceurs qui préfèrent tout désactiver et diffuser la pub telle quelle. (Coupure de la partie au milieu de cette nuance, à [01:01:44].)
 
 ## Frameworks / méthodes nommées
 
@@ -231,7 +231,7 @@ Source : https://www.youtube.com/watch?v=dAJyqo6wnq4 · Intervenant(s) : Ben Hea
 - **Témoignages affichés sur son visuel** [00:49:17] : « almost an 8x ROI in 3 weeks » ; « made $29,000 with a 7.3x ROI in 30 days » ; « from 30 euros a day ad spend to a 100K month in sales in just 3 months » · type : témoignages clients non vérifiés (et utilisés comme preuve publicitaire).
 - Il y a un an, l'IA de Meta ne générait aucune variante utilisable de sa personne ; elle en génère maintenant [00:57:21] · type : expérience perso.
 - Les ad overlays « can often improve performance » [00:58:57] · type : opinion / expérience.
-- Les variantes ratées produites par les enhancements sont vite écartées par Meta, faute de réaction des utilisateurs [00:60:38] · type : opinion (mécanisme supposé).
+- Les variantes ratées produites par les enhancements sont vite écartées par Meta, faute de réaction des utilisateurs [01:00:38] · type : opinion (mécanisme supposé).
 
 ## Exemples de créateurs/marques cités
 
@@ -264,7 +264,7 @@ Source : https://www.youtube.com/watch?v=dAJyqo6wnq4 · Intervenant(s) : Ben Hea
 - « Absolutely use it, but you need to be the filter as the advertiser. » [00:52:28]
 - « It has to actually be me in there. » [00:56:49]
 - « Don't overthink it. Just go with the option that best describes the next step. » [00:55:45]
-- « As soon as they put it in front of users, they won't take action cuz it doesn't make sense. And they'll very quickly learn and stop doing that. » [00:60:38]
+- « As soon as they put it in front of users, they won't take action cuz it doesn't make sense. And they'll very quickly learn and stop doing that. » [01:00:38]
 
 ## Passages douteux / corrections de transcription
 
@@ -278,5 +278,4 @@ Source : https://www.youtube.com/watch?v=dAJyqo6wnq4 · Intervenant(s) : Ben Hea
 - « Adapt Here we go. Adapt multi-image format » [01:00:38] → « Adapt multi-image format ».
 - « admasters365.com » [00:43:23] → domaine de la landing page, orthographe non vérifiable.
 - « find find », « click click », « &gt;&gt; [snorts] » [00:33:31] : artefacts, ignorés.
-- Horodatages au-delà de 60 min notés `[00:60:38]` dans certaines lignes : il faut lire `[01:00:38]` (point de repère : le segment de transcription « **[01:00:38]** »).
 - Autopromotion (« give me a follow », lien vers le programme de mentorat dans la description) [00:40:07 ; 00:42:50] : non retenue comme leçon, sauf l'offre elle-même, utilisée comme cas d'école.

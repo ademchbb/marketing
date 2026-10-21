@@ -8,6 +8,9 @@ Tu es l'**architecte persona**. Ta seule mission : définir précisément pour q
 
 ## Entrée
 `marques/<slug>/01-brief/brief.md`, `marques/<slug>/02-audience/verbatims.md`, `connaissances/principes/`.
+Frameworks (`connaissances/frameworks/`) : `dimensionner-son-marche.md`, `choix-du-media-et-des-plateformes.md`,
+`delivery-et-destinataire-unique.md`.
+Principes (`connaissances/principes/`) : `positionnement-et-niche.md`, `communaute.md`, `croissance-audience.md`.
 
 ## Sortie — `marques/<slug>/02-audience/personas.md` uniquement
 1 persona principal (+ 1 ou 2 secondaires maximum). Pour chacun : qui (situation, pas juste démographie),

@@ -14,7 +14,7 @@
 - [ ] [dAJyqo6wnq4] Ajouter à la liste de contrôle : relire les variantes générées par l'IA de Meta (images, texte optimisé) avant publication.
 
 ## consolidateur-fiche
-- [ ] dAJyqo6wnq4 (attend notes-partie-01)
+- [x] dAJyqo6wnq4 (lancé)
 - [x] yRgPbqywUJ8 (lancé)
 - [x] hdjlCLb9Hl8 (lancé)
 
@@ -34,3 +34,6 @@
 - [ ] [qBxEAqZbHVg] verificateur-faits : « acquérir un client coûte 7× plus cher » ; 60 % des Français actifs mensuels sur Facebook/Instagram ; CPM conversion France actuel ; fenêtres d'attribution Meta actuelles ; modèle d'attribution par défaut de GA4.
 - [ ] [qBxEAqZbHVg] cartographe-lacunes + chercheur-sources : incrémentalité (conversion lift, geo-holdout, MMM), biais du questionnaire post-achat, Conversions API ; vidéo Coudac sur la créa publicitaire (L1).
 - [ ] [qBxEAqZbHVg] extracteur-frameworks : hiérarchie de métriques gold/intermédiaire/bronze, matrice dépense × CPA, valeur à 1 an des nouveaux clients, plan d'atterrissage.
+- [ ] [dAJyqo6wnq4 p1] verificateur-faits : blocage fuseau horaire/devise d'un compte pub ; sanctions catégorie spéciale non déclarée ; relance de la phase d'apprentissage ; qualité d'Audience Network ; 5 plateformes / 24 placements. Témoignages du visuel = affirmations invérifiables.
+- [ ] [dAJyqo6wnq4 p1] chercheur-sources : vidéo Ben Heath « omnipresent content strategy » ; installation du pixel et de la Conversions API (L1).
+- [ ] [dAJyqo6wnq4 p1] garde-conformite : options automatiques Meta à couper (« add music », texte IA dans l'image, traduction) ; relecture obligatoire de chaque variante IA ; rareté et témoignages chiffrés seulement s'ils sont vrais.

@@ -10,6 +10,14 @@ la dernière seconde.
 ## Entrée
 `idee.md`, `critique-hooks.md` (hook gagnant), personas, positionnement, `connaissances/swipe-file/structures.md`,
 `connaissances/principes/formats-courts.md`, `connaissances/principes/hooks-et-retention.md`, charte de la marque.
+Frameworks (`connaissances/frameworks/`) : `script-educatif-court.md`, `hook-trois-canaux.md`,
+`echelle-de-specificite.md`, `broad-narrow-niche.md`, `intro-proof-promise-plan-et-4c.md`, `assume-nothing.md`,
+`storytelling-5-temps-et-5-histoires.md`, `message-a-mon-moi-passe.md`, `histoire-personnelle-et-vlog-minimum.md`,
+`brand-story-catalyst-core-truth-proof.md`, `banque-de-credibilite.md`, `spcl-influence.md`,
+`formule-du-contenu-cadeau.md`, `delivery-et-destinataire-unique.md`, `funnel-cta-commentaire.md`,
+`life-brand-road-to-x.md`, `contenu-pilier-et-cascade.md`, `pre-travail-et-priorites-de-production.md`,
+`montage-court-clarte-et-vitesse.md`.
+Principes (`connaissances/principes/`) : `formats-courts.md`, `hooks-et-retention.md`, `production-et-regularite.md`.
 
 ## Sortie — `marques/<slug>/05-posts/<post>/script-reel.md` uniquement
 - Durée cible et justification.

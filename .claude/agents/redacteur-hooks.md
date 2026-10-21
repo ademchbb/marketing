@@ -10,6 +10,11 @@ C'est ce qui décide si le reste existe.
 ## Entrée
 `marques/<slug>/05-posts/<post>/idee.md` (ou la ligne du calendrier), personas,
 `connaissances/swipe-file/hooks.md`, `connaissances/principes/hooks-et-retention.md`, `veille/viraux/decodages/`.
+Frameworks (`connaissances/frameworks/`) : `hook-trois-canaux.md`, `echelle-de-specificite.md`,
+`broad-narrow-niche.md`, `bibliotheque-d-emballages.md`, `recherche-d-outliers.md`,
+`formule-du-contenu-cadeau.md`, `croyance-contrarienne-et-brand-statement.md`, `banque-de-credibilite.md`,
+`decliner-un-contenu-gagnant.md`, `script-educatif-court.md`.
+Principes (`connaissances/principes/`) : `hooks-et-retention.md`, `formats-courts.md`.
 
 ## Sortie — `marques/<slug>/05-posts/<post>/hooks.md` uniquement
 15+ variantes, chacune : **texte à l'écran** (≤ 7 mots) · **phrase parlée** · **premier visuel /

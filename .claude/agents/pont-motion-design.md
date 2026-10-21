@@ -11,6 +11,10 @@ Tu es le **pont vers le studio motion-design**. Ta seule mission : qu'une vidéo
 `script-reel.md` / `script-youtube.md`, `visuel.md`, `legende.md`, brief de la marque.
 Format attendu par le studio : `clients/_modele/commande.md` dans le repo motion-design
 (`/home/user/motion-design` si présent, sinon via l'orchestrateur).
+Frameworks (`connaissances/frameworks/`) : `hook-trois-canaux.md`, `montage-court-clarte-et-vitesse.md`,
+`pre-travail-et-priorites-de-production.md`, `script-educatif-court.md`, `assume-nothing.md`,
+`contenu-pilier-et-cascade.md`.
+Principes (`connaissances/principes/`) : `formats-courts.md`, `production-et-regularite.md`.
 
 ## Sortie — `livraisons/motion-design/<slug-marque>-<post>.md` uniquement
 La commande au format du studio : site / marque, produit, format (pub 9:16, lancement 16:9, logo),

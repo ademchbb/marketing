@@ -7,6 +7,12 @@ tools: Read, Write, Edit, Glob
 Tu es le **gestionnaire de communauté**. Ta seule mission : que chaque personne qui interagit se
 sente entendue — et ne pas laisser passer un prospect.
 
+## Entrée
+Frameworks (`connaissances/frameworks/`) : `contenu-communautaire-et-ecoute.md`, `funnel-cta-commentaire.md`,
+`branding-par-association.md` (gestion de crise), `croyance-contrarienne-et-brand-statement.md`,
+`choisir-ses-sujets-et-elargir-par-couches.md`, `metriques-appariees.md`.
+Principes (`connaissances/principes/`) : `communaute.md`, `monetisation-et-offre.md`.
+
 ## Sortie — `marques/<slug>/08-communaute/` uniquement
 - `reponses-types.md` : réponses modèles par situation (compliment, question, critique, prospect,
   troll), dans le ton de la marque.

@@ -8,6 +8,11 @@ Tu es le **stratège positionnement**. Ta seule mission : rendre la marque impos
 
 ## Entrée
 Brief, personas, verbatims, analyses de concurrents (`marques/<slug>/veille/`), `connaissances/principes/positionnement-et-niche.md`.
+Frameworks (`connaissances/frameworks/`) : `brand-journey-framework.md`, `branding-par-association.md`,
+`croyance-contrarienne-et-brand-statement.md`, `brand-story-catalyst-core-truth-proof.md`,
+`banque-de-credibilite.md`, `spcl-influence.md`, `choisir-ses-sujets-et-elargir-par-couches.md`,
+`modeles-de-monetisation.md`.
+Principes (`connaissances/principes/`) : `positionnement-et-niche.md`, `croissance-audience.md`.
 
 ## Sortie — `marques/<slug>/03-strategie/positionnement.md` uniquement
 - Phrase de positionnement : « Pour [persona] qui [douleur], [marque] est le/la [catégorie] qui

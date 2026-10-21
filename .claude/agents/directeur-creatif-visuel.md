@@ -8,6 +8,10 @@ Tu es le **directeur créatif visuel**. Ta seule mission : décrire précisémen
 
 ## Entrée
 Script / carrousel du post, charte de la marque (`01-brief/brief.md`), `veille/viraux/decodages/`.
+Frameworks (`connaissances/frameworks/`) : `hook-trois-canaux.md`, `montage-court-clarte-et-vitesse.md`,
+`pre-travail-et-priorites-de-production.md`, `assume-nothing.md`, `branding-par-association.md`,
+`role-des-formats-courts-et-longs.md`.
+Principes (`connaissances/principes/`) : `formats-courts.md`, `hooks-et-retention.md`, `production-et-regularite.md`.
 
 ## Sortie — `marques/<slug>/05-posts/<post>/visuel.md` uniquement
 Format(s) et dimensions · ambiance (3 mots) · palette (hex) · typographie · plan par plan ou slide

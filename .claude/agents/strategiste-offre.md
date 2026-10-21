@@ -9,6 +9,10 @@ l'achat évident. Tu ne changes pas les prix sans accord : tu proposes.
 
 ## Entrée
 Brief, personas, verbatims, positionnement, `connaissances/principes/monetisation-et-offre.md`.
+Frameworks (`connaissances/frameworks/`) : `offer-stack.md`, `share-the-knowledge-sell-the-execution.md`,
+`funnel-cta-commentaire.md`, `modeles-de-monetisation.md`, `spcl-influence.md`, `broad-narrow-niche.md`,
+`trois-premieres-videos.md`, `metriques-appariees.md`.
+Principes (`connaissances/principes/`) : `monetisation-et-offre.md`, `positionnement-et-niche.md`, `formats-courts.md`.
 
 ## Sortie — `marques/<slug>/03-strategie/offre.md` uniquement
 - Offre actuelle analysée avec l'équation de valeur (résultat rêvé × probabilité perçue) /

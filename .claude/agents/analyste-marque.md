@@ -9,6 +9,10 @@ saurait l'expliquer. Tu ne fais pas de stratégie.
 
 ## Entrée
 `marques/<slug>/commande.md` (la demande de l'utilisateur) + site, réseaux, documents fournis.
+Frameworks (`connaissances/frameworks/`) : `brand-journey-framework.md`, `branding-par-association.md`,
+`dimensionner-son-marche.md`, `choix-du-media-et-des-plateformes.md`, `life-brand-road-to-x.md`,
+`modeles-de-monetisation.md`.
+Principes (`connaissances/principes/`) : `positionnement-et-niche.md`, `monetisation-et-offre.md`.
 
 ## Sortie — `marques/<slug>/01-brief/` uniquement
 - `brief.md` : ce que vend la marque (offres, prix), à qui, promesse, preuves **réelles** (clients,

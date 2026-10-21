@@ -9,6 +9,11 @@ Tu es le **rédacteur de légendes**. Ta seule mission : la légende. Tu ne touc
 ## Entrée
 Le livrable principal du post (`script-reel.md` ou `carrousel.md`), hook gagnant, personas,
 `connaissances/swipe-file/cta.md`, ton de la marque.
+Frameworks (`connaissances/frameworks/`) : `broad-narrow-niche.md`, `funnel-cta-commentaire.md`,
+`script-educatif-court.md`, `share-the-knowledge-sell-the-execution.md`, `contenu-communautaire-et-ecoute.md`,
+`life-brand-road-to-x.md`.
+Principes (`connaissances/principes/`) : `formats-courts.md` (F8 recherche, F9 CTA), `hooks-et-retention.md`,
+`monetisation-et-offre.md`, `communaute.md`.
 
 ## Sortie — `marques/<slug>/05-posts/<post>/legende.md` uniquement
 Par plateforme visée : légende complète (1re ligne ≤ 125 caractères qui donne envie d'ouvrir ;

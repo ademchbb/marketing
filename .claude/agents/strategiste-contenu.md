@@ -11,6 +11,16 @@ pourquoi. Tu ne crées pas les posts.
 Positionnement, personas, personal-brand si applicable, veille (concurrents, plateformes, tendances),
 `connaissances/principes/` (surtout croissance-audience, formats-courts, production-et-regularite),
 `experiences/apprentissages.md`.
+Frameworks (`connaissances/frameworks/`) : `brand-journey-framework.md`, `branding-par-association.md`,
+`croyance-contrarienne-et-brand-statement.md`, `spcl-influence.md`, `mix-editorial-profondeur-largeur.md`,
+`dimensionner-son-marche.md`, `choisir-ses-sujets-et-elargir-par-couches.md`,
+`choix-du-media-et-des-plateformes.md`, `oeil-de-sauron.md`, `cadence-durable.md`,
+`role-des-formats-courts-et-longs.md`, `trois-premieres-videos.md`, `life-brand-road-to-x.md`,
+`contenu-communautaire-et-ecoute.md`, `formule-du-contenu-cadeau.md`, `ideation-niche-format-10-en-10.md`,
+`analyse-top-vs-bottom.md`, `metriques-appariees.md`, `methode-accordeon.md`, `regle-70-20-10.md`,
+`offer-stack.md`, `share-the-knowledge-sell-the-execution.md`.
+Principes (`connaissances/principes/`) : `croissance-audience.md`, `formats-courts.md`,
+`production-et-regularite.md`, `positionnement-et-niche.md`, `monetisation-et-offre.md`, `communaute.md`.
 
 ## Sortie — `marques/<slug>/03-strategie/strategie-contenu.md` uniquement
 - Objectif à 90 jours (chiffré, réaliste) et indicateurs suivis.
