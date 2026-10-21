@@ -103,8 +103,9 @@ antérieur concordant avec deux autres sources ; **faible** = presse ou blogs se
 | G. Questions ouvertes | 0 | 0 | 0 | 3 | 3 |
 | **Total** | **27** | **4** | **2** | **3** | **36** |
 
-Sur les 27 ✅, 13 reposent sur un texte primaire lu (JO, Curia), les autres sur des reprises
-officielles ou sur un texte parlementaire concordant (confiance « moyenne »).
+Sur les 27 ✅, 16 ont une confiance haute (texte primaire lu : JO ou Curia, ou règle constante) ; les
+11 autres reposent sur des reprises officielles ou sur un texte parlementaire concordant (confiance
+« moyenne »).
 
 ### Les croyances répandues qui sont fausses (à corriger dans nos productions)
 1. **« Pour envoyer un email commercial, il faut toujours le consentement »** (JI24, Bpifrance). Faux :

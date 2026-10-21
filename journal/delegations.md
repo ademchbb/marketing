@@ -140,7 +140,7 @@
 - [x] extracteur-youtube lot A fait (14 vidéos, 24 unités d'analyse). Correction : nte_k2hPXR0 = chaîne « Quentin Despas – The Good Sales » (pas Katana).
 - [ ] analyste-transcription vague 1 (12 : 10 vidéos en 1 partie + Priestley ×2) — lancée ; vague 2 (Doctolib ×3, Hormozi vente ×5, Money Models ×6) — après.
 - Limite technique : 20 sous-agents simultanés au maximum. File d'attente des analyses (à lancer dès qu'une place se libère) :
-  - [x] au0-dI_wjI8 (Dan Kennedy) · [x] U1b1o-m5bpI (Andy Raskin) · [x] lhlS-Wds02M (Rory Sutherland) · [ ] 8zcnK6Lx_p4 (Seth Godin)
+  - [x] au0-dI_wjI8 (Dan Kennedy) · [x] U1b1o-m5bpI (Andy Raskin) · [x] lhlS-Wds02M (Rory Sutherland) · [x] 8zcnK6Lx_p4 (Seth Godin)
   - [ ] vague 2 : oeG8NWrWV4Y ×3 (Doctolib), JE2_7elAcxM ×5 (Hormozi vente), 6_CCutkM11g ×6 (Money Models)
   - [ ] lot B du canon (16 vidéos) dès que l'extracteur rend
   - [ ] hopkins-scientific-advertising ×2 parties (texte LoC 1923, domaine public)
@@ -148,3 +148,6 @@
 - [x] Boron Letters extraites (25 lettres, 35 946 mots, 3 parties). [ ] verificateur-faits : chiffres des lettres (taux de réponse, enveloppes, santé/jeûne).
 - [x] veille meta-ads : 2e passe intégrant passe-2-publicite.
 - [x] extracteur-pdf Hopkins fait (édition originale 1923, Library of Congress, 20 791 mots, 2 parties). [ ] verificateur-faits ensuite : chiffres de 1923 = affirmations.
+- [x] architecte-agents : lot 2 intégré (strategiste-ads, redacteur-ads, garde-conformite, tags, veilleur meta-ads).
+- [ ] architecte-agents (passe suivante, APRÈS la MAJ de `frameworks/index.md`) : (a) décision orchestrateur = OUI, élargir la sortie de garde-conformite à `marques/<slug>/10-ads/conformite-<campagne>.md` et `marques/<slug>/emails/<sequence>/conformite.md` ; (b) publicateur applique la liste à cocher Advantage+ et vérifie les UTM ; (c) ajouter les nouveaux frameworks pub/conformité aux entrées de strategiste-ads, redacteur-ads, garde-conformite.
+- [ ] consolidateur-fiche : mettre à jour « Thèmes couverts » avec les nouveaux tags (qBxEAqZbHVg, meta-andromeda, dAJyqo6wnq4, cnil, bpifrance, binet-field, pILj7t-qQhs) — avant la synthèse.
