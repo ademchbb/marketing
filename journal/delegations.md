@@ -121,3 +121,9 @@
 - [ ] [passe-2-publicite] garde-conformite : aucune pub Meta sur un sujet social, électoral ou politique dans l'UE depuis le 06/10/2025 ; déclarer toute campagne finance/emploi/logement.
 - [ ] [passe-2-publicite] chercheur-sources : rapport Kantar complet ABCD ; étude NCSolutions (2017, 2023) ; benchmark CPM France non commercial ; billet Meta « 4,52 $ / +22 % ».
 - [ ] [passe-2-publicite] concepteur-experiences : relevé du CPM réel des premiers comptes ; Advantage+ vs manuel et volume de créatives.
+- [x] architecte-agents : `developpeur-outils` créé (61 agents) → developpeur-outils lancé sur `outils/podcast/` (RSS The Game, faster-whisper, test 60 s).
+- [ ] ensuite : transcripteur-audio sur *$100M Offers*, *$100M Leads* (et Money Models audio si la vidéo 6_CCutkM11g échoue) ; reporter les commandes dans CLAUDE.md.
+- [x] [barometre] consolidateur-fiche lancé.
+- [ ] [barometre] verificateur-faits : relevés « image, à vérifier » (p. 7, 8, 16-20, 23-27, 29-35, 38, 56-63), arbitrages p. 7, 16, 26, 46.
+- [ ] [barometre] extracteur-pdf : rapport complet https://www.vie-publique.fr/files/rapport/pdf/301998.pdf (usages par plateforme et par âge) — à lancer.
+- [ ] [barometre] chercheur-sources : Belgique, Suisse romande, Québec (NETendances), jeu de données data.gouv.fr âge × plateforme (L6).
