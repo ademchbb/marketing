@@ -27,3 +27,6 @@
 - [ ] [pILj7t-qQhs] verificateur-faits : playbook LinkedIn × Scale Venture Partners *Founder-Led Sales & Marketing Never Ends* (33 %, +24 %/+120 % Sendoso, ×6, +20-30 %) ; date de lancement des Thought Leader Ads ; noms propres incertains.
 - [ ] [pILj7t-qQhs] chercheur-sources : transcription officielle https://b2linked.com/blog/ep167/ ; épisode LinkedIn Ads Show avec Casey Jenkins ; playbook TLA de Fibbler (L1).
 - Hypothèse à tester (pipeline Sillage) : le motion design premium sert les pubs de marque et la data-viz plutôt que le post de dirigeant lui-même.
+- [x] J6Su5Vx3x5U (lancé)
+- [ ] [J6Su5Vx3x5U] verificateur-faits : Drucker « all profit comes from risk » (+ « 60 livres ») ; Buffett « say no to almost everything » ; Weiss *Value-Based Fees* ch. 5 et règle des 20 % ; règle McKinsey 50 % des gains de la 1re année ; « 7 types de risque » ; normes 60 % d'heures facturables, 15-20 % de marge avant impôt ; nombre de règles de *Pricing Creativity*.
+- [ ] [J6Su5Vx3x5U] chercheur-sources : *Pricing Creativity* (Enns), *Value-Based Fees* (Weiss), contenu de Ron Baker ou Jonathan Stark sur le value pricing (recoupement L3).
