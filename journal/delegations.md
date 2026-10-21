@@ -203,3 +203,6 @@
 - [ ] [Priestley, Dent] verificateur-faits : Glastonbury, marges Rolex/compagnies aériennes, paradoxe eau-diamant (Smith), conditions ScoreApp, entreprise « Dent ».
 - [ ] archiviste (après la passe architecte) : `marques/_modele/emails/.gitkeep`.
 - [x] Fiche Marketing Mania faite (3,5/5). [ ] garde-conformite : note sur la prévente de produit numérique non livré (délai, rétractation 14 j et exceptions, remboursement) + script conforme. Tag `lancement-produit` ajouté à la mission architecte.
+- [x] Fiche Dan Kennedy faite (3,5/5).
+- [x] verificateur-faits passe 3 « droit des offres » lancée (prix de référence, fausse urgence/rareté, prévente numérique, pub comparative, enrichissement de leads, garanties) → répond aux demandes garde-conformite de Kennedy, Marketing Mania, Priestley, Hopkins. Puis architecte-agents pour l'encoder dans garde-conformite.
+- [x] Money Models p1 lancée.
