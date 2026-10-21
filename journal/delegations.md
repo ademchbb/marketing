@@ -183,3 +183,4 @@
 - [x] Kennedy (au0-dI_wjI8) et Marketing Mania (11rNI6BUey4) : notes faites → consolidations lancées. Doctolib p2 lancée.
 - [ ] garde-conformite / architecte-agents : règle maison « valeur affichée » (pas de valeur gonflée par un coût de remplacement hypothétique) et « prévente » (délai de livraison, rétractation, mentions) — sources Kennedy et Marketing Mania.
 - [x] Corrections faites dans meta-andromeda, qBxEAqZbHVg, dAJyqo6wnq4 (passe-2-publicite). Note : GA4 = data-driven par défaut + 2 modèles dernier clic (et non data-driven seul) — l'agent a corrigé ma consigne.
+- [x] Seth Godin : notes faites → consolidation lancée. [ ] chercheur-sources : *Permission Marketing* (source primaire Godin, non couvert par la vidéo).
