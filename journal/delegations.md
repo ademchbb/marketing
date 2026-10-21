@@ -30,3 +30,7 @@
 - [x] J6Su5Vx3x5U (lancé)
 - [ ] [J6Su5Vx3x5U] verificateur-faits : Drucker « all profit comes from risk » (+ « 60 livres ») ; Buffett « say no to almost everything » ; Weiss *Value-Based Fees* ch. 5 et règle des 20 % ; règle McKinsey 50 % des gains de la 1re année ; « 7 types de risque » ; normes 60 % d'heures facturables, 15-20 % de marge avant impôt ; nombre de règles de *Pricing Creativity*.
 - [ ] [J6Su5Vx3x5U] chercheur-sources : *Pricing Creativity* (Enns), *Value-Based Fees* (Weiss), contenu de Ron Baker ou Jonathan Stark sur le value pricing (recoupement L3).
+- [x] qBxEAqZbHVg (lancé)
+- [ ] [qBxEAqZbHVg] verificateur-faits : « acquérir un client coûte 7× plus cher » ; 60 % des Français actifs mensuels sur Facebook/Instagram ; CPM conversion France actuel ; fenêtres d'attribution Meta actuelles ; modèle d'attribution par défaut de GA4.
+- [ ] [qBxEAqZbHVg] cartographe-lacunes + chercheur-sources : incrémentalité (conversion lift, geo-holdout, MMM), biais du questionnaire post-achat, Conversions API ; vidéo Coudac sur la créa publicitaire (L1).
+- [ ] [qBxEAqZbHVg] extracteur-frameworks : hiérarchie de métriques gold/intermédiaire/bronze, matrice dépense × CPA, valeur à 1 an des nouveaux clients, plan d'atterrissage.
