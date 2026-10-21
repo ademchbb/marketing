@@ -40,3 +40,5 @@
 - [ ] [hdjlCLb9Hl8 fiche] verificateur-faits (compléments) : taille des groupes d'achat B2B (Dunford 5-7 vs Gartner) ; rôle de Jobs/Bezos et présentation du Segway à *Good Morning America* fin 2001 ; Help Scout « première » boîte partagée orientée service.
 - [ ] [hdjlCLb9Hl8 fiche] chercheur-sources : source *Play Bigger* / category design ; source ABM sur les groupes d'achat ; source de positionnement B2C ou créateur (L8).
 - Prêtes pour extracteur-hooks / extracteur-frameworks (lot 2) : hdjlCLb9Hl8.
+- Prêtes pour extracteur-hooks / extracteur-frameworks (lot 2) : pILj7t-qQhs (fiabilité 2,5/5 ; candidats : séquence TLA → Message Ad, crawl/walk/run, journée du journaliste, confession du sceptique).
+- [ ] [pILj7t-qQhs fiche] chercheur-sources : playbook *Founder-Led Sales & Marketing Never Ends* (court, long, TL;DR, guide 30-60-90, lien en description) + playbook LinkedIn de Fibbler → sources primaires des chiffres.
