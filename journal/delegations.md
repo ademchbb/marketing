@@ -198,7 +198,8 @@
 - [ ] [Hopkins] garde-conformite : coût de formule annoncé comme fait, figure humaine qui signe, offre réservée à un groupe, partage de clients (RGPD), publicité comparative.
 - [x] architecte-agents passe post-frameworks faite (garde-conformite 3 sorties + grille droit, publicateur contrôles Meta, entrées frameworks de 8 agents, pipeline 3 bis).
 - [x] Fiche Priestley faite (3,5/5). Notes faites : ScaleVP, Doctolib p1.
-- [x] Lancés : architecte-agents (tags + droit dans 5 agents + QA pubs/emails + propriétaire de marques/_modele) ; fiche ScaleVP ; Doctolib p3 ; (extracteur-frameworks, correction conformité selon passe-2-droit : limite atteinte, en file).
+- [x] Lancés : architecte-agents (tags + droit dans 5 agents + QA pubs/emails + propriétaire de marques/_modele) ; fiche ScaleVP ; Doctolib p3 ; extracteur-frameworks (correction conformité selon passe-2-droit) lancé.
 - [ ] [scalevp] consolidateur-fiche : corriger pILj7t-qQhs (Sendoso publié p. 8 → 🟡 ; Alec Paul / SalesBrand confirmé ; Canberk Beker / ROASted probable ; une seule version du playbook).
 - [ ] [Priestley, Dent] verificateur-faits : Glastonbury, marges Rolex/compagnies aériennes, paradoxe eau-diamant (Smith), conditions ScoreApp, entreprise « Dent ».
 - [ ] archiviste (après la passe architecte) : `marques/_modele/emails/.gitkeep`.
+- [x] Fiche Marketing Mania faite (3,5/5). [ ] garde-conformite : note sur la prévente de produit numérique non livré (délai, rétractation 14 j et exceptions, remboursement) + script conforme. Tag `lancement-produit` ajouté à la mission architecte.
