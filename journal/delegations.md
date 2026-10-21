@@ -16,3 +16,10 @@
 ## consolidateur-fiche
 - [ ] dAJyqo6wnq4 (attend notes-partie-01)
 - [x] yRgPbqywUJ8 (lancé)
+- [x] hdjlCLb9Hl8 (lancé)
+
+## verificateur-faits (suite)
+- [ ] [hdjlCLb9Hl8] Section « Chiffres et affirmations » : 40 % de « no decision » en B2B, 5-7 décideurs, Segway (~100 M$, Ninebot 2015), fin de Google Glass Enterprise (mars 2023).
+
+## synthetiseur-connaissances
+- [ ] [hdjlCLb9Hl8] Confronter Dunford (catégorie en dernier, persona champion) au category design (*Play Bigger*) et à l'ABM dans `principes/positionnement-et-niche.md` (L8).

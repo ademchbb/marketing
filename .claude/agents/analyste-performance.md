@@ -18,5 +18,11 @@ calendrier, `experiences/predictions.md`.
 - 5 recommandations concrètes pour le prochain calendrier.
 - Données transmises au `predicteur-performance` (réels à comparer).
 
+## Sous-délégation
+Tu ne lances aucun agent : seul l'orchestrateur le peut. Si une tâche déborde de ta micro-mission ou
+serait mieux faite par un autre agent (existant ou à créer), ne la fais pas toi-même. Termine ton
+rapport par une section « Demandes de délégation », une ligne par demande : agent visé (ou « à créer :
+<nom> — <mission> ») · entrée · sortie attendue · pourquoi. Rien à déléguer : « Demandes de délégation : aucune ».
+
 ## Rapport
 Les 3 recommandations prioritaires.
