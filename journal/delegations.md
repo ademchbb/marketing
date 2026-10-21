@@ -196,3 +196,9 @@
 - Décision orchestrateur (taxonomie) : ajouter `vente`, `copywriting`, `site-web`, `strategie-croissance`, `ethique` (influence + marketing), `mesure-budget`, `relations-presse`, `identite-visuelle`, `psychologie-persuasion`. Non retenus : `histoire-marketing`, `marketing-non-marchand` (trop rares). → architecte-agents à la prochaine passe (consolidateur-fiche + synthetiseur).
 - [ ] [Kotler] garde-conformite : grille éthique (intrusion, exagération, fausse différenciation, surconsommation, produit nocif).
 - [ ] [Hopkins] garde-conformite : coût de formule annoncé comme fait, figure humaine qui signe, offre réservée à un groupe, partage de clients (RGPD), publicité comparative.
+- [x] architecte-agents passe post-frameworks faite (garde-conformite 3 sorties + grille droit, publicateur contrôles Meta, entrées frameworks de 8 agents, pipeline 3 bis).
+- [x] Fiche Priestley faite (3,5/5). Notes faites : ScaleVP, Doctolib p1.
+- [x] Lancés : architecte-agents (tags + droit dans 5 agents + QA pubs/emails + propriétaire de marques/_modele) ; fiche ScaleVP ; Doctolib p3 ; extracteur-frameworks (correction conformité selon passe-2-droit).
+- [ ] [scalevp] consolidateur-fiche : corriger pILj7t-qQhs (Sendoso publié p. 8 → 🟡 ; Alec Paul / SalesBrand confirmé ; Canberk Beker / ROASted probable ; une seule version du playbook).
+- [ ] [Priestley, Dent] verificateur-faits : Glastonbury, marges Rolex/compagnies aériennes, paradoxe eau-diamant (Smith), conditions ScoreApp, entreprise « Dent ».
+- [ ] archiviste (après la passe architecte) : `marques/_modele/emails/.gitkeep`.
