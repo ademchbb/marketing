@@ -16,5 +16,19 @@
 | google-abcd-playbook-2022 | ABCD — Mastering the art of effective storytelling on YouTube (playbook PDF) | Google / Think with Google | 25 p. | — | 1 | transcrit |
 | binet-field-b2b-growth | The 5 Principles of Growth in B2B Marketing | Les Binet & Peter Field (LinkedIn B2B Institute) | 38 p. | — | 1 | transcrit |
 | barometre-numerique-2026 | Baromètre du numérique, édition 2026 (présentation) | Crédoc pour Arcep, Arcom, CGE, ANCT | 64 p. | — | 1 | transcrit |
+| _hem3-8XbEI | The Power of Pre-Suasion — Robert Cialdini (Royal Society of Arts, conférence) | Royal Society of Arts | 1h01 | 152 k | 1 | transcrit |
+| 11rNI6BUey4 | Monter un business en ligne en partant de zéro : La méthode complète | Marketing Mania | 58:18 | 670 k | 1 | transcrit |
+| sR-qL7QdVZQ | Philip Kotler: Marketing | Chicago Humanities | 57:29 | 2,7 M | 1 | transcrit |
+| iM-ouJfISwY | Marketing Hall of Fame - Al Ries | Ries Report | 20:22 | 17 k | 1 | transcrit |
+| nte_k2hPXR0 | Psychologie de la Vente : 12 règles pour gagner plus souvent (formation vente) | Quentin Despas - The Good Sales | 33:59 | 130 k | 1 | transcrit |
+| LJVP2wRk7Cc | New Way To Get Clients On Demand: Complete Blueprint w/ Daniel Priestley | The Futur | 1h29 | 272 k | 2 | transcrit |
+| S8lH_TdQZgs | Master the StoryBrand Framework with Donald Miller: Clarify Your Message in 7 Steps | StoryBrand With Donald Miller | 1h01 | 98 k | 1 | transcrit |
+| au0-dI_wjI8 | Episode 106 - Creating A Unique Selling Proposition & An Irresistible Offer (Dan Kennedy) | Magnetic Marketing | 46:07 | 5,4 k | 1 | transcrit |
+| U1b1o-m5bpI | Strategic Narrative: Framework Behind Salesforce, Gong & Turing — Andy Raskin | FounderCoHo | 1h14 | 28 k | 1 | transcrit |
+| oeG8NWrWV4Y | Doctolib : derrière la plus grosse marque de la French tech - Stanislas Niox-Chateau | Matthieu Stefani - Génération Do It Yourself | 2h43 | 15 k | 3 | transcrit |
+| JE2_7elAcxM | How to Sell Better than 99% Of People (4 HOUR ULTIMATE GUIDE) | Alex Hormozi | 4h43 | 1,5 M | 5 | transcrit |
+| lhlS-Wds02M | Rory Sutherland - Alchemy: The Surprising Power of Ideas That Don't Make Sense | The Welcome Conference | 44:46 | 892 k | 1 | transcrit |
+| 8zcnK6Lx_p4 | Marketing Godfather: How To Build An Audience That Buys — Seth Godin | The Calum Johnson Show | 59:02 | 876 k | 1 | transcrit |
+| 6_CCutkM11g | $100M Money Models Live Launch | Alex Hormozi | 7h01 | 1,2 M | 6 | transcrit |
 
 Statuts : `transcrit` → `analysé` (notes de parties) → `fiché` (fiche.md) → `intégré` (principes à jour).

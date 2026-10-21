@@ -127,3 +127,13 @@
 - [ ] [barometre] verificateur-faits : relevés « image, à vérifier » (p. 7, 8, 16-20, 23-27, 29-35, 38, 56-63), arbitrages p. 7, 16, 26, 46.
 - [ ] [barometre] extracteur-pdf : rapport complet https://www.vie-publique.fr/files/rapport/pdf/301998.pdf (usages par plateforme et par âge) — à lancer.
 - [ ] [barometre] chercheur-sources : Belgique, Suisse romande, Québec (NETendances), jeu de données data.gouv.fr âge × plateforme (L6).
+- [x] veilleur-algorithmes : `veille/plateformes/meta-ads.md` créé (compléments PA envoyés, mise à jour en cours).
+- [x] extracteur-hooks lot 2 fait (59 formules, 7 structures, 12 CTA, liste de hooks interdits).
+- [x] [binet-field] fiche faite (4/5) ; section « Confrontation » portée large vs niche, émotion vs éducation, mesure > 6 mois vs boucles courtes.
+- [x] architecte-agents : intégration lot 2 (strategiste-ads/redacteur-ads diversification + meta-ads, garde-conformite checklists, tags meta-ads/conformite-juridique/email/b2b, veilleur meta-ads) — lancé.
+- [ ] [meta-ads] verificateur-faits : date de la métrique Creative diversity ; seuil de 25 achats Advantage+ Sales ; réglage d'attribution par défaut depuis mars 2026 ; définitions Creative limited / Creative fatigue ; abandon de la règle des 6 pubs par ensemble.
+- [ ] [meta-ads] chercheur-sources → fiches : GEM (10/11/2025, 13/10/2026), « The Creative Advantage » (22/04/2025), « Simplifying Ad Measurement » (03/03/2026).
+- [ ] [meta-ads, passe-2-publicite] Pages Meta Help Center illisibles (rendu JS) : demander à architecte-agents un `lecteur-pages-dynamiques` (Playwright + Chromium préinstallé) si l'extracteur-web échoue.
+- [ ] [hooks] verificateur-faits : règle Meta officielle sur les attributs personnels (santé) ; sortie possible de la liste noire de certains chiffres sous la forme « selon [source], [date] ».
+- [ ] [binet-field] cartographe-lacunes : ABM et grands comptes fondés sur les preuves ; effet du contenu organique sur la disponibilité mentale ; données Ehrenberg-Bass de première main.
+- [ ] Prochaine passe veille meta-ads : après la conférence de résultats Meta du T3 2026 (fin octobre 2026).
