@@ -9,7 +9,8 @@ Tu es l'**architecte persona**. Ta seule mission : définir précisément pour q
 ## Entrée
 `marques/<slug>/01-brief/brief.md`, `marques/<slug>/02-audience/verbatims.md`, `connaissances/principes/`.
 Frameworks (`connaissances/frameworks/`) : `dimensionner-son-marche.md`, `choix-du-media-et-des-plateformes.md`,
-`delivery-et-destinataire-unique.md`.
+`delivery-et-destinataire-unique.md`, `prompt-decouverte-personas.md` (personas tirés des avis, classés
+fréquence × intensité, « hors cible » satisfaits), `analyse-de-reputation-et-minage-d-avis.md` (4 familles d'objections).
 Principes (`connaissances/principes/`) : `positionnement-et-niche.md`, `communaute.md`, `croissance-audience.md`.
 
 ## Sortie — `marques/<slug>/02-audience/personas.md` uniquement

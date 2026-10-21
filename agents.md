@@ -133,7 +133,7 @@ marqués « à venir ».
 |---|---|---|
 | `critique-hook` | Note et classe les variantes d'accroche d'un post comme le ferait un utilisateur pressé qui scrolle, selon une grille fixe, et désigne le gagnant (et la variante à tester contre lui). | `marques/<slug>/05-posts/<post>/critique-hooks.md` |
 | `correcteur` | Relit tous les textes d'un post (écran, voix, légende, carrousel) | `marques/<slug>/05-posts/<post>/relecture.md` |
-| `garde-conformite` | Vérifie qu'un contenu respecte la loi et les règles des plateformes | `marques/<slug>/05-posts/<post>/conformite.md` |
+| `garde-conformite` | Vérifie qu'un contenu (post, campagne de pub, séquence d'emails) respecte la loi et les règles des plateformes | un seul fichier selon le livrable : `marques/<slug>/05-posts/<post>/conformite.md`, `marques/<slug>/10-ads/conformite-<campagne>.md` ou `marques/<slug>/emails/<sequence>/conformite.md` |
 | `simulateur-audience` | Joue le persona cible face à un post terminé | `marques/<slug>/05-posts/<post>/simulation.md` |
 | `controleur-qualite-marketing` | Dernier contrôle avant validation utilisateur | `marques/<slug>/05-posts/<post>/qa.md` |
 
@@ -201,6 +201,13 @@ ideateur → redacteur-hooks → critique-hook
   → correcteur ∥ garde-conformite ∥ simulateur-audience
   → controleur-qualite-marketing (veto, ≥ 85/100) → predicteur-performance
   → VALIDATION UTILISATEUR → pont-motion-design (si vidéo premium) → publicateur → adaptateur-multiplateforme
+```
+
+### 3 bis. Campagne payante et séquence d'emails
+```
+strategiste-ads → redacteur-ads (∥ directeur-creatif-visuel) → garde-conformite (10-ads/conformite-<campagne>.md)
+  → VALIDATION UTILISATEUR (campagne et budget) → publicateur (liste Advantage+ du plan, UTM) → analyste-performance
+redacteur-newsletter (séquence) → garde-conformite (emails/<sequence>/conformite.md) → VALIDATION UTILISATEUR
 ```
 
 ### 4. Apprendre de ses résultats

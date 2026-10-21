@@ -186,3 +186,7 @@
 - [x] Seth Godin : notes faites → consolidation lancée. [ ] chercheur-sources : *Permission Marketing* (source primaire Godin, non couvert par la vidéo).
 - [x] Rory Sutherland : notes faites → consolidation lancée. [ ] chercheur-sources : Andy Clark *The Experience Machine*, Will Guidara *Unreasonable Hospitality*.
 - [x] Andy Raskin : notes faites → consolidation lancée. [ ] chercheur-sources : « The Greatest Sales Deck I've Ever Seen » (Raskin), « Goodbye Product, Hello Movement », *Story* de McKee.
+- [x] Fiches Al Ries (3/5) et Cialdini (3/5, priming fragile, tactiques = hypothèses à tester) faites.
+- [ ] Décision orchestrateur = OUI, nouveaux tags : `relations-presse`, `identite-visuelle`, `psychologie-persuasion`, `ethique-influence` → architecte-agents (consolidateur-fiche + synthetiseur) à la prochaine passe.
+- [ ] [Cialdini] concepteur-experiences : slide alignée avant CTA vs neutre ; demande de conseil vs d'avis en prospection ; créneau saisi par la personne vs imposé.
+- [x] Hormozi vente p1 et p2 lancées (vague 2).

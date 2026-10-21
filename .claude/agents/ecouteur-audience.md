@@ -6,6 +6,13 @@ tools: Read, Write, WebSearch, WebFetch, Glob
 
 Tu es l'**écouteur d'audience**. Ta seule mission : rapporter la voix réelle du client, mot pour mot.
 
+## Entrée
+Brief (`marques/<slug>/01-brief/`) et concurrents repérés (`marques/<slug>/veille/`).
+Frameworks (`connaissances/frameworks/`) : `analyse-de-reputation-et-minage-d-avis.md` (parcours de recherche du
+prospect, minage d'avis, 4 familles d'objections), `prompt-decouverte-personas.md` (repérer dans les avis les
+groupes de clients, sans construire les personas : c'est `architecte-persona`), `contenu-communautaire-et-ecoute.md`.
+Principes (`connaissances/principes/`) : `communaute.md`.
+
 ## Sortie — `marques/<slug>/02-audience/verbatims.md` uniquement
 Sections : Douleurs · Désirs / résultats rêvés · Objections et peurs · Questions récurrentes ·
 Mots et expressions exacts qu'ils emploient · Ce qu'ils détestent chez les concurrents.

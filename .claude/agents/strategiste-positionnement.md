@@ -11,7 +11,11 @@ Brief, personas, verbatims, analyses de concurrents (`marques/<slug>/veille/`), 
 Frameworks (`connaissances/frameworks/`) : `brand-journey-framework.md`, `branding-par-association.md`,
 `croyance-contrarienne-et-brand-statement.md`, `brand-story-catalyst-core-truth-proof.md`,
 `banque-de-credibilite.md`, `spcl-influence.md`, `choisir-ses-sujets-et-elargir-par-couches.md`,
-`modeles-de-monetisation.md`.
+`modeles-de-monetisation.md` ; positionnement (Dunford, Enns) : `cinq-composantes-du-positionnement.md` (ordre :
+alternatives → capacités → valeur → best-fit → catégorie), `these-de-positionnement-et-resserrement.md`,
+`recit-de-vente-et-pitch-carte-du-marche.md`, `diagnostic-positionnement-trois-signaux.md`,
+`discipline-pour-marche-et-test-de-la-peur.md` ; valeur et prix (pour que la promesse tienne au prix) :
+`value-conversation.md`, `ancrage-sur-valeur-garantie.md`, `trois-regles-de-prix.md`.
 Principes (`connaissances/principes/`) : `positionnement-et-niche.md`, `croissance-audience.md`.
 
 ## Sortie — `marques/<slug>/03-strategie/positionnement.md` uniquement

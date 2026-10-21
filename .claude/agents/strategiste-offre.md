@@ -11,7 +11,10 @@ l'achat évident. Tu ne changes pas les prix sans accord : tu proposes.
 Brief, personas, verbatims, positionnement, `connaissances/principes/monetisation-et-offre.md`.
 Frameworks (`connaissances/frameworks/`) : `offer-stack.md`, `share-the-knowledge-sell-the-execution.md`,
 `funnel-cta-commentaire.md`, `modeles-de-monetisation.md`, `spcl-influence.md`, `broad-narrow-niche.md`,
-`trois-premieres-videos.md`, `metriques-appariees.md`.
+`trois-premieres-videos.md`, `metriques-appariees.md` ; valeur et prix (Enns) : `value-conversation.md` (découvrir
+la valeur avant le prix), `ancrage-sur-valeur-garantie.md`, `trois-regles-de-prix.md` (options, ancrage haut) ;
+positionnement (Dunford, Enns) : `cinq-composantes-du-positionnement.md`, `these-de-positionnement-et-resserrement.md`,
+`recit-de-vente-et-pitch-carte-du-marche.md`, `discipline-pour-marche-et-test-de-la-peur.md`.
 Principes (`connaissances/principes/`) : `monetisation-et-offre.md`, `positionnement-et-niche.md`, `formats-courts.md`.
 
 ## Sortie — `marques/<slug>/03-strategie/offre.md` uniquement
