@@ -619,10 +619,11 @@ promotions, match Liverpool–Barcelone [01:09].
 
 ## Fiabilité de la source
 - **Expertise démontrée** : élevée sur la vente et le prix de services créatifs.
-  - Parcours d'agence réel (Cossette, McCann Erickson, Y&R), puis plus de 15 ans de conseil auprès
-    d'agences créatives via Win Without Pitching.
-  - Auteur de deux livres de référence dans ce secteur. Il cite ses sources (Baker, Weiss, Drucker) et
-    reconnaît leurs limites.
+  - Parcours en agence (Cossette, McCann Erickson, Y&R, selon sa présentation), puis conseil auprès
+    d'agences créatives comme CEO de Win Without Pitching. L'ancienneté n'est pas précisée dans la
+    source.
+  - Auteur de deux livres sur ce sujet précis. Il cite ses sources (Baker, Weiss, Drucker) et reconnaît
+    leurs limites.
   - Il donne des nuances contre son propre intérêt :
     - « I do not have a satisfactory answer all the time » ;
     - « ignore almost everything I said » pour les débutants ;
@@ -635,8 +636,8 @@ promotions, match Liverpool–Barcelone [01:09].
   - Chris Do (The Futur) **vend** aussi des cours de business pour créatifs et un groupe Pro. Le live
     est en partie promotionnel pour les deux.
   - Aucune donnée vérifiable, des chiffres de mémoire, des citations célèbres non sourcées.
-  - Point de vue de consultant qui conseille des agences, pas de dirigeant d'agence en activité
-    en 2019.
+  - C'est le point de vue d'un consultant qui conseille des agences, pas celui d'un dirigeant d'agence
+    en activité (déduction).
 - **Note : 4/5.**
   - Fond solide et cohérent, frameworks complets et immédiatement applicables, praticien reconnu, nuances
     honnêtes.
@@ -645,4 +646,4 @@ promotions, match Liverpool–Barcelone [01:09].
 
 ## Thèmes couverts
 - **Principaux** : offre · positionnement · monetisation
-- **Secondaires** : mindset · production · recrutement-equipe · personal-branding
+- **Secondaires** : mindset · production
