@@ -137,3 +137,5 @@
 - [ ] [hooks] verificateur-faits : règle Meta officielle sur les attributs personnels (santé) ; sortie possible de la liste noire de certains chiffres sous la forme « selon [source], [date] ».
 - [ ] [binet-field] cartographe-lacunes : ABM et grands comptes fondés sur les preuves ; effet du contenu organique sur la disponibilité mentale ; données Ehrenberg-Bass de première main.
 - [ ] Prochaine passe veille meta-ads : après la conférence de résultats Meta du T3 2026 (fin octobre 2026).
+- [x] extracteur-youtube lot A fait (14 vidéos, 24 unités d'analyse). Correction : nte_k2hPXR0 = chaîne « Quentin Despas – The Good Sales » (pas Katana).
+- [ ] analyste-transcription vague 1 (12 : 10 vidéos en 1 partie + Priestley ×2) — lancée ; vague 2 (Doctolib ×3, Hormozi vente ×5, Money Models ×6) — après.
