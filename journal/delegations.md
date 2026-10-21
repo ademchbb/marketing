@@ -156,3 +156,9 @@
 - [ ] [barometre] extracteur-pdf : rapport complet (vie-publique 301998.pdf) + open data data.gouv.fr (croisements âge × réseaux, légende p. 46).
 - [ ] [barometre] cartographe-lacunes : L6 couverte seulement pour la France métropolitaine ; manque données par plateforme et par âge (Médiamétrie, Arcom).
 - [x] hopkins-scientific-advertising p1 et p2 : analyses lancées.
+- [x] verificateur-faits passe 2 droit fait (36 : 27 ✅ 4 🟡 2 ❌ 3 questions ouvertes) ; questions juridiques précisées dans `questions-utilisateur.md` (n° 4).
+- [ ] [passe-2-droit] architecte-agents (passe suivante, avec les points déjà en attente) : checklist garde-conformite corrigée (6 catégories interdites et non 7 ; CPF en trois régimes ; démarchage CPF bloqué ; seuil de 1 000 € HT cumulatif ; référentiel Arcom pour les jeux ; crypto après le 01/07/2026 ; influenceur établi dans l'EEE, art. 5-1) + consolidateur-fiche sur les fiches Bpifrance/CNIL pour les mêmes corrections.
+- [ ] [passe-2-droit] extracteur-pdf : guide Bercy influence (juin 2026) https://www.economie.gouv.fr/files/files/2026/Guide-influence-commerciale.pdf et référentiel CNIL « gestion des activités commerciales » (403/503 le 2026-10-21, à retenter).
+- [ ] [passe-2-droit] chercheur-sources : textes consolidés hors Légifrance (loi 2023-451 art. 4 V, 6, 7, 8 ; décrets 2025-1137 et 2026-233 ; L.34-5 ; délibérations CNIL) ; ARPP v5 ; doctrine sur l'agence mandataire / agent.
+- [x] verificateur-faits : fusion des passes 2 dans `registre.md` (lancée).
+- [x] [passe-2-b2b] corrections faites dans pILj7t-qQhs et hdjlCLb9Hl8. [ ] restes mineurs : TB16 (RevSure confirmé), TB18 (Alison Coleman), TB10 (Help Scout « first »), TB20 (« most » et non 6) — à joindre à la prochaine passe du consolidateur.

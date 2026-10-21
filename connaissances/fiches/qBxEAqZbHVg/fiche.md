@@ -17,6 +17,7 @@ https://www.youtube.com/watch?v=qBxEAqZbHVg · 48 min 08 s · 102 978 vues (2 80
 > de l'état de Meta ou du marché en 2024, à revérifier.
 > Lacunes couvertes : **L1 (pub Meta)** et **L6 (marché francophone)**.
 > Trace détaillée : `notes-partie-01.md` (00:00-48:02, vidéo complète).
+> Vérification : `connaissances/verifications/passe-2-publicite.md` (PA04-PA06, PG01-PG08, PC07-PC09).
 
 ## En une phrase
 Meta Ads est une machine à **acheter de l'attention pour acquérir de nouveaux clients**. Il ne démarre pas un
@@ -76,7 +77,11 @@ Horodatages au format `[mm:ss]`.
    - Conséquence : soit aucune décision, soit une **mauvaise décision** (couper le canal « moins rentable »
      et casser la synergie).
    - Google Analytics favorise les leviers de dernier clic, donc Google Ads, au détriment de Meta. Il y a
-     une « guerre des régies » [DATÉ 2024 : GA4 est passé au modèle data-driven].
+     une « guerre des régies ». [Corrigé : le modèle par défaut de GA4 est **data-driven** ; depuis
+     novembre 2023, seuls le data-driven et deux modèles au dernier clic restent disponibles (premier clic,
+     linéaire, décroissance temporelle et position retirés). Mais le data-driven ne compte que les clics et
+     les vues engagées, pas les impressions : le biais contre les vues Meta sans clic reste réel
+     [verif:PA05] [verif:PA06].]
    - Alternatives : **CAC blended** = dépense marketing totale / nouveaux clients, en comparant des mois aux
      mix différents ; **questionnaire post-achat** « où avez-vous entendu parler de nous ? ».
    - « C'est votre CAC blended qui mesure la qualité de votre mix marketing. »
@@ -88,8 +93,9 @@ Horodatages au format `[mm:ss]`.
      d'abonnés, donc confiance), puis la marque sur Google, puis dans la presse. Au bout d'un moment, « elle
      ne peut plus vous ignorer ». L'auteur reconnaît que c'est un effet irrationnel.
    - Une calèche avec un cheval n'avance pas ; avec quatre chevaux synchronisés, elle va « très très vite ».
-   - Faire revenir un client coûte bien moins cher (« je crois 7 fois », à vérifier) : on réactive par
-     **e-mail, SMS, organique**, des canaux possédés, pas par Meta.
+   - Faire revenir un client coûte bien moins cher (« je crois 7 fois » ; la source la plus citée dit **5 à
+     25 fois selon le secteur**, HBR 2014 [verif:PG01]) : on réactive par **e-mail, SMS, organique**, des
+     canaux possédés, pas par Meta.
 
 4. **Meta accélère, il ne démarre pas : « démarrer une voiture en seconde ».** [FONDAMENTAL] [06:56] [08:01]
    - « Vous ne pouvez pas vous acheter un product-market fit. » Rendre public un produit qui ne plaît pas ne
@@ -110,7 +116,8 @@ Horodatages au format `[mm:ss]`.
    - **CPA = panier moyen / ROAS** : le panier moyen étant quasi constant, CPA et ROAS bougent ensemble.
    - Commencer par les **20 % de campagnes qui font 80 % de la dépense**.
    - Le ROAS est « gold » pour le pilotage quotidien mais **n'a pas de valeur absolue** : il dépend de la
-     fenêtre d'attribution (7 j clic / 1 j vue par défaut [DATÉ 2024]), du tracking et du TTC/HT.
+     fenêtre d'attribution (7 j clic / 1 j vue par défaut [DATÉ 2024] ; en 2026, 7 j clic + 1 j
+     engage-through + 1 j vue, voir framework C [verif:PA04]), du tracking et du TTC/HT.
 
 6. **La performance bouge souvent sans vous : connaître les biais et toujours raisonner par comparaison.**
    [FONDAMENTAL] [23:08] [30:45] [31:18] [31:50] [33:58]
@@ -216,13 +223,24 @@ mesurable avec précision**.
 - Seule une part est tracée : les **ventes post-vue** (achat moins de 24 h après la vue).
 - Modèle par défaut : **7 jours clic / 1 jour vue**. Il existe donc plusieurs ROAS (7 j clic ; 1 j vue ;
   7 j clic + 1 j vue dédupliqué) [DATÉ 2024].
+- **Mise à jour 2026** [verif:PA04] : le défaut 7 j clic + 1 j vue est maintenu, mais il a changé deux fois.
+  - **12/01/2026** : les fenêtres vue longues (7 j et 28 j vue) ne sont plus renvoyées par l'API. Restent
+    1 j clic, 7 j clic, 28 j clic, 1 j engaged-view et 1 j vue.
+  - **Mars 2026** : le « clic » ne compte plus que les **clics sur lien**. Réactions, commentaires, partages,
+    enregistrements et vues engagées passent dans une nouvelle catégorie, « **engage-through** », de 1 jour,
+    activée par défaut. Nouveau défaut : 7 j clic + 1 j engage-through + 1 j vue ; 28 j clic n'est plus
+    optimisable.
+  - Conséquence : une baisse des conversions « clic » après mars 2026 est un **reclassement**, pas une
+    baisse de performance.
 - Leçon : **le ROAS n'a pas de valeur absolue**, « on peut en faire un petit peu ce qu'on veut ».
 
 ### D. Métriques de diffusion contre métriques de conversion [13:23] [15:00] [FONDAMENTAL]
 - **Diffusion** (qualité de l'expérience **dans la plateforme**) : CPM, CTR, CPC.
   - CPM : le prix que Meta vous fait payer. Facteur n°1 : faire vivre une **expérience intéressante**.
     Repère France : **≈ 5 € sur une campagne de conversion** ; à 10 €, toute la chaîne est pénalisée
-    [DATÉ 2024].
+    [DATÉ 2024]. **Contredit comme norme 2026** : les relevés 2025-2026 donnent une médiane d'environ 8 à
+    10 $ en France, plus haut sur Instagram et en conversion. Pour une prévision, partir de 7 à 12 €, puis
+    recaler sur les données du compte [verif:PG03].
   - CPC : à quel point le trafic est bon marché. Mais **tous les clics ne se valent pas** : « ce n'est pas
     l'alpha et l'oméga ».
 - **Conversion** (qualité du **site et de l'offre**, moins dépendante de Facebook) : CR, CPA, AOV, ROAS.
@@ -294,10 +312,12 @@ Un biais = ce qui fait bouger la performance **indépendamment de vos actions** 
    - **TTC ou HT** : repasser la valeur de conversion en HT fait chuter le ROAS instantanément, d'où
      l'hésitation des prestataires à faire la correction. **L'auteur dit « 20 % », c'est faux : avec 20 % de
      TVA, HT = TTC / 1,2, donc le ROAS baisse de 16,7 %.** (C'est le ROAS TTC qui est gonflé de 20 % par
-     rapport au HT.)
+     rapport au HT.) [verif:PG04]
 3. **Modèles d'attribution** [DATÉ 2024 en partie]
    - Les modèles au **dernier clic**, très présents dans Google Analytics, favorisent Google Ads (fort en
-     dernier clic) : Google Ads y paraît excellent, Meta « pas fou ».
+     dernier clic) : Google Ads y paraît excellent, Meta « pas fou ». [Corrigé : GA4 est en data-driven par
+     défaut, mais ce modèle ignore les impressions sans clic, et les dimensions de canal de session restent
+     en dernier clic non direct : le désavantage de Meta demeure [verif:PA05] [verif:PA06].]
    - Guerre des régies : chacune veut s'attribuer le CA.
    - Conclusion : prendre ses distances, se concentrer sur des **métriques macro comme le CAC**.
 
@@ -395,8 +415,9 @@ Les étapes marquées *(déduction)* prolongent la source sans y figurer mot pou
    ROI, enveloppes saisonnières. Formuler « X nouveaux clients ou X € de CA, avec au minimum Y de ROI », jamais
    « doubler le budget » [42:08] [43:11] [43:43].
 5. **Assainir la mesure avant de lancer.**
-   - Noter la **fenêtre d'attribution** (7 j clic / 1 j vue) et la garder constante ; ne jamais comparer des
-     ROAS calculés sur des fenêtres différentes [20:57].
+   - Noter la **fenêtre d'attribution** (en 2026 : 7 j clic + 1 j engage-through + 1 j vue [verif:PA04]) et la
+     garder constante ; ne jamais comparer des ROAS calculés sur des fenêtres différentes, ni des périodes de
+     part et d'autre de mars 2026 sans tenir compte du reclassement des clics [20:57].
    - Vérifier si la valeur de conversion remonte en **TTC ou HT**, et l'écrire dans tout reporting [33:26].
    - Mettre une alerte de **panne de tracking** (zéro conversion sur 24 h alors que la boutique vend)
      *(déduction)* [31:50].
@@ -412,7 +433,8 @@ Les étapes marquées *(déduction)* prolongent la source sans y figurer mot pou
    - D'abord les campagnes qui font 80 % de la dépense [12:19].
    - Gold (CPA/ROAS) → intermédiaires (CPC/CPM) → bronze (CTR) ; ne descendre que si le niveau supérieur se
      dégrade [17:45] [22:36].
-   - Repère France 2024 : CPM de conversion ≈ 5 € normal, 10 € alerte [DATÉ 2024] [13:23].
+   - Repère France : la source dit CPM de conversion ≈ 5 € normal, 10 € alerte (2024). En 2026, partir de
+     7 à 12 € et recaler sur l'historique du compte [verif:PG03] [13:23].
 9. **Trier les créas sur la matrice dépense × CPA** (framework J) : couper tôt les peu diffusées à CPA élevé,
    pousser les peu diffusées à bon CPA, vérifier le CPC avant de couper [35:36] [36:39].
 10. **Expliquer chaque variation avant d'agir.** Tenir un **journal des biais** (saisonnalité, actualité,
@@ -501,23 +523,36 @@ Toutes viennent de Coudac. Aucune donnée client n'est publiée. Plusieurs exemp
   auto-promotion d'agence, reprise dans la description.
 
 **Marché et plateforme** [DATÉ 2024, L6]
-- Environ **60 % des Français** sont utilisateurs actifs mensuels de Facebook/Instagram [09:08] · non sourcé.
+- Environ **60 % des Français** sont utilisateurs actifs mensuels de Facebook/Instagram [09:08] · non sourcé
+  par l'orateur. **Vérifié : entre 47 % et 76 % selon la mesure.** Audiences publicitaires Meta fin 2025 :
+  Facebook 47,2 % de la population (58,7 % des 18 ans et plus), Instagram 42,2 % (53,7 %). Médiamétrie, août
+  2026, visiteurs uniques de 11 ans et plus : environ 76 % pour Facebook et 66 % pour Instagram (un visiteur
+  unique n'est pas forcément connecté). Bon ordre de grandeur ; pour un plan média, prendre l'audience
+  estimée dans Ads Manager [verif:PG02 🟡].
 - CPM de « norme française » **≈ 5 €** sur une campagne de conversion ; 10 € pénalise toute la chaîne
   [13:23] · expérience d'agence ; varie selon le secteur et la saison, et monte probablement en
-  novembre-décembre *(déduction)*.
+  novembre-décembre *(déduction)*. **Contredit comme norme 2026** : chiffre de 2024 ; les relevés 2025-2026
+  donnent une médiane France d'environ 8 à 10 $ (Superads : 9,67 $ de janvier 2025 à janvier 2026 ;
+  Adligator, mars 2026 : 7 à 10 $ sur Facebook, 9 à 13 $ sur Instagram). Ne pas citer « 5 € » comme norme
+  [verif:PG03 ❌].
 - Ventes post-vue comptées si l'achat a lieu **moins de 24 h** après la vue ; post-clic 7 jours ; modèle par
-  défaut **7 j clic / 1 j vue** [20:25] [20:57] · paramétrage de plateforme qui évolue : contrôler la
-  documentation Meta actuelle.
-- Google Analytics « valorise énormément le last click » [33:58] · opinion d'expert. GA4 a le **data-driven**
-  comme modèle par défaut depuis 2023, mais il ne compte que les interactions cliquées ou engagées : le biais
-  défavorable aux impressions Meta sans clic reste plausible. À vérifier.
+  défaut **7 j clic / 1 j vue** [20:25] [20:57] · **confirmé avec mise à jour 2026** : le défaut 7 j clic +
+  1 j vue est maintenu ; fenêtres vue longues (7 j et 28 j vue) retirées de l'API le 12/01/2026 ; depuis mars
+  2026, « clic » = clic sur lien, et les autres interactions passent en « engage-through » 1 j (détail au
+  framework C) [verif:PA04 ✅].
+- Google Analytics « valorise énormément le last click » [33:58] · **faux à la lettre, juste dans les
+  faits** : le modèle par défaut de GA4 est data-driven (premier clic, linéaire, décroissance temporelle et
+  position retirés en novembre 2023). Il compte les clics et les vues engagées, pas les impressions : le
+  biais contre les vues Meta sans clic est réel [verif:PA05 ✅] [verif:PA06 🟡].
 - « La vue de vidéo, nous on l'utilise énormément » pour nourrir l'audience acheteuse [44:48] · pratique
   d'agence 2024.
 
 **Économie client**
 - Acquérir un nouveau client coûte « je crois **7 fois** plus cher » que d'en faire revenir un [02:38] ·
-  statistique de seconde main, annoncée avec hésitation. Le chiffre circule (5 à 25× selon les sources,
-  souvent attribué à Bain ou à la HBR) sans source primaire claire.
+  statistique de seconde main, annoncée avec hésitation. Source la plus citée : « anywhere from five to 25
+  times more expensive », selon l'étude et le secteur (HBR, 29/10/2014), sans étude nommée ; le « 7× » n'a
+  pas de source propre. Formulation à utiliser : **« 5 à 25× selon le secteur (HBR 2014) »**
+  [verif:PG01 🟡].
 
 **Attribution et tracking**
 - **1 500 à 2 000 ventes revendiquées** par les plateformes pour 1 000 ventes réelles [24:46] · ordre de
@@ -526,7 +561,8 @@ Toutes viennent de Coudac. Aucune donnée client n'est publiée. Plusieurs exemp
   14.5, RGPD) est réelle, mais son ampleur varie selon les comptes.
 - Passer le ROAS de TTC à HT le fait baisser « de **20 %** » [33:26] · **inexact**. Avec une TVA à 20 %,
   HT = TTC / 1,2, donc le ROAS baisse de **16,7 %**. C'est le ROAS TTC qui est **20 % plus haut** que le ROAS
-  HT, d'où sans doute la confusion. Pour les taux réduits (5,5 %, 10 %), l'écart est encore plus faible.
+  HT, d'où sans doute la confusion. Pour les taux réduits (5,5 %, 10 %), l'écart est encore plus faible
+  [verif:PG04 ❌].
 - Guerre en Ukraine (2022) : forte chute sur presque tous les comptes Coudac, sauf les vendeurs de panneaux
   solaires [31:18] · expérience d'agence, non chiffrée.
 
@@ -588,13 +624,18 @@ Toutes viennent de Coudac. Aucune donnée client n'est publiée. Plusieurs exemp
 - **Périmètre** : e-commerce B2C français, gros budgets. Rien sur le ciblage, la structure de campagne, les
   enchères, Advantage+, le B2B ou la génération de leads.
 
-**Points [DATÉ 2024] à revérifier en 2026** *(contexte externe, à faire valider)*
-- Le conseil des campagnes de **vue de vidéo** pour élargir l'audience, alors que les campagnes Advantage+ et
-  le système de recommandation publicitaire de Meta ont fait de la **diversité des créas** le principal levier
-  de ciblage en 2025.
-- Les **fenêtres d'attribution** (7 j clic / 1 j vue) et l'avenir des fenêtres post-vue.
-- Le **CPM français à 5 €** et les **60 %** d'utilisateurs actifs.
-- Le biais « last click » de GA4, dont le modèle par défaut est data-driven.
+**Points [DATÉ 2024] à revérifier en 2026** *(contexte externe ; statut après la passe de vérification n°2,
+2026-10-21)*
+- Le conseil des campagnes de **vue de vidéo** pour élargir l'audience, alors que Meta a fait de la
+  **diversité des créas** le principal levier pour trouver les audiences (consigne officielle depuis le
+  22/04/2025 [verif:PA23]). Reste à vérifier.
+- Les **fenêtres d'attribution** (7 j clic / 1 j vue) et l'avenir des fenêtres post-vue : **vérifié**, voir
+  framework C [verif:PA04].
+- Le **CPM français à 5 €** et les **60 %** d'utilisateurs actifs : **vérifiés**. CPM contredit comme norme
+  2026 (7 à 12 € pour une prévision) [verif:PG03] ; 60 % = entre 47 % et 76 % selon la mesure
+  [verif:PG02].
+- Le biais « last click » de GA4, dont le modèle par défaut est data-driven : **vérifié**, le biais contre
+  les impressions Meta sans clic est réel [verif:PA05] [verif:PA06].
 - Le **mécanisme du plafond** [45:21] reste fondamental (fréquence, saturation), mais l'exemple suppose une
   « cible acheteuse » fixe. L'élargissement passe aussi par de nouvelles créas, pas seulement par d'autres
   objectifs de campagne *(déduction)*.

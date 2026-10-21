@@ -16,3 +16,17 @@
    l'agence passe aujourd'hui par un relais public tiers. Une clé YouTube Data API v3 (gratuite, Google
    Cloud) stockée en variable d'environnement de l'environnement cloud (`YOUTUBE_API_KEY`, jamais dans
    le repo) rendrait la vérification plus fiable. Sans elle, on continue comme aujourd'hui.
+
+4. **Questions juridiques précisées (pour un juriste)**. L'état des sources est dans `connaissances/verifications/passe-2-droit.md` (Q1-Q3).
+   - **Agence « mandataire » ou « agent d'influenceur » ?** La loi ne définit pas le mandataire (→ art. 1984 du Code civil :
+     agir au nom et pour le compte de la marque). Nouveau risque : l'art. 7 de la loi 2023-451 définit l'agent d'influenceur
+     comme celui qui « met en relation, à titre onéreux » créateurs et annonceurs. Une agence payée pour trouver des
+     créateurs pourrait donc être qualifiée d'agent, avec la même responsabilité solidaire. Aucune jurisprudence trouvée.
+   - **Compte de marque ou fondateur qui parle de ses propres produits** : relève-t-il de la loi influence ? Aucun texte lu
+     ne tranche (critère « à titre onéreux » de l'art. 1). Le droit commun des pratiques commerciales trompeuses s'applique
+     dans tous les cas, et la Commission européenne considère que l'autopromotion doit être signalée comme commerciale.
+   - **Formation CPF** : la promotion est encadrée. La contrepartie liée à l'inscription et le démarchage individuel des titulaires
+     (email, DM, SMS, téléphone) sont interdits à tous (jusqu'à 375 000 € pour une société). Question ouverte : un post sponsorisé public
+     compte-t-il comme démarchage ?
+   En attendant : l'agence ne joue ni le rôle de mandataire ni celui d'agent pour une collaboration rémunérée, et ne fait
+   aucune promotion de formation CPF.
