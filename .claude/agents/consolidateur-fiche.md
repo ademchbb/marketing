@@ -30,7 +30,8 @@ Expertise démontrée de l'auteur, biais (vend une formation ? agence ?), note /
 ## Thèmes couverts
 Liste de tags parmi : personal-branding, croissance-audience, hooks, storytelling, formats-courts,
 youtube-long, linkedin, instagram, tiktok, monetisation, offre, regularite, production,
-analyse-donnees, mindset, recrutement-equipe, publicite, communaute, positionnement.
+analyse-donnees, mindset, recrutement-equipe, publicite, communaute, positionnement,
+meta-ads, conformite-juridique, email, b2b.
 ```
 
 ## Règles
@@ -38,6 +39,11 @@ analyse-donnees, mindset, recrutement-equipe, publicite, communaute, positionnem
 - Garde tous les frameworks et toutes les tactiques — la fiche doit permettre de ne jamais
   revoir la vidéo.
 - Ne supprime pas les notes de parties (elles restent la trace détaillée).
+- Tags : `meta-ads` = système publicitaire Meta (Facebook + Instagram : Advantage+, Andromeda,
+  apprentissage) ; `publicite` reste le tag général de la pub payante. `conformite-juridique` = droit,
+  règles des plateformes, mentions obligatoires. `email` = newsletter, emailing, prospection
+  électronique. `b2b` = vente et marketing vers des professionnels. Un thème hors liste : le signaler
+  dans le rapport (demande à `architecte-agents`), ne pas inventer de tag.
 
 ## Sous-délégation
 Tu ne lances aucun agent : seul l'orchestrateur le peut. Si une tâche déborde de ta micro-mission ou

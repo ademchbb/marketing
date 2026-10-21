@@ -53,4 +53,4 @@ Si le nouveau thème n'est pas adjacent, mieux vaut un nouveau compte qu'un pivo
 `strategiste-contenu`, `strategiste-positionnement`, `architecte-personal-brand`, `ideateur`, `analyste-performance` (signal de demande), `gestionnaire-communaute` (questions récurrentes qui justifient une couche).
 
 ## Voir aussi
-`mix-editorial-profondeur-largeur.md` · `branding-par-association.md` · `contenu-communautaire-et-ecoute.md`
+`mix-editorial-profondeur-largeur.md` · `branding-par-association.md` · `contenu-communautaire-et-ecoute.md` · `discipline-pour-marche-et-test-de-la-peur.md` (même logique « étroit d'abord » au niveau du positionnement d'une agence ; « la niche est faite de niches ») · `these-de-positionnement-et-resserrement.md`

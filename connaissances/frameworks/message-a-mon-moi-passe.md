@@ -57,4 +57,4 @@ Le format d'origine ajoute une **musique de fond**, **à exclure**. On utilise 5
 `scenariste-reel` (propriétaire), `ideateur` (exercice des 5 choses), `banquier-histoires` (questions d'interview « il y a un an… »), `architecte-personal-brand`, `redacteur-linkedin` (version texte), `ecouteur-audience` (objections en verbatims), `critique-hook`.
 
 ## Voir aussi
-`echelle-de-specificite.md` · `script-educatif-court.md` · `histoire-personnelle-et-vlog-minimum.md`
+`echelle-de-specificite.md` · `script-educatif-court.md` · `histoire-personnelle-et-vlog-minimum.md` · `objection-vers-angle.md` (version publicitaire : nommer, renverser, exclure, ouvrir un persona)

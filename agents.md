@@ -243,3 +243,19 @@ analyste-performance → predicteur-performance (calibration) → analyste-resul
   épisodes = une source, ligne de `sources/index.md`), audio d'origine officielle seulement, scripts de
   `outils/podcast/` d'abord puis méthode manuelle, audio dans le scratchpad au lieu de `/tmp`, bug ou outil
   manquant demandé à `developpeur-outils`. `extracteur-youtube` : erreur de script → `developpeur-outils`.
+- 2026-10-21 : acquis du lot 2 intégrés (modifications ciblées, missions et dossiers d'écriture inchangés).
+  `strategiste-ads` et `redacteur-ads` : entrées complétées par `veille/plateformes/meta-ads.md` (§10) et les fiches
+  `dAJyqo6wnq4`, `qBxEAqZbHVg`, `meta-andromeda`, `google-abcd-youtube-ads`, `google-abcd-playbook-2022`,
+  `pILj7t-qQhs`, `binet-field-b2b-growth` ; « 3-6 créas à tester » remplacé par la diversification (3 à 5 concepts
+  réellement distincts × 2 à 3 exécutions, puis un nouveau concept par semaine) ; budget dimensionné pour la phase
+  d'apprentissage (≥ 50 × CPA visé / 7 par jour et par ensemble) ; contrôle d'Advantage+ creative (musique IA
+  coupée pour Sillage, aucune variante IA non relue, aucune personne générée) ; UTM toujours. `garde-conformite` :
+  nouvelle section « Entrée » avec les checklists Bpifrance (influence) et CNIL B2B / B2C (la CNIL fait foi sur
+  l'emailing), la liste « Hooks interdits ou bloqués » de `connaissances/swipe-file/hooks.md` et
+  `journal/questions-utilisateur.md` ; grille complétée : pas de pub Meta sociale, électorale ou politique dans l'UE
+  (TTPA, 06/10/2025), catégories spéciales (finance, emploi, logement), options automatiques Meta coupées (« add
+  music », texte IA dans l'image, traduction), rareté et témoignages seulement si réels, aucune collaboration
+  rémunérée avec un créateur tant que la question juridique 2 n'est pas tranchée. `consolidateur-fiche` et
+  `synthetiseur-connaissances` : tags `meta-ads`, `conformite-juridique`, `email`, `b2b` ajoutés à la taxonomie
+  (liste de référence commune, fichier de principes par tag). `veilleur-algorithmes` : `meta-ads` ajouté aux
+  plateformes suivies (fiche `veille/plateformes/meta-ads.md`) avec ses sources officielles Meta.
