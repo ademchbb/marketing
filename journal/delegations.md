@@ -180,3 +180,5 @@
 - [ ] Passe de vérification n°3 (canon) à lancer quand les fiches du canon seront faites : regrouper les demandes « Chiffres et affirmations » de toutes les fiches du lot 3 (Al Ries, Cialdini, Kotler, StoryBrand, vente, Priestley, Hopkins…) par domaine (persuasion/études, histoire de la pub, chiffres de praticiens).
 - [ ] [vente] chercheur-sources : vidéo d'origine de Marc Wayshak (13 sales psychology tips).
 - [x] Priestley p1 + p2 faites → consolidation lancée.
+- [x] Kennedy (au0-dI_wjI8) et Marketing Mania (11rNI6BUey4) : notes faites → consolidations lancées. Doctolib p2 lancée.
+- [ ] garde-conformite / architecte-agents : règle maison « valeur affichée » (pas de valeur gonflée par un coût de remplacement hypothétique) et « prévente » (délai de livraison, rétractation, mentions) — sources Kennedy et Marketing Mania.

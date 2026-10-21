@@ -14,6 +14,7 @@ https://www.youtube.com/watch?v=dAJyqo6wnq4 · 1 h 06 min 40 s · 447 180 vues (
 > textes, variantes IA, enhancements), publication et suite.
 > Trace détaillée : `notes-partie-01.md` (00:00-01:01), `notes-partie-02.md` (01:02-01:06).
 > Lacune comblée : **L1, publicité payante Meta**.
+> Vérification : `connaissances/verifications/passe-2-publicite.md` (PA01-PA17, PC01-PC06).
 
 ## En une phrase
 L'algorithme de Meta optimise **au sens littéral** ce qu'on lui demande. Un débutant réussit donc en
@@ -66,7 +67,8 @@ IA), en restant **le filtre humain du message**, et en démarrant **le plus simp
      beaucoup d'impressions, sur beaucoup de gens, longtemps. **Exception** : sa « stratégie de contenu
      omniprésent » pour les services haut de gamme ou d'expertise (non détaillée ici).
    - Trafic : **seulement** si la conversion n'est pas traçable (site tiers), et alors sans Audience
-     Network.
+     Network (tant que l'exclusion de placements existe : son retrait a été annoncé en août 2026
+     [verif:PA11]).
 
 3. **Le ciblage a changé : on donne une direction, on ne contraint que pour une contrainte réelle.**
    [00:27]-[00:36]
@@ -149,6 +151,12 @@ IA), en restant **le filtre humain du message**, et en démarrant **le plus simp
     - **Fuseau horaire et devise** du compte publicitaire : « very difficult to change later on ».
     - **Catégories spéciales** (finance, emploi, logement, sujets sociaux, élections, politique) : à
       déclarer, sinon rejet des pubs, voire désactivation du compte, difficile à faire annuler.
+      - Liste officielle actuelle : **Financial Products and Services** (remplace « Credit » depuis le
+        14/01/2025), Employment, Housing, Social Issues, Elections or Politics. Une violation des règles
+        publicitaires peut aller du rejet à la fermeture du compte [verif:PA07].
+      - **Dans l'UE, depuis le 06/10/2025, Meta ne diffuse plus aucune pub sur un sujet social, électoral
+        ou politique** (règlement TTPA). Pour une marque française, ces sujets passent par l'organique
+        [verif:PA07].
     - **Pixel + API Conversions + remontée de la valeur** avant de lancer. Dans Tracking, vérifier que
       c'est **le bon pixel** (contrôle de l'ID).
     - Événement de conversion : le plus bas du tunnel (Purchase) **si** son volume suffit pour que Meta
@@ -195,7 +203,8 @@ au premier écran conditionnent toutes les options suivantes.
    - achat direct en ligne → **Sales** ;
    - rendez-vous, devis, appel avant l'achat → **Leads**.
 3. La conversion n'est pas traçable (envoi vers un site tiers) → **Traffic**, en dernier recours, en
-   retirant Audience Network.
+   retirant Audience Network (si l'option d'exclusion existe encore : retrait annoncé en août 2026
+   [verif:PA11]).
 4. **Awareness** → seulement gros budgets, ou stratégie omniprésente pour un service haut de gamme ou
    d'expertise.
 5. **Engagement** → pas pour un débutant.
@@ -254,8 +263,15 @@ objectif, date).
 
 ### G. Placements [00:36]-[00:39]
 - Objectif de conversion → **tout ouvert** (5 plateformes : Facebook, Instagram, Audience Network,
-  Messenger, Threads ; 24 placements). Meta ne place la pub que là où il prévoit le résultat demandé.
+  Messenger, Threads ; 24 placements). Meta ne place la pub que là où il prévoit le résultat demandé
+  (formulation exagérée : Meta réalloue le budget entre placements selon l'objectif, sans garantie
+  [verif:PA11]).
 - Objectif non orienté conversion (Traffic) → **retirer Audience Network**.
+  - **Attention** : en août 2026, Meta a prévenu certains annonceurs qu'il allait retirer l'option
+    Placements (exclusion de placements et de plateformes), sans calendrier ni annonce officielle. Ce
+    conseil peut devenir **inapplicable** : vérifier à l'écran que l'exclusion existe encore
+    [verif:PA11]. Si elle a disparu, c'est une raison de plus de n'utiliser que des objectifs de
+    conversion *(déduction)*.
 - Brand suitability et filtres d'inventaire → ignorer. L'utilisateur perçoit chaque pub isolément, et
   manipuler ces filtres « hurts results » la plupart du temps.
 
@@ -323,6 +339,9 @@ modifiables après coup.
 8. **Tracking** : pixel présent et **bon ID** ; API Conversions installée en amont.
 9. Paramètres d'URL : pour lui « overkill » pour un débutant (**pour nous : à ajouter**, voir Limites).
 10. **Publish**, puis vérification par Meta : « normally about 30 minutes », plus pour les premières pubs.
+    C'est un délai observé : Meta annonce seulement une vérification « typically completed within 24 hours,
+    although it may take longer in some cases ». **Prévoir jusqu'à 24 h** avant la date de diffusion
+    voulue [verif:PA08].
 
 ### L. Structure de départ et évolution [01:05]-[01:06]
 1. **Départ** : 1 campagne → 1 ad set → 1 pub à plusieurs variantes (textes, titres, images). C'est déjà
@@ -342,8 +361,10 @@ modifiables après coup.
 2. **Poser les fondations du compte** (framework A) : page Facebook + Instagram pro + compte pub. Compte
    pub en **EUR** et sur le **fuseau de la marque** dès la création. Accès minimum, actif par actif
    [00:03]-[00:05].
-3. **Vérifier les catégories spéciales** : finance, emploi, logement, sujets sociaux, politique. En cas
-   de doute, déclarer [00:18].
+3. **Vérifier les catégories spéciales** : produits et services financiers, emploi, logement, sujets
+   sociaux, élections ou politique. En cas de doute, déclarer [00:18] [verif:PA07]. Dans l'UE, aucune pub
+   sur un sujet social, électoral ou politique n'est possible sur Meta depuis le 06/10/2025 : une marque à
+   message engagé passe par l'organique.
 4. **Installer la mesure avant de dépenser** : pixel, API Conversions, valeur de chaque conversion, bon ID
    de pixel. **Ajouter des UTM** systématiquement (écart assumé avec la source : nos agents
    `analyste-performance` et `experiences/` en ont besoin) [00:22] [01:03] [01:04].
@@ -355,8 +376,8 @@ modifiables après coup.
 7. **Régler l'audience** (framework F) : lieu = là où sont les clients ; commerce local = rayon réaliste
    et case d'expansion décochée ; âge minimum et langues seulement pour une contrainte réelle ; cœur
    d'âge, genre à 90 %, 0-4 intérêts évidents, en quelques minutes [00:29]-[00:35].
-8. **Laisser les placements ouverts** pour un objectif de conversion ; retirer Audience Network sinon
-   [00:36] [00:37].
+8. **Laisser les placements ouverts** pour un objectif de conversion ; retirer Audience Network sinon,
+   tant que l'option d'exclusion existe (retrait annoncé en août 2026 [verif:PA11]) [00:36] [00:37].
 9. **Brief créatif** (frameworks H et I) :
    - un visuel image en 1:1 **et** 9:16, l'offre en une phrase claire, une preuve **réelle et
      documentée** ;
@@ -369,8 +390,8 @@ modifiables après coup.
     music »** sur toute pub Sillage [00:51]-[01:00].
 11. **Passer la checklist avant publication** (framework K), aperçu placement par placement [01:02].
 12. **Soumettre à la validation explicite de l'utilisateur**, puis publier via `publicateur` (API
-    officielle Meta Marketing, jamais un robot qui se connecte avec des identifiants). Prévoir au moins
-    30 minutes de vérification Meta dans le calendrier [01:04].
+    officielle Meta Marketing, jamais un robot qui se connecte avec des identifiants). Prévoir **jusqu'à
+    24 h** de vérification Meta dans le calendrier, pas 30 minutes [01:04] [verif:PA08].
 13. **Suivre les premiers jours** : coût par résultat, impressions, couverture, puis la qualité des
     prospects (sont-ils traitables ?) [01:04] [00:31].
 14. **Passer à la complexité** (plus de pubs, A/B test, Creative testing, campagnes par gamme) **selon un
@@ -451,11 +472,18 @@ de test n'est montrée.
 - Recréer une campagne relance la phase d'apprentissage ; un budget lifetime donne une dépense
   irrégulière [00:15].
 - Ne pas déclarer une catégorie spéciale peut faire désactiver le compte, difficile à faire annuler
-  [00:18].
+  [00:18] · ✅ pour le principe : liste officielle à jour (Financial Products and Services depuis le
+  14/01/2025, Employment, Housing, Social Issues, Elections or Politics) ; une violation peut aller du rejet
+  à la fermeture du compte, mais aucune sanction propre à l'absence de déclaration n'est documentée. Pubs
+  sociales, électorales et politiques bloquées dans l'UE depuis le 06/10/2025 [verif:PA07].
 - Audience Network est le placement de moindre qualité, moins cher car moins demandé [00:36] [00:37].
 - 5 plateformes et 24 placements [00:36]. État de l'interface au tournage.
+- Laisser tous les placements ouverts en conversion / retirer Audience Network sinon [00:36] · 🟡 :
+  « que là où » exagère ; retrait de l'option d'exclusion de placements annoncé à certains annonceurs en
+  août 2026, sans calendrier [verif:PA11].
 - La description ne s'affiche pas sur tous les placements [01:02].
-- Vérification des pubs : « normally about 30 minutes », plus pour les premières pubs [01:04].
+- Vérification des pubs : « normally about 30 minutes », plus pour les premières pubs [01:04] · 🟡 délai
+  observé, pas un engagement : Meta annonce « typically completed within 24 hours » [verif:PA08].
 - L'horizontal reçoit « by far » la plus petite part des impressions [00:47].
 - Les variantes ratées sont vite écartées par Meta, faute de réaction [01:00]. Mécanisme supposé.
 
@@ -532,6 +560,9 @@ de test n'est montrée.
   qui a intérêt à ce que les annonceurs lâchent le contrôle. Il est cohérent avec l'état actuel de la
   plateforme, mais il contredit les tutoriels plus anciens (empilement et test d'intérêts) [00:35].
 - Interface et libellés datés de fin 2025 / début 2026 : à revérifier avant chaque utilisation.
+  Changements vérifiés depuis le tournage : retrait annoncé de l'exclusion de placements (août 2026)
+  [verif:PA11] ; pubs sociales et politiques bloquées dans l'UE (depuis le 06/10/2025, donc déjà en vigueur
+  au tournage) [verif:PA07].
 
 **Écho avec Hormozi [fiche:Jmkq5RLjm0U]**
 - Convergence : la **clarté** prime dans le packaging (« Want me to mentor you? », titre purement
