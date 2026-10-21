@@ -37,3 +37,6 @@
 - [ ] [dAJyqo6wnq4 p1] verificateur-faits : blocage fuseau horaire/devise d'un compte pub ; sanctions catégorie spéciale non déclarée ; relance de la phase d'apprentissage ; qualité d'Audience Network ; 5 plateformes / 24 placements. Témoignages du visuel = affirmations invérifiables.
 - [ ] [dAJyqo6wnq4 p1] chercheur-sources : vidéo Ben Heath « omnipresent content strategy » ; installation du pixel et de la Conversions API (L1).
 - [ ] [dAJyqo6wnq4 p1] garde-conformite : options automatiques Meta à couper (« add music », texte IA dans l'image, traduction) ; relecture obligatoire de chaque variante IA ; rareté et témoignages chiffrés seulement s'ils sont vrais.
+- [ ] [hdjlCLb9Hl8 fiche] verificateur-faits (compléments) : taille des groupes d'achat B2B (Dunford 5-7 vs Gartner) ; rôle de Jobs/Bezos et présentation du Segway à *Good Morning America* fin 2001 ; Help Scout « première » boîte partagée orientée service.
+- [ ] [hdjlCLb9Hl8 fiche] chercheur-sources : source *Play Bigger* / category design ; source ABM sur les groupes d'achat ; source de positionnement B2C ou créateur (L8).
+- Prêtes pour extracteur-hooks / extracteur-frameworks (lot 2) : hdjlCLb9Hl8.
