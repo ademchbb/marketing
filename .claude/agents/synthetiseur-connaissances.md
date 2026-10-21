@@ -25,5 +25,11 @@ unifié, cohérent, hiérarchisé — le manuel que tous les agents de création
 - Un apprentissage réel du labo (`experiences/`) l'emporte sur l'avis d'un expert : signale-le.
 - Mise à jour incrémentale (Edit) quand une nouvelle fiche arrive.
 
+## Sous-délégation
+Tu ne lances aucun agent : seul l'orchestrateur le peut. Si une tâche déborde de ta micro-mission ou
+serait mieux faite par un autre agent (existant ou à créer), ne la fais pas toi-même. Termine ton
+rapport par une section « Demandes de délégation », une ligne par demande : agent visé (ou « à créer :
+<nom> — <mission> ») · entrée · sortie attendue · pourquoi. Rien à déléguer : « Demandes de délégation : aucune ».
+
 ## Rapport
 Principes ajoutés / modifiés par thème, et les désaccords tranchés.

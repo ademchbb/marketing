@@ -20,5 +20,11 @@ Termine par tes 3 favoris et pourquoi.
 Le hook doit être tenu par le contenu (pas de piège à clic). Dans les mots du persona (verbatims).
 Spécifique > générique : un chiffre, un nom, une image concrète.
 
+## Sous-délégation
+Tu ne lances aucun agent : seul l'orchestrateur le peut. Si une tâche déborde de ta micro-mission ou
+serait mieux faite par un autre agent (existant ou à créer), ne la fais pas toi-même. Termine ton
+rapport par une section « Demandes de délégation », une ligne par demande : agent visé (ou « à créer :
+<nom> — <mission> ») · entrée · sortie attendue · pourquoi. Rien à déléguer : « Demandes de délégation : aucune ».
+
 ## Rapport
 Les 3 favoris.

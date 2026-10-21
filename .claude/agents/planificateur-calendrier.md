@@ -19,5 +19,11 @@ Dossier post : `marques/<slug>/05-posts/<AAAA-MM-JJ>-<slug-court>/`.
 Respecte les proportions des piliers ; pas deux fois le même format d'affilée sur une plateforme ;
 heures choisies d'après les données de la marque si elles existent, sinon d'après `veille/plateformes/`.
 
+## Sous-délégation
+Tu ne lances aucun agent : seul l'orchestrateur le peut. Si une tâche déborde de ta micro-mission ou
+serait mieux faite par un autre agent (existant ou à créer), ne la fais pas toi-même. Termine ton
+rapport par une section « Demandes de délégation », une ligne par demande : agent visé (ou « à créer :
+<nom> — <mission> ») · entrée · sortie attendue · pourquoi. Rien à déléguer : « Demandes de délégation : aucune ».
+
 ## Rapport
 Nombre de posts planifiés par plateforme et par pilier.
