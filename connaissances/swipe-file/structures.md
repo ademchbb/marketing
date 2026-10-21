@@ -317,3 +317,144 @@ transposable à la chaîne d'un fondateur).
 - 75 % profond / 20 % large dans la niche / 5 % personnel saupoudré [fiche:uJ8Pg6t_iho 02:06] ;
 - 70 % éprouvé / 20 % itération à une seule variable / 10 % grands paris [fiche:uJ8Pg6t_iho 01:39]
   [fiche:Ch4Sl0POBhU 03:18].
+
+---
+
+## Publicité payante `[pub payante]`
+
+Rappels communs : rien ne part sans validation explicite de l'utilisateur (`publicateur`, API officielle) ;
+toute variante générée par la plateforme est relue (`garde-conformite`) ; UTM ajoutés à chaque pub ; aucune
+musique sur les pubs Sillage [fiche:dAJyqo6wnq4 01:04] [fiche:dAJyqo6wnq4 00:59].
+
+## P1 — Pub Meta image, réponse directe (offre portée par une personne)
+
+Base : la pub réelle de Ben Heath pour son programme de mentorat, campagne Leads [fiche:dAJyqo6wnq4 00:47] à [fiche:dAJyqo6wnq4 01:02].
+Premium sobre : **oui** (format très sobre : une photo, une question, des preuves). **[MUSIQUE]** : l'enhancement
+« add music » transforme l'image en courte vidéo avec un jingle ; il le laisse activé. **À couper.**
+
+| Champ | Emplacement (fil mobile Facebook) | Contenu | Source |
+|---|---|---|---|
+| Visuel | Centre | Vraie photo de la personne + l'offre en une question (« Vous voulez que [je / nous] [offre] ? ») + 2 ou 3 preuves chiffrées réelles et variées. Une version 1:1 (fils) et une 9:16 dédiée (Stories, Reels) : un carré recadré coupe le texte. Horizontal secondaire. | [fiche:dAJyqo6wnq4 00:47] [fiche:dAJyqo6wnq4 00:48] [fiche:dAJyqo6wnq4 00:49] |
+| Texte principal | Au-dessus de l'image | 2 phrases, 7 cases (tableau ci-dessous). « We don't want to be writing essays. » | [fiche:dAJyqo6wnq4 00:50] |
+| Titre | Sous l'image | Court et purement descriptif : [fréquence] + [sujet] + [format] (« Daily Facebook Ads Mentorship »). | [fiche:dAJyqo6wnq4 00:53] |
+| Description | Sous le titre | Rareté ou urgence **réelle**, jamais une info indispensable (elle ne s'affiche pas sur tous les placements). | [fiche:dAJyqo6wnq4 00:54] [fiche:dAJyqo6wnq4 01:02] |
+| Bouton | À droite | La prochaine étape réelle (voir `cta.md` section 7). | [fiche:dAJyqo6wnq4 00:55] |
+| Variantes | — | 3 à 5 textes principaux et 3 à 5 titres ; chaque variante IA gardée, retouchée ou rejetée. Sur Instagram l'ordre des champs change : vérifier l'aperçu de chaque placement. | [fiche:dAJyqo6wnq4 00:51] [fiche:dAJyqo6wnq4 00:55] [fiche:dAJyqo6wnq4 01:02] |
+
+**Texte principal en 2 phrases, 7 cases** [fiche:dAJyqo6wnq4 00:50]
+
+| Case | Rôle | Exemple original | Gabarit |
+|---|---|---|---|
+| 1 | Interpeller l'audience (question qui filtre) | « Tired of… » | « Fatigué de… » / « [Situation] ? » |
+| 2 | Nommer le problème | « …wasting money on Facebook ads… » | [problème coûteux] |
+| 3 | L'attiser | « …that don't deliver? » | [conséquence] |
+| 4 | Fonctionnalité principale | « We'll mentor you daily… » | [ce qu'on fait] |
+| 5 | Bénéfice | « …to explode your revenue. » | pour [bénéfice] |
+| 6 | Rareté **réelle** | « Limited spots available. » | [limite réelle, datée] |
+| 7 | Appel à l'action | « Apply now and transform your ad game. » | [Verbe d'action] et [transformation]. |
+
+Gabarit assemblé : « [Fatigué de] [problème coûteux] qui [conséquence] ? [Fonctionnalité] pour [bénéfice].
+[Rareté réelle]. [Verbe d'action] et [transformation]. »
+- **Version 6 cases** (par défaut pour nos marques) : sans la case 6 tant qu'aucune limite réelle et documentée
+  n'existe (`[preuve réelle]`). Une rareté inventée est interdite (`hooks.md`, hooks interdits).
+- **Ton Sillage** : remplacer la survente (« explode », « transform your ad game ») par un bénéfice mesurable et
+  vrai.
+
+## P2 — Pub vidéo YouTube : passe ABCD sur le storyboard
+
+Base : ABCD de Google [fiche:google-abcd-youtube-ads]. Grille de **révision**, pas de création : on part d'une idée
+validée, on dessine le storyboard, puis on le repasse lettre par lettre avant tout tournage ou rendu Remotion
+[fiche:google-abcd-youtube-ads § Applying the ABCDs]. La source ne donne **aucun minutage** : pour les durées, se
+caler sur R9. Premium sobre : **oui**. **[MUSIQUE]** : Google cite la musique comme levier d'attention (A) et de
+marque (B).
+
+| Lettre | Où | Vérification | Variante Sillage (sans musique) | Source |
+|---|---|---|---|---|
+| A — Attention | Première seconde | Milieu de l'action ou gros plan ; couleurs et contraste forts ; image d'ouverture audacieuse ; audio riche. | SFX + voix off ElevenLabs portent l'audio d'ouverture. | [fiche:google-abcd-youtube-ads § A] |
+| B — Branding | Tôt, puis plusieurs fois, sous plusieurs formes | Plan produit, pack shot, marque dans le décor, graphisme, nom prononcé. Visible **et** audible. | Nom de marque en voix off + signature sonore en effets. Hors YouTube (lecture sans le son), doubler chaque élément sonore par un élément visuel (déduction). | [fiche:google-abcd-youtube-ads § B] |
+| C — Connexion | Corps | Un seul levier émotionnel (humour, surprise, inspiration, apprentissage), un seul message ; humaniser (une personne, un usage, une situation). | Une seule idée forte, un seul moment « waouh » (règle maison). | [fiche:google-abcd-youtube-ads § C] |
+| D — Direction | Fin, ou une scène | CTA clair et simple : écrit, graphique, audio, ou **une scène de l'histoire qui montre l'action**. | CTA doublé (carton + voix off), ou la dernière scène montre le geste (`cta.md` section 7). | [fiche:google-abcd-youtube-ads § D] |
+
+Déclinaison par objectif (notoriété, considération, action) : annoncée, contenu dans le playbook PDF non extrait
+[fiche:google-abcd-youtube-ads § Push the form further]. Mesure : comparer une version avant grille et une après, à
+budget égal, plutôt que de supposer le +30 % annoncé par Google.
+
+## P3 — Plan de déclinaison créative pub Meta
+
+Base : méthode de Dara Denney (couche avant le format) + matrice de tri de Coudac + lecture d'Andromeda.
+Premium sobre : **oui**. Les exemples de la source sont des propositions d'audit sans résultat mesuré.
+
+| Étape | Contenu | Source |
+|---|---|---|
+| 1. Personas | Issus de la recherche client (réputation, avis, Reddit, commentaires), classés par volume × intensité émotionnelle du langage. Les clientes « hors cible » satisfaites signalent un nouveau persona. | [fiche:yRgPbqywUJ8 00:09] [fiche:yRgPbqywUJ8 00:19] |
+| 2. Angles piliers | 2 à 3 grandes douleurs ou déclencheurs d'achat par persona (« not concepts, big pillar ideas »). Les objections récurrentes en font partie (`hooks.md` famille 14). | [fiche:yRgPbqywUJ8 00:14] [fiche:yRgPbqywUJ8 00:16] |
+| 3. Niveaux de conscience | Chaque angle sur plusieurs niveaux ; si les meilleures pubs du compte sont toutes bas d'entonnoir, produire plus de haut d'entonnoir. | [fiche:yRgPbqywUJ8 00:13] [fiche:yRgPbqywUJ8 00:14] |
+| 4. Déclinaison d'une gagnante | Garder la structure d'une créa qui marche, changer accroche, images et contexte pour chaque persona cœur. `[conformité : jamais d'interpellation par la condition de santé]`. | [fiche:yRgPbqywUJ8 00:09] |
+| 5. Variantes réellement différentes | Angle, format, accroche, visuel ou produit mis en avant différents ; pas 10 copies cosmétiques (déduction). | [fiche:meta-andromeda § perspectives] [fiche:meta-andromeda § Hierarchical indexing for efficiency and scalable retrieval] |
+| 6. Diversité des voix | Créateurs variés en âge, genre, métier, style de vie, « vibe » ; en priorité ceux qui ressemblent au persona sous-exploité. `[conformité : « Collaboration commerciale », contrat écrit si ≥ 1 000 € HT]`. | [fiche:yRgPbqywUJ8 00:14] [fiche:bpifrance-influenceur-reglementation § Réglementation] |
+| 7. Contrôle « pourquoi » | Pour chaque brief : pourquoi cette créa, ce persona, cet angle ? Quelle lacune comble-t-on ? | [fiche:yRgPbqywUJ8 00:20] [fiche:yRgPbqywUJ8 00:21] |
+| 8. Tri après diffusion | Matrice dépense × CPA : dépense forte + bon CPA = winner ; dépense faible + bon CPA = pousser ; dépense faible + mauvais CPA = couper ; dépense forte + mauvais CPA = erreur de pilotage. Vérifier le CPC avant de couper. | [fiche:qBxEAqZbHVg 00:35] [fiche:qBxEAqZbHVg 00:36] |
+
+Planification : trimestre (lancements, saisons par persona) → mois (feuille de route) → semaine (production)
+[fiche:yRgPbqywUJ8 00:15].
+
+## P4 — Séquence LinkedIn : Thought Leader Ads → message au nom du même dirigeant `[vente B2B]`
+
+Base : AJ Wilcox et Ruby James [fiche:pILj7t-qQhs 00:30] à [fiche:pILj7t-qQhs 00:34]. Premium sobre : **à adapter** (le post sponsorisé
+est celui, brut, du dirigeant). Chiffres de la source = affirmations de LinkedIn (×6 de conversion, non vérifié).
+
+| Étape | Contenu | Source |
+|---|---|---|
+| 1. Post organique | Le dirigeant publie (structure L2). | [fiche:pILj7t-qQhs 00:30] |
+| 2. TLA | Ses meilleurs posts sponsorisés tels quels sur l'ICP, sans attendre d'avoir une audience. Haut d'entonnoir : confiance + audience de retargeting peu chère. | [fiche:pILj7t-qQhs 00:30] [fiche:pILj7t-qQhs 00:41] |
+| 3. Audience | « A interagi avec les TLA ». | [fiche:pILj7t-qQhs 00:30] |
+| 4. Message | Message Ad (ou Conversation Ad) **signé par le même dirigeant**, offre de bas d'entonnoir (démo, rendez-vous). Texte : non donné par la source, à rédiger par `redacteur-linkedin` (formule dérivée dans `cta.md` section 7). | [fiche:pILj7t-qQhs 00:31] |
+| 5. Témoin | Groupe « message seul » pour mesurer soi-même l'effet du réchauffement. | [fiche:pILj7t-qQhs 00:32] |
+
+**Variante jeune marque** (hack Fibbler) : 2 à 4 TLA dans l'ordre (éducatifs, puis « réservez un échange avec
+moi »), avec à chaque étape une audience de retargeting de l'étape précédente et l'exclusion des personnes déjà
+passées à la suivante [fiche:pILj7t-qQhs 00:33] [fiche:pILj7t-qQhs 00:34].
+Voix sponsorisées dans l'ordre : dirigeants → témoignages existants → clients et créateurs B2B, toujours avec accord
+écrit [fiche:pILj7t-qQhs 00:40].
+
+---
+
+## Vente B2B `[vente B2B]`
+
+## V1 — Récit de vente en 3 temps / vidéo explicative
+
+Base : modèle Help Scout d'April Dunford [fiche:hdjlCLb9Hl8 00:29] à [fiche:hdjlCLb9Hl8 00:35]. Sert de pitch, de deck, de page
+d'accueil ou de script de vidéo explicative Sillage (déduction). Premium sobre : **oui**. La source ne donne pas de
+minutage : pour une vidéo, trois actes de poids comparable, sur la trame de R9 ou Y1 (déduction).
+
+| Temps | Contenu | Source |
+|---|---|---|
+| 0. Prérequis | Document de positionnement en 5 composantes, dans l'ordre : alternatives (statu quo compris) → capacités différenciantes → valeur (2 ou 3 thèmes, passés au « so what? ») → clients les plus adaptés → catégorie, en dernier. | [fiche:hdjlCLb9Hl8 00:22] [fiche:hdjlCLb9Hl8 00:25] |
+| 1. Recadrage du marché | Une nouvelle grille de lecture, appuyée sur des chiffres **vérifiés** (« customer success is a growth driver »). `[preuve réelle]` | [fiche:hdjlCLb9Hl8 00:32] [fiche:hdjlCLb9Hl8 00:33] |
+| 2. Les alternatives font fausse route | Ce que font les autres et le statu quo, et pourquoi ça ne suffit plus dans ce cadre (« they treat your people like a number… like a cost center »). Sans nommer de concurrent à l'écran sans accord. | [fiche:hdjlCLb9Hl8 00:33] |
+| 3. Notre approche | La valeur différenciée, qui devient évidente dans le nouveau cadre ; antithèse possible (« vous n'obtenez pas un numéro, vous obtenez une personne »). | [fiche:hdjlCLb9Hl8 00:30] [fiche:hdjlCLb9Hl8 00:33] |
+| Test | Le récit est joué devant des prospects **qualifiés** : s'enthousiasment-ils, veulent-ils acheter ? | [fiche:hdjlCLb9Hl8 00:20] |
+
+**Variante « carte du marché »** (pitch oral ou démo) : reconnaître la profusion → expliquer comment le marché se
+répartit → « si vous êtes [critères] » → « vous avez besoin de [N choses] » → « c'est ce que nous faisons »
+[fiche:hdjlCLb9Hl8 00:37]. But : que le champion puisse justifier son choix devant son chef [fiche:hdjlCLb9Hl8 00:38].
+
+## V2 — Rendez-vous de découverte et proposition chiffrée
+
+Base : Blair Enns [fiche:J6Su5Vx3x5U]. Pour vendre les prestations de l'agence (motion Sillage, accompagnement
+marketing) et pour les marques promues qui vendent des services sur mesure. Premium sobre : **oui**. Prérequis :
+parler à un dirigeant ou un entrepreneur responsable de la création de valeur, pas à un manager jugé sur le budget
+[fiche:J6Su5Vx3x5U 00:42].
+
+| Temps | Contenu | Source |
+|---|---|---|
+| 1. Argent tôt | Aborder le budget le premier, sur un ton neutre (« dire 5 M$ comme 5 000 $ »). | [fiche:J6Su5Vx3x5U 00:13] [fiche:J6Su5Vx3x5U 00:15] |
+| 2. Conversation de valeur | Page blanche, questions sans solutions : état futur souhaité (entreprise + interlocuteur) → métriques → valeur → fourchette (le bas vient du budget, on commence par le haut). | [fiche:J6Su5Vx3x5U 00:21] [fiche:J6Su5Vx3x5U 00:22] [fiche:J6Su5Vx3x5U 01:10] |
+| 3. Plafond (facultatif) | Question fermée d'ancrage sur la valeur garantie, puis silence ; réponse prête à « vous garantissez ? » (`hooks.md` famille 15). | [fiche:J6Su5Vx3x5U 00:39] [fiche:J6Su5Vx3x5U 00:40] |
+| 4. Options | 3 ou 4 façons de travailler : temps (inputs), livrables (outputs), résultat avec prise de risque (outcomes). Chaque option tarifée selon son degré de certitude. Part variable seulement sur un indicateur qu'on contrôle (leads, portée), jamais sur les ventes du client. | [fiche:J6Su5Vx3x5U 00:41] [fiche:J6Su5Vx3x5U 00:46] [fiche:J6Su5Vx3x5U 00:57] |
+| 5. Présentation | La plus chère d'abord ; annoncer le chiffre, puis se taire. Ne jamais proposer une option qu'on ne serait pas heureux de livrer. | [fiche:J6Su5Vx3x5U 00:20] [fiche:J6Su5Vx3x5U 00:46] [fiche:J6Su5Vx3x5U 01:04] |
+| 6. Cadrage | Écrire ce que couvre chaque option ; ne pas glisser l'option haute dans celle du milieu ; test « le client le remarquera-t-il ? ». | [fiche:J6Su5Vx3x5U 01:05] [fiche:J6Su5Vx3x5U 01:06] |
+
+Débutant : seulement les 3 règles (prix par client, options, ancrage haut) [fiche:J6Su5Vx3x5U 01:13].
+Prospection à froid avant le rendez-vous : mentions obligatoires de la fiche CNIL (`cta.md` section 3)
+[fiche:cnil-prospection-electronique § B to B].

@@ -16,6 +16,13 @@ formule avec `[variables]`, exemple original (verbatim), mécanisme, format idé
 | Croissance ou propriété de l'audience | Follow-gate = abonnés ; opt-in e-mail = audience possédée. Choisir selon l'objectif. | [fiche:HzoQgQS8czE 01:24] [fiche:HzoQgQS8czE 01:23] |
 | Le créateur répond lui-même | Mieux vaut 5 réponses de sa main par semaine que des réponses d'équipe en son nom (sinon compte « Team <nom> » transparent). | [fiche:Ch4Sl0POBhU 03:10] |
 | Honnêteté | Exemples fictifs (« John ») interdits en production : uniquement des résultats réels, avec accord. | [fiche:Ch4Sl0POBhU 06:14] |
+| En pub, l'inverse de l'organique : un CTA fort, un seul chemin | `[pub payante]` Une pub créée pour la pub (pas un post recyclé), une seule destination, pas de boutons additionnels (appel, WhatsApp, Direct) ni de liens annexes, sauf si l'on veut vraiment des appels. | [fiche:dAJyqo6wnq4 00:40] [fiche:dAJyqo6wnq4 00:43] [fiche:dAJyqo6wnq4 00:45] |
+| Le bouton décrit la prochaine étape réelle | « Don't overthink it. Just go with the option that best describes the next step. » | [fiche:dAJyqo6wnq4 00:55] |
+| Rareté et urgence seulement si elles sont réelles | `[preuve réelle]` Et jamais d'info indispensable dans la description d'une pub Meta : elle ne s'affiche pas sur tous les placements. | [fiche:dAJyqo6wnq4 00:54] [fiche:dAJyqo6wnq4 01:02] |
+| Une direction claire et simple, qui peut être une scène | CTA écrit, graphique, audio, ou une scène de l'histoire qui montre l'action. | [fiche:google-abcd-youtube-ads § D] |
+| Mention commerciale près du CTA sponsorisé | `[conformité]` « Publicité » ou « Collaboration commerciale » visible dans le contenu lui-même, pas seulement en légende ou en bio, sauf si l'intention commerciale ressort déjà du contexte. | [fiche:bpifrance-influenceur-reglementation § Réglementation] |
+| Opt-in e-mail : un consentement distinct et spécifique | `[conformité]` Demander une ressource ne vaut pas inscription à la newsletter promotionnelle : case décochée, texte qui dit ce que la personne recevra et de qui. | [fiche:cnil-prospection-electronique § Prospection] |
+| Message transactionnel sans offre | `[conformité]` Aucun CTA commercial (code promo, offre) dans un e-mail de bienvenue, de confirmation ou d'expédition sans consentement : sinon il devient de la prospection. | [fiche:cnil-prospection-electronique § Courriels transactionnels et relationnels] |
 
 ---
 
@@ -39,6 +46,7 @@ formule avec `[variables]`, exemple original (verbatim), mécanisme, format idé
 | Un [emoji] en commentaire si c'était utile. | « Drop a fire emoji in the comments if you found this clip useful. » | Action à très faible friction : du visionnage à la participation | Reel, clip | à adapter : peu compatible avec un ton très sobre ; réserver aux comptes communautaires | [fiche:Ch4Sl0POBhU 02:42] |
 | [Version A] ou [version B] ? Votez. | Co-création : faire choisir entre deux couplets, riffs, chapitres, titres | Celui qui vote devient ambassadeur | Story, carrousel, LinkedIn | oui (pour Sillage : voter entre deux accroches ou deux visuels, pas deux musiques) | [fiche:Ch4Sl0POBhU 02:34] |
 | Ce format vous plaît ? Et vous êtes [persona] ? (sondage 2×2) | Sondage « aimez-vous ce format ? » × « êtes-vous entrepreneur ? » | Mesure la qualité de l'audience, pas seulement l'avis | Commentaire épinglé, story | oui | [fiche:Jmkq5RLjm0U 01:54] |
+| [Vraie question réfléchie sur le sujet du post], puis réponse à chaque commentaire | « Think of it as a conversation, not a post. » | Les commentaires prolongent le post et servent de banc d'essai pour les posts suivants | LinkedIn (compte de dirigeant) | oui | [fiche:pILj7t-qQhs 00:26] |
 
 ## 3. DM / lead (commentaire avec mot-clé)
 
@@ -48,6 +56,7 @@ formule avec `[variables]`, exemple original (verbatim), mécanisme, format idé
 | Commentez le mot [mot simple et mémorable] et je vous envoie [ressource]. | « comment the word cake and I'll send you… » | Mot-clé simple, sans rapport obligatoire avec le sujet : facilite le commentaire et l'automatisation | Reel | à adapter : choisir un mot cohérent avec la marque | [fiche:HzoQgQS8czE 01:05] |
 | Chaîne complète après le DM | Vidéo éducative → commentaire [MOT] → DM automatique → landing page riche en preuve sociale → réservation d'appel → VSL à regarder avant l'appel → appel | Le CTA n'est que la première marche d'un funnel | Funnel organique | oui | [fiche:HzoQgQS8czE 00:01] [fiche:HzoQgQS8czE 01:49] |
 | Après un refus : « Libre à vous de dupliquer ceci et de l'adapter. » | « Feel free to duplicate this and customize it to yourself. Any good EA will know how to use this. » | Valeur immédiate sans rien demander, la relation reste ouverte | E-mail ou DM de suivi | oui | [fiche:uJ8Pg6t_iho 03:56] |
+| Ouverture d'e-mail de prospection B2B : « Je vous écris car votre fonction de [poste] chez [entreprise] est directement concernée par [sujet]. J'ai trouvé votre adresse [origine précise]. Pour ne plus recevoir de message de ma part, répondez simplement « stop ». » | Gabarit de mentions (déduction de la fiche) | Origine des données + finalité + moyen simple de s'opposer : obligations légales, et signe de respect | `[vente B2B]` cold e-mail | oui ; `[conformité : obligatoire, pas optionnel ; jamais de faux « Re: » ni de « suite à notre échange » inventé]` | [fiche:cnil-prospection-electronique § B to B] |
 
 ## 4. Lien / lead magnet / vente douce
 
@@ -61,10 +70,12 @@ formule avec `[variables]`, exemple original (verbatim), mécanisme, format idé
 | Lien cliquable en légende + doublé en commentaire épinglé | Reels Facebook publiés séparément avec le lien de l'épisode complet | Contourne l'absence de lien cliquable dans les Reels Instagram (affirmation datée mi-2025) | Reel Facebook | oui | [fiche:HzoQgQS8czE 01:18] |
 | Story de preuve sociale + lien ou CTA mot-clé, une par jour | Résultats clients en images (avant/après), alternés avec du personnel | Stories comme machine à leads (environ 500 clics/jour chez Ava, affirmation) | Story Instagram | oui (preuves réelles uniquement) | [fiche:HzoQgQS8czE 01:22] |
 | Échelle d'offres : contenu gratuit → lead magnet (contre e-mail) → low → mid → high ticket | Une seule offre à la fois au démarrage | Le CTA correspond à la marche suivante, pas à l'offre la plus chère | Stratégie de CTA | oui | [fiche:Ch4Sl0POBhU 06:12] |
+| [Ressource] à télécharger via le lien en description, annoncée dès l'intro | « une petite cheat sheet… à télécharger sur le lien en description » | Lead magnet présenté avant le contenu : la valeur promise soutient l'attention | Intro de YouTube long | oui ; `[conformité : opt-in e-mail distinct si la ressource est envoyée par e-mail]` | [fiche:qBxEAqZbHVg 00:00] [fiche:cnil-prospection-electronique § Prospection] |
+| Vous savez maintenant [compétence]. Mais il y a plus : [contenu suivant]. | « You now know how to create a Facebook ad campaign from scratch, but there's more to it than that. » | Valide la progression, puis ouvre une boucle vers la suite | Fin de tutoriel, écran de fin | oui | [fiche:dAJyqo6wnq4 01:06] |
 
 ## 5. Partage / sauvegarde
 
-Aucun CTA de partage **verbatim** dans les cinq fiches (lacune signalée). Les formules ci-dessous sont
+Aucun CTA de partage **verbatim** dans les cinq fiches du lot 1 ni dans les dix du lot 2 (lacune signalée). Les formules ci-dessous sont
 **dérivées** de tests ou de principes cités ; à valider par l'expérience (`experiences/`).
 
 | Formule (dérivée) | Principe d'origine | Mécanisme | Format idéal | Premium sobre ? | Source |

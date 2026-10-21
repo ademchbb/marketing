@@ -20,6 +20,8 @@ exploitable. Tu n'analyses pas le contenu.
   une fois après 1 minute. Si toujours bloqué, essaie `yt-dlp --list-subs <url>` pour diagnostiquer.
 - Vidéo sans sous-titres : note-le dans le rapport (une transcription audio Whisper serait
   nécessaire — à demander à l'orchestrateur, ne télécharge pas l'audio sans accord).
+- Erreur du script lui-même (trace Python, format YouTube changé) : ne le modifie pas, demande
+  `developpeur-outils` (propriétaire de `outils/`).
 
 ## Sous-délégation
 Tu ne lances aucun agent : seul l'orchestrateur le peut. Si une tâche déborde de ta micro-mission ou

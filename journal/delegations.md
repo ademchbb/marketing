@@ -110,3 +110,9 @@
 - [ ] [google-abcd-playbook] concepteur-experiences : tests autorisés chez Sillage (signature d'effets sonores vs aucune, nom dit en voix off vs texte seul, substitut au visage en notoriété) ; musique exclue.
 - [ ] [google-abcd-playbook] verificateur-faits : relire p. 18, 22, 23, 24 du PDF (textes de vignettes lus une fois).
 - Règle proposée (à arbitrer par synthetiseur) : quelques notes ou un nom chanté = musique ; un nom dit avec un rythme marqué = permis.
+- [x] verificateur-faits passe 2 B2B fait (51 : 10 ✅ 22 🟡 4 ❌ 15 ❓) → consolidateur-fiche (corrections pILj7t-qQhs et hdjlCLb9Hl8) et extracteur-pdf (playbook ScaleVP) lancés.
+- [ ] [passe-2-b2b] chercheur-sources : Gartner (groupes d'achat, no decision), *The JOLT Effect* (56/44), *Value-Based Fees* (20 %), *Pricing Creativity* (nb de règles), Quote Investigator (Buffett), benchmarks d'agence indépendants (SoDA, Promethean, David C. Baker).
+- [ ] [passe-2-b2b] extracteur-social : profils LinkedIn publics (Kacie Jenkins, Alec Paul, Alison Coleman, John Burke Becker, Ruby James) + post de Gal Aga — basse priorité (noms secondaires).
+- [ ] [passe-2-b2b] synthetiseur-connaissances : nuance « no decision = surtout de l'indécision » + confrontation Dunford / category design / ABM avec les tailles de comité vérifiées.
+- [ ] [passe-2-b2b] concepteur-experiences : « TLA puis Message Ad » vs « Message Ad seul » avec groupe témoin.
+- [ ] [passe-2-b2b] verificateur-faits : relancer PB02-PB04 après extraction du playbook ScaleVP.
