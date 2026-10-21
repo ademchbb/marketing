@@ -185,3 +185,4 @@
 - [x] Corrections faites dans meta-andromeda, qBxEAqZbHVg, dAJyqo6wnq4 (passe-2-publicite). Note : GA4 = data-driven par défaut + 2 modèles dernier clic (et non data-driven seul) — l'agent a corrigé ma consigne.
 - [x] Seth Godin : notes faites → consolidation lancée. [ ] chercheur-sources : *Permission Marketing* (source primaire Godin, non couvert par la vidéo).
 - [x] Rory Sutherland : notes faites → consolidation lancée. [ ] chercheur-sources : Andy Clark *The Experience Machine*, Will Guidara *Unreasonable Hospitality*.
+- [x] Andy Raskin : notes faites → consolidation lancée. [ ] chercheur-sources : « The Greatest Sales Deck I've Ever Seen » (Raskin), « Goodbye Product, Hello Movement », *Story* de McKee.

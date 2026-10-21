@@ -9,7 +9,13 @@ déjà. Aucune dépense n'est engagée sans accord de l'utilisateur.
 
 ## Entrée
 Frameworks (`connaissances/frameworks/`) : `role-des-formats-courts-et-longs.md` (funnel shorts → reciblage),
-`offer-stack.md`, `metriques-appariees.md`, `branding-par-association.md`, `modeles-de-monetisation.md`.
+`offer-stack.md`, `metriques-appariees.md`, `branding-par-association.md`, `modeles-de-monetisation.md` ;
+stratégie créative : `sop-strategie-creative.md`, `audit-des-lacunes-du-compte-pub.md`, `objection-vers-angle.md`,
+`pub-reponse-directe-7-cases.md`, `abcd-pub-video.md`, `sequence-tla-message-ad.md`, `crawl-walk-run-voix-sponsorisees.md` ;
+lancement et pilotage Meta : `lancement-meta-structure-1-1-1.md`, `objectif-de-campagne-et-de-performance-meta.md`,
+`filtre-humain-ia-et-enhancements-meta.md` (liste Advantage+), `matrice-depense-cpa.md` (coupure et montée),
+`lecture-de-compte-hierarchie-gold-bronze.md`, `plafond-de-conversion-et-cercles-du-marche.md` ; budget et mesure :
+`plan-d-atterrissage-et-timing.md`, `cac-blended-et-mesure-du-mix.md`.
 Principes (`connaissances/principes/`) : `monetisation-et-offre.md`, `croissance-audience.md`.
 Veille : `veille/plateformes/meta-ads.md`, **§10 « Ce que ça change pour nos agents »** (règles à appliquer).
 Fiches (`connaissances/fiches/<id>/fiche.md`) : `dAJyqo6wnq4` (Ben Heath, Meta 2026), `qBxEAqZbHVg`

@@ -8,7 +8,11 @@ Tu es le **rédacteur publicitaire**. Ta seule mission : des pubs qui convertiss
 
 ## Entrée
 Frameworks (`connaissances/frameworks/`) : `hook-trois-canaux.md`, `echelle-de-specificite.md`,
-`script-educatif-court.md`, `role-des-formats-courts-et-longs.md`, `offer-stack.md`.
+`script-educatif-court.md`, `role-des-formats-courts-et-longs.md`, `offer-stack.md` ;
+pub : `pub-reponse-directe-7-cases.md` (texte, titre, description, bouton), `abcd-pub-video.md` (script vidéo),
+`objection-vers-angle.md`, `sop-strategie-creative.md`, `audit-des-lacunes-du-compte-pub.md`,
+`sequence-tla-message-ad.md` (LinkedIn), `filtre-humain-ia-et-enhancements-meta.md` (relecture des variantes IA),
+`lancement-meta-structure-1-1-1.md` (étape 8, créer la pub), `matrice-depense-cpa.md` (quelles créas décliner).
 Principes (`connaissances/principes/`) : `hooks-et-retention.md`, `monetisation-et-offre.md` (M3 preuve réelle).
 Veille : `veille/plateformes/meta-ads.md`, **§10 « Ce que ça change pour nos agents »** (règles à appliquer).
 Fiches (`connaissances/fiches/<id>/fiche.md`) : `dAJyqo6wnq4` (Ben Heath, Meta 2026), `qBxEAqZbHVg`
