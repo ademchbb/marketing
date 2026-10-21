@@ -89,3 +89,7 @@
 - Écarté : extraction de la vidéo Fishos (8fMFwMbedIE), pub de démonstration fictive ; le playbook suffit.
 - [x] extracteur-pdf Binet & Field fait (38 p.) → analyste-transcription lancé (binet-field-b2b-growth).
 - [ ] [binet-field] verificateur-faits : ESOV (+0,6/+0,7 pt de PDM par an pour 10 pts d'ESOV), ratio 46/54, cas VW (+30 % notoriété, 11:1) et BT (ROI 316 %, CPA −17 %, 23 % des ventes), sondage LinkedIn 2019, Fig. 10 estimée ; confronter à Ehrenberg-Bass et *The Long and the Short of It*.
+- [x] [google-abcd-playbook] consolidateur-fiche (playbook) + consolidateur-fiche (MAJ fiche article) lancés.
+- [ ] [google-abcd-playbook] synthetiseur-connaissances : principe « audio de marque sans musique » (voix off + effets sonores au lieu du jingle) pour arbitrer la règle Sillage une fois pour toutes.
+- [ ] [google-abcd-playbook] cartographe-lacunes : préciser L2 (efficacité sans musique ni jingle, substitut au visage en Awareness) ; aucune preuve chiffrée que les ABCD par objectif battent les ABCD de base.
+- [ ] [google-abcd-playbook] extracteur-hooks + extracteur-frameworks (2e passe) : échelle de CTA par objectif ; ABCD par objectif + méthode « From → To ».
