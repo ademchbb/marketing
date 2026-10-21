@@ -184,3 +184,4 @@
 - [ ] garde-conformite / architecte-agents : règle maison « valeur affichée » (pas de valeur gonflée par un coût de remplacement hypothétique) et « prévente » (délai de livraison, rétractation, mentions) — sources Kennedy et Marketing Mania.
 - [x] Corrections faites dans meta-andromeda, qBxEAqZbHVg, dAJyqo6wnq4 (passe-2-publicite). Note : GA4 = data-driven par défaut + 2 modèles dernier clic (et non data-driven seul) — l'agent a corrigé ma consigne.
 - [x] Seth Godin : notes faites → consolidation lancée. [ ] chercheur-sources : *Permission Marketing* (source primaire Godin, non couvert par la vidéo).
+- [x] Rory Sutherland : notes faites → consolidation lancée. [ ] chercheur-sources : Andy Clark *The Experience Machine*, Will Guidara *Unreasonable Hospitality*.
