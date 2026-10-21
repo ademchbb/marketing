@@ -74,3 +74,6 @@
 - [ ] [meta-andromeda fiche] chercheur-sources : sources praticiennes indépendantes 2025-2026 sur Andromeda (tests de diversité créative, structure de campagne, consolidation de créatives similaires).
 - [x] [meta-andromeda fiche] veilleur-algorithmes → `veille/plateformes/meta-ads.md` (lancé)
 - [x] extracteur-pdf lancé aussi sur : Binet & Field B2B (source 13), Baromètre du numérique 2026 (source 28), *Scientific Advertising* (Hopkins, domaine public).
+- Prêtes pour extracteur-hooks / extracteur-frameworks (lot 2) : qBxEAqZbHVg (fiabilité 3,5/5 ; gold/bronze, CAC blended, matrice dépense × CPA, plan d'atterrissage, plafond de conversion ; analogies FR pour le swipe-file).
+- [ ] [qBxEAqZbHVg fiche] cartographe-lacunes : nouvelles lacunes incrémentalité (geo-holdout, conversion lift, MMM) et Meta Ads 2025-2026.
+- [ ] Décision orchestrateur : ajouter le tag `meta-ads` à la liste des thèmes (synthetiseur-connaissances, lors de la mise à jour de `index.md`), `instagram` couvrant mal la pub Meta.
