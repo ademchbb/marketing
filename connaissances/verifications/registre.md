@@ -2,8 +2,10 @@
 
 > Tenu par `verificateur-faits`. **Registre unique.**
 > **Passe n°1 : 2026-10-20.** **Passe n°2 : 2026-10-21** (trois domaines : publicité payante, B2B, droit), fusionnée ici le 2026-10-21.
+> **Passe n°3 : 2026-10-22** (droit de la consommation et des offres), fusionnée ici le 2026-10-22.
 > **Périmètre** : sections « Affirmations chiffrées » des fiches du lot 1 et du lot 2, plus les demandes de vérification
-> de `journal/delegations.md` qui les concernent.
+> de `journal/delegations.md` qui les concernent ; pour la passe 3, tactiques d'offre (sections « Affirmations chiffrées »,
+> « Limites », « Conflits avec les règles du projet ») de cinq fiches.
 > - Lot 1 (passe 1) : `HzoQgQS8czE` (Ava Yuergens × Jack Neel), `Jmkq5RLjm0U` (Hormozi), `uJ8Pg6t_iho` (Caleb Ralston 2026),
 >   `AA1LoZwW_2Y` (Mino Lee), `Ch4Sl0POBhU` (Caleb Ralston 2025).
 > - Lot 2, publicité payante : `dAJyqo6wnq4` (Ben Heath, Meta Ads 2026), `qBxEAqZbHVg` (Coudac, masterclass Meta Ads 2024),
@@ -11,15 +13,22 @@
 > - Lot 2, B2B : `hdjlCLb9Hl8` (April Dunford, Lenny's Podcast, 2023), `J6Su5Vx3x5U` (Blair Enns × Chris Do, 2019),
 >   `pILj7t-qQhs` (AJ Wilcox × Ruby James de LinkedIn, The LinkedIn Ads Show ép. 167, 2026).
 > - Lot 2, droit : `bpifrance-influenceur-reglementation`, `cnil-prospection-electronique`.
+> - Passe 3, droit des offres : `au0-dI_wjI8` (Kennedy : valeur affichée, cadeau avec achat, urgence), `11rNI6BUey4`
+>   (Marketing Mania : prévente), `LJVP2wRk7Cc` (Priestley : rareté, liste d'attente, enrichissement des leads),
+>   `hopkins-scientific-advertising` (publicité comparative, offre réservée, gratuité, essai), `_hem3-8XbEI` (Cialdini :
+>   preuve sociale, engagement actif).
 >
 > Appui principal pour les règles de plateformes organiques : les fiches de veille du 2026-10-20
 > `veille/plateformes/instagram.md`, `tiktok.md`, `youtube.md`, `linkedin.md` (citées `[veille:<plateforme> §x]`).
 >
 > **Identifiants conservés tels quels** (aucune renumérotation, pour que les fiches qui les citent restent valides) :
-> P, G, T, C = passe 1 ; PA, PG, PT, PC = passe 2 publicité ; PB, GB, TB, CB = passe 2 B2B ; JI, JP, Q = passe 2 droit.
+> P, G, T, C = passe 1 ; PA, PG, PT, PC = passe 2 publicité ; PB, GB, TB, CB = passe 2 B2B ; JI, JP, Q = passe 2 droit ;
+> OP, OU, OV, OC, OD, OG, OR, OQ = passe 3 droit des offres.
 > L'annonce de `passe-2-b2b.md` (« la fusion les renumérotera ») n'est donc pas appliquée.
-> Les fichiers `passe-2-publicite.md`, `passe-2-b2b.md` et `passe-2-droit.md` restent en archive. **En cas d'écart, ce registre fait foi** :
-> trois lignes B2B ont été révisées pendant la fusion (PB02, TB14, TB15 ; voir « Doublons et révisions »).
+> Les fichiers `passe-2-publicite.md`, `passe-2-b2b.md`, `passe-2-droit.md` et `passe-3-droit-offres.md` restent en archive.
+> **En cas d'écart, ce registre fait foi** : trois lignes B2B ont été révisées pendant la fusion de la passe 2 (PB02, TB14,
+> TB15) ; pendant la fusion de la passe 3, aucun verdict n'a changé, une ligne de la passe 2 a été complétée (JI04) et les
+> renvois internes de la passe 3 ont été réécrits avec les nouvelles lettres de section (voir « Doublons et révisions »).
 
 ## Légende
 
