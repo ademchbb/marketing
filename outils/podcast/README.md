@@ -4,7 +4,8 @@ Pour `transcripteur-audio` : lister les épisodes d'un podcast (flux RSS officie
 choisit dans **une seule source** `sources/podcast/<slug>/`, au format de `outils/youtube/transcrire.py`.
 Scripts autonomes (aucun import entre eux), lancés avec `python3 -I` depuis n'importe quel dossier.
 
-Dernier test : **2026-10-22** (flux *The Game with Alex Hormozi*, 60 s d'un épisode, 2 épisodes × 20 s regroupés).
+Dernier test : **2026-10-22** (flux *The Game with Alex Hormozi* : 60 s d'un épisode ; 3 épisodes × 20 s regroupés,
+coupés par SIGTERM puis repris ; découpe de la source obtenue).
 
 ## Installation (une fois par conteneur)
 
@@ -40,7 +41,7 @@ python3 -I outils/podcast/lister.py <url-ou-fichier-rss> [--motif REGEX] [--excl
 python3 -I outils/podcast/transcrire.py <url-ou-fichier-rss> --motif REGEX --slug SLUG \
         [--exclure REGEX] [--ordre titre|date|flux] [--titre TITRE] \
         [--sortie DOSSIER] [--travail DOSSIER] [--max-secondes N] \
-        [--modele small.en] [--beam 5] [--langue en] [--threads N] [--oui] [--simuler] [--sans-reprise]
+        [--modele small.en] [--beam 5] [--langue en] [--vocabulaire 'Nom, Terme'] [--threads N] [--oui] [--simuler] [--sans-reprise]
 # ou par épisodes précis, dans l'ordre donné :
 python3 -I outils/podcast/transcrire.py <flux> --guid GUID1 --guid GUID2 --slug SLUG
 ```
@@ -56,6 +57,11 @@ python3 -I outils/podcast/transcrire.py <flux> --guid GUID1 --guid GUID2 --slug 
   ni écrit dans la sortie.
 - `--max-secondes N` : ne télécharge (partiellement) et ne transcrit que les N premières secondes de
   chaque épisode — pour les tests.
+- `--vocabulaire 'Alex Hormozi, Leila Hormozi, $100M Offers'` : noms propres et termes à bien orthographier
+  (`hotwords` de faster-whisper, appliqué à chaque fenêtre). Défaut : l'auteur du podcast lu dans le flux ;
+  `--vocabulaire ''` pour aucun. Test : sans vocabulaire « Alex Hermosi », « 100 million dollar money models » ;
+  avec, « Alex Hormozi », « $100M Money Models », « $250,000 ». Effet de bord observé : « by a mile » est devenu
+  « Buy a Mile » : garder la liste courte (noms propres, titres).
 - `--oui` : pas de question de confirmation au-delà d'une heure d'audio (la question n'est posée que si le
   terminal est interactif ; un agent n'est donc pas bloqué).
 - **Reprise après coupure** : chaque épisode terminé est mis de côté (texte seulement) dans
@@ -120,8 +126,16 @@ les motifs ci-dessous ne retiennent que la série complète d'origine.
 F=https://rss2.flightcast.com/zz5nwp81tktx53wb8fw6qq7j.xml
 python3 -I outils/podcast/transcrire.py $F --motif '^Part \d+: \$100M Offers Book$' \
   --slug hormozi-100m-offers --titre '$100M Offers (Alex Hormozi, livre audio)' \
+  --vocabulaire 'Alex Hormozi, Leila Hormozi, Acquisition.com, $100M Offers, Grand Slam Offer' \
   --travail <scratchpad>/travail-podcast --oui
+# Leads : --motif '\| \$100M Leads Book$' --slug hormozi-100m-leads (vocabulaire : …, $100M Leads, Core Four)
+# Money Models : --motif '^Part \d+: .*\$100M Money Models' --slug hormozi-100m-money-models
 ```
+
+Durée de calcul estimée (`small.en`, beam 5, 4 cœurs, x2,34) : Offers ≈ 1 h 45, Leads ≈ 2 h 45, Money Models
+≈ 1 h 37, soit ≈ 6 h 10 pour les trois. Une commande en arrière-plan étant coupée au bout de 2 h, lancer un
+livre par commande et **relancer la même commande** si elle est coupée (reprise automatique par épisode).
+
 
 ## Limites connues
 
