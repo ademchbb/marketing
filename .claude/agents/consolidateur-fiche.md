@@ -68,12 +68,13 @@ Tags de la liste fermée ci-dessous (Règles), séparés par des virgules.
   - `brief-creatif` : rédiger et challenger le brief : vrai problème à résoudre (remonter en amont), cible, insight, message unique, contraintes, critère de réussite.
   - `marketing-direct` : réponse directe hors email : courrier, catalogues, fichiers et listes (choix, location, segmentation), mécanisme de réponse (coupon, code, enveloppe-réponse), mesure au retour par envoi ; la rédaction = `copywriting`.
   - `economie-unitaire` : économie d'un client : CAC, LTV, marge, délai de récupération, cash encaissé à 30 jours, acquisition financée par le client ; allocation du budget = `mesure-budget`.
-  - `gestion-crise` : réputation attaquée : bad buzz, polémique, mea culpa, réponse publique, protocole de crise ; modération courante = `communaute`.
+  - `gestion-crise` : réputation attaquée et communication de crise : bad buzz, polémique, mea culpa, parler tôt, preuve avant annonce (engagements RSE), protocole de crise ; modération courante = `communaute`.
 - **Libellés rattachés** (ne pas les redemander, utiliser le tag retenu ; table complète chez `synthetiseur-connaissances`) :
   experience-client, service client → `retention-client` · acquisitions (rachats) → `strategie-croissance` ·
   marketing-cause → `positionnement` (`ethique` si l'angle est la récupération d'une cause) · reponse-directe →
   `marketing-direct` · finance-tresorerie → `economie-unitaire` · franchise → `strategie-croissance` ·
-  communication-politique → `positionnement` (leçons transposables ; l'agence ne fait pas de pub politique).
+  communication-politique → `positionnement` (leçons transposables ; l'agence ne fait pas de pub politique) ·
+  communication-crise → `gestion-crise` · formats-series-streaming → `youtube-long` (contrat de plateforme → `monetisation`).
 - Un thème hors liste et hors libellés rattachés : le signaler dans le rapport (demande à `architecte-agents`), ne pas inventer de tag.
 
 ## Sous-délégation

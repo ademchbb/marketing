@@ -58,7 +58,7 @@ créé qu'à la première fiche qui porte le tag ; « (à venir) » = pas encore
 | `brief-creatif` | `brief-creatif.md` | rédiger et challenger le brief : vrai problème à résoudre (remonter en amont), cible, insight, message unique, contraintes, critère de réussite |
 | `marketing-direct` | `marketing-direct.md` | réponse directe hors email : courrier, catalogues, fichiers et listes (choix, location, segmentation), mécanisme de réponse (coupon, code, enveloppe-réponse), mesure au retour par envoi ; la rédaction = `copywriting` |
 | `economie-unitaire` | `economie-unitaire.md` | économie d'un client : CAC, LTV, marge, délai de récupération, cash encaissé à 30 jours, acquisition financée par le client ; allocation du budget = `mesure-budget` |
-| `gestion-crise` | `gestion-crise.md` | réputation attaquée : bad buzz, polémique, mea culpa, réponse publique, protocole de crise ; modération courante = `communaute` |
+| `gestion-crise` | `gestion-crise.md` | réputation attaquée et communication de crise : bad buzz, polémique, mea culpa, parler tôt, preuve avant annonce (engagements RSE), protocole de crise ; modération courante = `communaute` |
 
 ### Alias : libellés signalés « hors liste » → tag retenu
 Pour reclasser les fiches existantes : lis leur ligne « Hors liste » et range le passage sous le tag retenu
@@ -77,6 +77,8 @@ Pour reclasser les fiches existantes : lis leur ligne « Hors liste » et range 
 | finance-tresorerie, CAC, LTV, marge | `economie-unitaire` |
 | franchise (mode d'expansion ; franchise vendue comme offre → `offre`) | `strategie-croissance` |
 | communication-politique, marketing non marchand (pub politique → `conformite-juridique`) | `positionnement` |
+| communication-crise, preuve avant annonce RSE | `gestion-crise` |
+| formats-series-streaming : sortie hebdo ou en bloc, seuil d'épisodes (contrat de plateforme → `monetisation`) | `youtube-long` |
 | méthode expérimentale, tests A/B et géographiques | `analyse-donnees` |
 | allocation budgétaire entre canaux | `mesure-budget` |
 | tarification, prix, échantillonnage, essai gratuit | `offre` |

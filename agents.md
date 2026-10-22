@@ -72,7 +72,7 @@ marqués « à venir ».
 | `extracteur-pdf` | Extrait le texte propre d'un PDF public (rapport, playbook, baromètre, livre du domaine public) avec repères `[p. N]`, et si possible le texte des planches en image ; vérifie les droits et refuse les livres sous droits mis en ligne sans autorisation. Le PDF reste dans le scratchpad, jamais dans le repo | `sources/pdf/<slug>/` |
 | `extracteur-social` | Récupère ce qui est accessible publiquement d'un post Instagram, TikTok, X, LinkedIn ou d'un Short (légende, transcription si vidéo, métriques visibles, date) pour analyse | `sources/social/<plateforme>-<id>/` |
 | `lecteur-images` | Décrit en texte les images d'une source web ou sociale déjà récupérée (planches, schémas, captures, graphiques, slides) : ce qu'elles montrent, texte lisible recopié tel quel, chiffres marqués « lu sur l'image, à vérifier ». Décrit sans commenter. Images téléchargées dans le scratchpad, jamais dans le repo. Les PDF restent à `extracteur-pdf` | `sources/<type>/<slug>/images.md` |
-| `transcripteur-audio` | Transcrit l'audio d'une vidéo ou d'un podcast qui n'a pas de sous-titres (Whisper local) : en dernier recours après l'extracteur pour une vidéo, directement pour un épisode ou un livre audio publié par son auteur (flux RSS officiel). Utilise les scripts de `outils/podcast/` s'ils existent. Audio dans le scratchpad, supprimé après usage | `sources/youtube/<id>/` ou `sources/podcast/<slug>/` (+ ligne de `sources/index.md`) |
+| `transcripteur-audio` | Transcrit l'audio d'une vidéo ou d'un podcast qui n'a pas de sous-titres (Whisper local) : en dernier recours après l'extracteur pour une vidéo, directement pour un épisode ou un livre audio publié par son auteur (flux RSS officiel). Utilise les scripts de `outils/podcast/` selon son `README.md` (`--simuler` d'abord, `--travail` dans le scratchpad, même commande relancée si coupée). Audio dans le scratchpad, supprimé après usage | `sources/youtube/<id>/` ou `sources/podcast/<slug>/` (+ ligne de `sources/index.md`) |
 | `developpeur-outils` | Propriétaire des scripts de `outils/` : les écrit, corrige, teste sur un petit cas réel et documente (README, `requirements.txt` avec versions). Secrets en variables d'environnement, médias jamais dans le repo, tests écrits dans le scratchpad. Ne fait pas le travail de fond des autres agents | `outils/<domaine>/` |
 | `analyste-transcription` | Lit UNE partie d'une transcription (vidéo, podcast, article long) et en extrait toutes les connaissances marketing actionnables dans des notes structurées | `connaissances/fiches/<id>/notes-partie-NN.md` |
 | `consolidateur-fiche` | Fusionne les notes de toutes les parties d'une même source en UNE fiche de référence (thèse, frameworks, tactiques, niveau de fiabilité) | `connaissances/fiches/<id>/fiche.md` |
@@ -335,3 +335,18 @@ analyste-performance → predicteur-performance (calibration) → analyste-resul
   couvertures, couple titre + image avant le clic ; frontières `hooks` et `copywriting`) dans `consolidateur-fiche`
   et `synthetiseur-connaissances` (fichier `packaging.md`, à venir), demandé par la fiche Paddy Galloway
   (Z2uoA3bhJT0), utile aussi pour Caleb Ralston ; `titreur-miniatures` cite `packaging.md` (à venir).
+- 2026-10-22 : passe taxonomie (lot Kapferer, Abraham, Trott, Boron, Money Models, Séguéla, MrBeast) et outils.
+  Aucun agent créé (61 agents). Règle : un tag n'est créé que s'il couvre au moins 2 sources ou une compétence
+  que l'agence produira, sinon alias. **Créés** dans `consolidateur-fiche` et `synthetiseur-connaissances` (même
+  liste, mêmes définitions, fichier de principes à venir) : `ia-creation`, `retention-client` (décisions de
+  l'orchestrateur), `distribution`, `partenariats`, `brief-creatif`, `marketing-direct`, `economie-unitaire`
+  (demandé sous le nom `finance-tresorerie`), `gestion-crise`. `analyse-donnees` élargi à toute lecture de
+  métriques (contenu, pub, tunnel de vente) et passé dans le tableau. `culture-entreprise` : « onboarding des
+  salariés » (l'onboarding client va à `retention-client`). **Rattachés** : experience-client → `retention-client`,
+  acquisitions et franchise → `strategie-croissance`, marketing-cause et communication-politique → `positionnement`,
+  communication-crise → `gestion-crise`, formats-series-streaming → `youtube-long`. `synthetiseur-connaissances`
+  reçoit une table des alias (libellés « hors liste » des fiches existantes → tag retenu) pour reclasser sans
+  toucher aux fiches ; `consolidateur-fiche` en a la version courte. `transcripteur-audio` et `extracteur-youtube`
+  renvoient à `outils/podcast/README.md` et `outils/youtube/README.md` avec les règles qui évitent les erreurs
+  (`--simuler`, `--vocabulaire` court, `--travail` dans le scratchpad, même commande relancée si coupée,
+  `--max-secondes` et `--sortie` réservés aux essais, découpe par `decouper.py` à taille constante).
