@@ -50,3 +50,30 @@
 
 ### `agents.md` / `.claude/agents/`
 - Cohérent : 61 agents des deux côtés, mêmes noms ; chaque `name:` correspond à son nom de fichier.
+
+## Contrôle du 2026-10-22 (2e passage)
+
+### Gabarit `marques/_modele/`
+- Ajouté : `conditions-vente.md` (squelette vide, en-tête « PROJET, non rédigé », propriétaire `redacteur-conditions-vente`,
+  validation de l'utilisateur obligatoire avant toute offre payante, jamais un avis juridique ; 9 sections vides
+  reprises de `.claude/agents/redacteur-conditions-vente.md`). Pas de tiret long dans le fichier (règle [fiche:HzoQgQS8czE]).
+- Le gabarit couvre désormais tous les chemins `marques/<slug>/…` déclarés dans `agents.md` et `.claude/agents/`.
+- La section « Gabarit des marques » de `agents.md` ne liste pas les fichiers : aucune mise à jour nécessaire.
+
+### `sources/index.md` (mis à jour)
+- 17 sources passées à `fiché` (`fiche.md` présente) : `6_CCutkM11g`, `halbert-boron-letters`, `OgRgbar2dOQ`,
+  `k834E6OTGTM`, `guZa7mQV1l0`, `DJLtwT1Z0eo`, `FN4eDk1pq6U`, `1N2XALudegQ`, `Ge8xTCIP0Zw`, `rl3SELihHqs`,
+  `Br2KSsaTzUc`, `xf0Mli0LVgI`, `buAY7UtjCb4`, `IWuVEcQexWo`, `rPZG5xfN7vI`, `SUzKZfyaAK8`, `aGI7puAXf6w`.
+- Bilan : 51 sources, 51 `fiche.md` ; 5 `intégré` (lot 1), 46 `fiché`. Aucune source sans fiche, aucune fiche sans
+  source, aucune source hors index.
+- 46 fiches ne sont citées dans aucun fichier de `connaissances/principes/` : à intégrer (propriétaire :
+  `synthetiseur-connaissances`).
+
+### Liens `[fiche:<id>]`
+- Aucun lien cassé dans le repo (chaque identifiant cité a sa `fiche.md`).
+
+### Index manquant (toujours ouvert)
+- `connaissances/index.md` n'existe toujours pas. Propriétaire : `synthetiseur-connaissances`.
+
+### `agents.md` / `.claude/agents/`
+- Cohérent : 62 agents des deux côtés (ajout de `redacteur-conditions-vente`), mêmes noms.

@@ -8,7 +8,7 @@
 | Type | expérience de **processus** : on teste la méthode de contrôle qualité, pas un contenu |
 | Marque | toute marque qui publie au moins 8 vidéos courtes en 4 semaines (Sillage en priorité) |
 | Plateforme | Instagram Reels (ou LinkedIn vidéo) |
-| Méthode | double classement avant publication, puis comparaison au classement réel (alternance des conditions par lot) |
+| Méthode | double classement avant publication, puis comparaison au classement réel (ordre des conditions tiré au sort) |
 | Conçu le | 2026-10-22 par `concepteur-experiences` |
 
 ## Le doute à lever
@@ -34,7 +34,7 @@ Les **conditions de visionnage** pendant la revue avant publication.
   que voulu.
 - **B in situ** : chaque vidéo vue une seule fois, sur téléphone, insérée dans une maquette de fil
   (vidéo précédente et suivante = contenus réels et récents de la même plateforme, sans lien avec la
-  marque), au rythme d'un défilement normal.
+  marque), au rythme d'un défilement normal, son activé comme dans un usage réel.
 
 ## Ce qui reste constant
 Les mêmes vidéos, les mêmes relecteurs (au moins 3), la même consigne (« classez de la plus à la moins
@@ -62,12 +62,11 @@ Chaque relecteur fait **les deux** conditions, dans un ordre tiré au sort, à a
   prédit mal, et l'agence doit s'appuyer davantage sur les tests (Trial Reels) que sur la revue.
 
 ## Méthode et déroulé
-1. `controleur-qualite-marketing` prépare les lots et la maquette de fil (capture d'écran animée ou
-   prototype local ; aucune publication réelle).
+1. `controleur-qualite-marketing` prépare les lots et la maquette de fil (prototype local lu sur
+   téléphone ; aucune publication réelle).
 2. Les relecteurs classent ; `predicteur-performance` consigne aussi son propre classement dans
    `experiences/predictions.md` (point de comparaison).
-3. Les vidéos sont publiées normalement, après validation de l'utilisateur, dans un ordre et à des
-   créneaux comparables.
+3. Les vidéos sont publiées normalement, après validation de l'utilisateur, à des créneaux comparables.
 4. `analyste-performance` fournit le classement réel ; `analyste-resultats` calcule les corrélations et
    conclut.
 
@@ -78,9 +77,9 @@ Chaque relecteur fait **les deux** conditions, dans un ordre tiré au sort, à a
   donnée personnelle collectée hors du classement.
 - Les vidéos restent soumises au contrôle qualité habituel : l'expérience ajoute une revue, elle ne retire
   aucun contrôle de conformité.
-- Sillage : jamais de musique, y compris dans la maquette (les vidéos voisines sont vues sans le son si
-  elles en contiennent, pour ne pas biaiser le jugement de l'audio).
+- Sillage : nos vidéos restent sans musique (effets sonores seulement) ; les contenus voisins de la
+  maquette sont lus tels qu'ils existent dans le fil, puisque c'est le contexte réel qu'on veut simuler.
 
 ## Limite connue
 `simulateur-audience` ne peut pas « voir » une vidéo dans un fil : l'expérience porte sur des relecteurs
-humains. Si B gagne, il faudra un agent ou un outil capable de produire la maquette de fil (voir rapport).
+humains. Si B gagne, il faudra un outil capable de produire la maquette de fil (voir rapport).
