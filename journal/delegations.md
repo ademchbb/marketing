@@ -226,3 +226,7 @@ Leçon : 20 agents en parallèle épuisent le quota en ~2 h 30. Vagues de ~10 ag
 - Lot B : Kapferer et Séguéla lancés.
 - [x] Money Models p4 faite (rollover upsell, FFWA). Lot B : Jay Abraham lancé.
 - [x] architecte-agents : correcteur étendu aux pubs et emails, garde-conformite → registre + passe 3, tag packaging. MrBeast p1 lancée.
+- [x] Fiche Hormozi vente faite (3,5/5 ; CLOSER, vente diagnostique, sales step-downs, 6 C ; 4 erreurs de calcul relevées).
+- Décision orchestrateur (taxonomie, prochaine passe architecte) : élargir `analyse-donnees` à toute lecture de métriques (contenu, pub, tunnel de vente) ; créer `retention-client` (onboarding, fidélisation, récurrent).
+- [ ] [Hormozi vente] garde-conformite / passe droit : financement par carte de crédit, carte prise « par procédure », tacite reconduction, enregistrement des appels (information obligatoire).
+- MrBeast p2 lancée.
