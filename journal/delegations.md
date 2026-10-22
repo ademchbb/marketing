@@ -239,3 +239,4 @@ Leçon : 20 agents en parallèle épuisent le quota en ~2 h 30. Vagues de ~10 ag
 - [x] Chris Voss et Jonah Berger : notes faites → fiches lancées.
 - [ ] [Voss] chercheur-sources : source primaire sur la reformulation en miroir et les questions calibrées (absentes de la vidéo).
 - [ ] [Berger] chercheur-sources : source plus complète sur STEPPS (visibilité publique, valeur pratique, émotion « awe »).
+- [x] Dave Trott : notes faites → fiche lancée. Note : chapitres metadata.json de rl3SELihHqs décalés après 15:00 (bug d'extraction ? à signaler à developpeur-outils).
