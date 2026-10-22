@@ -225,3 +225,4 @@ Leçon : 20 agents en parallèle épuisent le quota en ~2 h 30. Vagues de ~10 ag
 - [ ] architecte-agents (après passe-3-droit) : garde-fous de pitch dans garde-conformite / redacteurs : closing à forte pression, don « 100 % déductible » ambigu, urgence « tant que la lumière est rouge », fractionnement du prix en coût journalier, « pas de promesse de revenus » + résultats chiffrés, « dernière chance » sans échéance.
 - Lot B : Kapferer et Séguéla lancés.
 - [x] Money Models p4 faite (rollover upsell, FFWA). Lot B : Jay Abraham lancé.
+- [x] architecte-agents : correcteur étendu aux pubs et emails, garde-conformite → registre + passe 3, tag packaging. MrBeast p1 lancée.
