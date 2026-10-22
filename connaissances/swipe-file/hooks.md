@@ -462,3 +462,23 @@ n'importe quel formulaire, les arguments de vitesse ou de gratuité de l'outil s
 | Chiffres d'autorité ou de plateforme repris tels quels dans un hook (« 200 M$ dépensés », « ×6 de conversion », « 40 % de no decision », « 7 fois plus cher ») | Incohérents, non sourcés ou promotionnels : au mieux « selon [source], [date] », après `verificateur-faits` | [fiche:dAJyqo6wnq4 00:00] [fiche:pILj7t-qQhs 00:32] [fiche:hdjlCLb9Hl8 00:24] [fiche:qBxEAqZbHVg 00:02] |
 | Post ou témoignage de client réécrit, inventé, ou sponsorisé sans son accord | Faux témoignage ; accord écrit obligatoire avant de sponsoriser le contenu d'un tiers | [fiche:pILj7t-qQhs 00:40] |
 | Post de dirigeant entièrement généré par IA | « If AI can create it for you, I wouldn't call it thought leadership » : la matière et le point de vue viennent de la personne | [fiche:pILj7t-qQhs 00:23] |
+
+### Hooks interdits ou bloqués : procédés de vente directe (ajout lot 3)
+
+Repérés dans les sources de lancement et de closing (Hormozi, Brunson, Leloup). Ils sont listés pour être
+**reconnus**, pas reproduits. Une seule ligne concernée = refus tel quel ; voir `structures.md` V5 pour la grille.
+
+| À éviter | Pourquoi | Source |
+|---|---|---|
+| Urgence sans raison réelle : bonus numérique qui « disparaît à la fin du direct », « one last time » répété pendant une heure, fin sous-entendue (« I'm not saying when this ends, but… ») | Urgence artificielle ; la vraie échéance existait ailleurs (description YouTube). Règle : toute urgence est vraie, datée et tenue | [fiche:6_CCutkM11g 02:13] [fiche:6_CCutkM11g 03:32] |
+| Achat présenté comme un « don », déduction fiscale promise | On ne peut pas à la fois donner, déduire comme un don et revendre : information trompeuse | [fiche:6_CCutkM11g 02:21] |
+| Avertissement « pas de promesse de revenus » ou « je n'ai rien à vendre » collé à des résultats chiffrés ou juste avant une offre | L'avertissement n'annule pas l'effet de suggestion | [fiche:6_CCutkM11g 02:50] [fiche:6_CCutkM11g 01:01] |
+| Projection de revenus pour le spectateur : « C'est quasiment garanti que parmi mes abonnés, plusieurs vont… dépasser mon chiffre d'affaires d'ici deux ans » ; « If all this does is add $10,000 a month to your income, is it worth it? » | Fausse promesse de revenus (garantie, ou chiffre posé comme hypothèse plausible) | [fiche:11rNI6BUey4 00:03] [fiche:JE2_7elAcxM 00:33] |
+| Closes de pression : « you're going to spend this money either way… That money's already gone », « Don't let it burn you twice », « Are you tired of another year of almost? », « Is this a lot of money to you? » → « that's the exact reason how you're going to be successful », prix ramené à « moins qu'un burrito par jour » juste après « don't be dumb » | Pression commerciale sur un public potentiellement fragile ou endetté ; à réserver, au mieux, à un prospect informé, après `garde-conformite` | [fiche:6_CCutkM11g 01:50] [fiche:JE2_7elAcxM 00:57] [fiche:JE2_7elAcxM 00:58] [fiche:JE2_7elAcxM 00:32] |
+| Aide à ouvrir une carte de crédit pour payer ; closing différé (« carte prise, contrat déchiré si le conjoint refuse ») ; carte bancaire exigée à l'ouverture du profil client (« It's just how the system works ») | Pression et collecte de moyens de paiement non nécessaires | [fiche:JE2_7elAcxM 01:02] [fiche:JE2_7elAcxM 00:48] [fiche:JE2_7elAcxM 03:14] |
+| Ancre qui n'est pas un prix réellement pratiqué ; valeur empilée affichée comme un prix barré (69 955 $ → 0 $) ; valeur « coût de remplacement » présentée comme ce que le client gagnera | Faux prix de référence ; une valeur hypothétique doit être donnée comme une estimation explicite | [fiche:6_CCutkM11g 05:29] [fiche:au0-dI_wjI8 00:34] |
+| Positionnement contre une marque nommée, ou « nouvelle opportunité » qui affirme sans preuve qu'une méthode ne marche pas ; ennemi commun fabriqué (« les médias ») | Dénigrement nominatif, affirmation non prouvée, diffamation possible | [fiche:rPZG5xfN7vI 00:46] [fiche:rPZG5xfN7vI 00:06] |
+| Défauts, dégoût ou « révélation » inventés pour simuler la sincérité (structure Sugarman sans rejet réel) | Faux témoignage déguisé | [fiche:1N2XALudegQ 00:04] |
+| Faux compteur de liste d'attente, faux « 200 inscrits », taux de refus non mesuré (« in two-thirds of the cases the answer is no ») | Faux chiffre présenté comme réel | [fiche:LJVP2wRk7Cc 00:28] [fiche:LJVP2wRk7Cc 00:54] |
+| « À ce stade de la vidéo, j'ai perdu entre 80 et 90 % d'entre vous » affiché comme une donnée | Procédé rhétorique, pas une mesure de rétention : garder la flatterie, retirer le chiffre ou le remplacer par la vraie courbe | [fiche:11rNI6BUey4 00:53] |
+| Se faire passer pour un client pour démarcher (« fake estimates ») | Pratique trompeuse | [fiche:6_CCutkM11g 05:21] |

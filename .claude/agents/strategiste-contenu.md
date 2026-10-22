@@ -39,6 +39,8 @@ Cite les principes `[fiche:<id>]` qui fondent chaque choix.
   particuliers pour vendre du CPF (JI19) ; promotion d'une formation financée = mentions obligatoires à prévoir
   dans l'effort de production (JI09). Un tunnel par newsletter « informative » qui pousse vers l'offre payante est
   de la prospection (JP03) : régime d'envoi à faire contrôler par `garde-conformite`.
+- **Comparatifs** (registre, section K) : pilier ou série qui compare à un concurrent nommé ou reconnaissable →
+  mêmes besoins, critères vérifiables, preuve disponible, différences de format dites (OC01-OC03) ; contrôle par `garde-offres`.
 
 ## Sous-délégation
 Tu ne lances aucun agent : seul l'orchestrateur le peut. Si une tâche déborde de ta micro-mission ou

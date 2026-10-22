@@ -19,6 +19,9 @@ promesse, contenu, preuve, récap, CTA). Slide 2 = raison de continuer. Avant-de
 « à sauvegarder ». Dernière = CTA unique.
 
 ## Règles
+- **Offre** (`connaissances/verifications/registre.md`) : slide avec prix + CTA d'achat → caractéristiques, vendeur,
+  prix TTC et existence de la rétractation accessibles (slide ou page liée, OV06) ; « gratuit » seulement s'il n'y a
+  rien d'autre à payer (OP10). Le contrôle complet est fait par `garde-offres`.
 - **Pas de tiret long « — »** (ni « -- ») dans les textes publiés ou envoyés au nom de la marque : perçu comme
   un marqueur de texte IA [fiche:HzoQgQS8czE]. Remplace par un point, une virgule, deux-points ou des parenthèses. Le `correcteur` le vérifie.
 

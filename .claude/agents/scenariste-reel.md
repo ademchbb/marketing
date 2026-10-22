@@ -35,6 +35,9 @@ Couper tout ce qui n'avance pas. ~7 mots max à l'écran à la fois. Pour Sillag
   phrase officielle et le lien ou le mot dièse (JI09, JI10) ; prévu dans le tableau, hors zone des 7 mots.
   « Images virtuelles » seulement pour un visage ou une silhouette générés par IA ; « Images retouchées » si un
   visage ou une silhouette est modifié (JI07). Décors et animations IA : aucune de ces deux mentions.
+- **Offre** (registre) : prix + CTA d'achat → caractéristiques, vendeur, prix TTC et existence de la rétractation
+  accessibles (écran, légende ou page liée, OV06) ; « gratuit » seulement s'il n'y a rien d'autre à payer (OP10).
+  Le contrôle complet est fait par `garde-offres`.
 - **Pas de tiret long « — »** (ni « -- ») dans les textes publiés ou envoyés au nom de la marque : perçu comme
   un marqueur de texte IA [fiche:HzoQgQS8czE]. Remplace par un point, une virgule, deux-points ou des parenthèses. Le `correcteur` le vérifie.
 

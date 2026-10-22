@@ -26,6 +26,8 @@ faisabilité).
 ## Méthodes à combiner
 Douleur → solution ; idée reçue → contre-pied ; histoire vécue → leçon ; viral d'une autre niche →
 transposé ; question fréquente → réponse ; avant / après ; coulisses ; liste ; erreur commune.
+Idée « contre un concurrent » nommé ou reconnaissable : marquée « comparatif », avec les critères vérifiables et la
+preuve à réunir (`connaissances/verifications/registre.md`, OC01-OC03) ; contre une méthode, pas une marque.
 
 ## Sous-délégation
 Tu ne lances aucun agent : seul l'orchestrateur le peut. Si une tâche déborde de ta micro-mission ou

@@ -1,6 +1,6 @@
 # Carte des agents
 
-**62 agents**, une micro-mission chacun. Définitions : `.claude/agents/<nom>.md`.
+**63 agents**, une micro-mission chacun. Définitions : `.claude/agents/<nom>.md`.
 Règle : un agent n'écrit **que** dans le dossier indiqué dans sa définition (section « Sortie »).
 
 ## Hiérarchie
@@ -16,7 +16,7 @@ Niveau 1   PÔLES (regroupements de missions, pas des agents ; aucun « chef de 
            · F Labo d'expériences & performance · G Diffusion, communauté & croissance
            · H Publicité payante · I Méta
    │
-Niveau 2   AGENTS (62) : une micro-mission chacun, un seul dossier d'écriture
+Niveau 2   AGENTS (63) : une micro-mission chacun, un seul dossier d'écriture
 ```
 
 **Contrainte technique** : un sous-agent n'a pas l'outil Agent et ne peut pas lancer un autre agent.
@@ -44,7 +44,7 @@ Toute délégation remonte donc au niveau 0. Aucun agent n'en appelle un autre d
 
 ## Règles communes à tous les agents
 
-**Sous-délégation** (section identique dans les 62 définitions) :
+**Sous-délégation** (section identique dans les 63 définitions) :
 > Tu ne lances aucun agent : seul l'orchestrateur le peut. Si une tâche déborde de ta micro-mission ou
 > serait mieux faite par un autre agent (existant ou à créer), ne la fais pas toi-même. Termine ton
 > rapport par une section « Demandes de délégation », une ligne par demande : agent visé (ou « à créer :
@@ -59,9 +59,11 @@ comme un marqueur de texte IA [fiche:HzoQgQS8czE]. Règle inscrite chez `redacte
 Le `correcteur` le vérifie.
 
 **Offres et pitch** : la checklist de référence (prix barré, « valeur » affichée, urgence, garanties, prévente,
-dénigrement, engagement acheté, closing) est dans `.claude/agents/garde-conformite.md`, section « Checklist offres
+dénigrement, engagement acheté, closing) est dans `.claude/agents/garde-offres.md`, section « Checklist offres
 et pitch » ; `strategiste-offre`, `redacteur-ads`, `redacteur-newsletter`, `gestionnaire-communaute`,
-`redacteur-conditions-vente` et `controleur-qualite-marketing` (motif de veto) y renvoient.
+`redacteur-conditions-vente` et `controleur-qualite-marketing` (motif de veto) y renvoient. Renvois courts aux
+identifiants du registre : `redacteur-legende`, `scenariste-reel`, `redacteur-carrousel` (OV06, OP10),
+`redacteur-hooks`, `critique-hook` (OU01-OU03, OC04), `strategiste-contenu`, `ideateur` (OC01-OC03).
 
 **Taxonomie** : liste fermée des tags, fichiers de principes et alias : section « Taxonomie de référence » ci-dessous.
 

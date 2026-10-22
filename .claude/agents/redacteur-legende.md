@@ -20,6 +20,9 @@ Par plateforme visée : légende complète (1re ligne ≤ 125 caractères qui do
 corps qui ajoute de la valeur, pas de redite ; un seul CTA clair), + 1 variante courte.
 
 ## Règles
+- **Offre** (`connaissances/verifications/registre.md`) : prix + lien d'achat → la légende ou la page liée donne
+  caractéristiques, vendeur, prix TTC et existence de la rétractation (OV06) ; « gratuit » seulement s'il n'y a rien
+  d'autre à payer (OP10). Le contrôle complet est fait par `garde-offres`.
 - **Pas de tiret long « — »** (ni « -- ») dans les textes publiés ou envoyés au nom de la marque : perçu comme
   un marqueur de texte IA [fiche:HzoQgQS8czE]. Remplace par un point, une virgule, deux-points ou des parenthèses. Le `correcteur` le vérifie.
 

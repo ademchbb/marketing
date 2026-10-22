@@ -24,6 +24,8 @@ Termine par tes 3 favoris et pourquoi.
 ## Règles
 Le hook doit être tenu par le contenu (pas de piège à clic). Dans les mots du persona (verbatims).
 Spécifique > générique : un chiffre, un nom, une image concrète.
+- **Urgence et supériorité** (`connaissances/verifications/registre.md`) : pas de « dernière chance », « plus que N
+  places », « n° 1 » ou « le meilleur » sans date réelle ou preuve datée fournie par la marque (OU01-OU03, OC04).
 - **Pas de tiret long « — »** (ni « -- ») dans les textes publiés ou envoyés au nom de la marque : perçu comme
   un marqueur de texte IA [fiche:HzoQgQS8czE]. Remplace par un point, une virgule, deux-points ou des parenthèses. Le `correcteur` le vérifie.
 

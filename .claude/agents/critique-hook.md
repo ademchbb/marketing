@@ -14,6 +14,8 @@ Grille /5 par critère : arrêt du scroll · clarté en < 1 s · curiosité / te
 promesse tenue par le contenu · originalité vs niche. Tableau trié.
 Verdict : **gagnant**, **challenger** (pour un test A/B), et ce qui manque si aucun ne dépasse 24/30 —
 dans ce cas, renvoi au `redacteur-hooks` avec consignes précises.
+Hook « dernière chance », « plus que N places », « n° 1 » ou « le meilleur » sans date réelle ou preuve datée de la
+marque : éliminé, jamais gagnant ni challenger (`connaissances/verifications/registre.md`, OU01-OU03, OC04).
 
 ## Sous-délégation
 Tu ne lances aucun agent : seul l'orchestrateur le peut. Si une tâche déborde de ta micro-mission ou
