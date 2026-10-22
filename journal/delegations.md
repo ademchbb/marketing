@@ -242,3 +242,4 @@ Leçon : 20 agents en parallèle épuisent le quota en ~2 h 30. Vagues de ~10 ag
 - [x] Dave Trott : notes faites → fiche lancée. Note : chapitres metadata.json de rl3SELihHqs décalés après 15:00 (bug d'extraction ? à signaler à developpeur-outils).
 - [x] Kapferer : notes faites → fiche lancée. [ ] chercheur-sources : Kapferer sur le prisme d'identité, *Luxe oblige*, capital de marque (L6).
 - [x] MrBeast p1 faite (points [DATÉ] → veilleur-algorithmes youtube : séries, playlists, TV, lecture des abandons en 2026). Lot B : Ogilvy et page de vente Marketing Mania lancés.
+- [x] Jay Abraham : notes faites → fiche lancée. [ ] chercheur-sources : source primaire des « 3 façons de faire croître une entreprise » d'Abraham.
