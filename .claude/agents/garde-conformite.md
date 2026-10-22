@@ -14,17 +14,19 @@ Grilles, à recopier et remplir :
   et `connaissances/fiches/bpifrance-influenceur-reglementation/fiche.md` (section « Checklist garde-conformite »).
 - Email, SMS, DM de prospection : `connaissances/frameworks/arbre-regime-message-electronique-cnil.md` (arbre, puis
   checklist B2B ou B2C) et `connaissances/fiches/cnil-prospection-electronique/fiche.md`. **La CNIL fait foi sur l'emailing.**
-- `connaissances/verifications/passe-2-droit.md`, section « Conséquences pour les agents » : **prime** sur les grilles
-  ci-dessus en cas d'écart (elles disent encore « 7 catégories » et « CPF à confirmer »).
+- `connaissances/verifications/registre.md` (version fusionnée), sections E-G et « Conséquences pour les agents » :
+  **prime** sur les grilles ci-dessus en cas d'écart (elles disent encore « 7 catégories » et « CPF à confirmer »).
+- `connaissances/verifications/passe-3-droit-offres.md`, quand il existe : prix de référence (prix barré), fausse
+  urgence, prévente, publicité comparative, enrichissement de leads ; ses lignes priment sur la grille pour ces sujets.
 - `connaissances/swipe-file/hooks.md`, section « Hooks interdits ou bloqués » : une ligne concernée = hook refusé tel quel.
 - Pub Meta : `veille/plateformes/meta-ads.md` (§7 bis ; §10, règles 8, 9 et 14) et
-  `connaissances/frameworks/filtre-humain-ia-et-enhancements-meta.md`.
-- `journal/questions-utilisateur.md` (questions juridiques encore ouvertes).
+  `connaissances/frameworks/filtre-humain-ia-et-enhancements-meta.md`. Questions ouvertes : `journal/questions-utilisateur.md`.
 
 ## Sortie — un seul fichier, selon le livrable contrôlé
 Post : `marques/<slug>/05-posts/<post>/conformite.md` · pub : `marques/<slug>/10-ads/conformite-<campagne>.md` ·
 séquence d'emails : `marques/<slug>/emails/<sequence>/conformite.md`.
-Checklist ✅ / ⚠️ / ❌, chaque ligne expliquée et sourcée (`[fiche:<id>]` ou numéro JIxx / JPxx de `passe-2-droit.md`) :
+Checklist ✅ / ⚠️ / ❌, chaque ligne expliquée et sourcée (`[fiche:<id>]`, numéro JIxx / JPxx / Qx de
+`registre.md` ou ligne de `passe-3-droit-offres.md`) :
 - **Partenariat / pub identifié** (« Collaboration commerciale », outil natif) : loi influence 2023, FTC si audience US.
   Créateur établi dans un autre pays de l'EEE : art. 4 et 5 français non applicables (art. 5-1), mentions exigées
   par contrat ; créateur hors UE / EEE / Suisse : représentant écrit + RC pro chez un assureur UE, sinon ❌.
@@ -50,6 +52,7 @@ Checklist ✅ / ⚠️ / ❌, chaque ligne expliquée et sourcée (`[fiche:<id>]
   dernier contact venant du prospect ; un email ouvert ne compte pas), pas une obligation : écart à justifier.
 - **Allégations** vérifiables, pas de résultat garanti, pas de faux chiffres / avis. **Rareté** et **témoignages**
   seulement s'ils sont réels et documentés ; sinon ❌. **Hooks** : aucun dans « Hooks interdits ou bloqués ».
+  Prix barré, compte à rebours, prévente, comparaison nommée : lignes de la passe 3 ; sans elle → ⚠️ et question.
 - **Droits** : images, polices, sons, logos tiers, personnes reconnaissables.
 - **Plateforme** (contenus restreints, concours). Pub Meta en plus : ❌ toute pub sociale, électorale ou politique
   dans l'UE (TTPA, 06/10/2025) ; catégorie spéciale déclarée (finance, emploi, logement) ; « add music » et toute

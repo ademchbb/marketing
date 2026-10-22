@@ -14,7 +14,7 @@ Options :
 N'écrit rien : affiche sur la sortie standard. Bibliothèque standard uniquement
 (urllib + xml.etree). Code de sortie : 0 si au moins un épisode, 1 si aucun, 2 si erreur.
 """
-import argparse, email.utils, json, re, sys, time, urllib.error, urllib.request
+import argparse, email.utils, html, json, re, sys, time, urllib.error, urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
@@ -61,19 +61,32 @@ def date_iso(texte):
         return None
 
 
+def propre(texte):
+    """Codes HTML, balises et espaces insécables -> texte brut."""
+    t = html.unescape(re.sub(r"<br\s*/?>|</p>", "\n", texte or "", flags=re.I))
+    t = re.sub(r"<[^>]+>", "", t)
+    t = re.sub(r"[\u00a0\u2007\u202f\u200b\u2060]", " ", t)
+    return "\n".join(re.sub(r"[ \t]+", " ", l).strip() for l in t.splitlines()).strip()
+
+
 def episodes(contenu: bytes):
     """Flux RSS -> (infos du podcast, liste d'épisodes dans l'ordre du flux)."""
-    canal = ET.fromstring(contenu).find("channel")
+    try:
+        racine = ET.fromstring(contenu)
+    except ET.ParseError as e:
+        debut = contenu[:80].decode("utf-8", "replace").strip() or "(vide)"
+        raise RuntimeError(f"le contenu reçu n'est pas du XML ({e}) ; début : {debut!r}. URL du flux à vérifier") from e
+    canal = racine.find("channel")
     if canal is None:
         raise RuntimeError("pas de <channel> : ce n'est pas un flux RSS")
-    podcast = {"titre": canal.findtext("title"), "auteur": canal.findtext(f"{ITUNES}author"),
+    podcast = {"titre": propre(canal.findtext("title")), "auteur": propre(canal.findtext(f"{ITUNES}author")),
                "lien": canal.findtext("link"), "langue": canal.findtext("language")}
     liste = []
     for rang, it in enumerate(canal.findall("item"), 1):
         enc = it.find("enclosure")
         liste.append({
             "rang_flux": rang,
-            "titre": (it.findtext("title") or "").strip(),
+            "titre": propre(it.findtext("title")),
             "date": date_iso(it.findtext("pubDate")),
             "duree_s": duree_s(it.findtext(f"{ITUNES}duration")),
             "numero": it.findtext(f"{ITUNES}episode"),
@@ -82,7 +95,7 @@ def episodes(contenu: bytes):
             "lien": it.findtext("link"),
             "audio_url": enc.get("url") if enc is not None else None,
             "audio_type": enc.get("type") if enc is not None else None,
-            "description": (it.findtext("description") or "").strip(),
+            "description": propre(it.findtext("description") or it.findtext(f"{ITUNES}summary")),
         })
     return podcast, liste
 

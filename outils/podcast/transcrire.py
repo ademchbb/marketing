@@ -121,7 +121,12 @@ def chapitres(description):
 
 
 def episodes(contenu):
-    canal = ET.fromstring(contenu).find("channel")
+    try:
+        racine = ET.fromstring(contenu)
+    except ET.ParseError as e:
+        debut = contenu[:80].decode("utf-8", "replace").strip() or "(vide)"
+        raise RuntimeError(f"le contenu reçu n'est pas du XML ({e}) ; début : {debut!r}. URL du flux à vérifier") from e
+    canal = racine.find("channel")
     if canal is None:
         raise RuntimeError("pas de <channel> : ce n'est pas un flux RSS")
     podcast = {"titre": propre(canal.findtext("title")), "auteur": propre(canal.findtext(f"{ITUNES}author")),
