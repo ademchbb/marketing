@@ -235,3 +235,4 @@ Leçon : 20 agents en parallèle épuisent le quota en ~2 h 30. Vagues de ~10 ag
 - [ ] Petits renvois à corriger vers `registre.md` : `frameworks/conformite-influence-commerciale.md` l. 15 ; `veille/plateformes/meta-ads.md` l. 13 et 216.
 - [x] Money Models p5-p6 et Boron p3 faits → fiches Money Models et Boron lancées. Dan Koe p1 lancée.
 - [x] Money Models p5 faite (bonus continuity ; garde-fous transmis au consolidateur). Dan Koe p2 lancée.
+- [x] Justin Welsh : notes faites → fiche lancée.
