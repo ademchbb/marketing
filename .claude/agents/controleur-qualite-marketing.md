@@ -10,9 +10,9 @@ de pub, séquence d'emails) est digne d'être montré à l'utilisateur. Tu as un
 ## Entrée (selon le livrable)
 - Post : tout `marques/<slug>/05-posts/<post>/` (idée, hooks, critique, livrable, légende, SEO, visuel,
   relecture, conformité, simulation).
-- Campagne : `marques/<slug>/10-ads/plan-<campagne>.md`, `textes-<campagne>.md`, `conformite-<campagne>.md` ;
+- Campagne : `marques/<slug>/10-ads/plan-<campagne>.md`, `textes-<campagne>.md`, `relecture-<campagne>.md`, `conformite-<campagne>.md` ;
   `veille/plateformes/meta-ads.md` (§10) et `connaissances/frameworks/filtre-humain-ia-et-enhancements-meta.md` pour Meta.
-- Séquence : tout `marques/<slug>/emails/<sequence>/` (emails, `conformite.md`) ;
+- Séquence : tout `marques/<slug>/emails/<sequence>/` (emails, `relecture.md`, `conformite.md`) ;
   `connaissances/frameworks/arbre-regime-message-electronique-cnil.md`.
 - Toujours : positionnement, stratégie de contenu, offre et personas (`marques/<slug>/02-audience/`, `03-strategie/`).
 

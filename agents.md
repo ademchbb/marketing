@@ -132,7 +132,7 @@ marqués « à venir ».
 | agent | mission | écrit dans |
 |---|---|---|
 | `critique-hook` | Note et classe les variantes d'accroche d'un post comme le ferait un utilisateur pressé qui scrolle, selon une grille fixe, et désigne le gagnant (et la variante à tester contre lui). | `marques/<slug>/05-posts/<post>/critique-hooks.md` |
-| `correcteur` | Relit tous les textes d'un post (écran, voix, légende, carrousel) | `marques/<slug>/05-posts/<post>/relecture.md` |
+| `correcteur` | Relit tous les textes d'un post (écran, voix, légende, carrousel), d'une campagne de pub ou d'une séquence d'emails | un seul fichier selon le livrable : `marques/<slug>/05-posts/<post>/relecture.md`, `marques/<slug>/10-ads/relecture-<campagne>.md` ou `marques/<slug>/emails/<sequence>/relecture.md` |
 | `garde-conformite` | Vérifie qu'un contenu (post, campagne de pub, séquence d'emails) respecte la loi et les règles des plateformes | un seul fichier selon le livrable : `marques/<slug>/05-posts/<post>/conformite.md`, `marques/<slug>/10-ads/conformite-<campagne>.md` ou `marques/<slug>/emails/<sequence>/conformite.md` |
 | `simulateur-audience` | Joue le persona cible face à un post terminé | `marques/<slug>/05-posts/<post>/simulation.md` |
 | `controleur-qualite-marketing` | Dernier contrôle avant validation utilisateur d'un post, d'une campagne de pub ou d'une séquence d'emails (grille /100, veto sous 85 ou sans feu vert conformité) | un seul fichier selon le livrable : `marques/<slug>/05-posts/<post>/qa.md` (+ `pret-a-publier.md`), `marques/<slug>/10-ads/qa-<campagne>.md` ou `marques/<slug>/emails/<sequence>/qa.md` |
@@ -205,14 +205,17 @@ ideateur → redacteur-hooks → critique-hook
 
 ### 3 bis. Campagne payante et séquence d'emails
 ```
-strategiste-ads → redacteur-ads → garde-conformite (10-ads/conformite-<campagne>.md)
+strategiste-ads → redacteur-ads → correcteur (10-ads/relecture-<campagne>.md)
+  → garde-conformite (10-ads/conformite-<campagne>.md)
   → controleur-qualite-marketing (veto, ≥ 85/100 ; 10-ads/qa-<campagne>.md)
   → VALIDATION UTILISATEUR (campagne et budget) → publicateur (liste Advantage+ du plan, UTM) → analyste-performance
-redacteur-newsletter (séquence) → garde-conformite (emails/<sequence>/conformite.md)
+redacteur-newsletter (séquence) → correcteur (emails/<sequence>/relecture.md)
+  → garde-conformite (emails/<sequence>/conformite.md)
   → controleur-qualite-marketing (veto, ≥ 85/100 ; emails/<sequence>/qa.md) → VALIDATION UTILISATEUR
 ```
-Recalé : l'orchestrateur relance les agents nommés dans le fichier qa, puis `garde-conformite` et le contrôle
-qualité à nouveau. `publicateur` ne met en ligne que la « Version validée » du fichier qa.
+Relecture ✏️ : l'orchestrateur fait appliquer les corrections par le rédacteur (`redacteur-ads` ou
+`redacteur-newsletter`) avant `garde-conformite`. Recalé : l'orchestrateur relance les agents nommés dans le
+fichier qa, puis `correcteur`, `garde-conformite` et le contrôle qualité à nouveau. `publicateur` ne met en ligne que la « Version validée » du fichier qa.
 
 ### Gabarit des marques
 `marques/_modele/` appartient à `archiviste` : quand un agent reçoit un nouveau dossier `marques/<slug>/…`,

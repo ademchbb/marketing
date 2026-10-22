@@ -221,3 +221,6 @@ Leçon : 20 agents en parallèle épuisent le quota en ~2 h 30. Vagues de ~10 ag
 - [x] Tags recherche-client et culture-entreprise ajoutés. architecte-agents (correcteur pubs/emails + garde-conformite → registre et passe-3) et Boron p3 lancés.
 - [x] Money Models p3 faite. [ ] garde-conformite : schémas de pitch à ne pas reproduire (« pas de promesse de revenus » + résultats chiffrés ; « dernière chance » répétée sans échéance). Lot B : Chris Voss et Jonah Berger lancés.
 - [x] Fiche Paddy Galloway faite (4/5 ; protocole de publication par l'attente → experiences/predictions.md). Tag `packaging` envoyé à l'architecte. Lot B : Justin Welsh et Dave Trott lancés.
+- [x] Money Models p2 faite (~1 h de promotion signalée).
+- [ ] architecte-agents (après passe-3-droit) : garde-fous de pitch dans garde-conformite / redacteurs : closing à forte pression, don « 100 % déductible » ambigu, urgence « tant que la lumière est rouge », fractionnement du prix en coût journalier, « pas de promesse de revenus » + résultats chiffrés, « dernière chance » sans échéance.
+- Lot B : Kapferer et Séguéla lancés.

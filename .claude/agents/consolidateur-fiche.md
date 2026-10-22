@@ -59,6 +59,7 @@ Tags de la liste fermée ci-dessous (Règles), séparés par des virgules.
   - `bouche-a-oreille` : recommandation, diffusion organique, mécanique de conversation, parrainage.
   - `recherche-client` : immersion terrain, entretiens clients, test du discours, Jobs To Be Done (JTBD).
   - `culture-entreprise` : rituels centrés client, valeurs, onboarding ; embaucher et structurer l'équipe = `recrutement-equipe`.
+  - `packaging` : titres, miniatures, couvertures et couple titre + image avant le clic ; l'accroche une fois la vidéo lancée = `hooks`, titres de page ou de pub = `copywriting`.
 - Un thème hors liste : le signaler dans le rapport (demande à `architecte-agents`), ne pas inventer de tag.
 
 ## Sous-délégation
