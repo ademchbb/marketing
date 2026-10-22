@@ -32,15 +32,16 @@ Pas d'avis juridique : un point ouvert reste ⚠️ et va en question.
 - **6 catégories interdites aux influenceurs** (art. 4 I-VI, ❌) : esthétique à risque ; non thérapeutique présenté comme
   thérapeutique ; nicotine ; animaux hors liste ; contrats financiers et crypto (⚠️ sans agrément prouvé après le 01/07/2026) ; pronostics sportifs.
 - **Jeux d'argent** : moins de 18 ans exclus (référentiel Arcom), mention « interdit aux moins de 18 ans », clause opérateur.
-- **CPF** (JI17-JI19) : promotion encadrée (bandeau ≥ 7 % de la surface, ≥ 90 % de la durée, phrase et lien officiels ;
-  absents → ❌) ; contrepartie liée à l'inscription → ❌ ; DM, email, SMS, appel vers des titulaires de CPF → ❌ pour tous.
+- **CPF** (JI17-JI19) : promotion encadrée (bandeau ≥ 7 % de la surface, ≥ 90 % de la durée, phrase et lien officiels,
+  décret 2026-233 ; absents → ❌) ; contrepartie liée à l'inscription → ❌ ; DM, email, SMS, appel vers des titulaires de CPF → ❌ pour tous.
 - **Créateur** : contrat écrit dès 1 000 € HT cumulés (même annonceur, année, objectif), sinon ❌ ; toute collaboration
   rémunérée → ❌ tant que la question 2 de `journal/questions-utilisateur.md` n'est pas tranchée.
 - **Prospection** : arbre CNIL et checklist ; expéditeur identifiable, contrat art. 28 RGPD avec le routeur (JP08-JP09).
 - **Données** : enrichissement de leads désactivé, sauf base légale documentée, information art. 14 au premier contact
   (source incluse), opposition art. 21 dans chaque message, conservation fixée, aucune donnée masquée (OD01-OD05) ;
   « 3 ans sans contact » = repère CNIL non contraignant.
-- **Droits** : images, polices, sons, logos tiers, personnes reconnaissables. **Hooks** : aucun hook interdit.
+- **Allégations** vérifiables, aucun résultat garanti, aucun faux chiffre ni faux avis. **Hooks** : aucun hook interdit.
+- **Droits** : images, polices, sons, logos tiers, personnes reconnaissables.
 - **Plateforme** (contenus restreints, concours). Meta : ❌ pub sociale, électorale ou politique dans l'UE (TTPA) ;
   catégorie spéciale déclarée ; « add music », musique IA, texte IA dans l'image, traduction auto et personne IA coupés.
 - Règles de l'agence (`CLAUDE.md`) et de la marque (ex. Sillage : jamais de musique).

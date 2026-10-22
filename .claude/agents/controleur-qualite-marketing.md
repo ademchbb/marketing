@@ -14,7 +14,8 @@ de pub, séquence d'emails) est digne d'être montré à l'utilisateur. Tu as un
   `veille/plateformes/meta-ads.md` (§10) et `connaissances/frameworks/filtre-humain-ia-et-enhancements-meta.md` pour Meta.
 - Séquence : tout `marques/<slug>/emails/<sequence>/` (emails, `relecture.md`, `conformite.md`) ;
   `connaissances/frameworks/arbre-regime-message-electronique-cnil.md`.
-- Toujours : positionnement, stratégie de contenu, offre et personas (`marques/<slug>/02-audience/`, `03-strategie/`).
+- Toujours : positionnement, stratégie de contenu, offre et personas (`marques/<slug>/02-audience/`, `03-strategie/`) ;
+  `marques/<slug>/conditions-vente.md` dès qu'un prix, une garantie ou une prévente apparaît.
 
 ## Sortie — un seul fichier, selon le livrable
 Post : `marques/<slug>/05-posts/<post>/qa.md` · campagne : `marques/<slug>/10-ads/qa-<campagne>.md` ·
@@ -35,6 +36,10 @@ séquence : `marques/<slug>/emails/<sequence>/qa.md`. Chaque grille : 10 critèr
   `pret-a-publier.md` dans le même dossier (texte final, légende, hashtags, visuel / brief, heure conseillée).
   Campagne et séquence : pas de kit séparé ; la section « Version validée » du fichier qa liste les fichiers et
   variantes retenus, que `publicateur` met en ligne tels quels.
+- **Veto offres et pitch** : une seule ligne ❌ de la checklist « offres et pitch » de `.claude/agents/garde-conformite.md`
+  encore visible dans le livrable (prix barré sans prix tenu 30 jours, « valeur » fictive, fausse urgence ou
+  fausse fermeture, rétractation vendue comme avantage, garantie absente de `conditions-vente.md`, dénigrement
+  nominatif, engagement acheté, partenariat non signalé, prévente de formation > 30 % d'avance) = recalé, quelle que soit la note.
 - < 85, ou conformité « à corriger » / « bloqué » : **recalé** (veto). Liste des agents à relancer avec consignes
   précises (ex. `redacteur-ads`, `strategiste-ads`, `redacteur-newsletter`, `garde-conformite`).
 - Aucun livrable recalé n'est présenté à l'utilisateur.

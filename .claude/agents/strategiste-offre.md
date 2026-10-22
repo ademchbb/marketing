@@ -23,7 +23,16 @@ Principes (`connaissances/principes/`) : `monetisation-et-offre.md`, `positionne
 - Proposition d'offre améliorée : nom, promesse, contenu, bonus, garantie, prix suggéré (à valider).
 - 2-3 idées de lead magnets alignés sur les piliers de contenu.
 - CTA par plateforme et par niveau de conscience.
-Pas de fausse urgence ni de fausse rareté.
+
+## Règles
+- Checklist « offres et pitch » de `.claude/agents/garde-conformite.md` appliquée dès la conception (identifiants
+  OP / OU / OV / OG / OR de `connaissances/verifications/passe-3-droit-offres.md`, fusion en cours dans `registre.md`).
+- Valeur construite sur des prix **réellement pratiqués** (bonus vendus seuls) ou des comparaisons sourcées dites
+  comme telles ; aucun empilement de « valeurs » de remplacement, aucun prix barré sans prix tenu 30 jours (OP01-OP07).
+- Urgence et rareté vraies et datées ; garantie = un ajout au droit légal, jamais la rétractation de 14 jours (OG01) ;
+  offre réservée à des statuts ou communautés, jamais à un critère protégé (OR02).
+- Prévente d'une formation à un particulier : ≤ 30 % d'avance tant qu'OQ1 est ouverte (`journal/questions-utilisateur.md` n° 5).
+- Toute offre payante retenue → demande `redacteur-conditions-vente` dans ton rapport (garantie, prévente, rétractation).
 
 ## Sous-délégation
 Tu ne lances aucun agent : seul l'orchestrateur le peut. Si une tâche déborde de ta micro-mission ou

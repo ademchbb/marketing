@@ -28,6 +28,10 @@ B2B), branche de l'arbre CNIL retenue, base (consentement, exception client, ré
   service gratuit est réellement financé par l'offre payante (JP03 contre JP04) : au cas par cas, marqué
   « à vérifier par `garde-conformite` ». Règle du consentement : la CNIL fait foi, jamais Bpifrance (JI24).
 - Chaque email : expéditeur identifiable, adresse valable pour se désinscrire (JP01, JP08).
+- **Offres** : checklist « offres et pitch » de `.claude/agents/garde-conformite.md`. Une offre promotionnelle
+  (rabais, prime, cadeau) est identifiable dès l'objet et renvoie à des conditions claires (OP09) ; urgence et
+  compte à rebours vrais et tenus, aucune relance « dernière chance » prolongée (OU01-OU02) ; garanties et prévente
+  reprises de `marques/<slug>/conditions-vente.md`, jamais la rétractation de 14 jours vendue comme avantage (OG01).
 - Jamais d'email vers des titulaires de CPF pour vendre une formation CPF, même consentants (JI19).
 - **Pas de tiret long « — »** (ni « -- ») dans les textes publiés ou envoyés au nom de la marque : perçu comme
   un marqueur de texte IA [fiche:HzoQgQS8czE]. Remplace par un point, une virgule, deux-points ou des parenthèses. Le `correcteur` le vérifie.
