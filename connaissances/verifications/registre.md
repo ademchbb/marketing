@@ -35,14 +35,18 @@
 | Verdict | Sens | Usage par les agents de création |
 |---|---|---|
 | ✅ confirmé | Source officielle ou indépendante fiable | Citable comme fait, **avec sa date** |
-| 🟡 plausible / anecdotique | Cohérent avec des indices, ou chiffre déclaratif d'un créateur sans preuve publique | Citable seulement comme « selon X » ; ne fonde pas une règle |
+| 🟡 plausible / anecdotique | Cohérent avec des indices, chiffre déclaratif d'un créateur sans preuve publique, ou (sections juridiques) déduction non tranchée par un texte ou un juge | Citable seulement comme « selon X » ou « lecture prudente » ; ne fonde pas une règle seule |
 | ❌ contredit | Des sources fiables disent autre chose | Ne pas citer, ne pas appliquer ; voir la version corrigée |
-| ❓ invérifiable | Aucune source, données internes non publiées, ou chiffre rhétorique | Ne pas citer comme fait |
+| ❓ invérifiable | Aucune source, données internes non publiées, chiffre rhétorique, ou (sections juridiques) question que les textes lus ne tranchent pas | Ne pas citer comme fait ; une question juridique ❓ se fait trancher par un juriste |
 
 Confiance = confiance dans le **verdict** (haute / moyenne / faible), pas dans l'affirmation.
-Pour les sections juridiques E à G : **haute** = texte primaire lu (Journal officiel, Curia) ; **moyenne** = reprise
-officielle (service-public.gouv.fr, Centre Inffo, réponse ministérielle) ou texte parlementaire antérieur concordant
-avec deux autres sources ; **faible** = presse ou blogs seulement.
+Pour les sections juridiques E à O : **haute** = texte primaire lu (Journal officiel, Curia, texte consolidé du Code de
+la consommation ou du Code du travail, texte de directive) ; **moyenne** = reprise officielle (service-public.gouv.fr,
+Centre Inffo, réponse ministérielle), texte parlementaire antérieur concordant avec deux autres sources, décision lue
+par l'intermédiaire d'un commentaire d'avocat, ou déduction directe d'un texte lu ; **faible** = presse, blogs ou forums
+seulement. Précision pour la passe 3 : le Code de la consommation « lu » est la copie intégrale du texte consolidé de
+Légifrance éditée par droit.org (mise à jour du 10/10/2026), Légifrance étant en 403 ; c'est une reproduction, pas le
+site officiel, mais c'est le texte consolidé lui-même et non un commentaire.
 
 ## Synthèse
 
@@ -56,8 +60,16 @@ avec deux autres sources ; **faible** = presse ou blogs seulement.
 | D. Chiffres de créateurs, d'agences et de praticiens | 0 | 61 | 0 | 7 | 68 |
 | E. Droit de l'influence commerciale | 19 | 3 | 2 | 0 | 24 |
 | F. Prospection électronique | 8 | 1 | 0 | 0 | 9 |
-| G. Questions juridiques ouvertes | 0 | 0 | 0 | 3 | 3 |
-| **Total** | **59** | **131** | **21** | **50** | **261** |
+| G. Questions juridiques ouvertes (influence, prospection) | 0 | 0 | 0 | 3 | 3 |
+| H. Prix de référence, prix barré, « valeur », cadeau, gratuit | 7 | 1 | 2 | 0 | 10 |
+| I. Fausse urgence, fausse rareté, liste d'attente, preuve sociale | 6 | 1 | 1 | 0 | 8 |
+| J. Prévente et vente à distance | 6 | 2 | 0 | 0 | 8 |
+| K. Publicité comparative | 3 | 1 | 0 | 0 | 4 |
+| L. Enrichissement des leads et scoring (RGPD) | 4 | 3 | 0 | 0 | 7 |
+| M. « Satisfait ou remboursé » et garanties | 2 | 2 | 0 | 0 | 4 |
+| N. Offre réservée à un groupe | 1 | 1 | 0 | 0 | 2 |
+| O. Questions ouvertes du droit des offres | 0 | 0 | 0 | 4 | 4 |
+| **Total** | **88** | **142** | **24** | **54** | **308** |
 
 ### Par passe
 
@@ -67,10 +79,14 @@ avec deux autres sources ; **faible** = presse ou blogs seulement.
 | Passe 2, publicité payante (PA, PG, PT, PC) | 12 | 27 | 2 | 13 | 54 |
 | Passe 2, B2B (PB, GB, TB, CB) ¹ | 10 | 24 | 5 | 12 | 51 |
 | Passe 2, droit (JI, JP, Q) ² | 27 | 4 | 2 | 3 | 36 |
-| **Total** | **59** | **131** | **21** | **50** | **261** |
+| Passe 3, droit des offres (OP, OU, OV, OC, OD, OG, OR, OQ) ³ | 29 | 11 | 3 | 4 | 47 |
+| **Total** | **88** | **142** | **24** | **54** | **308** |
 
 ¹ Après les révisions de la fusion (PB02 ❓ → 🟡, TB14 ❓ → 🟡, TB15 ❓ → ❌). `passe-2-b2b.md` affichait 10 / 22 / 4 / 15.
 ² Sur les 27 ✅ juridiques, 16 ont une confiance haute (JO, Curia ou règle constante) et 11 une confiance moyenne.
+³ Identique à `passe-3-droit-offres.md` (aucune révision de verdict à la fusion). OG03 est compté en 🟡 : l'affirmation de
+la fiche porte sur l'efficacité ; son volet juridique est ✅. Sur les 29 ✅, 23 ont une confiance haute (Code de la
+consommation consolidé, Code du travail ou communiqué Curia lus) et 6 une confiance moyenne.
 
 ### Les croyances répandues qui sont fausses (à corriger dans nos productions)
 
