@@ -321,3 +321,17 @@ analyste-performance → predicteur-performance (calibration) → analyste-resul
   test du discours, JTBD ; fichier `recherche-client.md`, à venir) et `culture-entreprise` (rituels centrés client,
   valeurs, onboarding ; fichier `culture-entreprise.md`, à venir). Frontière : embaucher et structurer l'équipe
   reste `recrutement-equipe`.
+- 2026-10-22 : relecture et droit des offres (décisions de l'orchestrateur). Aucun agent créé (61 agents).
+  `correcteur` : relit aussi les campagnes (`10-ads/textes-<campagne>.md` → `10-ads/relecture-<campagne>.md`) et
+  les séquences d'emails (objet, préheader, corps, texte brut → `emails/<sequence>/relecture.md`), un seul fichier
+  par relecture ; colonne « emplacement » (variante, email, champ) ; ne touche ni aux chiffres, ni aux allégations,
+  ni aux liens et UTM. Pipeline 3 bis : `correcteur` avant `garde-conformite` ; relecture ✏️ → corrections par le
+  rédacteur, puis conformité ; recalé → `correcteur` relancé aussi. `controleur-qualite-marketing` lit les deux
+  nouveaux fichiers de relecture. `garde-conformite` : renvoi à `passe-2-droit.md` remplacé par
+  `connaissances/verifications/registre.md` (sections E-G, version fusionnée ; sources JI / JP / Q) ; nouvelle
+  entrée `passe-3-droit-offres.md` « quand il existe » (prix de référence, fausse urgence, prévente, publicité
+  comparative, enrichissement de leads), qui prime sur la grille pour ces sujets ; sans elle, prix barré, compte à
+  rebours, prévente ou comparaison nommée → ⚠️ et question. **Taxonomie** : tag `packaging` (titres, miniatures,
+  couvertures, couple titre + image avant le clic ; frontières `hooks` et `copywriting`) dans `consolidateur-fiche`
+  et `synthetiseur-connaissances` (fichier `packaging.md`, à venir), demandé par la fiche Paddy Galloway
+  (Z2uoA3bhJT0), utile aussi pour Caleb Ralston ; `titreur-miniatures` cite `packaging.md` (à venir).
