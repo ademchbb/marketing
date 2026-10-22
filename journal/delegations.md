@@ -230,3 +230,4 @@ Leçon : 20 agents en parallèle épuisent le quota en ~2 h 30. Vagues de ~10 ag
 - Décision orchestrateur (taxonomie, prochaine passe architecte) : élargir `analyse-donnees` à toute lecture de métriques (contenu, pub, tunnel de vente) ; créer `retention-client` (onboarding, fidélisation, récurrent).
 - [ ] [Hormozi vente] garde-conformite / passe droit : financement par carte de crédit, carte prise « par procédure », tacite reconduction, enregistrement des appels (information obligatoire).
 - MrBeast p2 lancée.
+- [x] Boron p2 faite (piles A/B, note pliée, copie à la main ; erreurs de calcul ch. 8-9 ; Alex Haley). Lot B : GaryVee et Russell Brunson lancés.
