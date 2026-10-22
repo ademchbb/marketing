@@ -49,14 +49,47 @@ créé qu'à la première fiche qui porte le tag ; « (à venir) » = pas encore
 | `lancement-produit` | `lancement-produit.md` | validation d'idée, étude de marché, prévente, lancement d'un produit ou d'une offre |
 | `bouche-a-oreille` | `bouche-a-oreille.md` | recommandation, diffusion organique, mécanique de conversation, parrainage |
 | `recherche-client` | `recherche-client.md` | immersion terrain, entretiens clients, test du discours, Jobs To Be Done (JTBD) |
-| `culture-entreprise` | `culture-entreprise.md` | rituels centrés client, valeurs, onboarding ; embaucher et structurer l'équipe = `recrutement-equipe` |
+| `culture-entreprise` | `culture-entreprise.md` | rituels centrés client, valeurs, onboarding des salariés ; embaucher et structurer l'équipe = `recrutement-equipe` |
 | `packaging` | `packaging.md` | titres, miniatures, couvertures et couple titre + image avant le clic ; l'accroche une fois la vidéo lancée = `hooks`, titres de page ou de pub = `copywriting` |
+| `ia-creation` | `ia-creation.md` | IA générative dans l'écriture et la production (génération, relecture, marqueurs de texte IA, images de synthèse, banalisation de l'information) |
+| `retention-client` | `retention-client.md` | ce qui se passe après l'achat : onboarding client, expérience et service client, fidélisation, réachat, abonnement et récurrent, churn ; la structure des offres de suite (upsell, continuité) = `offre` |
+| `distribution` | `distribution.md` | accès au marché du produit : distributeurs, grande distribution, revendeurs, MDD, places de marché, disponibilité avant la pub ; diffusion des contenus = `croissance-audience` |
+| `partenariats` | `partenariats.md` | alliances de croissance avec des tiers : joint ventures, recommended provider, affiliation, co-marketing, collaborations avec des créateurs ; parrainage client = `bouche-a-oreille`, sponsoring vu du créateur = `monetisation` |
+| `brief-creatif` | `brief-creatif.md` | rédiger et challenger le brief : vrai problème à résoudre (remonter en amont), cible, insight, message unique, contraintes, critère de réussite |
+| `marketing-direct` | `marketing-direct.md` | réponse directe hors email : courrier, catalogues, fichiers et listes (choix, location, segmentation), mécanisme de réponse (coupon, code, enveloppe-réponse), mesure au retour par envoi ; la rédaction = `copywriting` |
+| `economie-unitaire` | `economie-unitaire.md` | économie d'un client : CAC, LTV, marge, délai de récupération, cash encaissé à 30 jours, acquisition financée par le client ; allocation du budget = `mesure-budget` |
+| `gestion-crise` | `gestion-crise.md` | réputation attaquée : bad buzz, polémique, mea culpa, réponse publique, protocole de crise ; modération courante = `communaute` |
+
+### Alias : libellés signalés « hors liste » → tag retenu
+Pour reclasser les fiches existantes : lis leur ligne « Hors liste » et range le passage sous le tag retenu
+(la fiche n'est pas modifiée ; c'est ton classement qui change).
+
+| libellé signalé | tag retenu |
+|---|---|
+| experience-client, service client | `retention-client` |
+| onboarding client, fidélisation, récurrent, back-end (garder le client ; les offres vendues ensuite → `offre`) | `retention-client` |
+| IA générative dans la création, banalisation de l'information | `ia-creation` |
+| distribution, relation avec les revendeurs, accès au marché | `distribution` |
+| joint venture, recommended provider, affiliation, collabs créateurs | `partenariats` |
+| acquisitions (rachat d'entreprises, croissance externe) ; récit après fusion → `storytelling` | `strategie-croissance` |
+| marketing-cause, raison d'être (`ethique` si l'angle est la récupération d'une cause) | `positionnement` |
+| marketing-direct, reponse-directe (rédaction → `copywriting`) | `marketing-direct` |
+| finance-tresorerie, CAC, LTV, marge | `economie-unitaire` |
+| franchise (mode d'expansion ; franchise vendue comme offre → `offre`) | `strategie-croissance` |
+| communication-politique, marketing non marchand (pub politique → `conformite-juridique`) | `positionnement` |
+| méthode expérimentale, tests A/B et géographiques | `analyse-donnees` |
+| allocation budgétaire entre canaux | `mesure-budget` |
+| tarification, prix, échantillonnage, essai gratuit | `offre` |
+| psychologie de la persuasion, biais cognitifs, sciences comportementales | `psychologie-persuasion` |
+| message de marque, BrandScript | `copywriting` |
+| vente en rendez-vous, pitch commercial | `vente` |
+| lead magnets, génération de leads | `generation-leads` |
 
 ## Règles
 - Les principes partagés par plusieurs experts passent en premier.
 - Un apprentissage réel du labo (`experiences/`) l'emporte sur l'avis d'un expert : signale-le.
 - Mise à jour incrémentale (Edit) quand une nouvelle fiche arrive.
-- Un tag absent du tableau : ne crée pas de fichier, demande l'ajout à `architecte-agents` dans ton rapport.
+- Un tag absent du tableau et de la table des alias : ne crée pas de fichier, demande l'ajout à `architecte-agents` dans ton rapport.
 
 ## Sous-délégation
 Tu ne lances aucun agent : seul l'orchestrateur le peut. Si une tâche déborde de ta micro-mission ou
