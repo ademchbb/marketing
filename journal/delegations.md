@@ -234,3 +234,4 @@ Leçon : 20 agents en parallèle épuisent le quota en ~2 h 30. Vagues de ~10 ag
 - [x] Archiviste : gabarit `marques/_modele/emails/` ajouté ; `sources/index.md` à jour (51 sources : 5 intégrées, 29 fichées, 2 partielles, 15 transcrites) ; `journal/archives.md` créé. **Anomalie majeure : `connaissances/index.md` n'existe pas, et les principes ne couvrent que le lot 1** → grande synthèse à lancer dès la fin du lot B (synthetiseur-connaissances, par groupes de thèmes), puis archiviste (carte des fichiers).
 - [ ] Petits renvois à corriger vers `registre.md` : `frameworks/conformite-influence-commerciale.md` l. 15 ; `veille/plateformes/meta-ads.md` l. 13 et 216.
 - [x] Money Models p5-p6 et Boron p3 faits → fiches Money Models et Boron lancées. Dan Koe p1 lancée.
+- [x] Money Models p5 faite (bonus continuity ; garde-fous transmis au consolidateur). Dan Koe p2 lancée.
