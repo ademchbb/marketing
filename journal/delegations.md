@@ -208,3 +208,8 @@
 - [x] Money Models p1 lancée.
 - [x] Fiche Seth Godin faite (3,5/5). Tag `bouche-a-oreille` ajouté à la mission architecte. Money Models p2 lancée.
 - [x] Fiche Andy Raskin faite (4/5 ; « on construit avec Dunford, on raconte avec Raskin »). Tag levée de fonds : non retenu pour l'instant (hors cœur de l'agence). (Money Models p3 : en file, limite atteinte.)
+
+## Reprise 2026-10-22 (après coupure de quota, 2026-10-22 ~02h UTC)
+Terminés avant la coupure (fichiers complets) : Money Models p1 ; Hormozi vente p1-p5 ; Galloway p2-p3 ; Doctolib p2-p3 ; Boron p1 ; fiches Hopkins, ScaleVP, Sutherland ; fusion du registre (passes 2 → `registre.md`, 261 lignes).
+Interrompus, à relancer : architecte-agents (tags, droit, QA des pubs) ; extracteur-frameworks (correction conformité, partielle) ; developpeur-outils (outil podcast, `lister.py` + `transcrire.py` partiels) ; verificateur-faits passe 3 droit des offres (rien écrit) ; Money Models p2.
+Leçon : 20 agents en parallèle épuisent le quota en ~2 h 30. Vagues de ~10 agents au maximum désormais.

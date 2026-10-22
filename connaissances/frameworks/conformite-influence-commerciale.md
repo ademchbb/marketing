@@ -72,11 +72,12 @@ Critère commun : **claire, lisible et compréhensible, sur tout support utilis�
 
 ### 5. Sélectionner les créateurs
 - Établi **hors UE / EEE / Suisse** et visant la France [LOI, art. 9] : désignation écrite d'un représentant dans l'UE + RC pro auprès d'un assureur établi dans l'UE. Sans ces deux pièces : ne pas signer (déduction).
+- Établi dans **un autre État de l'EEE** (hors France) [LOI, art. 5-1 II] : les art. 4 (promotions interdites, jeux) et 5 (images, formation) français **ne s'appliquent pas** (principe du pays d'origine, sauf procédure dérogatoire de la directive 2000/31) ; l'art. 5-2 (intention commerciale) n'est pas visé par cette exclusion [verif:JI16]. Garder les mentions et les exclusions de secteurs **par contrat** (déduction, reprise de la passe).
 - Certificat ARPP de l'influence commerciale responsable : critère de préférence [RECO].
 - Historique de mentions correctes sur ses partenariats passés (déduction).
 
 ### 6. Contractualiser
-- Écrit **obligatoire sous peine de nullité** dès **1 000 € HT** de rémunération totale, avantages en nature inclus (depuis le 1er janvier 2026) [LOI, art. 8 ; décret 2025-1137].
+- Écrit **obligatoire sous peine de nullité** dès que **1 000 € HT** sont **atteints** (pas seulement « au-delà »), rémunérations et valeur des avantages en nature **cumulées** pour un **même annonceur**, une **même année** et un **même objectif promotionnel** (depuis le 1er janvier 2026) [LOI, art. 8 ; décret 2025-1137] [verif:JI11]. Exemple : trois colis à 400 € pour le même lancement → contrat obligatoire.
 - Clauses minimales [LOI] : identité des parties et pays de résidence fiscale ; nature des missions ; contrepartie (dont valeur de l'avantage en nature) ; droits et obligations, notamment propriété intellectuelle ; soumission au droit français si le contrat vise un public en France ; clause jeux d'argent le cas échéant.
 - Recommandé par l'agence (déduction, hors obligation) : contrat **même sous le seuil** ; obligation d'apposer les mentions ; droit de relecture ; durée et territoires de réutilisation (whitelisting, pub payante) ; retrait en cas de manquement ; archivage.
 - **Responsabilité solidaire** [LOI] : « L'annonceur (son mandataire le cas échéant), l'influenceur et l'agent d'influenceur sont solidairement responsables des dommages causés aux tiers dans l'exécution du contrat d'influence commerciale qui les lie. » Une agence qui négocie ou signe pour une marque **peut** être qualifiée de mandataire (déduction) : **non tranché par la source, à faire confirmer par un juriste**.

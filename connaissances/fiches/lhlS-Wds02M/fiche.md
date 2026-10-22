@@ -592,9 +592,10 @@ publiés. À transmettre à `verificateur-faits` avant toute citation.
 **Fiabilité des exemples**
 - **Le storytelling l'emporte sur la preuve.** Le style de Sutherland mêle faits, ouï-dire
   (« apparently »), anecdotes apocryphes et boutades, sans les distinguer. Les exemples sont choisis
-  parce qu'ils ont marché : c'est un **biais du survivant** assumé (on n'entend jamais parler des
-  « pool access » qui n'ont rien rapporté). Les idées sont fécondes, mais leur efficacité dans un cas
-  donné reste **à tester**.
+  parce qu'ils ont marché : c'est un **biais du survivant** (on n'entend jamais parler des « pool
+  access » qui n'ont rien rapporté). Il admet seulement que « not all these experiments we do work »,
+  sans dire lesquels ont échoué ni dans quelle proportion. Les idées sont fécondes, mais leur efficacité
+  dans un cas donné reste **à tester**.
 - **Causalités non isolées** : Overground (le plan ou les travaux ?), compagnie aérienne (aucun groupe
   témoin mentionné), Royal Mail (corrélation rapportée de seconde main), Eleven Madison Park (la
   1ʳᵉ place ne s'explique pas par le seul café).
@@ -648,7 +649,7 @@ publiés. À transmettre à `verificateur-faits` avant toute citation.
   4. si la thèse est juste, une marque qui automatise tout son contact client perd un levier de
      différenciation : c'est un argument à tester, pas un dogme.
 - C'est une **prédiction d'opinion**, non démontrée. Elle mérite une entrée dans
-  `experiences/predictions.md` ou une question de recherche (voir « Demandes de délégation » du rapport).
+  `experiences/predictions.md` ou une question de recherche.
 
 ## Fiabilité de la source
 - **Expertise démontrée** : élevée sur la psychologie appliquée à la publicité et au marketing.
@@ -664,8 +665,8 @@ publiés. À transmettre à `verificateur-faits` avant toute citation.
     practice de conseil.
   - Il est **juge et partie** sur la thèse « le marketing est sous-crédité ».
   - Il **flatte son public** (l'hôtellerie, l'humain contre l'algorithme, les entreprises familiales).
-  - Il privilégie l'histoire mémorable sur la preuve, et le reconnaît à demi-mot (« not all these
-    experiments we do work »).
+  - Il privilégie l'histoire mémorable sur la preuve et ne sépare jamais ce qu'il a mesuré de ce qu'on
+    lui a raconté.
 - **Note : 3/5.**
   - Valeur heuristique très élevée : cadres originaux, exemples mémorables, angles directement
     actionnables pour l'offre, la présentation de l'information et le positionnement.
@@ -676,6 +677,6 @@ publiés. À transmettre à `verificateur-faits` avant toute citation.
 
 ## Thèmes couverts
 - **Principaux** : positionnement · offre · storytelling · analyse-donnees · mindset
-- **Secondaires** : publicite · hooks · recrutement-equipe · communaute
+- **Secondaires** : publicite · hooks · recrutement-equipe
 - **Hors liste (à signaler)** : sciences comportementales / psychologie du consommateur ; expérience
   client et service ; tarification et UX des pages de prix ; innovation et méthodes d'idéation (TRIZ).

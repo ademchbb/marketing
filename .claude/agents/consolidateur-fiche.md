@@ -28,10 +28,7 @@ La thèse centrale de la source.
 ## Fiabilité de la source
 Expertise démontrée de l'auteur, biais (vend une formation ? agence ?), note /5.
 ## Thèmes couverts
-Liste de tags parmi : personal-branding, croissance-audience, hooks, storytelling, formats-courts,
-youtube-long, linkedin, instagram, tiktok, monetisation, offre, regularite, production,
-analyse-donnees, mindset, recrutement-equipe, publicite, communaute, positionnement,
-meta-ads, conformite-juridique, email, b2b.
+Tags de la liste fermée ci-dessous (Règles), séparés par des virgules.
 ```
 
 ## Règles
@@ -39,11 +36,28 @@ meta-ads, conformite-juridique, email, b2b.
 - Garde tous les frameworks et toutes les tactiques — la fiche doit permettre de ne jamais
   revoir la vidéo.
 - Ne supprime pas les notes de parties (elles restent la trace détaillée).
-- Tags : `meta-ads` = système publicitaire Meta (Facebook + Instagram : Advantage+, Andromeda,
-  apprentissage) ; `publicite` reste le tag général de la pub payante. `conformite-juridique` = droit,
-  règles des plateformes, mentions obligatoires. `email` = newsletter, emailing, prospection
-  électronique. `b2b` = vente et marketing vers des professionnels. Un thème hors liste : le signaler
-  dans le rapport (demande à `architecte-agents`), ne pas inventer de tag.
+- **Liste fermée des tags** (la même chez `synthetiseur-connaissances`, qui tient le tableau tag → fichier) :
+  - Sens évident : personal-branding, croissance-audience (abonnés, portée), hooks, storytelling, formats-courts,
+    youtube-long, linkedin, instagram, tiktok, monetisation, offre (valeur, bonus, garanties, structure de prix),
+    regularite, production, analyse-donnees (lecture des stats de contenu), mindset, recrutement-equipe,
+    publicite (pub payante en général), communaute (relation avec l'audience), positionnement.
+  - `meta-ads` : système publicitaire Meta (Facebook + Instagram : Advantage+, Andromeda, apprentissage).
+  - `conformite-juridique` : droit, règles des plateformes, mentions obligatoires.
+  - `email` : newsletter, emailing, prospection électronique.
+  - `b2b` : vente et marketing vers des professionnels.
+  - `vente` : conversation commerciale : rendez-vous, découverte, objections, prix présenté et défendu, négociation, pipeline.
+  - `generation-leads` : capter des contacts : lead magnets, scorecards et quiz, listes d'attente, qualification.
+  - `copywriting` : message de marque et rédaction persuasive (promesse, titres, pages, pubs) ; l'accroche seule = `hooks`.
+  - `site-web` : site et pages (accueil, page de vente, page de capture) : structure, parcours, conversion.
+  - `strategie-croissance` : croissance de l'entreprise : canaux d'acquisition, marque vs activation, go-to-market.
+  - `ethique` : ce qui est légal mais discutable en influence et en marketing (manipulation, exagération, produit nocif).
+  - `mesure-budget` : allocation du budget marketing, attribution, incrémentalité, tests de lift, ROI.
+  - `relations-presse` : médias et journalistes : angle, communiqué, pitch, dossier de presse, retombées.
+  - `identite-visuelle` : logo, couleurs, typographies, charte, actifs distinctifs (« marteau visuel »).
+  - `psychologie-persuasion` : mécanismes psychologiques d'influence (Cialdini, biais, économie comportementale) et leur preuve.
+  - `lancement-produit` : validation d'idée, étude de marché, prévente, lancement d'un produit ou d'une offre.
+  - `bouche-a-oreille` : recommandation, diffusion organique, mécanique de conversation, parrainage.
+- Un thème hors liste : le signaler dans le rapport (demande à `architecte-agents`), ne pas inventer de tag.
 
 ## Sous-délégation
 Tu ne lances aucun agent : seul l'orchestrateur le peut. Si une tâche déborde de ta micro-mission ou
