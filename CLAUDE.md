@@ -85,7 +85,7 @@ Détails : `outils/youtube/README.md`, `outils/podcast/README.md` (propriétaire
   → strategiste-offre → redacteur-conditions-vente (toute offre payante, validée par l'utilisateur)
   → planificateur-calendrier → (par post) ideateur → redacteur-hooks → critique-hook
   → scenariste-reel / redacteur-carrousel / redacteur-linkedin… → redacteur-legende
-  → specialiste-seo-social → correcteur → garde-conformite → simulateur-audience
-  → controleur-qualite-marketing (veto) → validation utilisateur → publicateur.
+  → specialiste-seo-social → correcteur → garde-conformite → garde-offres (si le contenu contient une offre)
+  → simulateur-audience → controleur-qualite-marketing (veto) → validation utilisateur → publicateur.
 - **Apprendre de ses résultats** : predicteur-performance (avant) → analyste-performance
   (après) → analyste-resultats → mise à jour de `experiences/apprentissages.md`.

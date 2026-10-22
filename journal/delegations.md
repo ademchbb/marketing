@@ -302,3 +302,4 @@ Leçon : 20 agents en parallèle épuisent le quota en ~2 h 30. Vagues de ~10 ag
   - [ ] S5a contenu (hooks-et-retention, packaging, formats-courts, youtube-long, storytelling, production-et-regularite, ia-creation).
   - [ ] S5b audience et plateformes (croissance-audience, linkedin, x-twitter, personal-branding, communaute, equipe-et-organisation).
   - [ ] S-final : `connaissances/index.md` + tensions transverses (niche ou pas, catégorie Dunford vs Ries, communautés vs masse, Koe vs Welsh sur l'IA, audio de marque sans musique…) ; puis archiviste (carte des fichiers).
+- [x] architecte-agents : **`garde-offres` créé** (63 agents) ; garde-conformite ramené à 60 lignes ; controleur-qualite exige le feu vert garde-offres si offre ; publicateur idem pour les pubs ; renvois courts chez 7 rédacteurs/idéateurs. CLAUDE.md : pipeline post mis à jour (garde-conformite → garde-offres si offre).

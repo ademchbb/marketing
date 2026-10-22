@@ -144,9 +144,10 @@ marqués « à venir ».
 |---|---|---|
 | `critique-hook` | Note et classe les variantes d'accroche d'un post comme le ferait un utilisateur pressé qui scrolle, selon une grille fixe, et désigne le gagnant (et la variante à tester contre lui). | `marques/<slug>/05-posts/<post>/critique-hooks.md` |
 | `correcteur` | Relit tous les textes d'un post (écran, voix, légende, carrousel), d'une campagne de pub ou d'une séquence d'emails | un seul fichier selon le livrable : `marques/<slug>/05-posts/<post>/relecture.md`, `marques/<slug>/10-ads/relecture-<campagne>.md` ou `marques/<slug>/emails/<sequence>/relecture.md` |
-| `garde-conformite` | Vérifie qu'un contenu (post, campagne de pub, séquence d'emails) respecte la loi et les règles des plateformes | un seul fichier selon le livrable : `marques/<slug>/05-posts/<post>/conformite.md`, `marques/<slug>/10-ads/conformite-<campagne>.md` ou `marques/<slug>/emails/<sequence>/conformite.md` |
+| `garde-conformite` | Vérifie qu'un contenu (post, campagne de pub, séquence d'emails) respecte la loi et les règles des plateformes : influence, plateformes, droits d'auteur, données et prospection, règles internes. Signale toute offre détectée pour `garde-offres` | un seul fichier selon le livrable : `marques/<slug>/05-posts/<post>/conformite.md`, `marques/<slug>/10-ads/conformite-<campagne>.md` ou `marques/<slug>/emails/<sequence>/conformite.md` |
+| `garde-offres` | Vérifie tout contenu ou document qui contient un prix, une remise, une garantie, une urgence ou une rareté, une prévente, un value stack, un comparatif, un script de pitch ou de closing, contre la « Checklist offres et pitch » (15 lignes, registre H à O) | un seul fichier, dans le dossier du contenu vérifié : `marques/<slug>/05-posts/<post>/offres.md`, `marques/<slug>/10-ads/offres-<campagne>.md`, `marques/<slug>/emails/<sequence>/offres.md` ou `offres-<nom du fichier>.md` à côté de l'autre document vérifié |
 | `simulateur-audience` | Joue le persona cible face à un post terminé | `marques/<slug>/05-posts/<post>/simulation.md` |
-| `controleur-qualite-marketing` | Dernier contrôle avant validation utilisateur d'un post, d'une campagne de pub ou d'une séquence d'emails (grille /100, veto sous 85 ou sans feu vert conformité) | un seul fichier selon le livrable : `marques/<slug>/05-posts/<post>/qa.md` (+ `pret-a-publier.md`), `marques/<slug>/10-ads/qa-<campagne>.md` ou `marques/<slug>/emails/<sequence>/qa.md` |
+| `controleur-qualite-marketing` | Dernier contrôle avant validation utilisateur d'un post, d'une campagne de pub ou d'une séquence d'emails (grille /100, veto sous 85, sans feu vert conformité, ou sans feu vert offres si le livrable contient une offre) | un seul fichier selon le livrable : `marques/<slug>/05-posts/<post>/qa.md` (+ `pret-a-publier.md`), `marques/<slug>/10-ads/qa-<campagne>.md` ou `marques/<slug>/emails/<sequence>/qa.md` |
 
 ## Pôle F — Labo d'expériences & performance
 
@@ -206,14 +207,16 @@ analyste-marque → veilleur-concurrence → analyste-concurrent ×N ∥ ecouteu
 ```
 Avant la publication d'une offre : aucun post, pub, email ni page qui montre un prix, une garantie ou une prévente
 ne part sans `marques/<slug>/conditions-vente.md` validé par l'utilisateur ; tout changement de prix, de garantie
-ou de calendrier de livraison relance `redacteur-conditions-vente` puis `garde-conformite` sur les livrables touchés.
+ou de calendrier de livraison relance `redacteur-conditions-vente` puis `garde-offres` sur les livrables touchés.
+`garde-offres` peut aussi contrôler `03-strategie/offre.md` avant la validation des conditions (sortie
+`03-strategie/offres-offre.md`).
 
 ### 3. Fabriquer un post (une ligne du calendrier)
 ```
 ideateur → redacteur-hooks → critique-hook
   → scenariste-reel | redacteur-carrousel | redacteur-linkedin | redacteur-thread-x | scenariste-youtube-long (+ titreur-miniatures)
   → redacteur-legende ∥ specialiste-seo-social ∥ directeur-creatif-visuel
-  → correcteur ∥ garde-conformite ∥ simulateur-audience
+  → correcteur → garde-conformite → garde-offres (si le contenu contient une offre) → simulateur-audience
   → controleur-qualite-marketing (veto, ≥ 85/100) → predicteur-performance
   → VALIDATION UTILISATEUR → pont-motion-design (si vidéo premium) → publicateur → adaptateur-multiplateforme
 ```
@@ -222,15 +225,18 @@ ideateur → redacteur-hooks → critique-hook
 ```
 strategiste-ads → redacteur-ads → correcteur (10-ads/relecture-<campagne>.md)
   → garde-conformite (10-ads/conformite-<campagne>.md)
+  → garde-offres (si le contenu contient une offre ; 10-ads/offres-<campagne>.md)
   → controleur-qualite-marketing (veto, ≥ 85/100 ; 10-ads/qa-<campagne>.md)
   → VALIDATION UTILISATEUR (campagne et budget) → publicateur (liste Advantage+ du plan, UTM) → analyste-performance
 redacteur-newsletter (séquence) → correcteur (emails/<sequence>/relecture.md)
   → garde-conformite (emails/<sequence>/conformite.md)
+  → garde-offres (si le contenu contient une offre ; emails/<sequence>/offres.md)
   → controleur-qualite-marketing (veto, ≥ 85/100 ; emails/<sequence>/qa.md) → VALIDATION UTILISATEUR
 ```
 Relecture ✏️ : l'orchestrateur fait appliquer les corrections par le rédacteur (`redacteur-ads` ou
-`redacteur-newsletter`) avant `garde-conformite`. Recalé : l'orchestrateur relance les agents nommés dans le
-fichier qa, puis `correcteur`, `garde-conformite` et le contrôle qualité à nouveau. `publicateur` ne met en ligne que la « Version validée » du fichier qa.
+`redacteur-newsletter`) avant `garde-conformite`. « Offre détectée » dans le fichier de conformité : `garde-offres`
+est obligatoire. Recalé : l'orchestrateur relance les agents nommés dans le fichier qa, puis `correcteur`,
+`garde-conformite`, `garde-offres` (si offre) et le contrôle qualité à nouveau. `publicateur` ne met en ligne que la « Version validée » du fichier qa.
 
 ### Gabarit des marques
 `marques/_modele/` appartient à `archiviste` : quand un agent reçoit un nouveau dossier `marques/<slug>/…`,
@@ -468,3 +474,22 @@ Le libellé n'est pas redemandé ; la fiche n'est pas modifiée, `synthetiseur-c
   l'orchestrateur intégrées : tag `x-twitter` créé (fichier `x-twitter.md`, veille `veille/plateformes/x.md`) ; alias
   écriture / prise de notes / second cerveau / autoformation → `production`, affiliation-partenariats →
   `partenariats` (définition précisée), prospection-sortante → `generation-leads` (script → `vente`).
+- 2026-10-22 : scission de `garde-conformite` (décision de l'orchestrateur ; la définition dépassait 90 lignes).
+  **Créé** `garde-offres` (pôle E, 63 agents) : vérifie tout contenu ou document qui contient un prix, une remise,
+  une garantie, une urgence ou une rareté, une prévente, un value stack, un comparatif, un script de pitch ou de
+  closing, contre la « Checklist offres et pitch » (15 lignes, déplacée telle quelle ; « partenariat signalé » reste
+  à `garde-conformite`) ; entrées : registre sections H à O et « Règles sans condition du droit des offres »,
+  `offre.md`, `conditions-vente.md`, 7 fiches de garde-fous de pitch, question n° 5 ; sortie dans le dossier du
+  contenu vérifié (`offres.md`, `offres-<campagne>.md`, `offres-<nom du fichier>.md`), même format de verdict que
+  `garde-conformite`. **`garde-conformite`** ramené à influence, plateformes, droits, données et règles internes
+  (~60 lignes) ; renvoi au registre fusionné (E-G, L) au lieu de `passe-3-droit-offres.md` ; toute offre détectée
+  est signalée en tête du fichier et demandée à `garde-offres`. Pipelines 3 et 3 bis : `correcteur` →
+  `garde-conformite` → `garde-offres` (si offre) → (`simulateur-audience`) → `controleur-qualite-marketing` ;
+  pipeline 2 : un changement de prix, de garantie ou de livraison relance `garde-offres`.
+  `controleur-qualite-marketing` lit les deux rapports, veto « offres et pitch » maintenu (checklist de
+  `garde-offres`), offre sans fichier `offres` = recalé. `publicateur` exige aussi le feu vert de `garde-offres`
+  pour une pub avec offre. Renvois mis à jour vers `garde-offres.md` et le registre (sections H à O) dans
+  `strategiste-offre`, `redacteur-ads`, `redacteur-newsletter`, `gestionnaire-communaute`,
+  `redacteur-conditions-vente`. Renvois courts ajoutés : `redacteur-legende`, `scenariste-reel`,
+  `redacteur-carrousel` (OV06, OP10), `redacteur-hooks`, `critique-hook` (OU01-OU03, OC04 ; hook sans preuve
+  éliminé), `strategiste-contenu`, `ideateur` (OC01-OC03).

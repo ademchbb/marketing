@@ -184,9 +184,13 @@
 
 ---
 
-## 7. Nouveautés des 90 derniers jours (2026-07-22 → 2026-10-20)
+## 7. Nouveautés des 90 derniers jours (2026-07-24 → 2026-10-22)
 | Date | Nouveauté | Statut | Source |
 |---|---|---|---|
+| 2026-10-22 (revérif.) | Calendrier de l'A/B test de montages : **sélection de créateurs en 2027**, Shorts et long format ; miniatures dynamiques « soon to select creators » | Annoncé, daté | @YouTubeCreators via [GIGAZINE](https://www.gigazine.net/gsc_news/en/20260924-made-on-youtube-2026-new-function) |
+| 2026-09-23 | **Séries Shorts lancées** (saisons, épisodes, lecture séquentielle et miniature de série pour le YPP ; web, mobile, TV) | Déploiement en cours | [TechCrunch](https://techcrunch.com/2026/09/23/youtubes-new-short-series-feature-brings-episodic-viewing-to-shorts/) |
+| 2026-09-01 | Beaupré : sur TV le spectateur veut du long et des séries (« remote every five to 10 minutes ») ; jugement vidéo par vidéo | Déclaration | Creator Insider, relayé par [PPC Land](https://ppc.land/subscribers-skip-90-of-uploads-in-their-feed-youtube-director-says/) |
+| Juillet 2026 | YouTube à **14,2 % de l'écoute TV aux États-Unis** (record Nielsen *The Gauge*) | Mesure tierce (Nielsen) | [Parasocial](https://www.parasocialmagazine.com/news/youtube-hits-14-2-of-u-s-tv-viewing-a-nielsen-record/) |
 | 2026-10-01 | Recommandations Shorts favorables au contenu original ; moins de distribution pour les chaînes de reposts | Confirmé | TeamYouTube (voir § 1.1) |
 | 2026-09-25 | Démo Creator Insider : A/B test de montages, miniatures dynamiques, retour IA sur brouillon | Annoncé, « coming soon » | [PPC Land](https://ppc.land/youtube-to-test-up-to-3-versions-of-one-video-on-real-viewers-shorts-too/) |
 | 2026-09-23 | Made on YouTube : séries Shorts, montage conversationnel Gemini, flux d'accueil personnalisés (États-Unis, cet automne), Ask YouTube, détection de ressemblance étendue | Annoncé, déploiement progressif | https://blog.youtube/madeonyoutube/ · [Google](https://blog.google/products-and-platforms/products/youtube/made-on-youtube-updates-2026/) |
@@ -202,7 +206,10 @@ Juste avant la fenêtre : retrait du « Je n'aime pas » dans les Shorts (2026-0
 ---
 
 ## 8. À surveiller (prochaine mise à jour)
-- Date réelle de disponibilité de l'**A/B test de montages** et des **miniatures dynamiques**, avec leurs conditions d'éligibilité (Shorts inclus ou non).
+- **A/B test de montages** (sélection de créateurs en 2027) et **miniatures dynamiques** (« soon ») : critères d'éligibilité, et si les miniatures dynamiques remplacent ou complètent Test & Compare.
+- **Séries Shorts** : page d'aide officielle (introuvable le 2026-10-22), effet réel sur la recommandation (épisode 1 recommandé ? « Continuer à regarder » ?), ouverture hors YPP.
+- **Saisons et épisodes long format** (« Creator Shows ») : ouverture au-delà du pilote de 2025.
+- Un chiffre **officiel** de part de la TV dans la durée de visionnage (mondial ou France). À ce jour : TV = 1er appareil aux États-Unis (lettre de Neal Mohan, 2025-02-11), plus d'1 milliard d'heures par jour sur TV (2024), 14,2 % de l'écoute TV américaine (Nielsen, juillet 2026). Aucun pourcentage de la durée de visionnage YouTube publié.
 - Transcription complète de l'interview Beaupré du 2026-09-01 (vérifier les citations relayées).
 - Texte exact du billet TeamYouTube du 2026-10-01 (seuil « significant changes »).
 - Éventuelle « activité minimale » exigée des partenaires YPP actuels (rapportée par OutlierKit seulement).
