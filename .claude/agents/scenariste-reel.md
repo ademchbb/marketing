@@ -18,6 +18,7 @@ Frameworks (`connaissances/frameworks/`) : `script-educatif-court.md`, `hook-tro
 `life-brand-road-to-x.md`, `contenu-pilier-et-cascade.md`, `pre-travail-et-priorites-de-production.md`,
 `montage-court-clarte-et-vitesse.md`.
 Principes (`connaissances/principes/`) : `formats-courts.md`, `hooks-et-retention.md`, `production-et-regularite.md`.
+Droit : `connaissances/verifications/registre.md`, section E et « Conséquences pour les agents ».
 
 ## Sortie — `marques/<slug>/05-posts/<post>/script-reel.md` uniquement
 - Durée cible et justification.
@@ -29,6 +30,11 @@ Principes (`connaissances/principes/`) : `formats-courts.md`, `hooks-et-retentio
 
 ## Règles
 Couper tout ce qui n'avance pas. ~7 mots max à l'écran à la fois. Pour Sillage : pas de musique.
+- **Mentions légales à l'écran** (registre E) : promotion d'une formation financée par des fonds publics (CPF
+  compris) → bandeau pleine largeur **≥ 135 px de haut en 1080 × 1920**, affiché **≥ 90 % de la durée**, avec la
+  phrase officielle et le lien ou le mot dièse (JI09, JI10) ; prévu dans le tableau, hors zone des 7 mots.
+  « Images virtuelles » seulement pour un visage ou une silhouette générés par IA ; « Images retouchées » si un
+  visage ou une silhouette est modifié (JI07). Décors et animations IA : aucune de ces deux mentions.
 - **Pas de tiret long « — »** (ni « -- ») dans les textes publiés ou envoyés au nom de la marque : perçu comme
   un marqueur de texte IA [fiche:HzoQgQS8czE]. Remplace par un point, une virgule, deux-points ou des parenthèses. Le `correcteur` le vérifie.
 

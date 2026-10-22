@@ -24,15 +24,22 @@ Options :
   --langue CODE       langue forcée (défaut : en pour un modèle .en, sinon détection automatique)
   --threads N         fils de calcul CPU (défaut : tous les cœurs)
   --oui               ne demande pas confirmation pour une longue transcription (> 1 h d'audio)
+  --simuler           affiche la sélection, l'ordre et le temps de calcul estimé, sans rien télécharger
+  --sans-reprise      ignore les épisodes déjà transcrits lors d'un lancement interrompu (voir README)
+
+Reprise : chaque épisode transcrit est mis de côté (texte seulement) dans
+<travail ou dossier temporaire>/podcast-reprise-<slug>/ ; relancer la même commande après une coupure
+reprend au premier épisode manquant. Ce dossier est supprimé une fois la source écrite.
 
 Écrit dans <sortie>/<slug>/ (même format que outils/youtube/transcrire.py) :
   - metadata.json     podcast, flux, épisodes (titre, date, durée, guid, URL audio, début dans la source),
                       modèle, langue, vitesse mesurée
   - transcription.md  en-tête, « ## Épisodes », puis « ## Transcription » : blocs **[mm:ss]** texte d'environ
-                      30 s séparés d'une ligne vide, un intertitre « ### Épisode i/N » à chaque épisode
+                      30 s séparés d'une ligne vide, un intertitre « ### Épisode i/N » à chaque épisode ;
+                      « ## Chapitres » si les descriptions du flux donnent des horodatages « (12:34) - Titre »
 Jamais d'audio dans la sortie : seuls le texte et les métadonnées sont écrits.
 """
-import argparse, datetime, email.utils, json, os, re, shutil, sys, tempfile, time, unicodedata
+import argparse, datetime, email.utils, hashlib, html, json, os, re, shutil, sys, tempfile, time, unicodedata
 import urllib.error, urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -95,21 +102,39 @@ def date_iso(texte):
         return None
 
 
+def propre(texte):
+    """Codes HTML (&amp;, &#39;…), balises et espaces insécables -> texte brut sur une ligne par paragraphe."""
+    t = html.unescape(re.sub(r"<br\s*/?>|</p>", "\n", texte or "", flags=re.I))
+    t = re.sub(r"<[^>]+>", "", t)
+    t = re.sub(r"[\u00a0\u2007\u202f\u200b\u2060]", " ", t)
+    return "\n".join(re.sub(r"[ \t]+", " ", l).strip() for l in t.splitlines()).strip()
+
+
+def chapitres(description):
+    """« (0:00) - Titre » / « 12:34 Titre » dans la description -> [{"start_time": s, "title": t}]."""
+    chap = []
+    for l in description.splitlines():
+        m = re.match(r"^\(?(\d{1,2}(?::\d{2}){1,2})\)?\s*[-–—:]?\s*(.+)$", l.strip())
+        if m:
+            chap.append({"start_time": duree_s(m.group(1)), "title": m.group(2).strip()})
+    return chap if len(chap) >= 2 and chap[0]["start_time"] == 0 else []
+
+
 def episodes(contenu):
     canal = ET.fromstring(contenu).find("channel")
     if canal is None:
         raise RuntimeError("pas de <channel> : ce n'est pas un flux RSS")
-    podcast = {"titre": canal.findtext("title"), "auteur": canal.findtext(f"{ITUNES}author"),
+    podcast = {"titre": propre(canal.findtext("title")), "auteur": propre(canal.findtext(f"{ITUNES}author")),
                "lien": canal.findtext("link"), "langue": canal.findtext("language")}
     liste = []
     for rang, it in enumerate(canal.findall("item"), 1):
         enc = it.find("enclosure")
         liste.append({
-            "rang_flux": rang, "titre": (it.findtext("title") or "").strip(),
+            "rang_flux": rang, "titre": propre(it.findtext("title")),
             "date": date_iso(it.findtext("pubDate")), "duree_s": duree_s(it.findtext(f"{ITUNES}duration")),
             "numero": it.findtext(f"{ITUNES}episode"), "guid": (it.findtext("guid") or "").strip(),
             "lien": it.findtext("link"), "audio_url": enc.get("url") if enc is not None else None,
-            "description": (it.findtext("description") or "").strip(),
+            "description": propre(it.findtext("description") or it.findtext(f"{ITUNES}summary")),
         })
     return podcast, liste
 
@@ -223,6 +248,11 @@ def ecrire(d: Path, meta, par_episode):
         lignes.append(f"- TEST : limité aux {meta['max_secondes']} premières secondes de chaque épisode")
     lignes += ["", "## Épisodes", ""]
     lignes += [f"- [{ts(e['debut_dans_source_s'])}] {e['titre']} ({ts(e['duree_s'] or 0)}, {(e['date'] or '?')[:10]})" for e in eps]
+    chap = [(e["debut_dans_source_s"] + c["start_time"], c["title"]) for e in eps for c in e["chapitres"]
+            if c["start_time"] < e["secondes_transcrites"]]
+    if chap:
+        lignes += ["", "## Chapitres", "", "(d'après les descriptions du flux, horloge de la source)", ""]
+        lignes += [f"- [{ts(t)}] {titre}" for t, titre in chap]
     lignes += ["", "## Transcription", ""]
     for i, (e, segs) in enumerate(zip(eps, par_episode), 1):
         if len(eps) > 1:
@@ -250,7 +280,33 @@ def arguments():
     ap.add_argument("--langue")
     ap.add_argument("--threads", type=int, default=os.cpu_count() or 4)
     ap.add_argument("--oui", action="store_true")
+    ap.add_argument("--simuler", action="store_true")
+    ap.add_argument("--sans-reprise", action="store_true")
     return ap.parse_args()
+
+
+VITESSE = {"tiny.en": 7.0, "base.en": 4.5, "distil-small.en": 3.5, "small.en": 2.4, "small": 2.2,
+           "medium.en": 0.8, "medium": 0.8}  # x temps réel mesurés sur 4 cœurs (README) ; indicatif
+
+
+def charger_modele(nom, threads):
+    """Modèle en cache d'abord (évite l'appel réseau au Hub), téléchargement sinon."""
+    from faster_whisper import WhisperModel
+    try:
+        return WhisperModel(nom, device="cpu", compute_type="int8", cpu_threads=threads, local_files_only=True)
+    except Exception:  # noqa: BLE001  pas encore en cache
+        for i in range(TENTATIVES):
+            try:
+                return WhisperModel(nom, device="cpu", compute_type="int8", cpu_threads=threads)
+            except Exception as e:  # noqa: BLE001
+                if i == TENTATIVES - 1 or isinstance(e, ValueError):
+                    raise RuntimeError(f"modèle {nom} introuvable ou non téléchargeable : {e}. "
+                                       "Erreur TLS ou proxy : voir /root/.ccr/README.md") from e
+                time.sleep(2 ** (i + 1))
+
+
+def cle_reprise(e, a):
+    return hashlib.sha1(json.dumps([e["guid"], e["audio_url"], a.modele, a.langue, a.max_secondes]).encode()).hexdigest()[:16]
 
 
 def main():
@@ -276,25 +332,52 @@ def main():
         sys.exit(f"ERREUR : le modèle {a.modele} ne transcrit que l'anglais ; prendre un modèle multilingue (ex. small)")
 
     total = sum(min(e["duree_s"] or 0, a.max_secondes or 1e12) for e in choix)
-    print(f"{len(choix)} épisode(s), {ts(total)} d'audio à transcrire, modèle {a.modele} :")
-    for e in choix:
-        print(f"  {(e['date'] or '?')[:10]}  {ts(e['duree_s'] or 0):>8}  {e['titre']}")
+    estime = f"~{ts(total / VITESSE[a.modele])} de calcul estimé sur 4 cœurs" if a.modele in VITESSE else "durée de calcul inconnue"
+    print(f"{len(choix)} épisode(s), {ts(total)} d'audio à transcrire, modèle {a.modele} ({estime}) -> {a.sortie / slug}")
+    for i, e in enumerate(choix, 1):
+        print(f"  {i:>3}. {(e['date'] or '?')[:10]}  {ts(e['duree_s'] or 0):>8}  {e['titre']}")
+    sys.stdout.flush()
+    if a.simuler:
+        return
     if total > 3600 and not a.oui and sys.stdin.isatty():
         if input("Continuer ? [o/N] ").strip().lower() not in ("o", "oui", "y", "yes"):
             sys.exit(1)
 
     try:
-        from faster_whisper import WhisperModel
+        import faster_whisper  # noqa: F401
     except ImportError:
         sys.exit("ERREUR : faster-whisper manquant : pip install -q -r outils/podcast/requirements.txt")
     t0 = time.time()
-    modele = WhisperModel(a.modele, device="cpu", compute_type="int8", cpu_threads=a.threads)
-    print(f"modèle chargé en {time.time() - t0:.0f} s")
+    try:
+        modele = charger_modele(a.modele, a.threads)
+    except RuntimeError as e:
+        sys.exit(f"ERREUR : {e}")
+    print(f"modèle chargé en {time.time() - t0:.0f} s", flush=True)
 
     if a.travail:
         a.travail.mkdir(parents=True, exist_ok=True)
+    reprise = Path(a.travail or tempfile.gettempdir()) / f"podcast-reprise-{slug}"
+    if dans_repo(reprise):
+        sys.exit(f"ERREUR : dossier de reprise {reprise} dans le repo ; passer --travail <scratchpad>")
+    if a.sans_reprise:
+        shutil.rmtree(reprise, ignore_errors=True)
+    reprise.mkdir(parents=True, exist_ok=True)
     meta_eps, par_episode, decalage, calcul, langue_vue = [], [], 0.0, 0.0, None
     for i, e in enumerate(choix, 1):
+        fichier_reprise = reprise / f"{cle_reprise(e, a)}.json"
+        if fichier_reprise.exists():
+            try:
+                deja = json.loads(fichier_reprise.read_text(encoding="utf-8"))
+                segs = [(decalage + t, txt) for t, txt in deja["segments"]]
+                meta_eps.append(deja["meta"] | {"debut_dans_source_s": round(decalage, 1)})
+                par_episode.append(segs)
+                calcul += deja["calcul_s"]
+                langue_vue = langue_vue or deja["meta"]["langue_detectee"]
+                decalage += deja["meta"]["secondes_transcrites"]
+                print(f"[{i}/{len(choix)}] {e['titre']} : déjà transcrit (reprise)", flush=True)
+                continue
+            except (ValueError, KeyError):
+                fichier_reprise.unlink()
         tmp = Path(tempfile.mkdtemp(prefix="podcast-", dir=a.travail))  # dossier neuf par épisode
         if dans_repo(tmp):  # TMPDIR pointé dans le repo
             shutil.rmtree(tmp, ignore_errors=True)
@@ -311,16 +394,21 @@ def main():
         t2 = time.time()
         segments, info = modele.transcribe(audio, language=langue, beam_size=5, vad_filter=True,
                                            condition_on_previous_text=False)
-        segs = [(decalage + s.start, s.text.strip()) for s in segments if s.text.strip()]
+        relatifs = [(round(s.start, 2), propre(s.text)) for s in segments if propre(s.text)]
+        segs = [(decalage + t, txt) for t, txt in relatifs]
         t_calc = time.time() - t2
         calcul += t_calc
         langue_vue = langue_vue or info.language
-        meta_eps.append({k: e[k] for k in ["titre", "date", "duree_s", "numero", "guid", "lien", "audio_url", "description"]}
-                        | {"debut_dans_source_s": round(decalage, 1), "secondes_transcrites": round(secondes, 1),
-                           "langue_detectee": info.language, "nb_segments": len(segs)})
+        m_ep = ({k: e[k] for k in ["titre", "date", "duree_s", "numero", "guid", "lien", "audio_url", "description"]}
+                | {"chapitres": chapitres(e["description"]), "secondes_transcrites": round(secondes, 1),
+                   "langue_detectee": info.language, "nb_segments": len(segs)})
+        fichier_reprise.write_text(json.dumps({"meta": m_ep, "segments": relatifs, "calcul_s": round(t_calc, 1)},
+                                              ensure_ascii=False), encoding="utf-8")
+        meta_eps.append(m_ep | {"debut_dans_source_s": round(decalage, 1)})
         par_episode.append(segs)
         print(f"[{i}/{len(choix)}] {e['titre']} : {secondes:.0f} s d'audio, téléchargé+décodé en {t_dl:.0f} s, "
-              f"transcrit en {t_calc:.0f} s (x{secondes / max(t_calc, 0.01):.1f} temps réel), {len(segs)} segments")
+              f"transcrit en {t_calc:.0f} s (x{secondes / max(t_calc, 0.01):.1f} temps réel), {len(segs)} segments",
+              flush=True)
         decalage += secondes
 
     meta = {"type": "podcast", "slug": slug,
@@ -333,6 +421,7 @@ def main():
             "vitesse_temps_reel": round(decalage / max(calcul, 0.01), 2)}
     d = a.sortie / slug
     ecrire(d, meta, par_episode)
+    shutil.rmtree(reprise, ignore_errors=True)
     print(f"OK {slug} -> {d} ({meta['nb_segments']} segments, {ts(decalage)} d'audio en {ts(calcul)} de calcul, "
           f"x{meta['vitesse_temps_reel']} temps réel)")
 

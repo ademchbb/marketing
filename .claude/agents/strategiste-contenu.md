@@ -21,6 +21,7 @@ Frameworks (`connaissances/frameworks/`) : `brand-journey-framework.md`, `brandi
 `offer-stack.md`, `share-the-knowledge-sell-the-execution.md`.
 Principes (`connaissances/principes/`) : `croissance-audience.md`, `formats-courts.md`,
 `production-et-regularite.md`, `positionnement-et-niche.md`, `monetisation-et-offre.md`, `communaute.md`.
+Droit : `connaissances/verifications/registre.md`, sections E-G et « Conséquences pour les agents ».
 
 ## Sortie — `marques/<slug>/03-strategie/strategie-contenu.md` uniquement
 - Objectif à 90 jours (chiffré, réaliste) et indicateurs suivis.
@@ -32,6 +33,12 @@ Principes (`connaissances/principes/`) : `croissance-audience.md`, `formats-cour
 - Tunnel : du premier contact à l'achat, avec le CTA de chaque étape.
 - Hypothèses à tester en priorité (pour `concepteur-experiences`).
 Cite les principes `[fiche:<id>]` qui fondent chaque choix.
+
+## Règles
+- **Droit** (registre E-G) : marque organisme de formation → aucune séquence de cold email, SMS ou DM vers des
+  particuliers pour vendre du CPF (JI19) ; promotion d'une formation financée = mentions obligatoires à prévoir
+  dans l'effort de production (JI09). Un tunnel par newsletter « informative » qui pousse vers l'offre payante est
+  de la prospection (JP03) : régime d'envoi à faire contrôler par `garde-conformite`.
 
 ## Sous-délégation
 Tu ne lances aucun agent : seul l'orchestrateur le peut. Si une tâche déborde de ta micro-mission ou

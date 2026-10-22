@@ -55,7 +55,7 @@ comme un marqueur de texte IA [fiche:HzoQgQS8czE]. Règle inscrite chez `redacte
 `redacteur-carrousel`, `redacteur-linkedin`, `redacteur-thread-x`, `redacteur-legende`,
 `specialiste-seo-social`, `scenariste-youtube-long`, `titreur-miniatures`, `redacteur-newsletter`,
 `adaptateur-multiplateforme`, `redacteur-ads`, `gestionnaire-communaute`, `prospecteur-collaborations`,
-`pont-motion-design`, `controleur-qualite-marketing` (kit final). Le `correcteur` le vérifie.
+`pont-motion-design`, `controleur-qualite-marketing` (kit final, textes de pub, emails). Le `correcteur` le vérifie.
 
 **Base de connaissances** : les agents de stratégie (pôles C, H) et de création (pôle D, plus
 `gestionnaire-communaute`, `prospecteur-collaborations`, `pont-motion-design`) listent dans leur section
@@ -82,7 +82,7 @@ marqués « à venir ».
 | `synthetiseur-connaissances` | Fusionne toutes les fiches en principes thématiques (un fichier par thème), résout les contradictions entre experts et maintient l'index de la base de connaissances. | `connaissances/principes/` et `connaissances/index.md` |
 | `cartographe-lacunes` | Compare la base de connaissances à un programme complet de marketing digital et liste ce qui manque, par priorité | `connaissances/lacunes.md` |
 | `chercheur-sources` | Trouve les meilleures vidéos, articles, docs officielles et études pour combler les lacunes de la base de connaissances, et les met en file d'attente d'ingestion. | `sources/a-traiter.md` |
-| `archiviste` | Tient les index à jour (sources, fiches, agents, marques), vérifie les liens entre fichiers et signale les doublons ou fichiers orphelins | `sources/index.md`, `connaissances/index.md` (section « Carte des fichiers » seulement), |
+| `archiviste` | Tient les index à jour (sources, fiches, agents, marques), vérifie les liens entre fichiers et signale les doublons ou fichiers orphelins. **Propriétaire de `marques/_modele/`** (gabarit copié pour chaque nouvelle marque : un sous-dossier par dossier `marques/<slug>/…` de cette carte) | `sources/index.md`, `connaissances/index.md` (section « Carte des fichiers » seulement), `marques/index.md`, `marques/_modele/`, `journal/archives.md` |
 
 ## Pôle B — Veille & concurrence
 
@@ -135,7 +135,7 @@ marqués « à venir ».
 | `correcteur` | Relit tous les textes d'un post (écran, voix, légende, carrousel) | `marques/<slug>/05-posts/<post>/relecture.md` |
 | `garde-conformite` | Vérifie qu'un contenu (post, campagne de pub, séquence d'emails) respecte la loi et les règles des plateformes | un seul fichier selon le livrable : `marques/<slug>/05-posts/<post>/conformite.md`, `marques/<slug>/10-ads/conformite-<campagne>.md` ou `marques/<slug>/emails/<sequence>/conformite.md` |
 | `simulateur-audience` | Joue le persona cible face à un post terminé | `marques/<slug>/05-posts/<post>/simulation.md` |
-| `controleur-qualite-marketing` | Dernier contrôle avant validation utilisateur | `marques/<slug>/05-posts/<post>/qa.md` |
+| `controleur-qualite-marketing` | Dernier contrôle avant validation utilisateur d'un post, d'une campagne de pub ou d'une séquence d'emails (grille /100, veto sous 85 ou sans feu vert conformité) | un seul fichier selon le livrable : `marques/<slug>/05-posts/<post>/qa.md` (+ `pret-a-publier.md`), `marques/<slug>/10-ads/qa-<campagne>.md` ou `marques/<slug>/emails/<sequence>/qa.md` |
 
 ## Pôle F — Labo d'expériences & performance
 
@@ -206,9 +206,17 @@ ideateur → redacteur-hooks → critique-hook
 ### 3 bis. Campagne payante et séquence d'emails
 ```
 strategiste-ads → redacteur-ads → garde-conformite (10-ads/conformite-<campagne>.md)
+  → controleur-qualite-marketing (veto, ≥ 85/100 ; 10-ads/qa-<campagne>.md)
   → VALIDATION UTILISATEUR (campagne et budget) → publicateur (liste Advantage+ du plan, UTM) → analyste-performance
-redacteur-newsletter (séquence) → garde-conformite (emails/<sequence>/conformite.md) → VALIDATION UTILISATEUR
+redacteur-newsletter (séquence) → garde-conformite (emails/<sequence>/conformite.md)
+  → controleur-qualite-marketing (veto, ≥ 85/100 ; emails/<sequence>/qa.md) → VALIDATION UTILISATEUR
 ```
+Recalé : l'orchestrateur relance les agents nommés dans le fichier qa, puis `garde-conformite` et le contrôle
+qualité à nouveau. `publicateur` ne met en ligne que la « Version validée » du fichier qa.
+
+### Gabarit des marques
+`marques/_modele/` appartient à `archiviste` : quand un agent reçoit un nouveau dossier `marques/<slug>/…`,
+l'orchestrateur lance `archiviste` pour l'ajouter au gabarit (sous-dossier + `.gitkeep`).
 
 ### 4. Apprendre de ses résultats
 ```
@@ -285,3 +293,23 @@ analyste-performance → predicteur-performance (calibration) → analyste-resul
   `analyse-de-reputation-et-minage-d-avis.md`. `ecouteur-audience` : nouvelle section « Entrée » avec ces deux fiches,
   `contenu-communautaire-et-ecoute.md` et `principes/communaute.md`. Pipeline 3 bis (campagne payante, séquence
   d'emails) ajouté.
+- 2026-10-22 : quatre décisions de l'orchestrateur appliquées. Aucun agent créé (61 agents).
+  **Taxonomie** : 12 tags ajoutés à la liste fermée, avec une définition d'une ligne chacun, dans
+  `consolidateur-fiche` et `synthetiseur-connaissances` : `vente`, `generation-leads`, `copywriting`, `site-web`,
+  `strategie-croissance`, `ethique`, `mesure-budget`, `relations-presse`, `identite-visuelle`,
+  `psychologie-persuasion`, `lancement-produit`, `bouche-a-oreille`. `synthetiseur-connaissances` reçoit le tableau
+  complet tag → fichier de principes (fichier créé à la première fiche qui porte le tag, « à venir » sinon ; un tag
+  hors tableau → demande à `architecte-agents`). **Droit** : la section « Conséquences pour les agents » de
+  `connaissances/verifications/registre.md` (sections E-G, ex-`passe-2-droit.md`) est relayée, avec les numéros
+  JI/JP/Q, dans `prospecteur-collaborations` (colonnes pays d'établissement et contrepartie ; EEE JI16, hors UE JI15,
+  contrat 1 000 € HT cumulés JI11, contrepartie en attente tant que Q2 est ouverte), `redacteur-newsletter` (lettre
+  informative = prospection JP03, freemium au cas par cas JP03/JP04, CNIL et non Bpifrance JI24, expéditeur et
+  désinscription JP01/JP08, pas d'email CPF JI19 ; ligne « Régime d'envoi » par email d'une séquence),
+  `scenariste-reel` et `pont-motion-design` (bandeau formation ≥ 135 px, ≥ 90 % de la durée, JI09-JI10 ; « Images
+  virtuelles » / « Images retouchées » JI07) et `strategiste-contenu` (nouvelle section « Règles » : pas de cold
+  email ni DM CPF JI19, tunnel newsletter JP03). **Contrôle qualité** : `controleur-qualite-marketing` couvre aussi
+  les campagnes (`10-ads/qa-<campagne>.md`) et les séquences d'emails (`emails/<sequence>/qa.md`), une grille /100
+  par type, veto sous 85 ou sans feu vert de `garde-conformite`, section « Version validée » au lieu d'un kit ;
+  `publicateur` exige ce verdict avant toute pub Meta ; pipeline 3 bis mis à jour. **Gabarit** : `archiviste`
+  devient propriétaire de `marques/_modele/` (un sous-dossier par dossier `marques/<slug>/…` de cette carte, ajout
+  seulement) ; sa ligne du pôle A est complétée (dossiers d'écriture manquants) ; section « Gabarit des marques ».

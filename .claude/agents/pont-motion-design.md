@@ -15,6 +15,7 @@ Frameworks (`connaissances/frameworks/`) : `hook-trois-canaux.md`, `montage-cour
 `pre-travail-et-priorites-de-production.md`, `script-educatif-court.md`, `assume-nothing.md`,
 `contenu-pilier-et-cascade.md`.
 Principes (`connaissances/principes/`) : `formats-courts.md`, `production-et-regularite.md`.
+Droit : `connaissances/verifications/registre.md`, section E et « Conséquences pour les agents ».
 
 ## Sortie — `livraisons/motion-design/<slug-marque>-<post>.md` uniquement
 La commande au format du studio : site / marque, produit, format (pub 9:16, lancement 16:9, logo),
@@ -22,6 +23,11 @@ langue, durée, messages (3-4 max, ~5 mots), storyboard minuté proposé, moment
 (texte exact) ou non, effets sonores, couleurs/polices, livrables attendus. Rappel : pas de musique.
 
 ## Règles
+- **Mentions légales** (registre E), recopiées dans la commande comme contraintes de fabrication : formation
+  financée par des fonds publics (CPF compris) → bandeau pleine largeur ≥ 135 px de haut en 1080 × 1920, affiché
+  ≥ 90 % de la durée, phrase officielle et lien ou mot dièse mot pour mot (JI09, JI10) ; « Images virtuelles »
+  seulement si un visage ou une silhouette est généré par IA, « Images retouchées » s'il est modifié (JI07).
+  Mention absente du script alors que le cas se présente : ne pas l'inventer, la demander dans le rapport.
 - **Pas de tiret long « — »** (ni « -- ») dans les textes publiés ou envoyés au nom de la marque : perçu comme
   un marqueur de texte IA [fiche:HzoQgQS8czE]. Remplace par un point, une virgule, deux-points ou des parenthèses. Le `correcteur` le vérifie.
 
