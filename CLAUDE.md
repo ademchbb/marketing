@@ -67,10 +67,13 @@ outils/          scripts (transcription YouTube, découpe, etc.)
 ## Commandes
 
 ```bash
-pip install yt-dlp youtube-transcript-api          # une fois
-python3 outils/youtube/transcrire.py <url> [<url>…] # -> sources/youtube/<id>/
-python3 outils/youtube/decouper.py <id> 15000       # -> sources/youtube/<id>/parties/
+pip install -q -r outils/youtube/requirements.txt -r outils/podcast/requirements.txt   # une fois
+python3 -I outils/youtube/transcrire.py <url> [<url>…] [--sortie <dossier>]            # -> sources/youtube/<id>/
+python3 -I outils/youtube/decouper.py <id | sources/podcast/<slug>> 15000              # -> <source>/parties/
+python3 -I outils/podcast/lister.py <flux-rss> --motif '<regex>' --ordre titre --urls  # liste/filtre les épisodes
+python3 -I outils/podcast/transcrire.py <flux-rss> --motif '<regex>' --slug <slug> --vocabulaire '<noms>' --travail <scratchpad>/travail --oui   # -> sources/podcast/<slug>/ (relancer la même commande si coupée)
 ```
+Détails : `outils/youtube/README.md`, `outils/podcast/README.md` (propriétaire : `developpeur-outils`).
 
 ## Pipelines types (détail dans `agents.md`)
 

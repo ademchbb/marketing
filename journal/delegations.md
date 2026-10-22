@@ -251,3 +251,7 @@ Leçon : 20 agents en parallèle épuisent le quota en ~2 h 30. Vagues de ~10 ag
 - [x] Fiche Chris Voss faite (3,5/5). [ ] concepteur-experiences : CTA/hooks orientés « non » vs orientés « oui » (tension Voss / Despas). Dan Koe p3 lancée.
 - [x] Page de vente Marketing Mania : notes faites → fiche lancée. [ ] chercheur-sources : texte original de l'annonce MagicStat / Magic Baloney (Sugarman, 1983) + écrits de Sugarman sur les défauts avoués.
 - [x] Dan Koe p1 faite (fiche quand p2-p3 rendent ; tension Koe 2024 / Welsh 2026 sur l'information banalisée par l'IA → synthèse).
+- [x] developpeur-outils fait : outils podcast (lister + transcrire, reprise par épisode, vocabulaire), decouper.py accepte sources/podcast/ ; « trou de 30 s » = simple affichage (aucun texte perdu), corrigé ; transcrire.py YouTube nettoie le HTML. Commandes reportées dans CLAUDE.md.
+- [ ] transcripteur-audio : *$100M Offers* (7 ép., ~1 h 45 de calcul) → puis *$100M Leads* (11 ép., ~2 h 45) → puis *$100M Money Models* livre (9 ép., ~1 h 37). Un livre à la fois (4 cœurs).
+- [ ] architecte-agents : transcripteur-audio et extracteur-youtube citent les README (--simuler, --vocabulaire, relance, --travail scratchpad, découpe).
+- [ ] extracteur-youtube (basse priorité) : régénérer les 15 transcriptions qui contiennent des codes HTML (même taille de découpe).

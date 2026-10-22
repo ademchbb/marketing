@@ -144,8 +144,8 @@ souvent hors de la pub (la mesure du client, le contexte de décision, un média
 9. **Toute la force est dans la simplicité.** [00:11] [00:46] [00:50]
    - « The quality of the brief is inversely proportional to the length of the words used. » Règle
      qu'il dit « infallible ».
-   - Sherlock Holmes : Watson déduit l'heure et la place de Dieu dans l'univers en regardant les
-     étoiles ; Holmes : « Someone stole our tent. » La complexité mène sur la mauvaise route.
+   - Sherlock Holmes : Watson enchaîne les déductions savantes en regardant les étoiles ; Holmes :
+     « Someone stole our tent. » La complexité mène sur la mauvaise route.
    - **L'annonce vide** : le client la trouve « a bit empty ». Maquettée à son vrai emplacement, elle
      domine l'espace. « Soon as I start to load it up, it just becomes part of the wallpaper. »
 
@@ -242,7 +242,7 @@ souvent hors de la pub (la mesure du client, le contexte de décision, un média
 
 ### K. Test in situ et défense de l'espace vide [00:50]
 1. Maquetter la création à son **emplacement réel**, entourée des autres messages.
-2. Juger s'elle domine l'espace, jamais sur la table du conseil ni en isolé à l'écran.
+2. Juger si elle domine l'espace, jamais sur la table du conseil ni en isolé à l'écran.
 3. Refuser le « remplissage » : chaque élément ajouté la fait rentrer dans le papier peint.
 
 ### L. Éléphant et cavalier (système 1 / système 2) [00:48]
@@ -447,7 +447,7 @@ démonstrations.
 - Hormozi : publicité et branding sont distincts. Bud Light × Mulvaney était une bonne pub mais une
   mauvaise association pour l'audience cœur, qui a coûté des ventes ; et une marque forte **n'a pas
   besoin d'être clivante** (Taylor Swift, Apple).
-- Lecture proposée (déduction, non dite par les deux auteurs) :
+- Lecture proposée (déduction, aucun des deux auteurs ne la formule) :
   - les deux raisonnent sur des choses différentes. Trott parle d'**attention** (être remarqué plutôt
     qu'invisible) ; Hormozi parle de la **direction** de l'association (vers ou loin de la marque) pour
     une audience donnée ;
@@ -474,7 +474,7 @@ démonstrations.
   (déduction). Toute option par défaut appliquée à une marque doit rester transparente et réversible.
 - **Chiffres d'illustration** : le « ×10 » de la gestalt et le calcul Sainsbury's montrent que les
   nombres servent à frapper, pas à démontrer.
-- **Survivorship bias** : uniquement des cas réussis, racontés de mémoire, sans contre-exemple.
+- **Biais du survivant** : uniquement des cas réussis, racontés de mémoire, sans contre-exemple.
 - **Date** : conférence de 2013. Les exemples média (presse, affichage, TV) sont datés ; les principes
   (impact, différence, amont) restent transposables aux réseaux sociaux.
 - **Schémas au tableau invisibles** : les zéros, l'intrus et l'entonnoir sont reconstruits à partir du
@@ -503,5 +503,4 @@ démonstrations.
 ## Thèmes couverts
 - **Principaux** : copywriting · positionnement · strategie-croissance · psychologie-persuasion ·
   bouche-a-oreille · publicite
-- **Secondaires** : hooks · storytelling · mesure-budget · ethique · conformite-juridique · mindset ·
-  analyse-donnees · communaute
+- **Secondaires** : hooks · storytelling · mesure-budget · ethique · conformite-juridique · mindset
