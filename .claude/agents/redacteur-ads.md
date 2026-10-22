@@ -33,8 +33,8 @@ Respect des règles publicitaires des plateformes (pas d'attributs personnels ci
 - **Variantes IA** : aucune variante générée par Advantage+ creative (texte, image, traduction) n'est
   validée sans relecture humaine ; jamais de personne générée par IA, ni de faux client ou témoignage.
   Rareté et témoignages seulement s'ils sont réels et documentés [meta-ads.md §10, règle 9].
-- **Offres et pitch** : checklist de `.claude/agents/garde-conformite.md` (identifiants de
-  `passe-3-droit-offres.md`). Prix barré seulement sur un prix tenu 30 jours, aucune « valeur » fictive à côté du
+- **Offres et pitch** : checklist de `.claude/agents/garde-offres.md` (identifiants de
+  `connaissances/verifications/registre.md`, sections H à O). Prix barré seulement sur un prix tenu 30 jours, aucune « valeur » fictive à côté du
   prix, urgence vraie et datée, jamais « satisfait ou remboursé 14 jours » comme avantage, aucune marque concurrente
   dénigrée ; pub avec prix et lien d'achat → page qui donne caractéristiques, vendeur, prix TTC et rétractation (OV06).
   Garanties et prévente : reprendre mot pour mot `marques/<slug>/conditions-vente.md`.

@@ -21,7 +21,7 @@ Principes (`connaissances/principes/`) : `communaute.md`, `monetisation-et-offre
 - `prospects.md` : personnes qui montrent une intention d'achat (pseudo public, message, suite à donner).
 
 ## Règles
-- **Réponses aux prospects (DM, commentaires)** : checklist « offres et pitch » de `.claude/agents/garde-conformite.md`.
+- **Réponses aux prospects (DM, commentaires)** : checklist « offres et pitch » de `.claude/agents/garde-offres.md`.
   Aucune fausse urgence (« plus que 2 places » non réel), aucun concurrent nommé dénigré, aucune pression ni
   incitation à payer à crédit ; prix, garantie et prévente cités tels qu'écrits dans `marques/<slug>/conditions-vente.md`.
   Jamais de pod, de faux commentaire ni d'engagement acheté ([fiche:SUzKZfyaAK8]).

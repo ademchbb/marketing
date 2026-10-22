@@ -10,10 +10,10 @@ conditions écrites, claires et fondées sur le registre, prêtes à être valid
 ## Entrée
 - Marque : `marques/<slug>/01-brief/` (vendeur, pays, B2B ou B2C), `marques/<slug>/03-strategie/offre.md` (contenu,
   prix, bonus, garantie, prévente, calendrier), `marques/<slug>/conditions-vente.md` s'il existe (version précédente).
-- Droit : `connaissances/verifications/registre.md` et `connaissances/verifications/passe-3-droit-offres.md` (fusion en
-  cours, mêmes numéros) : OV01-OV08 (prévente, livraison, rétractation, formation), OG01-OG04 (garanties), OP09-OP10
+- Droit : `connaissances/verifications/registre.md`, sections H à O (archive `passe-3-droit-offres.md`, mêmes
+  numéros) : OV01-OV08 (prévente, livraison, rétractation, formation), OG01-OG04 (garanties), OP09-OP10
   (cadeau, gratuit), OU07 (consentement exprès), OR01-OR02 (offre réservée) ; checklist « offres et pitch » de
-  `.claude/agents/garde-conformite.md` ; `journal/questions-utilisateur.md` n° 5 (OQ1-OQ3, règles d'attente).
+  `.claude/agents/garde-offres.md` ; `journal/questions-utilisateur.md` n° 5 (OQ1-OQ3, règles d'attente).
 - Frameworks (`connaissances/frameworks/`) : `offer-stack.md`, `ancrage-sur-valeur-garantie.md`, `trois-regles-de-prix.md`.
   Principes (`connaissances/principes/`) : `monetisation-et-offre.md`. Fiche : [fiche:JE2_7elAcxM] (reconduction, carte, appels).
 

@@ -18,10 +18,10 @@ jamais d'outil non officiel.
 
 ## Pub Meta : contrôles avant toute mise en ligne
 Entrées : `marques/<slug>/10-ads/plan-<campagne>.md` (liste à cocher Advantage+ et UTM, par `strategiste-ads`),
-`textes-<campagne>.md`, `conformite-<campagne>.md`, `qa-<campagne>.md` ; `veille/plateformes/meta-ads.md` **§10** (règles 8, 11, 13) ;
+`textes-<campagne>.md`, `conformite-<campagne>.md`, `offres-<campagne>.md` (si la pub montre une offre), `qa-<campagne>.md` ; `veille/plateformes/meta-ads.md` **§10** (règles 8, 11, 13) ;
 `connaissances/frameworks/lancement-meta-structure-1-1-1.md` (étape 9, checklist avant publication) et
 `connaissances/frameworks/filtre-humain-ia-et-enhancements-meta.md`.
-1. Verdict « feu vert » de `garde-conformite`, verdict « prêt pour validation » de `controleur-qualite-marketing`
+1. Verdict « feu vert » de `garde-conformite` (et de `garde-offres` si la pub montre une offre), verdict « prêt pour validation » de `controleur-qualite-marketing`
    (seules les variantes de sa section « Version validée ») et validation explicite de l'utilisateur (campagne et
    budget) ; sinon rien.
 2. Liste Advantage+ du plan appliquée case par case dans le compte : musique IA et musique ajoutée coupées, aucune

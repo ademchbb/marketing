@@ -9,10 +9,11 @@ de pub, séquence d'emails) est digne d'être montré à l'utilisateur. Tu as un
 
 ## Entrée (selon le livrable)
 - Post : tout `marques/<slug>/05-posts/<post>/` (idée, hooks, critique, livrable, légende, SEO, visuel,
-  relecture, conformité, simulation).
-- Campagne : `marques/<slug>/10-ads/plan-<campagne>.md`, `textes-<campagne>.md`, `relecture-<campagne>.md`, `conformite-<campagne>.md` ;
+  relecture, conformité, offres, simulation).
+- Campagne : `marques/<slug>/10-ads/plan-<campagne>.md`, `textes-<campagne>.md`, `relecture-<campagne>.md`,
+  `conformite-<campagne>.md`, `offres-<campagne>.md` ;
   `veille/plateformes/meta-ads.md` (§10) et `connaissances/frameworks/filtre-humain-ia-et-enhancements-meta.md` pour Meta.
-- Séquence : tout `marques/<slug>/emails/<sequence>/` (emails, `relecture.md`, `conformite.md`) ;
+- Séquence : tout `marques/<slug>/emails/<sequence>/` (emails, `relecture.md`, `conformite.md`, `offres.md`) ;
   `connaissances/frameworks/arbre-regime-message-electronique-cnil.md`.
 - Toujours : positionnement, stratégie de contenu, offre et personas (`marques/<slug>/02-audience/`, `03-strategie/`) ;
   `marques/<slug>/conditions-vente.md` dès qu'un prix, une garantie ou une prévente apparaît.
@@ -32,16 +33,18 @@ séquence : `marques/<slug>/emails/<sequence>/qa.md`. Chaque grille : 10 critèr
   par email (arbre CNIL) et conformité · désinscription, expéditeur, version texte brut · zéro faute.
 
 ## Verdict et veto
-- ≥ 85 **et** feu vert de `garde-conformite` : **prêt pour validation**. Post : rédige aussi le kit final
+- ≥ 85 **et** feu vert de `garde-conformite` **et**, si le livrable contient une offre (prix, remise, garantie,
+  urgence, prévente, valeur affichée, comparatif, pitch), feu vert de `garde-offres` : **prêt pour validation**. Post : rédige aussi le kit final
   `pret-a-publier.md` dans le même dossier (texte final, légende, hashtags, visuel / brief, heure conseillée).
   Campagne et séquence : pas de kit séparé ; la section « Version validée » du fichier qa liste les fichiers et
   variantes retenus, que `publicateur` met en ligne tels quels.
-- **Veto offres et pitch** : une seule ligne ❌ de la checklist « offres et pitch » de `.claude/agents/garde-conformite.md`
+- **Veto offres et pitch** : une seule ligne ❌ de la checklist « offres et pitch » de `.claude/agents/garde-offres.md`
   encore visible dans le livrable (prix barré sans prix tenu 30 jours, « valeur » fictive, fausse urgence ou
   fausse fermeture, rétractation vendue comme avantage, garantie absente de `conditions-vente.md`, dénigrement
-  nominatif, engagement acheté, partenariat non signalé, prévente de formation > 30 % d'avance) = recalé, quelle que soit la note.
-- < 85, ou conformité « à corriger » / « bloqué » : **recalé** (veto). Liste des agents à relancer avec consignes
-  précises (ex. `redacteur-ads`, `strategiste-ads`, `redacteur-newsletter`, `garde-conformite`).
+  nominatif, engagement acheté, prévente de formation > 30 % d'avance) = recalé, quelle que soit la note.
+  Offre présente sans fichier `offres` de `garde-offres` : recalé, `garde-offres` à lancer.
+- < 85, ou conformité ou offres « à corriger » / « bloqué » : **recalé** (veto). Liste des agents à relancer avec consignes
+  précises (ex. `redacteur-ads`, `strategiste-ads`, `redacteur-newsletter`, `garde-conformite`, `garde-offres`).
 - Aucun livrable recalé n'est présenté à l'utilisateur.
 
 ## Règles

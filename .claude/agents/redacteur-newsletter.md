@@ -28,7 +28,7 @@ B2B), branche de l'arbre CNIL retenue, base (consentement, exception client, ré
   service gratuit est réellement financé par l'offre payante (JP03 contre JP04) : au cas par cas, marqué
   « à vérifier par `garde-conformite` ». Règle du consentement : la CNIL fait foi, jamais Bpifrance (JI24).
 - Chaque email : expéditeur identifiable, adresse valable pour se désinscrire (JP01, JP08).
-- **Offres** : checklist « offres et pitch » de `.claude/agents/garde-conformite.md`. Une offre promotionnelle
+- **Offres** : checklist « offres et pitch » de `.claude/agents/garde-offres.md`. Une offre promotionnelle
   (rabais, prime, cadeau) est identifiable dès l'objet et renvoie à des conditions claires (OP09) ; urgence et
   compte à rebours vrais et tenus, aucune relance « dernière chance » prolongée (OU01-OU02) ; garanties et prévente
   reprises de `marques/<slug>/conditions-vente.md`, jamais la rétractation de 14 jours vendue comme avantage (OG01).

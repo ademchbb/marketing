@@ -25,8 +25,8 @@ Principes (`connaissances/principes/`) : `monetisation-et-offre.md`, `positionne
 - CTA par plateforme et par niveau de conscience.
 
 ## Règles
-- Checklist « offres et pitch » de `.claude/agents/garde-conformite.md` appliquée dès la conception (identifiants
-  OP / OU / OV / OG / OR de `connaissances/verifications/passe-3-droit-offres.md`, fusion en cours dans `registre.md`).
+- Checklist « offres et pitch » de `.claude/agents/garde-offres.md` appliquée dès la conception (identifiants
+  OP / OU / OV / OG / OR de `connaissances/verifications/registre.md`, sections H à O).
 - Valeur construite sur des prix **réellement pratiqués** (bonus vendus seuls) ou des comparaisons sourcées dites
   comme telles ; aucun empilement de « valeurs » de remplacement, aucun prix barré sans prix tenu 30 jours (OP01-OP07).
 - Urgence et rareté vraies et datées ; garantie = un ajout au droit légal, jamais la rétractation de 14 jours (OG01) ;
