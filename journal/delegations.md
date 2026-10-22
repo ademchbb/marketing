@@ -248,3 +248,4 @@ Leçon : 20 agents en parallèle épuisent le quota en ~2 h 30. Vagues de ~10 ag
 - [x] Russell Brunson : notes faites → fiche lancée. Katana négociation et Hormozi Leads p1 lancés.
 - [x] Séguéla : notes faites → fiche lancée.
 - [x] Fiche Jonah Berger faite (4/5, STEPPS, framework J Godin↔Berger). Hormozi Leads p2 lancée.
+- [x] Fiche Chris Voss faite (3,5/5). [ ] concepteur-experiences : CTA/hooks orientés « non » vs orientés « oui » (tension Voss / Despas). Dan Koe p3 lancée.
