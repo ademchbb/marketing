@@ -23,16 +23,16 @@
   `cnil-prospection-electronique`, `bpifrance-influenceur-reglementation`.
 - Statuts recalculés d'après les fichiers présents :
   - `intégré` (fiche citée dans `connaissances/principes/`) : les 5 sources du lot 1.
-  - `fiché` : 28 sources (lot 2, canon, PDF, web).
-  - `analysé` : `JE2_7elAcxM` (5/5 notes, pas de `fiche.md`).
-  - partiels : `6_CCutkM11g` (notes 4/6), `halbert-boron-letters` (notes 2/3).
-  - Les 14 autres sources restent `transcrit` (aucune note).
+  - `fiché` : 29 sources (lot 2, canon, PDF, web ; dont `Z2uoA3bhJT0` et `JE2_7elAcxM`, fiches arrivées pendant le contrôle).
+  - partiels : `6_CCutkM11g` (notes 4/6, pas de `fiche.md`), `halbert-boron-letters` (notes 2/3, pas de `fiche.md`).
+  - Les 15 autres sources restent `transcrit` (aucune note).
+  - Total : 51 sources indexées, 34 `fiche.md` présentes.
 - Aucune source du lot 2 ni du canon n'est encore citée dans `connaissances/principes/` : aucune n'est `intégré`.
 
 ### Liens `[fiche:<id>]`
 - Aucun lien cassé : chaque identifiant cité correspond à un dossier `connaissances/fiches/<id>/` avec `fiche.md`.
   `[fiche:<id>]` dans `frameworks/index.md` et `swipe-file/*.md` est un exemple de format, pas un lien.
-- Aucune citation ne vise une source sans `fiche.md` (`JE2_7elAcxM`, `6_CCutkM11g`, `halbert-boron-letters`).
+- Aucune citation ne vise une source sans `fiche.md` (`6_CCutkM11g`, `halbert-boron-letters`).
 
 ### Fichiers orphelins
 - Aucun fichier `.md` ou `.py` orphelin trouvé (chacun est cité au moins une fois ailleurs).

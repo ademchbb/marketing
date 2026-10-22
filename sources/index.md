@@ -26,7 +26,7 @@
 | au0-dI_wjI8 | Episode 106 - Creating A Unique Selling Proposition & An Irresistible Offer (Dan Kennedy) | Magnetic Marketing | 46:07 | 5,4 k | 1 | fiché |
 | U1b1o-m5bpI | Strategic Narrative: Framework Behind Salesforce, Gong & Turing — Andy Raskin | FounderCoHo | 1h14 | 28 k | 1 | fiché |
 | oeG8NWrWV4Y | Doctolib : derrière la plus grosse marque de la French tech - Stanislas Niox-Chateau | Matthieu Stefani - Génération Do It Yourself | 2h43 | 15 k | 3 | fiché |
-| JE2_7elAcxM | How to Sell Better than 99% Of People (4 HOUR ULTIMATE GUIDE) | Alex Hormozi | 4h43 | 1,5 M | 5 | analysé |
+| JE2_7elAcxM | How to Sell Better than 99% Of People (4 HOUR ULTIMATE GUIDE) | Alex Hormozi | 4h43 | 1,5 M | 5 | fiché |
 | lhlS-Wds02M | Rory Sutherland - Alchemy: The Surprising Power of Ideas That Don't Make Sense | The Welcome Conference | 44:46 | 892 k | 1 | fiché |
 | 8zcnK6Lx_p4 | Marketing Godfather: How To Build An Audience That Buys — Seth Godin | The Calum Johnson Show | 59:02 | 876 k | 1 | fiché |
 | 6_CCutkM11g | $100M Money Models Live Launch | Alex Hormozi | 7h01 | 1,2 M | 6 | transcrit (notes 4/6 : parties 01-04) |
