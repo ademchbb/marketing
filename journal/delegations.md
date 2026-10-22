@@ -219,3 +219,4 @@ Leçon : 20 agents en parallèle épuisent le quota en ~2 h 30. Vagues de ~10 ag
 - Décision orchestrateur : OUI, étendre `correcteur` aux pubs (`10-ads/relecture-<campagne>.md`) et emails (`emails/<sequence>/relecture.md`) + pipeline 3 bis → prochaine passe architecte (avec les tags recherche-client et culture-entreprise si non faits, et garde-conformite → citer `registre.md` sections E-G).
 - [x] archiviste (gabarit + carte des fichiers) et Money Models p6 lancés.
 - [x] Tags recherche-client et culture-entreprise ajoutés. architecte-agents (correcteur pubs/emails + garde-conformite → registre et passe-3) et Boron p3 lancés.
+- [x] Money Models p3 faite. [ ] garde-conformite : schémas de pitch à ne pas reproduire (« pas de promesse de revenus » + résultats chiffrés ; « dernière chance » répétée sans échéance). Lot B : Chris Voss et Jonah Berger lancés.
