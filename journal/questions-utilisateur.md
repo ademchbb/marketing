@@ -37,5 +37,6 @@
      travail, une prévente payée à 100 % d'avance est impossible.
    - **Prévente** : peut-on annoncer « −X % sur le prix final » alors que ce prix n'a encore jamais été pratiqué ?
    - **Cours livré par étapes** : le droit de rétractation tombe-t-il dès l'accès au premier module ?
+   - **Cumul** : une formation éligible au CPF vendue en prévente avec réduction cumule deux questions ouvertes (Q1 c du n° 4 et OQ2) ; aucune ne tranche l'autre.
    En attendant : l'agence ne propose aucune prévente de formation payée à plus de 30 % d'avance, n'affiche aucun prix barré
    sans prix réellement pratiqué sur 30 jours, et ne présente jamais la rétractation légale de 14 jours comme un avantage.
