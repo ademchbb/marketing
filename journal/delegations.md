@@ -297,7 +297,7 @@ Leçon : 20 agents en parallèle épuisent le quota en ~2 h 30. Vagues de ~10 ag
 - **Grande synthèse lancée** (brief commun : `journal/brief-synthese.md`), 6 équipes sur des fichiers disjoints, puis 1 agent final (index.md + tensions transverses) :
   - S1 offre et vente (monetisation-et-offre, vente, economie-unitaire, retention-client, generation-leads, partenariats, lancement-produit) : lancée.
   - S2 copy et persuasion (copywriting, psychologie-persuasion, marketing-direct, site-web, email, ethique, brief-creatif) : lancée.
-  - [ ] S3 marque et stratégie (positionnement-et-niche, strategie-croissance, distribution, identite-visuelle, relations-presse, gestion-crise, culture-entreprise, recherche-client, bouche-a-oreille, b2b).
+  - S3 marque et stratégie (lancée) (positionnement-et-niche, strategie-croissance, distribution, identite-visuelle, relations-presse, gestion-crise, culture-entreprise, recherche-client, bouche-a-oreille, b2b).
   - [ ] S4 pub et mesure (publicite, meta-ads, mesure-budget, analyse-et-iteration, conformite-juridique).
   - [ ] S5a contenu (hooks-et-retention, packaging, formats-courts, youtube-long, storytelling, production-et-regularite, ia-creation).
   - [ ] S5b audience et plateformes (croissance-audience, linkedin, x-twitter, personal-branding, communaute, equipe-et-organisation).
