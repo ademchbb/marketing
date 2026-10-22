@@ -313,3 +313,8 @@ analyste-performance → predicteur-performance (calibration) → analyste-resul
   `publicateur` exige ce verdict avant toute pub Meta ; pipeline 3 bis mis à jour. **Gabarit** : `archiviste`
   devient propriétaire de `marques/_modele/` (un sous-dossier par dossier `marques/<slug>/…` de cette carte, ajout
   seulement) ; sa ligne du pôle A est complétée (dossiers d'écriture manquants) ; section « Gabarit des marques ».
+- 2026-10-22 : taxonomie, 2 tags de plus demandés par la fiche Doctolib (décision de l'orchestrateur), dans
+  `consolidateur-fiche` et `synthetiseur-connaissances` : `recherche-client` (immersion terrain, entretiens clients,
+  test du discours, JTBD ; fichier `recherche-client.md`, à venir) et `culture-entreprise` (rituels centrés client,
+  valeurs, onboarding ; fichier `culture-entreprise.md`, à venir). Frontière : embaucher et structurer l'équipe
+  reste `recrutement-equipe`.

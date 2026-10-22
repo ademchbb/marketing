@@ -47,6 +47,8 @@ créé qu'à la première fiche qui porte le tag ; « (à venir) » = pas encore
 | `psychologie-persuasion` | `psychologie-persuasion.md` | mécanismes psychologiques d'influence (Cialdini, biais, économie comportementale) et leur preuve |
 | `lancement-produit` | `lancement-produit.md` | validation d'idée, étude de marché, prévente, lancement d'un produit ou d'une offre |
 | `bouche-a-oreille` | `bouche-a-oreille.md` | recommandation, diffusion organique, mécanique de conversation, parrainage |
+| `recherche-client` | `recherche-client.md` | immersion terrain, entretiens clients, test du discours, Jobs To Be Done (JTBD) |
+| `culture-entreprise` | `culture-entreprise.md` | rituels centrés client, valeurs, onboarding ; embaucher et structurer l'équipe = `recrutement-equipe` |
 
 ## Règles
 - Les principes partagés par plusieurs experts passent en premier.
