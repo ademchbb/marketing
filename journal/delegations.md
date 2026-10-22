@@ -236,3 +236,6 @@ Leçon : 20 agents en parallèle épuisent le quota en ~2 h 30. Vagues de ~10 ag
 - [x] Money Models p5-p6 et Boron p3 faits → fiches Money Models et Boron lancées. Dan Koe p1 lancée.
 - [x] Money Models p5 faite (bonus continuity ; garde-fous transmis au consolidateur). Dan Koe p2 lancée.
 - [x] Justin Welsh : notes faites → fiche lancée.
+- [x] Chris Voss et Jonah Berger : notes faites → fiches lancées.
+- [ ] [Voss] chercheur-sources : source primaire sur la reformulation en miroir et les questions calibrées (absentes de la vidéo).
+- [ ] [Berger] chercheur-sources : source plus complète sur STEPPS (visibilité publique, valeur pratique, émotion « awe »).
