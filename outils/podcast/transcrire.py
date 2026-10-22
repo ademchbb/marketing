@@ -23,6 +23,8 @@ Options :
   --modele NOM        modèle faster-whisper (défaut : small.en ; voir README pour les vitesses)
   --langue CODE       langue forcée (défaut : en pour un modèle .en, sinon détection automatique)
   --threads N         fils de calcul CPU (défaut : tous les cœurs)
+  --vocabulaire TEXTE noms propres et termes à bien orthographier, séparés par des virgules
+                      (défaut : auteur du podcast d'après le flux, ex. « Alex Hormozi » ; "" pour aucun)
   --beam N            largeur de faisceau (défaut 5 : qualité ; 1 : ~1,8 fois plus rapide, voir README)
   --oui               ne demande pas confirmation pour une longue transcription (> 1 h d'audio)
   --simuler           affiche la sélection, l'ordre et le temps de calcul estimé, sans rien télécharger
@@ -286,6 +288,7 @@ def arguments():
     ap.add_argument("--langue")
     ap.add_argument("--threads", type=int, default=os.cpu_count() or 4)
     ap.add_argument("--beam", type=int, default=5)
+    ap.add_argument("--vocabulaire")
     ap.add_argument("--oui", action="store_true")
     ap.add_argument("--simuler", action="store_true")
     ap.add_argument("--sans-reprise", action="store_true")
@@ -313,7 +316,7 @@ def charger_modele(nom, threads):
 
 
 def cle_reprise(e, a):
-    return hashlib.sha1(json.dumps([e["guid"], e["audio_url"], a.modele, a.langue, a.max_secondes, a.beam]).encode()).hexdigest()[:16]
+    return hashlib.sha1(json.dumps([e["guid"], e["audio_url"], a.modele, a.langue, a.max_secondes, a.beam, a.vocabulaire]).encode()).hexdigest()[:16]
 
 
 def main():
@@ -335,6 +338,7 @@ def main():
     if slug != slugifier(slug):
         sys.exit(f"ERREUR : slug invalide « {slug} » (minuscules, chiffres, tirets : {slugifier(slug)})")
     langue = a.langue or ("en" if a.modele.endswith(".en") else None)
+    vocabulaire = podcast["auteur"] if a.vocabulaire is None else a.vocabulaire.strip()
     if a.modele.endswith(".en") and langue != "en":
         sys.exit(f"ERREUR : le modèle {a.modele} ne transcrit que l'anglais ; prendre un modèle multilingue (ex. small)")
 
@@ -410,7 +414,7 @@ def main():
             shutil.rmtree(tmp, ignore_errors=True)
         secondes = len(audio) / TAUX
         t2 = time.time()
-        segments, info = modele.transcribe(audio, language=langue, beam_size=a.beam, vad_filter=True,
+        segments, info = modele.transcribe(audio, language=langue, beam_size=a.beam, vad_filter=True, hotwords=vocabulaire or None,
                                            condition_on_previous_text=False)
         relatifs = [(round(s.start, 2), propre(s.text)) for s in segments if propre(s.text)]
         segs = [(decalage + t, txt) for t, txt in relatifs]
@@ -433,7 +437,7 @@ def main():
             "titre": a.titre or (choix[0]["titre"] if len(choix) == 1 else f"{podcast['titre']} : {slug}"),
             "podcast": podcast, "flux": a.flux, "episodes": meta_eps,
             "duree_transcrite_s": round(decalage, 1), "max_secondes": a.max_secondes,
-            "modele": a.modele, "beam": a.beam, "langue_transcription": langue or langue_vue,
+            "modele": a.modele, "beam": a.beam, "vocabulaire": vocabulaire, "langue_transcription": langue or langue_vue,
             "nb_segments": sum(len(s) for s in par_episode),
             "date_transcription": datetime.date.today().isoformat(),
             "vitesse_temps_reel": round(decalage / max(calcul, 0.01), 2)}
