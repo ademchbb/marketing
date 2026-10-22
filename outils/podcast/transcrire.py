@@ -40,7 +40,7 @@ reprend au premier épisode manquant. Ce dossier est supprimé une fois la sourc
                       « ## Chapitres » si les descriptions du flux donnent des horodatages « (12:34) - Titre »
 Jamais d'audio dans la sortie : seuls le texte et les métadonnées sont écrits.
 """
-import argparse, datetime, email.utils, hashlib, html, json, os, re, shutil, sys, tempfile, time, unicodedata
+import argparse, datetime, email.utils, hashlib, html, json, os, re, shutil, signal, sys, tempfile, time, unicodedata
 import urllib.error, urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
@@ -373,6 +373,13 @@ def main():
     if a.sans_reprise:
         shutil.rmtree(reprise, ignore_errors=True)
     reprise.mkdir(parents=True, exist_ok=True)
+    signal.signal(signal.SIGTERM, lambda *_: sys.exit("ARRÊT (SIGTERM) : relancer la même commande pour reprendre"))
+    if a.travail:  # restes d'un lancement tué brutalement (SIGKILL, coupure) : audio abandonné depuis 10 min
+        for vieux in a.travail.glob("podcast-*"):
+            if vieux.is_dir() and not vieux.name.startswith("podcast-reprise-") and \
+                    all(time.time() - f.stat().st_mtime > 600 for f in [vieux, *vieux.iterdir()]):
+                shutil.rmtree(vieux, ignore_errors=True)
+                print(f"nettoyé : {vieux} (reste d'un lancement interrompu)")
     meta_eps, par_episode, decalage, calcul, langue_vue = [], [], 0.0, 0.0, None
     for i, e in enumerate(choix, 1):
         fichier_reprise = reprise / f"{cle_reprise(e, a)}.json"
@@ -398,9 +405,9 @@ def main():
             audio = charger_audio(telecharger_audio(e, tmp, a.max_secondes), a.max_secondes)
             t_dl = time.time() - t1
         except Exception as err:  # noqa: BLE001
-            shutil.rmtree(tmp, ignore_errors=True)
             sys.exit(f"ÉCHEC épisode {i} « {e['titre']} » : {err}")
-        shutil.rmtree(tmp, ignore_errors=True)  # l'audio décodé reste en mémoire seulement
+        finally:  # aussi sur SIGTERM / Ctrl-C : l'audio ne survit jamais à l'étape de décodage
+            shutil.rmtree(tmp, ignore_errors=True)
         secondes = len(audio) / TAUX
         t2 = time.time()
         segments, info = modele.transcribe(audio, language=langue, beam_size=a.beam, vad_filter=True,
