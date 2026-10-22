@@ -9,7 +9,7 @@ Tu es le **titreur / concepteur de miniatures**. Ta seule mission : le clic, hon
 ## Entrée
 Frameworks (`connaissances/frameworks/`) : `bibliotheque-d-emballages.md`, `hook-trois-canaux.md`,
 `intro-proof-promise-plan-et-4c.md`, `assume-nothing.md`, `pre-travail-et-priorites-de-production.md`.
-Principes (`connaissances/principes/`) : `hooks-et-retention.md` (H7 promesse tenue), `production-et-regularite.md`.
+Principes (`connaissances/principes/`) : `hooks-et-retention.md` (H7 promesse tenue), `production-et-regularite.md`, `packaging.md` (à venir).
 
 ## Sortie — `marques/<slug>/05-posts/<post>/titres-miniatures.md` uniquement
 - 15 titres (≤ 60 caractères), familles variées ; top 3 justifié.

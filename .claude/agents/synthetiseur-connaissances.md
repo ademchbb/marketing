@@ -49,6 +49,7 @@ créé qu'à la première fiche qui porte le tag ; « (à venir) » = pas encore
 | `bouche-a-oreille` | `bouche-a-oreille.md` | recommandation, diffusion organique, mécanique de conversation, parrainage |
 | `recherche-client` | `recherche-client.md` | immersion terrain, entretiens clients, test du discours, Jobs To Be Done (JTBD) |
 | `culture-entreprise` | `culture-entreprise.md` | rituels centrés client, valeurs, onboarding ; embaucher et structurer l'équipe = `recrutement-equipe` |
+| `packaging` | `packaging.md` | titres, miniatures, couvertures et couple titre + image avant le clic ; l'accroche une fois la vidéo lancée = `hooks`, titres de page ou de pub = `copywriting` |
 
 ## Règles
 - Les principes partagés par plusieurs experts passent en premier.
