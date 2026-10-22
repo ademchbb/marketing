@@ -292,8 +292,8 @@ def arguments():
     return ap.parse_args()
 
 
-VITESSE = {"tiny.en": 7.0, "base.en": 4.5, "distil-small.en": 3.5, "small.en": 2.4, "small": 2.2,
-           "medium.en": 0.8, "medium": 0.8}  # x temps réel mesurés sur 4 cœurs (README) ; indicatif
+# x temps réel, beam 5, int8, 4 cœurs (mesures du README, 2026-10-22) ; beam 1 : environ x1,8
+VITESSE = {"small.en": 2.34, "distil-small.en": 4.59, "base.en": 5.06}
 
 
 def charger_modele(nom, threads):
@@ -339,7 +339,11 @@ def main():
         sys.exit(f"ERREUR : le modèle {a.modele} ne transcrit que l'anglais ; prendre un modèle multilingue (ex. small)")
 
     total = sum(min(e["duree_s"] or 0, a.max_secondes or 1e12) for e in choix)
-    estime = f"~{ts(total / VITESSE[a.modele])} de calcul estimé sur 4 cœurs" if a.modele in VITESSE else "durée de calcul inconnue"
+    if a.modele in VITESSE:
+        x = VITESSE[a.modele] * (1.8 if a.beam == 1 else 1)
+        estime = f"~{ts(total / x)} de calcul estimé sur 4 cœurs (x{x:.1f} temps réel)"
+    else:
+        estime = "durée de calcul non mesurée pour ce modèle"
     print(f"{len(choix)} épisode(s), {ts(total)} d'audio à transcrire, modèle {a.modele} ({estime}) -> {a.sortie / slug}")
     for i, e in enumerate(choix, 1):
         print(f"  {i:>3}. {(e['date'] or '?')[:10]}  {ts(e['duree_s'] or 0):>8}  {e['titre']}")

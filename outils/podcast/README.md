@@ -86,7 +86,19 @@ partie au début de la partie suivante.
 
 ## Modèle et vitesse mesurée (CPU 4 cœurs, int8, 2026-10-22)
 
-VITESSE_A_REMPLIR
+Mesure : 300 s du début de *$100M Leads* partie 1 (voix lue, anglais), `vad_filter`, `--threads 4`.
+« x2,34 » = 1 h d'audio transcrite en 1 h / 2,34 ≈ 26 min.
+
+| Modèle | Beam | Calcul pour 300 s | Vitesse | Mots | Remarque |
+|---|---|---|---|---|---|
+| `small.en` | 5 | 128 s | **x2,34** | 1 055 | défaut : la meilleure qualité des modèles testés |
+| `small.en` | 1 | 70 s | x4,26 | 1 060 | `--beam 1` : presque deux fois plus rapide ; écart de qualité non mesuré en détail |
+| `distil-small.en` | 5 | 65 s | x4,59 | 997 | perd des mots (−5 %) : déconseillé pour une source de connaissances |
+| `base.en` | 5 | 59 s | x5,06 | 1 057 | plus d'erreurs sur les noms et chiffres ; brouillon rapide seulement |
+
+À ajouter : chargement du modèle (quelques secondes en cache, ~45 s s'il faut le télécharger) et
+téléchargement de l'audio (~3 s pour un épisode de 30 min). Test de bout en bout (60 s) : x2,4.
+Pour 1 h d'audio en `small.en` beam 5 : ≈ 26 min de calcul.
 
 Défaut : **`small.en`, beam 5** — meilleur compromis qualité/vitesse pour de l'anglais parlé clairement
 (livre audio lu par l'auteur). Contenu non anglais : `--modele small` (multilingue, détection automatique ou
