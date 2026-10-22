@@ -57,6 +57,17 @@
   rapporteur. Détail des demandes : `journal/delegations.md`.
 - Règle : vagues de ~10 agents au maximum (20 en parallèle ont épuisé le quota en ~2 h 30).
 
+## Point du 2026-10-22, fin d'après-midi
+- **Toutes les sources sont fichées** : 51 sources (5 intégrées au lot 1, 46 fichées). 63 agents
+  (nouveaux : `redacteur-conditions-vente`, `garde-offres`). Taxonomie de référence unique dans `agents.md`.
+- Registre de vérification : 308 lignes dont le droit des offres (sections H-O). Questions juriste : n° 5.
+- Backlog de 19 expériences prêtes, « en attente de marque » (`experiences/index.md`).
+- **En cours** : grande synthèse par équipes (S1 offre/vente, S2 copy, S3 marque ; S4, S5a, S5b à lancer ;
+  puis S-final = `connaissances/index.md`) — brief `journal/brief-synthese.md` ; extraction frameworks + hooks
+  lot A (lots B, C, D ensuite, séquentiels) ; vérif passes 4a/4b (à fusionner) ; veille YouTube + X ;
+  transcription audio *$100M Offers* (puis *$100M Leads*, puis livre *Money Models*).
+- Règle : vagues de ~10 agents. Détail : `journal/delegations.md`.
+
 ## À faire (dans l'ordre)
 4. `synthetiseur-connaissances` → `connaissances/principes/` + `index.md`.
 5. `cartographe-lacunes` → `connaissances/lacunes.md` ; puis `chercheur-sources` → `sources/a-traiter.md`.

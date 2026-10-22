@@ -66,7 +66,7 @@
 - [ ] [dAJyqo6wnq4 fiche] verificateur-faits (compléments) : phase d'apprentissage et son seuil d'événements ; libellés d'interface Meta depuis janvier 2026.
 - [ ] [dAJyqo6wnq4 fiche] chercheur-sources : quand passer aux tests et à l'échelle sur Meta Ads (seuils budget/conversions/durée, critère d'arrêt) ; vidéos Ben Heath « starting Facebook ads all over again », structure de campagne, omniprésence, pixel + CAPI.
 - [ ] [dAJyqo6wnq4 fiche] cartographe-lacunes : L1 comblée pour le lancement ; restent ouverts tests et mise à l'échelle, optimisation post-lancement, variante e-commerce, installation du suivi.
-- [ ] [dAJyqo6wnq4 fiche] concepteur-experiences : règle interne de passage de la structure 1/1/1 aux tests et de mise à l'échelle du budget (dans `experiences/`).
+- [x] [dAJyqo6wnq4 fiche] concepteur-experiences : règle interne de passage de la structure 1/1/1 aux tests et de mise à l'échelle du budget (dans `experiences/`).
 - Prêtes pour extracteur-hooks / extracteur-frameworks (lot 2) : J6Su5Vx3x5U (fiabilité 4/5 ; 19 frameworks dont Value Conversation, Anchoring Against Guaranteed Value, Discipline for Market + test de la peur, 3 règles de prix).
 - [ ] [J6Su5Vx3x5U fiche] synthetiseur-connaissances : Enns (prix = valeur + risque) vs Hormozi (prix = force de la marque) dans `principes/monetisation-et-offre.md`.
 - Prêtes pour extracteur-frameworks (lot 2) : meta-andromeda (fiabilité 3/5 ; grille E « source / déduction / praticiens » réutilisable).
@@ -107,20 +107,20 @@
 - [ ] [canon] verificateur-faits : chaîne OgilvyGroup01 officielle ? ; rachat de Magnetic Marketing par Brunson ; chiffres de praticiens (Welsh, Koe, clients de Galloway et Raskin, VaynerMedia) ; offre de livres « gratuits + frais de port » de Brunson.
 - Bloqués : marketingbullets.com (Bencivenga, 503), archive des newsletters de Halbert (403). Manque toujours : un ouvrage francophone de rédaction persuasive.
 - [x] [google-abcd-playbook] fiche faite (3/5). MAJ de la fiche article : déjà faite.
-- [ ] [google-abcd-playbook] concepteur-experiences : tests autorisés chez Sillage (signature d'effets sonores vs aucune, nom dit en voix off vs texte seul, substitut au visage en notoriété) ; musique exclue.
+- [x] [google-abcd-playbook] concepteur-experiences : tests autorisés chez Sillage (signature d'effets sonores vs aucune, nom dit en voix off vs texte seul, substitut au visage en notoriété) ; musique exclue.
 - [ ] [google-abcd-playbook] verificateur-faits : relire p. 18, 22, 23, 24 du PDF (textes de vignettes lus une fois).
 - Règle proposée (à arbitrer par synthetiseur) : quelques notes ou un nom chanté = musique ; un nom dit avec un rythme marqué = permis.
 - [x] verificateur-faits passe 2 B2B fait (51 : 10 ✅ 22 🟡 4 ❌ 15 ❓) → consolidateur-fiche (corrections pILj7t-qQhs et hdjlCLb9Hl8) et extracteur-pdf (playbook ScaleVP) lancés.
 - [ ] [passe-2-b2b] chercheur-sources : Gartner (groupes d'achat, no decision), *The JOLT Effect* (56/44), *Value-Based Fees* (20 %), *Pricing Creativity* (nb de règles), Quote Investigator (Buffett), benchmarks d'agence indépendants (SoDA, Promethean, David C. Baker).
 - [ ] [passe-2-b2b] extracteur-social : profils LinkedIn publics (Kacie Jenkins, Alec Paul, Alison Coleman, John Burke Becker, Ruby James) + post de Gal Aga — basse priorité (noms secondaires).
 - [ ] [passe-2-b2b] synthetiseur-connaissances : nuance « no decision = surtout de l'indécision » + confrontation Dunford / category design / ABM avec les tailles de comité vérifiées.
-- [ ] [passe-2-b2b] concepteur-experiences : « TLA puis Message Ad » vs « Message Ad seul » avec groupe témoin.
+- [x] [passe-2-b2b] concepteur-experiences : « TLA puis Message Ad » vs « Message Ad seul » avec groupe témoin.
 - [ ] [passe-2-b2b] verificateur-faits : relancer PB02-PB04 après extraction du playbook ScaleVP.
 - [x] verificateur-faits passe 2 publicité fait (54 : 12 ✅ 27 🟡 2 ❌ 13 ❓) → consolidateur-fiche (corrections meta-andromeda, qBxEAqZbHVg, dAJyqo6wnq4) lancé ; compléments envoyés à veilleur-algorithmes (meta-ads.md).
 - [ ] [passe-2-publicite] extracteur-web : pages Meta Business Help Center (112167992830700 phase d'apprentissage, 204798856225114 vérification, devise/fuseau, description par placement, Creative testing) — rendu JS illisible pour WebFetch : tenter un navigateur headless (Playwright/Chromium préinstallé), sinon abandon.
 - [ ] [passe-2-publicite] garde-conformite : aucune pub Meta sur un sujet social, électoral ou politique dans l'UE depuis le 06/10/2025 ; déclarer toute campagne finance/emploi/logement.
 - [ ] [passe-2-publicite] chercheur-sources : rapport Kantar complet ABCD ; étude NCSolutions (2017, 2023) ; benchmark CPM France non commercial ; billet Meta « 4,52 $ / +22 % ».
-- [ ] [passe-2-publicite] concepteur-experiences : relevé du CPM réel des premiers comptes ; Advantage+ vs manuel et volume de créatives.
+- [x] [passe-2-publicite] concepteur-experiences : relevé du CPM réel des premiers comptes ; Advantage+ vs manuel et volume de créatives.
 - [x] architecte-agents : `developpeur-outils` créé (61 agents) → developpeur-outils lancé sur `outils/podcast/` (RSS The Game, faster-whisper, test 60 s).
 - [ ] ensuite : transcripteur-audio sur *$100M Offers*, *$100M Leads* (et Money Models audio si la vidéo 6_CCutkM11g échoue) ; reporter les commandes dans CLAUDE.md.
 - [x] [barometre] consolidateur-fiche lancé.
@@ -188,7 +188,7 @@
 - [x] Andy Raskin : notes faites → consolidation lancée. [ ] chercheur-sources : « The Greatest Sales Deck I've Ever Seen » (Raskin), « Goodbye Product, Hello Movement », *Story* de McKee.
 - [x] Fiches Al Ries (3/5) et Cialdini (3/5, priming fragile, tactiques = hypothèses à tester) faites.
 - [ ] Décision orchestrateur = OUI, nouveaux tags : `relations-presse`, `identite-visuelle`, `psychologie-persuasion`, `ethique-influence` → architecte-agents (consolidateur-fiche + synthetiseur) à la prochaine passe.
-- [ ] [Cialdini] concepteur-experiences : slide alignée avant CTA vs neutre ; demande de conseil vs d'avis en prospection ; créneau saisi par la personne vs imposé.
+- [x] [Cialdini] concepteur-experiences : slide alignée avant CTA vs neutre ; demande de conseil vs d'avis en prospection ; créneau saisi par la personne vs imposé.
 - [x] Hormozi vente p1 et p2 lancées (vague 2).
 - [x] Hopkins p2 faite (consolidation quand p1 rend ; priorité vérif : caféine p. 55, positif/négatif 4 contre 1). Hormozi vente p3 lancée.
 - [x] Fiches faites : Kotler (4/5), StoryBrand (3,5/5), vente nte_k2hPXR0 (3,5/5). Notes faites : Hopkins p1, Galloway p1.
@@ -248,7 +248,7 @@ Leçon : 20 agents en parallèle épuisent le quota en ~2 h 30. Vagues de ~10 ag
 - [x] Russell Brunson : notes faites → fiche lancée. Katana négociation et Hormozi Leads p1 lancés.
 - [x] Séguéla : notes faites → fiche lancée.
 - [x] Fiche Jonah Berger faite (4/5, STEPPS, framework J Godin↔Berger). Hormozi Leads p2 lancée.
-- [x] Fiche Chris Voss faite (3,5/5). [ ] concepteur-experiences : CTA/hooks orientés « non » vs orientés « oui » (tension Voss / Despas). Dan Koe p3 lancée.
+- [x] Fiche Chris Voss faite (3,5/5). [x] concepteur-experiences : CTA/hooks orientés « non » vs orientés « oui » (tension Voss / Despas). Dan Koe p3 lancée.
 - [x] Page de vente Marketing Mania : notes faites → fiche lancée. [ ] chercheur-sources : texte original de l'annonce MagicStat / Magic Baloney (Sugarman, 1983) + écrits de Sugarman sur les défauts avoués.
 - [x] Dan Koe p1 faite (fiche quand p2-p3 rendent ; tension Koe 2024 / Welsh 2026 sur l'information banalisée par l'IA → synthèse).
 - [x] developpeur-outils fait : outils podcast (lister + transcrire, reprise par épisode, vocabulaire), decouper.py accepte sources/podcast/ ; « trou de 30 s » = simple affichage (aucun texte perdu), corrigé ; transcrire.py YouTube nettoie le HTML. Commandes reportées dans CLAUDE.md.
@@ -303,3 +303,10 @@ Leçon : 20 agents en parallèle épuisent le quota en ~2 h 30. Vagues de ~10 ag
   - [ ] S5b audience et plateformes (croissance-audience, linkedin, x-twitter, personal-branding, communaute, equipe-et-organisation).
   - [ ] S-final : `connaissances/index.md` + tensions transverses (niche ou pas, catégorie Dunford vs Ries, communautés vs masse, Koe vs Welsh sur l'IA, audio de marque sans musique…) ; puis archiviste (carte des fichiers).
 - [x] architecte-agents : **`garde-offres` créé** (63 agents) ; garde-conformite ramené à 60 lignes ; controleur-qualite exige le feu vert garde-offres si offre ; publicateur idem pour les pubs ; renvois courts chez 7 rédacteurs/idéateurs. CLAUDE.md : pipeline post mis à jour (garde-conformite → garde-offres si offre).
+- [x] concepteur-experiences : **19 protocoles** « en attente de marque » + `experiences/index.md` (top 3 : règle Meta de passage aux tests et de budget ; intro preuve d'abord vs promesse d'abord ; relevé du CPM des premiers comptes). Demandes :
+  - [ ] verificateur-faits + veilleur-algorithmes : Sponsored Messaging LinkedIn diffusable dans l'UE ? taille minimale d'audience téléversée (prérequis test 17).
+  - [ ] veilleur-algorithmes (meta-ads) : test A/B natif (libellés, confiance, durées), étude « ad recall lift » (éligibilité, budget), coupure d'Advantage+ creative en Creative testing.
+  - [ ] architecte-agents : `redacteur-prospection` (premier contact et relances B2B, CNIL, CPF) ou confirmation que redacteur-newsletter / redacteur-linkedin couvrent.
+  - [ ] developpeur-outils (basse priorité) : `outils/experiences/` tirage au sort reproductible (graine consignée).
+  - [ ] verificateur-faits : NHS −18 % (Martin et al. 2012) et étude conseil vs avis (réplication).
+  - [ ] concepteur-experiences lot 2 : idées de `principes/hooks-et-retention.md` (D1, D2, voix off) et `veille/plateformes/linkedin.md` §8.

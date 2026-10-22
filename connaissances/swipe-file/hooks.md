@@ -370,7 +370,8 @@ Voir aussi les objections énoncées en milieu de script (familles 6 et 10).
 
 Pas des hooks de contenu : des phrases d'appel, de rendez-vous ou de pitch, réutilisables par l'agence pour
 vendre ses prestations et par les marques promues qui vendent des services. Trames complètes dans
-`structures.md` (V1, V2).
+`structures.md` (V1, V2, et V6 pour l'appel CLOSER du lot 3). Les closes de pression des mêmes sources ne sont pas ici :
+ils sont listés dans « Hooks interdits ou bloqués : procédés de vente directe ».
 
 | Formule | Exemple original | Mécanisme | Format idéal | Premium sobre ? | Source |
 |---|---|---|---|---|---|
