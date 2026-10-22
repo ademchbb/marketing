@@ -240,3 +240,4 @@ Leçon : 20 agents en parallèle épuisent le quota en ~2 h 30. Vagues de ~10 ag
 - [ ] [Voss] chercheur-sources : source primaire sur la reformulation en miroir et les questions calibrées (absentes de la vidéo).
 - [ ] [Berger] chercheur-sources : source plus complète sur STEPPS (visibilité publique, valeur pratique, émotion « awe »).
 - [x] Dave Trott : notes faites → fiche lancée. Note : chapitres metadata.json de rl3SELihHqs décalés après 15:00 (bug d'extraction ? à signaler à developpeur-outils).
+- [x] Kapferer : notes faites → fiche lancée. [ ] chercheur-sources : Kapferer sur le prisme d'identité, *Luxe oblige*, capital de marque (L6).
