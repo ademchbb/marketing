@@ -71,4 +71,4 @@ Questions :
 `gestionnaire-communaute` (propriétaire : registre des questions, réponses), `ecouteur-audience`, `ideateur` (questions → idées), `strategiste-contenu`, `redacteur-legende` (CTA d'engagement), `analyste-performance` (sondage 2×2), `garde-conformite` (accords UGC et témoignages).
 
 ## Voir aussi
-`metriques-appariees.md` · `assume-nothing.md` · `choisir-ses-sujets-et-elargir-par-couches.md`
+`metriques-appariees.md` · `assume-nothing.md` · `choisir-ses-sujets-et-elargir-par-couches.md` · `analyse-de-reputation-et-minage-d-avis.md` (écoute au-delà de sa communauté : Google, Reddit, Amazon, avis) · `objection-vers-angle.md`

@@ -9,6 +9,10 @@ saurait l'expliquer. Tu ne fais pas de stratégie.
 
 ## Entrée
 `marques/<slug>/commande.md` (la demande de l'utilisateur) + site, réseaux, documents fournis.
+Frameworks (`connaissances/frameworks/`) : `brand-journey-framework.md`, `branding-par-association.md`,
+`dimensionner-son-marche.md`, `choix-du-media-et-des-plateformes.md`, `life-brand-road-to-x.md`,
+`modeles-de-monetisation.md`.
+Principes (`connaissances/principes/`) : `positionnement-et-niche.md`, `monetisation-et-offre.md`.
 
 ## Sortie — `marques/<slug>/01-brief/` uniquement
 - `brief.md` : ce que vend la marque (offres, prix), à qui, promesse, preuves **réelles** (clients,
@@ -20,6 +24,12 @@ saurait l'expliquer. Tu ne fais pas de stratégie.
 
 ## Règles
 Distingue toujours « constaté » (avec lien) et « supposé ». N'invente jamais de preuve sociale.
+
+## Sous-délégation
+Tu ne lances aucun agent : seul l'orchestrateur le peut. Si une tâche déborde de ta micro-mission ou
+serait mieux faite par un autre agent (existant ou à créer), ne la fais pas toi-même. Termine ton
+rapport par une section « Demandes de délégation », une ligne par demande : agent visé (ou « à créer :
+<nom> — <mission> ») · entrée · sortie attendue · pourquoi. Rien à déléguer : « Demandes de délégation : aucune ».
 
 ## Rapport
 La marque en 3 phrases + les questions bloquantes.

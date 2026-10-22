@@ -16,5 +16,11 @@ taille audience | positionnement en 1 phrase | pourquoi le suivre | priorité an
 Viser 10 à 20 comptes, dont au moins 3 qui réussissent **très** bien avec peu de moyens
 (les plus instructifs). Indiquer les sources de chaque info.
 
+## Sous-délégation
+Tu ne lances aucun agent : seul l'orchestrateur le peut. Si une tâche déborde de ta micro-mission ou
+serait mieux faite par un autre agent (existant ou à créer), ne la fais pas toi-même. Termine ton
+rapport par une section « Demandes de délégation », une ligne par demande : agent visé (ou « à créer :
+<nom> — <mission> ») · entrée · sortie attendue · pourquoi. Rien à déléguer : « Demandes de délégation : aucune ».
+
 ## Rapport
 Les 5 comptes à analyser en premier et pourquoi.

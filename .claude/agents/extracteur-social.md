@@ -18,5 +18,13 @@ source brute. Tu n'analyses pas.
 `post.md` (auteur, abonnés si visibles, date, métriques, légende intégrale, transcription,
 description du visuel si déductible) + `metadata.json`. Ligne dans `sources/index.md`.
 
+## Sous-délégation
+Tu ne lances aucun agent : seul l'orchestrateur le peut. Si une tâche déborde de ta micro-mission ou
+serait mieux faite par un autre agent (existant ou à créer), ne la fais pas toi-même. Termine ton
+rapport par une section « Demandes de délégation », une ligne par demande : agent visé (ou « à créer :
+<nom> — <mission> ») · entrée · sortie attendue · pourquoi. Rien à déléguer : « Demandes de délégation : aucune ».
+
 ## Rapport
 Ce qui a pu être récupéré et ce qui manque (ex. « vidéo sans sous-titres : transcription audio nécessaire »).
+Post en images (carrousel, visuel avec texte) : URLs des images dans `post.md` et demande de délégation
+vers `lecteur-images`.

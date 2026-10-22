@@ -71,4 +71,4 @@ Les noter (`critique-hook`) et en tester 2 si possible (`concepteur-experiences`
 `redacteur-hooks` (propriétaire), `critique-hook` (grille : clarté, 3 canaux alignés, test de l'inconnu), `scenariste-reel`, `directeur-creatif-visuel` (hook visuel), `titreur-miniatures`, `redacteur-ads`, `pont-motion-design` (le premier plan doit arrêter le scroll), `simulateur-audience`.
 
 ## Voir aussi
-`echelle-de-specificite.md` · `broad-narrow-niche.md` · `bibliotheque-d-emballages.md` · `intro-proof-promise-plan-et-4c.md`
+`echelle-de-specificite.md` · `broad-narrow-niche.md` · `bibliotheque-d-emballages.md` · `intro-proof-promise-plan-et-4c.md` · `abcd-pub-video.md` (le « A » de Google rejoint ce framework ; tension : Google juge YouTube « almost entirely a sound-on experience », alors qu'ici le visuel prime parce qu'on regarde souvent sans le son — les deux valent selon la plateforme)

@@ -67,21 +67,25 @@ outils/          scripts (transcription YouTube, découpe, etc.)
 ## Commandes
 
 ```bash
-pip install yt-dlp youtube-transcript-api          # une fois
-python3 outils/youtube/transcrire.py <url> [<url>…] # -> sources/youtube/<id>/
-python3 outils/youtube/decouper.py <id> 15000       # -> sources/youtube/<id>/parties/
+pip install -q -r outils/youtube/requirements.txt -r outils/podcast/requirements.txt   # une fois
+python3 -I outils/youtube/transcrire.py <url> [<url>…] [--sortie <dossier>]            # -> sources/youtube/<id>/
+python3 -I outils/youtube/decouper.py <id | sources/podcast/<slug>> 15000              # -> <source>/parties/
+python3 -I outils/podcast/lister.py <flux-rss> --motif '<regex>' --ordre titre --urls  # liste/filtre les épisodes
+python3 -I outils/podcast/transcrire.py <flux-rss> --motif '<regex>' --slug <slug> --vocabulaire '<noms>' --travail <scratchpad>/travail --oui   # -> sources/podcast/<slug>/ (relancer la même commande si coupée)
 ```
+Détails : `outils/youtube/README.md`, `outils/podcast/README.md` (propriétaire : `developpeur-outils`).
 
 ## Pipelines types (détail dans `agents.md`)
 
-- **Apprendre d'une vidéo / d'un lien** : extracteur → (découpe) → analyste-transcription ×N
+- **Apprendre d'une vidéo / d'un lien / d'un PDF** : extracteur (youtube / web / social / pdf) → (découpe) → analyste-transcription ×N
   → consolidateur-fiche → extracteur-hooks + extracteur-frameworks + verificateur-faits
   → synthetiseur-connaissances → cartographe-lacunes → chercheur-sources.
 - **Promouvoir une marque** : analyste-marque → veilleur-concurrence → analyste-concurrent ×N
   → ecouteur-audience → architecte-persona → strategiste-positionnement → strategiste-contenu
+  → strategiste-offre → redacteur-conditions-vente (toute offre payante, validée par l'utilisateur)
   → planificateur-calendrier → (par post) ideateur → redacteur-hooks → critique-hook
   → scenariste-reel / redacteur-carrousel / redacteur-linkedin… → redacteur-legende
-  → specialiste-seo-social → correcteur → garde-conformite → simulateur-audience
-  → controleur-qualite-marketing (veto) → validation utilisateur → publicateur.
+  → specialiste-seo-social → correcteur → garde-conformite → garde-offres (si le contenu contient une offre)
+  → simulateur-audience → controleur-qualite-marketing (veto) → validation utilisateur → publicateur.
 - **Apprendre de ses résultats** : predicteur-performance (avant) → analyste-performance
   (après) → analyste-resultats → mise à jour de `experiences/apprentissages.md`.

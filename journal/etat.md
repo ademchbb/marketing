@@ -1,7 +1,8 @@
 # État de l'agence — file de tâches
 
 > Toute session ou reprise commence ici. Mettre à jour après chaque étape, puis commit + push
-> sur la branche `claude/stoic-brown-bol5m5` (repo `ademchbb/marketing`).
+> sur la branche `claude/marketing-agent-hierarchy-gm2c4k` (repo `ademchbb/marketing`).
+> (Ancienne branche de travail : `claude/stoic-brown-bol5m5`.)
 
 ## Contexte
 - 2026-10-19 ~23h30 (heure FR) : l'utilisateur crée l'agence. Il envoie 5 vidéos (personal branding,
@@ -27,6 +28,45 @@
 - [ ] `chercheur-sources` → `sources/a-traiter.md`
 - [ ] ensuite : 1 synthétiseur pour `connaissances/index.md` + désaccords transverses ; `architecte-agents` (renvois agents → frameworks, règle tiret long) ; `rapporteur`
 - [x] 4 × `veilleur-algorithmes` → `veille/plateformes/{instagram,tiktok,youtube,linkedin}.md`
+
+## Session du 2026-10-21 (demande : « te former au maximum, hiérarchie stricte d'agents »)
+- Vérifié : un sous-agent n'a pas l'outil Agent → la sous-délégation passe par l'orchestrateur
+  (section « Demandes de délégation » à la fin de chaque rapport).
+- [x] Lot 2 découpé (`decouper.py`) : 6 vidéos, 7 parties + 4 sources web.
+- [x] 8 × `analyste-transcription` sur le lot 2 → 10 notes
+- [x] 10 × `consolidateur-fiche` → 10 fiches
+- [ ] extracteur-hooks, extracteur-frameworks, 3 × verificateur-faits (passe 2) — lancés
+- [x] `architecte-agents` : section « Sous-délégation » dans tous les agents, hiérarchie dans `agents.md`,
+      règle tiret long, renvois frameworks/principes (lancé)
+- [x] `chercheur-sources` : « Lot 3 — Canon du marketing » (33 sources C1-C33) (Hormozi, Ogilvy, Schwartz, Cialdini, Ries & Trout,
+      Sharp, Godin, Sutherland…) + programme de formation dans `sources/a-traiter.md` (lancé)
+- [x] `architecte-agents` : créés `extracteur-pdf` et `lecteur-images` (60 agents) ; lecteur-images lancé sur ABCD
+- [ ] 4 × `extracteur-pdf` (ABCD, Binet & Field, Baromètre 2026, Hopkins) lancés
+- Délégations demandées par les agents : `journal/delegations.md`
+- ensuite : → hooks/frameworks/vérif → synthétiseur (principes + `index.md`)
+  → `extracteur-youtube` sur le lot 3 (30 vidéos, lancé) → même pipeline.
+
+## Reprise du 2026-10-22 (après coupure de quota vers 02 h UTC)
+- Vague 1 relancée (10 agents) : fiches Hormozi vente, Galloway, Doctolib ; architecte-agents (tags, droit, QA) ;
+  correction du framework conformité ; developpeur-outils (podcast) ; vérif passe 3 droit des offres ;
+  Money Models p2-p3 ; Boron p2.
+- File restante : Money Models p4-p6 → fiche ; Boron p3 → fiche ; 12 vidéos du lot B en 1 partie
+  (OgRgbar2dOQ, guZa7mQV1l0, DJLtwT1Z0eo, FN4eDk1pq6U, 1N2XALudegQ, Ge8xTCIP0Zw, rl3SELihHqs, Br2KSsaTzUc,
+  buAY7UtjCb4, IWuVEcQexWo, rPZG5xfN7vI, aGI7puAXf6w) ; MrBeast ×2 ; Dan Koe ×3 ; Hormozi Leads ×2 ;
+  puis extracteur-hooks/frameworks (canon), vérif passe 3 (chiffres du canon), synthèse, cartographe-lacunes,
+  rapporteur. Détail des demandes : `journal/delegations.md`.
+- Règle : vagues de ~10 agents au maximum (20 en parallèle ont épuisé le quota en ~2 h 30).
+
+## Point du 2026-10-22, fin d'après-midi
+- **Toutes les sources sont fichées** : 51 sources (5 intégrées au lot 1, 46 fichées). 63 agents
+  (nouveaux : `redacteur-conditions-vente`, `garde-offres`). Taxonomie de référence unique dans `agents.md`.
+- Registre de vérification : 308 lignes dont le droit des offres (sections H-O). Questions juriste : n° 5.
+- Backlog de 19 expériences prêtes, « en attente de marque » (`experiences/index.md`).
+- **En cours** : grande synthèse par équipes (S1 offre/vente, S2 copy, S3 marque ; S4, S5a, S5b à lancer ;
+  puis S-final = `connaissances/index.md`) — brief `journal/brief-synthese.md` ; extraction frameworks + hooks
+  lot A (lots B, C, D ensuite, séquentiels) ; vérif passes 4a/4b (à fusionner) ; veille YouTube + X ;
+  transcription audio *$100M Offers* (puis *$100M Leads*, puis livre *Money Models*).
+- Règle : vagues de ~10 agents. Détail : `journal/delegations.md`.
 
 ## À faire (dans l'ordre)
 4. `synthetiseur-connaissances` → `connaissances/principes/` + `index.md`.

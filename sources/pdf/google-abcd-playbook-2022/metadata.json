@@ -1,0 +1,25 @@
+{
+  "url": "https://www.thinkwithgoogle.com/_qs/documents/15987/ABCDs_PDFPlaybook_April2022_Final.pdf",
+  "titre": "ABCD — Mastering the art of effective storytelling on YouTube",
+  "auteur": "Google / YouTube (aucun auteur nommé)",
+  "editeur": "Think with Google",
+  "date": "2022-04",
+  "langue": "en",
+  "pages": 25,
+  "mots": 3803,
+  "mots_texte_original_extrait": 1743,
+  "parties": 1,
+  "outil": "pdftotext (poppler) + pdftoppm (rendu PNG 1600 px de large) + lecture visuelle des 25 pages",
+  "extrait_le": "2026-10-21",
+  "decalage_pagination": 0,
+  "droits": {
+    "statut": "diffusion-officielle-gratuite",
+    "licence": "Tous droits réservés Google ; consultation et téléchargement gratuits",
+    "justification": "Playbook publié gratuitement par Google sur son propre site Think with Google (thinkwithgoogle.com), sans inscription ni paiement ; c'est le PDF lié depuis l'article officiel Think with Google sur les ABCD."
+  },
+  "pages_image": [1, 6, 10, 15, 20],
+  "pages_lues_visuellement": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25],
+  "pages_sans_texte": [],
+  "pages_avec_exemples_en_image": [5, 7, 8, 9, 12, 13, 14, 17, 18, 19, 22, 23, 24],
+  "source_liee": "sources/web/google-abcd-youtube-ads/"
+}

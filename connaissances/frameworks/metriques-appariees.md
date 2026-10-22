@@ -12,6 +12,8 @@
   - accepter 30 à 40 % de vues en moins pour mieux convertir [01:23] ;
   - 2 à 4 métriques qui changent une décision [03:07].
 - **Caleb Ralston**, *START* : les 3 signaux de résonance d'une croyance (voir `croyance-contrarienne-et-brand-statement.md`) ; écouter les clients en privé pour une offre premium [fiche:uJ8Pg6t_iho].
+- **Blair Enns** : distinguer indicateur **avancé** (leads générés, qu'on contrôle) et indicateur **retardé** (ventes, profit) ; n'indexer une part variable que sur l'avancé [fiche:J6Su5Vx3x5U framework H] (voir `ancrage-sur-valeur-garantie.md`).
+- **Coudac** : au-dessus des KPI de contenu, la vérité business de la pub est le **coût d'acquisition des nouveaux clients** (CAC blended) [fiche:qBxEAqZbHVg] (voir `cac-blended-et-mesure-du-mix.md`).
 - **Ava Yuergens** : mettre le tracking de conversion dès le départ (elle ne suivait pas les conversions de ses ~500 clics par jour) [fiche:HzoQgQS8czE 21].
 - Fiabilité :
   - 4/5 ;
@@ -72,4 +74,4 @@ Chaque KPI de volume a son KPI de qualité : leads + taux de closing, posts publ
 `analyste-performance` (propriétaire), `strategiste-contenu` (choix des KPI), `strategiste-offre` (indicateur avancé), `predicteur-performance`, `analyste-resultats`, `gestionnaire-communaute` (qualifier les commentaires et DM), `rapporteur`, `strategiste-ads`.
 
 ## Voir aussi
-`multiplier-sheet.md` · `dimensionner-son-marche.md` · `funnel-cta-commentaire.md`
+`multiplier-sheet.md` · `dimensionner-son-marche.md` · `funnel-cta-commentaire.md` · `cac-blended-et-mesure-du-mix.md` · `lecture-de-compte-hierarchie-gold-bronze.md`

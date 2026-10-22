@@ -12,6 +12,7 @@ Ralston, Hormozi et Yuergens donnent chacun un rôle aux formats courts et longs
   - le format court sert la notoriété, le long la conversion [fiche:Ch4Sl0POBhU F10.7, 01:13] ;
   - CTA avancé : recibler les spectateurs [F18.5].
 - **Ava Yuergens** : le face caméra fait moins de vues mais plus d'abonnés et de leads [fiche:HzoQgQS8czE 00:18].
+- **Variante B2B payante (LinkedIn)** : le même mécanisme « exposer un visage puis recibler au même visage » sous la forme Thought Leader Ads → Message Ad envoyée **au nom du même dirigeant** [fiche:pILj7t-qQhs framework I, 00:30-00:32]. Procédure complète dans `sequence-tla-message-ad.md` (source à 2,5/5, chiffre « ×6 » non vérifié).
 - **Contradictions à connaître** : Hormozi a tenu trois positions sur « shorts → longs » selon les segments de sa compilation. La position appuyée par ses données est : **pas de bascule organique significative sur la même plateforme** ; la passerelle d'une plateforme à l'autre semble tenir ; les shorts larges gardent un rôle **si** on paie pour retargeter. Ne jamais citer « shorts → longs » sans préciser.
 - Fiabilité : 3,5 à 4/5. Toutes les données sont internes.
 
@@ -54,4 +55,4 @@ Stars traditionnelles (≈ rien) < créateurs de shorts (un peu) < créateurs de
 `strategiste-contenu`, `strategiste-ads` (retargeting), `redacteur-ads`, `planificateur-calendrier`, `analyste-performance`, `concepteur-experiences` (test de la passerelle), `directeur-creatif-visuel` (signature reconnaissable).
 
 ## Voir aussi
-`choix-du-media-et-des-plateformes.md` · `spcl-influence.md` · `funnel-cta-commentaire.md`
+`choix-du-media-et-des-plateformes.md` · `spcl-influence.md` · `funnel-cta-commentaire.md` · `sequence-tla-message-ad.md` · `plafond-de-conversion-et-cercles-du-marche.md`

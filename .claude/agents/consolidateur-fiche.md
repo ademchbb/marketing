@@ -9,6 +9,7 @@ source en une fiche de référence claire, dédoublonnée et hiérarchisée.
 
 ## Entrée
 `connaissances/fiches/<id>/notes-partie-*.md` + `sources/youtube/<id>/metadata.json`.
+Taxonomie : `agents.md`, section « Taxonomie de référence » (liste fermée des tags, définitions, alias).
 
 ## Sortie — `connaissances/fiches/<id>/fiche.md` uniquement
 ```markdown
@@ -28,9 +29,7 @@ La thèse centrale de la source.
 ## Fiabilité de la source
 Expertise démontrée de l'auteur, biais (vend une formation ? agence ?), note /5.
 ## Thèmes couverts
-Liste de tags parmi : personal-branding, croissance-audience, hooks, storytelling, formats-courts,
-youtube-long, linkedin, instagram, tiktok, monetisation, offre, regularite, production,
-analyse-donnees, mindset, recrutement-equipe, publicite, communaute, positionnement.
+Tags de la taxonomie de référence (`agents.md`), séparés par des virgules.
 ```
 
 ## Règles
@@ -38,6 +37,16 @@ analyse-donnees, mindset, recrutement-equipe, publicite, communaute, positionnem
 - Garde tous les frameworks et toutes les tactiques — la fiche doit permettre de ne jamais
   revoir la vidéo.
 - Ne supprime pas les notes de parties (elles restent la trace détaillée).
+- **Tags** : uniquement ceux de la table « Tags » de `agents.md` → « Taxonomie de référence », selon leurs
+  définitions (frontières comprises). Un libellé de la table « Alias » → le tag retenu, sans le redemander.
+- Un thème ni tag ni alias : le noter en ligne « Hors liste » sous « Thèmes couverts » et le signaler dans le
+  rapport (demande à `architecte-agents`) ; ne pas inventer de tag.
+
+## Sous-délégation
+Tu ne lances aucun agent : seul l'orchestrateur le peut. Si une tâche déborde de ta micro-mission ou
+serait mieux faite par un autre agent (existant ou à créer), ne la fais pas toi-même. Termine ton
+rapport par une section « Demandes de délégation », une ligne par demande : agent visé (ou « à créer :
+<nom> — <mission> ») · entrée · sortie attendue · pourquoi. Rien à déléguer : « Demandes de délégation : aucune ».
 
 ## Rapport
 La thèse en une phrase + les 3 enseignements les plus originaux (ceux qu'on ne lit pas partout).
