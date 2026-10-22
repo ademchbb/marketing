@@ -250,3 +250,4 @@ Leçon : 20 agents en parallèle épuisent le quota en ~2 h 30. Vagues de ~10 ag
 - [x] Fiche Jonah Berger faite (4/5, STEPPS, framework J Godin↔Berger). Hormozi Leads p2 lancée.
 - [x] Fiche Chris Voss faite (3,5/5). [ ] concepteur-experiences : CTA/hooks orientés « non » vs orientés « oui » (tension Voss / Despas). Dan Koe p3 lancée.
 - [x] Page de vente Marketing Mania : notes faites → fiche lancée. [ ] chercheur-sources : texte original de l'annonce MagicStat / Magic Baloney (Sugarman, 1983) + écrits de Sugarman sur les défauts avoués.
+- [x] Dan Koe p1 faite (fiche quand p2-p3 rendent ; tension Koe 2024 / Welsh 2026 sur l'information banalisée par l'IA → synthèse).
