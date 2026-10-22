@@ -130,7 +130,30 @@ Autres corrections utiles :
 - Les chiffres 90 % et 7 % sont dans le **décret** 2026-233 ; l'**arrêté** du 26/05/2026 ne fixe que la phrase et le lien ou mot dièse (JI09-JI10).
 - Il y a **6** catégories de promotions interdites propres aux influenceurs, pas 7 (JI02).
 - Les art. 4 et 5 ne s'appliquent pas à un créateur établi dans un autre pays de l'EEE (JI16).
-- Les promotions interdites sont sanctionnées pénalement (renvoi à L. 132-2 C. conso) ; la fiche disait « non précisé » (JI04).
+- Les promotions interdites sont sanctionnées pénalement (renvoi à L. 132-2 C. conso) ; la fiche disait « non précisé » (JI04). Montant lu en passe 3 : voir OP08.
+
+#### Droit des offres (passe 3)
+1. **« "Satisfait ou remboursé 14 jours", c'est un argument de vente »** (OG01). Pour une vente en ligne, c'est le droit
+   légal de rétractation. Le présenter comme un avantage propre à la marque est une pratique **réputée trompeuse**
+   (L. 121-4, 10°), sans même qu'il faille prouver une tromperie. Seule une garantie **plus large** que la loi, présentée
+   comme un ajout, est un argument.
+2. **« En B2B, la fausse rareté et la fausse urgence ne tombent pas sous le droit de la consommation »** (OU04). Faux :
+   L. 121-5 étend les pratiques trompeuses (L. 121-2 à L. 121-4) aux pratiques qui visent les professionnels. Les scripts
+   de Priestley (« 200 personnes sur la liste », « deux tiers refusés ») doivent être vrais en B2B comme en B2C. Le régime
+   B2B souple de la CNIL (JP02) ne concerne que le consentement à la prospection, pas la vérité du message.
+3. **« Le prix barré, c'est le dernier prix ou la "valeur" du pack »** (OP01, OP03, OP06). Faux : c'est le prix **le plus
+   bas réellement pratiqué pendant 30 jours** (CJUE *Aldi Süd*, 26/09/2024), y compris pour une « mention » qui vante
+   l'avantage du prix. « Valeur totale 2 000 €, aujourd'hui 297 € » avec une valeur jamais pratiquée est un faux prix de
+   référence. Et un produit **nouveau** n'a aucune exemption en France.
+
+Autres corrections utiles :
+- Une prévente annulée sans clause écrite expose la marque à rendre **le double** (arrhes, L. 214-1) (OV03).
+- Depuis le 19/06/2026, toute vente en ligne doit offrir une **fonctionnalité de rétractation** gratuite (L. 221-21,
+  ord. 2026-2) (OV05).
+- Pour l'enrichissement de leads, l'information se fait **au plus tard dans le mois ou au premier contact** (art. 14),
+  en indiquant la source ; et des coordonnées que la personne a masquées ne se collectent pas (KASPR) (OD01-OD02).
+- Une fausse urgence diffusée en ligne est punie jusqu'à **5 ans et 750 000 €** pour une personne physique (L. 132-2,
+  3e alinéa) (OP08).
 
 ---
 
