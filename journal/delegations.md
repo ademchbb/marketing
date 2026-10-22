@@ -218,3 +218,4 @@ Leçon : 20 agents en parallèle épuisent le quota en ~2 h 30. Vagues de ~10 ag
 - [x] architecte-agents (reprise) fait : 12 tags dans consolidateur + synthétiseur (tableau tag → principes) ; règles juridiques dans 5 agents ; controleur-qualite étendu aux pubs et emails (veto < 85 ou sans feu vert conformité) ; publicateur exige le verdict QA ; archiviste propriétaire de marques/_modele/.
 - Décision orchestrateur : OUI, étendre `correcteur` aux pubs (`10-ads/relecture-<campagne>.md`) et emails (`emails/<sequence>/relecture.md`) + pipeline 3 bis → prochaine passe architecte (avec les tags recherche-client et culture-entreprise si non faits, et garde-conformite → citer `registre.md` sections E-G).
 - [x] archiviste (gabarit + carte des fichiers) et Money Models p6 lancés.
+- [x] Tags recherche-client et culture-entreprise ajoutés. architecte-agents (correcteur pubs/emails + garde-conformite → registre et passe-3) et Boron p3 lancés.
