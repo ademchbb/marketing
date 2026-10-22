@@ -188,6 +188,32 @@ Source nouvelle : le playbook LinkedIn × Scale VP, extrait après la passe B2B 
 | TB18 | ❓ | ❓ (inchangé) | Le PDF cite Arvind Jain pour Glean (p. 3, p. 9), pas Alison Coleman. |
 | CB01 | 🟡 | 🟡 (inchangé) | Citation de Gal Aga reproduite p. 5 ; chiffres toujours autodéclarés. |
 
+### Entre la passe 3 et les passes 1-2 (fusion du 2026-10-22)
+
+**Aucune contradiction trouvée, aucun verdict révisé.** Les passes 1 et 2 ne contiennent aucune ligne sur les cinq fiches
+de la passe 3 ni sur la valeur affichée, l'urgence, la rareté, la prévente ou les garanties (vérifié par recherche dans
+ce registre). Les recoupements sont des compléments ; pour chacun, la version fondée sur le texte le plus primaire fait foi.
+Aucune recherche web n'a été nécessaire.
+
+| Passe 1-2 | Passe 3 | Relation | Version qui fait foi |
+|---|---|---|---|
+| JI04 (sanction des promotions interdites : renvoi à L. 132-2, « montant non relu », ✅) | OP08 (L. 132-2 lu dans sa version issue de la loi 2024-420, ✅) | Complément. JI04 donnait le renvoi, OP08 donne le contenu (2 ans, 300 000 € ou 10 % du CA ou 50 % des dépenses de publicité ; 5 ans et 750 000 € en ligne). **JI04 complété** à la fusion, verdict inchangé ; la lacune « C. conso L. 132-2 non lu » de la passe 2 est close. | OP08 pour le montant (texte consolidé lu) ; JI04 pour le renvoi |
+| JP02 (B2B : pas de consentement systématique à la prospection, doctrine CNIL, ✅ moyenne) | OU04 (B2B : fausse rareté interdite, L. 121-5, ❌ de la croyance) | Pas de conflit : objets différents (base de la prospection contre vérité du message). Risque de confusion chez les rédacteurs, d'où la mention ajoutée à la croyance n°2 du droit des offres. | Les deux |
+| JP07 (case pré-cochée interdite pour le consentement, ✅) | OU07 (paiement supplémentaire = consentement exprès, L. 121-17, ✅) | Bases distinctes (RGPD / directive 2002/58 contre Code de la consommation), conclusion concordante : rien de pré-coché. | Les deux |
+| JP01, JP02, JP08 (prospection électronique) | OU05, OD07 (liste d'attente, e-mails après quiz) | La passe 3 s'appuie sur la passe 2 et ajoute L. 122-8 et L. 122-9 pour les offres promotionnelles par e-mail. | Les deux |
+| JI06 (intention commerciale non signalée = omission trompeuse, L. 121-3, ✅) | OV06 (invitation à l'achat, L. 121-3, ✅) | Même article, deux alinéas différents. Concordant. | Les deux |
+| JI14 (dropshipping : informations de L. 221-5, ✅ moyenne) | OV01, OV05, OD05 (L. 221-5 lu, version ordonnance 2026-2) | La passe 3 a lu la version en vigueur de L. 221-5 (ordonnance 2026-2), qui contient notamment le 7° (fonctionnalité de rétractation en ligne) et le 11° (prix personnalisé par décision automatisée). Complément. | OV01, OV05, OD05 pour le contenu actuel de L. 221-5 |
+| Q1 (CPF : frontière entre « offre promotionnelle » interdite par L. 6323-8-1 C. trav. et prix promotionnel, ❓) | OQ1, OQ2, OV07 (formation : 30 % maximum d'avance, réduction de prévente, ❓ / ✅) | Pour une formation **éligible au CPF** vendue en prévente avec réduction, les deux questions se cumulent : Q1 (c) et OQ2. Aucune ne tranche l'autre. | Les deux ; renvoi à un juriste |
+| GB02 (réduire le risque perçu : « garanties maîtrisées », 🟡) | OG01, OG02 (garanties) | Complément : la garantie qui rassure doit être **plus large que la loi** et elle **engage** la marque. | Les deux |
+
+Réécriture à la fusion : dans les lignes de la passe 3, les renvois « section B, C, D, E » de `passe-3-droit-offres.md`
+deviennent « section I, J, K, L » ; le renvoi « au registre principal » d'OU08 est précisé. Contenu et verdicts inchangés.
+
+### Recoupements internes à la passe 3 (pour lire les lignes ensemble)
+- OP01 ↔ OP03 ↔ OP06 ↔ OP07 ↔ OQ2 (prix de référence et « valeur ») ; OU01 ↔ OU02 ↔ OU03 ↔ OU04 (urgence et rareté) ;
+  OV01 ↔ OV02 ↔ OV03 ↔ OQ3 (prévente) ; OV07 ↔ OV08 ↔ OQ1 (formations) ; OG01 ↔ OV02 (rétractation) ; OD01 ↔ OD02 ↔ OD04
+  (enrichissement) ; OC01 ↔ OC02 ↔ OC03 (comparatif) ; OP10 ↔ OG04 (gratuit, essai).
+
 ### Recoupements internes à la passe 2 (pour lire les lignes ensemble)
 - PA05 ↔ PA06 (GA4) ; PA18 ↔ PA19 ↔ PA20 (chiffres Andromeda / Advantage+) ; PA23 ↔ PA24 ↔ PA25 (diversité créative) ; PA11 ↔ PA17 (retrait de l'option Placements) ; PA04 ↔ PA17 (libellés d'attribution).
 - PB01 ↔ TB19 (même playbook) ; PB03 ↔ PB05 (TLA) ; TB12 ↔ CB02 (Kacie Jenkins) ; TB13 ↔ CB01 (Gal Aga, Aligned) ; GB01 ↔ GB02 (no decision).
