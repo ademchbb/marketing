@@ -821,11 +821,23 @@ et par `controleur-qualite-marketing`.
 - Noms encore à confirmer : Alison Coleman (Glean), poste actuel de Kacie Jenkins (Anthropic ?), poste de Ruby James, lien d'Alec Paul avec la « méthode du journaliste ». Alec Paul (SalesBrand) et Canberk Beker (ROASted) sont résolus par le playbook.
 
 ### Passe 2, droit
-- **Textes non lus** : version consolidée de la loi 2023-451 (art. 4 V après MiCA, art. 6, 7, 8 dans leur rédaction finale), décrets 2025-1137 et 2026-233, CPCE L.34-5, C. civ. 1984, C. conso L. 132-2, délibérations CNIL SAN-2021-008, SAN-2022-017, SAN-2024-002, référentiel CNIL 2021-131. Cause : Légifrance 403 ; cnil.fr 503 pendant la passe. Piste : copies JO en PDF (comme pour l'ordonnance et l'arrêté), ou extraction manuelle par l'utilisateur.
+- **Textes non lus** : version consolidée de la loi 2023-451 (art. 4 V après MiCA, art. 6, 7, 8 dans leur rédaction finale), décrets 2025-1137 et 2026-233, CPCE L.34-5, C. civ. 1984, ~~C. conso L. 132-2~~ (**résolu en passe 3**, OP08), délibérations CNIL SAN-2021-008, SAN-2022-017, SAN-2024-002, référentiel CNIL 2021-131. Cause : Légifrance 403 ; cnil.fr 503 pendant la passe. Piste : copies JO en PDF (comme pour l'ordonnance et l'arrêté), ou extraction manuelle par l'utilisateur.
 - **Guide de bonne conduite de Bercy (juin 2026)** : 403 ; c'est la source la plus probable pour Q2 et Q3 (et pour la question « l'étiquette de la plateforme suffit-elle ? »).
 - **ARPP** : recommandation Communication publicitaire numérique v5 (salariés, dirigeants, ambassadeurs) non lue.
 - **Durée de conservation des données clients** (référentiel CNIL) non vérifiée.
 - Q2 et Q3 : aucune jurisprudence ni doctrine administrative trouvée.
+
+### Passe 3, droit des offres
+- **Textes non lus** : directive 2019/2161 et lignes directrices de la Commission sur l'art. 6 bis de la directive 98/6
+  (C/2021/526) et sur la directive 2005/29 (EUR-Lex vide pour nos outils) ; Code de l'éducation L. 444-1 à L. 444-11 ;
+  Code du travail L. 6313-1 et L. 6355-20 ; Code pénal 225-1 à 225-3 et 131-38 ; Code conso L. 224-25-22 et -23,
+  L. 221-4 ; décret 2026-3.
+- **Décisions non lues en direct** : CA Paris 02/04/2025 n° 23/05696 ; délibération CNIL KASPR ; arrêts CJUE C-621/22 et
+  C-634/21 (texte intégral) ; liste CNIL des AIPD obligatoires (cnil.fr en 503).
+- **Questions sans source** : OQ1 à OQ3 (aucune jurisprudence trouvée sur les formations en ligne, la prévente et la
+  livraison par modules) ; croisement Q1 (c) × OQ2 pour une formation CPF vendue en prévente avec réduction.
+- **Fiches de la passe 3 dont les chiffres non juridiques ne sont pas encore vérifiés** (sections A à D) : `au0-dI_wjI8`,
+  `11rNI6BUey4`, `LJVP2wRk7Cc`, `hopkins-scientific-advertising`, `_hem3-8XbEI`.
 
 ## Journal
 | Date | Modification |
@@ -833,3 +845,5 @@ et par `controleur-qualite-marketing`.
 | 2026-10-20 | Création (passe n°1). 120 affirmations traitées depuis les 5 fiches du lot 1, en s'appuyant sur les 4 fiches `veille/plateformes/` du 2026-10-20 et des recherches web ciblées. |
 | 2026-10-21 | Passe n°2 en trois fichiers parallèles : `passe-2-publicite.md` (54 affirmations, 5 fiches + `journal/delegations.md` ; sources officielles lues en direct : Meta Transparency Center, Meta for Developers, Meta for Business, Engineering at Meta, Google Analytics Help, Kantar, About Amazon, Business Wire), `passe-2-b2b.md` (51 affirmations, 3 fiches + délégations, transcription officielle B2Linked ép. 167), `passe-2-droit.md` (33 affirmations + 3 questions ouvertes, 2 fiches ; JO de l'ordonnance 2024-978, de l'arrêté du 26/05/2026 et de la loi 2022-1587, résumé Curia C-654/23, rapport CMP AN n° 1278 ; Légifrance en 403). |
 | 2026-10-21 | **Fusion** des trois passes n°2 dans ce registre unique (261 lignes : 59 ✅, 131 🟡, 21 ❌, 50 ❓). Identifiants conservés. Aucune ligne de la passe 1 révisée. Révisions B2B à partir du playbook LinkedIn × Scale VP extrait (`sources/pdf/scalevp-founder-led-growth-2025/`) : PB02 ❓ → 🟡, TB14 ❓ → 🟡, TB15 ❓ → ❌ ; références ajoutées à PB01, PB03, PB04, PB05, TB12, TB13, TB18, TB19, CB01 sans changement de verdict. Aucune nouvelle recherche web. |
+| 2026-10-22 | Passe n°3, domaine droit des offres, dans `passe-3-droit-offres.md` (43 lignes + 4 questions ouvertes, fiches Kennedy, Marketing Mania, Priestley, Hopkins, Cialdini ; Code de la consommation consolidé au 10/10/2026 via droit.org, Code du travail L. 6353-3, -5, -6, annexe I de la directive 2005/29, communiqués Curia C-330/23 et C-562/15, communiqué Commission IP/23/418 ; Légifrance, EUR-Lex, cnil.fr et economie.gouv.fr inaccessibles). |
+| 2026-10-22 | **Fusion** de la passe n°3 dans ce registre : sections H à O (47 lignes : 29 ✅, 11 🟡, 3 ❌, 4 ❓), registre porté à 308 lignes (88 ✅, 142 🟡, 24 ❌, 54 ❓). Identifiants conservés. Aucune contradiction avec les passes 1-2, aucun verdict révisé ; JI04 complété par OP08 (montant de L. 132-2), lacune « L. 132-2 non lu » close ; renvois internes de section réécrits (B, C, D, E → I, J, K, L) ; légende et échelle de confiance étendues aux sections H à O ; 7 règles sans condition ajoutées en tête de « Conséquences pour les agents ». Aucune nouvelle recherche web. `passe-3-droit-offres.md` gardé en archive. |

@@ -1,3 +1,6 @@
+> **Fusionné dans registre.md le 2026-10-22.** Ce fichier est une archive ; en cas d'écart, `registre.md` fait foi
+> (sections H à O ; les renvois « section B, C, D, E » ci-dessous y deviennent « section I, J, K, L »).
+
 # Passe n°3 : droit de la consommation et des offres (France / UE)
 
 > Tenu par `verificateur-faits`. **Passe n°3, domaine DROIT DES OFFRES : 2026-10-22.** À fusionner plus tard
