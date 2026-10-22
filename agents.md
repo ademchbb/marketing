@@ -1,6 +1,6 @@
 # Carte des agents
 
-**61 agents**, une micro-mission chacun. Définitions : `.claude/agents/<nom>.md`.
+**62 agents**, une micro-mission chacun. Définitions : `.claude/agents/<nom>.md`.
 Règle : un agent n'écrit **que** dans le dossier indiqué dans sa définition (section « Sortie »).
 
 ## Hiérarchie
@@ -16,7 +16,7 @@ Niveau 1   PÔLES (regroupements de missions, pas des agents ; aucun « chef de 
            · F Labo d'expériences & performance · G Diffusion, communauté & croissance
            · H Publicité payante · I Méta
    │
-Niveau 2   AGENTS (61) : une micro-mission chacun, un seul dossier d'écriture
+Niveau 2   AGENTS (62) : une micro-mission chacun, un seul dossier d'écriture
 ```
 
 **Contrainte technique** : un sous-agent n'a pas l'outil Agent et ne peut pas lancer un autre agent.
@@ -44,7 +44,7 @@ Toute délégation remonte donc au niveau 0. Aucun agent n'en appelle un autre d
 
 ## Règles communes à tous les agents
 
-**Sous-délégation** (section identique dans les 61 définitions) :
+**Sous-délégation** (section identique dans les 62 définitions) :
 > Tu ne lances aucun agent : seul l'orchestrateur le peut. Si une tâche déborde de ta micro-mission ou
 > serait mieux faite par un autre agent (existant ou à créer), ne la fais pas toi-même. Termine ton
 > rapport par une section « Demandes de délégation », une ligne par demande : agent visé (ou « à créer :
@@ -55,7 +55,15 @@ comme un marqueur de texte IA [fiche:HzoQgQS8czE]. Règle inscrite chez `redacte
 `redacteur-carrousel`, `redacteur-linkedin`, `redacteur-thread-x`, `redacteur-legende`,
 `specialiste-seo-social`, `scenariste-youtube-long`, `titreur-miniatures`, `redacteur-newsletter`,
 `adaptateur-multiplateforme`, `redacteur-ads`, `gestionnaire-communaute`, `prospecteur-collaborations`,
-`pont-motion-design`, `controleur-qualite-marketing` (kit final, textes de pub, emails). Le `correcteur` le vérifie.
+`pont-motion-design`, `redacteur-conditions-vente`, `controleur-qualite-marketing` (kit final, textes de pub, emails).
+Le `correcteur` le vérifie.
+
+**Offres et pitch** : la checklist de référence (prix barré, « valeur » affichée, urgence, garanties, prévente,
+dénigrement, engagement acheté, closing) est dans `.claude/agents/garde-conformite.md`, section « Checklist offres
+et pitch » ; `strategiste-offre`, `redacteur-ads`, `redacteur-newsletter`, `gestionnaire-communaute`,
+`redacteur-conditions-vente` et `controleur-qualite-marketing` (motif de veto) y renvoient.
+
+**Taxonomie** : liste fermée des tags, fichiers de principes et alias : section « Taxonomie de référence » ci-dessous.
 
 **Base de connaissances** : les agents de stratégie (pôles C, H) et de création (pôle D, plus
 `gestionnaire-communaute`, `prospecteur-collaborations`, `pont-motion-design`) listent dans leur section
@@ -107,6 +115,7 @@ marqués « à venir ».
 | `banquier-histoires` | Construit et enrichit la banque d'histoires d'une marque (anecdotes vécues, échecs, coulisses, moments clés, clients) en préparant des questions d'interview pour l'utilisateur puis en classant ses réponses. | `marques/<slug>/03-strategie/banque-histoires.md` |
 | `strategiste-contenu` | Définit la stratégie de contenu d'une marque | `marques/<slug>/03-strategie/strategie-contenu.md` |
 | `strategiste-offre` | Conçoit ou améliore l'offre, l'aimant à prospects (lead magnet) et les appels à l'action d'une marque pour que l'audience devienne des clients | `marques/<slug>/03-strategie/offre.md` |
+| `redacteur-conditions-vente` | Rédige le projet de conditions de vente d'une offre payante (CGV ou conditions de l'offre, information précontractuelle, clause de prévente : date de livraison, acompte et non arrhes, fonctionnalité et information de rétractation, garanties) à partir du registre juridique et du dossier de la marque. Validation de l'utilisateur obligatoire, relecture par un juriste recommandée, jamais présenté comme un avis juridique | `marques/<slug>/conditions-vente.md` |
 | `planificateur-calendrier` | Transforme la stratégie de contenu en calendrier éditorial daté (2 à 4 semaines), une ligne par post, en équilibrant piliers, formats, plateformes et temps forts. | `marques/<slug>/04-calendrier/calendrier.md` |
 
 ## Pôle D — Création
@@ -190,8 +199,12 @@ la section « Commandes » de `CLAUDE.md`.
 ```
 analyste-marque → veilleur-concurrence → analyste-concurrent ×N ∥ ecouteur-audience ∥ chasseur-viraux → decodeur-viral ×N
   → architecte-persona → strategiste-positionnement → (architecte-personal-brand + banquier-histoires si personne)
-  → strategiste-offre → strategiste-contenu → concepteur-experiences → planificateur-calendrier
+  → strategiste-offre → redacteur-conditions-vente (si offre payante) → VALIDATION UTILISATEUR (conditions)
+  → strategiste-contenu → concepteur-experiences → planificateur-calendrier
 ```
+Avant la publication d'une offre : aucun post, pub, email ni page qui montre un prix, une garantie ou une prévente
+ne part sans `marques/<slug>/conditions-vente.md` validé par l'utilisateur ; tout changement de prix, de garantie
+ou de calendrier de livraison relance `redacteur-conditions-vente` puis `garde-conformite` sur les livrables touchés.
 
 ### 3. Fabriquer un post (une ligne du calendrier)
 ```
@@ -230,6 +243,86 @@ analyste-performance → predicteur-performance (calibration) → analyste-resul
 ### Rituels hebdomadaires
 - Lundi : veilleur-tendances, veilleur-algorithmes, chasseur-viraux (par niche active).
 - Vendredi : analyste-performance, analyste-resultats, rapporteur.
+
+## Taxonomie de référence (tags des fiches → fichiers de principes)
+
+Seule copie de la liste fermée. Propriétaire : `architecte-agents` (ajouts sur demande dans un rapport, ou décision
+de l'orchestrateur). Utilisée par `consolidateur-fiche` (ligne « Thèmes couverts ») et `synthetiseur-connaissances`
+(un fichier de principes par tag ; il tient dans `connaissances/index.md` la liste des fichiers déjà créés). Un tag
+n'est créé que s'il couvre au moins 2 sources ou une compétence que l'agence produira ; sinon, alias.
+
+### Tags
+| tag | fichier de `connaissances/principes/` | définition |
+|---|---|---|
+| `personal-branding` | `personal-branding.md` | marque personnelle d'un fondateur, créateur ou expert |
+| `croissance-audience` | `croissance-audience.md` | abonnés, portée, diffusion des contenus |
+| `instagram` · `tiktok` | `croissance-audience.md` | codes, formats et algorithme de la plateforme |
+| `linkedin` | `linkedin.md` | codes, formats et algorithme de LinkedIn (organique) ; LinkedIn Ads = `publicite` |
+| `x-twitter` | `x-twitter.md` | codes, formats et algorithme de X (ex-Twitter) : posts, threads ; veille `veille/plateformes/x.md` |
+| `hooks` | `hooks-et-retention.md` | accroche (premières secondes, première ligne) et rétention |
+| `storytelling` | `storytelling.md` | récit, structure narrative, histoires vécues |
+| `formats-courts` | `formats-courts.md` | vidéos courtes verticales (Reels, TikTok, Shorts) |
+| `youtube-long` | `youtube-long.md` | vidéos YouTube longues, séries |
+| `monetisation` · `offre` | `monetisation-et-offre.md` | gagner de l'argent avec l'audience · offre (valeur, bonus, garanties, structure de prix) |
+| `regularite` · `production` · `mindset` | `production-et-regularite.md` | rythme de publication · méthode de fabrication du contenu (écriture, prise de notes, outils, flux de travail) · état d'esprit du créateur |
+| `recrutement-equipe` | `equipe-et-organisation.md` | embaucher et structurer l'équipe |
+| `publicite` | `publicite.md` | pub payante en général ; système Meta = `meta-ads` |
+| `communaute` | `communaute.md` | relation avec l'audience, modération courante |
+| `positionnement` | `positionnement-et-niche.md` | positionnement, niche, différenciation |
+| `analyse-donnees` | `analyse-et-iteration.md` | lecture des métriques (contenu, pub, tunnel de vente : taux par étape, conversion), tests A/B et itération ; allocation et attribution = `mesure-budget` |
+| `meta-ads` | `meta-ads.md` | système publicitaire Meta (Facebook + Instagram : Advantage+, Andromeda, apprentissage) |
+| `conformite-juridique` | `conformite-juridique.md` | droit, règles des plateformes, mentions obligatoires |
+| `email` | `email.md` | newsletter, emailing, prospection électronique |
+| `b2b` | `b2b.md` | vente et marketing vers des professionnels |
+| `vente` | `vente.md` | conversation commerciale : rendez-vous, découverte, objections, prix présenté et défendu, négociation, pipeline, scripts |
+| `generation-leads` | `generation-leads.md` | capter des contacts : lead magnets, scorecards et quiz, listes d'attente, qualification, prospection sortante |
+| `copywriting` | `copywriting.md` | message de marque et rédaction persuasive (promesse, titres, pages, pubs) ; l'accroche seule = `hooks` |
+| `site-web` | `site-web.md` | site et pages (accueil, page de vente, page de capture) : structure, parcours, conversion |
+| `strategie-croissance` | `strategie-croissance.md` | croissance de l'entreprise : canaux d'acquisition, marque vs activation, go-to-market |
+| `ethique` | `ethique.md` | ce qui est légal mais discutable en influence et en marketing (manipulation, exagération, produit nocif) |
+| `mesure-budget` | `mesure-budget.md` | allocation du budget marketing, attribution, incrémentalité, tests de lift, ROI |
+| `relations-presse` | `relations-presse.md` | médias et journalistes : angle, communiqué, pitch, dossier de presse, retombées |
+| `identite-visuelle` | `identite-visuelle.md` | logo, couleurs, typographies, charte, actifs distinctifs (« marteau visuel ») |
+| `psychologie-persuasion` | `psychologie-persuasion.md` | mécanismes psychologiques d'influence (Cialdini, biais, économie comportementale) et leur preuve |
+| `lancement-produit` | `lancement-produit.md` | validation d'idée, étude de marché, prévente, lancement d'un produit ou d'une offre |
+| `bouche-a-oreille` | `bouche-a-oreille.md` | recommandation, diffusion organique, mécanique de conversation, parrainage |
+| `recherche-client` | `recherche-client.md` | immersion terrain, entretiens clients, test du discours, Jobs To Be Done (JTBD) |
+| `culture-entreprise` | `culture-entreprise.md` | rituels centrés client, valeurs, onboarding des salariés ; embaucher et structurer l'équipe = `recrutement-equipe` |
+| `packaging` | `packaging.md` | titres, miniatures, couvertures et couple titre + image avant le clic ; l'accroche une fois la vidéo lancée = `hooks`, titres de page ou de pub = `copywriting` |
+| `ia-creation` | `ia-creation.md` | IA générative dans l'écriture et la production (génération, relecture, marqueurs de texte IA, images de synthèse, banalisation de l'information) |
+| `retention-client` | `retention-client.md` | après l'achat : onboarding client, expérience et service client, fidélisation, réachat, abonnement et récurrent, churn ; offres de suite (upsell, continuité) = `offre` |
+| `distribution` | `distribution.md` | accès au marché du produit : distributeurs, grande distribution, revendeurs, MDD, places de marché, disponibilité avant la pub ; diffusion des contenus = `croissance-audience` |
+| `partenariats` | `partenariats.md` | alliances de croissance avec des tiers : joint ventures, recommended provider, **affiliation** (recruter, rémunérer, animer des affiliés), co-marketing, collaborations avec des créateurs ; parrainage client = `bouche-a-oreille`, sponsoring vu du créateur = `monetisation` |
+| `brief-creatif` | `brief-creatif.md` | rédiger et challenger le brief : vrai problème à résoudre, cible, insight, message unique, contraintes, critère de réussite |
+| `marketing-direct` | `marketing-direct.md` | réponse directe hors email : courrier, catalogues, fichiers et listes, mécanisme de réponse (coupon, code, enveloppe-réponse), mesure au retour ; la rédaction = `copywriting` |
+| `economie-unitaire` | `economie-unitaire.md` | économie d'un client : CAC, LTV, marge, délai de récupération, cash encaissé à 30 jours, acquisition financée par le client ; allocation du budget = `mesure-budget` |
+| `gestion-crise` | `gestion-crise.md` | réputation attaquée et communication de crise : bad buzz, polémique, mea culpa, parler tôt, preuve avant annonce (RSE), protocole ; modération courante = `communaute` |
+
+### Alias : libellés « hors liste » → tag retenu
+Le libellé n'est pas redemandé ; la fiche n'est pas modifiée, `synthetiseur-connaissances` range le passage sous le tag retenu.
+
+| libellé | tag retenu |
+|---|---|
+| experience-client, service client, onboarding client, fidélisation, récurrent, back-end (offres vendues ensuite → `offre`) | `retention-client` |
+| IA générative dans la création, banalisation de l'information | `ia-creation` |
+| relation avec les revendeurs, accès au marché | `distribution` |
+| joint venture, recommended provider, affiliation, affiliation-partenariats, collabs créateurs | `partenariats` |
+| prospection-sortante (contact à froid multicanal : appels, DM, SMS, courrier ; le script de conversation → `vente`) | `generation-leads` |
+| acquisitions (rachats, croissance externe ; récit après fusion → `storytelling`), franchise (vendue comme offre → `offre`) | `strategie-croissance` |
+| marketing-cause, raison d'être (`ethique` si récupération d'une cause), communication-politique, marketing non marchand (pub politique → `conformite-juridique` ; l'agence n'en fait pas) | `positionnement` |
+| reponse-directe (rédaction → `copywriting`) | `marketing-direct` |
+| finance-tresorerie, CAC, LTV, marge | `economie-unitaire` |
+| communication-crise, preuve avant annonce RSE | `gestion-crise` |
+| formats-series-streaming : sortie hebdo ou en bloc, seuil d'épisodes (contrat de plateforme → `monetisation`) | `youtube-long` |
+| écriture, prise de notes, second cerveau, autoformation (méthode de fabrication du contenu) | `production` |
+| twitter, X, threads X | `x-twitter` |
+| méthode expérimentale, tests A/B et géographiques | `analyse-donnees` |
+| allocation budgétaire entre canaux | `mesure-budget` |
+| tarification, prix, échantillonnage, essai gratuit | `offre` |
+| psychologie de la persuasion, biais cognitifs, sciences comportementales | `psychologie-persuasion` |
+| message de marque, BrandScript | `copywriting` |
+| vente en rendez-vous, pitch commercial | `vente` |
+| lead magnets, génération de leads | `generation-leads` |
 
 ## Journal des modifications
 - 2026-10-20 : création des 58 agents initiaux (9 pôles).
@@ -350,3 +443,26 @@ analyste-performance → predicteur-performance (calibration) → analyste-resul
   renvoient à `outils/podcast/README.md` et `outils/youtube/README.md` avec les règles qui évitent les erreurs
   (`--simuler`, `--vocabulaire` court, `--travail` dans le scratchpad, même commande relancée si coupée,
   `--max-secondes` et `--sortie` réservés aux essais, découpe par `decouper.py` à taille constante).
+- 2026-10-22 : passe « garde-fous des offres » (`connaissances/verifications/passe-3-droit-offres.md`, OP / OU / OV /
+  OC / OD / OG / OR / OQ, fusion en cours dans `registre.md` ; garde-fous de pitch des fiches `6_CCutkM11g`,
+  `JE2_7elAcxM`, `rPZG5xfN7vI`, `buAY7UtjCb4`, `aGI7puAXf6w`, `SUzKZfyaAK8`, `k834E6OTGTM` ; question utilisateur
+  n° 5). **Créé** `redacteur-conditions-vente` (pôle C, 62 agents) : aucune définition ne rédigeait CGV, information
+  précontractuelle, clause de prévente (acompte et non arrhes, L. 214-1), rétractation et sa fonctionnalité en ligne
+  (L. 221-21), garanties ; écrit dans `marques/<slug>/conditions-vente.md` ; statut « projet » jusqu'à la validation
+  écrite de l'utilisateur, relecture juriste recommandée, jamais d'avis juridique ; placé dans le pipeline 2 après
+  `strategiste-offre`, avec la règle « pas d'offre publiée sans conditions validées ». **`garde-conformite`** : section
+  « Checklist offres et pitch » (15 règles, chacune avec son identifiant), dont prix de référence = plus bas sur
+  30 jours sans exemption produit nouveau, pas de valeur fictive à côté du prix, fausse urgence interdite en B2B
+  (L. 121-5), rétractation jamais vendue comme avantage, garantie = engagement, pas de dénigrement nominatif ni de
+  fausse fermeture, pas d'engagement acheté, partenariat signalé, règle d'attente ≤ 30 % d'avance sur la prévente de
+  formation (OQ1) ; grille générale resserrée ; la ligne « sans passe 3 → ⚠️ » supprimée (la passe existe).
+  Renvois courts dans `strategiste-offre` (nouvelle section « Règles »), `redacteur-ads`, `redacteur-newsletter`,
+  `gestionnaire-communaute` (réponses aux prospects) et `controleur-qualite-marketing` (motif de veto « offres et
+  pitch », lecture de `conditions-vente.md`). **Taxonomie** : liste fermée, fichiers de principes et alias
+  déplacés dans la section « Taxonomie de référence » de ce fichier (seule copie ; propriétaire `architecte-agents`,
+  qui la tenait déjà de fait ; pas de fichier `connaissances/taxonomie.md` : il sortirait de mon périmètre et ferait
+  un fichier de plus à indexer). `consolidateur-fiche` et `synthetiseur-connaissances` y renvoient (copies
+  supprimées) ; `connaissances/index.md` ne liste plus que les fichiers de principes existants. Décisions de
+  l'orchestrateur intégrées : tag `x-twitter` créé (fichier `x-twitter.md`, veille `veille/plateformes/x.md`) ; alias
+  écriture / prise de notes / second cerveau / autoformation → `production`, affiliation-partenariats →
+  `partenariats` (définition précisée), prospection-sortante → `generation-leads` (script → `vente`).

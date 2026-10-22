@@ -82,6 +82,7 @@ Détails : `outils/youtube/README.md`, `outils/podcast/README.md` (propriétaire
   → synthetiseur-connaissances → cartographe-lacunes → chercheur-sources.
 - **Promouvoir une marque** : analyste-marque → veilleur-concurrence → analyste-concurrent ×N
   → ecouteur-audience → architecte-persona → strategiste-positionnement → strategiste-contenu
+  → strategiste-offre → redacteur-conditions-vente (toute offre payante, validée par l'utilisateur)
   → planificateur-calendrier → (par post) ideateur → redacteur-hooks → critique-hook
   → scenariste-reel / redacteur-carrousel / redacteur-linkedin… → redacteur-legende
   → specialiste-seo-social → correcteur → garde-conformite → simulateur-audience
