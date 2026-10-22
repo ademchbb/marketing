@@ -213,3 +213,4 @@
 Terminés avant la coupure (fichiers complets) : Money Models p1 ; Hormozi vente p1-p5 ; Galloway p2-p3 ; Doctolib p2-p3 ; Boron p1 ; fiches Hopkins, ScaleVP, Sutherland ; fusion du registre (passes 2 → `registre.md`, 261 lignes).
 Interrompus, à relancer : architecte-agents (tags, droit, QA des pubs) ; extracteur-frameworks (correction conformité, partielle) ; developpeur-outils (outil podcast, `lister.py` + `transcrire.py` partiels) ; verificateur-faits passe 3 droit des offres (rien écrit) ; Money Models p2.
 Leçon : 20 agents en parallèle épuisent le quota en ~2 h 30. Vagues de ~10 agents au maximum désormais.
+- [x] Framework conformité influence + arbre CNIL corrigés selon le registre (6 catégories, CPF en 3 régimes, Arcom, crypto, seuil cumulatif, art. 28, expéditeur). (garde-conformite déjà aligné par la passe architecte du 21/10 ; strategiste-contenu couvert par la passe architecte en cours.) Money Models p4 lancée.

@@ -89,16 +89,17 @@ Critère commun : **claire, lisible et compréhensible, sur tout support utilis�
 ## Checklist garde-conformite (OK / À corriger / Bloqué, reprise de la fiche)
 Une seule ligne « Bloqué » → verdict bloqué ; une ligne « À corriger » → verdict à corriger.
 1. **Qualification** : contrepartie en argent **ou en nature**, notoriété mobilisée, promotion même indirecte d'un bien, service ou cause ? Compte de marque ou fondateur sans contrepartie : « périmètre non tranché », mentions par prudence.
-2. **Secteurs interdits (Bloqué si oui)** : esthétique à risque ou chirurgie esthétique ; non thérapeutique présenté comme équivalent à un traitement ; nicotine ; animal hors liste ; contrat financier ou crypto d'un annonceur non enregistré ni agréé ; pronostics sportifs ; contrepartie liée à une inscription CPF (simple promotion d'une formation CPF : **À corriger / à confirmer**).
+2. **Secteurs interdits, 6 catégories (Bloqué si oui)** [verif:JI02] : esthétique à risque ou chirurgie esthétique ; non thérapeutique présenté comme équivalent à un traitement ; nicotine ; animal hors liste (sauf établissement autorisé) ; contrat financier ou crypto d'un annonceur non enregistré ni agréé (simple enregistrement PSAN : situation après le 01/07/2026 **à revérifier**, sinon Bloqué) [verif:JI03] ; pronostics sportifs.
+   **CPF, ligne séparée** [verif:JI17] : contrepartie liée à l'inscription → **Bloqué** [verif:JI18] ; DM, email, SMS ou appel vers des titulaires de CPF pour vendre une formation CPF → **Bloqué** (L. 6323-8-1 C. trav.) [verif:JI19] ; promotion d'une formation financée → gabarit décret 2026-233 + arrêté (ligne 4) [verif:JI09].
 3. **Mentions dans le contenu** : « Publicité » / « Collaboration commerciale » visible dans la vidéo, l'image ou le texte (sauf intention évidente du contexte) ; étiquette native **en plus** ; « Images retouchées » ; « Images virtuelles » ; mentions lisibles (taille, contraste, durée, hors zones d'interface — déduction).
-4. **Régimes spéciaux** : jeux d'argent (exclusion activée + capture, mention, clause ; une condition manquante → Bloqué) ; formation financée (phrase exacte, lien ou mot dièse, SIREN, bandeau ≥ 7 %, ≥ 90 % de la durée, distinct, lu après en audio) ; vente par le créateur (informations, fournisseur, licéité).
-5. **Contrat et pièces** : contrat écrit si ≥ 1 000 € HT (absent → Bloqué) ; clauses minimales ; créateur hors UE / EEE / Suisse : représentant + RC pro UE (absents → Bloqué) ; rôle de l'agence noté et risque de solidarité signalé ; preuves archivées.
-6. **Données et personnes** : droit à l'image et vie privée ; toute collecte de données liée au contenu (concours, lead magnet) contrôlée selon `arbre-regime-message-electronique-cnil.md`, **pas** selon cette fiche.
+4. **Régimes spéciaux** : jeux d'argent (exclusion activée, conforme au référentiel Arcom, + capture, mention, clause ; une condition manquante → Bloqué) [verif:JI05] ; formation financée (phrase exacte, lien ou mot dièse, SIREN, bandeau ≥ 7 %, ≥ 90 % de la durée, distinct, lu après en audio) ; vente par le créateur (informations, fournisseur, licéité).
+5. **Contrat et pièces** : contrat écrit si ≥ 1 000 € HT **cumulés** par annonceur, par an et par objectif (absent → Bloqué) [verif:JI11] ; clauses minimales ; créateur hors UE / EEE / Suisse : représentant + RC pro UE (absents → Bloqué) ; rôle de l'agence noté et risque de solidarité signalé ; preuves archivées.
+6. **Données et personnes** : droit à l'image et vie privée ; toute collecte de données liée au contenu (concours, lead magnet) contrôlée selon `arbre-regime-message-electronique-cnil.md`, **pas** selon cette fiche. Les « 3 ans sans contact » de Bpifrance sont un **repère non contraignant** du référentiel CNIL (écart justifié possible ; compteur relancé seulement par un contact venant du prospect), pas une obligation légale [verif:JI23].
 7. **Fraîcheur** : textes revérifiés sur Légifrance depuis le 23/06/2026 si régime spécial ; relecture juriste faite pour la première campagne réelle.
 
 ## Exemple appliqué (illustratif : marque promue « organisme de formation », hypothétique)
 - Qualification : 3 créatrices reçoivent 800 € chacune + une formation offerte d'une valeur de 400 € → contrepartie totale 1 200 € HT par créatrice → **contrat écrit obligatoire**.
-- Secteur : formation éligible au CPF → aucune contrepartie liée à l'inscription (pas de « code promo CPF ») ; promotion de la formation marquée **à confirmer** par un juriste.
+- Secteur : formation éligible au CPF → promotion **encadrée** (gabarit de l'étape 4) ; aucune contrepartie liée à l'inscription (pas de « code promo CPF ») ; aucune séquence de DM ou d'email vers des titulaires de CPF [verif:JI17-JI19]. Reste à faire confirmer par un juriste : la frontière post public / démarchage [verif:Q1].
 - Mentions : « Collaboration commerciale » incrustée dans la vidéo + étiquette native ; bandeau formation (phrase officielle + mot dièse + SIREN) sur 7 % de la surface et 90 % de la durée, prévu dans le storyboard Sillage.
 - Une créatrice est établie au Canada et vise la France → représentant UE + RC pro UE exigés avant signature.
 
@@ -107,7 +108,8 @@ Une seule ligne « Bloqué » → verdict bloqué ; une ligne « À corriger » 
 - Mettre la mention seulement en légende ou en bio.
 - Vérifier le secteur à la relecture du post au lieu du brief.
 - Oublier « Images virtuelles » sur un avatar ou un porte-parole de synthèse réaliste.
-- Pas de contrat au-dessus de 1 000 € HT (avantages en nature compris).
+- Pas de contrat dès 1 000 € HT cumulés (avantages en nature compris) [verif:JI11].
+- Croire que la promotion d'une formation CPF est interdite, et oublier que le DM ou l'email aux titulaires de CPF l'est, pour tout le monde [verif:JI17] [verif:JI19].
 - Se servir de cette fiche (ou de Bpifrance) pour l'emailing au lieu de la CNIL.
 - Présenter une déduction (mandataire solidaire, étiquette native insuffisante) comme une règle légale établie.
 

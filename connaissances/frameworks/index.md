@@ -128,7 +128,7 @@
 | framework | auteur | sert à | utilisé par |
 |---|---|---|---|
 | [Arbre du régime d'un message électronique (CNIL)](arbre-regime-message-electronique-cnil.md) | CNIL | Prospection / transactionnel / relationnel, B2C / B2B, exception client ; checklist officielle en 11 points ; checklists B2B et B2C | garde-conformite, redacteur-newsletter, strategiste-offre, strategiste-contenu, prospecteur-collaborations, publicateur, gestionnaire-communaute, strategiste-ads |
-| [Conformité de l'influence commerciale](conformite-influence-commerciale.md) | Bpifrance Création | Qualifier, filtrer les 7 secteurs interdits, mentions dans le contenu, jeux et formation financée, contrat (≥ 1 000 € HT), créateurs hors UE, checklist | garde-conformite, prospecteur-collaborations, strategiste-contenu, strategiste-ads, scenariste-reel, redacteur-legende, pont-motion-design, directeur-creatif-visuel, publicateur, rapporteur |
+| [Conformité de l'influence commerciale](conformite-influence-commerciale.md) | Bpifrance Création | Qualifier, filtrer les 6 secteurs interdits (art. 4 I-VI) [verif:JI02], CPF en trois régimes (promotion encadrée, contrepartie à l'inscription et démarchage interdits à tous) [verif:JI17-JI19], mentions dans le contenu, jeux (référentiel Arcom) et formation financée, contrat (≥ 1 000 € HT cumulés) [verif:JI11], créateurs hors UE / EEE, checklist | garde-conformite, prospecteur-collaborations, strategiste-contenu, strategiste-ads, scenariste-reel, redacteur-legende, pont-motion-design, directeur-creatif-visuel, publicateur, rapporteur |
 
 ## 10. Production
 | framework | auteur | sert à | utilisé par |
