@@ -30,3 +30,12 @@
      compte-t-il comme démarchage ?
    En attendant : l'agence ne joue ni le rôle de mandataire ni celui d'agent pour une collaboration rémunérée, et ne fait
    aucune promotion de formation CPF.
+
+5. **Droit des offres : 3 questions pour un juriste** (détail : `connaissances/verifications/passe-3-droit-offres.md`, OQ1-OQ3).
+   - **Formation en ligne vendue à un particulier** : relève-t-elle du Code du travail (L6353-3 et s. : 10 jours de rétractation,
+     rien à payer pendant ce délai, puis 30 % du prix au maximum) ou du Code de l'éducation (L444-1 et s.) ? Si c'est le Code du
+     travail, une prévente payée à 100 % d'avance est impossible.
+   - **Prévente** : peut-on annoncer « −X % sur le prix final » alors que ce prix n'a encore jamais été pratiqué ?
+   - **Cours livré par étapes** : le droit de rétractation tombe-t-il dès l'accès au premier module ?
+   En attendant : l'agence ne propose aucune prévente de formation payée à plus de 30 % d'avance, n'affiche aucun prix barré
+   sans prix réellement pratiqué sur 30 jours, et ne présente jamais la rétractation légale de 14 jours comme un avantage.
