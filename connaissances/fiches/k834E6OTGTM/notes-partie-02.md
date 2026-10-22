@@ -206,10 +206,10 @@ Source : https://www.youtube.com/watch?v=k834E6OTGTM · Intervenant(s) : Alex Ho
 - **Ciblage d'abord, création ensuite** (« your ads don't even have to be that good ») : tension avec le discours répandu « creative is the new targeting » (ciblage large et algorithmique sur Meta depuis 2021-2022). À confronter aux fiches de veille plateformes (déduction).
 - **« Your competition will never know »** : vrai pour la visibilité publique, mais l'outbound à 15 000 contacts/jour pose des questions de délivrabilité et de conformité (RGPD, CAN-SPAM, règles anti-spam des plateformes). Il ne les mentionne pas ; à vérifier avant toute application en Europe (déduction).
 - **Calcul S&P 500 incohérent** [01:08:47] (voir les chiffres) ; **somme hebdomadaire de Prestige Labs incohérente** avec le total de 1,7 M$ (probablement une erreur de transcription).
-- **« Elle a fait ses premiers clients gratuitement »** : le First Five Clients Framework promet des clients « for free », tout en reconnaissant un coût de deux ans de travail salarié : c'est gratuit en dollars, pas en temps.
+- **Premiers clients « for free »** [00:43:26] : le First Five Clients Framework promet des clients gratuits, tout en reconnaissant un coût de deux ans de travail salarié : c'est gratuit en dollars, pas en temps.
 - **Témoignages** : sélectionnés et non vérifiables (biais du survivant) ; il présente les résultats comme si « it would have been worth it at any price ».
 - **Cohérence interne remarquable** : le lancement **applique** ce qu'il vend. Contenu (près de la moitié du public), pub payante (environ 2 $/lead), affiliés (23 722), parrainage intégré au produit (pack de 3 à offrir), lead magnet géant (le système gratuit), bonus de présence. C'est en soi la meilleure démonstration de la « $100M leads machine » (déduction).
-- **Exemple d'ordre des étapes** : le module Cold Outreach dit « contact them when they're ready and able to listen », ce qui renvoie au livre ; dans la vidéo, ce point se réduit à de l'automatisation et de la cadence, sans critère de « readiness ».
+- **« Contact them when they're ready and able to listen »** [00:49:30] : l'intitulé de l'étape 3 du Cold Outreach Playbook suggère un critère de disponibilité du prospect, mais dans la vidéo il se réduit à l'automatisation et à la cadence, sans critère de « readiness ». Détail à chercher dans le livre.
 
 ## Citations fortes
 
@@ -238,7 +238,7 @@ Source : https://www.youtube.com/watch?v=k834E6OTGTM · Intervenant(s) : Alex Ho
 - « lead mag » [00:47:17] → Lead Magnet Mastery.
 - « $100 Elite System » [01:07:40], « $und00 million » → **$100M Lead System**, $100M.
 - « Total value $12.94 / 32.91 / 1276 / $12,76 » → 1 294 $ / 3 291 $ / **12 076 $** (reconstitué par addition des valeurs).
-- « SME500 skills » [01:08:47] → jeu de mots sur « S&P 500 » (il a « investi » dans les compétences) ; probablement « the S&M… » mal reconnu.
+- « SME500 skills » [01:08:47] → jeu de mots probable opposant le « S&P 500 » à l'investissement dans ses compétences (formulation exacte incertaine).
 - « 20,000xed my bed count » [00:52:15] → « 20,000x'd my bank account ».
 - « Med Veem » [00:57:11], « NRO » [01:07:07] → noms propres non identifiables avec certitude.
 - « seven referral brokers » [00:57:11] → « seven referral programs ».

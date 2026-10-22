@@ -37,8 +37,8 @@ en ne laissant jamais douter de l'**authenticité**.
     expériences, démonstrations spectaculaires) ;
   - créateurs ou marques personnelles qui envisagent un **produit physique**, une **série** ou un
     **contrat avec une plateforme** de streaming ;
-  - toute marque qui veut faire du contenu un levier d'acquisition pour d'autres activités.
-  - **Moins direct** pour le contenu éducatif B2B : là, l'intro doit prouver la **compétence** (Proof-Promise-
+  - toute marque qui veut faire du contenu un levier d'acquisition pour d'autres activités ;
+  - **moins direct** pour le contenu éducatif B2B : là, l'intro doit prouver la **compétence** (Proof-Promise-
     Plan d'Hormozi `[fiche:Jmkq5RLjm0U]`) plutôt que la **réalité** de l'événement.
 - **Quand l'utiliser** :
   - pour écrire ou critiquer une **intro** de vidéo (preuve d'abord, objection suivante, puis ralentir) ;
@@ -106,7 +106,7 @@ en ne laissant jamais douter de l'**authenticité**.
      dimension en plus : le spectateur se met **lui-même** en jeu.
 
 4. **Le virage des 18 derniers mois : faire ressentir et raconter, « less about retention data
-   analytics », sans renoncer à la rétention.** [00:09]-[00:10] [00:49] [00:58]-[01:03]
+   analytics », sans renoncer à la rétention.** [00:09]-[00:10] [00:49]-[00:50] [00:58]-[01:03]
    - Il concède que ses vidéos d'il y a 2-3 ans sont « horrible, there is no story » et conteste la critique
      « juste un manipulateur d'algorithme » pour la dernière année seulement (*100 Days Trapped*).
    - Le succès selon lui : que les gens regardent, s'attachent aux candidats « and just feel things ».
@@ -116,11 +116,15 @@ en ne laissant jamais douter de l'**authenticité**.
      (hôte) « All that matters is that the characters are good. »
    - **Densité** : la plupart des émissions de compétition ont des temps morts « that you almost watch on 2x
      speed » ; il revendique de ne pas en avoir (déduction : la densité YouTube appliquée à la TV).
+   - **Différenciation par l'échelle** : « you just can't find anything even a third as big as ours » ; il
+     veut que le public des émissions de compétition se dise « this is my new thing ». Convergence avec le
+     « market of one » / « monopolies on content » de Galloway `[fiche:Z2uoA3bhJT0, framework Y]`.
    - **Divergence avec Galloway** (déduction) : Galloway pilote par les données (vues rapportées à
-     l'attente, courbe de rétention, « everything is still downstream of the views ») `[fiche:Z2uoA3bhJT0,
-     frameworks N et P]`. MrBeast dit s'en éloigner, mais décrit un quart d'heure plus tard une intro
-     entièrement pensée pour la rétention. Lecture : la rétention est le **socle** acquis, l'émotion et
-     l'attachement sont l'étape de maturité. Ce n'est pas l'un ou l'autre.
+     l'attente, courbe de rétention `[fiche:Z2uoA3bhJT0, frameworks N et P]` ; « everything is still
+     downstream of the views… I am a view maximizer » `[fiche:Z2uoA3bhJT0, framework W]`). MrBeast dit s'en
+     éloigner, mais décrit un quart d'heure plus tard une intro entièrement pensée pour la rétention.
+     Lecture : la rétention est le **socle** acquis, l'émotion et l'attachement sont l'étape de maturité.
+     Ce n'est pas l'un ou l'autre.
 
 5. **Le produit avant le marketing, et le seuil des 3 épisodes.** [00:15]-[00:16] [01:00] [01:18]
    - (hôte) « On YouTube you could solve marketing through a title and thumbnail. That is our marketing. »
@@ -145,14 +149,17 @@ en ne laissant jamais douter de l'**authenticité**.
    - Une vidéo peut perdre de l'argent si elle construit une bibliothèque ou fait la promotion de
      Feastables ; *Beast Games* (« des dizaines de millions » perdus) est traité comme une startup.
    - **Longue traîne** : *Beat Ronaldo* = environ 100 M de vues en 7 jours, environ 400 M attendues, soit
-     « three times » en 2 ans. Mesurer une vidéo sur 2 ans, pas sur la semaine 1.
+     « three times » en 2 ans. Mesurer une vidéo sur 2 ans, pas sur la semaine 1. Convergence avec les
+     vidéos « evergreen » de Galloway `[fiche:Z2uoA3bhJT0, framework S]`.
    - **[DATÉ]** Les audiences ne se recouvrent pas : « people who spend a ton of time on TikTok and don't
      spend much time on Shorts ». Être présent partout, avec le meilleur contenu **natif** de chaque
      plateforme ; la portée sert le CPG et le logiciel. Nuance avec Hormozi (déduction) : lui raisonne en
-     **formats** sur une même plateforme (shorts ≠ longs), Jimmy en **plateformes**.
+     **formats** sur une même plateforme (shorts ≠ longs) `[fiche:Jmkq5RLjm0U]`, Jimmy en **plateformes**.
    - Aveu : les vidéos philanthropiques (puits, aveugles) « usually underperform ». Même le plus gros
      créateur constate que le « bien » n'est pas un moteur de vues : il faut l'emballer en divertissement
-     ou l'accepter comme un coût.
+     ou l'accepter comme un coût. Trois arbitrages différents entre vues et objectif (déduction) : MrBeast
+     assume des vidéos qui sous-performent pour sa mission, Galloway se dit « view maximizer », Hormozi
+     accepte moins de vues pour une meilleure audience.
 
 7. **Une marque de créateur ne vaut que par le rachat répété. Sinon : « just do a brand deal ».**
    [00:34]-[00:42]
@@ -170,7 +177,8 @@ en ne laissant jamais douter de l'**authenticité**.
    - Croisement (déduction) : Hormozi, « you'll get the first purchase, you just won't get the ones after
      that » `[fiche:Jmkq5RLjm0U, framework D]` ; Galloway, AdSense + sponsors pour 95 % des créateurs et le
      CPG en phase 3, exemple MrBeast `[fiche:Z2uoA3bhJT0, framework W]`. MrBeast déconseille lui-même cette
-     phase 3 à la plupart.
+     phase 3 à la plupart. Le continuum d'Hormozi (affiliation → sponsoring → equity → marque propre)
+     `[fiche:Jmkq5RLjm0U, framework X]` donne la grille pour choisir le bon cran.
 
 8. **Négocier : échanger de l'argent contre de la liberté créative, et garder l'âme de ce qu'on fait.**
    [00:42]-[00:57]
@@ -193,7 +201,8 @@ en ne laissant jamais douter de l'**authenticité**.
      aux experts YouTube `[fiche:Z2uoA3bhJT0, framework U]` ; MrBeast dit aux créateurs de **ne pas** les
      laisser aux gens du streaming. Même règle : le contrôle créatif revient à qui maîtrise le contrat
      d'attention **et** l'audience ; on délègue aux experts ce qu'on ne maîtrise pas (négociation,
-     exploitation CPG).
+     exploitation CPG). Hormozi dit la même chose sous la forme « pay down your ignorance assets »
+     `[fiche:Jmkq5RLjm0U, framework O]`.
 
 9. **L'authenticité est un actif : la moindre retouche nourrit le soupçon de truquage.** [01:06] [01:07]-[01:11]
    - (hôte) La CGI, même pour une simple extension de décor, « gives ammo » à ceux qui disent « it's not
@@ -263,7 +272,8 @@ recommandation de format sériel sur YouTube (playlists, lecture TV, fonctions d
    premières minutes de la saison 1).
 5. Choisir **hebdomadaire** quand le contenu suscite le débat (trahisons, choix moraux, expériences
    sociales) : la conversation entre deux sorties fait la promotion. **Binge** sinon (réversible : « time
-   will tell »).
+   will tell »). (hôte) Les streamers comme IShowSpeed et Kai Cenat font du **rendez-vous** : lives
+   annoncés très en amont, à date et heure fixes.
 6. **« Eventize »** : sur une série, le marketing ne se résume plus au titre et à la miniature ; il faut
    créer l'événement et porter l'audience sur plusieurs semaines.
 7. Ne jamais compter sur le marketing pour sauver un contenu faible.
@@ -529,7 +539,7 @@ seen ») ne sont pas montrées. **Ordres de grandeur de fin 2024.**
 - Saison 2 « en principe avec Prime » [01:01] · intention de l'époque.
 
 **Business et marques de créateurs**
-- Plus aucune marque de créateur durable sauf Prime, Feastables, Lunchly « and maybe one or two others »
+- Aucune marque de créateur durable sauf Prime, Feastables, Lunchly « and maybe one or two others »
   [00:39] · opinion. **Prime** a connu une forte baisse de ventes rapportée par la presse à partir de 2024 :
   exemple discutable, à vérifier.
 - Rachat justifié avec environ 30 % de croissance et une bonne marge [00:40] · opinion.
@@ -600,6 +610,8 @@ seen ») ne sont pas montrées. **Ordres de grandeur de fin 2024.**
 - **« Je ne gagne pas d'argent »** et conseils d'optimisation financière des contrats : compatible si
   l'argent est vu comme levier de réinvestissement.
 - **CGI** : « 0,1 % » (YouTube) contre « quite a bit » (*Beast Games*).
+- **Réputation** : en concédant que ses vidéos anciennes n'avaient « no story », il donne en partie raison
+  à la critique « manipulateur d'algorithme » qu'il conteste.
 
 **Limites méthodologiques**
 - Données jamais montrées : règle des 3 épisodes (70 %), « the data I've seen » pour l'hebdomadaire,

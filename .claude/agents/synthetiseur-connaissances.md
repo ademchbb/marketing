@@ -25,12 +25,13 @@ créé qu'à la première fiche qui porte le tag ; « (à venir) » = pas encore
   `croissance-audience.md` · hooks → `hooks-et-retention.md` · storytelling → `storytelling.md` (à venir) ·
   formats-courts → `formats-courts.md` · youtube-long → `youtube-long.md` (à venir) · linkedin → `linkedin.md`
   (à venir) · monetisation, offre → `monetisation-et-offre.md` · regularite, production, mindset →
-  `production-et-regularite.md` · analyse-donnees → `analyse-et-iteration.md` (à venir) · recrutement-equipe →
+  `production-et-regularite.md` · recrutement-equipe →
   `equipe-et-organisation.md` · communaute → `communaute.md` · positionnement → `positionnement-et-niche.md` ·
   publicite → `publicite.md` (à venir).
 
 | tag | fichier (à venir tant qu'absent) | définition |
 |---|---|---|
+| `analyse-donnees` | `analyse-et-iteration.md` | lecture des métriques (contenu, pub, tunnel de vente : taux par étape, conversion), tests A/B et itération ; allocation et attribution = `mesure-budget` |
 | `meta-ads` | `meta-ads.md` | système publicitaire Meta (Facebook + Instagram : Advantage+, Andromeda, apprentissage) |
 | `conformite-juridique` | `conformite-juridique.md` | droit, règles des plateformes, mentions obligatoires |
 | `email` | `email.md` | newsletter, emailing, prospection électronique |
