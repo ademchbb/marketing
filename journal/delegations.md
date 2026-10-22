@@ -244,3 +244,5 @@ Leçon : 20 agents en parallèle épuisent le quota en ~2 h 30. Vagues de ~10 ag
 - [x] MrBeast p1 faite (points [DATÉ] → veilleur-algorithmes youtube : séries, playlists, TV, lecture des abandons en 2026). Lot B : Ogilvy et page de vente Marketing Mania lancés.
 - [x] Jay Abraham : notes faites → fiche lancée. [ ] chercheur-sources : source primaire des « 3 façons de faire croître une entreprise » d'Abraham.
 - [x] MrBeast p2 et GaryVee : notes faites → fiches MrBeast et GaryVee lancées. Synthèse à prévoir : principe « niche ou pas niche » (Hormozi, Godin, GaryVee, Binet & Field).
+- [x] Fiche Justin Welsh faite (3/5). Décision taxonomie : OUI tag `ia-creation` (IA dans l'écriture et la production, banalisation de l'information) → prochaine passe architecte (avec analyse-donnees élargi, retention-client).
+- [x] Russell Brunson : notes faites → fiche lancée. Katana négociation et Hormozi Leads p1 lancés.
