@@ -46,6 +46,17 @@
 - ensuite : → hooks/frameworks/vérif → synthétiseur (principes + `index.md`)
   → `extracteur-youtube` sur le lot 3 (30 vidéos, lancé) → même pipeline.
 
+## Reprise du 2026-10-22 (après coupure de quota vers 02 h UTC)
+- Vague 1 relancée (10 agents) : fiches Hormozi vente, Galloway, Doctolib ; architecte-agents (tags, droit, QA) ;
+  correction du framework conformité ; developpeur-outils (podcast) ; vérif passe 3 droit des offres ;
+  Money Models p2-p3 ; Boron p2.
+- File restante : Money Models p4-p6 → fiche ; Boron p3 → fiche ; 12 vidéos du lot B en 1 partie
+  (OgRgbar2dOQ, guZa7mQV1l0, DJLtwT1Z0eo, FN4eDk1pq6U, 1N2XALudegQ, Ge8xTCIP0Zw, rl3SELihHqs, Br2KSsaTzUc,
+  buAY7UtjCb4, IWuVEcQexWo, rPZG5xfN7vI, aGI7puAXf6w) ; MrBeast ×2 ; Dan Koe ×3 ; Hormozi Leads ×2 ;
+  puis extracteur-hooks/frameworks (canon), vérif passe 3 (chiffres du canon), synthèse, cartographe-lacunes,
+  rapporteur. Détail des demandes : `journal/delegations.md`.
+- Règle : vagues de ~10 agents au maximum (20 en parallèle ont épuisé le quota en ~2 h 30).
+
 ## À faire (dans l'ordre)
 4. `synthetiseur-connaissances` → `connaissances/principes/` + `index.md`.
 5. `cartographe-lacunes` → `connaissances/lacunes.md` ; puis `chercheur-sources` → `sources/a-traiter.md`.
