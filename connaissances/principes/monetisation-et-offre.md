@@ -201,7 +201,11 @@ M9 à M13 ont gagné des soutiens : ils restent à leur place pour garder la num
 - **Sources** : [fiche:Ch4Sl0POBhU] F41, F44 ; [fiche:uJ8Pg6t_iho] frameworks 4 et 28 ;
   [fiche:HzoQgQS8czE] framework 20 et offre done-for-you ; [fiche:Jmkq5RLjm0U] livres gratuits en ligne
   utilisés comme lead magnets (section Fiabilité).
-- **Consensus** : 3 experts (Ralston, Yuergens, Hormozi).
+- **Consensus** : 3 experts (Ralston, Yuergens, Hormozi). Ajout 2026-10-25 : 4 experts avec Welsh, pour qui
+  l'information se banalise avec l'IA et ce qui garde de la valeur est la proximité et l'expérience vécue
+  [fiche:DJLtwT1Z0eo enseignement 1, framework C] ; Hormozi donne *$100M Leads* en entier sans opt-in
+  [fiche:k834E6OTGTM]. Koe soutient au contraire que l'on paie l'information pour « aggregation, speed and
+  convenience » [fiche:SUzKZfyaAK8 framework R] : désaccord D12.
 - **Confiance** : moyenne. Cohérent chez les trois, mais aucune mesure publique (C28 vues du cours :
   plausible, à vérifier).
 
@@ -219,7 +223,12 @@ M9 à M13 ont gagné des soutiens : ils restent à leur place pour garder la num
   pas rodé. Jamais de fausse « valeur » annoncée ni de prix barré fictif.
 - **Sources** : [fiche:Ch4Sl0POBhU] F42 ; [fiche:uJ8Pg6t_iho] playbook 25 ; [fiche:HzoQgQS8czE]
   frameworks 18 et 20 ; [fiche:Jmkq5RLjm0U] K.5.
-- **Consensus** : 3 experts (Ralston, Yuergens, Hormozi).
+- **Consensus** : 3 experts (Ralston, Yuergens, Hormozi). Ajout 2026-10-25 : 6 experts avec Leloup (échelle
+  contenu → guide → séjours → premium [fiche:11rNI6BUey4 framework J]), Niox-Chateau (offre d'entrée à environ
+  100 €/mois, puis suite élargie brique par brique [fiche:oeG8NWrWV4Y enseignement 3]) et Koe (offre minimum
+  viable puis productisation [fiche:SUzKZfyaAK8 framework E]). Hormozi y ajoute un seul front-end à la fois
+  [fiche:6_CCutkM11g enseignement 9]. Le passage d'une marche à la séquence d'offres complète est M14 ; le nombre
+  d'offres à tester est le désaccord DL2 de `lancement-produit.md`.
 - **Confiance** : moyenne.
 
 ### M7. Possède ton audience : privilégie l'email au follow-gate quand l'objectif est de vendre
@@ -239,6 +248,12 @@ M9 à M13 ont gagné des soutiens : ils restent à leur place pour garder la num
   (voir Désaccord D4).
 - **Confiance** : moyenne. Le risque de dépendance est illustré par un fait vérifié : coupure de TikTok aux
   États-Unis de 13 à 14 h en janvier 2025 (registre T03, confirmé).
+- **Mise à jour 2026-10-25** : 6 experts avec Leloup (« le seul canal qu'on possède » [fiche:11rNI6BUey4
+  enseignement 9]), Koe (« distribution equals freedom », « they can't take emails away from you »
+  [fiche:SUzKZfyaAK8 enseignement 2]) et Welsh (la newsletter, actif le plus durable [fiche:DJLtwT1Z0eo
+  enseignement 6]) ; Halbert : « the best list of all is your own customer list » [fiche:halbert-boron-letters].
+  Confiance relevée à **haute** (au moins 3 experts convergents, fait vérifié T03). Le régime juridique des envois
+  suit la CNIL (`arbre-regime-message-electronique-cnil.md`).
 
 ### M8. Traite les objections non dites dans le contenu
 - **Pourquoi** : l'objection non traitée bloque l'achat en silence. Formuler l'objection avec les mots du

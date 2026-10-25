@@ -268,7 +268,7 @@
 - **Officiel** : sur X, signaler (−234), masquer (−58,8) et « pas intéressé » (−52,3) écrasent les réactions positives
   [veille:x §2.3] ; LinkedIn filtre les appâts et le langage générique [veille:linkedin §2.3-§2.4]. Le Baromètre du
   numérique 2026 : 44 % des utilisateurs de réseaux ont déjà signalé un contenu, 81 % des 18-24 ans (déclaratif)
-  [fiche:barometre-numerique-2026 p. 47].
+  [fiche:barometre-numerique-2026 enseignement 6, p. 42-47].
 - **Comment l'appliquer** : exercice des deux colonnes, phrase de marque, test brand prison (P6) ; contexte et
   formulations prudentes sur les sujets complexes ; aucun objectif chiffré de commentaires négatifs (D5).
 - **Consensus** : 4 (Ralston, Séguéla, Welsh, LinkedIn × Scale VP) + X officiel.
