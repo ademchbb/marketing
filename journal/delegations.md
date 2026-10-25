@@ -310,3 +310,9 @@ Leçon : 20 agents en parallèle épuisent le quota en ~2 h 30. Vagues de ~10 ag
   - [ ] developpeur-outils (basse priorité) : `outils/experiences/` tirage au sort reproductible (graine consignée).
   - [ ] verificateur-faits : NHS −18 % (Martin et al. 2012) et étude conseil vs avis (réplication).
   - [ ] concepteur-experiences lot 2 : idées de `principes/hooks-et-retention.md` (D1, D2, voix off) et `veille/plateformes/linkedin.md` §8.
+
+## Reprise du 2026-10-25 (après coupure de quota du 2026-10-22 vers 10 h UTC)
+- Livrables partiels commités : passe 4a (marque, pub, copy) et 4b (créateurs, offres : 64 affirmations, 27 ✅ 15 🟡 7 ❌ 15 ❓), `veille/plateformes/x.md`, 2 frameworks négociation, transcription audio *$100M Offers* (7 épisodes, 4 h 05).
+- [x] extracteur-hooks lot A fait (103 hooks, 32 CTA, 10 structures ; tag `[sous condition : …]` ; section « Hooks interdits : procédés de vente directe »).
+- Passe 4b, faux à retenir : détection du mensonge au regard (Bond & DePaulo : 54 %) ; « 60-65 % des emplois de demain n'existent pas » (aucune étude) ; « Ackerman = méthode du FBI » (ex-CIA ; version du livre 65/85/95/100). Demandes : consolidateur-fiche (corrections KA01, BR04, MM03, MM11, LD05, MB04, MB11) ; fusion 4a+4b dans le registre ; garde-conformite / garde-offres (règles KA04, MB03, DK01, BR05) ; chercheur-sources (MM06, MM08, JA01, MB04, MB13, DK03).
+- Relancés (SendMessage, reprise de contexte) : S1, S2, S3, S4, frameworks lot A, veille YouTube/X, passe 4a, transcripteur (découpe *$100M Offers*).
