@@ -213,4 +213,4 @@ joint à la livraison contre aucun, mesuré au nombre de nouveaux clients citant
 ## Journal
 | Date | Modification |
 |---|---|
-| 2026-10-25 | Création (grande synthèse S3) : 15 fiches (dont Godin et Kotler classés ici sans le tag), 7 principes, 3 désaccords. Verdicts V4A-K05, V4B-JA04, JA05 intégrés. |
+| 2026-10-25 | Création (grande synthèse S3) : 17 fiches (dont Godin et Kotler classés ici sans le tag), 7 principes, 3 désaccords. Verdicts V4A-K05, V4B-JA04, JA05 intégrés. |

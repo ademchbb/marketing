@@ -341,3 +341,4 @@ Leçon : 20 agents en parallèle épuisent le quota en ~2 h 30. Vagues de ~10 ag
   - [ ] extracteur-frameworks **lot D** : k834E6OTGTM (Core Four, Lead Getters, lead magnet 7 étapes, playbooks), LJVP2wRk7Cc (scorecard, liste d'attente : compléter), Ge8xTCIP0Zw (recommended provider : vérifier), 11rNI6BUey4 (lancement inversé, prévente honnête), aGI7puAXf6w, SUzKZfyaAK8.
   - [ ] concepteur-experiences lot 2 : + 12 tests S1 (paliers d'upsell, bundle, fourchette de prix, ordre des options, longueur de diagnostic, opt-in vs libre, pilote d'affiliés, engagement vs sans, message après achat, annonce de la déception, promo empilée, partenaire recommandé).
   - [ ] verificateur-faits passe 6 (chiffres) : + oeG8NWrWV4Y, 8zcnK6Lx_p4, lhlS-Wds02M, DJLtwT1Z0eo, J6Su5Vx3x5U ; heuristiques upsell 10×/5× et « 2× (CAC+COGS) en 30 jours ».
+- Lancé : analyste-transcription *$100M Offers* partie 2.
