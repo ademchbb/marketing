@@ -409,7 +409,10 @@
   [fiche:dAJyqo6wnq4] ; Hormozi : la pub est la voie la plus rapide sans audience et lui a d'abord servi à survivre
   [fiche:k834E6OTGTM 00:17]. Coudac : « vous ne pouvez pas vous acheter un product-market fit », Meta accélère, il ne
   démarre pas [fiche:qBxEAqZbHVg 06:56] ; Kapferer : pas de pub au début, la masse à la fin [fiche:OgRgbar2dOQ] ; Binet &
-  Field : la croissance organique d'abord, la pub relève le plafond [fiche:binet-field-b2b-growth p. 8-9].
+  Field : la croissance organique d'abord, la pub relève le plafond [fiche:binet-field-b2b-growth p. 8-9] ; Godin :
+  « Comment faire passer le mot ? — You don't. Your customers should spread the word », l'interruption payante est du
+  bruit, et une pub au Super Bowl est « almost always a terrible decision » (opinion) [fiche:8zcnK6Lx_p4 enseignements 1,
+  6].
 - **Recommandation de l'agence** : sans ventes constatées, un premier budget pub est un **test borné** (montant fixé
   et validé par l'utilisateur, critère écrit d'avance), pas un moteur de croissance (arbitrage déjà retenu dans
   `lancement-meta-structure-1-1-1.md`). Avec des ventes et de la preuve sociale réelles, la pub accélère. Hormozi

@@ -519,6 +519,27 @@ n'importe quel formulaire, les arguments de vitesse ou de gratuité de l'outil s
 | Votre [actif] risque-t-il de [menace] ? | « Are you going to get disrupted by AI? / Is your brand dissolving into irrelevance? » | Angle peur (« destined to fail »), confrontant | `[pub payante]`, post | à adapter : à doser ; `[sous condition : menace réelle et documentée, jamais une peur fabriquée]` | [fiche:LJVP2wRk7Cc 00:43] |
 | Votre [élément] reflète-t-il vraiment [qualité voulue] ? | « Does your restaurant logo reflect the unique personality of your family restaurant? » / « Does your current identity reflect your own personal values? » | Question d'auto-évaluation : le répondant constate lui-même l'écart | Question de quiz, slide de carrousel à micro-oui | oui ; chaque « non » doit mener à un service réel | [fiche:LJVP2wRk7Cc 01:11] [fiche:LJVP2wRk7Cc 00:26] |
 
+## 17. Formule citable : chiasme, rime, antithèse, slogan (ajout lot B)
+
+Mécanisme commun : une forme sonore (inversion, rime, symétrie) rend une idée répétable par d'autres ; c'est la
+voie du « média gratuit » chez Trott (une formule courte, oralisable, détournable, qui entre dans la langue)
+[fiche:rl3SELihHqs 00:26] [fiche:rl3SELihHqs 00:30]. Complète la règle transversale « Nommer chaque règle ou concept ».
+Idéal en carton final ou en slide 1 : c'est le format le plus proche du style Sillage (une idée, quelques mots).
+
+| Formule | Exemple original | Mécanisme | Format idéal | Premium sobre ? | Source |
+|---|---|---|---|---|---|
+| [A] n'a pas de [B] ; seuls les [B] font [de l'A]. | « L'argent n'a pas d'idées, seules les idées font de l'argent. » | Chiasme : l'inversion des termes rend la formule citable | Carton final, signature, manifeste | oui | [fiche:buAY7UtjCb4 00:00] [fiche:buAY7UtjCb4 00:35] |
+| [Verbe 1], [verbe 2 qui rime]. / Si [A], alors [B qui rime]. | « When we care, we share. » / « If it is top-of-mind… it's going to be tip-of-tongue. » / « If you get that advice, you get that accomplice. » / « Les Français achètent des voitures qui roulent, pas des voitures qui coulent. » (attribuée à Mitterrand, sens probable) | Rime ou assonance : la mémoire retient le son avant le sens | Carton, slide de conclusion, titre | oui (en français, chercher la rime réelle, pas la traduction) | [fiche:FN4eDk1pq6U 00:24] [fiche:FN4eDk1pq6U 00:18] [fiche:_hem3-8XbEI 00:29] [fiche:buAY7UtjCb4 00:06] |
+| À [l'atelier], nous fabriquons [produit]. Chez [le client], nous vendons [ce qu'il devient]. / Contre-pied : Je ne vends pas [promesse vague]. Je vends [produit honnête]. | « In the factory we make lipstick, in the store we sell hope. » (Revlon, attribuée à Charles Revson) / « I'm not selling hope, I'm selling good skin lotion. All the others sell hope. » (Anita Roddick) | Antithèse lieu / valeur ; la version Roddick oppose l'honnêteté produit à l'émotion promise | Manifeste, carton, LinkedIn | oui ; la version Roddick convient le mieux à une marque premium sobre | [fiche:sR-qL7QdVZQ 00:37] |
+| [Mot courant], ce n'est pas [définition attendue]. C'est [redéfinition]. | « L'intelligence c'est pas de comprendre les choses, c'est de donner du sens aux choses. » / « Le brand content, c'est qu'est-ce que vous racontez quand vous avez fini de parler de vos produits. » / « Le projet, c'est pas ce que vous êtes, c'est là où on veut aller. » | Redéfinition d'un mot que tout le monde croit connaître | Carton, slide de définition (`structures.md` M1), LinkedIn | oui | [fiche:buAY7UtjCb4 00:03] [fiche:OgRgbar2dOQ 00:13] [fiche:OgRgbar2dOQ 00:32] |
+| Chaque fois que [geste quotidien], [marque]. / [Moment récurrent] : c'est fait pour [marque]. | « Every time you take a coffee break, have a Kit Kat » / « Weekends are Made for Michelob » / « Peanut butter is like a little advertisement for jelly. » | Slogan-déclencheur : un moment fréquent de l'environnement rappelle la marque | Slogan, série de contenus calée sur un moment (le vendredi, le café) | oui ; choisir un déclencheur fréquent **et** cohérent avec le produit | [fiche:FN4eDk1pq6U 00:20] [fiche:FN4eDk1pq6U 00:22] |
+| [Marque] fait exactement ce qui est écrit dessus. | « Does exactly what it says on the tin. » (Ronseal) | Promesse fonctionnelle simple, oralisable, reprise dans la langue courante | Slogan, signature | oui (sobriété assumée) ; seulement si le produit tient la promesse | [fiche:rl3SELihHqs 00:30] |
+| Les [amis] ne laissent pas leurs [amis] [comportement à risque]. | « Friends don't let friends drive drunk. » ; script : « If he's drunk, take his keys, call him a cab, give him a bed for the night » | Règle sociale qui vise le témoin capable d'agir, pas le coupable | Campagne de cause, prévention, conformité | oui ; datation corrigée : la campagne Ad Council / NHTSA démarre en 1983 avec « Drinking & Driving Can Kill A Friendship », la phrase célèbre date de **1990** `[vérif : V4A-T14 ❌]` ; son « succès » n'est chiffré que par la profession `[vérif : V4A-T15 🟡]` | [fiche:rl3SELihHqs 00:37] |
+| Vaut [l'arrêt]. Vaut [le détour]. Vaut [le voyage]. | Michelin : « worth stopping / worth a detour / worth a special trip » | Échelle de valeur exprimée en comportement : le contenu pousse l'action qui sert l'objectif business | Système de notation, série de recommandations, carrousel | oui ; dates citables : guide gratuit en 1900, payant en 1920, première étoile en 1926 `[vérif : V4A-T16 ✅]` | [fiche:rl3SELihHqs 00:45] |
+| [Proverbe connu], détourné d'un mot. | « There's no such thing as a free launch » | Le proverbe porte la formule, le mot changé porte l'idée | Titre, carton, objet d'e-mail | oui | [fiche:iM-ouJfISwY 00:12] |
+| [Slogan-histoire où la marque est le personnage] | « Never Say No to Panda » | On ne peut pas raconter l'histoire sans la marque (test du cheval de Troie, famille 7) | Série de pubs, personnage récurrent | à adapter : personnage sobre, cohérent avec le ton | [fiche:FN4eDk1pq6U 00:26] |
+| Plutôt que de changer [le monde], changez la façon dont les gens le voient. | « Plutôt que de changer le monde, changez la façon dont les gens le voient… » | Chute en chiasme qui résume une thèse de perception | Carton final, conclusion de conférence | oui | [fiche:lhlS-Wds02M 00:44] |
+
 ---
 
 ## À ne jamais faire (contre-exemples)
@@ -536,6 +557,13 @@ n'importe quel formulaire, les arguments de vitesse ou de gratuité de l'outil s
 | « Vous avez quelques minutes pour parler ? » | Appelle un oui engageant : déclenche doutes et méfiance ; préférer « Est-ce un mauvais moment ? » (famille 15) | [fiche:guZa7mQV1l0 00:05] |
 | « Vous allez adorer » + produit vanté sans aucune réserve, dans un support où tout le monde vante | Aucune rupture : c'est la convention que le pattern interrupt contredit | [fiche:1N2XALudegQ 00:03] |
 | Gros mots dans le hook | Efficaces pour certains créateurs, incompatibles avec le ton sobre et classe | [fiche:HzoQgQS8czE 01:41] |
+| Teaser creux (« WOW! There is exciting news inside! ») | Signale la vente sans rien dire : le message va directement dans la pile « à jeter » | [fiche:halbert-boron-letters ch. 11] |
+| Accroche qui ment puis se rétracte (« A Submarine That Flies? … No, we don't have a submarine that flies but… ») | « A cheap shot. People resent this kind of fraud. » | [fiche:halbert-boron-letters ch. 14] |
+| Titre-caractéristique ou titre mystère (« Keep Clean », « No animal fats », « Egyptian Psychology ») | Ne dit pas le bénéfice, ou cache à qui l'annonce s'adresse | [fiche:hopkins-scientific-advertising p. 27] [fiche:hopkins-scientific-advertising p. 29] |
+| Appel égoïste (« Look out for substitutes », « Be sure you get this brand ») | Parle de l'intérêt de la marque, pas de celui du lecteur | [fiche:hopkins-scientific-advertising p. 34] |
+| Superlatif nu (« Best in the world », « Lowest prices in existence », « Supreme in quality ») | Suggère l'exagération et fait décompter le reste ; remplacer par le fait chiffré (famille 3) | [fiche:hopkins-scientific-advertising p. 37] |
+| Reproche au lecteur (« Why do you neglect this offer? ») | Suggère que les gens négligent l'offre ; préférer l'impératif positif (« Envoyez… », `cta.md`) | [fiche:hopkins-scientific-advertising p. 86] |
+| Accroche qui choque pour choquer, ou clivage amplifié artificiellement | « Il faut pas choquer les gens inutilement, mais il faut toujours être fier de sa vérité » ; le buzz doit venir de la force de l'idée | [fiche:buAY7UtjCb4 00:34] [fiche:buAY7UtjCb4 00:00] |
 
 ### Hooks interdits ou bloqués (conformité, ajout lot 2)
 
@@ -576,3 +604,48 @@ Repérés dans les sources de lancement et de closing (Hormozi, Brunson, Leloup)
 | Faux compteur de liste d'attente, faux « 200 inscrits », taux de refus non mesuré (« in two-thirds of the cases the answer is no ») | Faux chiffre présenté comme réel | [fiche:LJVP2wRk7Cc 00:28] [fiche:LJVP2wRk7Cc 00:54] |
 | « À ce stade de la vidéo, j'ai perdu entre 80 et 90 % d'entre vous » affiché comme une donnée | Procédé rhétorique, pas une mesure de rétention : garder la flatterie, retirer le chiffre ou le remplacer par la vraie courbe | [fiche:11rNI6BUey4 00:53] |
 | Se faire passer pour un client pour démarcher (« fake estimates ») | Pratique trompeuse | [fiche:6_CCutkM11g 05:21] |
+
+### Hooks interdits ou bloqués : procédés de la vente par correspondance et de la persuasion (ajout lot B)
+
+Repérés chez Halbert, Hopkins, Trott et Cialdini. Même règle : une seule ligne concernée = refus tel quel.
+
+| À éviter | Pourquoi | Source |
+|---|---|---|
+| **Fausse relation personnelle ou fausse recommandation** : « Un ami commun, [nom], m'a conseillé de vous écrire » sans vrai contact ni accord ; « [Un parent / un proche] vous recommande… » ; message de masse présenté comme écrit à l'instant pour une seule personne (« Dear Mr. Jones », date et heure « like a telegram » sur un envoi programmé) ; « lettre personnelle » d'un journaliste ou d'un tiers fictif (« Rave Review ») | Faux témoignage et pratique trompeuse. Sanction réelle : en **novembre 1995**, la Poste américaine a ordonné à Halbert's (Bath, Ohio, l'entreprise du mailing des armoiries) de **cesser de prétendre faussement qu'un parent du destinataire avait envoyé ou recommandé l'offre** (source secondaire `[vérif : V4A-H02 🟡]`). Le ton personnel est permis ; la relation inventée, jamais | [fiche:halbert-boron-letters ch. 21] [fiche:halbert-boron-letters ch. 18] [fiche:halbert-boron-letters ch. 11] [fiche:halbert-boron-letters ch. 12] |
+| Impression présentée comme une note manuscrite (« printed in blue ink and appear to be handwritten », signée d'initiales) | Simulation : une police manuscrite clairement graphique ou une vraie note écrite, oui ; une fausse note authentique, non | [fiche:halbert-boron-letters ch. 14] |
+| « Reason why » vraie pour un seul destinataire mais envoyée à toute une liste (« vous êtes spécial », « un client recherche votre voiture », objet « invendable ailleurs ») ; rareté chiffrée inventée (« only 117 So & So families ») | Fausse raison et faux chiffre présentés comme réels | [fiche:halbert-boron-letters ch. 21] |
+| Faux document qui attire l'œil (fausse contravention, fausse facture, faux avis officiel) | Le lecteur se souvient de la marque « with distaste » ; tromperie sur la nature du message | [fiche:halbert-boron-letters ch. 24] |
+| Culpabilité comme levier (« those pitiful children need your help right now! », enveloppe timbrée pour faire culpabiliser celui qui refuse) | Exploite la détresse ou la gêne : `[sous condition : pression à proscrire]` ; au mieux, rareté réelle sans culpabilité | [fiche:halbert-boron-letters ch. 12] [fiche:halbert-boron-letters ch. 13] |
+| Personne « créée » pour signer les messages de la marque (porte-parole fictif présenté comme réel) ; fausse exclusivité de groupe | Hopkins le recommande en 1923 ; chez nous, la personne derrière la marque est **réelle** et nommée | [fiche:hopkins-scientific-advertising p. 83] [fiche:hopkins-scientific-advertising p. 34] |
+| « Média caché » illégal (tamponner ou annoter des billets de banque, affichage sauvage) | On garde le raisonnement (chercher ce que la cible manipule déjà), jamais la tactique ; toute idée de média détourné passe par `garde-conformite` | [fiche:rl3SELihHqs 00:54] [fiche:rl3SELihHqs 00:55] |
+| Indice préalable placé pour pousser à dépenser contre l'intérêt du client (logos de cartes bancaires affichés pour augmenter la dépense) | La pré-suasion n'est permise qu'avec une caractéristique **vraie et représentative** qui rend le choix sage pour la personne | [fiche:_hem3-8XbEI 00:32] [fiche:_hem3-8XbEI 00:55] |
+| Conseil de « lire » le mensonge d'un prospect au regard, à l'agitation ou aux gestes | Contredit par les méta-analyses : on ne distingue le vrai du faux que dans environ 54 % des cas, et le regard fuyant n'a pas de lien constant avec le mensonge `[vérif : V4B-KA04 ❌]`. Garder la méthode verbale (faire préciser, faire répéter, comparer) | [fiche:aGI7puAXf6w 00:15] |
+
+### Chiffres et récits à ne pas reprendre (passes de vérification 4a et 4b)
+
+Ce que les rédacteurs risquent de reprendre en hook, et la version corrigée. Au lot B, les lignes existantes qui
+en reprenaient ont été corrigées sur place (devinette des « 54 % chaque année » en famille 1, date « 1983 » de
+l'annonce Magic Baloney en familles 1 et `structures.md` S1, chiffres Brunson annotés) ; la table sert surtout à
+**prévenir** leur entrée.
+
+| À ne pas écrire | Écrire plutôt | Réf. |
+|---|---|---|
+| « 89 % des pubs ne sont ni remarquées ni mémorisées » (ou « 4 / 7 / 89 % ») | Aucun chiffre. Au plus : « Dave Trott répète depuis 2008 que 89 % de la pub n'est pas mémorisée, sans citer d'étude. » Préférer la démonstration en direct (famille 9, « Levez la main ») | `[vérif : V4A-T01 ❓]` |
+| « Sainsbury's a gagné 3 Md£ en 2 ans avec 1,85 £ de plus par visite » | « Selon le cas IPA d'AMV BBDO (Or 2008), 2,5 Md£ de revenu supplémentaire, en visant 1,14 £ de plus par visite. » | `[vérif : V4A-T03 ❌]` |
+| « Avec l'opt-out, Singapour a tous les organes dont il a besoin » | « Singapour présume le consentement depuis 1987 ; la pénurie persiste (environ 9 ans d'attente pour un rein vers 2015). » Une option par défaut change un comportement, elle ne garantit pas le résultat | `[vérif : V4A-T06 ✅] [vérif : V4A-T07 ❌]` |
+| « Séguéla a éteint l'affaire Rolex par un mea culpa le soir même » | « Séguéla s'est excusé une semaine plus tard, sur Canal+ (20/02/2009). » L'aveu rapide reste un principe à tester | `[vérif : V4A-S08 ❌]` |
+| « Starbucks n'a jamais fait de pub » ; « Red Bull a été créé par un étudiant fauché » | « Starbucks a peu misé sur la pub média nationale avant sa première campagne TV de 2007. » ; « Red Bull a été lancé en 1987 par un ancien directeur marketing de Blendax. » | `[vérif : V4A-K12 ❌] [vérif : V4A-K04 ❌]` |
+| « Nespresso est né en 1990 » ; « Carrefour a lancé les produits libres en 1978 » | « Nespresso est fondé en 1986 ; Clooney arrive en 2006. » ; « Le 1er avril 1976. » | `[vérif : V4A-K02 ❌] [vérif : V4A-K01 ❌]` |
+| « Schiffer, 12 000 couvertures par an » ; « crash test à 40 km/h à Las Vegas » ; porte-avions « atomique » | « Plus de 1 000 couvertures en carrière » ; « crash test Xsara à 20 km/h (1998), désert de Joshua Tree » ; le Clemenceau était à propulsion classique | `[vérif : V4A-S09 ❌] [vérif : V4A-S10 ❌] [vérif : V4A-S03 ❌]` |
+| « Friends don't let friends drive drunk (1983) » | « Campagne Ad Council / NHTSA lancée en 1983 ; ce slogan date de 1990. » | `[vérif : V4A-T14 ❌]` |
+| Einstein et « l'enfant de 6 (ou 11) ans » ; Henri VIII et *Greensleeves* ; Abbott et « the speed of light » | Ne pas attribuer (la formule peut servir sans nom) | `[vérif : V4A-T11 ❓] [vérif : V4A-T12 ❓] [vérif : V4A-T13 ❌]` |
+| « La lettre au billet d'un dollar a eu 90 % de réponse » ; « la lettre des armoiries a eu 7 millions de clients » ; « le National Enquirer, journal le plus vendu au monde » | Au plus : « Halbert affirme… », jamais comme preuve d'une tactique ; ne pas reprendre l'Enquirer | `[vérif : V4A-H01 ❓] [vérif : V4A-H02 🟡] [vérif : V4A-H03 ❌]` |
+| « Magic Baloney, annonce de 1983 » | « Annonce de Joe Sugarman pour le thermostat MagicStat (date non établie). » | `[vérif : V4A-M03 ❓]` |
+| « Ogilvy, discours des années 1980 » | « Message vidéo enregistré pour un congrès de marketing direct, non daté. » | `[vérif : V4A-O01 ❓]` |
+| « 60 % (ou 65 %) des emplois de demain n'existent pas encore » ; « 62 % des emplois menacés par l'automatisation » | Jamais en prédiction. Si besoin : « Environ 60 % des emplois de 2018 étaient dans des métiers qui n'existaient pas en 1940 (Autor et al., 2024). » | `[vérif : V4B-DK01 ❌] [vérif : V4B-DK02 ❓]` |
+| « 82 % des entreprises échouent à cause de la trésorerie (US Bank) » | Ne pas citer (aucune source primaire) | `[vérif : V4B-MM06 ❓]` |
+| « 54 % des entreprises perdent de l'argent chaque année » | « Selon l'enquête de la Fed publiée en 2024, 54 % des petites entreprises employeuses américaines n'étaient pas rentables fin 2023. » | `[vérif : V4B-MM07]` |
+| « La femme américaine moyenne fait 8 régimes par an » ; « 6,1 M de funnels » ; « de 2-3 % à 18-20 % de conversion » ; « 8 acheteurs Icy Hot sur 10 rachètent chaque mois » | Ne pas citer | `[vérif : V4B-BR05 ❌] [vérif : V4B-BR01 ❓] [vérif : V4B-BR02 ❓] [vérif : V4B-JA05 ❓]` |
+| « Le modèle Ackerman, méthode du FBI » | « Le modèle Ackerman (Mike Ackerman, ancien de la CIA), repris par Chris Voss, ex-FBI, dans *Never Split the Difference* : 65 → 85 → 95 → 100 %. » La « version Despas » (±35 %, +20, +10) n'est pas le modèle du livre | `[vérif : V4B-KA01 ❌] [vérif : V4B-KA02 ✅] [vérif : V4B-KA03 🟡]` |
+| « Le regard fuyant trahit le mensonge » | Ne jamais l'écrire (voir la table précédente) | `[vérif : V4B-KA04 ❌]` |
+| « *Cursed Child* : 2 M d'exemplaires en 24 h » ; « Musk à un mois de la faillite avec la Model S » | « 2 M d'exemplaires papier en deux jours, en Amérique du Nord » ; « la crise de la Model 3 (2017-2019) » | `[vérif : V4B-MM03 ❌] [vérif : V4B-MM11 ❌]` |

@@ -6,7 +6,8 @@
 > avant annonce RSE**. La modération courante (réponse à un commentaire négatif) relève de `communaute.md`.
 > Aucune fiche ne porte le tag `gestion-crise` (créé le 2026-10-22) ; les passages viennent des fiches Séguéla,
 > Hormozi, MrBeast et Doctolib, classées ici par l'alias « communication-crise » et la définition du tag.
-> **Sources traitées** (10 fiches, 10 experts ou sources) : Jacques Séguéla (`buAY7UtjCb4`) · Alex Hormozi
+> **Sources traitées** (11 fiches, 11 experts ou sources) : Chris Voss (`guZa7mQV1l0`, audit des accusations) ·
+> Jacques Séguéla (`buAY7UtjCb4`) · Alex Hormozi
 > (`Jmkq5RLjm0U`) · MrBeast (`xf0Mli0LVgI`) · Doctolib / Niox-Chateau (`oeG8NWrWV4Y`) · Kapferer (`OgRgbar2dOQ`) ·
 > Seth Godin (`8zcnK6Lx_p4`) · Kotler (`sR-qL7QdVZQ`) · Rory Sutherland (`lhlS-Wds02M`) · Caleb Ralston (framework
 > « branding par association ») · Baromètre du numérique 2026 (`barometre-numerique-2026`, source statistique).
@@ -31,7 +32,7 @@
 |---|---|---|---|
 | GC-01 | Prépare la crise avant : veille, responsable, délai de réponse écrit | 3 + 1 source | moyenne |
 | GC-02 | Diagnostique d'abord le type de crise, la réponse en dépend | déduction (D1) | faible |
-| GC-03 | Faute réelle : reconnais-la vite, sans justification, puis corrige | 2 | faible |
+| GC-03 | Faute réelle : reconnais-la vite, sans justification, puis corrige | 3 | faible |
 | GC-04 | Mise en cause injustifiée : parle tôt avec des faits, dis ce qui dépend de toi ou non | 2 | faible |
 | GC-05 | Association durable abîmée : corrige la cause, puis reconstruis par du positif vrai, jamais par l'effacement | 1 (+ Ralston) | faible |
 | GC-06 | Preuve avant annonce : n'annonce un engagement (RSE, cause, sécurité) que vérifiable | 6 | moyenne |
@@ -82,11 +83,14 @@
   - Séguéla, client mécontent : « j'ai fauté, merci de me l'avoir fait comprendre, j'aime tellement cette marque », par
     écrit, vite [fiche:buAY7UtjCb4 17:07].
   - MrBeast : regret de ne pas avoir parlé assez tôt [fiche:xf0Mli0LVgI 00:02].
+  - Chris Voss, **audit des accusations** : dire le premier tout ce que l'autre pourrait vous reprocher, y compris le pire
+    (« very very disarming ») ; quand la colère vous vise, étiqueter sa propre responsabilité perçue
+    [fiche:guZa7mQV1l0 00:34-00:37]. Technique de négociation transposée à la crise (déduction).
 - **Comment l'appliquer** : aveu clair, sans « si certains ont été choqués », dans le même canal que la faute ;
   correction concrète annoncée et datée ; pas de geste spectaculaire qui détourne le sujet. **Ne jamais citer** « Séguéla
   a éteint l'affaire le soir même » : écrire « Séguéla s'est excusé une semaine plus tard, sur Canal+ ».
-- **Sources** : [fiche:buAY7UtjCb4] · [fiche:xf0Mli0LVgI 00:02].
-- **Consensus** : 2 experts.
+- **Sources** : [fiche:buAY7UtjCb4] · [fiche:xf0Mli0LVgI 00:02] · [fiche:guZa7mQV1l0 00:34-00:37].
+- **Consensus** : 3 experts (Séguéla, MrBeast, Voss par transposition).
 - **Confiance** : **faible**. Principe de prudence, à valider sur des cas réels ; le cas fondateur est contredit.
 
 ### GC-04. Mise en cause injustifiée : parle tôt avec des faits, dis ce qui dépend de toi et ce qui n'en dépend pas
@@ -200,4 +204,4 @@ réponse, le message et l'évolution des mentions.
 ## Journal
 | Date | Modification |
 |---|---|
-| 2026-10-25 | Création (grande synthèse S3) : 10 fiches classées par alias et définition du tag, 7 principes, 2 désaccords. Point bloquant de l'orchestrateur intégré : V4A-S07 et V4A-S08 (Rolex, une semaine d'écart) ; T05, V4B-MB01 à MB04 intégrés. |
+| 2026-10-25 | Création (grande synthèse S3) : 11 fiches classées par alias et définition du tag, 7 principes, 2 désaccords. Point bloquant de l'orchestrateur intégré : V4A-S07 et V4A-S08 (Rolex, une semaine d'écart) ; T05, V4B-MB01 à MB04 intégrés. |

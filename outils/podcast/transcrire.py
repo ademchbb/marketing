@@ -26,8 +26,8 @@ Options :
   --vocabulaire TEXTE noms propres et termes à bien orthographier, séparés par des virgules
                       (défaut : auteur du podcast d'après le flux, ex. « Alex Hormozi » ; "" pour aucun)
   --beam N            largeur de faisceau (défaut 5 : qualité ; 1 : ~1,8 fois plus rapide, voir README)
-  --seuil-fuite N     contrôle : un segment qui reprend N mots consécutifs ou plus du vocabulaire, à cheval
-                      sur deux termes (« $100M Offers, Grand Slam Offer »), est une fuite du vocabulaire
+  --seuil-fuite N     contrôle : un segment qui enchaîne au moins deux termes du vocabulaire, N mots ou plus
+                      en tout (« $100M Offers, Grand Slam Offer »), est une fuite du vocabulaire
                       (défaut 4 ; 0 : pas de détection)
   --trou-secondes S   contrôle : parole détectée (VAD) sans aucun texte pendant S s ou plus = passage sauté
                       (défaut 6 ; 0 : pas de détection). Fuites et trous sont retranscrits SANS vocabulaire,
@@ -229,41 +229,49 @@ def charger_audio(chemin: Path, max_s=None):
 # (1) les segments qui recopient le vocabulaire, (2) la parole détectée sans texte, et on retranscrit ces
 # passages sans vocabulaire.
 
-MOT = re.compile(r"\w+(?:['’.,]\w+)*")
+MOT = re.compile(r"[$€£]?\w+(?:['’.,]\w+)*")
 
 
-def suite_vocabulaire(vocabulaire):
-    """Mots du vocabulaire mis bout à bout (deux tours : une répétition est aussi une fuite) + fins de terme."""
-    termes = [[m.casefold() for m in MOT.findall(t)] for t in (vocabulaire or "").split(",")]
-    termes = [t for t in termes if t]
-    seq, fins = [], set()
-    for _ in range(2):
-        for t in termes:
-            seq += t
-            fins.add(len(seq) - 1)
-    return seq, fins
+def termes_vocabulaire(vocabulaire):
+    """« Alex Hormozi, $100M Offers » -> [("alex", "hormozi"), ("$100m", "offers")] (mots en minuscules)."""
+    termes = {tuple(m.casefold() for m in MOT.findall(t)) for t in (vocabulaire or "").split(",")}
+    return sorted((t for t in termes if t), key=len, reverse=True)
 
 
-def fuites(texte, seq, fins, n):
-    """Passages de texte qui reprennent >= n mots consécutifs de la suite du vocabulaire en franchissant
-    une limite entre deux termes -> [(début, fin) en caractères]. Un terme seul (« Grand Slam Offer ») passe."""
-    if not seq or not n:
+def fuites(texte, termes, n):
+    """Passages qui enchaînent au moins deux termes COMPLETS du vocabulaire (dans n'importe quel ordre, avec
+    éventuellement un bout de terme avant ou après) et totalisent >= n mots -> [(début, fin) en caractères].
+    Un terme isolé (« a Grand Slam Offer ») n'est jamais une fuite."""
+    if not termes or not n:
         return []
-    toks = [(m.group().casefold(), m.start(), m.end()) for m in MOT.finditer(texte)]
+    toks = [m.group().casefold() for m in MOT.finditer(texte)]
+    spans = [(m.start(), m.end()) for m in MOT.finditer(texte)]
+
+    def terme_en(j):
+        return next((len(t) for t in termes if tuple(toks[j:j + len(t)]) == t), 0)
+
+    def chaine(i):
+        """Fin (exclue) de la plus longue chaîne commençant en i, ou 0."""
+        meilleure = 0
+        # tête possible : rien, ou la fin d'un terme (« Hormozi, $100M Offers… » pour « Alex Hormozi »)
+        tetes = {0} | {len(t) - k for t in termes for k in range(1, len(t)) if tuple(toks[i:i + len(t) - k]) == t[k:]}
+        for tete in tetes:
+            j, complets = i + tete, 0
+            while (L := terme_en(j)):
+                j, complets = j + L, complets + 1
+            if complets < 2:
+                continue
+            j += max((L for t in termes for L in range(1, len(t)) if tuple(toks[j:j + L]) == t[:L]), default=0)
+            if j - i >= n:
+                meilleure = max(meilleure, j)
+        return meilleure
+
     trouve, i = [], 0
     while i < len(toks):
-        meilleur = 0
-        for j, w in enumerate(seq):
-            if w != toks[i][0]:
-                continue
-            k = 1
-            while i + k < len(toks) and j + k < len(seq) and toks[i + k][0] == seq[j + k]:
-                k += 1
-            if k >= n and k > meilleur and any(j <= f < j + k - 1 for f in fins):
-                meilleur = k
-        if meilleur:
-            trouve.append((toks[i][1], toks[i + meilleur - 1][2]))
-            i += meilleur
+        fin = chaine(i)
+        if fin:
+            trouve.append((spans[i][0], spans[fin - 1][1]))
+            i = fin
         else:
             i += 1
     return trouve
@@ -307,11 +315,11 @@ def controler(modele, audio, segs, options, vocabulaire, seuil_fuite, seuil_trou
     (segment qui recopie le vocabulaire, ou parole sans texte) avec un segment de marge de chaque côté.
     -> (segments [(début, texte)] avec commentaires <!-- contrôle … -->, liste des contrôles pour metadata)."""
     duree = len(audio) / TAUX
-    seq, fins = suite_vocabulaire(vocabulaire)
+    termes = termes_vocabulaire(vocabulaire)
     starts = [s for s, _, _ in segs]
     zones = []  # [t0, t1, raisons]
     for k, (s, e, t) in enumerate(segs):
-        f = fuites(t, seq, fins, seuil_fuite)
+        f = fuites(t, termes, seuil_fuite)
         if f:
             t0 = segs[k - 1][0] if k > 0 else 0.0
             t1 = segs[k + 1][1] if k + 1 < len(segs) else duree
@@ -321,7 +329,7 @@ def controler(modele, audio, segs, options, vocabulaire, seuil_fuite, seuil_trou
             k = bisect_left(starts, u0) - 1  # dernier segment commencé avant le trou
             t0 = segs[k][0] if k >= 0 else max(0.0, u0 - 1)
             t1 = segs[k + 1][1] if k + 1 < len(segs) else min(duree, u1 + 1)
-            zones.append([t0, max(t1, u1), [f"trou : {u1 - u0:.0f} s de parole sans texte à partir de {ts(u0)}"]])
+            zones.append([t0, max(t1, u1), [f"trou : {u1 - u0:.0f} s de parole sans texte"]])
     fusion = []
     for z in sorted(zones):
         if fusion and z[0] <= fusion[-1][1]:
@@ -334,7 +342,7 @@ def controler(modele, audio, segs, options, vocabulaire, seuil_fuite, seuil_trou
     for t0, t1, raisons in fusion:
         t0, t1 = max(0.0, t0 - 0.2), min(duree, t1 + 0.2)
         dedans = [x for x in sortie if t0 <= (x[0] + x[1]) / 2 <= t1]
-        nettoye = [(s, e, retirer(t, fuites(t, seq, fins, seuil_fuite))) for s, e, t in dedans]
+        nettoye = [(s, e, retirer(t, fuites(t, termes, seuil_fuite))) for s, e, t in dedans]
         morceau, _ = modele.transcribe(audio[int(t0 * TAUX):int(t1 * TAUX)], **options)
         neufs = [(round(t0 + s.start, 2), round(t0 + s.end, 2), propre(s.text)) for s in morceau if propre(s.text)]
         fuite = any("fuite" in r for r in raisons)
@@ -344,14 +352,14 @@ def controler(modele, audio, segs, options, vocabulaire, seuil_fuite, seuil_trou
             action, garde = "fuite retirée (la retranscription sans vocabulaire était moins complète)", nettoye
         else:
             action, garde = "inchangé : pas de parole supplémentaire reconnue (musique, silence ?)", None
-        c = {"debut_s": round(t0, 1), "fin_s": round(t1, 1), "raisons": raisons, "action": action,
+        c = {"debut_episode_s": round(t0, 1), "fin_episode_s": round(t1, 1), "raisons": raisons, "action": action,
              "mots_avant": nb_mots(dedans), "mots_apres": nb_mots(garde if garde is not None else dedans)}
         controles.append(c)
         if garde is not None:
             ids = {id(x) for x in dedans}
             sortie = [x for x in sortie if id(x) not in ids]
             sortie += [[s, e, t] for s, e, t in garde if t]
-            a_inserer.append((t0, f"<!-- contrôle {ts(t0)}–{ts(t1)} : {' ; '.join(raisons)} -> {action} "
+            a_inserer.append((t0, f"<!-- contrôle ({t1 - t0:.0f} s retranscrites) : {' ; '.join(raisons)} -> {action} "
                                   f"({c['mots_avant']} -> {c['mots_apres']} mots) -->"))
     sortie.sort(key=lambda x: x[0])
     res = [(round(s, 2), t) for s, _, t in sortie]
@@ -572,7 +580,7 @@ def main():
         bruts = [(round(s.start, 2), round(s.end, 2), propre(s.text)) for s in segments if propre(s.text)]
         relatifs, controles = controler(modele, audio, bruts, options, vocabulaire, a.seuil_fuite, a.trou_secondes)
         for c in controles:
-            print(f"  contrôle [{ts(decalage + c['debut_s'])}–{ts(decalage + c['fin_s'])}] {' ; '.join(c['raisons'])}"
+            print(f"  contrôle [{ts(decalage + c['debut_episode_s'])}–{ts(decalage + c['fin_episode_s'])}] {' ; '.join(c['raisons'])}"
                   f" -> {c['action']} ({c['mots_avant']} -> {c['mots_apres']} mots)", flush=True)
         segs = [(decalage + t, txt) for t, txt in relatifs]
         t_calc = time.time() - t2
@@ -587,7 +595,8 @@ def main():
         meta_eps.append(m_ep | {"debut_dans_source_s": round(decalage, 1)})
         par_episode.append(segs)
         print(f"[{i}/{len(choix)}] {e['titre']} : {secondes:.0f} s d'audio, téléchargé+décodé en {t_dl:.0f} s, "
-              f"transcrit en {t_calc:.0f} s (x{secondes / max(t_calc, 0.01):.1f} temps réel), {len(segs)} segments",
+              f"transcrit en {t_calc:.0f} s (x{secondes / max(t_calc, 0.01):.1f} temps réel), {m_ep['nb_segments']} segments, "
+              f"{len(controles)} contrôle(s)",
               flush=True)
         decalage += secondes
 

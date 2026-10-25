@@ -38,6 +38,7 @@
    - **Prévente** : peut-on annoncer « −X % sur le prix final » alors que ce prix n'a encore jamais été pratiqué ?
    - **Cours livré par étapes** : le droit de rétractation tombe-t-il dès l'accès au premier module ?
    - **Cumul** : une formation éligible au CPF vendue en prévente avec réduction cumule deux questions ouvertes (Q1 c du n° 4 et OQ2) ; aucune ne tranche l'autre.
+   - **Engagement et frais de sortie** : une offre « frais d'installation offerts contre 6 mois d'engagement, dus en cas de résiliation anticipée » (Hormozi) est-elle licite en B2C ? en B2B ? (`connaissances/principes/monetisation-et-offre.md` D9). En attendant : pas de pénalité de sortie (défaut Sillage).
    En attendant : l'agence ne propose aucune prévente de formation payée à plus de 30 % d'avance, n'affiche aucun prix barré
    sans prix réellement pratiqué sur 30 jours, et ne présente jamais la rétractation légale de 14 jours comme un avantage.
 

@@ -1,12 +1,20 @@
 # Conférence Jean-Noël Kapferer (« Réinventer les marques ») — Jean-Noël Kapferer
 https://www.youtube.com/watch?v=OgRgbar2dOQ · 37 min 48 s · 3 552 vues (55 likes) · conférence du 18 avril 2013, publiée le 2013-07-18 (chaîne Audencia SciencesCom) · analysé le 2026-10-22
 
+> **Revalidation 2026-10-25** : récits et chiffres tranchés par la passe 4a du registre (section P-K, V4A-K01 à
+> K19 : 6 ✅, 3 🟡, 7 ❌, 3 ❓). Corrigés dans la fiche : titre exact du livre (*Ré-inventer…*, « connaissions »),
+> Huggies (seule l'Italie est exclue ; la mention « Royaume-Uni » de la version précédente était fausse), Rallye
+> des Gazelles (mars 2013, victoire de catégorie Crossover), Red Bull et Pampers, Red Bull « étudiant », Starbucks
+> « jamais de pub », Orange « Hollandais », Nespresso 1986, Carrefour 1976 ; identification probable de l'orateur
+> d'ouverture (Vincent Houdou). Aucun point daté par la veille plateformes. Note de fiabilité inchangée.
+
 > **Nature de la source** : une conférence en français donnée à Audencia SciencesCom (Nantes) dans le cycle
 > Gulfstream « La Com' dans 20 ans », acte 2. Kapferer (HEC) y présente la thèse de son livre de 2013,
-> *Réinventer les marques : la fin des marques telles que nous les connaissons* (Eyrolles). Le titre exact est
-> à confirmer : à l'oral, il dit « réinventer la marque ».
+> ***Ré-inventer les marques : la fin des marques telles que nous les connaissions...*** (Eyrolles, paru le
+> 03/01/2013, 239 p.) ✅ [verif:V4A-K18]. À l'oral, il dit « réinventer la marque ».
 > Blocs : (1) [00:00-04:00] ouverture, dont l'intervention de **Vincent, fondateur de l'agence Gulfstream**
-> (nom de famille non identifiable) ; (2) [04:00-31:11] **conférence de Kapferer** ; (3) [31:11-37:14]
+> (très probablement **Vincent Houdou**, fondateur de l'agence nantaise ex-IC Com renommée Gulfstream en 2008 :
+> identification 🟡 [verif:V4A-K17]) ; (2) [04:00-31:11] **conférence de Kapferer** ; (3) [31:11-37:14]
 > **questions du public**.
 > **Horodatages** au format `[mm:ss]` (la vidéo dure moins d'une heure).
 > **Transcription incomplète** : elle s'arrête à [37:14], au milieu d'une phrase. Les 30 dernières secondes
@@ -17,9 +25,10 @@ https://www.youtube.com/watch?v=OgRgbar2dOQ · 37 min 48 s · 3 552 vues (55 lik
 > évoqué en passant avec L'Oréal et Cartier), ni le **capital de marque** (jamais défini). Elle porte sur la
 > **crise du modèle classique de la marque** et sur la **marque comme projet d'entreprise**. Pour le prisme, le
 > luxe et le capital de marque, il faut d'autres sources.
-> **Récits de marque inexacts** : plusieurs histoires racontées à l'oral (Red Bull, Orange, Carrefour 1978,
-> Nespresso 1990, Starbucks « jamais de pub », Cartier) sont simplifiées ou fausses. Elles servent d'illustration
-> à Kapferer et **ne doivent pas être citées comme des faits** (voir « Affirmations chiffrées »).
+> **Récits de marque inexacts** : plusieurs histoires racontées à l'oral sont fausses selon le registre (❌ Red
+> Bull « étudiant », Red Bull « même chiffre d'affaires que Pampers », Orange « Hollandais », Carrefour 1978,
+> Nespresso 1990, Starbucks « jamais de pub ») ou approximatives (Cartier, Rallye des Gazelles). Elles servent
+> d'illustration à Kapferer et **ne doivent pas être citées comme des faits** (voir « Affirmations chiffrées »).
 > **Noms propres incertains** : sous-titres automatiques très bruités. Les noms de l'organisatrice, des
 > intervenants du public et de certains modèles et marques sont reconstitués (voir les notes de partie).
 > Trace détaillée : `notes-partie-01.md` (partie unique, 00:00-37:14).
@@ -64,7 +73,9 @@ Horodatages au format `[mm:ss]`.
    communautés, hors grande distribution, sans pub, et la masse (ou la star) seulement à la fin.**
    [16:05]-[20:05]
    - Point de départ : selon Kapferer, le patron de la stratégie de P&G l'appelle, intrigué par Red Bull (même
-     chiffre d'affaires que Pampers, rentabilité trois fois supérieure, affirmation rapportée). Question : quel
+     chiffre d'affaires que Pampers, rentabilité trois fois supérieure, affirmation rapportée). ❌
+     [verif:V4A-K06] : le chiffre d'affaires n'est pas « le même » (Red Bull environ 4,25 Md€ en 2011, Pampers
+     plus de 10 Md$ en 2012) ; la rentabilité relative est invérifiable. Question : quel
      lien entre Apple, Absolut, Nespresso, Red Bull et Nike, qui « n'ont pas l'air du tout d'être sensibles » à
      la crise ? « Là vous avez les clés des marques de demain. »
    - Ces marques n'ont pas eu de lancement fracassant (« plan média, tac, on lance Febreze, boum ») : elles ont
@@ -74,10 +85,14 @@ Horodatages au format `[mm:ss]`.
      "s'il vous plaît monsieur, prenez-moi" ? »
    - Pas de pub au début, faute de moyens. Cette sobriété crée un **sentiment d'authenticité** (« the medium is
      the message »), un capital dont on aura besoin « quand vous allez faire exploser les volumes ».
-   - La célébrité vient **après** le succès : « personne ne peut payer Clooney en commençant ».
+   - La célébrité vient **après** le succès : « personne ne peut payer Clooney en commençant ». ✅
+     [verif:V4A-K03] pour Nespresso (fondé en 1986, campagne Clooney en 2006), mais un seul cas ne fait pas une
+     règle.
    - Il précise qu'il parle du **commencement**, pas de la situation actuelle de ces marques.
-   - Attention : les récits qui illustrent cette séquence (Red Bull, Nespresso, Starbucks) sont en partie
-     inexacts (voir « Affirmations chiffrées »). La séquence est une **thèse**, pas une loi démontrée.
+   - Attention : les récits qui illustrent cette séquence sont en partie faux (❌ Red Bull [verif:V4A-K04]
+     [verif:V4A-K06], Nespresso 1990 [verif:V4A-K02], Starbucks « jamais de pub » [verif:V4A-K12] ; voir
+     « Affirmations chiffrées »). La séquence est une **thèse**, pas une loi démontrée : ses exemples ne la
+     prouvent pas tels qu'il les raconte.
 
 2. **Parler à des communautés, pas à des segments, et prouver qu'on partage leur passion au lieu de les
    « cibler ».** [11:41]-[13:19] [18:55] [20:05]
@@ -91,30 +106,34 @@ Horodatages au format `[mm:ss]`.
      sait tout du cinéma américain, des destinations de vacances…).
    - Récits d'origine communautaire selon Kapferer : Apple et les fanatiques des agences de pub, Absolut et la
      communauté gay du sud de Manhattan avec Andy Warhol, Nike et les jeunes Noirs des ghettos américains,
-     Red Bull et ses **brand ambassadors** recrutés sur les campus.
+     Red Bull et ses **brand ambassadors** recrutés sur les campus. Aucun n'est sourcé : Absolut ❓
+     [verif:V4A-K15] (Warhol n'arrive qu'en 1985, six ans après le lancement américain, ✅ [verif:V4A-K14]) ;
+     ambassadeurs Red Bull 🟡 [verif:V4A-K05] (le programme existe, rien ne le date du lancement de 1987) ;
+     Apple et Nike ❓ [verif:V4A-K19].
 
 3. **Une marque forte ne vaut rien sans accès au marché : « si vous n'avez pas la plage, vous ne pouvez pas
    vous baigner ».** [04:33]-[06:43]
    - Constat : la théorie des marques, « moi inclus », n'a pas empêché la montée des MDD. En Europe, un produit
-     sur deux vendu en grande surface est une MDD ou un premier prix (SymphonyIRI, daté 2013). Les « champions
-     du marketing » (P&G, Nestlé) ne l'ont pas empêché.
+     sur deux vendu en grande surface est une MDD ou un premier prix (SymphonyIRI, daté 2013 ; ✅ **en unités**,
+     pas en valeur [verif:V4A-K16]). Les « champions du marketing » (P&G, Nestlé) ne l'ont pas empêché.
    - « Le logiciel classique de management des marques ne semble plus adapté au monde tel qu'il est. »
      « C'est la réalité qui a raison. » « Si vous avez une marque vous êtes protégé : faux. »
    - « Quand vous ne contrôlez pas votre distribution, votre marque est faible. » C'est d'abord un **rapport de
      force** avec le distributeur : « moi j'ai le rayon, je fais ce que je veux ».
    - Exemple : Lafuma, marque « exceptionnelle », aurait en France sa part de marché la plus faible au monde,
-     parce que Decathlon ne la référence pas (daté 2013).
+     parce que Decathlon ne la référence pas (daté 2013 ; ❓ [verif:V4A-K19]).
    - Leçon de méthode implicite (déduction) : il cite SymphonyIRI comme « remarquable » parce qu'elle « ne pose
      aucune question aux consommateurs » et lit les sorties de caisse. Préférer le comportement réel aux
      déclarations.
 
 4. **Face à la pression des prix, deux réponses légitimes : descendre intelligemment en prix (« good
    enough »), ou construire une marque de passion. Il ne tranche pas.** [07:16]-[09:27]
-   - Pampers résiste aux MDD (après le retrait de Huggies d'une grande partie de l'Europe, 2012) par un **low
+   - Pampers résiste aux MDD (après le retrait de Huggies des couches en Europe de l'Ouest et centrale, sauf en
+     Italie, décidé en octobre 2012, 🟡 [verif:V4A-K09]) par un **low
      cost maison**, Simply Dry (technologie « d'avant-hier », environ −30 %), et par la **promotion massive**
-     (40 % du volume en France, daté 2013). Le troisième levier n'est pas clairement nommé (peut-être
-     l'innovation continue). On n'a pourtant « jamais appris aux managers qu'une marque doit faire du low
-     cost ».
+     (40 % du volume en France, daté 2013 ; ❓ [verif:V4A-K19]). Le troisième levier n'est pas clairement nommé
+     (peut-être l'innovation continue). On n'a pourtant « jamais appris aux managers qu'une marque doit faire du
+     low cost ».
    - Ce qui se vend le plus est une **rétro-innovation**, comme la Logan.
    - La demande de **« good enough »** ne veut pas dire « ça me suffit » mais « **c'est très bon, tu n'as pas
      besoin de plus** ». Modèle : le slogan Dacia « pas besoin d'en rajouter ». Le « good » n'est pas la Tata
@@ -174,7 +193,9 @@ Horodatages au format `[mm:ss]`.
      un projet**.
    - **Manager par la marque** : selon Kapferer, France Télécom a adopté Orange pour opérer un **changement
      culturel profond** que des séminaires de communication interne n'auraient pas permis. « C'est pas un
-     problème de nom, c'est un problème de projet. » (Récit simplifié, voir « Affirmations chiffrées ».)
+     problème de nom, c'est un problème de projet. » (Récit simplifié : le rachat d'Orange en 2000 et le
+     changement de nom du groupe au 1er juillet 2013 sont ✅ [verif:V4A-K08], le levier culturel reste son
+     **interprétation** ; l'origine « hollandaise » d'Orange est ❌ [verif:V4A-K07].)
    - Dans des entreprises « explosées » (fusions, cessions, LBO), « la vraie culture d'entreprise aujourd'hui,
      c'est la marque ».
    - « Sortez la marque du marketing » : sinon on en fait une technique commerciale. L'entreprise a besoin
@@ -198,13 +219,16 @@ Horodatages au format `[mm:ss]`.
       qualitatif. »
     - L'Oréal a créé des **directeurs artistiques par marque**, garants d'un « Global Concept ». Trois
       territoires à confier à une personne : **mots**, **visuel**, **esthétique** globale. Exemple cité :
-      Alain-Dominique Perrin chez Cartier, garant d'une « cohérence globale, mondiale, culturelle » (fonction
-      approximative, voir « Affirmations chiffrées »). La réponse est coupée par la fin de la transcription.
+      Alain-Dominique Perrin chez Cartier, garant d'une « cohérence globale, mondiale, culturelle ». Perrin
+      était en réalité **président** de Cartier International et de Cartier SA à partir de 1981 (✅
+      [verif:V4A-K13]) : le titre de « directeur artistique » est inexact. La réponse est coupée par la fin de la
+      transcription.
 
 ## Frameworks (étapes complètes)
 
 ### A. Les leviers qui créent la marque (Vincent, Gulfstream, d'après une étude TNS) [01:43]-[03:27]
-**Attention : ce n'est pas Kapferer qui parle**, mais le fondateur de l'agence organisatrice.
+**Attention : ce n'est pas Kapferer qui parle**, mais le fondateur de l'agence organisatrice (très probablement
+Vincent Houdou, identification 🟡 [verif:V4A-K17]).
 - La **publicité** travaille bien la **notoriété** (présence à l'esprit) et l'**intention d'achat**.
 - Elle a des résultats « beaucoup plus faibles » sur la **création d'image** (idées et perceptions associées).
 - L'**image** se construit surtout au **point de vente**, par le **bouche-à-oreille** (aujourd'hui les réseaux
@@ -212,8 +236,9 @@ Horodatages au format `[mm:ss]`.
 - Paradoxe : on met presque tout le budget dans la pub alors qu'on proclame que la marque est le capital de
   l'entreprise.
 - Prédiction : un **rééquilibrage** des budgets vers ces leviers dans les 20 ans.
-- Étude non identifiée précisément (environ 2 000 campagnes, nombre de pays incompréhensible). Contredite en
-  partie par Binet & Field (voir « Ce qui est discutable »).
+- Étude non identifiée précisément (environ 2 000 campagnes, nombre de pays incompréhensible) : ❓
+  [verif:V4A-K17], **étude introuvable**, ne pas la citer. Contredite en partie par Binet & Field (voir « Ce qui
+  est discutable »).
 
 ### B. Technologie → modèle marketing [10:35]-[15:00]
 | Technologie | Modèle marketing créé |
@@ -235,18 +260,22 @@ Règle : ne pas en faire une technique ni une « cible ». Ce qui distingue l'ap
 c'est l'authenticité de la passion partagée.
 
 ### D. Les clés des marques résistantes au prix [16:05]-[21:12]
-Corpus cité : Apple, Absolut, Nespresso, Red Bull, Nike, Starbucks (au **commencement**).
+Corpus cité : Apple, Absolut, Nespresso, Red Bull, Nike, Starbucks (au **commencement**). Les récits qui
+fondent ces clés sont en partie faux (voir « Affirmations chiffrées ») : les clés restent des **hypothèses de
+méthode**, pas des leçons prouvées par ces marques.
 1. **Commencer lentement**, sans lancement massif (le lancement « plan média, boum » représente 99 % des cas
-   selon lui).
+   selon lui ; chiffre rhétorique, ❓ [verif:V4A-K19]).
 2. **Entrer par les communautés** et ne faire du mass qu'à la fin.
 3. **Commencer hors GMS**, pour que le distributeur vienne vous chercher (réponse au rapport de force du
    framework E).
 4. **Pas de pub au début** : la sobriété crée l'authenticité, capital utile quand les volumes explosent.
 5. **Parler à des communautés, pas à des segments** (marketing tribal).
-6. **Des ambassadeurs plutôt que des médias** au départ (récit Red Bull sur les campus) ; **la formation
-   plutôt que la pub** quand l'expérience est le produit (récit Starbucks : l'accueil du matin, « ça
-   s'apprend »).
-7. **La star et les gros moyens seulement une fois le succès acquis** (Clooney chez Nespresso).
+6. **Des ambassadeurs plutôt que des médias** au départ (récit Red Bull sur les campus, 🟡 non daté du
+   lancement [verif:V4A-K05]) ; **la formation plutôt que la pub** quand l'expérience est le produit (récit
+   Starbucks : l'accueil du matin, « ça s'apprend » ; Starbucks a pourtant dépensé environ 90 à 110 M$ par an
+   en publicité en 2005-2007, ❌ [verif:V4A-K12]).
+7. **La star et les gros moyens seulement une fois le succès acquis** (Clooney chez Nespresso, 2006, vingt ans
+   après la fondation : ✅ [verif:V4A-K03], un seul cas).
 
 Distinguer trois phases : le début, le milieu, la croissance.
 
@@ -264,7 +293,9 @@ Distinguer trois phases : le début, le milieu, la croissance.
 2. Le formuler comme une **qualité** et non comme un renoncement : « c'est très bon, tu n'as pas besoin de
    plus ».
 3. Viser le niveau « good », pas le plus bas prix (Dacia au-delà de 11 000 €, pas la Tata Nano à 3 000 €).
-4. Le prouver par un fait marquant (récit : une Dacia gagnante d'un rallye devant des 4×4 premium).
+4. Le prouver par un fait marquant et **vérifiable**. Le récit de Kapferer (une Dacia gagnante d'un rallye
+   devant des 4×4 premium) est inexact : en mars 2013, un Duster a gagné la **catégorie Crossover** du Rallye
+   Aïcha des Gazelles, pas le classement général (🟡 [verif:V4A-K11], source unique).
 5. Le dire sans surenchère : « pas besoin d'en rajouter ».
 
 ### G. Les trois questions de Kapferer aux entreprises [21:46]-[25:39]
@@ -288,7 +319,8 @@ Une valeur qui ne passe aucun des trois tests reste un document.
 1. Constater que la culture d'entreprise est éclatée (fusions, acquisitions, cessions, LBO).
 2. Faire de la marque le **drapeau** : un projet fédérateur, pas seulement des couleurs.
 3. Utiliser si besoin un **changement de marque** comme levier de changement culturel (récit Orange /
-   France Télécom). « C'est pas un problème de nom, c'est un problème de projet. »
+   France Télécom : dates ✅ [verif:V4A-K08], lecture culturelle propre à Kapferer). « C'est pas un problème de
+   nom, c'est un problème de projet. »
 4. **Sortir la marque du marketing** : la faire porter par le Comex et les DRH.
 5. Accepter que les gens restent ou partent, mais en accord avec ce projet.
 
@@ -361,6 +393,11 @@ coupée : la suite manque.
 15. **Produire moins, mais très qualitatif**, en se comparant au meilleur standard toutes catégories
     confondues (l'ergonomie de l'iPhone), pas aux seuls concurrents directs [33:58]-[35:37].
 
+Règle de citation (revalidation 2026-10-25) : dans un livrable, ne jamais illustrer ces étapes par les récits
+de Kapferer marqués ❌ ci-dessous ; utiliser les formulations corrigées du registre (« Starbucks a peu misé sur
+la pub média nationale avant sa première campagne TV de 2007 », « Red Bull a été lancé en 1987 par un directeur
+marketing de Blendax », etc.).
+
 ## Hooks & formules réutilisables
 
 **Ouvertures et structures de discours**
@@ -423,58 +460,90 @@ coupée : la suite manque.
 ## Affirmations chiffrées (à vérifier)
 Toutes ces affirmations sont orales, sans support projeté exploitable. **Les chiffres de marché datent de
 2013.** Les **récits de marque** sont signalés quand ils sont inexacts : ils ne doivent **pas** être cités comme
-des faits.
+des faits. **Verdicts portés le 2026-10-25** d'après `connaissances/verifications/registre.md`, section P-K
+(✅ confirmé, 🟡 plausible, ❌ contredit, ❓ invérifiable).
 
 **Données de marché (daté 2013)**
-- En Europe (France, Espagne, Pays-Bas, Royaume-Uni, Allemagne, Italie), un produit sur deux vendu en grande
-  surface est une MDD ou un premier prix. Source citée : SymphonyIRI, sorties de caisse de 10 000 points de
-  vente [05:38].
-- 40 % du volume de Pampers en France est vendu en promotion [07:50].
-- Pampers Simply Dry : technologie plus ancienne, prix environ 30 % inférieurs, alignés sur la MDD [07:50].
-- Lafuma aurait en France sa part de marché la plus faible au monde, faute de référencement chez Decathlon
-  [06:43].
-- Coca-Cola consacrerait 32 % de son budget à Internet [13:51]. Source inconnue.
-- 99 % des marques seraient lancées de façon massive [17:49]. Ordre de grandeur rhétorique, pas une donnée.
-- Le « good » commence au-delà de 11 000 € ; la Tata Nano coûte 3 000 € [09:27]. Ordres de grandeur.
+- ✅ [verif:V4A-K16] En Europe (France, Espagne, Pays-Bas, Royaume-Uni, Allemagne, Italie), un produit sur deux
+  vendu en grande surface est une MDD ou un premier prix. Source citée : SymphonyIRI, sorties de caisse de
+  10 000 points de vente [05:38]. Juste **en unités** (MDD seules : 45,1 % des unités et 35,6 % de la valeur,
+  *Private label growth in Europe 2012* ; environ 49 % sur les six pays selon WARC), pas en valeur.
+- ❓ [verif:V4A-K19] 40 % du volume de Pampers en France est vendu en promotion [07:50]. Non sourcé, non
+  retrouvé.
+- ❓ [verif:V4A-K19] Pampers Simply Dry : technologie plus ancienne, prix environ 30 % inférieurs, alignés sur
+  la MDD [07:50].
+- ❓ [verif:V4A-K19] Lafuma aurait en France sa part de marché la plus faible au monde, faute de référencement
+  chez Decathlon [06:43].
+- ❓ [verif:V4A-K19] Coca-Cola consacrerait 32 % de son budget à Internet [13:51]. Source inconnue.
+- ❓ [verif:V4A-K19] 99 % des marques seraient lancées de façon massive [17:49]. Chiffre rhétorique, pas une
+  donnée.
+- Le « good » commence au-delà de 11 000 € ; la Tata Nano coûte 3 000 € [09:27]. Ordres de grandeur, non
+  traités par la passe 4a (faible priorité).
 
 **Données citées par Vincent (Gulfstream), pas par Kapferer**
-- Étude TNS sur environ 2 000 campagnes dans plusieurs pays (nombre inaudible) : la pub agit sur la notoriété
-  et l'intention d'achat, faiblement sur l'image ; l'image vient du point de vente, du bouche-à-oreille, des RP
-  et du web [02:17]. Étude non identifiée, à retrouver.
+- ❓ [verif:V4A-K17] Étude TNS sur environ 2 000 campagnes dans plusieurs pays (nombre inaudible) : la pub agit
+  sur la notoriété et l'intention d'achat, faiblement sur l'image ; l'image vient du point de vente, du
+  bouche-à-oreille, des RP et du web [02:17]. **Étude introuvable** : ne pas citer. L'orateur est très
+  probablement Vincent Houdou, fondateur de l'agence nantaise (ex-IC Com, renommée Gulfstream en 2008),
+  identification 🟡.
 
 **Faits publics simplifiés**
-- Huggies (n°2) « quitte l'Europe » en 2012 [07:16]. En réalité, Kimberly-Clark a annoncé en 2012 sa sortie
-  du marché des couches en **Europe de l'Ouest**, à l'exception notable du Royaume-Uni et de l'Italie
-  (à vérifier). « Quitte l'Europe » est une simplification.
-- Une Dacia aurait gagné le Rallye des Gazelles en avril 2013 à Essaouira, devant Land Rover et Mitsubishi
-  Pajero [08:54]. Modèle exact et classement à vérifier.
-- Red Bull ferait mondialement le même chiffre d'affaires que Pampers avec une rentabilité trois fois
-  supérieure, selon le patron de la stratégie de P&G (vers 2011) [16:05]. Affirmation rapportée, invérifiable
-  en l'état.
-- P&G envisagerait de remplacer « marketing » par « servicing » [30:39]. Affirmation rapportée.
+- 🟡 [verif:V4A-K09] Huggies (n°2) « quitte l'Europe » en 2012 [07:16]. Kimberly-Clark a approuvé en
+  **octobre 2012** sa sortie de la catégorie des couches en **Europe de l'Ouest et centrale**, « with the
+  exception of the Italian market » (10-K 2012), soit environ 500 M$ de ventes. « Quitte l'Europe » est une
+  simplification (Italie, Europe de l'Est).
+- ❌ [verif:V4A-K10] **Correction d'une erreur de cette fiche** : la version du 2026-10-22 écrivait « à
+  l'exception notable du Royaume-Uni et de l'Italie ». C'est faux pour le Royaume-Uni : Kimberly-Clark y a
+  retiré sa gamme Huggies principale en octobre 2012 (seules Pull-Ups, DryNites et Little Swimmers restent) et
+  fermé son usine de Barton. **Seule l'Italie est exclue.** Formulation à utiliser : « Kimberly-Clark a quitté
+  les couches en Europe de l'Ouest et centrale en 2012, sauf en Italie ».
+- 🟡 [verif:V4A-K11] Une Dacia aurait gagné le Rallye des Gazelles en avril 2013 à Essaouira, devant Land Rover
+  et Mitsubishi Pajero [08:54]. En réalité : 23e Rallye Aïcha des Gazelles, **mars 2013** (résultats le 30/03),
+  d'El Jadida à Essaouira, neuf Duster engagés ; un équipage Duster gagne la **catégorie Crossover** (source
+  unique). Ce n'est pas une victoire « devant des 4×4 premium » au classement général. Formulation : « un Duster
+  a gagné la catégorie Crossover en 2013 ».
+- ❌ [verif:V4A-K06] Red Bull ferait mondialement le même chiffre d'affaires que Pampers avec une rentabilité
+  trois fois supérieure, selon le patron de la stratégie de P&G (vers 2011) [16:05]. Red Bull 2011 : 4,25 Md€
+  (environ 5,9 Md$) ; Pampers dépasse 10 Md$ de ventes annuelles en 2012. Rapport d'environ 1 à 1,7, donc pas
+  « le même ». Rentabilité relative ❓ (Red Bull ne publie pas de comptes détaillés). Ne pas comparer.
+- ❓ [verif:V4A-K19] P&G envisagerait de remplacer « marketing » par « servicing » [30:39]. Affirmation
+  rapportée, non retrouvée.
 
 **Récits de marque inexacts ou douteux : à ne pas citer comme des faits**
-- **Carrefour, 1978** : Kapferer date la montée des MDD de la campagne des « produits libres » de Carrefour en
-  1978 [05:06]. Ces produits sont généralement datés d'**avril 1976** (à vérifier).
-- **Nespresso, 1990** : « commence en 1990 », Clooney après le succès [17:49]. Le système Nespresso a été
-  lancé en **1986** ; la campagne Clooney date de **2006** (à vérifier). Le 1990 correspond peut-être à une
-  relance. L'idée « star après le succès » reste plausible, la chronologie citée ne l'est pas.
-- **Red Bull** : « inventé par un étudiant autrichien » sans le sou [18:55]. Dietrich Mateschitz était alors
-  **directeur marketing chez Blendax** quand il découvre le Krating Daeng en Thaïlande (à vérifier). Le récit
-  des ambassadeurs sur les campus est à vérifier également.
-- **Starbucks « jamais de pub »** [20:05] : historiquement très peu de publicité média, mais « jamais » est
-  inexact ou à vérifier. Phrase attribuée au patron de Starbucks sans source.
-- **Orange « inventé par un Hollandais, je crois »** [26:45] : attribution douteuse. Orange a été lancé au
-  Royaume-Uni en 1994 par Hutchison, la marque créée par l'agence Wolff Olins, puis rachetée par France
-  Télécom en 2000 (à vérifier). Le groupe France Télécom a pris le nom Orange en juillet 2013, juste après la
-  conférence.
-- **Cartier** : Alain-Dominique Perrin présenté comme une sorte de « directeur artistique » [37:14]. Il était
-  surtout **président** de Cartier, garant de la cohérence de la marque. Fonction approximative.
-- **Absolut** : lancé par la communauté gay du sud de Manhattan et par Andy Warhol [20:39]. Récit de marque ;
-  la collaboration Warhol date de 1985 (à vérifier).
-- **Nike** : ancré au départ dans les ghettos noirs américains, dans le contexte d'émeutes « il y a 30 ans »
-  (Angela Davis) [20:39]. Récit non sourcé, chronologie confuse.
-- **Apple** : lancé par « les fanatiques des agences de pub » [20:05]. Récit non sourcé.
+- ❌ [verif:V4A-K01] **Carrefour, 1978** : Kapferer date la montée des MDD de la campagne des « produits
+  libres » de Carrefour en 1978 [05:06]. Date réelle : **1er avril 1976** (une cinquantaine de produits sans
+  marque, emballage blanc, 20 à 30 % moins chers, dans les 37 hypermarchés ; la marque Carrefour elle-même date
+  de 1985).
+- ❌ [verif:V4A-K02] **Nespresso, 1990** : « commence en 1990 » [17:49]. Nespresso SA est fondée en **1986**,
+  avec un premier lancement la même année ; 1990 correspond au mieux à la relance grand public (vers
+  1989-1991). ✅ [verif:V4A-K03] Clooney arrive **après** le succès : campagne de **2006**, vingt ans après la
+  fondation. Exact pour Nespresso, mais un seul cas ne prouve pas une règle générale.
+- ❌ [verif:V4A-K04] **Red Bull** : « inventé par un étudiant autrichien » sans le sou [18:55]. Dietrich
+  Mateschitz était **directeur du marketing international de Blendax** (dentifrice) quand il découvre le
+  Krating Daeng en Thaïlande en 1982 ; Red Bull GmbH est créée en 1984, le produit lancé en Autriche le
+  1er avril 1987. 🟡 [verif:V4A-K05] Le programme d'ambassadeurs étudiants existe et la marque a longtemps
+  préféré le bouche-à-oreille et le sponsoring, mais **aucune source** ne date ce programme du lancement.
+- ❌ [verif:V4A-K12] **Starbucks « jamais de pub »** [20:05] : première campagne TV nationale en
+  **novembre 2007** (« Pass the Cheer », Wieden+Kennedy) ; dépenses publicitaires déclarées de 87,7 M$ (2005),
+  107,5 M$ (2006) et 103,5 M$ (2007) (10-K 2007). Vrai seulement au sens « très peu de pub média nationale
+  jusqu'en 2007 ». Phrase attribuée au patron de Starbucks sans source.
+- ❌ [verif:V4A-K07] **Orange « inventé par un Hollandais, je crois »** [26:45] : la marque naît chez Microtel,
+  racheté par Hutchison ; réseau lancé au Royaume-Uni le **28/04/1994** ; valeurs et logo par Wolff Olins,
+  slogan par WCRS ; Hans Snook, cofondateur, est britannique. Aucun « Hollandais ». ✅ [verif:V4A-K08] Rachat par
+  France Télécom en 2000 (environ 39,7 Md€) ; France Télécom devient Orange SA le **1er juillet 2013**, juste
+  après la conférence. Le récit d'Orange comme levier de changement culturel reste l'**interprétation** de
+  Kapferer.
+- ✅ [verif:V4A-K13] **Cartier** : Alain-Dominique Perrin présenté comme une sorte de « directeur artistique »
+  [37:14]. Il dirige Les Must de Cartier à partir de 1976, devient **président de Cartier International et de
+  Cartier SA en 1981**, crée la Fondation Cartier en 1984, puis dirige Richemont de 2001 à 2003. La correction
+  « président » de cette fiche est confirmée ; le titre donné par Kapferer est inexact.
+- **Absolut** : lancé par la communauté gay du sud de Manhattan et par Andy Warhol [20:39]. ❓
+  [verif:V4A-K15] Récit communautaire sans aucune source. ✅ [verif:V4A-K14] Warhol est en 1985 le premier
+  artiste commandé pour peindre la bouteille (agence TBWA), **six ans après** le lancement américain de 1979 :
+  il n'est pas là au lancement.
+- ❓ [verif:V4A-K19] **Nike** : ancré au départ dans les ghettos noirs américains, dans le contexte d'émeutes
+  « il y a 30 ans » (Angela Davis) [20:39]. Récit non sourcé, chronologie confuse.
+- ❓ [verif:V4A-K19] **Apple** : lancé par « les fanatiques des agences de pub » [20:05]. Récit non sourcé.
 
 ## Ce qui est discutable / limites
 
@@ -497,19 +566,20 @@ des faits.
   - **Convergence** : Kapferer rejoint Sharp sur la **disponibilité physique** (« si vous n'avez pas la
     plage… », Lafuma et Decathlon).
   - **Niveau de preuve** : Binet & Field s'appuient sur une base de campagnes ; Kapferer sur quelques succès
-    célèbres racontés a posteriori. À preuve égale, la position de Binet & Field est mieux étayée pour la
-    phase de croissance.
+    célèbres racontés a posteriori, dont plusieurs sont faux selon le registre (V4A-K04, K06, K12). À preuve
+    égale, la position de Binet & Field est mieux étayée pour la phase de croissance.
 - **La pub ne fait pas l'image (Vincent) contre la pub émotionnelle construit la marque (Binet & Field).**
   L'étude TNS citée par Vincent dit que la pub agit sur la notoriété et l'intention, peu sur l'image. Binet &
   Field montrent que la pub **émotionnelle** et bien signée produit des effets de marque durables
-  [fiche:binet-field-b2b-growth]. Vincent dirige une agence qui a intérêt au rééquilibrage vers les RP et le
-  web (déduction).
+  [fiche:binet-field-b2b-growth]. L'étude TNS est introuvable (❓ [verif:V4A-K17]) : à preuve égale, Binet &
+  Field l'emportent. Vincent dirige une agence qui a intérêt au rééquilibrage vers les RP et le web
+  (déduction).
 - **Célébrité au lancement ou après le succès : Kapferer contre Hormozi [fiche:Jmkq5RLjm0U].**
   - Hormozi construit une marque « à partir de rien » en l'associant **dès le départ** à des personnes que le
     client idéal aime (Nike + LeBron), à condition que le coût de l'association reste inférieur à la marge
     générée.
   - Kapferer : les marques résistantes n'ont pris la star **qu'après** le succès ; « personne ne peut payer
-    Clooney en commençant ».
+    Clooney en commençant » (✅ pour Nespresso seulement, [verif:V4A-K03]).
   - **Réconciliation** : la condition économique d'Hormozi (coût de l'association < marge) rend la célébrité
     hors de portée d'une marque qui démarre, ce qui rejoint Kapferer. Au départ, l'équivalent accessible est
     l'association avec une **communauté** et ses passions (Kapferer) ou avec des « fleurs » aimées par la cible
@@ -522,9 +592,12 @@ des faits.
 - **Biais du survivant** (déduction) : les « clés » viennent de quelques succès célèbres lus a posteriori.
   Kapferer ne montre ni les marques lancées lentement par des communautés qui ont échoué, ni les taux de
   réussite comparés, alors qu'il dit lui-même que 99 % des lancements sont massifs.
-- **Récits inexacts** : Red Bull, Orange, Carrefour 1978, Nespresso 1990, Starbucks « jamais de pub »,
-  Cartier. Ce sont des récits de conférencier ; les idées peuvent survivre aux erreurs, mais aucun de ces
-  exemples ne doit servir de preuve dans un livrable.
+- **Récits inexacts** (tranchés le 2026-10-25) : ❌ Red Bull « étudiant » (V4A-K04) et « même chiffre
+  d'affaires que Pampers » (K06), ❌ Orange « Hollandais » (K07), ❌ Carrefour 1978 (K01), ❌ Nespresso 1990
+  (K02), ❌ Starbucks « jamais de pub » (K12) ; approximatifs : Cartier (K13), Rallye des Gazelles (K11), Huggies
+  (K09). Ce sont des récits de conférencier ; les idées peuvent survivre aux erreurs, mais aucun de ces exemples
+  ne doit servir de preuve dans un livrable. Avec ses récits corrigés, la thèse « lent, communautaire, la masse
+  à la fin » reste une **thèse** : ses exemples ne la prouvent pas tels qu'il les raconte.
 - **« Oubliez les 4P »** contredit le canon marketing (Kotler) et sa propre insistance sur la distribution
   (Lafuma, GMS), qui est précisément la « place ». Tension interne : la place « n'a plus de sens » pour la
   marque d'entreprise, mais reste vitale pour la marque produit (déduction).
@@ -564,9 +637,10 @@ des faits.
   - L'organisateur est une **agence de communication** (Gulfstream), dont le fondateur plaide pour le
     rééquilibrage des budgets vers les leviers qu'une agence peut vendre (déduction).
   - Format de **conférence inspirante** : récits simplifiés, peu de chiffres, aucune démonstration ; plusieurs
-    exemples inexacts.
+    exemples inexacts (7 ❌ sur 19 lignes vérifiées, passe 4a).
   - Le corpus des « clés » est un **biais du survivant**.
-- **Note : 3/5.**
+- **Note : 3/5** (inchangée après la revalidation du 2026-10-25 : la note retirait déjà deux points pour les
+  récits inexacts ; le registre confirme ce défaut sans toucher aux idées ni aux questions-outils).
   - Idées fortes et originales d'un auteur de référence, frameworks immédiatement utilisables en atelier (les
     trois questions, le triple test des valeurs, l'oasis, les trois territoires).
   - Moins deux points pour les récits de marque inexacts, l'absence de preuves sur la thèse communautaire, les

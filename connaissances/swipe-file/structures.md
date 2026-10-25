@@ -19,6 +19,8 @@ Les hooks à placer dans le temps 1 sont dans `hooks.md`, les appels à l'action
 - **Lot 3** : tag `[sous condition : …]` (même légende que `hooks.md` : urgence réelle, rareté vraie, défauts réels,
   contre une méthode jamais une marque, aucune promesse de revenus, pression à proscrire). `JE2_7elAcxM` ([hh:mm:ss])
   est ramené à hh:mm ; `1N2XALudegQ` et `11rNI6BUey4` ([mm:ss]) sont ramenés en hh:mm.
+- **Lot B** : mêmes repères que `hooks.md` (`p. N` pour Hopkins et Binet & Field, `ch. N` pour Halbert ; Séguéla,
+  Kapferer et Ogilvy ramenés en hh:mm) et renvois `[vérif : V4A-… / V4B-…]` aux passes de `verificateur-faits`.
 
 ## Index
 
@@ -55,6 +57,12 @@ Les hooks à placer dans le temps 1 sont dans `hooks.md`, les appels à l'action
 | S4 | Expérience de réception (« bienvenue à bord ») | emballage, e-mail | non | oui |
 | M1 | Module pédagogique « pour qui → définition → mal fait / bien fait » | une section ou 2-3 slides | non | oui |
 | Y3 | Série « les règles de [expert] + notre nuance » | 15-35 min | non | oui |
+| A1 | Annonce de conversion « vendeur imprimé » (Hopkins) : titre qui sélectionne → preuve précise → histoire complète → offre de service → action codée | page, pub, e-mail, carrousel | non | oui |
+| A2 | Spot ou reel « 3 S » (Séguéla) : sens → sentiment → spectacle qui prouve l'atout | 30-60 s | non | oui |
+| H1 | Lettre / e-mail de vente « foule affamée » (Halbert, AIDA) + déclinaison par segment | e-mail long, courrier | non | à adapter |
+| P5 | Passe « impact → compréhension → persuasion » sur un storyboard (Trott) | toute durée | non | oui |
+| P6 | `[pub payante]` Campagne B2B en deux temps : amorçage émotionnel large → activation rationnelle (Binet & Field) | campagne de 6 mois et plus | non | oui |
+| K1 | Réponse de crise après un dérapage public (aveu rapide, principe à tester) | post, vidéo, plateau | non | à adapter |
 
 ---
 
@@ -318,6 +326,21 @@ préproduction > montage > audio > motion graphics > … > lumière [fiche:uJ8Pg
 - « Restez jusqu'au bout, je vais vous donner des exemples concrets » n'est utile que si les exemples arrivent
   vraiment à la fin [fiche:nte_k2hPXR0 00:01].
 
+**Variantes d'ouverture (lot B)**, à placer dans le temps 1 (formules dans `hooks.md`) :
+- **Question au public, puis révélation** : faire deviner (un chiffre, le premier [métier] de l'histoire, lequel de
+  trois produits), révéler, puis enchaîner sur la thèse [fiche:_hem3-8XbEI 00:08] [fiche:sR-qL7QdVZQ 00:06]
+  [fiche:FN4eDk1pq6U 00:00]. Le chiffre révélé est vérifié et sourcé à l'écran.
+- **Avant / maintenant** : « Il y a [N ans], on vous aurait parlé de [X]. Aujourd'hui… », puis l'autocritique de
+  l'autorité (« nous compris ») [fiche:OgRgbar2dOQ 00:04].
+- **Autodérision avant la charge** : un détail familier et vrai sur la situation de l'orateur, puis le cadrage
+  binaire « deux mondes » et l'anaphore de la preuve [fiche:Br2KSsaTzUc 00:00] [fiche:Br2KSsaTzUc 00:01].
+- **Méta-démonstration** : appliquer en direct le principe enseigné, puis le révéler (« I plead guilty to employing
+  the same strategy ») [fiche:_hem3-8XbEI 00:43].
+- **Refrain structurant** : une phrase répétée qui ouvre chaque section (« Je ne serais pas là sans… »), chaque
+  répétition introduisant une leçon [fiche:iM-ouJfISwY 00:00].
+- **Fin qui valorise le public** : « Je vous envie. Votre timing est parfait. » (`cta.md` section 6)
+  [fiche:Br2KSsaTzUc 00:06].
+
 ## Y2 — Les 3 premières vidéos d'une chaîne
 
 Base : Caleb Ralston [fiche:uJ8Pg6t_iho 02:26]. Premium sobre : **à adapter** (pensé pour une marque personnelle ;
@@ -562,7 +585,7 @@ state » [fiche:rPZG5xfN7vI 00:01] ; variante Sillage : aucun état émotionnel 
 | Ennemi commun (les médias qui diabolisent l'entrepreneur) | Non | Ennemi fabriqué, généralisation non étayée | [fiche:rPZG5xfN7vI 00:06] |
 | La difficulté (« la résistance ») présentée comme une preuve | Oui | Sans culpabiliser celui qui n'achète pas | [fiche:rPZG5xfN7vI 00:11] |
 | L'enseignement illustré par des histoires où « acheter a changé ma vie », jusqu'à acheter au-delà de ses moyens | À adapter | Jamais d'incitation à s'endetter | [fiche:rPZG5xfN7vI 00:27] |
-| Le facteur n°1 est une compétence vendue le lendemain (« l'histoire », chiffres d'« étude » sans méthode) | Non pour les chiffres | Les « 6,1 M de funnels » ne sont pas citables | [fiche:rPZG5xfN7vI 00:52] |
+| Le facteur n°1 est une compétence vendue le lendemain (« l'histoire », chiffres d'« étude » sans méthode) | Non pour les chiffres | Les « 6,1 M de funnels » ne sont pas citables `[vérif : V4B-BR01 ❓]` | [fiche:rPZG5xfN7vI 00:52] |
 
 ## V6 — Appel de vente : découverte qui creuse + CLOSER `[vente B2B]`
 
@@ -592,7 +615,8 @@ d'accord** à un mauvais accord [fiche:JE2_7elAcxM 01:54] [fiche:guZa7mQV1l0 00:
 
 ## S1 — Page de vente « on détestait ce produit, jusqu'à… » (Sugarman)
 
-Base : l'annonce MagicStat de Joseph Sugarman (1983), lue et commentée par Stan Leloup [fiche:1N2XALudegQ 00:02].
+Base : l'annonce MagicStat de Joseph Sugarman (date non établie : « 1983 » ne se cite pas `[vérif : V4A-M03 ❓]` ;
+efficacité non chiffrée `[vérif : V4A-M05 ❓]`), lue et commentée par Stan Leloup [fiche:1N2XALudegQ 00:02].
 Premium sobre : **à adapter** : `[sous condition : défauts réels]` (rejet initial réellement vécu par le fondateur,
 un testeur ou un client ; défauts mineurs, hors du critère d'achat principal ; bénéfice vérifiable) ; à éviter si
 l'autodénigrement abîme le positionnement premium. Aucun résultat de vente n'est donné pour l'annonce.
@@ -699,3 +723,125 @@ Base : la structure de la vidéo de Quentin Despas sur les facteurs de Marc Ways
 
 Limite : la fin de la vidéo source est coupée et un chapitre n'est pas transcrit ; la structure est reconstituée
 [fiche:nte_k2hPXR0 00:32].
+
+---
+
+## Classiques de la conversion et de la marque (lot B)
+
+## A1 — Annonce de conversion « vendeur imprimé » (Hopkins)
+
+Base : *Scientific Advertising* (1923), playbook de la fiche [fiche:hopkins-scientific-advertising p. 12-49]. Pour une
+page de vente, une pub de conversion, un e-mail, un carrousel qui vend. Premium sobre : **oui**. Chaque élément passe
+le **test du vendeur** (« Would this help a salesman sell the goods? ») [fiche:hopkins-scientific-advertising p. 14].
+
+| Temps | Contenu | Source |
+|---|---|---|
+| 1. Titre qui sélectionne | Interpelle la cible seule (« Hey there, Bill Jones »), avec le bénéfice désiré le plus large **pour elle** ; curiosité seulement sur un fait réel du produit. Écrire 10 à 20 variantes et y passer plus de temps qu'au corps. | [fiche:hopkins-scientific-advertising p. 26] [fiche:hopkins-scientific-advertising p. 28] [fiche:hopkins-scientific-advertising p. 31] |
+| 2. Preuve précise | Le fait chiffré, mesuré, de préférence non rond, ou le procédé raconté le premier, à la place du superlatif. | [fiche:hopkins-scientific-advertising p. 37] [fiche:hopkins-scientific-advertising p. 39] |
+| 3. Histoire complète | Tous les arguments validés par les tests (liste par marque dans `marques/<slug>/`), écrits pour un prospect non converti qui ne lira qu'une fois. | [fiche:hopkins-scientific-advertising p. 41] [fiche:hopkins-scientific-advertising p. 42] |
+| 4. Offre de service | Un moyen de vérifier la promesse sans risque : échantillon **demandé** (un petit geste), essai, démonstration ; tester « payez après l'essai » contre « satisfait ou remboursé » (préférence affirmée par Hopkins, non vérifiée). | [fiche:hopkins-scientific-advertising p. 17] [fiche:hopkins-scientific-advertising p. 32] [fiche:hopkins-scientific-advertising p. 35] |
+| 5. Action immédiate | Le canal de réponse le plus facile, plusieurs canaux proposés ; une raison **vraie** d'agir vite (`cta.md` section 7). | [fiche:hopkins-scientific-advertising p. 22] [fiche:hopkins-scientific-advertising p. 67] [fiche:hopkins-scientific-advertising p. 89] |
+| 6. Code de suivi | Chaque variante porte son identifiant (UTM, code, page dédiée) ; on juge au coût par client, pas au nombre de réponses. | [fiche:hopkins-scientific-advertising p. 7] [fiche:hopkins-scientific-advertising p. 8] |
+
+**Carrousel 7 slides (transposition, déduction)** : 1 titre qui sélectionne ; 2 la preuve précise ; 3 à 5 un argument
+validé par slide ; 6 l'offre d'essai ; 7 l'action et le mot-clé de suivi.
+Limite : Hopkins ignore les effets de marque à long terme ; pour la marque, voir P6 [fiche:binet-field-b2b-growth p. 13].
+
+## A2 — Spot ou reel « 3 S » (Séguéla)
+
+Base : la règle Sens, Sentiment, Spectacle et « la pub qui prouve ce qu'elle dit » [fiche:buAY7UtjCb4 00:03]
+[fiche:buAY7UtjCb4 00:12]. Minutage cible pour un reel de 30 s (déduction). Premium sobre : **oui** si le spectacle reste
+sobre (un seul effet fort). Pas de musique dans la variante Sillage : effets sonores et voix.
+
+| Temps | Minutage | Contenu | Source |
+|---|---|---|---|
+| 1. Sens | 0-3 s | Ce que le produit **devient** pour le client (question de la neige : pas « de l'eau », « le printemps »), en une image ou une phrase. | [fiche:buAY7UtjCb4 00:02] [fiche:buAY7UtjCb4 00:03] |
+| 2. Sentiment | 3-12 s | L'émotion qui touche ; le rire est possible mais moins profond. | [fiche:buAY7UtjCb4 00:03] |
+| 3. Spectacle qui prouve | 12-25 s | Démonstration inédite d'un **atout réel** ; écarter les pistes ridicules, celles qui évoquent un concurrent et les clichés de la catégorie. Démonstration non truquée, ou trucage signalé. | [fiche:buAY7UtjCb4 00:10] [fiche:buAY7UtjCb4 00:12] |
+| 4. Produit héros + signature | 25-30 s | Test du Boeing : le produit reste le héros. Formule citable en carton final (`hooks.md` famille 17). | [fiche:buAY7UtjCb4 00:12] [fiche:buAY7UtjCb4 00:00] |
+
+Égérie ou cascade : `[conformité : sécurité, accord écrit, droit à l'image]` ; aucun détail de tournage repris des
+récits de Séguéla sans vérification (vitesse, lieu, nombre de couvertures : `hooks.md`, table « Chiffres et récits à
+ne pas reprendre »).
+
+## H1 — Lettre / e-mail de vente « foule affamée » (Halbert, AIDA)
+
+Base : *The Boron Letters* (1984), frameworks H, I, N et P de la fiche [fiche:halbert-boron-letters ch. 10-17]. Avant
+d'écrire : prouver la demande par des **achats** (et non des déclarations) de la cible [fiche:halbert-boron-letters ch. 5]
+[fiche:halbert-boron-letters ch. 22]. Premium sobre : **à adapter** (texte long, ton direct). Transposition au courriel
+et à la page de vente : déduction.
+
+| Temps | Contenu | Source |
+|---|---|---|
+| 1. En-tête / objet | Ce que le lecteur veut ou veut savoir, lisible d'un coup d'œil (l'acheteur trie vingt lettres en une minute). Aucun teaser creux. | [fiche:hopkins-scientific-advertising p. 87] [fiche:halbert-boron-letters ch. 11] |
+| 2. Attention pertinente | Objet joint ou accroche intrigante, **relié** à l'offre et justifié tout de suite (« pour deux raisons »). | [fiche:halbert-boron-letters ch. 14] [fiche:halbert-boron-letters ch. 21] |
+| 3. Première ligne qui nomme le segment | « …a great new way for [segment] to [bénéfice] ». | [fiche:halbert-boron-letters ch. 9] |
+| 4. Intérêt | Faits intéressants et **spécifiques**, vrais. | [fiche:halbert-boron-letters ch. 15] [fiche:halbert-boron-letters ch. 23] |
+| 5. Désir | Les bénéfices, même évidents ; images sensorielles (« word pictures »). | [fiche:halbert-boron-letters ch. 16] [fiche:halbert-boron-letters ch. 17] |
+| 6. Raison de l'offre | Une « reason why » **vraie pour chaque destinataire**. | [fiche:halbert-boron-letters ch. 21] |
+| 7. Action (jusqu'à environ 25 % du texte) | Question de transition (« Would you like to…? »), « it's easy to order », instructions pas à pas, ce que l'on gagne à agir vite et ce que l'on perd à attendre (`[sous condition : urgence réelle]`). | [fiche:halbert-boron-letters ch. 16] |
+| 8. Bon de commande | Présenté comme « l'information promise » ; relance ensuite sur l'argument qui a créé l'intérêt. | [fiche:halbert-boron-letters ch. 14] [fiche:hopkins-scientific-advertising p. 89] |
+
+Style : mots simples, phrases et paragraphes courts, transitions (« Well, as a matter of fact », « Now, naturally »),
+questions-réponses, détails exacts **et vrais** ; lecture à voix haute jusqu'à zéro accroc
+[fiche:halbert-boron-letters ch. 17] [fiche:halbert-boron-letters ch. 22].
+**Déclinaison par segment** : tronc commun d'environ deux tiers, dernier tiers et première ligne réécrits par segment ;
+tester sur un segment avant d'étendre [fiche:halbert-boron-letters ch. 9]. Tester plusieurs versions sur un petit
+échantillon avant l'envoi à toute la base [fiche:hopkins-scientific-advertising p. 88].
+**Garde-fous** : expéditeur identifiable dès l'en-tête ; pas de fausse note manuscrite, de faux horodatage « écrit à
+l'instant », de fausse recommandation ni de fausse raison (`hooks.md`, hooks interdits du lot B) ;
+`[conformité : mentions de prospection électronique, opt-in]` [fiche:cnil-prospection-electronique § B to B].
+
+## P5 — Passe « impact → compréhension → persuasion » sur un storyboard (Trott)
+
+Base : *Predatory thinking for copywriters* [fiche:rl3SELihHqs 00:15]-[fiche:rl3SELihHqs 00:20]. Sert à `critique-hook`
+et `controleur-qualite-marketing`, comme la passe ABCD (P2). Ordre strict : on ne passe à l'étape suivante que si la
+précédente est acquise. Premium sobre : **oui**.
+
+| Passe | Question à poser | Échec typique | Source |
+|---|---|---|---|
+| 0. En amont | Le problème posé est-il le bon ? Comment le client mesure-t-il le succès ? Qui est en position d'agir au bon moment ? | Résoudre brillamment un problème insoluble | [fiche:rl3SELihHqs 00:31] [fiche:rl3SELihHqs 00:37] |
+| 1. Impact | La création se remarque-t-elle **à sa place réelle**, au milieu des autres ? Est-elle le « X » parmi les zéros ? | Elle rejoint le papier peint | [fiche:rl3SELihHqs 00:21] [fiche:rl3SELihHqs 00:50] |
+| 2. Compréhension | Un inconnu la comprend-il, dans sa langue, sans explication ? Le brief tient-il en mots courts ? | Jargon, brief en mots longs | [fiche:rl3SELihHqs 00:11] [fiche:rl3SELihHqs 00:16] |
+| 3. Persuasion | Donne-t-elle une raison d'agir, souvent un échange ? La marque est-elle identifiable ? | Fort impact sans marque | [fiche:rl3SELihHqs 00:19] [fiche:rl3SELihHqs 00:20] |
+| 4. Simplicité | Peut-on retirer un élément sans perte ? « Soon as I start to load it up, it just becomes part of the wallpaper. » | Remplissage | [fiche:rl3SELihHqs 00:46] [fiche:rl3SELihHqs 00:50] |
+
+Ne pas justifier la passe par « 89 % des pubs ne sont pas remarquées » `[vérif : V4A-T01 ❓]`.
+
+## P6 — Campagne B2B en deux temps : amorçage émotionnel → activation rationnelle `[pub payante]`
+
+Base : *The 5 Principles of Growth in B2B Marketing* (Binet & Field, B2B Institute de LinkedIn, 2019)
+[fiche:binet-field-b2b-growth p. 24-34]. Les recommandations sont des **[interprétations]** des auteurs (« our findings
+are tentative ») dans un rapport financé par un vendeur d'audience B2B [fiche:binet-field-b2b-growth p. 7]. À tester.
+Premium sobre : **oui**.
+
+| Temps | Cible | Message | Mesure | Source |
+|---|---|---|---|---|
+| 1. Amorçage (marque) | **Tous** les acheteurs de la catégorie, portée large, avant leur entrée sur le marché | Émotionnel, idéalement « famous » (dont on parle), bien signé ; un angle du catalogue : touche humaine, dureté du métier, solitude du dirigeant, choix sûr (si leader réel), soutien aux entrepreneurs (`hooks.md` famille 10) | Au-delà de 6 mois : notoriété, considération, sensibilité au prix | [fiche:binet-field-b2b-growth p. 22] [fiche:binet-field-b2b-growth p. 26] [fiche:binet-field-b2b-growth p. 29] |
+| 2. Activation | Acheteurs en marché | Arguments produit rationnels, clairs, prouvés ; offre et CTA (`cta.md` section 7) | Court terme : leads qualifiés, ventes | [fiche:binet-field-b2b-growth p. 24] [fiche:binet-field-b2b-growth p. 30] |
+| 3. Équilibre | — | Environ la moitié du budget en marque, l'autre en activation ; part de voix supérieure à la part de marché | Croissance de pénétration avant fidélité | [fiche:binet-field-b2b-growth p. 12] [fiche:binet-field-b2b-growth p. 15] [fiche:binet-field-b2b-growth p. 17] |
+
+Exemple de mécanique (cas primé VWCV, étapes déduites par la fiche) : cible négligée (le dirigeant de PME) → empathie
+pour sa condition → la preuve de service n'arrive qu'en signature [fiche:binet-field-b2b-growth p. 31]. Les résultats
+annoncés par les dossiers de candidature (retour 11:1, etc.) sont autoévalués : ne pas les citer comme preuve.
+Ton : charte BT contre le jargon (« NOBODY LIKES READING IT ») [fiche:binet-field-b2b-growth p. 32].
+
+## K1 — Réponse de crise après un dérapage public (aveu rapide : principe à tester)
+
+Base : le protocole raconté par Séguéla à propos de sa phrase sur la Rolex [fiche:buAY7UtjCb4 00:29]-[fiche:buAY7UtjCb4 00:30].
+**Statut** : principe à tester, **pas** un cas prouvé. La phrase date du 13/02/2009 (France 2) ; le mea culpa a eu lieu
+sur Canal+ le **20/02/2009**, une semaine plus tard, et non « le soir même » ; la gifle à l'antenne n'est attestée
+nulle part `[vérif : V4A-S07 ✅] [vérif : V4A-S08 ❌]`. Toute réponse de crise passe par `garde-conformite` et par la
+**validation de l'utilisateur** avant publication. Premium sobre : **à adapter** (sans gros mot, sans geste
+spectaculaire automatique).
+
+| Temps | Contenu | Source |
+|---|---|---|
+| 1. Regarder | Revoir l'extrait et reconnaître la gravité **perçue**, même si on ne l'a pas sentie sur le moment. | [fiche:buAY7UtjCb4 00:29] |
+| 2. Agir vite | Le plus tôt possible, sans attendre que la polémique s'éteigne seule. | [fiche:buAY7UtjCb4 00:29] |
+| 3. Même terrain | Répondre là où le dérapage a eu lieu, devant une audience comparable. | [fiche:buAY7UtjCb4 00:29] |
+| 4. Aveu sans justification | Ouvrir par l'aveu, avant toute question (`hooks.md` famille 14). | [fiche:buAY7UtjCb4 00:29] |
+| 5. Relativiser, seulement si c'est vrai | « Il n'y a pas mort d'homme » ne vaut que s'il n'y a ni victime ni faute morale. | [fiche:buAY7UtjCb4 00:30] |
+| 6. Rectifier | Redire ce qu'on pense vraiment, avec le bon symbole, et s'appuyer sur la cohérence du discours passé. | [fiche:buAY7UtjCb4 00:33] |
+
+Version client mécontent (privée, par écrit, vite) : `cta.md` section 9 [fiche:buAY7UtjCb4 00:17].
