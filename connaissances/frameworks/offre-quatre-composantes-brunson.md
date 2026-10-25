@@ -12,7 +12,11 @@
   - pile par chaînage ≈ upsell « problem reveal » d'Hormozi, mais Brunson met les problèmes chaînés **dans la même pile** (`upsell-downsell-et-escalier-de-paiement.md`) ;
   - valeur plutôt que prix : citation de Kennedy (« second lowest price ») ; empilement de valeur ≈ « value build » de Kennedy (`offre-irresistible-kennedy.md`) : Brunson donne un **critère de choix** des éléments, Kennedy un **plafond** ;
   - nouvelle opportunité ≈ la voie « positionnement » de l'USP de Kennedy (`usp-question-et-cinq-voies.md`) et les alternatives de Dunford (`cinq-composantes-du-positionnement.md`).
-- Fiabilité : 3/5 (secret n° 4 solide et clair ; chiffres sans méthode). « De 2-3 % à 18-20 % de conversion » grâce au cadrage nouvelle opportunité et l'« étude » de 6,1 M de funnels : **affirmations à ne pas citer** (fiche source) ; **absentes du registre** au 2026-10-22. Le diagramme « ikigai » à 4 cercles est une construction occidentale récente (Zuzunaga, Winn vers 2014), pas la notion japonaise (à confirmer par `verificateur-faits`).
+- Fiabilité : 3/5 (secret n° 4 solide et clair ; chiffres sans méthode). Statut des chiffres (`passe-4b-createurs-offres.md`, 2026-10-22) :
+  - « de 2-3 % à 18-20 % de conversion » grâce au cadrage nouvelle opportunité ❓ [verif:V4B-BR02] et l'« étude » de 6,1 M de funnels ❓ [verif:V4B-BR01] : **ne pas citer** ;
+  - « 8 régimes par an » ❌ [verif:V4B-BR05] : les sondages publiés donnent plutôt environ 2 par an ; ne pas reprendre ;
+  - le diagramme « ikigai » à 4 cercles est une construction occidentale (Zuzunaga vers 2011, Winn en 2014), pas la notion japonaise ✅ [verif:V4B-BR03] : ne pas le présenter comme « culture japonaise » ;
+  - Magnetic Marketing (Kennedy) racheté par **Brunson en 2021** 🟡 [verif:V4B-BR04] : Brunson et Kennedy ne sont pas des sources indépendantes.
 
 ## Problème résolu
 L'offre est une liste de livrables, cadrée comme « une meilleure façon de faire X » à des gens qui ont déjà échoué avec X, vendue un peu moins cher que les autres, et incomplète : le client se heurte au problème suivant, échoue, et ne revient pas. Les 4 composantes en font une **promesse de résultat**, cadrée comme **neuve**, rendue « bon marché » par la **valeur**, et **complète**.
@@ -90,7 +94,7 @@ Ce que la marque aime faire · ce en quoi elle est très bonne · ce dont le mar
 - Cadre religieux du discours : à neutraliser pour une marque francophone laïque.
 
 ## Agents qui doivent l'utiliser
-`strategiste-offre` (propriétaire), `strategiste-positionnement` (nouveau véhicule, positionnement contre une méthode), `ecouteur-audience` (tentatives ratées, verbatims), `redacteur-ads` et `scenariste-youtube-long` (pages de vente, VSL), `strategiste-contenu` (la carte comme colonne vertébrale des contenus), `garde-conformite` (dénigrement, valeur, urgence), `concepteur-experiences` (cadence d'offres).
+`strategiste-offre` (propriétaire), `strategiste-positionnement` (nouveau véhicule, positionnement contre une méthode), `ecouteur-audience` (tentatives ratées, verbatims), `redacteur-ads` et `scenariste-youtube-long` (pages de vente, VSL), `strategiste-contenu` (la carte comme colonne vertébrale des contenus), `garde-conformite` puis `garde-offres` (dénigrement, valeur, urgence, value stack), `concepteur-experiences` (cadence d'offres).
 
 ## Voir aussi
 `offre-irresistible-kennedy.md` · `usp-question-et-cinq-voies.md` · `de-la-caracteristique-au-resultat.md` · `upsell-downsell-et-escalier-de-paiement.md` · `anatomie-d-un-pitch-de-lancement.md` · `offer-stack.md` · `cinq-composantes-du-positionnement.md`

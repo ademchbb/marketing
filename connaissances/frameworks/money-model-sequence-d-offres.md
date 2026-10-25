@@ -11,7 +11,12 @@
 - **Statut de la source** : environ la moitié du direct est un pitch. Le **détail** de plusieurs mécanismes (giveaways en 7 jours, decoy, buy X get Y, pay less now, continuity discount) est **réservé au livre** : la fiche s'arrête là où s'arrête la source.
 - Fiches-outils détaillées par famille : `upsell-downsell-et-escalier-de-paiement.md`, `continuite-et-revenu-recurrent.md`, `systeme-profit-fast-cash-et-prix.md`.
 - Fiabilité : 3,5/5. Le modèle mental est cohérent et démontré à grande échelle ; les études de cas sont celles du portefeuille de l'auteur, sans groupe témoin. Les seuils (2× en 30 jours, upsell à 10×) sont des **heuristiques**, pas des lois, et peuvent être hors de portée d'un commerce à faible marge.
-- **Statut registre** : aucun chiffre de cette source n'est dans `connaissances/verifications/registre.md` au 2026-10-22. Tous restent des **affirmations non vérifiées**.
+- **Statut des chiffres** (`connaissances/verifications/passe-4b-createurs-offres.md`, 2026-10-22, à fusionner dans `registre.md`) :
+  - record Guinness ✅ [verif:V4B-MM01] : s'écrit « 2 917 443 exemplaires en un jour, record du livre de non-fiction le plus vite vendu (août 2025) » ; jamais « 3,6 M en 72 h » ;
+  - cession Gym Launch / Prestige Labs 🟡 [verif:V4B-MM09] (« en cash » confond encaissement et valorisation) ;
+  - « 82 % des entreprises échouent à cause du cash-flow (US Bank) » ❓ [verif:V4B-MM06] : **ne pas citer** ;
+  - « 54 % des entreprises perdent de l'argent ou sont à l'équilibre » ✅ **pour une seule enquête** [verif:V4B-MM07] : « selon l'enquête de la Fed publiée en 2024, 54 % des petites entreprises employeuses américaines n'étaient pas rentables fin 2023 » ; « chaque année » est faux ;
+  - les études de cas du portefeuille (×7,5, 120 M$, Skool 15 M+) et le bilan du lancement (~4 M$ de pub pour ~6,5-7 M$) ne sont **pas vérifiés** : affirmations.
 
 ## Problème résolu
 Une entreprise meurt d'abord de manquer de **cash**, pas de travail : elle dépense plus pour acquérir et servir un client qu'il ne rapporte rapidement. Une campagne qui amène des clients sur un produit unique « one-time pop » est une dépense, pas un actif. Le money model conçoit une **séquence d'offres** telle que chaque client finance l'acquisition des suivants, **sans changer le produit**, seulement la façon dont il achète.
@@ -119,7 +124,7 @@ Refaire l'étape 1 après chaque mécanisme installé. Consigner l'hypothèse et
 - Tout chiffre de cas (×7,5, 120 M$, Skool 15 M+) est une **affirmation** ; ne jamais le présenter comme un résultat promis.
 
 ## Agents qui doivent l'utiliser
-`strategiste-offre` (propriétaire : séquence d'offres de chaque marque), `analyste-marque` (cartographie de l'existant), `strategiste-ads` (critère du remboursement à 30 jours), `analyste-performance` (cash à 30 jours, délai de remboursement), `planificateur-calendrier` (lancement autofinancé), `garde-conformite` (toute urgence, garantie, ancre, prévente), `rapporteur`.
+`strategiste-offre` (propriétaire : séquence d'offres de chaque marque), `analyste-marque` (cartographie de l'existant), `strategiste-ads` (critère du remboursement à 30 jours), `analyste-performance` (cash à 30 jours, délai de remboursement), `planificateur-calendrier` (lancement autofinancé), `garde-conformite` puis `garde-offres` (toute urgence, garantie, ancre, prévente), `redacteur-conditions-vente` (conditions de garantie, prévente, échéances), `rapporteur`.
 
 ## Voir aussi
 `upsell-downsell-et-escalier-de-paiement.md` · `continuite-et-revenu-recurrent.md` · `systeme-profit-fast-cash-et-prix.md` · `diagnostic-express-du-modele-economique.md` · `offer-stack.md` · `modeles-de-monetisation.md` · `anatomie-d-un-pitch-de-lancement.md`

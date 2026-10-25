@@ -40,3 +40,8 @@
    - **Cumul** : une formation éligible au CPF vendue en prévente avec réduction cumule deux questions ouvertes (Q1 c du n° 4 et OQ2) ; aucune ne tranche l'autre.
    En attendant : l'agence ne propose aucune prévente de formation payée à plus de 30 % d'avance, n'affiche aucun prix barré
    sans prix réellement pratiqué sur 30 jours, et ne présente jamais la rétractation légale de 14 jours comme un avantage.
+
+6. **X Premium pour les comptes de marque ?** (détail : `veille/plateformes/x.md` § 4.4 et § 8). Premium débloque les posts longs
+   (jusqu'à 25 000 caractères), les Articles et les réponses prioritaires ; un relevé tiers (Buffer) annonce une portée médiane
+   environ 10 fois supérieure (non vérifié, et aucun multiplicateur Premium n'apparaît dans le code publié en 2026). Coût :
+   abonnement mensuel par compte. En attendant : threads dont le premier post tient seul (pas de Premium supposé).

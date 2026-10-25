@@ -53,5 +53,6 @@
 | google-abcd-youtube-ads | Understanding the ABCDs of effective creative on YouTube (article web) | Google / Think with Google (Ariane Le Port) | 723 mots | — | 1 | fiché |
 | cnil-prospection-electronique | Communications par voie électronique aux prospects et clients : quelles règles respecter ? (page web) | CNIL | 1 798 mots | — | 1 | fiché |
 | bpifrance-influenceur-reglementation | Influenceur - Réglementation (page web) | Bpifrance Création | 2 874 mots | — | 1 | fiché |
+| hormozi-100m-offers | $100M Offers (livre audio officiel, 7 épisodes du podcast The Game) | Alex Hormozi | 4h05 | — | 3 | transcrit |
 
 Statuts : `transcrit` → `analysé` (notes de parties) → `fiché` (fiche.md) → `intégré` (principes à jour).
