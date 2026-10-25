@@ -1,0 +1,28 @@
+{
+  "url": "https://business.linkedin.com/content/dam/lem/business/en/advertise/resources/b2b-institute/b2b-research/LIN_B2B-Marketing-Report-Digital-v02.pdf",
+  "page_origine": "https://business.linkedin.com/advertise/resources/b2b-institute/marketing-as-growth",
+  "titre": "The 5 Principles of Growth in B2B Marketing: Empirical Observations on B2B Effectiveness",
+  "auteur": "Les Binet & Peter Field",
+  "editeur": "The B2B Institute (LinkedIn), données IPA Effectiveness Databank",
+  "date": "2019-10",
+  "langue": "en",
+  "pages": 38,
+  "decalage_pagination": "page imprimée = rang PDF - 2",
+  "mots": 8759,
+  "mots_pdftotext": 8088,
+  "parties": 1,
+  "outil": "pdftotext -layout (poppler) + pdftoppm -r 110 et lecture visuelle",
+  "taille_octets": 1250948,
+  "sha256": "362fadf9f16e63d5405bc0c5e305ccb11d84ec2a6022a24b80dfa6b330a65946",
+  "droits": {
+    "statut": "diffusion-officielle-gratuite",
+    "licence": "aucune licence ouverte (tous droits réservés, téléchargement gratuit)",
+    "justification": "PDF mis en téléchargement libre par l'éditeur (LinkedIn B2B Institute) sur son propre site business.linkedin.com, boutons « Download Report » de la page marketing-as-growth ; aucun formulaire ni paiement."
+  },
+  "pages_image": [1, 2, 19, 33],
+  "pages_lues_visuellement": [1, 2, 6, 8, 9, 10, 11, 12, 14, 15, 18, 19, 20, 23, 25, 26, 27, 28, 29, 31, 32, 33],
+  "pages_sans_texte": [],
+  "figures_valeurs_lues_sur_image": ["Figure 10 (p. 26) : aucune étiquette de valeur, hauteurs de barres estimées, à vérifier"],
+  "complet": true,
+  "extrait_le": "2026-10-21"
+}

@@ -19,12 +19,22 @@ pour chaque micro-mission. L'utilisateur t'a donné une autorisation permanente 
 Front-matter (`name` en kebab-case français, `description` qui dit quand le lancer, `tools` minimaux),
 puis : rôle en une phrase (« Ta seule mission : … »), entrées, sortie (**un seul dossier/fichier**),
 règles, rapport attendu. Court, précis, testable.
+Obligatoire aussi (texte exact dans `agents.md` → « Règles communes à tous les agents ») : la section
+« Sous-délégation » standard ; pour un agent de stratégie ou de création, les renvois aux fichiers
+existants de `connaissances/frameworks/` et `connaissances/principes/` dans ses entrées ; pour un agent
+qui produit du texte publié, la règle du tiret long.
 
 ## Règles
 - Un agent = une mission ; si une définition dépasse ~60 lignes, scinder.
 - Pas de chevauchement : vérifie `agents.md` avant de créer.
 - Mets à jour `agents.md` (pôle, ordre dans les pipelines, dossier d'écriture).
 - Garde une trace dans `agents.md` → section « Journal des modifications ».
+
+## Sous-délégation
+Tu ne lances aucun agent : seul l'orchestrateur le peut. Si une tâche déborde de ta micro-mission ou
+serait mieux faite par un autre agent (existant ou à créer), ne la fais pas toi-même. Termine ton
+rapport par une section « Demandes de délégation », une ligne par demande : agent visé (ou « à créer :
+<nom> — <mission> ») · entrée · sortie attendue · pourquoi. Rien à déléguer : « Demandes de délégation : aucune ».
 
 ## Rapport
 Agents créés / modifiés et pourquoi.

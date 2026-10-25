@@ -92,6 +92,15 @@ Une marque forte n'a pas besoin d'être clivante (Apple, Taylor Swift).
 - Vouloir effacer une mauvaise association au lieu de la noyer.
 - Confondre une campagne qui fait parler (pub) avec un bon branding pour l'audience cœur.
 
+## Variante : les associations d'une marque personnelle (Leila Hormozi) [fiche:6_CCutkM11g] framework I [03:59]-[04:03]
+1. Lister les « gros blocs » réels de ses journées : ce sont les associations de la marque.
+2. Montrer aussi ses **contradictions** (travailler très dur et regarder une émission de téléréalité).
+3. Ne rien fabriquer (« you will be found out »).
+4. Viser l'intemporel plutôt que la tendance (« you can only be timeless if you are you »).
+5. Assumer l'erreur et y répondre bien : « People don't look for somebody who's perfect. »
+- Limite : la question portait sur une marque **sans visage**, et la réponse ne la traite pas.
+- Même source : le playbook « Branding » d'Hormozi (brand flywheel : renforcer, élargir, resserrer, scaler, pivoter) n'est connu que par son sommaire (contenu vendu) ; « In a world where no one trusts anyone, brand is going to be the moat. »
+
 ## Agents qui doivent l'utiliser
 `strategiste-positionnement`, `architecte-personal-brand`, `analyste-marque`, `strategiste-contenu`, `prospecteur-collaborations` (étape 5 pour chaque partenaire), `directeur-creatif-visuel` (signes distinctifs récurrents), `garde-conformite` et `controleur-qualite-marketing` (vérifier les associations refusées), `strategiste-ads` (pub ≠ branding), `gestionnaire-communaute` (crise : noyer).
 

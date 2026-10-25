@@ -1,0 +1,33 @@
+{
+  "url": "https://cdn.prod.website-files.com/692f28f1d17b8ec4f8005e36/6a3c16da1b40be6e5b9be710_6978d1077c2b0207725988da_EVP_FounderLedGrowth_Ebook_vF.pdf",
+  "url_demandee": "https://www.scalevp.com/wp-content/uploads/2025/10/EVP_FounderLedGrowth_Ebook_vF.pdf",
+  "page_origine": "https://www.scalevp.com/resources/founder-led-sales-marketing-never-end",
+  "page_origine_bis": "https://www.scalevp.com/resources/founder-led-sales-and-marketing-never-ends",
+  "titre": "Founder-led sales and marketing never ends: Why your voice is your startup's most valuable asset",
+  "auteur": "Scale Venture Partners × LinkedIn (page web : Craig Rosenberg, Mark Gustaferro)",
+  "editeur": "Scale Venture Partners, avec LinkedIn (co-marquage en couverture ; données LinkedIn)",
+  "date": "2025-10-06",
+  "langue": "en",
+  "pages": 33,
+  "decalage_pagination": "aucun (page imprimée = rang PDF ; p. 1-3 et 33 sans numéro imprimé)",
+  "mots": 6510,
+  "mots_pdftotext": 5698,
+  "parties": 1,
+  "outil": "pdftotext -layout (poppler) + pdftoppm -r 80/110 et lecture visuelle",
+  "taille_octets": 2485207,
+  "sha256": "5a4b7679ecdb8cd515c44767cfe696762fd4ac56be55f0efa7551e4af9865a02",
+  "versions": "une seule version sur scalevp.com (deux pages renvoient au même fichier, md5 identique) ; pas de version courte, de TL;DR ni de plan 30-60-90 jours séparés",
+  "droits": {
+    "statut": "diffusion-officielle-gratuite",
+    "licence": "aucune licence ouverte (© Scale Venture Partners, tous droits réservés, téléchargement gratuit)",
+    "justification": "Ebook mis en téléchargement libre par son éditeur Scale Venture Partners sur son propre site scalevp.com (bouton « Download » de la page Resources, fichier servi par le CDN Webflow du site) ; aucun formulaire ni paiement."
+  },
+  "pages_image": [1],
+  "pages_lues_visuellement": [1, 2, 4, 5, 6, 8, 9, 14, 15, 17, 23, 25, 27, 28, 29, 30, 32],
+  "pages_sans_texte": [],
+  "texte_lu_sur_image": ["p. 1 : couverture (titre aussi présent dans la couche texte)", "p. 30 : texte de la capture du post LinkedIn de Mati Staniszewski (ElevenLabs) et compteurs 905 / 28 / 33, à vérifier"],
+  "residus_couche_texte_retires": ["p. 28 : étiquette « +24% » invisible à l'image", "p. 25 : « Source: LinkedIn Data » invisible à l'image, au milieu d'une phrase"],
+  "chiffres_demandes_absents_du_pdf": ["×6 après TLA", "+20-30 %"],
+  "complet": true,
+  "extrait_le": "2026-10-21"
+}

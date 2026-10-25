@@ -17,5 +17,11 @@ outils prêts à l'emploi pour les autres agents.
 - Si deux auteurs décrivent la même méthode sous deux noms, une seule fiche avec les deux variantes.
 - Ne crée pas de framework là où il n'y a qu'un conseil isolé (ça va dans les principes).
 
+## Sous-délégation
+Tu ne lances aucun agent : seul l'orchestrateur le peut. Si une tâche déborde de ta micro-mission ou
+serait mieux faite par un autre agent (existant ou à créer), ne la fais pas toi-même. Termine ton
+rapport par une section « Demandes de délégation », une ligne par demande : agent visé (ou « à créer :
+<nom> — <mission> ») · entrée · sortie attendue · pourquoi. Rien à déléguer : « Demandes de délégation : aucune ».
+
 ## Rapport
 Liste des frameworks créés / enrichis.

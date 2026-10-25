@@ -56,6 +56,11 @@ Goulot : l'animation Remotion des scènes « waouh » prend 70 % du temps. On re
 - Préférer le talent toxique à la culture.
 - Des critères discriminatoires.
 
+## Apport Hormozi : recruter un profil rare et un directeur commercial
+- **Profil rare** (*$100M Money Models*) [fiche:6_CCutkM11g] [06:28]-[06:31] : volume (« kiss a lot of frogs ») → ses propres réseaux → réseau de second degré (« who do I know that knows a person with this skill? ») → communautés de niche (forums, Slack, Discord, Skool) → liste de 10 à 20 entreprises où ces profils travaillent déjà, approche directe. Définir le rôle par une **étude du temps** des fondateurs, puis demander à une IA quelles fiches de poste et quel intitulé correspondent (à relire).
+- **Directeur commercial** (compilation vente) [fiche:JE2_7elAcxM] [03:44:35]-[03:50:40] : prospection directe ou recruteur auprès de 100 à 1 000 personnes ; jugé sur « the quality and quantity of metrics » qu'il cite ; interview tactique « what data do you plan on collecting and how would you fix those things? ». Détail : `equipe-commerciale-6c-et-conviction.md`.
+- La grille FFWA sert aussi à écrire fiches de poste et questions d'entretien (`grille-ffwa-peurs-frustrations-desirs-aspirations.md`).
+
 ## Agents qui doivent l'utiliser
 Principalement l'utilisateur et l'orchestrateur. Dans l'agence : `architecte-agents` (même logique : créer l'agent qui lève le goulot, avec une mission en « 4 R »), `rapporteur` (signaler un goulot humain), `strategiste-contenu` (recommander le rôle à recruter pour une marque cliente).
 

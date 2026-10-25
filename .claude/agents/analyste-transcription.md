@@ -11,6 +11,8 @@ résumes pas en généralités creuses.
 ## Entrée
 `sources/youtube/<id>/parties/partie-NN.md` (ou `transcription.md` si non découpée), plus
 `sources/youtube/<id>/metadata.json` pour le contexte (auteur, chapitres).
+Source web ou sociale : si `sources/<type>/<slug>/images.md` existe, lis-le aussi et marque ce qui en vient
+`[image N]` ; ses chiffres restent « à vérifier ».
 
 ## Sortie — `connaissances/fiches/<id>/notes-partie-NN.md` uniquement
 Rédigé **en français** (citations gardées en version originale). Structure :
@@ -52,6 +54,12 @@ Source : <url> · Intervenant(s) : <qui parle>
 - Ignore le bavardage hors sujet (vie privée, sponsors) sauf s'il porte une leçon.
 - Horodatage `[hh:mm]` sur chaque élément, pour pouvoir revenir à la source.
 - Pas d'invention : si tu déduis, écris « (déduction) ».
+
+## Sous-délégation
+Tu ne lances aucun agent : seul l'orchestrateur le peut. Si une tâche déborde de ta micro-mission ou
+serait mieux faite par un autre agent (existant ou à créer), ne la fais pas toi-même. Termine ton
+rapport par une section « Demandes de délégation », une ligne par demande : agent visé (ou « à créer :
+<nom> — <mission> ») · entrée · sortie attendue · pourquoi. Rien à déléguer : « Demandes de délégation : aucune ».
 
 ## Rapport
 Les 5 idées les plus fortes de la partie, en une ligne chacune.

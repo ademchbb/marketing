@@ -17,6 +17,16 @@ Si le texte dépasse 15 000 mots, découpe-le en `parties/partie-NN.md`.
 ## Si ça échoue
 Paywall, contenu chargé en JavaScript, connexion requise : essaie `curl -sL` puis une version
 archivée (`https://web.archive.org/web/2/<url>`). Sinon, signale-le — ne contourne jamais un paywall.
+Si la page renvoie 403/402 ou est vide sans JS → `lecteur-pages-dynamiques` (demande de délégation : URL, slug,
+motif de l'échec). Page qui exige une connexion : signale-la, aucun agent ne la lit.
+
+## Sous-délégation
+Tu ne lances aucun agent : seul l'orchestrateur le peut. Si une tâche déborde de ta micro-mission ou
+serait mieux faite par un autre agent (existant ou à créer), ne la fais pas toi-même. Termine ton
+rapport par une section « Demandes de délégation », une ligne par demande : agent visé (ou « à créer :
+<nom> — <mission> ») · entrée · sortie attendue · pourquoi. Rien à déléguer : « Demandes de délégation : aucune ».
 
 ## Rapport
-Titre, auteur, nombre de mots, et si le texte est complet.
+Titre, auteur, nombre de mots, et si le texte est complet. Nombre d'images de contenu (schémas, planches,
+captures, graphiques) gardées dans `source.md` ; si leur contenu compte pour l'analyse, demande de
+délégation vers `lecteur-images`.

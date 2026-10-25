@@ -74,8 +74,18 @@ Ces principes s'appliquent par analogie aux agents :
 - Déléguer l'écriture dès le premier mois.
 - Des 1:1 seulement quand ça va mal.
 
+## Apport Hormozi (*$100M Money Models*, Q&A avec Leila Hormozi) [fiche:6_CCutkM11g] framework G
+Outils de management complémentaires, donnés en réponse à des appelants (aucune donnée, cas déclarés) :
+- **Rapport hebdomadaire** [04:04]-[04:06] : victoire n° 1 · défi principal · « comment je peux t'aider » · avancement des initiatives du trimestre ; pour un junior à distance, ajouter ses stats contre objectifs. Le manager **répond à chaque point** (80 % de l'effort pour l'auteur, 20 % pour le manager).
+- **« Cell phone speech »** pour déléguer un site ou un périmètre [06:21]-[06:22] : propriété symbolique ; « when something happens, this phone doesn't ring » ; jeux de rôle où « appelle-moi » est toujours la mauvaise réponse ; exceptions explicites (décision financière au-dessus d'un seuil).
+- **Boxes, not people** (sureffectif ou réorganisation) [04:14]-[04:20] : état actuel → organigramme futur en cases vides → y placer les personnes → plan de transition → **séparer la décision de la communication**.
+- **RACI** [06:09] : être consulté n'est pas manager ; chiffrer le coût d'une compétence manquante contre le CA qu'une embauche débloque.
+- **Onboarding d'un responsable financier en 90 jours** [04:25] : un seul livrable à 30 jours (le tableau de bord), « allumé » entre 30 et 90 jours ; double approbation de tout mouvement d'argent.
+- Rémunération (marge brute, deux variables, OTE au 85e centile) : `equipe-commerciale-6c-et-conviction.md`.
+- Pour l'agence (déduction) : le rapport hebdomadaire en 4 points et « une décision, puis sa communication » se transposent aux rapports d'agents (`rapporteur`) ; le reste vaut pour les marques qui ont une équipe. Ce n'est pas un conseil RH ni juridique (licenciement, indemnités).
+
 ## Agents qui doivent l'utiliser
 `architecte-agents` (concevoir et améliorer les agents comme on onboarde une recrue), `controleur-qualite-marketing` et `critique-hook` (retours « bloquant / préférence » avec raison), `architecte-personal-brand` et `redacteur-linkedin` (calibration de la voix), `pont-motion-design` (onboarder le studio avec une seule référence et une vraie liberté).
 
 ## Voir aussi
-`equipe-recrutement.md` · `equipe-organisation-et-internalisation.md` · `boucle-d-iteration.md`
+`equipe-recrutement.md` · `equipe-organisation-et-internalisation.md` · `boucle-d-iteration.md` · `equipe-commerciale-6c-et-conviction.md`

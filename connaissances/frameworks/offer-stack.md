@@ -61,4 +61,4 @@ Le volume et le taux d'opt-in du lead magnet (voir `metriques-appariees.md`).
 `strategiste-offre` (propriétaire), `redacteur-newsletter` (séquences après opt-in), `strategiste-ads`, `redacteur-ads`, `strategiste-contenu` (CTA par marche), `analyste-performance`, `garde-conformite` (affirmations de valeur et de prix).
 
 ## Voir aussi
-`funnel-cta-commentaire.md` · `share-the-knowledge-sell-the-execution.md` · `modeles-de-monetisation.md`
+`funnel-cta-commentaire.md` · `share-the-knowledge-sell-the-execution.md` · `modeles-de-monetisation.md` · `money-model-sequence-d-offres.md` (même question vue par le cash : séquence attraction, upsell, downsell, continuité ; remboursement à 30 jours) · `offre-quatre-composantes-brunson.md` (cadrage « nouvelle opportunité » à l'entrée de l'échelle, « amélioration » en haut) · `signaux-avant-ventes-et-pyramide-des-acheteurs.md` et `scorecard-de-diagnostic.md` (lead magnet de diagnostic)

@@ -1,20 +1,30 @@
 #!/usr/bin/env python3
 """Récupère métadonnées + transcription d'une vidéo YouTube.
 
-Usage : python3 outils/youtube/transcrire.py <url-ou-id> [<url-ou-id> ...]
-Écrit dans sources/youtube/<id>/ :
+Usage : python3 -I outils/youtube/transcrire.py <url-ou-id> [<url-ou-id> ...] [--sortie DOSSIER]
+Écrit dans sources/youtube/<id>/ (ou <DOSSIER>/<id>/ avec --sortie, pour tester) :
   - metadata.json      (titre, chaîne, durée, date, vues, description, chapitres, tags)
   - transcription.md   (texte horodaté par blocs de ~30 s, lisible par un agent)
 Stratégie : yt-dlp (sous-titres manuels > auto « -orig » > auto), puis
 youtube-transcript-api en secours, avec plusieurs tentatives (YouTube renvoie
 parfois 429 / RequestBlocked depuis les IP cloud).
+Texte nettoyé : balises retirées, codes HTML décodés (&amp; &#39; &gt;…), espaces insécables -> espaces.
 """
-import json, re, subprocess, sys, tempfile, time
+import html, json, re, subprocess, sys, tempfile, time
 from pathlib import Path
 
 RACINE = Path(__file__).resolve().parents[2]
 SORTIE = RACINE / "sources" / "youtube"
 TENTATIVES = 5
+
+
+def propre(texte: str) -> str:
+    """Balises VTT retirées, codes HTML décodés (deux passes : YouTube double-encode parfois),
+    espaces insécables / fines / sans chasse remplacés, espaces multiples réduits."""
+    t = re.sub(r"<[^>]+>", "", texte or "")
+    t = html.unescape(html.unescape(t))
+    t = re.sub(r"[\u00a0\u2007\u202f\u200b\u2060\ufeff]", " ", t)
+    return re.sub(r"\s+", " ", t).strip()
 
 
 def video_id(arg: str) -> str:
@@ -38,7 +48,7 @@ def parse_vtt(texte: str):
         h, m, s = tl.split("-->")[0].strip().split(":")
         debut = int(h) * 3600 + int(m) * 60 + float(s)
         for l in lignes[lignes.index(tl) + 1:]:
-            l = re.sub(r"<[^>]+>", "", l).strip()
+            l = propre(l)
             if l and l not in vus:
                 vus.add(l)
                 segs.append((debut, l))
@@ -74,7 +84,7 @@ def via_ytdlp(vid: str, tmp: Path):
 def via_api(vid: str):
     from youtube_transcript_api import YouTubeTranscriptApi
     tr = YouTubeTranscriptApi().fetch(vid, languages=["en", "fr", "es"])
-    return [(s.start, s.text) for s in tr]
+    return [(s.start, propre(s.text)) for s in tr if propre(s.text)]
 
 
 def ecrire(vid, meta, segs, langue):
@@ -132,12 +142,19 @@ def traiter(arg):
             ecrire(vid, meta, [], None)
         return False
     d = ecrire(vid, meta, segs, langue)
-    print(f"OK {vid} -> {d.relative_to(RACINE)} ({len(segs)} segments, {langue})")
+    print(f"OK {vid} -> {d.relative_to(RACINE) if RACINE in d.parents else d} ({len(segs)} segments, {langue})")
     return True
 
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
+    args = sys.argv[1:]
+    if "--sortie" in args:  # option facultative ; l'usage historique (liste d'URL seule) est inchangé
+        i = args.index("--sortie")
+        if i + 1 >= len(args):
+            sys.exit("ERREUR : --sortie attend un dossier")
+        SORTIE = Path(args[i + 1]).expanduser().resolve()
+        del args[i:i + 2]
+    if not args:
         sys.exit(__doc__)
-    ok = [traiter(a) for a in sys.argv[1:]]
+    ok = [traiter(a) for a in args]
     sys.exit(0 if all(ok) else 1)
