@@ -78,4 +78,4 @@ Au moment de l'échange, chacun dit merci **et le pense**, et referait la transa
 `strategiste-offre` (propriétaire : structure des propositions), `analyste-marque` (marques qui vendent des services), `redacteur-linkedin` et `redacteur-newsletter` (angles de contenu : « State the number and shut up », « être puni de devenir meilleur »), `garde-conformite` (pas de faux prix barrés ni de fausses valeurs), `rapporteur`.
 
 ## Voir aussi
-`value-conversation.md` · `ancrage-sur-valeur-garantie.md` · `offer-stack.md` · `discipline-pour-marche-et-test-de-la-peur.md`
+`value-conversation.md` · `ancrage-sur-valeur-garantie.md` · `offer-stack.md` · `discipline-pour-marche-et-test-de-la-peur.md` · `presenter-le-prix-en-rendez-vous.md` (même règle « anchor high » chez Hormozi, variante prix plein échelonné puis remises de prépaiement ; divergences sur le moment où l'on parle du prix) · `upsell-downsell-et-escalier-de-paiement.md` (ancre et menu upsell)

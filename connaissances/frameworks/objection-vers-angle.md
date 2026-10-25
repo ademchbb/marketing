@@ -60,4 +60,4 @@ Pourquoi cette créa, ce persona, cet angle ? Quelle lacune comble-t-on ? (Voir 
 `redacteur-ads` (propriétaire), `redacteur-hooks`, `critique-hook`, `strategiste-ads`, `ecouteur-audience` (objections exactes), `scenariste-reel`, `garde-conformite` (contrôle obligatoire), `simulateur-audience` (réaction du persona sceptique).
 
 ## Voir aussi
-`analyse-de-reputation-et-minage-d-avis.md` · `message-a-mon-moi-passe.md` · `broad-narrow-niche.md` · `branding-par-association.md`
+`analyse-de-reputation-et-minage-d-avis.md` · `message-a-mon-moi-passe.md` · `broad-narrow-niche.md` · `branding-par-association.md` · `objections-oignon-du-blame-et-looping.md` (même matière en rendez-vous de vente : 5 familles, obstacles avant le prix)
