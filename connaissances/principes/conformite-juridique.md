@@ -22,7 +22,8 @@
 > citées comme **cas** (pratique recommandée puis écartée) : `au0-dI_wjI8` (Kennedy), `k834E6OTGTM` et `6_CCutkM11g`
 > (Hormozi), `rPZG5xfN7vI` (Brunson, élève de Kennedy : sources non indépendantes), `LJVP2wRk7Cc` (Priestley),
 > `11rNI6BUey4` (Marketing Mania), `hopkins-scientific-advertising`, `dAJyqo6wnq4` (Heath), `google-abcd-playbook-2022`,
-> `_hem3-8XbEI` (Cialdini), `halbert-boron-letters`, `Ge8xTCIP0Zw` (Abraham), `buAY7UtjCb4` (Séguéla) ·
+> `_hem3-8XbEI` (Cialdini), `halbert-boron-letters`, `Ge8xTCIP0Zw` (Abraham), `buAY7UtjCb4` (Séguéla),
+> `yRgPbqywUJ8` (Denney) ; soit 17 fiches au total ·
 > `veille/plateformes/meta-ads.md` §5, §7 bis.
 > **Frameworks** : `conformite-influence-commerciale.md` · `arbre-regime-message-electronique-cnil.md` ·
 > `filtre-humain-ia-et-enhancements-meta.md`. **Swipe-file** : `swipe-file/hooks.md`, « Hooks interdits ou bloqués ».

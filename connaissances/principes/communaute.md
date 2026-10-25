@@ -171,7 +171,20 @@
   posée et une correction ; seule l'hostilité gratuite est ignorée.
 - **Sources** : [fiche:Ch4Sl0POBhU] F7.1, F7.4 ; [fiche:Jmkq5RLjm0U] framework F ; [fiche:uJ8Pg6t_iho]
   framework 8.
-- **Consensus** : 2 experts (Ralston, Hormozi).
+- **Ajouts du 2026-10-25** :
+  - critique **venant de la cible** : y répondre, par de la gratitude ou une question qui ouvre le dialogue
+    (« Appreciate the pushback! Curious, what's your take on [specific point]? ») ; « A hate comment from your ICP is
+    worth 100 'Great post!' replies » (Scott Albro) [fiche:scalevp-founder-led-growth-2025 p. 15] ;
+  - colère contre la marque : étiqueter la responsabilité perçue (« On a l'impression de ne pas avoir tenu
+    parole… ») plutôt que l'émotion, **uniquement si c'est sincère et exact** ; transposition de Voss, non testée
+    [fiche:guZa7mQV1l0 transposition 13] ;
+  - ne laisser ni la critique ni la louange piloter la production [fiche:IWuVEcQexWo 00:32, 00:39] ;
+  - « les consommateurs ont toujours raison » sur ce qu'ils ressentent (Séguéla) [fiche:buAY7UtjCb4 08:53] ;
+  - au-delà de la modération courante (attaque, polémique, erreur publique) : parler tôt en défense (MrBeast
+    [fiche:xf0Mli0LVgI 00:02]) et passer au protocole de `gestion-crise.md`. Le mea culpa de Séguéla sur l'affaire
+    Rolex a eu lieu **une semaine** après la phrase, pas le soir même (V4A-S08) : ne pas citer ce cas comme preuve
+    d'un aveu immédiat.
+- **Consensus** : 2 experts (Ralston, Hormozi) + 3 (LinkedIn × Scale VP, Vaynerchuk, Séguéla) ; Voss en transposition.
 - **Confiance** : moyenne.
 
 ### C7. Fais des spectateurs des membres : vote, audience en héros, UGC, langage partagé
@@ -187,8 +200,16 @@
 - **Pour une marque d'entreprise / un studio B2B** : Sillage fait voter entre deux ouvertures (jamais entre deux
   musiques) ; met en avant un lancement client avec son accord et des chiffres vérifiés uniquement.
 - **Sources** : [fiche:Ch4Sl0POBhU] F20, F18.5 ; swipe-file `cta.md` section 2.
-- **Consensus** : 1 expert (Ralston).
-- **Confiance** : faible (heuristiques, exemples anonymes).
+- **Ajouts du 2026-10-25** :
+  - **identité de groupe** choisie et client héros du récit (« entrepreneur at birth, funnel hacker by choice »),
+    **sans fabriquer d'ennemi diffamant** [fiche:rPZG5xfN7vI 00:01-00:11, playbook 14] (voir D7) ;
+  - **rôle valorisant** confié aux membres (les lycéens qui photographient les animaux d'un refuge pour Petfinder)
+    [fiche:8zcnK6Lx_p4 00:45-00:46] ;
+  - **engagement réciproque** : avant de demander au client de devenir ambassadeur, dire à quoi la marque s'engage
+    [fiche:OgRgbar2dOQ framework, 18:55] ;
+  - visuels de communauté : des personnes **ensemble** plutôt que seules [fiche:_hem3-8XbEI playbook 7].
+- **Consensus** : 1 expert (Ralston) + 3 (Brunson, Godin, Kapferer).
+- **Confiance** : moyenne pour le principe ; faible pour les tactiques (exemples anonymes ou récits non vérifiés).
 
 ### C8. Réponds toi-même aux commentaires, ou via un compte « Team » transparent
 - **Pourquoi** : la relation se construit dans les réponses. Une réponse d'équipe déguisée en réponse du créateur
@@ -200,7 +221,10 @@
   fondateur prend la parole, c'est lui. Les réponses rédigées par nos agents restent des **brouillons** validés
   par l'utilisateur (aucune publication sans validation, règle du repo).
 - **Sources** : [fiche:Ch4Sl0POBhU] F24.4, F20.7.
-- **Consensus** : 1 expert (Ralston). Yuergens s'en passait pendant sa croissance (voir D1).
+- **Ajout du 2026-10-25** : quand on ne peut plus répondre à tout, le dire : « I can't reply to every single email that
+  I get, but I read them all » ; signer avec les personnes réelles derrière la marque (« tell Jennifer and I »), qui a
+  accéléré les réponses selon Welsh (sans chiffre) [fiche:DJLtwT1Z0eo framework D].
+- **Consensus** : 1 expert (Ralston) + 1 (Welsh). Yuergens s'en passait pendant sa croissance (voir D1).
 - **Confiance** : moyenne (le volet transparence découle de la règle d'honnêteté du repo).
 
 ### C9. Mise sur la durée et l'intimité (long format, live) pour créer l'attachement
@@ -212,7 +236,10 @@
   est un format d'attachement compatible avec le style sobre (pas de musique, effets sonores possibles).
 - **Sources** : [fiche:Jmkq5RLjm0U] enseignement 9, framework Q ; [fiche:Ch4Sl0POBhU] enseignement de
   fondation (court = notoriété, long = conversion).
-- **Consensus** : 2 experts (Hormozi, Ralston).
+- **Ajouts du 2026-10-25** : Welsh vend désormais la **proximité** (dîners, masterminds, petits événements) plutôt que
+  l'information que l'IA banalise [fiche:DJLtwT1Z0eo framework C] ; Koe : le format long construit l'« authenticité »,
+  le court la croissance [fiche:SUzKZfyaAK8 framework W] (voir C13).
+- **Consensus** : 2 experts (Hormozi, Ralston) + 2 (Welsh, Koe).
 - **Confiance** : faible. Calcul 2 h = 480 shorts exact mais l'effet sur l'attachement est une hypothèse
   (registre G12) ; « court = notoriété, long = conversion » sans donnée publique de conversion (P06, plausible,
   faible).
