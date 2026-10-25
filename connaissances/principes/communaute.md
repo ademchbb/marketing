@@ -73,10 +73,15 @@
   de lancement analysée) installe un rendez-vous pour les fondateurs et les agences.
 - **Sources** : [fiche:uJ8Pg6t_iho] framework 9 ; [fiche:Ch4Sl0POBhU] F44.2 ; [fiche:Jmkq5RLjm0U]
   enseignement 7, framework M ; [fiche:AA1LoZwW_2Y] format 4 (« road to X »).
+- **Ajouts du 2026-10-25** : Godin, « Show up, regularly, consistently and generously, for years and years », pour
+  mériter la permission de relancer [fiche:8zcnK6Lx_p4 00:52] ; MrBeast choisit la sortie **hebdomadaire** quand le
+  contenu fait débattre, pour que la conversation entre deux épisodes fasse la promotion [fiche:xf0Mli0LVgI 00:15-00:16,
+  01:00]. Sur YouTube, chaque épisode reste autonome, la série est un bonus [veille:youtube §6 règle 15].
 - **Consensus** : 4 experts (Ralston, Hormozi, Lee ; Yuergens via les stories quotidiennes alternant preuve et
-  personnel).
+  personnel) + 2 (Godin, MrBeast).
 - **Confiance** : moyenne. Convergent, sans donnée publique ; l'effet de la série sur la croissance est une
-  attribution causale invérifiable chez Lee (fiche, Limites).
+  attribution causale invérifiable chez Lee (fiche, Limites) ; la « règle des 3 épisodes » de MrBeast n'a pas de
+  source montrée.
 
 ### C2. Crée du lien par les intérêts et les valeurs partagés, glissés dans le contenu cœur
 - **Pourquoi** : on s'attache à quelqu'un qui nous ressemble (Likeness). Chaque intérêt partagé est une occasion
@@ -88,7 +93,10 @@
   pas de musique, sobriété) et montre les personnes réelles derrière, sans inventer de persona.
 - **Sources** : [fiche:Jmkq5RLjm0U] framework P (Likeness) ; [fiche:Ch4Sl0POBhU] F8 (80/20, interest stacking) ;
   [fiche:uJ8Pg6t_iho] framework 21 (75/20/5) ; [fiche:HzoQgQS8czE] framework 24 ; [fiche:AA1LoZwW_2Y] format 2.
-- **Consensus** : 4 experts.
+- **Ajout du 2026-10-25** : Welsh, « Be someone who people want to follow… and then weave your story around that
+  personality » ; les lecteurs s'intéressent aux coulisses et aux personnes [fiche:DJLtwT1Z0eo 00:29, 00:39]. Le
+  fichier `principes/personal-branding.md` existe désormais (P2, P6).
+- **Consensus** : 4 experts + 1 (Welsh).
 - **Confiance** : moyenne. Les ratios sont des heuristiques (registre G15, plausible).
 
 ## Principes soutenus par 1 ou 2 experts
@@ -107,7 +115,13 @@
   directeur de création d'agence pèsent plus que cent commentaires de créateurs amateurs.
 - **Sources** : [fiche:Jmkq5RLjm0U] framework Y et Limites (réconciliation) ; [fiche:uJ8Pg6t_iho]
   framework 4 (« qui écouter pour pivoter ») ; [fiche:Ch4Sl0POBhU] F7.
-- **Consensus** : 2 experts (Hormozi, Ralston).
+- **Ajouts du 2026-10-25** : le dirigeant de Doctolib fait ses entretiens **dans le cabinet** du client et demande aussi
+  ce qui va ou non dans la façon dont on présente les produits [fiche:oeG8NWrWV4Y framework L] ; Godin teste en tout
+  petit comité et regarde « qui réagit à quoi » [fiche:8zcnK6Lx_p4 framework G] ; Galloway : ne pas trop servir le noyau
+  dur ni laisser les commentaires dicter la ligne [fiche:Z2uoA3bhJT0 framework C] ; Vaynerchuk : ne pas piloter sur les
+  critiques **ni** sur les louanges [fiche:IWuVEcQexWo 00:32, 00:39] ; Denney mine les commentaires des meilleures pubs
+  et les avis pour les objections [fiche:yRgPbqywUJ8 04:51-08:07].
+- **Consensus** : 2 experts (Hormozi, Ralston) + 4 (Niox-Chateau, Godin, Galloway, Vaynerchuk ; Denney pour la méthode).
 - **Confiance** : moyenne. « Les clients premium écrivent en privé » est une observation de Ralston, « pas une
   règle ».
 
@@ -124,7 +138,11 @@
 - **Pour une marque d'entreprise / un studio B2B** : 5 fondateurs demandent « combien de temps pour une vidéo de
   lancement ? » → un reel « De l'URL à la vidéo : le vrai calendrier » (avec les délais réels du studio).
 - **Sources** : [fiche:Ch4Sl0POBhU] F20.2-3, F40 ; [fiche:AA1LoZwW_2Y] format 3 (question du doute).
-- **Consensus** : 2 experts (Ralston, Lee).
+- **Ajouts du 2026-10-25** : le playbook fait analyser chaque mois commentaires et DM par une IA (« What questions or
+  objections are coming up most often? ») et propose « Quelle question client j'entends sans cesse ? » dans sa liste
+  anti-panne [fiche:scalevp-founder-led-growth-2025 p. 19, p. 24] ; Koe écrit à son « soi passé » à partir des
+  problèmes rencontrés [fiche:SUzKZfyaAK8 framework K].
+- **Consensus** : 2 experts (Ralston, Lee) + 2 (LinkedIn × Scale VP, Koe).
 - **Confiance** : moyenne pour le principe ; le seuil « environ 5 questions » est une heuristique.
 
 ### C5. Écris pour un inconnu même quand tu parles à ta communauté
@@ -137,10 +155,13 @@
   avec sa définition courte, pour que le prospect qui découvre la marque la comprenne.
 - **Sources** : [fiche:Jmkq5RLjm0U] enseignement 7, framework L ; [fiche:uJ8Pg6t_iho] framework 9 ;
   [fiche:Ch4Sl0POBhU] F19.1.
-- **Consensus** : 2 experts (Hormozi, Ralston). Tension avec les « blagues internes » de Ralston F20 : voir D3.
+- **Ajout du 2026-10-25** : même règle chez MrBeast (chaque vidéo compréhensible seule) et Galloway (le Core, le
+  Casual et le New) [fiche:xf0Mli0LVgI 00:12] [fiche:Z2uoA3bhJT0 framework C] ; voir `croissance-audience.md` C3.
+- **Consensus** : 2 experts (Hormozi, Ralston) + 2 (MrBeast, Galloway). Tension avec les « blagues internes » de
+  Ralston F20 : voir D3.
 - **Confiance** : moyenne. Hormozi balaie le risque de perte de rétention sans donnée.
 
-### C6. Ignore la haine, garde la conviction, ajoute du contexte
+### C6. Réponds à la critique de la cible par une question ; ignore la haine gratuite ; garde la conviction (titre complété le 2026-10-25, ex-« Ignore la haine, garde la conviction, ajoute du contexte »)
 - **Pourquoi** : toute nouvelle association fait perdre quelques personnes et en gagne d'autres ; on juge au
   solde net. « Don't let the five mean comments stop you from gaining the 500 new people. »
 - **Comment l'appliquer** : ne pas répondre à la haine ; si une majorité rejette un message, garder la
