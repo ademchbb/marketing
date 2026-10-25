@@ -36,7 +36,7 @@ Ajouts de l'agence : rejeter toute rareté, urgence, preuve ou chiffre **non ré
 | Text improvements (Meta déplace les textes) | on | on | à couper si l'ensemble devient incohérent ; sinon on avec relecture |
 | Multi-image format | on | on | on si carrousel ou plusieurs images, aperçu vérifié |
 | Animation | on | on | on si l'aperçu reste conforme à la charte |
-| Flex media (carré ↔ vertical) | on | on | on, mais préférer des visuels 1:1 et 9:16 dédiés |
+| Flex media (carré ↔ vertical) | on | on | on, mais préférer des visuels 4:5 (fil, Ads Guide : `veille/plateformes/meta-ads.md` § 8) et 9:16 dédiés |
 « Optimize text per person » : Heath le laisse activé ; pour l'agence, seulement si chaque texte de base a été relu, car les variantes ne seront pas toutes vues avant diffusion.
 
 ### 3. Contrôler l'aperçu sur chaque placement

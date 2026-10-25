@@ -76,7 +76,11 @@
   et le registre de vérification jouent le rôle du registre des cicatrices.
 - **Sources** : [fiche:HzoQgQS8czE] framework 28 ; [fiche:Ch4Sl0POBhU] F23, F32 ; [fiche:Jmkq5RLjm0U]
   framework O.4, V.2.
-- **Consensus** : 3 experts (Yuergens, Ralston, Hormozi).
+- **Ajouts du 2026-10-25** : Hormozi automatise la formation (cours interne, enregistrements, écoute d'appels) parce que
+  « the most expensive thing a business can do is train salespeople » sur de vrais prospects [fiche:JE2_7elAcxM
+  framework L, étape 4] ; le playbook partage avec l'équipe une **banque de contenu** en 4 rubriques
+  [fiche:scalevp-founder-led-growth-2025 p. 18].
+- **Consensus** : 3 experts (Yuergens, Ralston, Hormozi) + 1 (LinkedIn × Scale VP).
 - **Confiance** : moyenne (convergent, aucune mesure publique).
 
 ## Principes soutenus par 2 experts
@@ -97,7 +101,17 @@
   écrite en 4 R.
 - **Sources** : [fiche:Ch4Sl0POBhU] F27, F28 ; [fiche:uJ8Pg6t_iho] framework 39 ; [fiche:HzoQgQS8czE]
   frameworks 26.3 et 29.
-- **Consensus** : 2 experts (Ralston, Yuergens).
+- **Ajouts du 2026-10-25** (Hormozi, *Money Models*, partie questions-réponses) [fiche:6_CCutkM11g framework G] :
+  - définir le rôle par une **étude du temps** des fondateurs, puis faire proposer fiches de poste et intitulé par une
+    IA, relus par un humain ;
+  - organigramme futur en **cases vides** (« boxes, not people ») avant d'y placer les personnes ; séparer la décision
+    de sa communication ;
+  - chiffrer le coût d'une compétence manquante contre le chiffre d'affaires qu'une embauche débloque, pas contre le
+    profit actuel ;
+  - rémunération calculée sur la **marge brute**, au plus **deux variables** ; matrice RACI (être consulté n'est pas
+    manager).
+  Ces règles viennent d'une partie questions-réponses d'un lancement, sans données.
+- **Consensus** : 2 experts (Ralston, Yuergens) + 1 (Hormozi).
 - **Confiance** : moyenne (multiplicateurs « monteur YouTube ×2, short-form ×2 à ×5 » : déclaratifs, C37).
 
 ### E3. Juge sur une vraie tâche, identique pour tous et rémunérée, avant de juger sur le discours
