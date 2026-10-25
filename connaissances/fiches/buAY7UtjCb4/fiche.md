@@ -1,6 +1,16 @@
 # Dans la tête d'une légende de la publicité : comment faire des buzz ? — Jacques Séguéla
 https://www.youtube.com/watch?v=buAY7UtjCb4 · 49 min 32 s · 45 903 vues (1 310 likes, 75 commentaires) · publié le 2021-01-19 · analysé le 2026-10-22
 
+> **Revalidation 2026-10-25** : anecdotes tranchées par la passe 4a du registre (section P-S, V4A-S01 à S12 :
+> 4 ✅, 2 🟡, 4 ❌, 2 ❓). Correction principale : le mea culpa Rolex n'a **pas** eu lieu « le soir même »
+> mais sur Canal+ le **20/02/2009, une semaine après** la phrase du 13/02/2009 (❌ V4A-S08). Le « protocole de
+> crise » de la fiche (thèse, enseignement 7, framework J, playbook 15) ne s'appuie donc plus sur ce cas :
+> l'aveu rapide devient un **principe à tester**. Autres corrections : le spot Schiffer est celui de la
+> **Xsara (1998), crash test à 20 km/h, désert de Joshua Tree** (pas 40 km/h à Las Vegas) ; un peu plus de
+> 1 000 couvertures en carrière (pas 12 000 à 15 000 dans l'année) ; porte-avions **Clemenceau**, à propulsion
+> classique (pas « atomique ») ; écart Jospin de 194 600 voix confirmé. Aucun point daté par la veille
+> plateformes. Note de fiabilité inchangée (voir « Fiabilité »). Tag `brief-creatif` ajouté.
+
 > **Nature de la source** : un entretien en français entre Jacques Séguéla (cofondateur de RSCG, puis
 > Havas) et David Laroche, sur la chaîne PARADOX Business (138 000 abonnés). La vidéo a été **publiée en
 > janvier 2021 mais tournée probablement fin 2019 ou début 2020**. C'est une déduction : il dit avoir
@@ -11,8 +21,9 @@ https://www.youtube.com/watch?v=buAY7UtjCb4 · 49 min 32 s · 45 903 vues (1 310
 > reconstructions incertaines sont marquées « (sens probable) » et la liste des corrections se trouve
 > dans les notes.
 > **Statut des anecdotes** : Séguéla raconte ses propres campagnes et en est partie prenante. Toutes les
-> anecdotes (Mitterrand, porte-avions, Claudia Schiffer, Calvet, Jospin, Rolex) sont donc des
-> **affirmations invérifiées**, souvent embellies par le récit (voir « Ce qui est discutable »).
+> anecdotes (Mitterrand, porte-avions, Claudia Schiffer, Calvet, Jospin, Rolex) sont des **récits de
+> l'auteur**, souvent embellis. Celles qui ont été vérifiées le 2026-10-25 portent leur verdict (voir
+> « Affirmations chiffrées » et « Ce qui est discutable ») ; quatre sont contredites par les archives.
 > Trace détaillée : `notes-partie-01.md` (00:00-49:32, vidéo entière, non découpée).
 
 ## En une phrase
@@ -20,7 +31,8 @@ La publicité consiste à transformer un produit banal en promesse émotionnelle
 printemps »). On y arrive par la **règle des 3 S, Sens, Sentiment, Spectacle**, avec une idée que personne
 n'a jamais eue ni ne pourra refaire. Le buzz doit venir de **la force de l'idée** et non de la
 provocation, et le spectacle doit **prouver un vrai atout du produit** au lieu de le remplacer.
-Quand on dérape, on éteint l'incendie le jour même par un mea culpa total.
+Quand on dérape, Séguéla prône un mea culpa total et rapide ; son propre cas (Rolex) ne le prouve pas, puisque
+ses excuses sont venues une semaine plus tard (❌ [verif:V4A-S08]) : c'est un principe à tester.
 
 ## Pour qui / quand l'utiliser
 - **Pour qui** :
@@ -68,11 +80,13 @@ Quand on dérape, on éteint l'incendie le jour même par un mea culpa total.
 3. **« La vraie publicité que j'aime, c'est celle qui prouve ce qu'elle dit » (sens probable).
    L'hyperbole n'est acceptable que si elle démontre un atout réel du produit.** [11:44] [12:50]
    - Visa GTI : la voiture porte réellement l'appellation GTI, alors (selon lui) réservée aux voitures
-     de course. Le film « prouve » qu'elle va plus vite qu'un jet au décollage.
+     de course. Le film « prouve » qu'elle va plus vite qu'un jet au décollage (spot de lancement de la
+     Visa GTi en 1985, ✅ [verif:V4A-S01]).
    - Crash test : pour prouver la solidité, la « plus jolie fille du monde » remplace le mannequin bardé
      d'électrodes. « Si la plus jolie fille du monde accepte d'être dans ma voiture […] à 40 à l'heure
      dans une autre bagnole, c'est qu'elle est costaud. » La personne met en jeu son bien le plus
-     précieux, son visage.
+     précieux, son visage. Le spot réel (Citroën **Xsara**, 1998) montre un crash test à **20 km/h**, pas 40
+     (❌ [verif:V4A-S10]).
    - Le « mensonge poétique » : « La publicité est toujours un peu mensongère, mais mensongère comme la
      poésie : la poésie c'est un mensonge qui dit la vérité. » Le public sait que la voiture ne va pas
      plus vite qu'un jet, l'accepte et « fantasme avec toi ». Limite posée : « il faut pas tromper ».
@@ -106,7 +120,8 @@ Quand on dérape, on éteint l'incendie le jour même par un mea culpa total.
      - un puma : ridicule, et un félin évoque Jaguar, un concurrent ;
      - un jet sur un tarmac : ridicule aussi ;
      - un désert de sel américain (Bonneville, déduction) : le cliché de toutes les pubs automobiles.
-     - Il retient la seule piste inédite et impossible à copier : le porte-avions.
+     - Il retient la seule piste inédite et impossible à copier : le porte-avions (le **Clemenceau**, la
+       voiture catapultée et conduite par Rémy Julienne, ✅ [verif:V4A-S01]).
    - « Le problème n'a pas été de trouver l'idée, le problème a été de trouver un porte-avions. » Dès le
      lendemain, il envoie un producteur à Los Angeles et quelqu'un à Moscou, où les Russes bradaient
      leur vieux matériel militaire.
@@ -123,15 +138,23 @@ Quand on dérape, on éteint l'incendie le jour même par un mea culpa total.
    - Principe de fond : « les consommateurs ont toujours raison. Moi, mes clients, mes patrons, ce
      n'était pas du tout les annonceurs, ça a toujours été le public » [08:53].
 
-7. **Gestion de crise : éteindre le dérapage le jour même, sur le même terrain, par un mea culpa total.
-   Réagir « dans l'heure » quand une marque est attaquée.** [02:55] [29:43] [30:17] [35:18]
-   - Le cas de la Rolex (affirmation) :
+7. **Gestion de crise : un mea culpa total, sur le même terrain, sans justification ; réagir vite (« dans
+   l'heure » quand une marque est attaquée). Le cas qu'il donne en exemple ne prouve pas la vitesse.**
+   [02:55] [29:43] [30:17] [35:18]
+   - Le cas de la Rolex, **tel que Séguéla le raconte** :
      - le dérapage passe à 8 h et ni lui ni le journaliste ne le perçoivent en direct ;
      - à 9 h, il est alerté et visionne l'extrait : « il faut arrêter ça tout de suite » ;
      - il appelle Canal+ (« prenez-moi ce soir ») et y va le soir même ;
      - avant même d'écouter les questions : « c'est la plus grande connerie de ma vie », et il se donne
        une gifle à l'antenne ;
      - les journalistes venus pour le démonter disent alors « vas-y, on passe à autre chose ».
+   - **Chronologie réelle** (revalidation 2026-10-25) : la phrase est diffusée le **13/02/2009** sur France 2
+     (*Les 4 vérités*, dans *Télématin*) (✅ [verif:V4A-S07]) ; le mea culpa a lieu sur Canal+ (*Le Grand
+     Journal*) le **vendredi 20/02/2009, une semaine plus tard** : « la plus belle connerie de ma carrière »
+     (❌ [verif:V4A-S08]). La gifle n'apparaît dans aucune source lue (❓). « Le soir même » est sa mémoire,
+     pas la chronologie. **On ne peut donc pas citer ce cas comme preuve qu'un aveu immédiat clôt le cycle
+     médiatique.** Ce qu'il illustre : un aveu total, sans justification, a bien été fait, et Séguéla dit que
+     l'affaire s'est éteinte ensuite.
    - Il proportionne la crise : « il n'y a pas mort d'homme ».
    - Ce qui fait pardonner : un **capital de cohérence**. Il a passé sa vie à dire « l'argent n'a pas
      d'idées, seules les idées font de l'argent ». Un faux pas contraire à un discours tenu pendant des
@@ -141,11 +164,14 @@ Quand on dérape, on éteint l'incendie le jour même par un mea culpa total.
      « marcher sur les pieds » (sens probable).
    - Version client : la « lettre d'amour » à Calvet après le Boeing. « J'ai fauté, merci de me l'avoir
      fait comprendre, j'aime tellement cette marque. » Il garde le budget [17:07].
+   - Statut pour nos agents : l'aveu **rapide** reste un principe plausible **à tester** (`gestion-crise`),
+     jamais présenté avec « Séguéla l'a fait le soir même ».
 
 8. **Le symbole écrase l'intention : un exemple concret mal choisi inverse le message.** [28:04]
    [32:32] [33:06]
-   - Phrase reconstruite : si à 50 ans on n'a pas de Rolex, on a raté sa vie. L'intention, selon lui :
-     « il faut toujours poursuivre ses rêves […] même inatteignables ».
+   - Phrase reconstruite : si à 50 ans on n'a pas de Rolex, on a raté sa vie. Formulation diffusée le
+     13/02/2009 : « Si à 50 ans on n'a pas une Rolex, on a quand même raté sa vie » (✅ [verif:V4A-S07]).
+     L'intention, selon lui : « il faut toujours poursuivre ses rêves […] même inatteignables ».
    - Mais la Rolex est « symbolique du pognon », donc « les gens ont compris le contraire ». Il aurait
      dû dire « aller à Katmandou », ou « n'importe quel rêve qui est difficile à obtenir mais qui
      mérite ».
@@ -182,11 +208,14 @@ Quand on dérape, on éteint l'incendie le jour même par un mea culpa total.
       c'étaient les fesses de son amant ». Rien n'était prévu, et Séguéla abandonne la fin qu'il avait
       écrite.
     - **Le choix de l'égérie selon sa portée réelle** : ce ne sont ni les acteurs ni les chanteurs qui
-      font le plus de couvertures, mais les top-modèles, connues dans le monde entier.
+      font le plus de couvertures, mais les top-modèles, connues dans le monde entier. (Le principe tient ;
+      le chiffre de Séguéla sur Schiffer est faux : un peu plus de 1 000 couvertures sur toute sa carrière,
+      ❌ [verif:V4A-S09].)
     - **Sa motivation** : en fin de carrière de mannequin, elle voulait faire du cinéma. « Ce que j'aime
       dans ton film, c'est pas de la pub, c'est du cinéma. »
-    - **La presse invitée au tournage** (une centaine de journalistes allemands, la presse mondiale) :
-      la production devient elle-même un événement (déduction).
+    - **La presse invitée au tournage** (une centaine de journalistes allemands selon lui, nombre ❓ ; l'idée
+      venait d'Andreas Thomsen, d'Euro RSCG Düsseldorf, d'où l'intérêt de la presse allemande,
+      [verif:V4A-S10]) : la production devient elle-même un événement (déduction).
 
 ## Frameworks (étapes complètes)
 
@@ -218,7 +247,7 @@ Quand on dérape, on éteint l'incendie le jour même par un mea culpa total.
 
 ### E. « La pub qui prouve ce qu'elle dit » [11:44] [12:50] [16:33]
 1. Identifier l'**atout produit réel**. Pour la Visa, la mention GTI, donc la vitesse. Pour la nouvelle
-   Citroën, une solidité comparable à Mercedes ou BMW, selon lui.
+   Citroën (la Xsara, 1998), une solidité comparable à Mercedes ou BMW, selon lui.
 2. Imaginer une **démonstration hyperbolique de cet atout précis** : battre un jet au décollage ; mettre
    une top-modèle dans un crash test.
 3. **Incarner la preuve** par quelqu'un qui a beaucoup à perdre : le transfert de confiance (« c'est
@@ -246,8 +275,10 @@ Quand on dérape, on éteint l'incendie le jour même par un mea culpa total.
 1. Choisir selon la **diffusion internationale effective** (couvertures reprises partout), pas selon la
    notoriété locale.
 2. Comprendre ce que la personne **y gagne pour son propre récit** (Schiffer voulait passer au cinéma).
-3. Accepter ses conditions de tournage (Las Vegas, où vivait son compagnon, l'illusionniste David
-   Copperfield, déduction).
+3. Accepter ses conditions de tournage. Séguéla situe le tournage à Las Vegas, où vivait son compagnon
+   l'illusionniste David Copperfield (déduction de la version précédente) ; le spot a en réalité été tourné
+   dans le désert californien de **Joshua Tree** (❌ [verif:V4A-S10]), ce qui retire l'appui de cet exemple.
+   L'étape reste une bonne pratique générale.
 4. Faire tester la séquence par une cascadeuse avant. Pour nous : un vrai protocole de sécurité, et pas
    de tournage si le test est négatif (voir les limites).
 5. Inviter la presse au tournage.
@@ -259,15 +290,22 @@ Quand on dérape, on éteint l'incendie le jour même par un mea culpa total.
 3. Réaffirmer l'attachement : « j'aime tellement cette marque ».
 4. Le faire **par écrit**, vite (« une lettre d'amour »).
 
-### J. Protocole de crise après un dérapage public (cas Rolex) [29:10]-[30:17] [35:18]
+### J. Protocole de crise après un dérapage public (d'après le récit Rolex) [29:10]-[30:17] [35:18]
+**Statut (revalidation 2026-10-25)** : ce protocole est celui que Séguéla **décrit**, pas une méthode prouvée
+par son cas. Ses excuses sont venues **une semaine** après la phrase (13/02 → 20/02/2009, ❌
+[verif:V4A-S08]). Les étapes 2 et 3 (« le jour même », « le soir même ») sont donc des **hypothèses à
+tester**, sans ce cas comme preuve.
 1. **Visionner l'extrait** et reconnaître la gravité **perçue**, même si l'on ne l'a pas sentie en
    direct.
-2. **Agir le jour même** : « il faut arrêter ça tout de suite ».
-3. **Retourner sur le même terrain**, un plateau à forte audience, le soir même.
+2. **Agir vite** : « il faut arrêter ça tout de suite ». Dans son récit, il agit le jour même ; dans les
+   faits, une semaine plus tard. Délai optimal non établi : à tester.
+3. **Retourner sur un terrain à forte audience** (pour lui, *Le Grand Journal* de Canal+, alors que la
+   phrase était passée sur France 2 : ce n'était donc ni le soir même ni le même plateau).
 4. **Ouvrir par un mea culpa total, sans justification**, avant même les questions : « c'est la plus
-   grande connerie de ma vie ».
-5. **Un geste fort et autodérisoire** (la gifle à l'antenne) : la pub spectacle appliquée à la crise.
-   L'aveu complet et spectaculaire prive l'adversaire de son angle d'attaque (déduction).
+   grande connerie de ma vie » (formule relevée le 21/02/2009 : « la plus belle connerie de ma carrière »).
+5. **Un geste fort et autodérisoire** (la gifle à l'antenne, que Séguéla raconte mais qu'aucune source lue
+   ne montre, ❓) : la pub spectacle appliquée à la crise. L'aveu complet prive l'adversaire de son angle
+   d'attaque (déduction).
 6. **Relativiser** : « il n'y a pas mort d'homme ». Un dérapage verbal n'est pas une faute morale.
 7. **S'appuyer sur le capital de cohérence** d'un discours tenu toute une vie (« l'argent n'a pas
    d'idées… »).
@@ -287,7 +325,7 @@ Quand on dérape, on éteint l'incendie le jour même par un mea culpa total.
    candidat, « que le cœur parle ».
 3. **Mettre en scène l'intime** quand c'est possible : l'émission de deux heures avec Drucker, où
    Jospin aurait présenté sa femme aux Français. Son refus aurait coûté « à peu près 400 000 voix »
-   (affirmation).
+   (affirmation sans étude retrouvée, ❓ [verif:V4A-S06]).
 4. Viser « une empathie qui se lève, tout un peuple qui se lève » (Mitterrand, Macron, selon lui).
 
 ### M. Créer sous contrainte réglementaire (cas de la pub pharmaceutique) [19:50]-[21:28]
@@ -328,8 +366,9 @@ Quand on dérape, on éteint l'incendie le jour même par un mea culpa total.
     (déduction) [13:53].
 14. **Mettre en place le « garde du corps »** : une veille des mentions de la marque et un protocole de
     réponse en moins d'une heure [02:55].
-15. **En cas de dérapage**, appliquer le framework J : le jour même, sur le même terrain, mea culpa
-    total, puis relativiser. Pour un client mécontent, appliquer le framework I [17:07] [29:43].
+15. **En cas de dérapage**, appliquer le framework J : aveu rapide (délai à tester, le cas Rolex ne le
+    prouve pas, [verif:V4A-S08]), sur un terrain à forte audience, mea culpa total, puis relativiser. Pour
+    un client mécontent, appliquer le framework I [17:07] [29:43].
 16. **Construire dans la durée un discours de fond cohérent** (une maxime répétée). Il servira de
     crédit en cas de faux pas [35:18].
 17. **Ne cliver que sur des convictions sincères** (framework K), et refuser le buzz gratuit [34:45].
@@ -390,7 +429,8 @@ Quand on dérape, on éteint l'incendie le jour même par un mea culpa total.
 - **Rattrapage client** [17:07] : « Voilà, j'ai fauté, merci de me l'avoir fait comprendre, j'aime
   tellement cette marque. »
 - **Mea culpa d'ouverture de crise** [29:43] : « C'est la plus grande connerie de ma vie. » Le dire
-  avant toute question, sans justification.
+  avant toute question, sans justification. (Formule réellement prononcée sur Canal+ le 20/02/2009 : « la
+  plus belle connerie de ma carrière », [verif:V4A-S08].)
 - **Défense d'une idée face à l'annonceur** [41:57] : « Si vous n'acceptez pas cette idée, vous allez
   passer sur mon corps. »
 - **Passation à l'équipe** [11:10] : « Voilà mon truc, faites mieux ; et si vous faites pas mieux, on
@@ -403,14 +443,22 @@ Quand on dérape, on éteint l'incendie le jour même par un mea culpa total.
 - « Ce n'est pas [définition attendue], c'est [redéfinition]. »
 - Le chiasme : « [A] n'a pas de [B], seuls les [B] font de [l'A]. »
 
+**À ne pas reprendre en accroche** (revalidation 2026-10-25) : « Séguéla a éteint l'affaire Rolex le soir
+même » (❌ [verif:V4A-S08] ; écrire « Séguéla s'est excusé une semaine plus tard, sur Canal+ ») ; « Schiffer,
+12 000 couvertures par an » et « crash test à 40 km/h » (❌ [verif:V4A-S09] [verif:V4A-S10] ; écrire « plus de
+1 000 couvertures en carrière », « crash test Xsara à 20 km/h, 1998 »).
+
 ## Affirmations chiffrées (à vérifier)
 Elles viennent toutes de Séguéla, partie prenante des récits. La transcription est dégradée, d'où des
-chiffres incertains. Sources internes uniquement.
+chiffres incertains. Sources internes uniquement. **Verdicts portés le 2026-10-25** d'après
+`connaissances/verifications/registre.md`, section P-S (✅ confirmé, 🟡 plausible, ❌ contredit, ❓
+invérifiable) ; les lignes sans verdict n'ont pas été traitées par la passe 4a (faible priorité).
 
 **Parcours**
 - Plus de 1 500 campagnes publicitaires et 20 campagnes présidentielles [01:17] (description YouTube).
+  Non traité.
 - 60 ans de métier et 60 ans avec Citroën : « le seul publicitaire du monde » dans ce cas [02:22]
-  [12:17]. Invérifiable.
+  [12:17]. Invérifiable, non traité.
 - Pendant 50 ans, il a pris lui-même tous les briefs [11:10].
 - Une agence Havas à Paris avec « mille personnes » dédiées à l'influence et à la protection des marques
   [02:55]. Transcription approximative.
@@ -421,35 +469,55 @@ chiffres incertains. Sources internes uniquement.
 
 **Citroën**
 - Citroën « à 7 % » (de part de marché, sens probable), menacée d'absorption par Peugeot [09:34]. À
-  dater.
+  dater (non traité).
 - L'appellation GTI était alors réservée aux voitures de course [10:07]. Contestable : la Golf GTI de
-  série existe depuis 1976.
+  série existe depuis 1976 (non traité).
 - Feu vert au téléphone, sans storyboard ni devis, à un mois et demi de la diffusion [05:45].
-- Mitterrand l'aurait reçu dans les dix minutes, puis aurait été réveillé à minuit pour convaincre le
-  commandant [06:17]-[07:56]. Anecdote invérifiée.
-- Le porte-avions « atomique » ne serait désarmé qu'une semaine par an [06:50]. Probablement inexact
-  (voir les limites).
-- Claudia Schiffer aurait fait « 12 000 à 15 000 couvertures dans l'année » [13:22]. Très improbable :
-  exagéré ou mal transcrit.
-- Son visage était assuré par « l'assurance la plus chère du monde » [13:53].
-- Une centaine de journalistes allemands au crash test à Las Vegas [14:24] [14:56].
-- Choc à 40 km/h [12:50] [14:56].
+- ✅ [verif:V4A-S01] Film Citroën tourné sur un porte-avions, la voiture catapultée [05:45]-[07:56] : spot de
+  lancement de la **Visa GTi (1985)**, voiture catapultée depuis le **Clemenceau**, conduite par le cascadeur
+  Rémy Julienne, en parallèle d'un Super-Étendard.
+- 🟡 [verif:V4A-S02] Mitterrand l'aurait reçu dans les dix minutes et aurait donné personnellement son accord
+  [06:17]-[07:56]. Seule source : l'autobiographie de Séguéla, reprise par Citroën (réponse prêtée à
+  Mitterrand : « mieux vaut en faire de la pub que la guerre »). Le réveil à minuit pour convaincre le
+  commandant n'est attesté nulle part ailleurs.
+- ❌ [verif:V4A-S03] Le porte-avions était « atomique » [06:50] : le Clemenceau et le Foch étaient à
+  propulsion classique ; le premier navire de surface nucléaire français est le Charles-de-Gaulle, armé le
+  18/05/2001. Séguéla avait aussi demandé un sous-marin nucléaire pour le tournage, d'où une confusion
+  probable.
+- ❓ [verif:V4A-S04] Le porte-avions n'était désarmé qu'une semaine par an [06:50]. Aucune source.
+- ❌ [verif:V4A-S09] Claudia Schiffer aurait fait « 12 000 à 15 000 couvertures dans l'année » [13:22]. Un
+  peu plus de **1 000 couvertures sur toute sa carrière** (record Guinness du mannequin le plus souvent en
+  couverture selon les biographies) : chiffre multiplié par plus de dix et rapporté à une seule année.
+- 🟡 [verif:V4A-S11] Son visage était assuré par « l'assurance la plus chère du monde » [13:53]. Police
+  Lloyd's de 30 MF souscrite pour le tournage ; « la plus chère du monde » n'est pas vérifiable.
+- ❌ [verif:V4A-S10] Une centaine de journalistes allemands au crash test à Las Vegas, choc à 40 km/h
+  [12:50] [14:24] [14:56]. Spot **Citroën Xsara (1998)** : crash test à **20 km/h**, sans doublure ni
+  trucage, tourné dans le désert californien de **Joshua Tree** ; idée d'Andreas Thomsen (Euro RSCG
+  Düsseldorf), d'où l'intérêt de la presse allemande. L'authenticité des images a été mise en doute à
+  l'époque (*Horizont*). Vitesse et lieu contredits ; nombre de journalistes ❓.
 - Le film Schiffer a eu « un succès fou » [16:02]. Aucune mesure.
 
 **Politique**
-- L'émission avec Drucker aurait rapporté « à peu près 400 000 voix » selon des politologues [23:06].
-  Non sourcé.
-- Jospin aurait perdu de « dix mille » voix [23:06], de « 170 000 » [24:15] ou de « 200 000 » [24:48]
-  selon les passages. Écart réel au premier tour de 2002 : environ 195 000 voix avec Le Pen.
-- La phrase Rolex et le mea culpa sur Canal+ le soir même, avec une gifle à l'antenne [28:04]-[29:43].
-  Faits publics à vérifier : la phrase date de février 2009, sur France 2. Date et déroulé du mea culpa
-  à confirmer.
+- ❓ [verif:V4A-S06] L'émission avec Drucker aurait rapporté « à peu près 400 000 voix » selon des
+  politologues [23:06]. Politologues non nommés, aucune étude trouvée.
+- ✅ [verif:V4A-S05] Jospin aurait perdu de « dix mille » voix [23:06], de « 170 000 » [24:15] ou de
+  « 200 000 » [24:48] selon les passages. Résultats proclamés le 24/04/2002 : Le Pen 4 804 713 voix
+  (16,86 %), Jospin 4 610 113 (16,18 %), soit **194 600 voix** d'écart. La correction de cette fiche
+  (environ 195 000) est juste ; « dix mille » et « 170 000 » sont faux.
+- ✅ [verif:V4A-S07] La phrase Rolex date du **13/02/2009**, sur France 2 (*Les 4 vérités*, dans
+  *Télématin*) [28:04].
+- ❌ [verif:V4A-S08] Le mea culpa sur Canal+ « le soir même », avec une gifle à l'antenne [28:04]-[29:43] :
+  le mea culpa a lieu sur Canal+ (*Le Grand Journal*, Michel Denisot) le **vendredi 20/02/2009**, **une
+  semaine après** la phrase (« la plus belle connerie de ma carrière »). Séguéla répète depuis qu'il s'est
+  excusé « le soir même » : c'est sa mémoire, pas la chronologie. La gifle n'apparaît dans aucune source lue
+  (❓).
 
-**Société, économie, technologie**
+**Société, économie, technologie** (non traité par la passe 4a, faible priorité)
 - 80 % des Français pensent que leurs enfants vivront moins bien qu'eux [37:29]. Sondage sans source.
 - La France a doublé sa richesse en 50 ans et la doublera en 30 ans ; elle serait passée de « dernière »
   à « première de la classe » en Europe [38:02]. Affirmation politique.
-- *Docteur ?* de Tristan Séguéla : 800 000 entrées [38:36]. Vérifiable.
+- ✅ [verif:V4A-S12] *Docteur ?* de Tristan Séguéla : 800 000 entrées [38:36]. **796 701** entrées en France
+  (sortie le 11/12/2019, base Lumière de l'Observatoire européen de l'audiovisuel).
 - Les quatre GAFA pèseraient 1,5 fois le PIB de la France, celui de l'Europe dans dix ans, celui du
   monde dans vingt ans [42:47]. Confusion probable entre capitalisation boursière et PIB.
 - Mortalité routière passée de 10 000-15 000 à environ 3 000 morts par an [44:10]. Ordre de grandeur
@@ -468,21 +536,24 @@ chiffres incertains. Sources internes uniquement.
 
 ## Ce qui est discutable / limites
 
-**Incohérences factuelles signalées**
-- **L'écart de voix Jospin** : la défaite est donnée à « dix mille », « 170 000 » ou « 200 000 » voix
-  selon les passages (environ 195 000 en réalité). Il dit aussi avoir « trahi 50 % des Français » qui
-  se seraient battus pour Jospin, alors que la défaite a eu lieu au premier tour (16 % des voix), sans
-  second tour. Le récit est émotionnel, pas factuel.
-- **Le porte-avions « atomique »** : dans les années 80, les porte-avions français (Clemenceau, Foch)
-  étaient à propulsion classique. Le Charles-de-Gaulle, nucléaire, n'entre en service qu'en 2001.
-  Erreur de mémoire ou de transcription, à vérifier, comme l'implication personnelle de Mitterrand.
-- **Les couvertures de Claudia Schiffer** : 12 000 à 15 000 couvertures dans l'année, soit plus de 30 par
-  jour. Ce n'est pas crédible tel quel.
+**Incohérences factuelles signalées** (tranchées le 2026-10-25 quand un verdict est indiqué)
+- **L'écart de voix Jospin** (✅ [verif:V4A-S05]) : la défaite est donnée à « dix mille », « 170 000 » ou
+  « 200 000 » voix selon les passages ; l'écart réel est de **194 600** voix. Il dit aussi avoir « trahi 50 %
+  des Français » qui se seraient battus pour Jospin, alors que la défaite a eu lieu au premier tour (16 % des
+  voix), sans second tour. Le récit est émotionnel, pas factuel.
+- **Le porte-avions « atomique »** (❌ [verif:V4A-S03]) : dans les années 80, les porte-avions français
+  (Clemenceau, Foch) étaient à propulsion classique. Le Charles-de-Gaulle, nucléaire, n'est armé qu'en 2001.
+  Confusion probable avec le sous-marin nucléaire que Séguéla avait aussi demandé. L'implication personnelle
+  de Mitterrand ne repose que sur l'autobiographie de Séguéla (🟡 [verif:V4A-S02]).
+- **Les couvertures de Claudia Schiffer** (❌ [verif:V4A-S09]) : 12 000 à 15 000 couvertures dans l'année,
+  soit plus de 30 par jour ; en réalité un peu plus de 1 000 sur toute sa carrière.
+- **Le crash test** (❌ [verif:V4A-S10]) : Xsara, 1998, **20 km/h**, Joshua Tree, et non 40 km/h à Las Vegas.
 - **Le chiffre du Brexit** : « 500 livres par Anglais » ne correspond pas au slogan connu (350 millions
   de livres par semaine).
-- **La chronologie de la Rolex** : le récit (dérapage le matin, mea culpa sur Canal+ le soir même) est à
-  confronter aux archives. La chronologie publique de 2009 suggère des excuses étalées sur plusieurs
-  jours.
+- **La chronologie de la Rolex** (❌ [verif:V4A-S08]) : le récit (dérapage le matin, mea culpa sur Canal+ le
+  soir même) est contredit par les archives : phrase le 13/02/2009 sur France 2, mea culpa le 20/02/2009 sur
+  Canal+, **une semaine après**. Conséquence : le protocole de crise (framework J) perd sa preuve ; l'aveu
+  rapide reste un principe à tester (`gestion-crise`).
 - **GTI « réservée aux voitures de course »** : contestable, la Golf GTI de série date de 1976.
 
 **Limites de la doctrine « la pub prouve ce qu'elle dit »**
@@ -490,9 +561,10 @@ chiffres incertains. Sources internes uniquement.
   transcription) : la voiture bat le jet grâce à une **catapulte** proposée par le pacha. La
   démonstration de vitesse est donc en partie une mise en scène. Pour nous, une démonstration aidée ne
   peut pas être présentée comme la performance propre du produit.
-- **Le crash test prouve peu techniquement** : 40 km/h avec airbag ne démontre pas une solidité
-  comparable à Mercedes ou BMW. C'est un **transfert de confiance** (persuasion), pas une preuve
-  technique. Il faut le présenter comme tel.
+- **Le crash test prouve peu techniquement** : 20 km/h (et non 40 comme le dit Séguéla, [verif:V4A-S10])
+  avec airbag ne démontre pas une solidité comparable à Mercedes ou BMW. C'est un **transfert de confiance**
+  (persuasion), pas une preuve technique. Il faut le présenter comme tel. L'authenticité des images a en outre
+  été mise en doute à l'époque.
 - **La mise en danger** : la cascadeuse ressort « toute blanche » et déconseille le tournage. Séguéla
   propose d'arrêter, mais c'est Schiffer qui insiste. Le résultat est célébré, mais le processus n'est
   pas un modèle : chez nous, un test de sécurité négatif arrête le tournage.
@@ -507,10 +579,11 @@ chiffres incertains. Sources internes uniquement.
   pas besoin d'être polarisante et vise « large, strong, positive ». Lecture : Séguéla parle d'une
   **personne** (personal branding) clivante par nature, Hormozi d'une **marque** pilotée en pourcentage
   d'audience gagnée ou perdue. Les deux convergent sur un point : un clivage fabriqué ne marche pas.
-- **Gestion d'un dérapage** : Séguéla l'**efface** par un mea culpa spectaculaire et immédiat qui clôt
-  le cycle médiatique. Hormozi (`[fiche:Jmkq5RLjm0U]`, 00:24) conseille de ne pas chercher à effacer,
-  mais de **noyer** la mauvaise association sous du positif. Les deux approches sont compatibles (aveu
-  immédiat, puis flot de contenu positif) mais ne traitent pas la même phase : l'incident verbal ponctuel
+- **Gestion d'un dérapage** : Séguéla dit l'avoir **effacé** par un mea culpa spectaculaire et immédiat qui
+  clôt le cycle médiatique ; les archives montrent un mea culpa une semaine plus tard ([verif:V4A-S08]), donc
+  l'effet « immédiat » n'est pas démontré. Hormozi (`[fiche:Jmkq5RLjm0U]`, 00:24) conseille de ne pas chercher
+  à effacer, mais de **noyer** la mauvaise association sous du positif. Les deux approches sont compatibles
+  (aveu rapide, puis flot de contenu positif) mais ne traitent pas la même phase : l'incident verbal ponctuel
   d'un côté, l'association durable de l'autre.
 
 **Contradictions internes**
@@ -530,10 +603,11 @@ chiffres incertains. Sources internes uniquement.
 
 **Limites méthodologiques**
 - **Biais du survivant et de récit** : des anecdotes de réussite racontées par leur auteur, sans aucune
-  mesure (« un succès fou »). Le seul échec raconté en détail (Boeing) sert lui aussi le récit.
+  mesure (« un succès fou »). Le seul échec raconté en détail (Boeing) sert lui aussi le récit. Sur les
+  12 récits vérifiés, 4 sont contredits par les archives (passe 4a).
 - **Transposabilité** : TV de masse des années 80-90, budgets énormes, accès direct au Président. Ce
   n'est pas reproductible pour une PME. On retient les **principes** (3 S, preuve, test du Boeing,
-  protocole de crise), pas les moyens.
+  protocole de crise comme hypothèse à tester), pas les moyens.
 - **Les opinions politiques** (Hollande présenté comme le pire président, sens probable [24:15] ;
   syndicats ; Macron ; GAFA ; Trump ; Bezos) sont des opinions personnelles. Elles n'ont pas de valeur
   de preuve marketing et ne sont pas à reprendre dans des contenus de marque.
@@ -546,12 +620,13 @@ chiffres incertains. Sources internes uniquement.
 ## Fiabilité de la source
 - **Expertise démontrée** : élevée sur la **création publicitaire** et la communication politique.
   - Cofondateur de RSCG, figure de Havas, une relation très longue avec Citroën, des campagnes
-    présidentielles (Mitterrand). Ces faits sont de notoriété publique, mais les détails donnés ici ne
-    sont pas vérifiés.
+    présidentielles (Mitterrand). Ces faits sont de notoriété publique ; parmi les détails donnés ici, la
+    Visa GTi sur le Clemenceau, la phrase Rolex et l'écart Jospin sont confirmés, d'autres sont faux.
   - Il reconnaît lui-même des échecs (Boeing, Jospin, Rolex) et en tire des leçons.
 - **Biais** :
   - Il est **partie prenante de toutes les anecdotes**. C'est un récit de légende, embelli, avec
-    plusieurs incohérences relevées.
+    plusieurs incohérences relevées (4 ❌ sur 12 lignes vérifiées : porte-avions « atomique », Rolex « le
+    soir même », couvertures de Schiffer, crash test).
   - Il fait la promotion de ses livres (*Le diable s'habille en GAFA*, un livre sur l'écologie en
     cours) et de son image.
   - L'**intervieweur** (David Laroche, PARADOX Business) vend des formations au développement personnel
@@ -559,9 +634,13 @@ chiffres incertains. Sources internes uniquement.
     vidéo est promotionnelle. L'entretien est complaisant, sans contradiction sur les faits.
   - Les opinions politiques et économiques sont nombreuses et militantes.
   - La vidéo a été publiée plus d'un an après le tournage.
-- **Note : 3/5.**
+- **Note : 3/5** (maintenue après la revalidation du 2026-10-25). La note retirait déjà deux points pour les
+  anecdotes invérifiées et parfois inexactes ; le registre confirme ce défaut. La correction Rolex retire la
+  **preuve** du protocole de crise mais pas l'idée (aveu total, sans justification), qui reste une hypothèse
+  utile : elle ne justifie pas, à elle seule, de baisser la note.
   - De vraies idées de créatif, rares et mémorables : les 3 S, la question de la neige, la preuve
-    contre le spectacle, le protocole de crise vécu de l'intérieur.
+    contre le spectacle, et un protocole de crise décrit de l'intérieur (à tester, sa chronologie étant
+    fausse).
   - Moins deux points : aucune donnée mesurée, des anecdotes invérifiées et parfois inexactes, une
     transcription très dégradée, un contexte (TV des années 80-90) peu transposable, et une part
     importante d'opinions hors sujet.
@@ -570,4 +649,4 @@ chiffres incertains. Sources internes uniquement.
 - **Principaux** : copywriting · positionnement · psychologie-persuasion · bouche-a-oreille · ethique ·
   personal-branding · publicite
 - **Secondaires** : storytelling · relations-presse · communaute · mindset · lancement-produit ·
-  conformite-juridique
+  conformite-juridique · brief-creatif

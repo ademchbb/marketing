@@ -4,8 +4,9 @@ Pour `transcripteur-audio` : lister les épisodes d'un podcast (flux RSS officie
 choisit dans **une seule source** `sources/podcast/<slug>/`, au format de `outils/youtube/transcrire.py`.
 Scripts autonomes (aucun import entre eux), lancés avec `python3 -I` depuis n'importe quel dossier.
 
-Dernier test : **2026-10-22** (flux *The Game with Alex Hormozi* : 60 s d'un épisode ; 3 épisodes × 20 s regroupés,
-coupés par SIGTERM puis repris ; découpe de la source obtenue).
+Dernier test : **2026-10-25** (contrôle du vocabulaire : 150 s des parties 3 et 4 de *$100M Offers*, 3 passages
+réparés ; reprise après SIGTERM sans vocabulaire, 2 épisodes × 45 s). Test précédent 2026-10-22 : 60 s d'un épisode ;
+3 épisodes × 20 s regroupés, coupés par SIGTERM puis repris ; découpe de la source obtenue.
 
 ## Installation (une fois par conteneur)
 
@@ -41,7 +42,8 @@ python3 -I outils/podcast/lister.py <url-ou-fichier-rss> [--motif REGEX] [--excl
 python3 -I outils/podcast/transcrire.py <url-ou-fichier-rss> --motif REGEX --slug SLUG \
         [--exclure REGEX] [--ordre titre|date|flux] [--titre TITRE] \
         [--sortie DOSSIER] [--travail DOSSIER] [--max-secondes N] \
-        [--modele small.en] [--beam 5] [--langue en] [--vocabulaire 'Nom, Terme'] [--threads N] [--oui] [--simuler] [--sans-reprise]
+        [--modele small.en] [--beam 5] [--langue en] [--vocabulaire 'Nom, Terme'] [--seuil-fuite 4] [--trou-secondes 6] \
+        [--threads N] [--oui] [--simuler] [--sans-reprise]
 # ou par épisodes précis, dans l'ordre donné :
 python3 -I outils/podcast/transcrire.py <flux> --guid GUID1 --guid GUID2 --slug SLUG
 ```
@@ -61,13 +63,49 @@ python3 -I outils/podcast/transcrire.py <flux> --guid GUID1 --guid GUID2 --slug 
   (`hotwords` de faster-whisper, appliqué à chaque fenêtre). Défaut : l'auteur du podcast lu dans le flux ;
   `--vocabulaire ''` pour aucun. Test : sans vocabulaire « Alex Hermosi », « 100 million dollar money models » ;
   avec, « Alex Hormozi », « $100M Money Models », « $250,000 ». Effet de bord observé : « by a mile » est devenu
-  « Buy a Mile » : garder la liste courte (noms propres, titres).
+  « Buy a Mile » : garder la liste courte (noms propres, titres). Effet de bord grave, désormais corrigé
+  automatiquement : voir « Contrôle du vocabulaire » ci-dessous.
+- `--seuil-fuite N` (défaut 4, `0` : désactivé) et `--trou-secondes S` (défaut 6, `0` : désactivé) : réglages du
+  contrôle ci-dessous. Les valeurs par défaut conviennent ; ne les changer que pour un diagnostic.
 - `--oui` : pas de question de confirmation au-delà d'une heure d'audio (la question n'est posée que si le
   terminal est interactif ; un agent n'est donc pas bloqué).
 - **Reprise après coupure** : chaque épisode terminé est mis de côté (texte seulement) dans
   `<travail ou /tmp>/podcast-reprise-<slug>/`. Relancer **la même commande** (même `--travail`) reprend au
   premier épisode manquant. Le dossier est supprimé quand la source est écrite. `--sans-reprise` repart de zéro.
   Indispensable pour un livre entier : une commande en arrière-plan est coupée au bout de 2 h.
+
+### Contrôle du vocabulaire et des passages sautés (depuis le 2026-10-25)
+
+**Le problème.** faster-whisper n'a pas de vrai « biais de vocabulaire » : `hotwords` place la liste dans le
+contexte « texte précédent » de **chaque** fenêtre de 30 s (même mécanisme qu'`initial_prompt`, répété ; et
+`condition_on_previous_text=False` n'y change rien). Il arrive que le modèle **recopie ce contexte** au lieu
+d'écouter, puis clôt la fenêtre : la liste apparaît dans le texte (« … problem solving $100M Offers, Grand Slam
+Offer Per 100 Calls … ») **et le reste de la fenêtre, jusqu'à 30 s de parole, disparaît**. Constaté dans
+`sources/podcast/hormozi-100m-offers` (transcrit le 2026-10-22). Reproduit sur 2 × 150 s : 2 trous de 30 s avec
+`hotwords` (en liste comme en phrase), 0 sans. Sans vocabulaire, l'orthographe se dégrade (« $100 million offers »,
+« grand slam offer ») mais rien ne se perd.
+
+**Ce que fait le script** (toujours actif, avec ou sans vocabulaire), après la transcription de chaque épisode :
+1. **Fuite** : un segment qui enchaîne au moins **deux termes complets** du vocabulaire (dans n'importe quel ordre,
+   avec éventuellement un bout de terme avant ou après) et totalise au moins `--seuil-fuite` mots (défaut 4).
+   Un terme isolé (« a Grand Slam Offer ») n'est jamais une fuite.
+2. **Trou** : de la parole détectée par le VAD (mêmes réglages que `vad_filter`) qui n'est couverte par aucun
+   segment pendant au moins `--trou-secondes` secondes (défaut 6 ; les pauses naturelles font moins de 3 s).
+3. Chaque passage suspect, élargi d'un segment de chaque côté, est **retranscrit sans vocabulaire** et remplace
+   l'original s'il donne au moins 80 % des mots (et, pour un trou, davantage de mots). Sinon : pour une fuite, le
+   texte parasite est seulement retiré ; pour un trou, rien ne change (musique, silence).
+4. Tout est consigné : une ligne `contrôle […] …` dans le journal ; `episodes[].controles` dans `metadata.json`
+   (`debut_episode_s`, `fin_episode_s` — **relatifs à l'épisode** —, `raisons`, `action`, `mots_avant`,
+   `mots_apres`) ; un commentaire `<!-- contrôle, passage de N s : … -> … (avant -> après mots) -->` dans
+   `transcription.md` juste avant le passage remplacé ; une ligne de bilan dans l'en-tête.
+
+Coût : un passage du VAD par épisode et la retranscription des passages suspects (≈ 30 à 70 s d'audio chacun).
+Test 2026-10-25 (150 s des parties 3 et 4, vocabulaire `Alex Hormozi, $100M Offers, Grand Slam Offer`) :
+3 contrôles, 77 → 362 mots sur les passages réparés ; texte identique à une transcription sans vocabulaire sur ces
+passages, orthographe du vocabulaire conservée ailleurs. Mesure du surcoût sur un livre entier : à faire.
+
+Lecture d'une transcription : un commentaire `<!-- contrôle … -->` n'est pas du contenu ; les passages qu'il
+précède ont l'orthographe « sans vocabulaire » (ex. « $100 million offers » pour *$100M Offers*).
 
 ### Fichiers produits (`<sortie>/<slug>/`)
 
@@ -79,7 +117,8 @@ python3 -I outils/podcast/transcrire.py <flux> --guid GUID1 --guid GUID2 --slug 
 - `metadata.json` : `type`, `slug`, `titre`, `podcast` (titre, auteur, lien, langue), `flux`, `episodes[]`
   (titre, date, duree_s, numero, guid, lien, audio_url, description, chapitres, secondes_transcrites,
   langue_detectee, nb_segments, debut_dans_source_s), `duree_transcrite_s`, `max_secondes`, `modele`, `beam`,
-  `langue_transcription`, `nb_segments`, `date_transcription`, `vitesse_temps_reel`.
+  `langue_transcription`, `nb_segments`, `date_transcription`, `vitesse_temps_reel`, `vocabulaire`, `seuil_fuite`,
+  `trou_secondes` ; par épisode, `controles` (voir ci-dessus).
 
 ### Découpe (plus de 15 000 mots)
 
@@ -146,4 +185,11 @@ livre par commande et **relancer la même commande** si elle est coupée (repris
 - L'audio décodé d'un épisode est gardé en mémoire (~230 Mo par heure d'audio).
 - Seuls les flux RSS publics (champ `<enclosure>`) sont gérés ; pas de flux privé à identifiant, pas de
   Spotify/Apple (pas de téléchargement autorisé).
-- La reprise se fait par épisode : un épisode interrompu en cours de route est retranscrit en entier.
+- La reprise se fait par épisode : un épisode interrompu en cours de route est retranscrit en entier. Les fichiers
+  de reprise d'une version antérieure au 2026-10-25 ne sont pas réutilisés (clé différente) : l'épisode est refait.
+- Contrôle du vocabulaire : une fuite qui ne contient qu'**un seul** terme (« Grand Slam Offer » collé à la fin
+  d'une phrase) n'est pas repérée dans le texte ; seul le trou qu'elle provoque l'est (s'il dure ≥ 6 s). Une fuite
+  à cheval sur deux segments n'est pas repérée non plus. Aux bords d'un passage retranscrit, un mot peut être
+  doublé ou perdu. Les passages réparés ne sont pas recontrôlés.
+- Avec `--max-secondes`, la fin coupée de l'audio peut produire une fuite ou un trou artificiel (réparé comme les
+  autres).

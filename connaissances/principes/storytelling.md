@@ -257,13 +257,13 @@
   « médecin arrogant ») casse en B2B : marché saturé de promesses, promesses invérifiables, plusieurs personas
   [fiche:U1b1o-m5bpI 00:04-00:06]. Raskin ouvre sur un basculement **déjà en cours**, neuf et personnel, puis l'enjeu,
   la mission, les obstacles que les anciens outils « weren't built for », et seulement à la fin le produit
-  [fiche:U1b1o-m5bpI framework A]. Dunford ouvre aussi le récit de vente sur une lecture du marché
-  [fiche:hdjlCLb9Hl8 enseignement 8] ; le playbook Scale VP range la « bascule de l'ancien au nouveau » parmi les trois
+  [fiche:U1b1o-m5bpI framework A]. Dunford ouvre aussi le récit de vente sur un recadrage du marché, avant les
+  limites des alternatives et la valeur propre [fiche:hdjlCLb9Hl8 00:29-00:33, framework E] ; le playbook Scale VP range la « bascule de l'ancien au nouveau » parmi les trois
   types d'histoires de Scott Albro [fiche:scalevp-founder-led-growth-2025 p. 11].
 - **Comment l'appliquer** : 5 pièces (basculement → enjeu → mission → obstacles → solution), compactes ; tester le récit
   en vrai rendez-vous (le prospect hoche-t-il la tête ?) ; interroger les clients sur « ce qui a changé dans leur
   monde », pas sur ce qu'ils aiment du produit ; recadrer le marché avec des chiffres **vérifiés** seulement.
-- **Sources** : [fiche:U1b1o-m5bpI 00:03-00:46] [fiche:hdjlCLb9Hl8 enseignement 8] [fiche:scalevp-founder-led-growth-2025
+- **Sources** : [fiche:U1b1o-m5bpI 00:03-00:46] [fiche:hdjlCLb9Hl8 framework E] [fiche:scalevp-founder-led-growth-2025
   p. 11] ; `frameworks/recit-de-vente-et-pitch-carte-du-marche.md` ; swipe-file V1.
 - **Consensus** : 3 experts, tous B2B logiciel. **Confiance** : **faible** pour toute autre catégorie (transposition au
   B2C ou aux créateurs = déduction non démontrée).

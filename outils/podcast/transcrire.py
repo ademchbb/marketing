@@ -359,8 +359,8 @@ def controler(modele, audio, segs, options, vocabulaire, seuil_fuite, seuil_trou
             ids = {id(x) for x in dedans}
             sortie = [x for x in sortie if id(x) not in ids]
             sortie += [[s, e, t] for s, e, t in garde if t]
-            a_inserer.append((t0, f"<!-- contrôle ({t1 - t0:.0f} s retranscrites) : {' ; '.join(raisons)} -> {action} "
-                                  f"({c['mots_avant']} -> {c['mots_apres']} mots) -->"))
+            note = f"passage de {t1 - t0:.0f} s : {' ; '.join(raisons)} -> {action} ({c['mots_avant']} -> {c['mots_apres']} mots)"
+            a_inserer.append((t0, "<!-- contrôle, " + note.replace("--", "–") + " -->"))
     sortie.sort(key=lambda x: x[0])
     res = [(round(s, 2), t) for s, _, t in sortie]
     for t, com in a_inserer:  # le commentaire précède le passage retranscrit

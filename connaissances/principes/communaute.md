@@ -206,7 +206,7 @@
   - **rôle valorisant** confié aux membres (les lycéens qui photographient les animaux d'un refuge pour Petfinder)
     [fiche:8zcnK6Lx_p4 00:45-00:46] ;
   - **engagement réciproque** : avant de demander au client de devenir ambassadeur, dire à quoi la marque s'engage
-    [fiche:OgRgbar2dOQ framework, 18:55] ;
+    [fiche:OgRgbar2dOQ « après les 4P », engagement réciproque ; playbook 7, 18:55] ;
   - visuels de communauté : des personnes **ensemble** plutôt que seules [fiche:_hem3-8XbEI playbook 7].
 - **Consensus** : 1 expert (Ralston) + 3 (Brunson, Godin, Kapferer).
 - **Confiance** : moyenne pour le principe ; faible pour les tactiques (exemples anonymes ou récits non vérifiés).
@@ -252,8 +252,81 @@
 - **Pour une marque d'entreprise / un studio B2B** : commenter avec du fond les posts de fondateurs et d'agences
   de la cible (voir `principes/linkedin.md`).
 - **Sources** : [fiche:AA1LoZwW_2Y] playbook 14.
-- **Consensus** : 1 expert (Lee).
-- **Confiance** : faible.
+- **Ajouts du 2026-10-25** : Koe : un cercle de 3 à 5 créateurs du même niveau pour échanger stratégies et partages, en
+  rejetant les « engagement groups » ; commentaires à valeur ajoutée sous les gros comptes [fiche:SUzKZfyaAK8
+  framework O] ; le playbook : commenter en substance chez les comptes de l'ICP [fiche:scalevp-founder-led-growth-2025
+  p. 16]. **Officiel** : LinkedIn neutralise pods et commentaires automatisés [veille:linkedin §2.3] ; X interdit
+  l'activité coordonnée, et un « cercle d'amis » qui se partage n'est acceptable qu'occasionnel et sincère
+  [veille:x §4.5, §8 règle 13].
+- **Consensus** : 1 expert (Lee) + 2 (Koe, LinkedIn × Scale VP) + règles officielles.
+- **Confiance** : moyenne (le refus des pods est officiel ; les bénéfices de l'échange entre pairs restent déclaratifs).
+
+## Principes ajoutés le 2026-10-25
+
+### C11. Termine les contenus longs par une question à méditer et un appel à répondre honnête
+- **Pourquoi** : la fin de newsletter de Welsh : une question reliée au sujet, « Write back. Tell me what you think »,
+  l'honnêteté sur ce qu'il lira, la signature des personnes réelles ; son texte « Synthetic Purpose » aurait reçu
+  environ 1 000 réponses en une semaine (affirmation) [fiche:DJLtwT1Z0eo framework D, 00:25]. Le playbook fait chercher
+  « How could I end this in a way that invites conversation? » [fiche:scalevp-founder-led-growth-2025 p. 16] ;
+  « Think of it as a conversation, not a post » [fiche:pILj7t-qQhs 00:26]. Sur TikTok, une question en légende
+  donnerait +26 % de commentaires et demander des likes −60 % d'interactions (Metricool 2026, [ÉTUDE])
+  [veille:tiktok §2].
+- **Comment l'appliquer** : une question **miroir** qui renvoie le lecteur à sa propre vie (« Quand, dans votre vie,
+  avez-vous… ? ») ; jamais de mot-clé à commenter (appât officiellement filtré sur LinkedIn) ; jamais de demande de
+  like ou d'abonnement (inéligibilité au fil Pour toi sur TikTok si insistant [veille:tiktok §3]) ; mesurer les réponses
+  avant et après le changement.
+- **Pour une marque d'entreprise / un studio B2B** : « Quel lancement vous a donné envie d'acheter le jour même ? »
+  en fin de décodage, signé par les personnes du studio.
+- **Consensus** : 3 (Welsh, LinkedIn × Scale VP, Ralston pour les CTA liés au fond, C7) + étude TikTok.
+- **Confiance** : moyenne.
+
+### C12. Entre par des communautés de passion ou d'expertise ; recrute des ambassadeurs déclarés
+- **Pourquoi** : Kapferer : les marques qui résistent au prix sont nées dans des **communautés de passion** (prouver
+  qu'on partage leur passion) ou **d'expertise**, avec des ambassadeurs plutôt que des médias au départ, la masse
+  seulement à la fin [fiche:OgRgbar2dOQ enseignements 1-2, framework C]. Godin : la plus petite audience viable, et ce
+  sont les clients qui font passer le mot parce qu'ils y gagnent [fiche:8zcnK6Lx_p4 00:20, 00:44-00:47]. Koe : le cercle
+  de pairs de son niveau [fiche:SUzKZfyaAK8 framework O].
+- **Comment l'appliquer** : identifier 1 à 3 communautés d'où la marque peut naître ; y contribuer avant d'y vendre
+  (présence, contenu utile, produit pensé avec elles) ; tout lien commercial avec un ambassadeur est **déclaré**
+  (`conformite-juridique.md`, loi influence) ; aucun ambassadeur présenté comme spontané.
+- **Pour une marque d'entreprise / un studio B2B** : communautés de fondateurs de startups et de directeurs de création
+  (forums, Slack, événements), où Sillage contribue par des décodages.
+- **Consensus** : 3 (Kapferer, Godin, Koe). **Confiance** : faible : Kapferer n'a aucune donnée sur sa thèse et
+  plusieurs de ses récits de marque sont inexacts (registre P-K, passe 4a) ; voir D5.
+
+### C13. Fais de la communauté un service rare aux clients : proximité, petits groupes, rendez-vous
+- **Pourquoi** : Hormozi : une communauté doit **servir ses clients**, sinon elle disperse ; c'est « a long-term lead
+  nurture » ; modèle de rétention cité : petits groupes semi-privés de 4 à 6, calendrier fixe, liens entre membres
+  (« 38 mois de durée moyenne », affirmation) [fiche:6_CCutkM11g framework F, 05:16-05:42]. Welsh : la proximité
+  (dîners, masterminds, événements « small and thoughtful ») garde sa valeur quand l'IA banalise l'information
+  [fiche:DJLtwT1Z0eo 00:08-00:09, 00:52]. Priestley : proposer tout de suite une communauté (groupe WhatsApp) ou un
+  événement aux prospects qu'on ne peut pas encore prendre [fiche:LJVP2wRk7Cc 00:28-00:29]. Kotler : penser
+  « système » (services et communautés autour du produit, Harley Owners Group) [fiche:sR-qL7QdVZQ playbook 15].
+- **Comment l'appliquer** : réserver la communauté aux clients (ou aux prospects qualifiés) ; un format restreint à
+  date fixe ; une raison d'y venir que le contenu public ne donne pas ; une offre réservée à un groupe se fonde sur un
+  statut ou une appartenance, jamais sur un critère protégé (OR02) ; chiffres de demande (« 200 sur la liste »)
+  toujours vrais (OU01-OU04).
+- **Consensus** : 4 (Hormozi, Welsh, Priestley, Kotler). **Confiance** : faible (déclaratif).
+
+### C14. Demande un conseil plutôt qu'un avis, et fais saisir les engagements par la personne
+- **Pourquoi** : Cialdini : remplacer « qu'en pensez-vous ? » par une demande de **conseil** sur un brouillon, qui met
+  la personne dans un rôle de partenaire ; rendre les engagements **actifs** (faire saisir la date ou l'objectif par la
+  personne) [fiche:_hem3-8XbEI playbook 8, 10, framework G].
+- **Comment l'appliquer** : messages aux membres, ambassadeurs et partenaires ; inscriptions à un événement ou défi de
+  communauté où la personne écrit elle-même son objectif ; rien de pré-coché (OU07, JP07).
+- **Consensus** : 1 (Cialdini). **Confiance** : faible tant que les expériences `prospection-conseil-vs-avis` et
+  `rdv-creneau-saisi-vs-impose` n'ont pas tourné.
+
+### C15. Traite le message privé comme un espace où l'on n'entre qu'invité
+- **Pourquoi** : 39 % des utilisateurs de réseaux limitent qui peut leur écrire en privé et 53 % bloquent ou
+  restreignent des comptes (déclaratif) [fiche:barometre-numerique-2026 enseignement 6] ; les clients premium écrivent
+  en privé quand ils ont confiance (Ralston, C3) ; la fiche CNIL ne couvre pas les messages privés des réseaux
+  [fiche:cnil-prospection-electronique « Ce que la page ne traite pas »] ; X et LinkedIn combattent l'automatisation
+  [veille:x §4.5] [veille:linkedin §2.3].
+- **Comment l'appliquer** : un DM répond à une interaction réelle (question, commentaire, demande) ; jamais d'envoi
+  automatisé ni de séquence de DM à froid en masse ; jamais de DM pour vendre une formation CPF à un particulier (JI19) ;
+  les réponses aux prospects rédigées par nos agents sont des brouillons validés (règle du repo, `garde-offres`).
+- **Consensus** : 2 (Ralston, CNIL par sa lacune) + étude officielle française. **Confiance** : moyenne.
 
 ---
 
@@ -263,9 +336,16 @@
 - **Positions** : Ralston : répondre à chaque commentaire, de sa main [fiche:Ch4Sl0POBhU F20.7, F24.4].
   Yuergens : pendant sa grosse croissance, elle n'ouvrait même pas Instagram ; les « hacks d'engagement » sont
   « BS » [fiche:HzoQgQS8czE framework 25].
+- **Ajouts du 2026-10-25** : Welsh lit tout mais ne répond pas à tout, et le dit [fiche:DJLtwT1Z0eo framework D] ;
+  le playbook fait répondre à **chaque** commentaire négatif [fiche:scalevp-founder-led-growth-2025 p. 15] ; les
+  plateformes valorisent la conversation dans les premières heures (réponses entre abonnés mutuels sur X, coup de pouce
+  des 2 premières heures pour les petits auteurs [veille:x §2.3-§2.4] ; commentaires « Contribution » sur LinkedIn
+  [veille:linkedin §4.5]).
 - **Recommandation de l'agence** : répondre, mais pour la **relation** et la détection de prospects, pas comme
   hack d'algorithme. Priorité aux DM et aux commentaires de clients idéaux ; transparence sur qui répond (C8).
-  Les deux positions se rejoignent : la croissance vient du contenu, la conversion de la relation.
+  Les deux positions se rejoignent : la croissance vient du contenu, la conversion de la relation. Précision du
+  2026-10-25 : disponibilité 15 à 30 minutes après publication sur LinkedIn et dans les 2 premières heures sur X ;
+  quand le volume dépasse, dire honnêtement ce qu'on lit (C8).
 
 ### D2. Que faut-il écouter : les commentaires, « entre les lignes », ou les clients en privé ?
 - **Positions** : Hormozi se contredit : lire « entre les lignes » [00:47] puis « j'aurais dû écouter les
@@ -291,6 +371,32 @@
 - **Recommandation de l'agence** : pas de vrai désaccord. Sondages **fermés et cadrés** (choix A/B, 2×2) oui ;
   questions ouvertes sans cadre non.
 
+### D5. Construire une communauté, ou ne pas compter sur la fidélité ? (ajout 2026-10-25)
+- **Communauté** : Kapferer (entrer par des communautés de passion, relation émotionnelle durable) ; Ralston
+  (fidélisation, sinon « seau percé ») ; Hormozi (la communauté comme lead nurture de long terme).
+- **Fidélité faible** : Binet & Field : les campagnes de **fidélisation** ont un effet business de 0,0, contre 1,6 pour
+  la portée [fiche:binet-field-b2b-growth Fig. 7].
+- **Ce qui réconcilie** : Binet & Field mesurent des **campagnes payantes** de fidélisation, pas l'effet d'une
+  communauté sur l'acquisition par bouche-à-oreille, qu'ils reconnaissent dans la phase de croissance organique
+  [fiche:binet-field-b2b-growth « Confrontation »] ; à preuve égale, leur position est mieux étayée pour la phase de
+  croissance [fiche:OgRgbar2dOQ « Limites »].
+- **Recommandation de l'agence** : la communauté sert la relation, la rétention des clients et le bouche-à-oreille
+  (C12, C13) ; on ne la finance pas comme un levier de croissance à la place de la portée. **Ce qui la ferait
+  changer** : des données de nos marques sur la part des nouveaux clients venus par recommandation de membres.
+
+### D6. Faut-il chercher la contradiction dans les commentaires ? (ajout 2026-10-25)
+- **Playbook Scale VP** : viser 10 à 30 % de commentaires négatifs ; **Welsh** : la suppression de la nuance fait
+  perdre la confiance ; **X** : signaux négatifs très lourds.
+- **Recommandation de l'agence** : aucun objectif chiffré de négatif ; détail dans `personal-branding.md` D5.
+
+### D7. Un ennemi commun soude-t-il la communauté ? (ajout 2026-10-25)
+- **Brunson** : ennemi commun (« les médias qui font de l'entrepreneur le méchant milliardaire ») et renversement
+  « you guys literally are the heroes of the story » [fiche:rPZG5xfN7vI 00:01-00:11].
+- **Règle** : pas de dénigrement nominatif d'une marque ou d'une personne ; comparatif identifiable = L. 122-1
+  (`garde-offres` règle 8) ; la fiche elle-même dit « sans fabriquer d'ennemi diffamant » [playbook 14].
+- **Recommandation de l'agence** : l'« ennemi » est une **idée, une méthode ou un statu quo** (« le lancement à coups de
+  slides »), jamais une marque, un groupe ou une personne ; contrôle par `garde-conformite`.
+
 ---
 
 ## Tests proposés au labo (`experiences/`)
@@ -300,8 +406,12 @@
    part de clients idéaux (C7).
 3. Délai de réponse aux commentaires et DM (moins de 2 h contre 24 h) : demandes de rendez-vous issues des
    conversations (D1).
+4. Fin de newsletter avec question miroir et signature des personnes réelles, contre fin sans appel : nombre de
+   réponses (C11).
+5. Déjà conçues : `prospection-conseil-vs-avis` et `rdv-creneau-saisi-vs-impose` (C14), `cta-contenu-oui-vs-non` (C7).
 
 ## Journal
 | Date | Modification |
 |---|---|
 | 2026-10-20 | Création : 10 principes, 4 désaccords tranchés, à partir des 5 fiches et du registre (passe n°1). |
+| 2026-10-25 | Grande synthèse (S5b) : 19 fiches ajoutées (dont Vaynerchuk, Welsh, Godin, LinkedIn × Scale VP, Doctolib, Kapferer, Cialdini, Brunson, Priestley, Baromètre du numérique 2026). C1 à C10 complétés (C6 réécrit : réponse à la critique de la cible ; C7 : identité, rôle, engagement réciproque) ; 5 principes ajoutés (C11 fin de contenu qui fait répondre, C12 communautés de passion et ambassadeurs déclarés, C13 communauté au service des clients, C14 conseil et engagement actif, C15 messages privés). D1 complété ; 3 désaccords ajoutés et tranchés (D5 communauté ou fidélité, D6 contradiction recherchée, D7 ennemi commun). |

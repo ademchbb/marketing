@@ -1,10 +1,13 @@
 # Principes : hooks et rétention
 
-> Tenu par `synthetiseur-connaissances`. **Dernière mise à jour : 2026-10-20.**
-> Sources traitées : 5 fiches (4 experts), les frameworks liés, `swipe-file/hooks.md` et `structures.md`,
-> le registre de vérification (passe n°1) et les 4 fiches `veille/plateformes/` du 2026-10-20.
+> Tenu par `synthetiseur-connaissances`. **Dernière mise à jour : 2026-10-25** (grande synthèse, équipe S5a).
+> Sources traitées : 26 fiches (20 experts ou sources), les frameworks liés, `swipe-file/hooks.md` et `structures.md`,
+> le registre de vérification (fusion des passes 1 à 4 du 2026-10-25) et les fiches `veille/plateformes/` (YouTube
+> revalidée le 2026-10-22, § 9).
 > Lecteurs : `redacteur-hooks`, `critique-hook`, `scenariste-reel`, `scenariste-youtube-long`, `titreur-miniatures`,
 > `redacteur-carrousel`, `redacteur-linkedin`, `directeur-creatif-visuel`, `simulateur-audience`, `pont-motion-design`.
+> Titres et miniatures (avant le clic) : `packaging.md`. Récit et enjeux : `storytelling.md`. Vidéo longue :
+> `youtube-long.md`.
 
 ## Comment lire ce fichier
 
