@@ -82,7 +82,7 @@ VSL, page de vente ou Reel de vente : but → problème nommé → tentatives pa
 - **Enregistrement** des appels pour l'audit : information, voire consentement de l'interlocuteur (à vérifier par `garde-conformite`).
 
 ## Agents qui doivent l'utiliser
-`strategiste-offre` (propriétaire : trames d'appel des marques), `scenariste-youtube-long` (VSL), `scenariste-reel` (Reel de vente), `redacteur-ads` (pages de vente), `banquier-histoires` (une histoire par pilier), `simulateur-audience` (tester le script sur le persona), `garde-conformite`, `rapporteur` (préparer l'utilisateur à un appel).
+`strategiste-offre` (propriétaire : trames d'appel des marques), `scenariste-youtube-long` (VSL), `scenariste-reel` (Reel de vente), `redacteur-ads` (pages de vente), `banquier-histoires` (une histoire par pilier), `simulateur-audience` (tester le script sur le persona), `garde-conformite` puis `garde-offres` (script de pitch et de closing), `rapporteur` (préparer l'utilisateur à un appel).
 
 ## Voir aussi
 `objections-oignon-du-blame-et-looping.md` · `vente-diagnostique.md` · `presenter-le-prix-en-rendez-vous.md` · `experience-de-reception-et-renforcement.md` · `tunnel-de-rendez-vous-presence-et-closing.md` · `douze-facteurs-psychologie-de-la-vente.md` · `recit-de-vente-et-pitch-carte-du-marche.md`

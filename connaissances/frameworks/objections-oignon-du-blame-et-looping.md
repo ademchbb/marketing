@@ -99,7 +99,7 @@ Il achète et il est plus sûr ; il n'achète pas et il est sûr de ne pas achet
 - Public fragile ou endetté : on s'arrête au premier signal.
 
 ## Agents qui doivent l'utiliser
-`strategiste-offre` (propriétaire : banque d'objections et réponses par marque), `ecouteur-audience` (objections réelles et leurs mots), `redacteur-ads` et `scenariste-youtube-long` (objections traitées dans une page ou une VSL), `simulateur-audience` (persona qui objecte), `gestionnaire-communaute` (objections en DM), `garde-conformite` (contrôle obligatoire des scripts), `concepteur-experiences` (test de la règle d'arbitrage).
+`strategiste-offre` (propriétaire : banque d'objections et réponses par marque), `ecouteur-audience` (objections réelles et leurs mots), `redacteur-ads` et `scenariste-youtube-long` (objections traitées dans une page ou une VSL), `simulateur-audience` (persona qui objecte), `gestionnaire-communaute` (objections en DM), `garde-conformite` puis `garde-offres` (contrôle obligatoire des scripts de closing), `concepteur-experiences` (test de la règle d'arbitrage).
 
 ## Voir aussi
 `closer-script-de-vente.md` · `objection-vers-angle.md` (même matière, en publicité) · `presenter-le-prix-en-rendez-vous.md` · `douze-facteurs-psychologie-de-la-vente.md` · `negociation-empathie-tactique.md` · `analyse-de-reputation-et-minage-d-avis.md`

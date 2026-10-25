@@ -72,7 +72,7 @@ Visites → signaux → leads qualifiés → rendez-vous → clients, et le rati
 - **Glastonbury, Rolex** : exemples de demande déjà massive ; ne pas promettre le même effet à une petite marque ([verif:OU08] 🟡).
 
 ## Agents qui doivent l'utiliser
-`strategiste-offre` (propriétaire), `strategiste-contenu` et `redacteur-legende` (CTA de signal), `redacteur-newsletter` (séquence de la liste d'attente), `gestionnaire-communaute` (communauté d'attente), `analyste-performance` (ratio candidats / places), `garde-conformite` (chiffres affichés, collecte), `planificateur-calendrier` (lancement sur liste d'attente).
+`strategiste-offre` (propriétaire), `strategiste-contenu` et `redacteur-legende` (CTA de signal), `redacteur-newsletter` (séquence de la liste d'attente), `gestionnaire-communaute` (communauté d'attente), `analyste-performance` (ratio candidats / places), `garde-conformite` puis `garde-offres` (rareté et chiffres affichés, collecte), `planificateur-calendrier` (lancement sur liste d'attente).
 
 ## Voir aussi
 `scorecard-de-diagnostic.md` · `vente-diagnostique.md` · `funnel-cta-commentaire.md` · `offer-stack.md` · `discipline-pour-marche-et-test-de-la-peur.md` · `arbre-regime-message-electronique-cnil.md`

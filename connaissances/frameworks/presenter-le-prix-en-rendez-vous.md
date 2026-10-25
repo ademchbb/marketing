@@ -75,7 +75,7 @@ Descendre l'escalier de paiement **sans baisser le prix** (`upsell-downsell-et-e
 - **Financement** : jamais de pression au crédit (voir `objections-oignon-du-blame-et-looping.md`).
 
 ## Agents qui doivent l'utiliser
-`strategiste-offre` (propriétaire), `analyste-marque` (position de prix), `redacteur-ads` (présentation du prix sur une page), `scenariste-youtube-long` (VSL), `garde-conformite` (réductions, ancres, informations), `rapporteur` (préparer l'utilisateur à un appel Sillage).
+`strategiste-offre` (propriétaire), `analyste-marque` (position de prix), `redacteur-ads` (présentation du prix sur une page), `scenariste-youtube-long` (VSL), `garde-conformite` puis `garde-offres` (réductions, ancres, informations, scripts de closing), `rapporteur` (préparer l'utilisateur à un appel Sillage).
 
 ## Voir aussi
 `trois-regles-de-prix.md` · `value-conversation.md` · `vente-diagnostique.md` · `upsell-downsell-et-escalier-de-paiement.md` · `objections-oignon-du-blame-et-looping.md` · `negociation-echange-a-haute-valeur-et-reputation.md`

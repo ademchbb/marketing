@@ -81,7 +81,7 @@ Réécrire une pub d'image en réponse directe : une destination, une action cou
 - Leçon de Vegas World : rentable grâce aux pertes de jeu des clients (« particularly to stupid people ») ; une mécanique, pas un modèle éthique.
 
 ## Agents qui doivent l'utiliser
-`strategiste-offre` (propriétaire), `redacteur-ads` (offre de chaque pub, test de mesurabilité), `redacteur-newsletter` (offres par e-mail), `redacteur-legende` et `scenariste-reel` (CTA d'offre), `prospecteur-collaborations` (cadeau fourni par un partenaire), `garde-conformite` (contrôle obligatoire : valeur, échéance, cadeau, garantie), `controleur-qualite-marketing`.
+`strategiste-offre` (propriétaire), `redacteur-ads` (offre de chaque pub, test de mesurabilité), `redacteur-newsletter` (offres par e-mail), `redacteur-legende` et `scenariste-reel` (CTA d'offre), `prospecteur-collaborations` (cadeau fourni par un partenaire), `garde-conformite` puis `garde-offres` (contrôle obligatoire : valeur, échéance, cadeau, garantie), `redacteur-conditions-vente` (garanties, conditions du cadeau, échéance dans les CGV), `controleur-qualite-marketing`.
 
 ## Voir aussi
 `offre-quatre-composantes-brunson.md` · `usp-question-et-cinq-voies.md` · `presenter-le-prix-en-rendez-vous.md` · `money-model-sequence-d-offres.md` · `pub-reponse-directe-7-cases.md` · `partenariats-aux-resultats.md`

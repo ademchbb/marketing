@@ -7,7 +7,7 @@ Deux lancements filmés, analysés par leurs fiches comme des démonstrations : 
 - **Alex Hormozi**, lancement en direct de *$100M Money Models* (16/08/2025) [fiche:6_CCutkM11g] : « PITCH décortiqué », 22 étapes observées, infrastructure de conversion (framework K) ; garde-fous 1 à 5.
 - **Russell Brunson**, Funnel Hacking Live 9.5 (2024) [fiche:rPZG5xfN7vI] : la conférence comme séquence de pré-vente, 7 étapes (framework K, **déduction** de la fiche) ; « le funnel n'est qu'un moyen de délivrer une présentation de vente » et la présentation **one to many** (framework H [00:52]-[00:55]).
 - **Doublon fusionné** : les deux séquences ont la même ossature (état émotionnel ou preuve d'autorité → problème → enseignement illustré → identité et mission → offre empilée → levée des objections), Brunson en version courte, Hormozi en version longue.
-- Fiabilité : structure **observée**, pas enseignée comme méthode par les auteurs ; les deux sources sont des pitchs qui servent leurs propres ventes. L'« étude » de Brunson (6,1 M de funnels : « l'histoire est le facteur n° 1 du revenu ») est une **affirmation sans méthodologie, à ne pas citer**. Aucun chiffre de ces pitchs n'est dans le registre au 2026-10-22.
+- Fiabilité : structure **observée**, pas enseignée comme méthode par les auteurs ; les deux sources sont des pitchs qui servent leurs propres ventes. L'« étude » de Brunson (6,1 M de funnels : « l'histoire est le facteur n° 1 du revenu ») est une **affirmation sans méthodologie, à ne pas citer** (❓ [verif:V4B-BR01] dans `passe-4b-createurs-offres.md`). Seul le record Guinness du lancement Hormozi est confirmé (✅ [verif:V4B-MM01] : 2 917 443 exemplaires en un jour, août 2025) ; les compteurs intermédiaires du direct (2,4 M, 2,5 M) et les « 3,6 M en 72 h » ne sont pas le chiffre certifié. Exemple pédagogique utile : la devinette « 10 % ? 15 % ? Try three times that » s'appuyait en partie sur des statistiques non sourcées (« 82 % », ❓ [verif:V4B-MM06]).
 
 ## Problème résolu
 Les marques lancent en postant une fois et en envoyant un e-mail (« Nobody cares and they wonder why », Hormozi [02:13]). Les lancements qui marchent suivent une séquence précise, mais mêlent des procédés honnêtes et des procédés trompeurs. Cette grille sert à **décomposer** un lancement, à en garder l'ossature, et à exclure ce que les règles du projet et le droit interdisent.
@@ -75,7 +75,7 @@ Les marques lancent en postant une fois et en envoyant un e-mail (« Nobody care
 - **Prévente** : calendrier de livraison écrit ([verif:OV01]).
 
 ## Agents qui doivent l'utiliser
-`scenariste-youtube-long` (propriétaire : webinaires, VSL, lives), `strategiste-offre`, `analyste-concurrent` (décodage des lancements), `planificateur-calendrier` (séquence de lancement), `pont-motion-design` (présentation Sillage sans musique), `garde-conformite` (contrôle obligatoire), `controleur-qualite-marketing`, `extracteur-hooks`.
+`scenariste-youtube-long` (propriétaire : webinaires, VSL, lives), `strategiste-offre`, `analyste-concurrent` (décodage des lancements), `planificateur-calendrier` (séquence de lancement), `pont-motion-design` (présentation Sillage sans musique), `garde-conformite` puis `garde-offres` (contrôle obligatoire de tout script de pitch), `controleur-qualite-marketing`, `extracteur-hooks`.
 
 ## Voir aussi
 `money-model-sequence-d-offres.md` (lancement autofinancé) · `offre-quatre-composantes-brunson.md` · `offre-irresistible-kennedy.md` · `closer-script-de-vente.md` · `intro-proof-promise-plan-et-4c.md` · `storytelling-5-temps-et-5-histoires.md`

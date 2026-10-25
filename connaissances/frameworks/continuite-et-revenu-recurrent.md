@@ -89,7 +89,7 @@ Rétention par cohorte, durée moyenne, LTV. Si la LTV est faible, réparer la r
 - **Garantie payante d'un bien durable** : ne jamais vendre comme « garantie » ce que la garantie légale couvre déjà ; une garantie commerciale se rédige sur support durable avec rappel de la garantie légale ([verif:OG02]).
 
 ## Agents qui doivent l'utiliser
-`strategiste-offre` (propriétaire), `analyste-marque` (récurrence possible du métier), `redacteur-newsletter` (rappels de renouvellement, réactivation), `prospecteur-collaborations` (distribution récurrente par partenaires), `analyste-performance` (rétention par cohorte, LTV), `garde-conformite` (contrats, sortie anticipée, reconduction : contrôle obligatoire).
+`strategiste-offre` (propriétaire), `analyste-marque` (récurrence possible du métier), `redacteur-newsletter` (rappels de renouvellement, réactivation), `prospecteur-collaborations` (distribution récurrente par partenaires), `analyste-performance` (rétention par cohorte, LTV), `redacteur-conditions-vente` (durée, reconduction, sortie anticipée, rédaction des conditions), `garde-conformite` puis `garde-offres` (contrats, sortie anticipée, reconduction : contrôle obligatoire).
 
 ## Voir aussi
 `money-model-sequence-d-offres.md` · `upsell-downsell-et-escalier-de-paiement.md` · `diagnostic-express-du-modele-economique.md` · `experience-de-reception-et-renforcement.md` · `partenariats-aux-resultats.md`

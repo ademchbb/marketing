@@ -36,6 +36,12 @@ Questions de contrôle par étape :
 
 L'étape 4 peut utiliser l'outil facultatif d'ancrage (voir `ancrage-sur-valeur-garantie.md`), puis se conclut par une proposition à options (voir `trois-regles-de-prix.md`).
 
+## Variantes de l'étape 3 chez d'autres auteurs (même geste : la valeur est chiffrée par le client)
+- **« Se peser »** (Despas d'après Wayshak) [fiche:nte_k2hPXR0] [00:24]-[00:26] : « quel KPI ça viendrait améliorer en priorité ? de quelle valeur ? » ; s'il bloque, proposer des **ordres de grandeur en puissances de 10** (« entre 10 et 100, ou entre 100 et 1 000 ? ») et noter les bornes. Détail : `douze-facteurs-psychologie-de-la-vente.md`.
+- **Baguette magique** (Priestley) [fiche:LJVP2wRk7Cc] [00:59] : « If you could wave a magic wand, three years from now, what revenue…? » → « So that's a [X] problem. » Détail : `vente-diagnostique.md`.
+- **Questionnaire pré-vente** (Hormozi) [fiche:JE2_7elAcxM] [03:14:13] : « If you had to quantify how much this has cost you, what would it be? If it continued for 5 years, how much worse? » (coût de l'inaction plutôt que gain).
+- Point commun : « ces chiffres ne viennent pas de vous, ils viennent de votre prospect » ; une analyse ROI du vendeur est « systématiquement remise en question » (Despas).
+
 ## Exemple appliqué (illustratif : Sillage vend une vidéo de lancement)
 1. Desired future state : la fondatrice veut un lancement Product Hunt qui « fasse parler » ; personnellement, elle veut arriver à sa levée avec une traction visible.
 2. Métriques : inscriptions à la liste d'attente la semaine du lancement ; demandes de démo ; vues de la vidéo sur la landing.
@@ -58,4 +64,4 @@ L'étape 4 peut utiliser l'outil facultatif d'ancrage (voir `ancrage-sur-valeur-
 `strategiste-offre` (propriétaire : trame de rendez-vous découverte), `analyste-marque` (pour une marque qui vend des services), `redacteur-newsletter` et `redacteur-linkedin` (angles de contenu : « être puni de devenir meilleur »), `rapporteur` (préparer l'utilisateur à un rendez-vous client Sillage).
 
 ## Voir aussi
-`ancrage-sur-valeur-garantie.md` · `trois-regles-de-prix.md` · `metriques-appariees.md` · `share-the-knowledge-sell-the-execution.md`
+`ancrage-sur-valeur-garantie.md` · `trois-regles-de-prix.md` · `metriques-appariees.md` · `share-the-knowledge-sell-the-execution.md` · `vente-diagnostique.md` · `douze-facteurs-psychologie-de-la-vente.md` · `presenter-le-prix-en-rendez-vous.md`

@@ -90,7 +90,7 @@ Dans l'ordre, en ne descendant d'une marche qu'après un vrai « non » :
 - **Menu upsell « éthique »** : on ne retire que ce dont le client n'a vraiment pas besoin, et on ne prescrit que ce qu'on recommanderait sans commission.
 
 ## Agents qui doivent l'utiliser
-`strategiste-offre` (propriétaire), `redacteur-newsletter` (séquences post-achat), `redacteur-ads` (pages de confirmation, offres de suivi), `analyste-performance` (taux de prise, panier moyen), `garde-conformite` (ancre, financement, consentement), `concepteur-experiences` (test 5× contre 10×).
+`strategiste-offre` (propriétaire), `redacteur-newsletter` (séquences post-achat), `redacteur-ads` (pages de confirmation, offres de suivi), `analyste-performance` (taux de prise, panier moyen), `garde-conformite` puis `garde-offres` (ancre, financement, consentement), `redacteur-conditions-vente` (échelonnements, essai), `concepteur-experiences` (test 5× contre 10×).
 
 ## Voir aussi
 `money-model-sequence-d-offres.md` · `continuite-et-revenu-recurrent.md` · `presenter-le-prix-en-rendez-vous.md` · `offre-quatre-composantes-brunson.md` · `trois-regles-de-prix.md` · `offer-stack.md`

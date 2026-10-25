@@ -9,7 +9,7 @@
   - écriture d'affiliation personnalisée (framework K [00:37]) ;
   - hooker syndrome (framework H [00:33]) : « The service is worth a lot more before it's rendered than after » ;
   - enseignements 3, 5 et 7 ; playbook, étapes 3, 6 à 9 et 15.
-- Fiabilité : 3,5/5. Mécanismes cohérents ; **aucune preuve vérifiable** (clients anonymes, chiffres instables : timeshare « 130 » puis « 135-140 M$ »). Exemples d'avant Internet (radio, presse, courrier) : la transposition au digital est **affirmée par l'hôte, peu démontrée**. Le cas Icy Hot suppose un taux de rachat mensuel de 80 % (« extrême », fiche source). **Absent du registre** au 2026-10-22.
+- Fiabilité : 3,5/5. Mécanismes cohérents ; **aucune preuve vérifiable** (clients anonymes, chiffres instables : timeshare « 130 » puis « 135-140 M$ »). Exemples d'avant Internet (radio, presse, courrier) : la transposition au digital est **affirmée par l'hôte, peu démontrée**. Statut (`passe-4b-createurs-offres.md`, 2026-10-22) : le rôle d'Abraham dans Icy Hot est un récit constant de l'auteur, sans source indépendante (🟡 [verif:V4B-JA04]) ; le calcul « 8 sur 10 rachètent chaque mois à vie, 50 $ de profit par an » est **une illustration de la logique de LTV, pas une donnée** (❓ [verif:V4B-JA05]) : ne pas le citer comme chiffre.
 
 ## Problème résolu
 Acheter de la pub au plein tarif est un pari à fixe ; acheter « une promotion » à un partenaire est « a static, a tactical activity ». Une marque qui connaît la **valeur vie** de ses clients peut payer l'acquisition **à la performance**, plus cher que ses concurrents, sur des audiences déjà convaincues et des inventaires périssables.

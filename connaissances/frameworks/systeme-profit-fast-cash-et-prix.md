@@ -70,7 +70,7 @@ Profit (pas seulement chiffre d'affaires) par opération Fast Cash ; taux de dé
 - **Cycles de 28 jours** : annoncer le nombre de prélèvements annuels ; ne pas le cacher derrière « par mois ».
 
 ## Agents qui doivent l'utiliser
-`strategiste-offre` (propriétaire), `planificateur-calendrier` (calendrier de trésorerie), `redacteur-newsletter` (séquences de 7 jours, lettre de hausse), `gestionnaire-communaute` (post communautaire de hausse), `garde-conformite` (urgence, places, envois, contrats), `analyste-performance` (profit par opération), `rapporteur`.
+`strategiste-offre` (propriétaire), `planificateur-calendrier` (calendrier de trésorerie), `redacteur-newsletter` (séquences de 7 jours, lettre de hausse), `gestionnaire-communaute` (post communautaire de hausse), `garde-conformite` puis `garde-offres` (urgence, places, envois, contrats), `redacteur-conditions-vente` (hausse de prix, rythme de facturation), `analyste-performance` (profit par opération), `rapporteur`.
 
 ## Voir aussi
 `money-model-sequence-d-offres.md` · `continuite-et-revenu-recurrent.md` · `arbre-regime-message-electronique-cnil.md` · `trois-regles-de-prix.md` · `presenter-le-prix-en-rendez-vous.md`

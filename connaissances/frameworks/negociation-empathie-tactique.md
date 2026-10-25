@@ -62,7 +62,7 @@ Le laisser **vider ses arguments répétés** : tant qu'ils ne sont pas sortis, 
 ### 8. Chercher le Black Swan
 1. Admettre que chacun cache des cartes.
 2. Distinguer ce que l'autre **sait** être important pour vous (il le cache) de ce qu'il **ignore** être important (il le livrera si on le fait parler).
-3. Ne pas miser sur la détection du mensonge ; **déclencher beaucoup plus de conversation**, ne pas couper court une fois « l'essentiel » obtenu.
+3. Ne pas miser sur la détection du mensonge (et jamais sur le regard ou les gestes : on ne distingue le vrai du faux que dans environ 54 % des cas selon la méta-analyse de Bond et DePaulo, 2006, ❌ « le regard fuyant trahit le mensonge », [verif:V4B-KA04] dans `passe-4b-createurs-offres.md`) ; **déclencher beaucoup plus de conversation**, ne pas couper court une fois « l'essentiel » obtenu.
 4. Chercher surtout le **pourquoi** de sa position (par étiquette).
 5. Repérer le petit détail qui change tout, puis construire la solution autour.
 

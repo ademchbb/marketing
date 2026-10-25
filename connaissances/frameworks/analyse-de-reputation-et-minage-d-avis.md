@@ -56,6 +56,17 @@ Charger les avis (et l'analyse de réputation en contexte) dans un LLM et demand
 - Règle : la machine synthétise, **l'humain choisit** les verbatims (« they don't quite have the judgment of what could be a really impactful review that could lead to a top performing ad »).
 - Contrôle : vérifier que chaque « golden nugget » retenu existe mot pour mot dans la source (pas de reformulation de l'IA présentée comme une citation).
 
+### D. Variante : « Amazon.com School of Marketing » (Jay Abraham)
+Même méthode, plus ancienne, nommée par Abraham et rappelée par son hôte Frankie Fihn [fiche:Ge8xTCIP0Zw] (framework I [00:39]-[00:40]) :
+1. Réunir tous les **livres** (ou produits) du sujet sur Amazon, y compris ceux des concurrents et des catégories voisines.
+2. Lire les avis **5 étoiles** et **1 étoile**.
+3. Noter, **mot pour mot**, ce **vers quoi** les gens veulent aller et ce qu'ils **fuient**.
+4. **Pondérer** chaque idée par les votes « utile ».
+5. Étendre aux forums et autres sites d'avis.
+6. Rédiger avec ces mots (« If you can't fall in love with the market you serve, you shouldn't be serving them »).
+- Apport par rapport à A-C : les livres du **sujet** (pas seulement les produits de la marque) donnent les désirs et peurs d'une marque jeune sans avis ; la pondération par votes « utile » remplace un tri au jugement. L'opinion « on écrit alors mieux que 90 % des copywriters » est une **affirmation** sans donnée.
+- Sortie : alimente la grille `grille-ffwa-peurs-frustrations-desirs-aspirations.md` (vers / loin de).
+
 ## Exemple appliqué (illustratif : marque promue « studio de yoga en ligne », hypothétique)
 - Google : un article « est-ce une arnaque ? » en 1re page → objection « efficacité/légitimité ».
 - Reddit (verbatim à copier tel quel) : « j'ai résilié parce que les cours vont trop vite pour un débutant » → objection + persona « débutant complet ».
@@ -77,4 +88,4 @@ Charger les avis (et l'analyse de réputation en contexte) dans un LLM et demand
 `ecouteur-audience` (propriétaire des verbatims), `strategiste-ads`, `architecte-persona`, `analyste-marque` (étapes 1-3 et 8), `strategiste-positionnement` (objections → valeur différenciée), `redacteur-hooks` et `redacteur-ads` (phrases exactes), `strategiste-offre` (bundles), `garde-conformite` (accords avant réutilisation).
 
 ## Voir aussi
-`sop-strategie-creative.md` · `prompt-decouverte-personas.md` · `objection-vers-angle.md` · `contenu-communautaire-et-ecoute.md`
+`sop-strategie-creative.md` · `prompt-decouverte-personas.md` · `objection-vers-angle.md` · `contenu-communautaire-et-ecoute.md` · `grille-ffwa-peurs-frustrations-desirs-aspirations.md` · `objections-oignon-du-blame-et-looping.md`

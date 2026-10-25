@@ -8,7 +8,10 @@
   - étape 3 (« formuler ce que le client veut mieux que lui-même ») ≈ le **« that's right » de niveau 2** de Chris Voss, qui résume « in a way that they would never be able to say themselves » (`negociation-empathie-tactique.md`) ; et ≈ Hormozi, « the prospect buys because of how understood they feel » (`closer-script-de-vente.md`) ;
   - « tomber amoureux du marché qu'on sert » ≈ la logique « for you » d'Hormozi et l'écoute (`contenu-communautaire-et-ecoute.md`) ;
   - « share the knowledge, sell the execution » de Ralston (`share-the-knowledge-sell-the-execution.md`) : même pari sur la confiance.
-- Fiabilité : 3,5/5. Posture cohérente ; aucune preuve vérifiable. Le chiffre « 300 % » attribué à Covey [00:47] est **d'attribution douteuse** ; la citation « is this goal worthy of me » est d'auteur incertain (Abraham pense à Bob Proctor) : **ne pas citer**. **Absent du registre** au 2026-10-22.
+- Fiabilité : 3,5/5. Posture cohérente ; aucune preuve vérifiable. Statut (`passe-4b-createurs-offres.md`, 2026-10-22) :
+  - « 300 % » attribué à Covey [00:47] 🟡 [verif:V4B-JA01] : ne pas l'écrire tel quel ; formulation correcte : « selon une étude Watson Wyatt de 2002 citée par Covey (*The Speed of Trust*), le rendement actionnarial des entreprises à forte confiance était près de trois fois supérieur » (corrélation boursière, pas un gain lié à la confiance commerciale) ;
+  - « is this goal worthy of me » ❓ [verif:V4B-JA02] : utilisable comme formule, **sans** l'attribuer à Bob Proctor ;
+  - « 21-22 Md$ de CA ajouté pour ses clients », « top five » selon *Forbes* 🟡 [verif:V4B-JA06] : sources promotionnelles.
 
 ## Problème résolu
 L'agence se définit par un canal (« je fais des Google Ads ») et devient interchangeable : elle est la première coupée quand le client réduit son budget. La prééminence la fait passer de fournisseur d'une tactique à **conseiller** sur tout ce qui touche le résultat du client : plus de levier, « doing less and getting paid more », et des missions confiées au-delà de sa catégorie.
