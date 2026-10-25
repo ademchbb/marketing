@@ -46,26 +46,26 @@ ajoutés le 2026-10-25. Le classement ci-dessous suit le nombre d'experts.
 
 | # | Principe | Consensus | Confiance |
 |---|---|---|---|
-| H1 | Arrête le scroll en moins de 2 s : le premier plan est déjà le moment fort | 10 + officiel | haute |
-| H7 | Tiens exactement la promesse de l'emballage : jamais d'appât à clic | 8 + officiel | haute |
+| H1 | Arrête le scroll en moins de 2 s : le premier plan est déjà le moment fort | 11 + officiel | haute |
 | H2 | Sois clair avant d'être original | 9 | moyenne |
-| H8 | Emprunte la structure des accroches qui ont marché, jamais la valeur | 8 | moyenne |
-| H16 | Confirme le choix dans les 10 premières secondes : promesse et preuve visibles, intro sans sommaire | 6 + officiel | moyenne |
+| H7 | Tiens exactement la promesse de l'emballage : jamais d'appât à clic | 7 + officiel | haute |
+| H9 | Préfère l'affirmation à contre-courant et le résultat chiffré réel, sans perdre la nuance | 7 | faible à moyenne |
+| H20 | Relance l'attention par des boucles ouvertes, et récompense ceux qui restent | 7 | moyenne |
 | H3 | Livre la valeur dans la phrase qui suit l'accroche, au bon moment | 6 | moyenne |
+| H8 | Emprunte la structure des accroches qui ont marché, jamais la valeur | 6 | moyenne |
 | H18 | Romps la convention du support : différent bat meilleur | 6 | moyenne |
-| H10 | Retiens par l'apprentissage et la structure, pas par les effets | 5 | moyenne |
 | H4 | Parle à un inconnu à chaque contenu | 5 + officiel | moyenne |
-| H17 | Donne un enjeu à chaque contenu, vrai et conforme à son contrat | 5 | moyenne |
-| H20 | Relance l'attention par des boucles ouvertes, et récompense ceux qui restent | 5 | moyenne |
-| H9 | Préfère l'affirmation à contre-courant et le résultat chiffré réel, sans perdre la nuance | 6 | faible à moyenne |
 | H14 | Produis plusieurs accroches pour le même contenu et laisse l'audience trancher | 5 + officiel | haute |
-| H5 | Aligne les trois canaux sur une seule promesse, en commençant par le visuel | 4 | moyenne |
-| H11 | Annonce le plan comme une boucle ouverte et traite l'objection avant qu'il parte | 5 | faible à moyenne |
 | H15 | Ferme la boucle : la fin renvoie à l'accroche ou au contenu suivant | 5 + officiel | haute |
+| H10 | Retiens par l'apprentissage et la structure, pas par les effets | 5 | moyenne |
+| H11 | Annonce le plan comme une boucle ouverte et traite l'objection avant qu'il parte | 5 | faible à moyenne |
+| H17 | Donne un enjeu à chaque contenu, vrai et conforme à son contrat | 5 | moyenne |
 | H21 | En organique, ne ressemble pas à une pub dans la première seconde, mais rends la marque indispensable au moment fort | 5 | moyenne |
-| H19 | Juge l'accroche à son vrai emplacement, dans le fil, jamais sur l'écran de montage | 4 | moyenne |
+| H16 | Confirme le choix dans les 10 premières secondes : promesse et preuve visibles, intro sans sommaire | 4 + officiel | moyenne |
+| H5 | Aligne les trois canaux sur une seule promesse, en commençant par le visuel | 4 | moyenne |
 | H13 | Supprime chaque temps mort, et fais démarrer chaque plan sur l'action | 4 | moyenne |
-| H6 | Ne publie jamais une vidéo muette ; lecture possible sans le son | officiel | haute |
+| H19 | Juge l'accroche à son vrai emplacement, dans le fil, jamais sur l'écran de montage | 3 | moyenne |
+| H6 | Ne publie jamais une vidéo muette ; lecture possible sans le son | 1 + officiel | haute |
 | H12 | Choisis une durée que le spectateur va finir | 1 + officiel | moyenne |
 
 ---
@@ -84,9 +84,24 @@ ajoutés le 2026-10-25. Le classement ci-dessous suit le nombre d'experts.
 - **Pour une marque sans visage (Sillage)** : le hook est une **transformation visuelle** (point → fenêtre produit,
   avant/après, révélation par masque), soulignée par un effet sonore (pop, whoosh). C'est la règle studio « accroche
   < 2 s » : elle est confirmée par la plateforme, pas seulement par le goût maison.
+- **Ajouts du 2026-10-25** :
+  - Google : « Start big! » : au milieu de l'action, gros plan, audio, couleur et contraste, image audacieuse dès
+    l'ouverture [fiche:google-abcd-youtube-ads § A] ;
+  - Trott : le vrai problème n'est pas d'être détesté mais d'être **invisible** ; l'impact passe avant la
+    compréhension et la persuasion (« People must notice this advertising »). Son chiffre « 89 % de pub ni remarquée
+    ni mémorisée » n'a **aucune source primaire** (registre V4A-T01) : on garde l'idée, jamais le chiffre
+    [fiche:rl3SELihHqs 00:07-00:20] ;
+  - Halbert : « You either hook a reader or lose him when he very first looks at your ad » [fiche:halbert-boron-letters
+    ch. 19] ; le playbook Scale VP : « If it doesn't make someone pause, the rest doesn't matter »
+    [fiche:scalevp-founder-led-growth-2025 p. 13] ; Vaynerchuk place les 3 premières secondes en deuxième levier de
+    diagnostic, juste après la miniature [fiche:IWuVEcQexWo 00:48] ;
+  - MrBeast et Galloway : voir H16 pour l'intro des vidéos longues.
 - **Sources** : [fiche:HzoQgQS8czE 00:17] [fiche:Ch4Sl0POBhU 02:09] [fiche:AA1LoZwW_2Y 00:33] [fiche:uJ8Pg6t_iho 03:09]
-  [veille:instagram §2.1, §8 règle 1] [veille:tiktok §0, §1] [veille:youtube §6 règle 1].
-- **Consensus** : 3/4 experts explicites (Ralston, Yuergens, Mino) ; Hormozi converge sur l'intro qui prouve tout de suite.
+  [fiche:google-abcd-youtube-ads § A] [fiche:rl3SELihHqs 00:07-00:20] [fiche:halbert-boron-letters ch. 19]
+  [fiche:scalevp-founder-led-growth-2025 p. 13] [fiche:IWuVEcQexWo 00:48] [fiche:xf0Mli0LVgI 01:04-01:07]
+  [fiche:Z2uoA3bhJT0 01:44-01:47] [veille:instagram §2.1, §8 règle 1] [veille:tiktok §0, §1] [veille:youtube §6 règle 1].
+- **Consensus** : 11 experts (Yuergens, Ralston, Mino, Hormozi, Google, MrBeast, Galloway, Vaynerchuk, Trott, Halbert,
+  playbook Scale VP) + règles officielles.
 - **Confiance** : **haute** (registre P10 confirmé, source Meta Reels Chaining du 11/11/2025).
 
 ### H2. Sois clair avant d'être original : un inconnu comprend en une seconde ce qu'il y gagne

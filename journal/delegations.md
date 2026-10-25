@@ -351,3 +351,4 @@ Leçon : 20 agents en parallèle épuisent le quota en ~2 h 30. Vagues de ~10 ag
   - [ ] verificateur-faits passe 5 (droit) : + allégations environnementales et RSE, parrainage et avis récompensés, droit de réponse et retrait en crise.
   - [ ] chercheur-sources : grande distribution/MDD/places de marché, RP 2026, crise (cas comparés), JTBD et *The Mom Test*, *Play Bigger*, Romaniuk, parrainage, ABM, portée B2B hors LinkedIn.
   - [ ] concepteur-experiences lot 2 : + 5 (positions Sillage × signaux Dunford, zone avec/sans budget de marque 6 mois, guides d'entretien, objet « à offrir », TLA brut vs mis en forme).
+- Lancé : architecte-agents (alias naming/histoire/emailing ; création `lecteur-pages-dynamiques` ; décision prospection B2B ; règles maison 4a/4b dans garde-conformite et critique-hook).

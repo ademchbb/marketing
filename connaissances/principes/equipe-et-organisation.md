@@ -128,7 +128,11 @@
   d'un storyboard, avec effets sonores et **sans musique**, en 72 h.
 - **Sources** : [fiche:Ch4Sl0POBhU] F29, F30 ; [fiche:uJ8Pg6t_iho] framework 39 ; [fiche:HzoQgQS8czE]
   framework 29.
-- **Consensus** : 2 experts (Ralston, Yuergens).
+- **Ajouts du 2026-10-25** : Hormozi ajoute un **entretien tactique** mené par un expert du sujet (« what data do you
+  plan on collecting and how would you plan on fixing those things? » ; plus la réponse est vague, plus c'est mauvais
+  signe) après un filtre culture tenu par les fondateurs [fiche:JE2_7elAcxM framework L, 02:24:17] ; Doctolib fait
+  évaluer par plusieurs personnes, un « non » sur quatre vaut refus [fiche:oeG8NWrWV4Y framework N].
+- **Consensus** : 2 experts (Ralston, Yuergens) + 2 (Hormozi, Niox-Chateau).
 - **Confiance** : moyenne (chiffres du tryout déclaratifs, C35).
 
 ### E4. Recrute la culture et la capacité à recevoir un retour avant la technique
@@ -140,8 +144,22 @@
   discriminatoire** (le recrutement genré évoqué par Yuergens est à rejeter).
 - **Sources** : [fiche:Ch4Sl0POBhU] F29, enseignement 9 ; [fiche:uJ8Pg6t_iho] framework 39 ;
   [fiche:HzoQgQS8czE] framework 29, Limites.
-- **Consensus** : 2 experts (Ralston, Yuergens).
-- **Confiance** : faible (cas individuels : Trevor, Jason).
+- **Ajouts du 2026-10-25 (décider et couper vite)** :
+  - Doctolib recrute sur quatre valeurs-filtres (service, bienveillance, apprentissage, capacité d'agir) ; « s'il y a
+    un doute, il y a pas de doute » ; aucune expertise ne compense l'absence de culture de l'action
+    [fiche:oeG8NWrWV4Y framework N] ;
+  - Welsh : « fire fast » ; un « culture killer » nuit plus qu'un performeur moyen [fiche:DJLtwT1Z0eo 00:55] ;
+  - Hormozi : « cut the fat, cut it fast » (un vendeur qui ne conclut pas en 1 à 2 semaines ne conclura pas, hors vente
+    complexe), pas de prima donna (« the cancer spreads »), décision annoncée dès l'embauche (14 jours)
+    [fiche:JE2_7elAcxM framework L étape 4, framework M] ;
+  - Cialdini : filtrer la **prédisposition** au recrutement, puis donner un focus sur le trait utile au poste (« my
+    guess is », supposition) [fiche:_hem3-8XbEI framework H] ;
+  - Halbert : embaucher « the most enthusiastic person, not necessarily the most qualified » (opinion non étayée)
+    [fiche:halbert-boron-letters ch. 5] (voir D6).
+  Une période d'essai ou une fin de mission se décide dans le respect du droit du travail et du contrat : ces délais
+  sont des pratiques d'auteurs américains, pas des règles applicables en France.
+- **Consensus** : 2 experts (Ralston, Yuergens) + 3 (Niox-Chateau, Welsh, Hormozi) ; Cialdini et Halbert en appui.
+- **Confiance** : moyenne pour le principe ; faible pour les seuils (cas individuels).
 
 ### E5. Démarre léger : freelances et agences pour tester, internalise les rôles critiques une fois le ROI prouvé
 - **Pourquoi** : pas de masse salariale avant le ROI ; rester agile. Mais une équipe interne, 100 % dédiée et
@@ -156,9 +174,15 @@
 - **Pour une marque d'entreprise / un studio B2B** : Sillage reste une structure légère (agents + freelances
   ponctuels) tant que le volume de commandes ne justifie pas un poste fixe.
 - **Sources** : [fiche:Ch4Sl0POBhU] F32, F33, F34 ; [fiche:Jmkq5RLjm0U] framework O.
-- **Consensus** : 2 experts (Ralston, Hormozi).
+- **Ajouts du 2026-10-25** : Hormozi a ramené en interne une équipe commerciale externalisée pour trois raisons : le
+  **coût** (20 % du CA encaissé), la **performance** (le prestataire filtrait pour ne garder que les ventes faciles) et
+  la **vendabilité** de l'entreprise (une équipe externe qui porte 20 à 40 % du CA est un risque pour un repreneur)
+  [fiche:JE2_7elAcxM framework L] ; Welsh fonctionne sans employé, avec des prestataires [fiche:DJLtwT1Z0eo 00:41] ;
+  MrBeast conseille au créateur qui lance un produit de s'associer à un expert du métier qui l'exploite
+  [fiche:xf0Mli0LVgI 00:38-00:42].
+- **Consensus** : 2 experts (Ralston, Hormozi) + 2 (Welsh, MrBeast).
 - **Confiance** : faible (délais « 60-90 jours », « 6 mois au lieu de 2-3 ans » : invérifiables, G08 ; prix
-  d'agences : plausibles, C24).
+  d'agences : plausibles, C24 ; chiffres de l'étude de cas d'Hormozi : calcul annoncé avec erreurs, voir la fiche).
 
 ### E6. Quand tu paies une agence, achète aussi la transmission : contrat d'apprentissage, SOP, deadline
 - **Pourquoi** : une agence est de la main-d'œuvre experte louée au prix fort ; sans transmission, on reste
