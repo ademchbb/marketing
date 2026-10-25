@@ -336,3 +336,4 @@ Leçon : 20 agents en parallèle épuisent le quota en ~2 h 30. Vagues de ~10 ag
   - [ ] architecte-agents : libellés « naming / nom de marque », « histoire du marketing », alias « emailing → email ».
   - [ ] concepteur-experiences lot 2 : + 8 tests (émotion vs rationnel, titre cible+problème vs bénéfice, création clivante d'exécution, bannière problème, CTA de transition scorecard, page de prix côte à côte, signature humaine et cadence newsletter, courrier B2B vs e-mail).
   - [ ] cartographe-lacunes : droit du courrier postal et du téléphone ; preuve d'une USP.
+- Lancé : analyste-transcription *$100M Offers* partie 1 (livre canon ; p2 et p3 quand des places se libèrent).

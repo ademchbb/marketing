@@ -26,6 +26,12 @@ Options :
   --vocabulaire TEXTE noms propres et termes à bien orthographier, séparés par des virgules
                       (défaut : auteur du podcast d'après le flux, ex. « Alex Hormozi » ; "" pour aucun)
   --beam N            largeur de faisceau (défaut 5 : qualité ; 1 : ~1,8 fois plus rapide, voir README)
+  --seuil-fuite N     contrôle : un segment qui reprend N mots consécutifs ou plus du vocabulaire, à cheval
+                      sur deux termes (« $100M Offers, Grand Slam Offer »), est une fuite du vocabulaire
+                      (défaut 4 ; 0 : pas de détection)
+  --trou-secondes S   contrôle : parole détectée (VAD) sans aucun texte pendant S s ou plus = passage sauté
+                      (défaut 6 ; 0 : pas de détection). Fuites et trous sont retranscrits SANS vocabulaire,
+                      consignés dans le journal, metadata.json et un commentaire <!-- contrôle … --> (voir README)
   --oui               ne demande pas confirmation pour une longue transcription (> 1 h d'audio)
   --simuler           affiche la sélection, l'ordre et le temps de calcul estimé, sans rien télécharger
   --sans-reprise      ignore les épisodes déjà transcrits lors d'un lancement interrompu (voir README)
@@ -44,6 +50,7 @@ Jamais d'audio dans la sortie : seuls le texte et les métadonnées sont écrits
 """
 import argparse, datetime, email.utils, hashlib, html, json, os, re, shutil, signal, sys, tempfile, time, unicodedata
 import urllib.error, urllib.request
+from bisect import bisect_left
 import xml.etree.ElementTree as ET
 from pathlib import Path
 
@@ -215,6 +222,144 @@ def charger_audio(chemin: Path, max_s=None):
     return audio
 
 
+# ---------- contrôle : fuites du vocabulaire et passages sautés ----------
+# faster-whisper place --vocabulaire (hotwords) dans le contexte « texte précédent » de CHAQUE fenêtre de 30 s.
+# Il arrive que le modèle recopie ce contexte au lieu d'écouter, puis termine la fenêtre : le vocabulaire
+# apparaît dans le texte et le reste de la fenêtre (jusqu'à 30 s de parole) disparaît. On repère donc
+# (1) les segments qui recopient le vocabulaire, (2) la parole détectée sans texte, et on retranscrit ces
+# passages sans vocabulaire.
+
+MOT = re.compile(r"\w+(?:['’.,]\w+)*")
+
+
+def suite_vocabulaire(vocabulaire):
+    """Mots du vocabulaire mis bout à bout (deux tours : une répétition est aussi une fuite) + fins de terme."""
+    termes = [[m.casefold() for m in MOT.findall(t)] for t in (vocabulaire or "").split(",")]
+    termes = [t for t in termes if t]
+    seq, fins = [], set()
+    for _ in range(2):
+        for t in termes:
+            seq += t
+            fins.add(len(seq) - 1)
+    return seq, fins
+
+
+def fuites(texte, seq, fins, n):
+    """Passages de texte qui reprennent >= n mots consécutifs de la suite du vocabulaire en franchissant
+    une limite entre deux termes -> [(début, fin) en caractères]. Un terme seul (« Grand Slam Offer ») passe."""
+    if not seq or not n:
+        return []
+    toks = [(m.group().casefold(), m.start(), m.end()) for m in MOT.finditer(texte)]
+    trouve, i = [], 0
+    while i < len(toks):
+        meilleur = 0
+        for j, w in enumerate(seq):
+            if w != toks[i][0]:
+                continue
+            k = 1
+            while i + k < len(toks) and j + k < len(seq) and toks[i + k][0] == seq[j + k]:
+                k += 1
+            if k >= n and k > meilleur and any(j <= f < j + k - 1 for f in fins):
+                meilleur = k
+        if meilleur:
+            trouve.append((toks[i][1], toks[i + meilleur - 1][2]))
+            i += meilleur
+        else:
+            i += 1
+    return trouve
+
+
+def retirer(texte, passages):
+    for d, f in reversed(passages):
+        while f < len(texte) and texte[f] in ",.;:!?":
+            f += 1
+        texte = texte[:d] + texte[f:]
+    return re.sub(r"\s+([,.;:!?])", r"\1", re.sub(r"\s{2,}", " ", texte)).strip()
+
+
+def nb_mots(segs):
+    return sum(len(s[-1].split()) for s in segs)
+
+
+def parole_vad(audio):
+    from faster_whisper.vad import VadOptions, get_speech_timestamps  # mêmes réglages que vad_filter=True
+    return [(c["start"] / TAUX, c["end"] / TAUX) for c in get_speech_timestamps(audio, VadOptions())]
+
+
+def trous(parole, segs, seuil):
+    """Intervalles de parole (VAD) non couverts par un segment, d'au moins `seuil` secondes."""
+    couvert, res = sorted((s, e) for s, e, _ in segs), []
+    for p0, p1 in parole:
+        t = p0
+        for s, e in couvert:
+            if e <= t or s >= p1:
+                continue
+            if s - t >= seuil:
+                res.append((t, s))
+            t = max(t, e)
+        if p1 - t >= seuil:
+            res.append((t, p1))
+    return res
+
+
+def controler(modele, audio, segs, options, vocabulaire, seuil_fuite, seuil_trou):
+    """segs : [(début, fin, texte)] relatifs à l'épisode. Retranscrit sans vocabulaire chaque passage suspect
+    (segment qui recopie le vocabulaire, ou parole sans texte) avec un segment de marge de chaque côté.
+    -> (segments [(début, texte)] avec commentaires <!-- contrôle … -->, liste des contrôles pour metadata)."""
+    duree = len(audio) / TAUX
+    seq, fins = suite_vocabulaire(vocabulaire)
+    starts = [s for s, _, _ in segs]
+    zones = []  # [t0, t1, raisons]
+    for k, (s, e, t) in enumerate(segs):
+        f = fuites(t, seq, fins, seuil_fuite)
+        if f:
+            t0 = segs[k - 1][0] if k > 0 else 0.0
+            t1 = segs[k + 1][1] if k + 1 < len(segs) else duree
+            zones.append([t0, t1, ["fuite du vocabulaire : « " + " / ".join(t[d:g] for d, g in f) + " »"]])
+    if seuil_trou:
+        for u0, u1 in trous(parole_vad(audio), segs, seuil_trou):
+            k = bisect_left(starts, u0) - 1  # dernier segment commencé avant le trou
+            t0 = segs[k][0] if k >= 0 else max(0.0, u0 - 1)
+            t1 = segs[k + 1][1] if k + 1 < len(segs) else min(duree, u1 + 1)
+            zones.append([t0, max(t1, u1), [f"trou : {u1 - u0:.0f} s de parole sans texte à partir de {ts(u0)}"]])
+    fusion = []
+    for z in sorted(zones):
+        if fusion and z[0] <= fusion[-1][1]:
+            fusion[-1][1] = max(fusion[-1][1], z[1])
+            fusion[-1][2] += z[2]
+        else:
+            fusion.append(z)
+    sortie = [[s, e, t] for s, e, t in segs]
+    controles, a_inserer = [], []
+    for t0, t1, raisons in fusion:
+        t0, t1 = max(0.0, t0 - 0.2), min(duree, t1 + 0.2)
+        dedans = [x for x in sortie if t0 <= (x[0] + x[1]) / 2 <= t1]
+        nettoye = [(s, e, retirer(t, fuites(t, seq, fins, seuil_fuite))) for s, e, t in dedans]
+        morceau, _ = modele.transcribe(audio[int(t0 * TAUX):int(t1 * TAUX)], **options)
+        neufs = [(round(t0 + s.start, 2), round(t0 + s.end, 2), propre(s.text)) for s in morceau if propre(s.text)]
+        fuite = any("fuite" in r for r in raisons)
+        if nb_mots(neufs) >= 0.8 * nb_mots(nettoye) and nb_mots(neufs) > (0 if fuite else nb_mots(nettoye)):
+            action, garde = "retranscrit sans vocabulaire", neufs
+        elif fuite:
+            action, garde = "fuite retirée (la retranscription sans vocabulaire était moins complète)", nettoye
+        else:
+            action, garde = "inchangé : pas de parole supplémentaire reconnue (musique, silence ?)", None
+        c = {"debut_s": round(t0, 1), "fin_s": round(t1, 1), "raisons": raisons, "action": action,
+             "mots_avant": nb_mots(dedans), "mots_apres": nb_mots(garde if garde is not None else dedans)}
+        controles.append(c)
+        if garde is not None:
+            ids = {id(x) for x in dedans}
+            sortie = [x for x in sortie if id(x) not in ids]
+            sortie += [[s, e, t] for s, e, t in garde if t]
+            a_inserer.append((t0, f"<!-- contrôle {ts(t0)}–{ts(t1)} : {' ; '.join(raisons)} -> {action} "
+                                  f"({c['mots_avant']} -> {c['mots_apres']} mots) -->"))
+    sortie.sort(key=lambda x: x[0])
+    res = [(round(s, 2), t) for s, _, t in sortie]
+    for t, com in a_inserer:  # le commentaire précède le passage retranscrit
+        res.insert(bisect_left([x[0] for x in res], t), (round(t, 2), com))
+    return res, controles
+
+
 # ---------- sortie ----------
 
 def ts(sec):
@@ -252,6 +397,11 @@ def ecrire(d: Path, meta, par_episode):
               f"Durée transcrite : {ts(meta['duree_transcrite_s'])} · Épisodes : {len(eps)} · Publié : {', '.join(dates)}",
               f"- Flux RSS : {meta['flux']}",
               f"- Transcription : faster-whisper {meta['modele']} beam {meta.get('beam', 5)} (CPU, automatique, à relire), langue {meta['langue_transcription']}"]
+    ctl = [c for e in eps for c in e.get("controles", [])]
+    faits = [c for c in ctl if not c["action"].startswith("inchangé")]
+    lignes.append(f"- Contrôle vocabulaire / passages sautés : {len(faits)} passage(s) corrigé(s), signalés par "
+                  f"<!-- contrôle … --> ; {len(ctl) - len(faits)} trou(s) sans parole reconnue (metadata.json)"
+                  if ctl else "- Contrôle vocabulaire / passages sautés : rien à corriger")
     if meta.get("max_secondes"):
         lignes.append(f"- TEST : limité aux {meta['max_secondes']} premières secondes de chaque épisode")
     lignes += ["", "## Épisodes", ""]
@@ -289,6 +439,8 @@ def arguments():
     ap.add_argument("--threads", type=int, default=os.cpu_count() or 4)
     ap.add_argument("--beam", type=int, default=5)
     ap.add_argument("--vocabulaire")
+    ap.add_argument("--seuil-fuite", type=int, default=4)
+    ap.add_argument("--trou-secondes", type=float, default=6.0)
     ap.add_argument("--oui", action="store_true")
     ap.add_argument("--simuler", action="store_true")
     ap.add_argument("--sans-reprise", action="store_true")
@@ -316,7 +468,8 @@ def charger_modele(nom, threads):
 
 
 def cle_reprise(e, a):
-    return hashlib.sha1(json.dumps([e["guid"], e["audio_url"], a.modele, a.langue, a.max_secondes, a.beam, a.vocabulaire]).encode()).hexdigest()[:16]
+    return hashlib.sha1(json.dumps([e["guid"], e["audio_url"], a.modele, a.langue, a.max_secondes, a.beam, a.vocabulaire,
+                                  a.seuil_fuite, a.trou_secondes, "controle-v1"]).encode()).hexdigest()[:16]
 
 
 def main():
@@ -414,16 +567,21 @@ def main():
             shutil.rmtree(tmp, ignore_errors=True)
         secondes = len(audio) / TAUX
         t2 = time.time()
-        segments, info = modele.transcribe(audio, language=langue, beam_size=a.beam, vad_filter=True, hotwords=vocabulaire or None,
-                                           condition_on_previous_text=False)
-        relatifs = [(round(s.start, 2), propre(s.text)) for s in segments if propre(s.text)]
+        options = dict(language=langue, beam_size=a.beam, vad_filter=True, condition_on_previous_text=False)
+        segments, info = modele.transcribe(audio, hotwords=vocabulaire or None, **options)
+        bruts = [(round(s.start, 2), round(s.end, 2), propre(s.text)) for s in segments if propre(s.text)]
+        relatifs, controles = controler(modele, audio, bruts, options, vocabulaire, a.seuil_fuite, a.trou_secondes)
+        for c in controles:
+            print(f"  contrôle [{ts(decalage + c['debut_s'])}–{ts(decalage + c['fin_s'])}] {' ; '.join(c['raisons'])}"
+                  f" -> {c['action']} ({c['mots_avant']} -> {c['mots_apres']} mots)", flush=True)
         segs = [(decalage + t, txt) for t, txt in relatifs]
         t_calc = time.time() - t2
         calcul += t_calc
         langue_vue = langue_vue or info.language
         m_ep = ({k: e[k] for k in ["titre", "date", "duree_s", "numero", "guid", "lien", "audio_url", "description"]}
                 | {"chapitres": chapitres(e["description"]), "secondes_transcrites": round(secondes, 1),
-                   "langue_detectee": info.language, "nb_segments": len(segs)})
+                   "langue_detectee": info.language, "nb_segments": sum(not t.startswith("<!--") for _, t in segs),
+                   "controles": controles})
         fichier_reprise.write_text(json.dumps({"meta": m_ep, "segments": relatifs, "calcul_s": round(t_calc, 1)},
                                               ensure_ascii=False), encoding="utf-8")
         meta_eps.append(m_ep | {"debut_dans_source_s": round(decalage, 1)})
@@ -438,7 +596,8 @@ def main():
             "podcast": podcast, "flux": a.flux, "episodes": meta_eps,
             "duree_transcrite_s": round(decalage, 1), "max_secondes": a.max_secondes,
             "modele": a.modele, "beam": a.beam, "vocabulaire": vocabulaire, "langue_transcription": langue or langue_vue,
-            "nb_segments": sum(len(s) for s in par_episode),
+            "nb_segments": sum(e["nb_segments"] for e in meta_eps),
+            "seuil_fuite": a.seuil_fuite, "trou_secondes": a.trou_secondes,
             "date_transcription": datetime.date.today().isoformat(),
             "vitesse_temps_reel": round(decalage / max(calcul, 0.01), 2)}
     d = a.sortie / slug

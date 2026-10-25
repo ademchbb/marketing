@@ -108,6 +108,8 @@ M9 à M13 ont gagné des soutiens : ils restent à leur place pour garder la num
 - **Sources** : [fiche:Jmkq5RLjm0U] enseignement 1, frameworks K et S ; [fiche:Ch4Sl0POBhU] enseignement 2
   [01:19-01:23] ; [fiche:uJ8Pg6t_iho] enseignement 1 ; [fiche:AA1LoZwW_2Y] enseignement 9 [00:55:20].
 - **Consensus** : 4 experts (Hormozi, Ralston, Lee ; Yuergens mesure en leads : 13 000 commentaires → clients).
+  Ajout 2026-10-25 : 5 experts avec Gary Vaynerchuk (« mesurer les conversions, pas les vues »
+  [fiche:IWuVEcQexWo playbook 8]). Galloway défend la position inverse pour les créateurs (désaccord D13).
 - **Confiance** : moyenne. Principe très convergent, mais toutes les preuves chiffrées sont internes ou
   déclaratives (registre C19, C40, C26, C36 plausibles, faibles ; G09 « 1 000 true fans » = heuristique).
 
@@ -128,6 +130,9 @@ M9 à M13 ont gagné des soutiens : ils restent à leur place pour garder la num
 - **Sources** : [fiche:Ch4Sl0POBhU] F39, F44, enseignement 10 [06:04-06:19] ; [fiche:uJ8Pg6t_iho]
   enseignement 1, framework 10 ; [fiche:Jmkq5RLjm0U] enseignement 5, framework P (SPCL).
 - **Consensus** : 3 experts (Ralston, Hormozi ; Yuergens implicitement : la valeur précède toujours le CTA).
+  Ajout 2026-10-25 : 5 experts avec Gary Vaynerchuk (« valeur avant vente », *Jab, Jab, Jab, Right Hook*, 2013,
+  V4B-GV03 ✅ [fiche:IWuVEcQexWo enseignement 1]) et Abraham (« most trusted advisor for life »
+  [fiche:Ge8xTCIP0Zw enseignement 1]).
 - **Confiance** : moyenne. Heuristique d'expérience, aucune donnée publique comparative.
 
 ### M3. Vends par la preuve réelle, jamais par l'injonction ni par un témoignage inventé
@@ -150,7 +155,12 @@ M9 à M13 ont gagné des soutiens : ils restent à leur place pour garder la num
 - **Sources** : [fiche:Ch4Sl0POBhU] F43 [06:14], F19.4 ; [fiche:HzoQgQS8czE] frameworks 18 et 21 ;
   [fiche:Jmkq5RLjm0U] framework P (Credibility), V.4 ; [fiche:uJ8Pg6t_iho] framework 2 (Credibility Bank).
 - **Consensus** : 4 experts (Ralston, Yuergens, Hormozi ; Lee dans le sens inverse comme contre-exemple :
-  témoignages promotionnels non vérifiés, registre C44).
+  témoignages promotionnels non vérifiés, registre C44). Ajout 2026-10-25 : 6 experts avec Koe (témoignages
+  réels comme preuve, « if you can't deliver and you don't refund them, that's a scam » [fiche:SUzKZfyaAK8
+  framework R]) et MrBeast (preuve avant annonce [fiche:xf0Mli0LVgI enseignement 10]) ; Hormozi y ajoute
+  « proof over promise » et le témoignage présenté comme « non vérifié » [fiche:6_CCutkM11g framework E, scripts].
+  Règle de droit : un avis présenté comme venant d'un vrai client exige des mesures de vérification, et la méthode
+  se dit (OU06 ✅).
 - **Confiance** : haute. Convergence forte et alignement avec une règle non négociable du repo. Les chiffres
   d'exemple (C02, C39) restent invérifiables et ne sont pas réutilisables.
 
@@ -169,7 +179,9 @@ M9 à M13 ont gagné des soutiens : ils restent à leur place pour garder la num
   checklist → page « Votre lancement » (rendus réels, process en étapes) → appel de 20 min.
 - **Sources** : [fiche:HzoQgQS8czE] frameworks 18-21 ; [fiche:uJ8Pg6t_iho] playbook 25 ;
   [fiche:Jmkq5RLjm0U] framework K.5 ; [fiche:AA1LoZwW_2Y] framework H.
-- **Consensus** : 4 experts.
+- **Consensus** : 4 experts. Ajout 2026-10-25 : 6 experts avec Leloup (page de capture dès les premiers
+  visiteurs [fiche:11rNI6BUey4 framework L]) et Koe (distribution possédée dès le premier jour [fiche:SUzKZfyaAK8
+  playbook 6]). Détail de la capture : `generation-leads.md`.
 - **Confiance** : moyenne pour le principe ; **faible** pour tous les chiffres associés (C02 7,9 M vues →
   2 M$ ARR, C06 40 % de closing : plausibles, faibles ; G10 taux de Mino : invérifiables). Conflit
   d'intérêts : l'épisode d'Ava est sponsorisé par ManyChat.
