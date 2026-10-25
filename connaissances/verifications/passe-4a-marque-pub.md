@@ -1,3 +1,7 @@
+> **Fusionné dans registre.md le 2026-10-25.** Ce fichier est une archive ; en cas d'écart, `registre.md` fait foi
+> (section P ; les sections K, T, S, H, O, M ci-dessous y deviennent les sous-sections P-K, P-T, P-S, P-H, P-O, P-M,
+> sans lien avec les sections K, H, O, M du droit des offres ; identifiants V4A- et verdicts inchangés).
+
 # Passe n°4a : marque, publicité, copywriting (récits, chiffres, attributions)
 
 > Tenu par `verificateur-faits`. **Passe n°4a : 2026-10-22.** Fichier séparé, **à fusionner plus tard dans

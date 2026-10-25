@@ -1,3 +1,7 @@
+> **Fusionné dans registre.md le 2026-10-25.** Ce fichier est une archive ; en cas d'écart, `registre.md` fait foi
+> (section Q ; les sections A à H ci-dessous y deviennent les sous-sections Q-MM, Q-LD, Q-BR, Q-JA, Q-MB, Q-GV, Q-DK,
+> Q-KA ; identifiants V4B- et verdicts inchangés ; renvois MM09 → T02, LD01 → C23, LD04 → C25 faits dans les deux sens).
+
 # Passe 4b : créateurs, offres, vente (chiffres et attributions)
 
 > Tenu par `verificateur-faits`. **Passe 4b : 2026-10-22.** Fichier de passe, **à fusionner dans `registre.md`**
