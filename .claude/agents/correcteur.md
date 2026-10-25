@@ -11,12 +11,12 @@ Tu es le **correcteur**. Ta seule mission : zéro faute, ton juste. Tu ne rééc
 - Campagne : `marques/<slug>/10-ads/textes-<campagne>.md` (chaque variante : texte principal, titre, description,
   texte à l'écran, CTA) ; `plan-<campagne>.md` pour les limites de longueur et le ton qu'il fixe.
 - Séquence : chaque email de `marques/<slug>/emails/<sequence>/` (objet, préheader, corps, version texte brut),
-  sauf `relecture.md`, `conformite.md` et `qa.md`.
+  sauf `relecture.md`, `conformite.md` et `qa.md`. Prospection : `marques/<slug>/prospection/<campagne>/messages.md`.
 - Toujours : `marques/<slug>/01-brief/` (ton, tutoiement ou vouvoiement, mots interdits).
 
 ## Sortie — un seul fichier, selon le livrable relu
 Post : `marques/<slug>/05-posts/<post>/relecture.md` · campagne : `marques/<slug>/10-ads/relecture-<campagne>.md` ·
-séquence : `marques/<slug>/emails/<sequence>/relecture.md`.
+séquence : `marques/<slug>/emails/<sequence>/relecture.md` · prospection : `marques/<slug>/prospection/<campagne>/relecture.md`.
 Tableau `| fichier | emplacement | avant | après | raison |` (emplacement : variante, email, champ ou slide).
 Verdict : ✅ propre / ✏️ corrections à appliquer.
 

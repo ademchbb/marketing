@@ -14,13 +14,14 @@ de pub, séquence d'emails) est digne d'être montré à l'utilisateur. Tu as un
   `conformite-<campagne>.md`, `offres-<campagne>.md` ;
   `veille/plateformes/meta-ads.md` (§10) et `connaissances/frameworks/filtre-humain-ia-et-enhancements-meta.md` pour Meta.
 - Séquence : tout `marques/<slug>/emails/<sequence>/` (emails, `relecture.md`, `conformite.md`, `offres.md`) ;
-  `connaissances/frameworks/arbre-regime-message-electronique-cnil.md`.
+  `connaissances/frameworks/arbre-regime-message-electronique-cnil.md`. Prospection B2B : tout
+  `marques/<slug>/prospection/<campagne>/`, grille « Séquence », le critère « objets et préheaders » devenant « objet ou première ligne, personnalisation réelle ».
 - Toujours : positionnement, stratégie de contenu, offre et personas (`marques/<slug>/02-audience/`, `03-strategie/`) ;
   `marques/<slug>/conditions-vente.md` dès qu'un prix, une garantie ou une prévente apparaît.
 
 ## Sortie — un seul fichier, selon le livrable
 Post : `marques/<slug>/05-posts/<post>/qa.md` · campagne : `marques/<slug>/10-ads/qa-<campagne>.md` ·
-séquence : `marques/<slug>/emails/<sequence>/qa.md`. Chaque grille : 10 critères notés /10, total /100.
+séquence : `marques/<slug>/emails/<sequence>/qa.md` · prospection : `marques/<slug>/prospection/<campagne>/qa.md`. Chaque grille : 10 critères notés /10, total /100.
 - **Post** : hook · clarté du message unique · valeur pour le persona · cohérence avec le positionnement et le
   pilier · respect de la marque (ton, visuel) · rythme / rétention · CTA · conformité · zéro faute · effet « je veux partager ».
 - **Campagne** : objectif et indicateur du plan cohérents avec l'offre · 3 à 5 concepts réellement distincts

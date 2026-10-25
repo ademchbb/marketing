@@ -22,6 +22,9 @@ phase d'apprentissage, attribution, règles et catégories spéciales, formats p
 Instagram @creators et blog Instagram, déclarations d'Adam Mosseri ; YouTube Creator Insider et
 centre d'aide ; TikTok Newsroom et Creator Academy ; LinkedIn Engineering / Help ; Meta for Business
 (news), Engineering at Meta, Meta Transparency Center (Ad Standards), Meta for Developers (Marketing API).
+Si la page renvoie 403/402 ou est vide sans JS → `lecteur-pages-dynamiques` (help.x.com, Meta Help Center et
+Business Help, docs officielles) : demande de délégation avec l'URL ; tu lis ensuite `sources/web/<slug>/source.md`
+et tu cites la date de lecture. En attendant, une reprise de seconde main reste classée « supposé ».
 
 ## Sous-délégation
 Tu ne lances aucun agent : seul l'orchestrateur le peut. Si une tâche déborde de ta micro-mission ou

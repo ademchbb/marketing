@@ -1,6 +1,17 @@
 # The Boron Letters — Gary C. Halbert
 https://www.thegaryhalbertletter.com/Boron/BoronLetterCh1.htm (ch. 1-3 : `BoronLetterCh<n>.htm` ; ch. 4-25 : `TChapter<n>.htm`) · 25 lettres, environ 35 900 mots (dont environ 3 600 de commentaires de Bond Halbert) · vues : sans objet (texte) · publié en 1984 (lettres du 12 juin au 7 juillet ; édition en ligne 2005, Copyright © 2005 Gary C. Halbert) · analysé le 2026-10-22
 
+> **Revalidation 2026-10-25** : chiffres et attributions tranchés par la passe 4a du registre (section P-H,
+> V4A-H01 à H08 : 2 ✅, 2 🟡, 1 ❌, 3 ❓). Portés dans la fiche : la lettre au billet d'un dollar (90 % de
+> réponse) reste ❓, sans trace indépendante ; armoiries (7 156 000 clients, 40 M$) 🟡 autodéclarés, avec
+> l'**ordonnance de la Poste américaine de novembre 1995** contre la société Halbert's (fausse recommandation
+> par un parent), ajoutée à la section éthique ; *National Enquirer* « journal le plus vendu au monde » ❌ ;
+> motif de la condamnation ❓ (rien à écrire) ; « Arthur Haley » = Alex Haley ✅ mais l'anecdote de la copie de
+> livres reste ❓. Retouches : « Old Aesop Glimm » est nommé au **ch. 19** (le chroniqueur de *Printers' Ink*
+> est évoqué sans son nom au ch. 14 ; rien au ch. 24), pseudonyme confirmé (✅ V4A-H05). Tags : ajout de
+> `marketing-direct`, retrait de `conformite-juridique` (la source ne traite pas du droit). Aucun point daté par
+> la veille plateformes. Note de fiabilité inchangée.
+
 > **Nature de la source** : 25 lettres écrites par le copywriter de réponse directe **Gary C. Halbert** depuis
 > la prison fédérale de Boron (Californie) à son fils **Bond**, 15 ans puis 16 ans le 26 juin 1984. Elles ont
 > été écrites **d'un jet, une heure par jour, sans relecture** : Gary prévient qu'elles ne seront pas « as
@@ -137,15 +148,17 @@ Concentrate On A Product! » [ch. 22]
      doit ressembler à « a rave review written by a reporter », « an exciting news flash » ; l'éditorial
      serait lu cinq fois plus que la publicité [ch. 18].
    - **Cas des armoiries** : catalogue quadrichromie de ~70 articles (« It bombed ») → brochure de 3 articles
-     (point mort) → lettre très personnelle avec un instantané de l'article phare (40 M$ annoncés) [ch. 18].
-     « YOU CAN DO A BETTER SELLING JOB WHEN AT FIRST IT DOES NOT APPEAR YOU ARE ATTEMPTING TO DO A SALES
-     JOB. »
+     (point mort) → lettre très personnelle avec un instantané de l'article phare (40 M$ annoncés, chiffre
+     autodéclaré sans trace publique, 🟡 [verif:V4A-H02]) [ch. 18]. « YOU CAN DO A BETTER SELLING JOB WHEN AT
+     FIRST IT DOES NOT APPEAR YOU ARE ATTEMPTING TO DO A SALES JOB. »
    - **Bon de commande caché** dans une note pliée, lu « at the proper time… after he has read our letter »
      [ch. 14]. Beaucoup de lecteurs lisent le titre puis vont droit au coupon.
    - « Businesslike personal » : personnel sans faire amateur ; photos et texte typographié dans le pli
      ajoutent « an air of stability » [ch. 14].
    - **Limite d'honnêteté** : ce principe devient trompeur dès qu'on simule un expéditeur, une écriture
-     manuscrite ou une relation personnelle (voir « Limites »).
+     manuscrite ou une relation personnelle (voir « Limites ») ; la société Halbert's a d'ailleurs reçu en
+     1995 une ordonnance de la Poste américaine pour avoir faussement suggéré qu'un parent du destinataire
+     avait envoyé ou recommandé l'offre (🟡 [verif:V4A-H02], source secondaire).
 
 7. **L'attention doit être du bon type : un objet ou une accroche intrigante, reliée naturellement à l'offre
    et justifiée dès les premières lignes. Jamais de « cheap trick ».** [ch. 11] [ch. 14] [ch. 16] [ch. 21]
@@ -156,11 +169,15 @@ Concentrate On A Product! » [ch. 22]
    - Justifier l'objet tout de suite, souvent « for two reasons » : attirer l'attention, et un lien avec le
      message (le penny japonais parce que le sujet a été découvert au Japon) [ch. 14] [ch. 21] [ch. 24].
    - Contre-exemples : le titre « A Submarine That Flies? … No, we don't have a submarine that flies but our
-     pink pills » (« A cheap shot. People resent this kind of fraud. Don't do it. ») [ch. 14] ; la fausse
-     contravention sous l'essuie-glace, qui marque mais fait associer l'entreprise à la peur et à la colère :
-     « No Sale! » [ch. 24].
+     pink pills » (« A cheap shot. People resent this kind of fraud. Don't do it. »), exemple repris d'un
+     chroniqueur de *Printers' Ink* dont Gary oublie le pseudonyme au ch. 14 et le donne au ch. 19 (« Old Aesop
+     Glimm », c'est-à-dire **Aesop Glim**, ✅ [verif:V4A-H05]) [ch. 14] ; la fausse contravention sous
+     l'essuie-glace, qui marque mais fait associer l'entreprise à la peur et à la colère : « No Sale! »
+     [ch. 24].
    - Cas d'école : la lettre au billet d'un dollar du *Robert Collier Letter Book* (collecte pour un hôpital
-     pour enfants) [ch. 24].
+     pour enfants) [ch. 24]. Son résultat (« better than a 90% response ») est ❓ [verif:V4A-H01] : aucune trace
+     indépendante, et Gary note lui-même « (must reread) ». À citer comme exemple de mécanique, jamais comme
+     preuve chiffrée.
    - Transposition (déduction) : en vidéo ou en e-mail, un élément montré en ouverture qui annonce le sujet ;
      jamais de fausse notification ou de faux élément d'interface (dark pattern).
 
@@ -395,7 +412,10 @@ culpabilité : voir « Limites ».
    - pourquoi : intérioriser les mots, le rythme, la structure des phrases et la séquence des informations ;
      c'est aussi une discipline que les concurrents « paresseux » ou trop « sophisticated » refusent ;
    - modèle cité : un romancier qui recopiait de grands livres et voyageait dans la cale de cargos pour
-     écrire une traversée. Gary le nomme « Arthur Haley », auteur de *Roots* : il s'agit d'**Alex Haley**.
+     écrire une traversée. Gary le nomme « Arthur Haley », auteur de *Roots* : il s'agit d'**Alex Haley** (✅
+     [verif:V4A-H07]). L'anecdote de la copie de grands livres à la main n'apparaît dans aucune biographie lue
+     (❓ [verif:V4A-H06] : en mer, il lisait, écrivait des nouvelles et tapait des lettres d'amour pour ses
+     camarades). Ne pas répéter l'anecdote ; la méthode de copie se défend sans cet exemple.
 5. **Lecture à voix haute** des mêmes textes gagnants, en plus de la copie [ch. 22] : « internally imprinted
    on your nerves, muscle fibers, brain cells ».
 6. **Critique** d'une lettre existante (celle d'Eric, immobilier hawaïen) à la lumière des techniques
@@ -543,7 +563,9 @@ ordres de grandeur, pas une règle.
     trompe ou effraie [ch. 14] [ch. 24].
 12. **Personnaliser honnêtement** : nommer le lecteur ou son groupe ; un cadre daté et situé n'est permis que
     s'il est **sincère** (envoi réellement individuel ou explicitement collectif). Pas de faux expéditeur,
-    pas d'imitation d'écriture manuscrite présentée comme authentique [ch. 11] [ch. 12] [ch. 14].
+    pas d'imitation d'écriture manuscrite présentée comme authentique, et jamais de fausse recommandation par
+    un proche (sanctionnée par la Poste américaine contre Halbert's en 1995, [verif:V4A-H02]) [ch. 11]
+    [ch. 12] [ch. 14].
 13. **Construire en AIDA** et vérifier que chaque étape existe : attention pertinente, faits spécifiques,
     bénéfices concrets (même évidents), action guidée [ch. 15] [ch. 16].
 14. **Montrer le prix et le formulaire après l'argumentaire** (page de vente, e-mail long, carrousel :
@@ -629,6 +651,8 @@ ordres de grandeur, pas une règle.
 - Teaser d'enveloppe : « WOW! There is exciting news inside! » [ch. 11].
 - Accroche trompeuse : « A Submarine That Flies? … No, we don't have a submarine that flies but… » [ch. 14].
 - Fausse contravention : « But He Will Remember The Company With Distaste! … No Sale! » [ch. 24].
+- Superlatif non prouvé : « the largest selling newspaper in the world - BY FAR! » [ch. 5], faux (❌
+  [verif:V4A-H03]) ; exemple de ce qu'on n'écrit jamais pour une marque cliente (règle OC04 du registre).
 
 **Maximes**
 - « The only advantage I want, is A STARVING CROWD! » [ch. 6]
@@ -669,11 +693,18 @@ ordres de grandeur, pas une règle.
 - « You Don't Have To Get It Right... You Just Have To Get It MOVING! » [ch. 20]
 
 ## Affirmations chiffrées (à vérifier)
-Toutes viennent de Gary (1984), écrites de mémoire en prison, sans documentation. Aucune n'est vérifiée.
-Montants en dollars de 1984.
+Toutes viennent de Gary (1984), écrites de mémoire en prison, sans documentation. Montants en dollars de 1984.
+**Verdicts portés le 2026-10-25** d'après `connaissances/verifications/registre.md`, section P-H (✅ confirmé,
+🟡 plausible, ❌ contredit, ❓ invérifiable) ; les lignes sans verdict n'ont pas été traitées par la passe 4a.
+Règle : au plus « Halbert affirme… », jamais comme fait ni comme preuve d'une tactique.
 
 **Résultats de campagnes revendiqués**
-- **Armoiries familiales** (probablement **une seule opération**, racontée à plusieurs endroits) :
+- 🟡 [verif:V4A-H02] **Armoiries familiales** (probablement **une seule opération**, racontée à plusieurs
+  endroits). Chiffres **autodéclarés**, sans trace publique. L'entreprise existe bien (Halbert's, Bath, Ohio)
+  et envoyait des sollicitations sur les noms de famille à des centaines de milliers de personnes par an ; en
+  **novembre 1995**, la Poste américaine lui a ordonné de cesser de prétendre faussement qu'un parent du
+  destinataire avait envoyé ou recommandé l'offre (source secondaire, Ancestral Findings). Les héraldistes
+  rappellent qu'un nom de famille ne donne aucun droit à des armoiries (même source).
   - envoyée avec grand succès à des noms tirés de l'annuaire [ch. 9], sans chiffre ;
   - lettre du rapport sur le nom de famille : une page, 361 mots, plus de 7 millions de clients (« actually
     7,156,000 »), « one of the most successful sales letters in history » [ch. 18] ;
@@ -684,18 +715,23 @@ Montants en dollars de 1984.
     tout en contenant « a photograph of the wall plaque », ce qui la rapproche de la lettre à l'instantané du
     ch. 18 : **c'est très probablement la même campagne et le même chiffre de 40 M$, pas deux succès
     indépendants** (déduction). Ne jamais additionner ni citer deux fois.
-- Rapport « How To Collect From Social Security At Any Age! » : 800 000 $ [ch. 22].
+- 🟡 [verif:V4A-H08] Rapport « How To Collect From Social Security At Any Age! » : 800 000 $ [ch. 22]. Chiffre
+  de l'auteur, de mémoire, sans trace publique.
 - « How To Buy L.A. Real Estate With No Money Down » : « much better » que la version générique [ch. 9], sans
   chiffre.
-- Penny japonais « working like crazy », peso mexicain « a great puller », objets attachés qui ont « always
-  gotten a lot of attention » [ch. 16] [ch. 24], sans chiffre.
-- Lettre au billet d'un dollar (*The Robert Collier Letter Book*) : « better than a 90% response » et des
-  dizaines de millions de dollars de dons ; « probably the most effective direct mail promotion ever mailed »
-  [ch. 24]. **À vérifier en priorité** : taux extraordinaire, et Gary note lui-même « (must reread) ».
-- Les annonces à recopier auraient rapporté « millions and even tons of dollars » [ch. 17] (« tons » est
-  sans doute une coquille).
+- 🟡 [verif:V4A-H08] Penny japonais « working like crazy », peso mexicain « a great puller », objets attachés
+  qui ont « always gotten a lot of attention » [ch. 16] [ch. 24], sans chiffre.
+- ❓ [verif:V4A-H01] Lettre au billet d'un dollar (*The Robert Collier Letter Book*) : « better than a 90%
+  response » et des dizaines de millions de dollars de dons ; « probably the most effective direct mail
+  promotion ever mailed » [ch. 24]. Le texte de Halbert, relu, porte lui-même « (must reread) » à côté de la
+  référence. Le livre existe (McGraw-Hill, 1931 ; rééditions jusqu'en 1950), mais **aucune trace
+  indépendante** de cette lettre ni de son taux n'a été trouvée. Un taux de réponse de 90 % sur un envoi de
+  masse est hors de tout ordre de grandeur connu. Ne pas citer.
+- 🟡 [verif:V4A-H08] Les annonces à recopier auraient rapporté « millions and even tons of dollars » [ch. 17]
+  (« tons » est sans doute une coquille).
 
-**Projections (calculs illustratifs, pas des résultats) — avec les erreurs de Gary**
+**Projections (calculs illustratifs, pas des résultats) — avec les erreurs de Gary** (non revérifiées par la
+passe 4a, qui renvoie aux erreurs déjà relevées ici)
 - **Rapport sur le QI** [ch. 8] : 19,95 $ + 2,75 $ de port = 22,70 $ ; coût d'exécution ~5 $ (dont 10 % pour
   le médecin auteur) ; contribution annoncée **15 $** par vente, alors que 22,70 − 5 = **17,70 $** (sauf frais
   non précisés) ; taux de réponse supposé 5 % (optimiste) ; 50 commandes × 22,70 $ = 1 135 $ ; − 250 $
@@ -723,7 +759,7 @@ Montants en dollars de 1984.
 - Ne jamais les reprendre comme chiffres ; s'en servir uniquement comme gabarits de précision, à remplir avec
   des données réelles et sourcées.
 
-**Affirmations générales non sourcées**
+**Affirmations générales non sourcées** (non traitées par la passe 4a, déjà marquées non fiables)
 - Le contenu éditorial serait lu cinq fois plus que la publicité ; la bonne mise en page apporterait jusqu'à
   500 % de lectorat en plus [ch. 18].
 - Décision « j'aime / je n'aime pas » en une fraction de seconde (théorie personnelle déclarée) ; recruteur
@@ -734,9 +770,11 @@ Montants en dollars de 1984.
   mémoire) [ch. 19].
 - ~1 500 messages commerciaux par jour (« someone once said ») [ch. 24].
 - Sondage du brasseur : ~80 % disent préférer le premium [ch. 5] (anecdote non sourcée).
-- Le *National Enquirer* serait « the largest selling newspaper in the world - BY FAR! » [ch. 5] : très
-  probablement faux ou exagéré (de grands quotidiens japonais tiraient davantage, déduction). « More people
-  read the National Enquirer in one single week than have ever read the Bible » : hyperbole invérifiable.
+- ❌ [verif:V4A-H03] Le *National Enquirer* serait « the largest selling newspaper in the world - BY FAR! »
+  [ch. 5]. Pic de **5,7 M** d'exemplaires en 1978, un peu moins de **4,6 M** en 1981, 3,1 M en 1994
+  (hebdomadaire) ; le *Yomiuri Shimbun* (quotidien) dépassait 10 M d'exemplaires du matin selon Guinness.
+  Chiffre du *Yomiuri* pour 1984 non trouvé, mais « by far » est faux dans tous les cas. « More people read the
+  National Enquirer in one single week than have ever read the Bible » : hyperbole invérifiable.
 - La VPC pèse « billions of dollars » par an [ch. 8].
 - Tout le monde ouvre tout son courrier pile A ; le principe serait ignoré par « almost every advertising
   agency » [ch. 11].
@@ -770,15 +808,19 @@ Montants en dollars de 1984.
 - **Calculs** : 15 $ au lieu de 17,70 $ [ch. 8] ; 9 920 $ au lieu de 7 920 $ [ch. 9] ; « 70 $ » au lieu de
   ~67 $ [ch. 12]. Les calculs illustrent un raisonnement ; **refaire chaque addition** avant de réutiliser un
   exemple.
-- **« Arthur Haley »** [ch. 17] : l'auteur de *Roots* est **Alex Haley** ; Arthur Hailey est un autre
-  romancier (*Airport*, *Hotel*). Le voyage en cale de cargo d'Alex Haley est documenté ; l'habitude de
-  recopier de grands livres à la main reste à vérifier.
+- **« Arthur Haley »** [ch. 17] : l'auteur de *Roots* est **Alex Haley** (✅ [verif:V4A-H07]) ; Arthur Hailey
+  est un autre romancier (*Airport*, *Hotel*). Le voyage en cale de cargo d'Alex Haley est documenté ;
+  l'habitude de recopier de grands livres à la main n'apparaît dans aucune biographie lue (❓
+  [verif:V4A-H06]) : ne pas répéter l'anecdote.
 - **Dates** : la lettre d'exemple datée « Friday… June 12, 1984 » (un mardi) [ch. 11] ; le ch. 25 daté
   « Friday… July 7, 1984 » (un samedi). Sans conséquence.
 - **Coquilles et lapsus** : « OBVIOUSLY contain a personal message » pour « commercial » [ch. 11] ; « on my
   back » pour « bunk » [ch. 12] ; « MD and DM » pour « MO and DM » [ch. 16] ; « give your prospect a life »
-  pour « a lift » [ch. 19] ; « Old Aesop Glimm » (orthographe courante « Aesop Glim », chroniqueur de
-  *Printers' Ink*, identité à vérifier) [ch. 14] [ch. 24]. Le sens n'est jamais bloqué.
+  pour « a lift » [ch. 19] ; « Old Aesop Glimm » [ch. 19] (le chroniqueur de *Printer's Ink* est évoqué sans
+  son nom au ch. 14, « I forget the guys pen name », puis nommé au ch. 19) : l'orthographe juste est **Aesop
+  Glim**, pseudonyme dont les leçons parues dans *Printers' Ink* forment *How Advertising Is Written – and
+  Why* (McGraw-Hill, 1945) et *Copy, the Core of Advertising* ; l'état civil de l'auteur n'est pas confirmé (✅
+  [verif:V4A-H05]). Le sens n'est jamais bloqué.
 
 **Tension avec notre règle d'honnêteté** (le point le plus important de la fiche)
 - **Imitation de l'écriture manuscrite** : la note pliée est « printed in blue ink and appear to be
@@ -794,6 +836,15 @@ Montants en dollars de 1984.
     `garde-conformite`) ;
   - pas d'horodatage ou de mise en scène « écrit à l'instant pour vous » sur un envoi programmé ;
   - le ton personnel est permis, la fausse relation personnelle non.
+- **Sanction réelle d'une fausse relation personnelle** (ajout du 2026-10-25, 🟡 [verif:V4A-H02], source
+  secondaire) : en **novembre 1995**, la Poste américaine a ordonné à la société Halbert's (Bath, Ohio), qui
+  vendait par courrier des produits liés aux noms de famille, de cesser de prétendre faussement qu'un parent du
+  destinataire avait envoyé ou recommandé l'offre. Le procédé que la fiche décrit comme une technique (l'air
+  personnel, le « mutual friend ») a donc été sanctionné quand il est devenu une fausse recommandation par un
+  proche. Exemple transmis à `garde-conformite` par le registre pour le garde-fou « pas de fausse relation
+  personnelle ni de fausse recommandation » (règle : OU06). Les héraldistes rappellent en outre qu'un nom de
+  famille ne donne droit à aucunes armoiries : le produit phare reposait lui-même sur une présentation
+  discutable.
 - **« Reason why » vraie pour chaque destinataire seulement** : la plaque murale « fabriquée pour des photos
   publicitaires » et donc invendable ailleurs [ch. 21] n'est vraie que pour **un** exemplaire ; envoyée à
   tous les porteurs d'un nom, elle devient une **fausse raison**. Même logique pour « vous êtes spécial »,
@@ -832,7 +883,7 @@ Montants en dollars de 1984.
 
 **Limites méthodologiques et datation**
 - Aucune donnée publiée, aucun groupe témoin, presque aucun chiffre de test ; les réussites citées sont
-  celles de l'auteur, de mémoire.
+  celles de l'auteur, de mémoire (aucune n'a de trace indépendante selon la passe 4a, V4A-H01, H02, H08).
 - Dispositif **postal de 1984** (SRDS, *Gallagher Report*, timbres, enveloppes T, ruban carbone, étiquettes
   Cheshire). Les équivalents numériques (pile A = boîte de réception principale, sujet et expéditeur ; bon de
   commande caché = prix après l'argumentaire ; hotline buyers = audiences récentes) sont **nos déductions**,
@@ -875,8 +926,8 @@ Montants en dollars de 1984.
 ## Fiabilité de la source
 - **Expertise démontrée** : élevée sur la réponse directe.
   - Praticien de premier plan : la lettre des armoiries familiales est l'une des lettres de vente les plus
-    citées du métier (notoriété générale), même si les chiffres (7 M de clients, 40 M$) ne sont pas
-    vérifiables ici.
+    citées du métier (notoriété générale), même si les chiffres (7 M de clients, 40 M$) sont autodéclarés et
+    sans trace publique (🟡 [verif:V4A-H02]) ; l'entreprise elle-même (Halbert's) est attestée.
   - Méthode cohérente et opérationnelle (marché → produit → pli → texte → test → déploiement), qu'il applique
     dans ses propres lettres et fait remarquer (date, heure, « Dear Bond », détails précis) : le texte est sa
     propre démonstration.
@@ -889,18 +940,23 @@ Montants en dollars de 1984.
     une vitrine.
   - Forte **autopromotion** (« The Legend », meilleur closer « better than anybody », « best copywriter in the
     world ») et chiffres de succès invérifiables, dont un probablement compté deux fois.
-  - Écrites en **prison fédérale**, à la suite d'une condamnation (nature exacte non précisée dans la source,
-    à vérifier), sans documentation, sous pression personnelle forte : erreurs de calcul, de noms, de dates,
-    exemple qui dérive.
+  - Écrites en **prison fédérale**, à la suite d'une condamnation dont la nature exacte n'est pas précisée dans
+    la source ; les sources secondaires se contredisent (fraude postale ou fraude fiscale) et aucun dossier
+    judiciaire n'a été trouvé (❓ [verif:V4A-H04]) : **ne rien écrire sur le motif**. Sans documentation, sous
+    pression personnelle forte : erreurs de calcul, de noms, de dates, exemple qui dérive.
   - Plusieurs procédés sont à la limite de la tromperie (simulation du personnel, culpabilité, reason why
-    générique), et la source ne les questionne pas.
-- **Note : 3,5/5.**
+    générique), et la source ne les questionne pas ; l'un d'eux (fausse recommandation par un proche) a été
+    sanctionné en 1995 (🟡 [verif:V4A-H02]).
+- **Note : 3,5/5** (inchangée après la revalidation du 2026-10-25 : la note retirait déjà 1,5 point pour les
+  chiffres invérifiables et les procédés à filtrer ; la passe 4a le confirme, 1 seul ❌ sur 8 lignes, et ne
+  touche pas aux frameworks).
   - Fond solide, frameworks complets et transposables, praticien reconnu, très bonne pédagogie.
   - Moins 1,5 point pour les chiffres invérifiables ou faux, le texte non édité, la part importante de
     contenu hors marketing (santé, prison), les commentaires de Bond mêlés au texte et les procédés à
     filtrer par la règle d'honnêteté.
 
 ## Thèmes couverts
-- **Principaux** : copywriting · offre · lancement-produit · psychologie-persuasion · hooks · ethique
+- **Principaux** : copywriting · marketing-direct · offre · lancement-produit · psychologie-persuasion · hooks ·
+  ethique
 - **Secondaires** : generation-leads · mesure-budget · recherche-client · email · publicite · packaging ·
-  strategie-croissance · mindset · production · recrutement-equipe · conformite-juridique
+  strategie-croissance · mindset · production · recrutement-equipe

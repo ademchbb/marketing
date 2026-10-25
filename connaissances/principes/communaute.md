@@ -55,6 +55,9 @@
 | C14 | Demande un conseil plutôt qu'un avis, et fais saisir les engagements par la personne | 1 | faible (à tester) |
 | C15 | Traite le message privé comme un espace où l'on n'entre qu'invité | 2 + étude | moyenne |
 
+Notation « 2 + 3 » : décompte du 2026-10-20 + experts ajoutés le 2026-10-25. Les intitulés de section ci-dessous gardent
+le décompte du 2026-10-20 (pour ne pas renuméroter) ; le décompte à jour est celui de ce tableau.
+
 ---
 
 ## Principes partagés par 3 experts ou plus
@@ -161,7 +164,7 @@
   Ralston F20 : voir D3.
 - **Confiance** : moyenne. Hormozi balaie le risque de perte de rétention sans donnée.
 
-### C6. Réponds à la critique de la cible par une question ; ignore la haine gratuite ; garde la conviction (titre complété le 2026-10-25, ex-« Ignore la haine, garde la conviction, ajoute du contexte »)
+### C6. Réponds à la critique de la cible par une question ; ignore la haine gratuite ; garde la conviction
 - **Pourquoi** : toute nouvelle association fait perdre quelques personnes et en gagne d'autres ; on juge au
   solde net. « Don't let the five mean comments stop you from gaining the 500 new people. »
 - **Comment l'appliquer** : ne pas répondre à la haine ; si une majorité rejette un message, garder la

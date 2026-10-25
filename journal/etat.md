@@ -68,6 +68,12 @@
   transcription audio *$100M Offers* (puis *$100M Leads*, puis livre *Money Models*).
 - Règle : vagues de ~10 agents. Détail : `journal/delegations.md`.
 
+## Point du 2026-10-25 (coupure de quota vers 15 h 50 UTC)
+- Fait : 5 équipes de synthèse sur 6 (S1 offre/vente, S2 copy, S3 marque, S4 pub/mesure, S5b audience) → ~45 fichiers
+  de principes ; registre 441 lignes (passes 4a/4b fusionnées) ; frameworks lot A (103 fiches-outils) ; hooks lots A et B ;
+  veille YouTube et X ; *$100M Offers* transcrit et découpé ; 65 agents (`lecteur-pages-dynamiques`, `redacteur-prospection`).
+- **À reprendre** : liste exacte dans `journal/delegations.md`, section « Coupure de quota du 2026-10-25 ».
+
 ## À faire (dans l'ordre)
 4. `synthetiseur-connaissances` → `connaissances/principes/` + `index.md`.
 5. `cartographe-lacunes` → `connaissances/lacunes.md` ; puis `chercheur-sources` → `sources/a-traiter.md`.

@@ -352,3 +352,16 @@ Leçon : 20 agents en parallèle épuisent le quota en ~2 h 30. Vagues de ~10 ag
   - [ ] chercheur-sources : grande distribution/MDD/places de marché, RP 2026, crise (cas comparés), JTBD et *The Mom Test*, *Play Bigger*, Romaniuk, parrainage, ABM, portée B2B hors LinkedIn.
   - [ ] concepteur-experiences lot 2 : + 5 (positions Sillage × signaux Dunford, zone avec/sans budget de marque 6 mois, guides d'entretien, objet « à offrir », TLA brut vs mis en forme).
 - Lancé : architecte-agents (alias naming/histoire/emailing ; création `lecteur-pages-dynamiques` ; décision prospection B2B ; règles maison 4a/4b dans garde-conformite et critique-hook).
+- [x] **Synthèse S5b audience et plateformes faite** : personal-branding (14), linkedin (13), x-twitter (12), croissance-audience (18), communaute (15), equipe-et-organisation (17). Tranchés : métier d'abord puis 1 post X/jour (3 max) et 3 posts LinkedIn/semaine ; le client idéal fixe le sujet, la personne apporte l'angle ; fondateur sur LinkedIn en B2B à cycle long, marque produit en B2B2C, Sillage = marque studio (compte des fondateurs : option à décider) ; distribution construite dès le jour 1, jamais d'engagement acheté ; X Premium en attente (question n° 6). Demandes : concepteur-experiences (+8 : liens LinkedIn/X, cadences, thread vs post long, dirigeant brut vs mis en forme, question miroir, rédacteur vs relecteur IA, pub vs emprunt) ; extracteur-frameworks lot C/D (Koe, Welsh, Scale VP, GaryVee, Hormozi Leads, MrBeast) ; verificateur-faits (Welsh, Koe, Scale VP, Buffer, Metricool, Godin) ; cartographe-lacunes (X après 2023, LinkedIn indépendant, Instagram/TikTok organiques, Godin permission, modération).
+- PR #1 passée « ready for review » par l'utilisateur (2026-10-25 15:52 UTC) ; pas de CI.
+
+## Coupure de quota du 2026-10-25 vers 15 h 50 UTC (reprise possible après 03 h 40 UTC)
+Interrompus (travail partiel commité ; relancer par SendMessage ou, si le contexte est perdu, un agent neuf avec « vérifie l'état sur disque puis termine ») :
+- consolidateur-fiche corrections 4a/4b (en était à Kapferer ; Boron déjà modifiée) + tags demandés par S2, S3, S4 ;
+- architecte-agents passe alias / nouveaux agents / règles 4a-4b (`lecteur-pages-dynamiques` et `redacteur-prospection` créés ; vérifier agents.md, alias, garde-conformite, critique-hook) ;
+- synthèse S5a contenu (en était à hooks-et-retention H12-H15 ; packaging.md créé) ;
+- extracteur-frameworks lot B (9 fiches-outils écrites ; correction Meta 1/1/1 faite ; index à mettre à jour) ;
+- extracteur-hooks lots C+D (début des edits de hooks.md) ;
+- developpeur-outils fuite du vocabulaire (en était au README) ;
+- analyste-transcription *$100M Offers* p1 et p2 (notes écrites, vérifier la fin et les « Demandes de délégation »), p3 (rien sur disque).
+Ensuite : S-final (`connaissances/index.md` + `brief-creatif.md` + tensions transverses) ; fiche *$100M Offers* ; frameworks lots C+D ; concepteur-experiences lot 2 ; passes de vérification 5 (droit) et 6 (chiffres) ; cartographe-lacunes ; chercheur-sources ; rapporteur.

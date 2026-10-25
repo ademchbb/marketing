@@ -53,6 +53,21 @@ Bibliothèque tenue par l'agent `extracteur-hooks`. Lue par `ideateur`, `redacte
   - les chiffres de Hopkins (1923) et de Halbert (1984) sont des **affirmations** sur des cas anonymes ou
     autodéclarés ; les études de Cialdini relèvent du priming, domaine touché par la crise de réplication : chaque
     tactique tirée de ces fiches est une **hypothèse à tester** (`experiences/`).
+- **Lots C et D** (contenu, créateurs, récit, leads, négociation : Godin, Welsh, GaryVee, Galloway, MrBeast, playbook
+  ABCD 2022, StoryBrand, Raskin, Doctolib, Scale VP × LinkedIn, Baromètre du numérique 2026, Dan Koe, Hormozi
+  *$100M Leads*, Despas / Katana) :
+  - sources écrites repérées par page : `[fiche:google-abcd-playbook-2022 p. N]`,
+    `[fiche:scalevp-founder-led-growth-2025 p. N]`, `[fiche:barometre-numerique-2026 p. N]` ; `oeG8NWrWV4Y` (Doctolib,
+    fiche en [hh:mm:ss]) est ramené à hh:mm ;
+  - **la veille 2026 prime sur les fiches datées** : MrBeast (fin 2024) et Dan Koe (2021-2023) sont relus avec
+    `veille/plateformes/youtube.md` § 9 et `veille/plateformes/x.md` ; une règle de fiche contredite par la veille est
+    corrigée sur place (renvoi `veille …`) ;
+  - chiffres contrôlés dans `connaissances/verifications/registre.md`, sections P et Q : aucune formule ne repose sur
+    une ligne ❌ ou ❓ ; les gabarits chiffrés de Dan Koe (« 99 % of people… », « 4 500 hours ») ne valent que
+    `[sous condition : chiffre réel]` ;
+  - pitch de lancement d'Hormozi : value stack, descente de prix jusqu'à « it's free », pack collector et rareté sont
+    **à étudier, pas à reproduire** (registre OP / OU, `structures.md` V5) ; les scripts de méthode (warm outreach,
+    première pub en texte, appels identitaires) sont réutilisables.
 
 ---
 

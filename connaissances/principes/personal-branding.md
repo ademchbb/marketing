@@ -7,7 +7,7 @@
 > `production-et-regularite.md` ; la vente de l'audience dans `monetisation-et-offre.md` ; le récit dans
 > `storytelling.md` ; l'IA dans l'écriture dans `ia-creation.md` ; la crise dans `gestion-crise.md`.
 >
-> Sources traitées (21 fiches, 16 experts ou sources distincts) :
+> Sources traitées (22 fiches, 16 experts ou sources distincts ; plus `barometre-numerique-2026` en appui statistique) :
 > `Ch4Sl0POBhU` et `uJ8Pg6t_iho` (Caleb Ralston, **un** expert) · `Jmkq5RLjm0U`, `k834E6OTGTM`, `6_CCutkM11g`,
 > `JE2_7elAcxM` (Alex Hormozi, **un** expert ; Leila Hormozi intervient dans `6_CCutkM11g`, même entreprise, non
 > comptée à part) · `HzoQgQS8czE` (Ava Yuergens) · `AA1LoZwW_2Y` (Mino Lee) · `IWuVEcQexWo` (Gary Vaynerchuk) ·
@@ -395,4 +395,4 @@ jours), ou une étude indépendante (non LinkedIn) sur l'effet causal de la pris
 ## Journal
 | Date | Modification |
 |---|---|
-| 2026-10-25 | Création (grande synthèse, S5b) : 14 principes, 5 désaccords tranchés (marque du fondateur ou marque produit, « you are the niche » ou client idéal, authenticité ou constance, brut ou soigné, part de négatif), à partir de 21 fiches, de la veille des 5 plateformes et du registre fusionné (passes 1 à 4). |
+| 2026-10-25 | Création (grande synthèse, S5b) : 14 principes, 5 désaccords tranchés (marque du fondateur ou marque produit, « you are the niche » ou client idéal, authenticité ou constance, brut ou soigné, part de négatif), à partir de 22 fiches, de la veille des 5 plateformes et du registre fusionné (passes 1 à 4). |
