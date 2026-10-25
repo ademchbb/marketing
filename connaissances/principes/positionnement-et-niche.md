@@ -1,15 +1,18 @@
 # Principes : positionnement et niche
 
-> Maintenu par `synthetiseur-connaissances`. Créé le 2026-10-20, mis à jour par Edit à chaque nouvelle fiche.
-> **Sources traitées** : 5 fiches, **4 experts distincts**. Caleb Ralston (`Ch4Sl0POBhU` et `uJ8Pg6t_iho`) compte pour **un seul** expert ; les autres sont Alex Hormozi (`Jmkq5RLjm0U`), Ava Yuergens × Jack Neel (`HzoQgQS8czE`) et Mino Lee (`AA1LoZwW_2Y`).
-> **Frameworks détaillés** : `../frameworks/` (les liens sont donnés dans chaque principe). **Vérifications** : `../verifications/registre.md`, cité par ses codes (P = plateformes, G = statistiques, T = tiers, C = chiffres de créateurs).
-> **Apprentissages du labo** (`experiences/apprentissages.md`) : **aucun à ce jour**. Le premier test qui confirme ou contredit un principe sera signalé en tête de ce principe, et il l'emporte sur l'avis des experts.
-> Fichiers voisins : `personal-branding.md` (identité, confiance, incarnation) et `storytelling.md`. L'arbitrage sur la largeur du **hook** est traité dans `hooks-et-retention.md`.
+> Maintenu par `synthetiseur-connaissances`. Créé le 2026-10-20, mis à jour par Edit à chaque nouvelle fiche (grande synthèse S3 du 2026-10-25).
+> **Sources traitées** : 29 fiches, **26 experts distincts**.
+> - Lot 1 (PN-01 à PN-09) : Caleb Ralston (`Ch4Sl0POBhU` et `uJ8Pg6t_iho`, **un seul** expert), Alex Hormozi (`Jmkq5RLjm0U`, `k834E6OTGTM`, `6_CCutkM11g` : **un seul** expert), Ava Yuergens × Jack Neel (`HzoQgQS8czE`), Mino Lee (`AA1LoZwW_2Y`).
+> - Ajoutés le 2026-10-25 : April Dunford (`hdjlCLb9Hl8`), Blair Enns (`J6Su5Vx3x5U`), Al Ries (`iM-ouJfISwY`), Philip Kotler (`sR-qL7QdVZQ`), Seth Godin (`8zcnK6Lx_p4`), Rory Sutherland (`lhlS-Wds02M`), Jean-Noël Kapferer (`OgRgbar2dOQ`), Andy Raskin (`U1b1o-m5bpI`), Stanislas Niox-Chateau / Doctolib (`oeG8NWrWV4Y`), Les Binet & Peter Field (`binet-field-b2b-growth`, un duo = un expert), Dave Trott (`rl3SELihHqs`), Jacques Séguéla (`buAY7UtjCb4`), Jay Abraham (`Ge8xTCIP0Zw`), Gary Vaynerchuk (`IWuVEcQexWo`), Dan Koe (`SUzKZfyaAK8`), MrBeast (`xf0Mli0LVgI`), Donald Miller (`S8lH_TdQZgs`), Dan Kennedy (`au0-dI_wjI8`), Russell Brunson (`rPZG5xfN7vI`), Marketing Mania / Stan Leloup (`11rNI6BUey4`), Gary Halbert (`halbert-boron-letters`), Claude Hopkins (`hopkins-scientific-advertising`), et une source statistique sans avis d'expert, le Baromètre du numérique 2026 (`barometre-numerique-2026`, Crédoc).
+> - **Sources non indépendantes** : Brunson est l'élève de Kennedy et a racheté Magnetic Marketing en 2021 [verif:V4B-BR04] : ils comptent pour un seul expert dans les consensus. Binet & Field (B2B Institute), le playbook Scale VP et l'épisode `pILj7t-qQhs` sont **financés ou co-signés par LinkedIn** : même éditeur intéressé, ils ne se confirment pas entre eux.
+> **Frameworks détaillés** : `../frameworks/` (les liens sont donnés dans chaque principe). **Vérifications** : `../verifications/registre.md` (codes P, G, T, C, PB, GB, TB, CB, J, O) et les passes non encore fusionnées `../verifications/passe-4a-marque-pub.md` (codes V4A-) et `passe-4b-createurs-offres.md` (codes V4B-). Les fiches Dunford, Enns, Ries, Kotler, Godin, Sutherland, Raskin, Doctolib, Binet & Field, Miller et le Baromètre **n'ont pas encore de ligne de vérification** : leurs chiffres restent des affirmations.
+> **Apprentissages du labo** (`experiences/apprentissages.md`) : **aucun à ce jour** (vérifié le 2026-10-25). Le premier test qui confirme ou contredit un principe sera signalé en tête de ce principe, et il l'emporte sur l'avis des experts. Expériences en attente liées : voir « Apprentissages du labo ».
+> Fichiers voisins : `personal-branding.md` (identité, confiance, incarnation), `storytelling.md`, `strategie-croissance.md` (canaux, marque contre activation, séquence de lancement), `b2b.md` (champion, comité d'achat), `recherche-client.md` (méthodes d'entretien), `identite-visuelle.md` (marteau visuel). L'arbitrage sur la largeur du **hook** est traité dans `hooks-et-retention.md`. Le marketing de cause et la raison d'être (alias `positionnement`) sont traités en PN-15 ; la récupération d'une cause relève d'`ethique.md`.
 
 ## Légende
-- **Consensus** : nombre d'experts distincts (sur 4) qui soutiennent le principe. Une opposition est signalée par « contre ».
+- **Consensus** : nombre d'experts distincts qui soutiennent le principe (sur 4 pour PN-01 à PN-09 dans leur version du 2026-10-20, sur 26 depuis le 2026-10-25). Une opposition est signalée par « contre ».
 - **Confiance** :
-  - **haute** : au moins 3 experts concordants et aucune affirmation-clé contredite au registre. Ça reste un consensus de praticiens : la base ne contient encore aucune source à données ouvertes (voir `../lacunes.md`, module 24).
+  - **haute** : au moins 3 experts concordants et aucune affirmation-clé contredite au registre. Ça reste un consensus de praticiens : la seule source à base de cas comparables est Binet & Field (moins de 50 cas B2B, effets auto-évalués), la seule source statistique publique est le Baromètre (déclaratif).
   - **moyenne** : 2 experts, ou bien un mécanisme solide dont les chiffres sont seulement déclaratifs.
   - **faible** : 1 seul expert, ou un appui sur des chiffres invérifiables ou contredits.
 - **Marque d'entreprise / sans visage** : comment adapter le principe aux marques promues par l'agence et à Sillage (studio B2B de vidéo premium : sans visage, sans musique, peu de texte).
@@ -20,6 +23,35 @@
 3. On se distingue par une **conviction sincère** (contrarienne, pas controversée), condensée en **une phrase** qu'on répète.
 4. On juge en **taux** (DM qualifiés, demandes de devis), calibrés sur la **taille réelle** du marché.
 5. On valide auprès des **clients idéaux, en privé**, pas auprès de la masse des commentaires.
+6. On construit la position **contre les alternatives réelles** (statu quo compris) et on choisit la catégorie **en dernier** (PN-10).
+7. On gagne en étant **différent** là où le leader est faible, pas « meilleur » sur son terrain (PN-11).
+8. Positionner, c'est **renoncer** : moins d'offres, une seule position, et l'annoncer (PN-12).
+9. Une valeur affichée se **prouve** par un acte coûteux, sinon on ne l'affiche pas (PN-15).
+10. Message **étroit**, diffusion **large dans la catégorie** : les deux ne se contredisent pas (PN-17, D7).
+
+## Résumé (19 principes)
+
+| # | Principe | Consensus | Confiance |
+|---|---|---|---|
+| PN-01 | Choisis d'abord qui tu veux attirer | 9 | haute |
+| PN-02 | Commence étroit, sur le problème que l'offre résout | 9 (contre : GaryVee, Dan Koe en partie) | haute |
+| PN-03 | Dimensionne le marché réel, juge en taux | 4 | haute (méthode) |
+| PN-04 | Élargis par couches adjacentes | 5 | moyenne |
+| PN-05 | Pars du résultat business | 3 | moyenne |
+| PN-06 | Trouve ta croyance ou ton action contrarienne sincère | 5 | moyenne |
+| PN-07 | Condense la position en une phrase, répète-la | 6 | moyenne |
+| PN-08 | Valide auprès des acheteurs qualifiés, en privé ou en rendez-vous | 6 | moyenne |
+| PN-09 | Différencie aussi la forme par une signature | 3, en tension | faible |
+| PN-10 | Construis contre les alternatives réelles, catégorie en dernier | 6 | moyenne |
+| PN-11 | Sois différent là où le leader est faible | 7 | moyenne |
+| PN-12 | Resserre le focus, refuse l'extension de gamme réflexe, annonce ce que tu arrêtes | 6 | moyenne |
+| PN-13 | Choisis le cadre (catégorie, unité, contexte) qui rend la valeur évidente | 5 | moyenne |
+| PN-14 | Raconte un basculement du marché, pas les vertus du produit | 5 | moyenne |
+| PN-15 | Prouve chaque valeur par un acte coûteux avant de l'afficher | 6 | moyenne |
+| PN-16 | Face à la pression prix, choisis : « good enough » assumé ou premium de niche, jamais le milieu | 4 | faible |
+| PN-17 | Positionne étroit, diffuse large dans la catégorie | 3 (déduction) | moyenne |
+| PN-18 | Pars de ce que la cible croit déjà et du problème qu'elle vit | 6 | moyenne |
+| PN-19 | Deviens le conseiller de confiance (prééminence) plutôt que le vendeur d'une tactique | 4 | faible |
 
 ---
 

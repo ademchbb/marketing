@@ -3,9 +3,12 @@
 > Tenu par `verificateur-faits`. **Registre unique.**
 > **Passe n°1 : 2026-10-20.** **Passe n°2 : 2026-10-21** (trois domaines : publicité payante, B2B, droit), fusionnée ici le 2026-10-21.
 > **Passe n°3 : 2026-10-22** (droit de la consommation et des offres), fusionnée ici le 2026-10-22.
+> **Passe n°4 : 2026-10-22** en deux fichiers parallèles (4a : marque, publicité, copywriting ; 4b : créateurs, offres,
+> vente), fusionnée ici le 2026-10-25.
 > **Périmètre** : sections « Affirmations chiffrées » des fiches du lot 1 et du lot 2, plus les demandes de vérification
 > de `journal/delegations.md` qui les concernent ; pour la passe 3, tactiques d'offre (sections « Affirmations chiffrées »,
-> « Limites », « Conflits avec les règles du projet ») de cinq fiches.
+> « Limites », « Conflits avec les règles du projet ») de cinq fiches ; pour la passe 4, sections « Affirmations
+> chiffrées », « Ce qui est discutable » et demandes « à vérifier » de quatorze fiches (récits, chiffres, attributions).
 > - Lot 1 (passe 1) : `HzoQgQS8czE` (Ava Yuergens × Jack Neel), `Jmkq5RLjm0U` (Hormozi), `uJ8Pg6t_iho` (Caleb Ralston 2026),
 >   `AA1LoZwW_2Y` (Mino Lee), `Ch4Sl0POBhU` (Caleb Ralston 2025).
 > - Lot 2, publicité payante : `dAJyqo6wnq4` (Ben Heath, Meta Ads 2026), `qBxEAqZbHVg` (Coudac, masterclass Meta Ads 2024),
@@ -17,18 +20,32 @@
 >   (Marketing Mania : prévente), `LJVP2wRk7Cc` (Priestley : rareté, liste d'attente, enrichissement des leads),
 >   `hopkins-scientific-advertising` (publicité comparative, offre réservée, gratuité, essai), `_hem3-8XbEI` (Cialdini :
 >   preuve sociale, engagement actif).
+> - Passe 4a, marque, publicité, copywriting (section P) : `OgRgbar2dOQ` (Kapferer, Audencia 2013), `rl3SELihHqs`
+>   (Dave Trott, 2013), `buAY7UtjCb4` (Séguéla × Laroche, 2021), `halbert-boron-letters` (Halbert, 1984), `Br2KSsaTzUc`
+>   (Ogilvy, « We Sell or Else »), `1N2XALudegQ` (Marketing Mania, annonce « Magic Baloney » de Sugarman).
+> - Passe 4b, créateurs, offres, vente (section Q) : `6_CCutkM11g` (Hormozi, *$100M Money Models*, 08/2025),
+>   `k834E6OTGTM` (Hormozi, lancement de *$100M Leads*, 08/2023), `rPZG5xfN7vI` (Russell Brunson), `Ge8xTCIP0Zw`
+>   (Jay Abraham), `xf0Mli0LVgI` (MrBeast chez Colin and Samir, fin 2024), `IWuVEcQexWo` (Gary Vaynerchuk, 09/2025),
+>   `SUzKZfyaAK8` (Dan Koe), `aGI7puAXf6w` (Katana / Despas, négociation).
 >
 > Appui principal pour les règles de plateformes organiques : les fiches de veille du 2026-10-20
 > `veille/plateformes/instagram.md`, `tiktok.md`, `youtube.md`, `linkedin.md` (citées `[veille:<plateforme> §x]`).
 >
 > **Identifiants conservés tels quels** (aucune renumérotation, pour que les fiches qui les citent restent valides) :
 > P, G, T, C = passe 1 ; PA, PG, PT, PC = passe 2 publicité ; PB, GB, TB, CB = passe 2 B2B ; JI, JP, Q = passe 2 droit ;
-> OP, OU, OV, OC, OD, OG, OR, OQ = passe 3 droit des offres.
+> OP, OU, OV, OC, OD, OG, OR, OQ = passe 3 droit des offres ; V4A- = passe 4a ; V4B- = passe 4b.
+> **Attention aux lettres de la passe 4** : dans `V4A-K01` ou `V4B-MM01`, la lettre après le préfixe désigne la **fiche**
+> (K = Kapferer, T = Trott, S = Séguéla, H = Halbert, O = Ogilvy, M = Sugarman / Marketing Mania ; MM, LD, BR, JA, MB,
+> GV, DK, KA = les huit fiches de la 4b), **pas** une section du registre. `V4A-K01` n'a donc rien à voir avec la
+> section K (publicité comparative). Les sous-sections s'appellent P-K, P-T… et Q-MM, Q-LD… pour garder ce lien.
 > L'annonce de `passe-2-b2b.md` (« la fusion les renumérotera ») n'est donc pas appliquée.
-> Les fichiers `passe-2-publicite.md`, `passe-2-b2b.md`, `passe-2-droit.md` et `passe-3-droit-offres.md` restent en archive.
+> Les fichiers `passe-2-publicite.md`, `passe-2-b2b.md`, `passe-2-droit.md`, `passe-3-droit-offres.md`,
+> `passe-4a-marque-pub.md` et `passe-4b-createurs-offres.md` restent en archive.
 > **En cas d'écart, ce registre fait foi** : trois lignes B2B ont été révisées pendant la fusion de la passe 2 (PB02, TB14,
 > TB15) ; pendant la fusion de la passe 3, aucun verdict n'a changé, une ligne de la passe 2 a été complétée (JI04) et les
-> renvois internes de la passe 3 ont été réécrits avec les nouvelles lettres de section (voir « Doublons et révisions »).
+> renvois internes de la passe 3 ont été réécrits avec les nouvelles lettres de section ; pendant la fusion de la passe 4,
+> aucun verdict n'a changé et cinq lignes de la passe 1 ont reçu un renvoi vers la passe 4 (T01, T02, T09, C23, C25)
+> (voir « Doublons et révisions »).
 
 ## Légende
 
@@ -47,6 +64,12 @@ par l'intermédiaire d'un commentaire d'avocat, ou déduction directe d'un texte
 seulement. Précision pour la passe 3 : le Code de la consommation « lu » est la copie intégrale du texte consolidé de
 Légifrance éditée par droit.org (mise à jour du 10/10/2026), Légifrance étant en 403 ; c'est une reproduction, pas le
 site officiel, mais c'est le texte consolidé lui-même et non un commentaire.
+Pour les sections P et Q (passe 4) : **haute** = document primaire ou officiel lu (10-K de la SEC, Conseil
+constitutionnel, INA, IPA, Guinness World Records, FRED, PubMed, texte de l'auteur), ou au moins deux sources
+indépendantes concordantes ; **moyenne** = une source secondaire sérieuse (presse professionnelle, encyclopédie, musée,
+catalogue de bibliothèque) ; **faible** = site d'amateur, blog ou source unique non recoupée. Un ✅ de ces sections peut
+confirmer **la correction proposée par la fiche**, et donc contredire l'orateur (V4A-K13, V4A-T08, V4A-H07, V4B-BR03) ;
+un ❌ peut viser la correction de la fiche elle-même (V4A-K10, V4A-T14). La colonne « vérification » le précise.
 
 ## Synthèse
 
@@ -69,7 +92,9 @@ site officiel, mais c'est le texte consolidé lui-même et non un commentaire.
 | M. « Satisfait ou remboursé » et garanties | 2 | 2 | 0 | 0 | 4 |
 | N. Offre réservée à un groupe | 1 | 1 | 0 | 0 | 2 |
 | O. Questions ouvertes du droit des offres | 0 | 0 | 0 | 4 | 4 |
-| **Total** | **88** | **142** | **24** | **54** | **308** |
+| P. Marque, publicité, copywriting : récits, chiffres, attributions (V4A-) | 21 | 14 | 17 | 17 | 69 |
+| Q. Créateurs, offres, vente : chiffres et attributions (V4B-) | 27 | 15 | 7 | 15 | 64 |
+| **Total** | **136** | **171** | **48** | **86** | **441** |
 
 ### Par passe
 
@@ -80,13 +105,37 @@ site officiel, mais c'est le texte consolidé lui-même et non un commentaire.
 | Passe 2, B2B (PB, GB, TB, CB) ¹ | 10 | 24 | 5 | 12 | 51 |
 | Passe 2, droit (JI, JP, Q) ² | 27 | 4 | 2 | 3 | 36 |
 | Passe 3, droit des offres (OP, OU, OV, OC, OD, OG, OR, OQ) ³ | 29 | 11 | 3 | 4 | 47 |
-| **Total** | **88** | **142** | **24** | **54** | **308** |
+| Passe 4a, marque, publicité, copywriting (V4A-) ⁴ | 21 | 14 | 17 | 17 | 69 |
+| Passe 4b, créateurs, offres, vente (V4B-) ⁴ | 27 | 15 | 7 | 15 | 64 |
+| **Total** | **136** | **171** | **48** | **86** | **441** |
+
+Détail de la passe 4 par fiche :
+
+| Sous-section | ✅ | 🟡 | ❌ | ❓ | Total |
+|---|---|---|---|---|---|
+| P-K. Kapferer (`OgRgbar2dOQ`) | 6 | 3 | 7 | 3 | 19 |
+| P-T. Trott (`rl3SELihHqs`) | 5 | 3 | 5 | 4 | 17 |
+| P-S. Séguéla (`buAY7UtjCb4`) | 4 | 2 | 4 | 2 | 12 |
+| P-H. Halbert (`halbert-boron-letters`) | 2 | 2 | 1 | 3 | 8 |
+| P-O. Ogilvy (`Br2KSsaTzUc`) | 3 | 2 | 0 | 3 | 8 |
+| P-M. Sugarman / Marketing Mania (`1N2XALudegQ`) | 1 | 2 | 0 | 2 | 5 |
+| Q-MM. Hormozi, *Money Models* (`6_CCutkM11g`) | 7 | 4 | 2 | 2 | 15 |
+| Q-LD. Hormozi, *Leads* (`k834E6OTGTM`) | 0 | 3 | 1 | 3 | 7 |
+| Q-BR. Brunson (`rPZG5xfN7vI`) | 1 | 1 | 1 | 2 | 5 |
+| Q-JA. Jay Abraham (`Ge8xTCIP0Zw`) | 1 | 3 | 0 | 2 | 6 |
+| Q-MB. MrBeast (`xf0Mli0LVgI`) | 11 | 1 | 0 | 4 | 16 |
+| Q-GV. GaryVee (`IWuVEcQexWo`) | 3 | 1 | 0 | 1 | 5 |
+| Q-DK. Dan Koe (`SUzKZfyaAK8`) | 3 | 1 | 1 | 1 | 6 |
+| Q-KA. Katana (`aGI7puAXf6w`) | 1 | 1 | 2 | 0 | 4 |
 
 ¹ Après les révisions de la fusion (PB02 ❓ → 🟡, TB14 ❓ → 🟡, TB15 ❓ → ❌). `passe-2-b2b.md` affichait 10 / 22 / 4 / 15.
 ² Sur les 27 ✅ juridiques, 16 ont une confiance haute (JO, Curia ou règle constante) et 11 une confiance moyenne.
 ³ Identique à `passe-3-droit-offres.md` (aucune révision de verdict à la fusion). OG03 est compté en 🟡 : l'affirmation de
 la fiche porte sur l'efficacité ; son volet juridique est ✅. Sur les 29 ✅, 23 ont une confiance haute (Code de la
 consommation consolidé, Code du travail ou communiqué Curia lus) et 6 une confiance moyenne.
+⁴ Identique à `passe-4a-marque-pub.md` et `passe-4b-createurs-offres.md` (comptes refaits ligne par ligne à la fusion,
+aucune révision de verdict). La passe 4 a la plus forte part de ❌ du registre (24 sur 133, dont 17 sur 69 en 4a) : les
+récits de conférenciers (dates, lieux, chiffres de cas d'école) sont la catégorie la moins fiable vérifiée à ce jour.
 
 ### Les croyances répandues qui sont fausses (à corriger dans nos productions)
 
