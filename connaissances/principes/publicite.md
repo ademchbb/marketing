@@ -232,7 +232,7 @@
   2. Auditer le compte : persona gap, awareness gap, creative diversity gap, planning gap
      (`audit-des-lacunes-du-compte-pub.md`).
   3. Décliner une créa gagnante pour chaque persona cœur (`decliner-un-contenu-gagnant.md`).
-  4. Volume et rythme sur Meta : `meta-ads.md` MA4 et D2.
+  4. Volume et rythme sur Meta : `meta-ads.md` MA5 et D2.
 - **Ne pas écrire** : « les créatives semblables sont pénalisées » (mécanisme non confirmé [verif:PA24 ❓]).
 - **Sources** : [verif:PA23] · [fiche:yRgPbqywUJ8 enseignements 5, 9] · [fiche:hopkins-scientific-advertising
   enseignement 4] · [fiche:rl3SELihHqs enseignement 5] · [fiche:meta-andromeda enseignements 2, 5] ·

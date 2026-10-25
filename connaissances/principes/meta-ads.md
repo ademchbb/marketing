@@ -47,9 +47,9 @@
 | MA1 | Optimise sur la vraie conversion la plus basse qui a assez de volume | 3 + Meta | haute |
 | MA2 | Donne une direction au système, ne le contrains que pour une raison métier | 2 + Meta | haute |
 | MA3 | Diversifie les concepts sur le fond : c'est la créative qui trouve l'audience | 3 + Meta | haute |
-| MA4 | Pas de nombre magique : 3 à 5 concepts réellement distincts, un nouveau par semaine | 2 + Meta | moyenne |
-| MA5 | Dimensionne le budget pour sortir d'apprentissage, puis ne touche à rien pendant l'apprentissage | 2 + Meta | moyenne |
-| MA6 | Pose les fondations avant de lancer : compte, mesure, catégories, délais | 2 + Meta | haute |
+| MA4 | Pose les fondations avant de lancer : compte, mesure, catégories, délais | 2 + Meta | haute |
+| MA5 | Pas de nombre magique : 3 à 5 concepts réellement distincts, un nouveau par semaine | 2 + Meta | moyenne |
+| MA6 | Dimensionne le budget pour sortir d'apprentissage, puis ne touche à rien pendant l'apprentissage | 2 + Meta | moyenne |
 | MA7 | Lis le compte de haut en bas, toujours par comparaison, en connaissant le réglage d'attribution | 1 + Meta | moyenne |
 | MA8 | Coupe ou pousse une créative sur la matrice dépense × CPA, après le CPC ; lis les statuts | 1 + Meta | moyenne |
 | MA9 | Reste le filtre humain de l'IA de Meta : chaque variante et chaque amélioration relues | 1 + Meta | haute |
@@ -73,7 +73,7 @@
   1. Leads ou Sales pour un compte qui débute ; Notoriété, Trafic et Interaction sont des pièges à petit budget
      (`objectif-de-campagne-et-de-performance-meta.md`).
   2. Événement d'optimisation = le plus bas du tunnel (Purchase, prise de rendez-vous) **si** son volume permet
-     l'apprentissage, sinon l'étape juste au-dessus (MA5).
+     l'apprentissage, sinon l'étape juste au-dessus (MA6).
   3. Offres de valeurs différentes : maximiser la valeur, quitte à payer un coût par lead plus élevé.
   4. Juger un coût à la **qualité exploitable** du résultat : un lead moins cher qu'on ne peut pas servir ne vaut rien
      (« What's the point of having a lower cost per lead if you can't service those leads? ») [fiche:dAJyqo6wnq4 00:31].
@@ -132,7 +132,7 @@
 - **Consensus** : 3 experts (Coudac, Denney, Heath) + Meta (officiel).
 - **Confiance** : **haute** (consigne officielle vérifiée).
 
-### MA6. Pose les fondations avant de lancer : compte, mesure, catégories, délais
+### MA4. Pose les fondations avant de lancer : compte, mesure, catégories, délais
 - **Pourquoi** : fuseau horaire et devise sont « very difficult to change later on » ; les changer crée un nouveau compte
   selon des guides tiers [verif:PA09 🟡]. Les catégories spéciales non déclarées exposent au rejet, voire à la fermeture
   du compte [verif:PA07 ✅]. Coudac : tracking, RGPD et TTC/HT faussent le ROAS [fiche:qBxEAqZbHVg 30:49-33:58].
@@ -153,7 +153,7 @@
 
 ## Principes soutenus par 1 ou 2 experts (souvent appuyés par une règle officielle)
 
-### MA4. Pas de nombre magique : 3 à 5 concepts réellement distincts, un nouveau par semaine
+### MA5. Pas de nombre magique : 3 à 5 concepts réellement distincts, un nouveau par semaine
 - **Pourquoi** : Meta ne donne **aucun nombre** lié à Andromeda [verif:PA25 🟡]. Seule consigne chiffrée officielle,
   pour Advantage+ shopping (19/11/2024) : « at least 20 diversified ads », de nouvelles pubs chaque semaine et « 20-30% of
   your overall ad budget towards testing new ads » [veille:meta-ads §3.1]. La règle « 6 pubs maximum par ensemble » a été
@@ -170,7 +170,7 @@
 - **Consensus** : 2 experts (Heath, Denney) + Meta. Désaccord D2 (volume).
 - **Confiance** : **moyenne** ; à tester : `2026-10-22-meta-volume-concepts-creatifs` (6 contre 3 concepts, rang 9).
 
-### MA5. Dimensionne le budget pour sortir d'apprentissage, puis ne touche à rien pendant l'apprentissage
+### MA6. Dimensionne le budget pour sortir d'apprentissage, puis ne touche à rien pendant l'apprentissage
 - **Pourquoi** : tout nouvel ensemble de pubs démarre en apprentissage ; ciblage, créative, événement, ajout d'une pub,
   pause de 7 jours ou plus, enchère et forte variation de budget le relancent [verif:PA02 ✅, relayé]. Le seuil de
   « +20 % de budget » ne vient que de praticiens [verif:PA02] [veille:meta-ads §6].
@@ -378,7 +378,7 @@
 ---
 
 ## Tests au labo (`experiences/index.md`, tous « en attente de marque »)
-- `2026-10-22-meta-regle-passage-tests-et-budget` (rang 1, 125/125) : MA5 et paliers de budget ; prérequis des quatre
+- `2026-10-22-meta-regle-passage-tests-et-budget` (rang 1, 125/125) : MA6 et paliers de budget ; prérequis des quatre
   tests suivants.
 - `2026-10-22-meta-releve-cpm-premiers-comptes` (rang 3) : étalonnage du CPM France (7-12 € attendus [verif:PG03]).
 - `2026-10-22-pub-texte-long-vs-court` (rang 4) : `publicite.md` D3.
