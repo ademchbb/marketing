@@ -24,7 +24,7 @@ Créer une pub (pas reprendre une publication) ; destination = l'URL exacte ; pa
 - Si une personne porte l'offre : sa **vraie photo** (on ne s'inscrit pas à un mentorat sans connaître le mentor). Jamais un visage généré.
 - L'offre en **une question courte** à la 2e personne : « Vous voulez que [je / nous] [l'offre] ? » (« Want me to mentor you? »).
 - **2 ou 3 preuves** issues de vrais témoignages, aux résultats variés — **uniquement si réelles, documentées et autorisées** (règle d'honnêteté).
-- Une déclinaison **1:1** (fils) et une **9:16** dédiée (Stories, Reels) : un carré recadré coupe le texte. L'horizontal est « by far the least important ».
+- Une déclinaison **4:5** (fils : format recommandé par l'Ads Guide de Meta pour Facebook Feed, 1440×1800, image comme vidéo ; Heath disait 1:1) et une **9:16** dédiée (Stories, Reels) : un visuel recadré coupe le texte. L'horizontal est « by far the least important ». Source : `veille/plateformes/meta-ads.md` § 8 ; exception : carrousel Instagram contenant des vidéos, 1:1.
 - Question : sans lire le texte, comprend-on l'offre en une seconde ?
 
 ### 3. Le texte principal : 2 phrases, 7 cases
@@ -47,7 +47,7 @@ Gabarit : « Fatigué de [problème coûteux] ? [Fonctionnalité] pour [bénéfi
 Jusqu'à 5 textes et 5 titres : plus de chances de trouver un gagnant. Les variantes IA passent par `filtre-humain-ia-et-enhancements-meta.md`.
 
 ## Exemple appliqué (illustratif : Sillage, sans musique)
-- Visuel 1:1 et 9:16 : la vraie photo du fondateur à côté d'une capture d'une vraie vidéo livrée (avec accord du client), question « Vous voulez qu'on fasse votre vidéo de lancement ? ». Preuves : seulement des résultats réels et autorisés ; sinon, aucune preuve chiffrée.
+- Visuel 4:5 et 9:16 : la vraie photo du fondateur à côté d'une capture d'une vraie vidéo livrée (avec accord du client), question « Vous voulez qu'on fasse votre vidéo de lancement ? ». Preuves : seulement des résultats réels et autorisés ; sinon, aucune preuve chiffrée.
 - Texte : « Votre lancement approche et votre vidéo ressemble à toutes les autres ? On transforme votre site en une vidéo construite sur un seul moment fort. 3 créneaux en décembre. Réservez un appel et lancez avec une vidéo dont on se souvient. » (« 3 créneaux » seulement si c'est vrai.)
 - Titre : « Vidéo de lancement motion pour startups ». Description : « Créneaux de décembre ouverts ». Bouton : « Schedule a call / Prendre rendez-vous ».
 
@@ -60,7 +60,7 @@ Jusqu'à 5 textes et 5 titres : plus de chances de trouver un gagnant. Les varia
 - Une fausse rareté, de faux témoignages, un visage généré.
 
 ## Agents qui doivent l'utiliser
-`redacteur-ads` (propriétaire), `directeur-creatif-visuel` (visuels 1:1 et 9:16), `pont-motion-design`, `correcteur`, `garde-conformite` (rareté, preuves, témoignages), `critique-hook`, `strategiste-ads`.
+`redacteur-ads` (propriétaire), `directeur-creatif-visuel` (visuels 4:5 et 9:16), `pont-motion-design`, `correcteur`, `garde-conformite` (rareté, preuves, témoignages), `critique-hook`, `strategiste-ads`.
 
 ## Voir aussi
 `filtre-humain-ia-et-enhancements-meta.md` · `lancement-meta-structure-1-1-1.md` · `hook-trois-canaux.md` · `objection-vers-angle.md` · `abcd-pub-video.md`

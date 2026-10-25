@@ -35,23 +35,27 @@
   fourchette usuelle est de 0,5 à 2× le salaire annuel) ; « 30 à 45 min pour retrouver sa concentration » (G07 ;
   la référence de Gloria Mark est d'environ 23 min pour revenir à la tâche).
 
-## Résumé (13 principes)
+## Résumé (17 principes)
 
 | # | Principe | Consensus | Confiance |
 |---|---|---|---|
-| E1 | Documente chaque process et demande-toi ce que tu n'as pas besoin de faire | 3 | moyenne |
-| E2 | Recrute sur le goulot d'étranglement, pas pour remplir un poste | 2 | moyenne |
-| E3 | Juge sur une vraie tâche, identique pour tous et rémunérée | 2 | moyenne |
-| E4 | Recrute la culture et la capacité à recevoir un retour avant la technique | 2 | faible |
-| E5 | Démarre léger ; internalise les rôles critiques quand le ROI est prouvé | 2 | faible |
+| E1 | Documente chaque process et demande-toi ce que tu n'as pas besoin de faire | 3 + 1 | moyenne |
+| E2 | Recrute sur le goulot d'étranglement, pas pour remplir un poste ; définis le rôle par une étude du temps | 2 + 1 | moyenne |
+| E3 | Juge sur une vraie tâche, identique pour tous et rémunérée | 2 + 2 | moyenne |
+| E4 | Recrute la culture et la capacité à recevoir un retour avant la technique ; décide et coupe vite | 2 + 3 | moyenne |
+| E5 | Démarre léger ; internalise les rôles critiques quand le ROI est prouvé | 2 + 2 | faible |
 | E6 | Quand tu paies une agence, achète aussi la transmission | 2 | faible |
-| E7 | Organise la production en chaîne, un responsable unique par étape, un tableau visible | 2 | moyenne |
-| E8 | Garde l'idéation au plus près du talent ; délègue l'écriture par calibration | 2 | faible |
-| E9 | Réserve l'IA à la recherche et à l'outillage ; la voix vient de sources humaines | 2 | faible |
-| E10 | Spécialise par plateforme dès que le volume le permet | 2 | faible |
-| E11 | Onboarde avant le jour 1 | 1 | faible |
-| E12 | Dirige les créatifs par la confiance : une référence, des questions, « bloquant » ou « préférence », toujours la raison | 1 | faible |
-| E13 | Protège le temps de création profonde et fais grandir l'équipe par l'ownership | 1 | faible |
+| E7 | Organise la production en chaîne, un responsable unique par étape, un tableau visible ; rien ne change après validation | 2 + 1 | moyenne |
+| E8 | Garde l'idéation au plus près du talent ; délègue l'écriture par calibration | 2 + 2 | moyenne |
+| E9 | Réserve l'IA à la recherche, à l'outillage et à la relecture ; la voix vient de sources humaines | 2 + 4 + officiel | moyenne |
+| E10 | Spécialise par plateforme dès que le volume le permet | 2 + 1 | faible |
+| E11 | Onboarde avant le jour 1 | 1 + 1 | faible |
+| E12 | Dirige les créatifs par la confiance : une référence, des questions, « bloquant » ou « préférence », toujours la raison | 1 + 1 | faible |
+| E13 | Protège le temps de création profonde et fais grandir l'équipe par l'ownership | 1 + 1 | faible |
+| E14 | Comprends le métier avant de le confier, puis laisse les rênes à l'expert qui maîtrise l'attention | 4 | moyenne |
+| E15 | Recrute d'abord le manager qui saura recruter et former, et juge-le sur les métriques qu'il cite | 3 | faible |
+| E16 | Forme par la répétition étroite, les enregistrements et une seule correction à la fois | 3 | faible |
+| E17 | Fais de ta mission et de ton contenu un canal de recrutement | 3 | faible |
 
 ---
 

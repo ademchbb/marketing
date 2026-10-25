@@ -57,7 +57,7 @@ Pixel + API Conversions + remontée de la valeur ; vérifier que c'est **le bon 
 Objectif de conversion → **tout ouvert**. Objectif non orienté conversion (Traffic) → **retirer Audience Network**. Ignorer brand suitability au début (opinion : « hurts results »).
 
 ### 8. Créer la pub
-Voir `pub-reponse-directe-7-cases.md` (visuel 1:1 **et** 9:16, textes, bouton) et `filtre-humain-ia-et-enhancements-meta.md` (variantes IA, enhancements, **« add music » coupé**).
+Voir `pub-reponse-directe-7-cases.md` (visuel 4:5 **et** 9:16, textes, bouton ; 4:5 pour Facebook Feed selon l'Ads Guide, `veille/plateformes/meta-ads.md` § 8) et `filtre-humain-ia-et-enhancements-meta.md` (variantes IA, enhancements, **« add music » coupé**).
 
 ### 9. Checklist avant publication
 1. Identité de la pub (page, Instagram, Threads).
@@ -69,7 +69,7 @@ Voir `pub-reponse-directe-7-cases.md` (visuel 1:1 **et** 9:16, textes, bouton) e
 7. Une seule langue.
 8. Tracking : pixel présent et **bon ID** ; API Conversions installée.
 9. UTM présents (règle de l'agence).
-10. **Validation explicite de l'utilisateur**, puis publication via `publicateur` (API officielle Meta Marketing, jamais un robot qui se connecte avec des identifiants). Prévoir au moins 30 minutes de vérification Meta (« normally about 30 minutes », plus pour les premières pubs).
+10. **Validation explicite de l'utilisateur**, puis publication via `publicateur` (API officielle Meta Marketing, jamais un robot qui se connecte avec des identifiants). Prévoir **jusqu'à 24 h** de vérification Meta avant la date de diffusion voulue : Meta indique « typically completed within 24 hours, although it may take longer in some cases » ; les « about 30 minutes » de Heath sont un délai observé, pas un engagement ([verif:PA08] 🟡).
 
 ### 10. Suivre, puis complexifier selon un critère écrit à l'avance
 - Premiers indicateurs : coût par résultat, impressions, couverture, puis **qualité** des prospects (« What's the point of having a lower cost per lead if you can't service those leads? »).
@@ -80,7 +80,7 @@ Voir `pub-reponse-directe-7-cases.md` (visuel 1:1 **et** 9:16, textes, bouton) e
 - Prêt ? Sillage a des clients obtenus en organique (LinkedIn) : oui, test borné.
 - Compte : EUR, fuseau Europe/Paris, Business Manager au nom de Sillage. Catégorie spéciale : aucune.
 - Mesure : pixel + API Conversions sur la page de prise de rendez-vous, UTM `utm_source=meta&utm_campaign=lancement-2026-11`.
-- Structure : « Leads – Vidéo de lancement – 2026-11 » → 1 ad set (France + Belgique + Suisse, 25-55 ans en suggestion, intérêts « startup », « SaaS ») → 1 pub, 3 textes, 3 titres, visuels 1:1 et 9:16.
+- Structure : « Leads – Vidéo de lancement – 2026-11 » → 1 ad set (France + Belgique + Suisse, 25-55 ans en suggestion, intérêts « startup », « SaaS ») → 1 pub, 3 textes, 3 titres, visuels 4:5 et 9:16.
 - Budget : montant « qui pique » validé par l'utilisateur.
 - Publication : uniquement après validation explicite, via `publicateur`.
 
@@ -95,7 +95,7 @@ Voir `pub-reponse-directe-7-cases.md` (visuel 1:1 **et** 9:16, textes, bouton) e
 - Ajouter de la complexité sans critère écrit.
 
 ## Agents qui doivent l'utiliser
-`strategiste-ads` (propriétaire), `redacteur-ads`, `directeur-creatif-visuel` et `pont-motion-design` (visuels 1:1 et 9:16), `garde-conformite` (catégories spéciales, variantes IA), `analyste-performance` (pixel, UTM, premiers indicateurs), `publicateur` (publication après validation), `veilleur-algorithmes` (libellés d'interface), `concepteur-experiences` (critère de passage aux tests).
+`strategiste-ads` (propriétaire), `redacteur-ads`, `directeur-creatif-visuel` et `pont-motion-design` (visuels 4:5 et 9:16), `garde-conformite` (catégories spéciales, variantes IA), `analyste-performance` (pixel, UTM, premiers indicateurs), `publicateur` (publication après validation), `veilleur-algorithmes` (libellés d'interface), `concepteur-experiences` (critère de passage aux tests).
 
 ## Voir aussi
 `objectif-de-campagne-et-de-performance-meta.md` · `filtre-humain-ia-et-enhancements-meta.md` · `pub-reponse-directe-7-cases.md` · `plan-d-atterrissage-et-timing.md` · `cac-blended-et-mesure-du-mix.md`
