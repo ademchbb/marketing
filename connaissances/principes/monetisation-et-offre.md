@@ -1,15 +1,46 @@
 # Principes : monétisation et offre
 
-> Tenu par `synthetiseur-connaissances`. Création : 2026-10-20.
-> Sources traitées (5 fiches, 4 experts principaux + 1 invité) :
-> `Ch4Sl0POBhU` et `uJ8Pg6t_iho` (Caleb Ralston, comptés comme **un** expert) · `Jmkq5RLjm0U` (Alex Hormozi) ·
-> `HzoQgQS8czE` (Ava Yuergens, avec Jack Neel) · `AA1LoZwW_2Y` (Mino Lee).
+> Tenu par `synthetiseur-connaissances`. Création : 2026-10-20. Mise à jour : 2026-10-25 (grande synthèse, équipe
+> S1 « offre et vente »).
+> Tags `monetisation` et `offre` (offre : valeur, bonus, garanties, structure de prix ; alias « tarification, prix,
+> échantillonnage, essai gratuit », « back-end : offres vendues ensuite », « franchise vendue comme offre »).
+> **Lot 1** (5 fiches, 4 experts principaux + 1 invité) : `Ch4Sl0POBhU` et `uJ8Pg6t_iho` (Caleb Ralston, **un**
+> expert) · `Jmkq5RLjm0U` (Alex Hormozi) · `HzoQgQS8czE` (Ava Yuergens, avec Jack Neel) · `AA1LoZwW_2Y` (Mino Lee).
+> **Ajouts du 2026-10-25** (27 fiches, 22 experts ou institutions de plus) : `6_CCutkM11g`, `JE2_7elAcxM`,
+> `k834E6OTGTM` (Hormozi, toujours **un** expert) · `rPZG5xfN7vI` (Russell Brunson) et `au0-dI_wjI8` (Dan Kennedy) :
+> Brunson est l'élève de Kennedy et a racheté Magnetic Marketing en 2021 (V4B-BR04), **sources non indépendantes** ·
+> `Ge8xTCIP0Zw` (Jay Abraham) · `J6Su5Vx3x5U` (Blair Enns) · `hopkins-scientific-advertising` (Claude Hopkins) ·
+> `lhlS-Wds02M` (Rory Sutherland, hors liste « tarification et UX des pages de prix ») · `8zcnK6Lx_p4` (Seth Godin) ·
+> `11rNI6BUey4`, `1N2XALudegQ` (Stan Leloup, **un** expert) · `SUzKZfyaAK8` (Dan Koe) · `DJLtwT1Z0eo` (Justin Welsh) ·
+> `oeG8NWrWV4Y` (Stanislas Niox-Chateau, Doctolib) · `OgRgbar2dOQ` (Jean-Noël Kapferer) · `LJVP2wRk7Cc` (Daniel
+> Priestley) · `nte_k2hPXR0`, `aGI7puAXf6w` (Quentin Despas, **un** expert) · `xf0Mli0LVgI` (MrBeast) ·
+> `Z2uoA3bhJT0` (Paddy Galloway) · `yRgPbqywUJ8` (Dara Denney) · `qBxEAqZbHVg` (Coudac) · `dAJyqo6wnq4` (Ben Heath) ·
+> `halbert-boron-letters` (Gary Halbert) · `iM-ouJfISwY` (Al Ries) et `sR-qL7QdVZQ` (Philip Kotler), `S8lH_TdQZgs`
+> (Donald Miller), `hdjlCLb9Hl8` (April Dunford), `U1b1o-m5bpI` (Andy Raskin) : tag `offre` en secondaire, leur
+> apport principal est traité par `positionnement-et-niche.md`, `copywriting.md` et `vente.md` ·
+> `bpifrance-influenceur-reglementation`, `cnil-prospection-electronique`, `barometre-numerique-2026`,
+> `google-abcd-playbook-2022` (offre en secondaire : droit, contexte, CTA de pub).
 > Frameworks liés : `frameworks/modeles-de-monetisation.md` · `offer-stack.md` ·
 > `share-the-knowledge-sell-the-execution.md` · `funnel-cta-commentaire.md` · `spcl-influence.md` ·
-> `metriques-appariees.md` · swipe-file : `swipe-file/cta.md`.
+> `metriques-appariees.md` · `money-model-sequence-d-offres.md` · `upsell-downsell-et-escalier-de-paiement.md` ·
+> `continuite-et-revenu-recurrent.md` · `systeme-profit-fast-cash-et-prix.md` · `offre-quatre-composantes-brunson.md` ·
+> `offre-irresistible-kennedy.md` · `usp-question-et-cinq-voies.md` · `de-la-caracteristique-au-resultat.md` ·
+> `trois-regles-de-prix.md` · `ancrage-sur-valeur-garantie.md` · `value-conversation.md` ·
+> `anatomie-d-un-pitch-de-lancement.md`. Swipe-file : `swipe-file/cta.md` ; `swipe-file/structures.md` S3
+> (présentation d'offre) ; `swipe-file/hooks.md` « Hooks interdits : procédés de vente directe ».
+> Fichiers voisins créés le 2026-10-25 : `vente.md`, `economie-unitaire.md`, `retention-client.md`,
+> `generation-leads.md`, `partenariats.md`, `lancement-produit.md`.
 >
-> **Labo** : `experiences/apprentissages.md` est vide au 2026-10-20. Aucun principe ci-dessous n'est encore
-> confirmé ou contredit par nos propres tests : ce sont des avis d'experts. Tests proposés en fin de fichier.
+> **Labo** : `experiences/apprentissages.md` est toujours vide au 2026-10-25 : aucun principe n'est confirmé ou
+> contredit par nos tests. Expérience en attente liée : `2026-10-22-offre-nouvelle-opportunite-vs-amelioration`
+> (M17). Tests proposés en fin de fichier.
+>
+> **Droit des offres (règles sans condition du registre, `garde-offres`)** : prix de référence = plus bas prix
+> réellement pratiqué sur 30 jours, sans exemption « produit nouveau » (OP01, OP03) ; aucune « valeur » de
+> remplacement à côté d'un prix (OP06) ; fausse urgence et fausse rareté interdites, B2B compris (OU01-OU04) ;
+> rétractation légale jamais vendue comme avantage (OG01) ; toute garantie engage (OG02) ; prévente encadrée (OV01-OV07).
+> Un principe de ce fichier ne recommande jamais ce que ces règles interdisent ; quand un expert le recommande, la
+> règle est indiquée.
 
 ## Légende
 
@@ -20,24 +51,44 @@
   - **faible** : un seul expert, ou principe adossé à des chiffres déclaratifs / invérifiables.
 - Règle de citation : aucun chiffre de créateur (registre section D) sans « selon X » et date.
 - Règle d'honnêteté du repo : pas de faux avis, faux témoignages, faux chiffres, fausse rareté.
+- Ajout du 2026-10-25 : Hormozi, Despas et Leloup comptent chacun pour **un** expert quel que soit le nombre de
+  vidéos ; Brunson et Kennedy comptent pour deux mais leur accord ne vaut pas une confirmation indépendante.
+  Verdicts utilisés en plus du registre : `passe-4a-marque-pub.md` et `passe-4b-createurs-offres.md` (préfixes
+  V4A, V4B). **Chiffres porteurs non vérifiés** dans les ajouts : upsell « ~10× » et « ~5× » la base (heuristiques
+  d'Hormozi), cas Gym Launch, Prestige Labs, chaîne esthétique (affirmations), « 2-3 % → 18-20 % » de conversion
+  (V4B-BR02 ❓), valeurs de pitch (69 955 $, 12 076 $ : des ancrages, pas des prix).
 
-## Résumé (13 principes)
+## Résumé (24 principes)
 
 | # | Principe | Consensus | Confiance |
 |---|---|---|---|
-| M1 | Mesure une audience par ce qu'elle achète, pas par ses vues | 4 | moyenne |
-| M2 | Bâtis la confiance avant la transaction ; passe chaque décision au test « plus ou moins de confiance ? » | 3 | moyenne |
-| M3 | Vends par la preuve réelle, jamais par l'injonction ni par un témoignage inventé | 4 | haute |
-| M4 | Installe le mécanisme de capture avant de publier | 4 | moyenne |
-| M5 | Donne le savoir complet, vends l'exécution | 3 | moyenne |
-| M6 | Commence par une seule offre, puis construis l'échelle marche par marche | 3 | moyenne |
-| M7 | Possède ton audience : l'email avant le follow-gate quand le but est de vendre | 3 | moyenne |
-| M8 | Traite les objections non dites dans le contenu | 3 | moyenne |
+| M1 | Mesure une audience par ce qu'elle achète, pas par ses vues | 5 | moyenne |
+| M2 | Bâtis la confiance avant la transaction ; passe chaque décision au test « plus ou moins de confiance ? » | 5 | moyenne |
+| M3 | Vends par la preuve réelle, jamais par l'injonction ni par un témoignage inventé | 6 | haute |
+| M4 | Installe le mécanisme de capture avant de publier | 6 | moyenne |
+| M5 | Donne le savoir complet, vends l'exécution | 4 | moyenne |
+| M6 | Commence par une seule offre, puis construis l'échelle marche par marche | 6 | moyenne |
+| M7 | Possède ton audience : l'email avant le follow-gate quand le but est de vendre | 6 | haute |
+| M8 | Traite les objections non dites dans le contenu | 4 | moyenne |
+| M14 | Conçois une séquence d'offres (attraction, upsell, downsell, continuité), pas un produit isolé | 6 | moyenne |
+| M15 | Vends un résultat (une destination, une carte), pas une prestation ni une liste de livrables | 8 | haute |
+| M16 | Rends l'offre « bon marché » en augmentant la valeur, pas en baissant le prix ; jamais deuxième moins cher | 6 | moyenne |
+| M17 | Fais répondre l'offre à « pourquoi toi plutôt que toute autre option, y compris ne rien faire ? », pour une cible précise | 5 | moyenne |
+| M18 | Retire chaque raison de dire non par une inversion du risque réelle, plus large que la loi | 5 | haute |
+| M19 | Construis la valeur avec des éléments réels : pile par chaînage problème → solution, bonus vendus seuls | 4 | haute |
+| M20 | Fixe le prix par client et en options ; structure le paiement plutôt que de baisser le prix | 4 | moyenne |
+| M23 | Vends la continuité avec des conditions écrites, choisies et faciles à quitter | 3 | moyenne |
 | M9 | Fais du lead magnet un vrai travail visible, introuvable ailleurs | 2 | faible |
-| M10 | Choisis le modèle d'après ce que l'audience demande déjà ; arbitre chaque partenariat sur 4 critères | 2 | moyenne |
-| M11 | Ne recommande que ce que tu utilises ; écris les livrables de partenariat en 5W+H | 2 | moyenne |
-| M12 | Ne facture un prix premium que si le produit tient la promesse dès le premier achat | 1 | moyenne |
-| M13 | Pour un service : qualifie, cadre les attentes, vise le récurrent | 1 | faible |
+| M10 | Choisis le modèle d'après ce que l'audience demande déjà ; arbitre chaque partenariat sur 4 critères | 4 | moyenne |
+| M11 | Ne recommande que ce que tu utilises ; écris les livrables de partenariat en 5W+H | 4 | haute |
+| M12 | Ne facture un prix premium que si le produit tient la promesse dès le premier achat | 3 | moyenne |
+| M13 | Pour un service : qualifie, cadre les attentes, vise le récurrent | 3 | moyenne |
+| M21 | Installe un repli pour chaque « non » (downsell) sans baisser le prix | 2 | moyenne |
+| M22 | Conçois l'upsell autour de ce que le client espère, proposé après l'achat | 2 | faible |
+| M24 | Prépare chaque hausse de prix : positionnement, lettre, porte de sortie pour les clients à garder | 1 | faible |
+
+Les numéros M1 à M13 sont conservés (des fiches et agents les citent) ; M14 à M24 sont les ajouts du 2026-10-25.
+M9 à M13 ont gagné des soutiens : ils restent à leur place pour garder la numérotation, leur consensus est mis à jour.
 
 ---
 

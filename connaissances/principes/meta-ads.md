@@ -141,8 +141,8 @@
   2. Pixel + API Conversions + valeur ; vérifier l'ID du pixel ; **UTM systématiques** (règle de l'agence, écart
      assumé avec Heath : D5).
   3. Catégories spéciales (Financial Products and Services, Employment, Housing, Social Issues, Elections or Politics)
-     déclarées ; **aucune pub sociale, électorale ou politique dans l'UE** depuis le 06/10/2025 [verif:PA07 ✅] (
-     `conformite-juridique.md` J10).
+     déclarées ; **aucune pub sociale, électorale ou politique dans l'UE** depuis le 06/10/2025 [verif:PA07 ✅]
+     (`conformite-juridique.md` J10).
   4. Valeurs de conversion en **HT** pour la France : ROAS HT = ROAS TTC / 1,2, soit 16,7 % de moins, pas 20 %
      [verif:PG04 ❌ de la fiche].
   5. Prévoir **jusqu'à 24 h** de vérification Meta avant la date de diffusion voulue, jamais 30 min [verif:PA08 🟡].
