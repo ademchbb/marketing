@@ -1,14 +1,30 @@
 # Principes : communauté
 
-> Tenu par `synthetiseur-connaissances`. Création : 2026-10-20.
-> Sources traitées (5 fiches, 4 experts principaux + 1 invité) :
-> `Ch4Sl0POBhU` et `uJ8Pg6t_iho` (Caleb Ralston, comptés comme **un** expert) · `Jmkq5RLjm0U` (Alex Hormozi) ·
-> `HzoQgQS8czE` (Ava Yuergens, avec Jack Neel) · `AA1LoZwW_2Y` (Mino Lee).
+> Tenu par `synthetiseur-connaissances`. Création : 2026-10-20. **Dernière mise à jour : 2026-10-25** (grande
+> synthèse, équipe S5b).
+> Périmètre : relation avec l'audience et modération courante. Réputation attaquée, bad buzz, protocole de crise =
+> `gestion-crise.md` ; rituels internes centrés client (appeler un détracteur, « vis ma vie ») = `culture-entreprise.md` ;
+> parrainage et mécanique de conversation = `bouche-a-oreille.md` ; prise de parole personnelle = `personal-branding.md`.
+> Sources traitées (5 fiches au 2026-10-20 ; **24 fiches** au 2026-10-25, 20 experts ou sources distincts) :
+> `Ch4Sl0POBhU` et `uJ8Pg6t_iho` (Caleb Ralston, comptés comme **un** expert) · `Jmkq5RLjm0U`, `k834E6OTGTM`,
+> `6_CCutkM11g` (Alex Hormozi, un expert) · `HzoQgQS8czE` (Ava Yuergens, avec Jack Neel) · `AA1LoZwW_2Y` (Mino Lee).
+> Ajouts du 2026-10-25 : `IWuVEcQexWo` (Gary Vaynerchuk) · `DJLtwT1Z0eo` (Justin Welsh) · `8zcnK6Lx_p4` (Seth Godin) ·
+> `scalevp-founder-led-growth-2025` et `pILj7t-qQhs` (LinkedIn × Scale VP, une source, partie intéressée) ·
+> `oeG8NWrWV4Y` (Doctolib) · `OgRgbar2dOQ` (Jean-Noël Kapferer, 2013) · `_hem3-8XbEI` (Robert Cialdini) ·
+> `rPZG5xfN7vI` (Russell Brunson, élève de Kennedy, non indépendant) · `LJVP2wRk7Cc` (Daniel Priestley) ·
+> `sR-qL7QdVZQ` (Philip Kotler) · `guZa7mQV1l0` (Chris Voss, transpositions non testées) · `xf0Mli0LVgI` (MrBeast) ·
+> `SUzKZfyaAK8` (Dan Koe) · `Z2uoA3bhJT0` (Paddy Galloway) · `binet-field-b2b-growth` (Binet & Field) ·
+> `barometre-numerique-2026` (Crédoc, statistique) · `buAY7UtjCb4` (Jacques Séguéla) · `yRgPbqywUJ8` (Dara Denney,
+> minage des commentaires). Fiches à tag `communaute` sans apport propre ici : `hdjlCLb9Hl8`, `11rNI6BUey4`,
+> `cnil-prospection-electronique` (newsletter, voir `email.md`), `Ge8xTCIP0Zw`.
 > Frameworks liés : `frameworks/contenu-communautaire-et-ecoute.md` · `assume-nothing.md` · `spcl-influence.md` ·
-> `metriques-appariees.md` · swipe-file : `swipe-file/cta.md` (sections 2, 5 et 6).
+> `metriques-appariees.md` · `analyse-de-reputation-et-minage-d-avis.md` · `journee-du-journaliste-et-production-dirigeant.md`
+> · swipe-file : `swipe-file/cta.md` (sections 2, 5 et 6).
 >
-> **Labo** : `experiences/apprentissages.md` est vide au 2026-10-20. Aucun principe n'est encore confirmé ou
-> contredit par nos tests. Tests proposés en fin de fichier.
+> **Labo** : `experiences/apprentissages.md` est vide au 2026-10-25. Aucun principe n'est encore confirmé ou
+> contredit par nos tests. Expériences en attente qui touchent ce thème : `2026-10-22-prospection-conseil-vs-avis`
+> (C14), `2026-10-22-rdv-creneau-saisi-vs-impose` (C14), `2026-10-22-cta-contenu-oui-vs-non` (C7, C11). Tests proposés
+> en fin de fichier.
 
 ## Légende
 
@@ -19,20 +35,25 @@
 - Règle d'honnêteté du repo : pas de faux témoignages, pas de victoire ou d'UGC publié sans accord, pas de réponse
   « au nom du créateur » qui cache qui répond.
 
-## Résumé (10 principes)
+## Résumé (15 principes)
 
 | # | Principe | Consensus | Confiance |
 |---|---|---|---|
-| C1 | Nourris aussi l'audience chaude : fidélisation et rendez-vous récurrents | 4 | moyenne |
-| C2 | Crée du lien par les intérêts et les valeurs partagés, glissés dans le contenu cœur | 4 | moyenne |
-| C3 | Écoute d'abord les clients idéaux, pas la masse des commentateurs | 2 | moyenne |
-| C4 | Transforme les questions répétées en contenus, sans sondage ouvert | 2 | moyenne |
-| C5 | Écris pour un inconnu même quand tu parles à ta communauté | 2 | moyenne |
-| C6 | Ignore la haine, garde la conviction, ajoute du contexte | 2 | moyenne |
-| C7 | Fais des spectateurs des membres : vote, audience en héros, UGC, langage partagé | 1 | faible |
-| C8 | Réponds toi-même, ou via un compte « Team » transparent | 1 | moyenne |
-| C9 | Mise sur la durée et l'intimité (long format, live) pour l'attachement | 2 | faible |
-| C10 | Échange sincèrement avec tes pairs, jamais en « pod » d'engagement | 1 | faible |
+| C1 | Nourris aussi l'audience chaude : fidélisation et rendez-vous récurrents | 4 + 2 | moyenne |
+| C2 | Crée du lien par les intérêts et les valeurs partagés, glissés dans le contenu cœur | 4 + 1 | moyenne |
+| C3 | Écoute d'abord les clients idéaux, pas la masse des commentateurs | 2 + 4 | moyenne |
+| C4 | Transforme les questions répétées en contenus, sans sondage ouvert | 2 + 2 | moyenne |
+| C5 | Écris pour un inconnu même quand tu parles à ta communauté | 2 + 2 | moyenne |
+| C6 | Réponds à la critique de la cible par une question ; ignore la haine gratuite ; garde la conviction | 2 + 3 | moyenne |
+| C7 | Fais des spectateurs des membres : vote, audience en héros, identité de groupe, rôle valorisant | 1 + 3 | moyenne |
+| C8 | Réponds toi-même, ou via un compte « Team » transparent ; dis honnêtement ce que tu lis | 1 + 1 | moyenne |
+| C9 | Mise sur la durée et l'intimité (long format, live, sortie hebdomadaire) pour l'attachement | 2 + 2 | faible |
+| C10 | Échange sincèrement avec tes pairs, jamais en « pod » d'engagement | 1 + 2 + officiel | moyenne |
+| C11 | Termine les contenus longs par une question à méditer et un appel à répondre honnête | 3 + étude | moyenne |
+| C12 | Entre par des communautés de passion ou d'expertise ; recrute des ambassadeurs déclarés | 3 | faible |
+| C13 | Fais de la communauté un service rare aux clients : proximité, petits groupes, rendez-vous | 4 | faible |
+| C14 | Demande un conseil plutôt qu'un avis, et fais saisir les engagements par la personne | 1 | faible (à tester) |
+| C15 | Traite le message privé comme un espace où l'on n'entre qu'invité | 2 + étude | moyenne |
 
 ---
 
