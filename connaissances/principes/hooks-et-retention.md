@@ -11,15 +11,62 @@
 
 ## Comment lire ce fichier
 
-- **Experts** : Caleb Ralston (`Ch4Sl0POBhU` + `uJ8Pg6t_iho`, compté **une seule fois**), Alex Hormozi (`Jmkq5RLjm0U`),
-  Ava Yuergens et Jack Neel (`HzoQgQS8czE`), Mino Lee (`AA1LoZwW_2Y`). Le consensus se compte **sur 4 experts**.
+- **Experts du lot 1** : Caleb Ralston (`Ch4Sl0POBhU` + `uJ8Pg6t_iho`, compté **une seule fois**), Alex Hormozi
+  (`Jmkq5RLjm0U`, puis `k834E6OTGTM` : même expert), Ava Yuergens et Jack Neel (`HzoQgQS8czE`, comptés comme un),
+  Mino Lee (`AA1LoZwW_2Y`).
+- **Experts ajoutés le 2026-10-25** : MrBeast (`xf0Mli0LVgI`, fin 2024, **[DATÉ]** sur l'algorithme), Paddy Galloway
+  (`Z2uoA3bhJT0`, 09/2026), Gary Vaynerchuk (`IWuVEcQexWo`), Dan Koe (`SUzKZfyaAK8`), Google ABCD
+  (`google-abcd-youtube-ads` + `google-abcd-playbook-2022`, une source), Dave Trott (`rl3SELihHqs`), Stanislas Leloup
+  sur Joseph Sugarman (`1N2XALudegQ`), Donald Miller (`S8lH_TdQZgs`), Gary Halbert (`halbert-boron-letters`), Claude
+  Hopkins (`hopkins-scientific-advertising`), Quentin Despas (`aGI7puAXf6w` + `nte_k2hPXR0`, un), Justin Welsh
+  (`DJLtwT1Z0eo`), Jonah Berger (`FN4eDk1pq6U`), Andy Raskin (`U1b1o-m5bpI`), playbook LinkedIn × Scale VP
+  (`scalevp-founder-led-growth-2025`), Robert Cialdini (`_hem3-8XbEI`, marginal).
+- **Consensus** : depuis le 2026-10-25, il se compte en **nombre d'experts distincts** qui soutiennent le principe
+  (les anciennes mentions « x/4 » portaient sur les 4 experts du lot 1). Galloway n'a encore **aucune ligne au
+  registre** : ses chiffres sont des affirmations non vérifiées ; seuls ses points revalidés par la veille sont cités
+  comme règles.
 - **Veille** : `[veille:<plateforme> §x]` renvoie aux fiches `veille/plateformes/`. Une règle officielle d'une plateforme
-  pèse plus qu'un avis d'expert.
+  pèse plus qu'un avis d'expert, et la veille 2026 prime sur une fiche datée.
 - **Confiance** : **haute** = confirmée par le registre ou par une source officielle de plateforme ; **moyenne** = experts
   convergents, chiffres seulement plausibles ; **faible** = un seul expert, ou chiffres invérifiables.
-- **Labo** : `experiences/apprentissages.md` est **vide au 2026-10-20**. Aucun principe n'est encore confirmé ou
-  contredit par nos propres tests. Dès qu'un apprentissage y entre, il **prime** sur ce fichier.
+- **Labo** : `experiences/apprentissages.md` est **toujours vide au 2026-10-25**. Aucun principe n'est encore confirmé ou
+  contredit par nos propres tests. Dès qu'un apprentissage y entre, il **prime** sur ce fichier. Expériences en attente
+  qui touchent ce fichier (`experiences/index.md`) : `2026-10-22-intro-preuve-vs-promesse` (D6),
+  `2026-10-22-revue-in-situ-vs-ecran-montage` (H19), `2026-10-22-sillage-signature-sonore` et
+  `2026-10-22-sillage-nom-voix-off-vs-texte` (D7), `2026-10-22-cta-contenu-oui-vs-non` (H15).
 - **Honnêteté** : tout chiffre d'expert est une *affirmation* (« selon X »). On n'en cite aucun comme un fait.
+  **Statistiques « zombies »** (registre, leçon de la passe 4) : une statistique d'accroche sans étude nommée, datée et
+  lue est refusée, même si « tout le monde la cite » (« 89 % de la pub n'est pas remarquée », V4A-T01 ; « 65 % des
+  métiers de demain », V4B-DK01 ; « 80 à 90 % sans le son », P02).
+
+## Résumé (21 principes, du plus partagé au plus isolé)
+
+Les numéros H1 à H15 sont conservés (d'autres fichiers et des protocoles du labo les citent) ; H16 à H21 sont
+ajoutés le 2026-10-25. Le classement ci-dessous suit le nombre d'experts.
+
+| # | Principe | Consensus | Confiance |
+|---|---|---|---|
+| H1 | Arrête le scroll en moins de 2 s : le premier plan est déjà le moment fort | 10 + officiel | haute |
+| H7 | Tiens exactement la promesse de l'emballage : jamais d'appât à clic | 8 + officiel | haute |
+| H2 | Sois clair avant d'être original | 9 | moyenne |
+| H8 | Emprunte la structure des accroches qui ont marché, jamais la valeur | 8 | moyenne |
+| H16 | Confirme le choix dans les 10 premières secondes : promesse et preuve visibles, intro sans sommaire | 6 + officiel | moyenne |
+| H3 | Livre la valeur dans la phrase qui suit l'accroche, au bon moment | 6 | moyenne |
+| H18 | Romps la convention du support : différent bat meilleur | 6 | moyenne |
+| H10 | Retiens par l'apprentissage et la structure, pas par les effets | 5 | moyenne |
+| H4 | Parle à un inconnu à chaque contenu | 5 + officiel | moyenne |
+| H17 | Donne un enjeu à chaque contenu, vrai et conforme à son contrat | 5 | moyenne |
+| H20 | Relance l'attention par des boucles ouvertes, et récompense ceux qui restent | 5 | moyenne |
+| H9 | Préfère l'affirmation à contre-courant et le résultat chiffré réel, sans perdre la nuance | 6 | faible à moyenne |
+| H14 | Produis plusieurs accroches pour le même contenu et laisse l'audience trancher | 5 + officiel | haute |
+| H5 | Aligne les trois canaux sur une seule promesse, en commençant par le visuel | 4 | moyenne |
+| H11 | Annonce le plan comme une boucle ouverte et traite l'objection avant qu'il parte | 5 | faible à moyenne |
+| H15 | Ferme la boucle : la fin renvoie à l'accroche ou au contenu suivant | 5 + officiel | haute |
+| H21 | En organique, ne ressemble pas à une pub dans la première seconde, mais rends la marque indispensable au moment fort | 5 | moyenne |
+| H19 | Juge l'accroche à son vrai emplacement, dans le fil, jamais sur l'écran de montage | 4 | moyenne |
+| H13 | Supprime chaque temps mort, et fais démarrer chaque plan sur l'action | 4 | moyenne |
+| H6 | Ne publie jamais une vidéo muette ; lecture possible sans le son | officiel | haute |
+| H12 | Choisis une durée que le spectateur va finir | 1 + officiel | moyenne |
 
 ---
 

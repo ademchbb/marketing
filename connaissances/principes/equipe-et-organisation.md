@@ -1,13 +1,23 @@
 # Principes : équipe et organisation
 
-> Tenu par `synthetiseur-connaissances`. Création : 2026-10-20.
-> Sources traitées (5 fiches, 4 experts principaux + 1 invité) :
-> `Ch4Sl0POBhU` et `uJ8Pg6t_iho` (Caleb Ralston, comptés comme **un** expert) · `Jmkq5RLjm0U` (Alex Hormozi) ·
-> `HzoQgQS8czE` (Ava Yuergens, avec Jack Neel) · `AA1LoZwW_2Y` (Mino Lee, quasi absent de ce thème).
+> Tenu par `synthetiseur-connaissances`. Création : 2026-10-20. **Dernière mise à jour : 2026-10-25** (grande
+> synthèse, équipe S5b). Tag `recrutement-equipe` ; les valeurs, rituels centrés client et l'onboarding des salariés
+> au sens culturel sont dans `culture-entreprise.md` (autre équipe) ; la rémunération des vendeurs dans `vente.md`.
+> Sources traitées (5 fiches au 2026-10-20 ; **20 fiches** au 2026-10-25, 15 experts distincts) :
+> `Ch4Sl0POBhU` et `uJ8Pg6t_iho` (Caleb Ralston, comptés comme **un** expert) · `Jmkq5RLjm0U`, `k834E6OTGTM`,
+> `6_CCutkM11g`, `JE2_7elAcxM` (Alex Hormozi, **un** expert ; Leila Hormozi répond sur le management dans
+> `6_CCutkM11g`, même entreprise) · `HzoQgQS8czE` (Ava Yuergens, avec Jack Neel) · `AA1LoZwW_2Y` (Mino Lee, quasi
+> absent de ce thème).
+> Ajouts du 2026-10-25 : `IWuVEcQexWo` (Gary Vaynerchuk) · `DJLtwT1Z0eo` (Justin Welsh) · `xf0Mli0LVgI` (MrBeast) ·
+> `Z2uoA3bhJT0` (Paddy Galloway) · `oeG8NWrWV4Y` (Stanislas Niox-Chateau, Doctolib) · `scalevp-founder-led-growth-2025`
+> (playbook LinkedIn × Scale VP) · `Br2KSsaTzUc` (David Ogilvy) · `hopkins-scientific-advertising` (Claude Hopkins) ·
+> `halbert-boron-letters` (Gary Halbert) · `_hem3-8XbEI` (Robert Cialdini) · `Ge8xTCIP0Zw` (Jay Abraham) ·
+> `hdjlCLb9Hl8` (April Dunford). Fiches à tag `recrutement-equipe` sans apport propre ici : `dAJyqo6wnq4`,
+> `lhlS-Wds02M`, `U1b1o-m5bpI`.
 > Frameworks liés : `frameworks/equipe-recrutement.md` · `equipe-onboarding-et-management.md` ·
 > `equipe-organisation-et-internalisation.md` · `boucle-d-iteration.md` · `contenu-pilier-et-cascade.md`.
 >
-> **Labo** : `experiences/apprentissages.md` est vide au 2026-10-20 : aucun principe n'est encore confirmé ou
+> **Labo** : `experiences/apprentissages.md` est vide au 2026-10-25 : aucun principe n'est encore confirmé ou
 > contredit par nos tests.
 >
 > **Double lecture** : ces principes servent (1) à conseiller une marque cliente sur son équipe contenu, (2) à
